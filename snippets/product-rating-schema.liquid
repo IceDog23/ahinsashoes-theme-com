@@ -1,0 +1,49 @@
+{%- if template.name == 'product' -%}
+    {% assign productName = product.title %}
+    {% if shop.metafields.global.heureka_reviews_for_products.value[product.handle] != blank %}
+        {% assign ratingValue = shop.metafields.global.heureka_reviews_for_products.value[product.handle].rating %}
+    {% elsif product.metafields.global.productRatingSchema.value != blank %}
+        {% assign ratingValue = product.metafields.global.productRatingSchema.value.ratingValue %}
+        {% assign reviewCount = product.metafields.global.productRatingSchema.value.reviewCount %}
+        {% assign percentageRecommendation = product.metafields.global.productRatingSchema.value.percentageRecommendation %}
+    {% else %}
+        {% assign productName = shop.metafields.global.productRatingSchema.value.name %}
+        {% assign ratingValue = shop.metafields.global.productRatingSchema.value.ratingValue %}
+        {% assign reviewCount = shop.metafields.global.productRatingSchema.value.reviewCount %}
+        {% assign percentageRecommendation = shop.metafields.global.productRatingSchema.value.percentageRecommendation %}
+    {% endif %}
+{%- else -%}
+    {% assign productName = shop.metafields.global.productRatingSchema.value.name %}
+    {% assign ratingValue = shop.metafields.global.productRatingSchema.value.ratingValue %}
+    {% assign reviewCount = shop.metafields.global.productRatingSchema.value.reviewCount %}
+    {% assign percentageRecommendation = shop.metafields.global.productRatingSchema.value.percentageRecommendation %}
+{%- endif -%}
+
+{% if ratingValue != blank and reviewCount != blank and percentageRecommendation != blank %}
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "{{ productName}}",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "{{ ratingValue }}",
+                "reviewCount": "{{ reviewCount }}",
+                "percentageRecommendation": "{{ percentageRecommendation }}"
+            }
+        }
+    </script>
+{% elsif ratingValue != blank %}
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "{{ productName}}",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "{{ ratingValue }}",
+                "reviewCount": "{{ 1 }}"
+            }
+        }
+    </script>
+{% endif %}

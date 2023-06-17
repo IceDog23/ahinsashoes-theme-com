@@ -1,0 +1,246 @@
+{%- if settings.show_breadcrumbs -%}
+
+{%- unless template.name == 'index' or template.name == 'cart' -%}
+  <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
+    <a href="{{ routes.root_url }}" title="{{ 'general.breadcrumbs.home_link_title' | t }}">{{ 'general.breadcrumbs.home' | t }}</a>
+
+    {%- if template.name == 'product' -%}
+
+      {% if product.metafields.global.main_collection.value != blank %}
+        {% assign collection = collections[product.metafields.global.main_collection.value] %}
+      {% else %}
+        
+        {% for link in linklists["main-menu"].links %}
+
+        {% for link1 in link.links %}
+          {% assign link_handle = link1.title | handleize %}
+          {% for col in product.collections %}
+            {% if link_handle == col.handle %}
+              {% assign collection = col %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+
+
+          {% for col in product.collections %}
+
+            {% if link.handle == col.handle %}
+              {% unless collection %}
+                {% assign collection = col %}
+              {% endunless %}
+            {% endif %}
+
+            
+
+            {%- comment -%}{%- endcomment -%}
+          
+          {% endfor %}
+
+
+
+
+
+        {% endfor %}
+      {% endif %}
+      
+
+      {%- if collection -%}
+        {% if settings.show_breadcrumbs_collection_link %}
+          <span class="breadcrumb__divider" aria-hidden="true">/</span>
+          <a href="{{ routes.collections_url }}">{{ 'general.search.collections' | t | replace: ':', ''}}</a>
+        {% endif %}
+
+        <span class="breadcrumb__divider" aria-hidden="true">/</span>
+        {% if collection.handle %}
+          {%- capture url -%}{{ routes.collections_url }}/{{ collection.handle }}{%- endcapture -%}
+          {{ collection.title | link_to: url }}
+        {%- endif -%}
+      {% endif %}
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+
+    {%- elsif template.name == 'collection' and collection.handle -%}
+      {% if settings.show_breadcrumbs_collection_link %}
+        <span class="breadcrumb__divider" aria-hidden="true">/</span>
+        <a href="{{ routes.collections_url }}">{{ 'general.search.collections' | t | replace: ':', ''}}</a>
+      {% endif %}
+
+      <span class="breadcrumb__divider" aria-hidden="true">/ </span>
+
+      {%- capture collection_active_filters -%}
+        {%- for filter in collection.filters -%}
+            {% for filter_value in filter.active_values %}
+              {% unless filter.label == "Dostupnost" or filter.label == "Availability" %}
+                {{ filter_value.label | capitalize }}
+              {% unless forloop.last %} + {% endunless %}
+            {% endunless %}
+            {% endfor %}
+        {%- endfor -%}
+      {%- endcapture -%}
+
+      {%-liquid
+        assign current_filter_size = 0
+        for filter in collection.filters
+          assign current_filter_size = current_filter_size | plus: filter.active_values.size
+        endfor
+      -%}
+
+      {%- if current_filter_size > 0 -%}
+
+        {%- capture url -%}{{ routes.collections_url }}/{{ collection.handle }}{%- endcapture -%}
+        {{ collection.title | link_to: url }}
+
+        <span class="breadcrumb__divider" aria-hidden="true">/</span>
+
+        {{collection_active_filters}}
+      {%- endif -%}
+
+    {%- elsif template.name == 'blog' -%}
+
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      {%- if current_tags -%}
+        {{ blog.title | link_to: blog.url }}
+        <span class="breadcrumb__divider" aria-hidden="true">/</span>
+        <span>{{ current_tags | join: " + " }}</span>
+      {%- endif -%}
+
+    {%- elsif template.name == 'article' -%}
+
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      {{ blog.title | link_to: blog.url }}
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+
+    {%- elsif template.name == 'page' -%}
+
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      <span>{{ page.title }}</span>
+
+    {%- elsif template.name == 'search' -%}
+
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      <span>{{ page_title | replace: '*', '' }}</span>
+
+    {%- else -%}
+
+      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      <span>{{ page_title }}</span>
+
+    {%- endif -%}
+  </nav>
+{%- endunless -%}
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement":
+    [
+    {%- unless template.name == 'index' or template.name == 'cart' -%}
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item":
+      {
+      "@id": "{{ shop.url }}{{ routes.root_url }}",
+      "name": "{{ 'general.breadcrumbs.home' | t }}"
+      }
+    },
+    {%- if template.name == 'product' -%}
+      {% if collection %}
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item":
+          {
+            "@id": "{{ shop.url }}{{ routes.collections_url }}/{{ collection.handle }}",
+            "name": "{{ collection.title }}"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item":
+          {
+            "@id": "{{ shop.url }}{{ product.url }}",
+            "name": "{{ product.title }}"
+          }
+        }
+      {% else %}
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item":
+          {
+            "@id": "{{ shop.url }}{{ product.url }}",
+            "name": "{{ product.title }}"
+          }
+        }
+      {% endif %}
+    {%- elsif template.name == 'collection' and collection.handle -%}
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item":
+          {
+            "@id": "{{ shop.url }}{{ collection.url }}",
+            "name": "{{ collection.title }}"
+          }
+      }
+    {%- elsif template.name == 'blog' -%}
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item":
+        {
+          "@id": "{{ shop.url }}{{ blog.url }}",
+          "name": "{{ blog.title }}"
+        }
+    }
+    {%- elsif template.name == 'article' -%}
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item":
+        {
+          "@id": "{{ shop.url }}{{ blog.url }}",
+          "name": "{{ blog.title }}"
+        }
+    }
+    {%- elsif template.name == 'page' -%}
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item":
+        {
+          "@id": "{{ shop.url }}{{ page.url }}",
+          "name": "{{ page.title }}"
+        }
+    }
+    {%- elsif template.name == 'search' -%}
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item":
+        {
+          "@id": "{{ shop.url }}{{ page.url }}",
+          "name": "{{ page_title | replace: '*', '' }}"
+        }
+    }
+    {%- else -%}
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item":
+        {
+          "@id": "{{ shop.url }}{{ page.url }}",
+          "name": "{{ page_title }}"
+        }
+    }
+    {%- endif -%}
+{%- endunless -%}
+]
+}
+</script>
+{%- endif -%}

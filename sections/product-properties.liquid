@@ -1,0 +1,96 @@
+{% assign productParametersTag = "" %}
+
+{% assign iconsTags = '' %}
+{% assign paramsTags = '' %}
+{% for tag in product.tags %}
+  {% if tag contains "param-icons-" %}
+    {% assign tagWithoutPrefix = tag | remove: 'param-icons-' %}
+    {% assign iconsTags = iconsTags | append: tagWithoutPrefix | append: ',' %}
+  {% endif %}
+  {% if tag contains "params-" %}
+    {% assign tagWithoutPrefix = tag | remove: 'params-' %}
+    {% assign paramsTags = paramsTags | append: tagWithoutPrefix | append: ',' %}
+  {% endif %}
+{% endfor %}
+{% assign iconsTags = iconsTags | split: ',' %}
+{% assign paramsTags = paramsTags | split: ',' %}
+
+{% assign params = "" %}
+	{% for paramsTag in paramsTags %}
+		{% assign params = params | append: shop.metafields.product_params[paramsTag].value | replace: '"]["', '", "' %}
+	{% endfor %}
+{% assign params = params | split: '", "' %}
+
+{% assign icons = "" %}
+	{% for iconsTag in iconsTags %}
+		{% assign icons = icons | append: shop.metafields.product_params_icons[iconsTag].value %}
+	{% endfor %}
+{% assign icons = icons | replace: "][", ", " | remove: "[" | remove: "]" | split: '", "' %}
+
+{% assign icons_by_product = product.metafields.global.product_params_icons.value %}
+{% assign params_by_product = product.metafields.global.product_params.value %}
+{% assign params_by_product2 = product.metafields.global.product_params2.value %}
+
+{% unless params == blank and params_by_product == blank and params_by_product2 == blank %}
+<div class="section-product-params centered-description-text description-benefits">
+    <h3 class="text-center">{{ "products.product.technical_parameters" | t }}</h3>
+    <div class="params-icons">
+        {% assign i_image_default = "icon_default.png" | file_url | image_url: '100x100' %}
+        {% for icon in icons %}
+            {% assign i_splitted = icon | split: ': ' %}
+            {% assign i_title = i_splitted.first | remove: '"["' | remove: '"]' | remove: '"' %}
+            {% assign i_image = i_splitted.last | remove: '["' | remove: '"]' | remove: '"' | file_url | image_url: '100x100' %}
+            <div class="params-icons-icon">
+                <object class="img" data="{{ i_image }}" type="image/png">
+                    <img src="{{ i_image_default }}" width="50" height="50" loading="lazy" />
+                </object>
+                <span>{{ i_title }}</span>
+            </div>
+        {% endfor %}
+        {% for icon in icons_by_product %}
+            {% assign i_splitted = icon | split: ': ' %}
+            {% assign i_title = i_splitted.first | remove: '"["' | remove: '"]' | remove: '"' %}
+            {% assign i_image = i_splitted.last | remove: '["' | remove: '"]' | remove: '"' | file_url | image_url: '100x100' %}
+            <div class="params-icons-icon">
+                <object class="img" data="{{ i_image }}" type="image/png">
+                    <img src="{{ i_image_default }}" width="50" height="50" loading="lazy" />
+                </object>
+                <span>{{ i_title }}</span>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+<div class="section-product-params medium-up--two-fifths centered-description-text description-benefits">
+    <table>
+        <tbody>
+            {% for p in params %}
+                {% assign p_splitted = p | split: ': ' %}
+                {% assign p_title = p_splitted[0] | remove: '["' | remove: '"]' %}
+                {% assign p_value = p_splitted[1] | remove: '["' | remove: '"]' %}
+                <tr>
+                    <td>{{ p_title }}</td>
+                    <td class="param-value">{{ p_value }}</td>
+                </tr>
+            {% endfor %}
+            {% for p in params_by_product %}
+                {% assign p_splitted = p | split: ': ' %}
+                {% assign p_title = p_splitted[0] %}
+                {% assign p_value = p_splitted[1] %}
+                <tr>
+                    <td>{{ p_title }}</td>
+                    <td class="param-value">{{ p_value }}</td>
+                </tr>
+            {% endfor %}
+            {% for p in params_by_product2 %}
+                {% assign p_splitted = p | split: ': ' %}
+                {% assign p_title = p_splitted[0] %}
+                {% assign p_value = p_splitted[1] %}
+                <tr>
+                    <td>{{ p_title }}</td>
+                    <td class="param-value">{{ p_value }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endunless %}

@@ -1,0 +1,54 @@
+{% if product.metafields.global.product_collection1.value %}
+    <div
+        data-section-id="{{ product.id }}"
+        data-subsection
+        data-section-type="product-categories"
+        class="product-section page-content">
+        <div class="page-width">
+        <header class="section-header">
+            <h3 class="section-header__title">
+            {{ "products.product.related_categories" | t }}
+            </h3>
+        </header>
+        </div>
+        <div class="page-width medium-up--one-half">
+
+            {% for i in (1..99) %}
+                {% assign prod_col_mf = "product_collection" | append: i %}
+                {% assign product_collection = product.metafields.global[prod_col_mf].value %}
+                {% if product_collection %}
+                    {% for col in product_collection %}
+                        {% assign colle = collections[col] %}
+                        {% assign c_title = colle.title %}
+                        {% if col contains "/" %}
+                            {% assign collection_dyn_title = shop.metafields.global.category_headings.value[col] %}
+                                {% if collection_dyn_title != blank %}
+                                {% assign c_title = collection_dyn_title %}
+                            {% else %}
+                                {% assign c_tmp = col | split: '/' | first %}
+                                {% assign c_title = shop.metafields.global.category_headings.value[c_tmp] %}
+                            {% endif %}
+
+                        {% endif %}
+                        <a href="{{colle.url}}" class="link_underline ml-1">{{c_title}}</a>
+                        {% unless forloop.last %}
+                            <span class="ml-1">></span>
+                        {% else %}
+                            <br>
+                        {% endunless %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+
+        </div>
+    </div>
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Product categories",
+    "settings": [
+    ]
+  }
+{% endschema %}

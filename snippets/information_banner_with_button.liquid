@@ -1,0 +1,9 @@
+<div class="rte rte--nomargin text-center info_with_button">
+    <h3>{{ section.settings.title }}</h3>
+    <div>
+        {{ section.settings.rich_text }}
+    </div>
+    {% if section.settings.btn_url != blank and section.settings.btn_text != blank %}
+        <a class="btn" href="{{ section.settings.btn_url }}">{{ section.settings.btn_text }}</a>
+    {% endif %}
+</div>

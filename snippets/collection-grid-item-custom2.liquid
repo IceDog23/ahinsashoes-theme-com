@@ -1,0 +1,63 @@
+{%- liquid
+  unless grid_item_width
+    assign grid_item_width = 'medium-up--one-quarter small--one-half'
+  endunless
+
+  unless per_row
+    assign per_row = '4'
+  endunless
+  
+  assign fixed_aspect_ratio = false
+  unless settings.product_grid_image_size == 'natural'
+    assign fixed_aspect_ratio = true
+  endunless
+
+  assign preview_image = block.settings.imagep
+  assign img_url = preview_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.'
+-%}
+  
+  
+<div class="grid__item grid-product {{ grid_item_width }}" data-aos="row-of-{{ per_row }}">
+  <div class="grid-product__content">
+      <div class="grid-product__image-mask">
+        {%- if fixed_aspect_ratio -%}
+          <div
+            class="grid__image-ratio grid__image-ratio--{{ settings.product_grid_image_size }}">
+            <img class="lazyload{% unless settings.product_grid_image_fill %} grid__image-contain{% endunless %}"
+                data-src="{{ img_url }}"
+                data-widths="[360, 540, 720, 900, 1080]"
+                data-aspectratio="{{ preview_image.aspect_ratio }}"
+                data-sizes="auto"
+                alt="{{ preview_image.alt | escape }}">
+          </div>
+        {%- else -%}
+        {%- comment -%}padding-bottom: {{ 100 | divided_by: preview_image.aspect_ratio }}%;{%- endcomment -%}
+          <div class="image-wrap"
+            style="height: 0; padding-bottom: 70%;"
+            >
+            <img style="{% if img_url contains 'no-image' %}width: 70%; {% endif %}height: 155px;object-fit: cover;"class="grid-product__image lazyload"
+                data-src="{{ img_url }}"
+                data-widths="[360, 540, 720, 900, 1080]"
+                data-aspectratio="{{ preview_image.aspect_ratio }}"
+                data-sizes="auto"
+                alt="{{ preview_image.alt | escape }}">
+            <noscript>
+              <img class="grid-product__image lazyloaded"
+                src="{{ preview_image | img_url: '400x' }}"
+                alt="{{ preview_image.alt | escape }}">
+            </noscript>
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="grid-product__meta">
+        <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">{{ block.settings.title }}</div>
+      </div>
+    
+    {% if block.settings.table_url != blank %}
+      <div class="tabulka_velikosti">
+        <a href="" class="popupLinkSizes" data-product="{{ block.settings.table_url }}">{{ 'sizing_table.sizing_table' | t }}</a><br>
+      </div>
+    {% endif %}
+  </div>
+</div>

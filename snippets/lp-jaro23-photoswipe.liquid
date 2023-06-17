@@ -1,0 +1,40 @@
+
+<script>
+  var descImages = document.querySelectorAll(".feature-row img.photoswipe__image")
+  var descImagesArray = Array.from(descImages)
+  var pswpElement = document.querySelectorAll('.pswp')[0];
+
+  var items = descImagesArray.map((el) => {
+    return {
+      src: el.getAttribute('data-photoswipe-src'),
+      {% comment %} w: el.getAttribute('data-photoswipe-width'), {% endcomment %}
+      {% comment %} h: el.getAttribute('data-photoswipe-height'), {% endcomment %}
+      w: 1000,
+      h: 600
+    }
+  })
+
+  descImagesArray.forEach((el,index) => {
+    if (el.classList.contains("no-zoom")) return
+
+    el.addEventListener("click",(e)=>{
+      e.preventDefault()
+      
+      var options = {
+        allowPanToNext: false,
+        captionEl: false,
+        closeOnScroll: false,
+        counterEl: false,
+        history: false,
+        index: index,
+        pinchToClose: false,
+        preloaderEl: false,
+        scaleMode: 'zoom',
+        shareEl: false,
+        tapToToggleControls: false
+      }
+      var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+      gallery.init();
+    })
+  })
+</script>

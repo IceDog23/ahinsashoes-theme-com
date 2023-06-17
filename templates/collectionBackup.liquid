@@ -1,0 +1,129 @@
+{% section 'collection-header' %}
+
+{% assign full_collection_handle = request.path | split: "/collections/" | last %}
+{% assign full_collection_handle_short = full_collection_handle | split: "/" | last %}
+{% assign col_top_desc = collection.metafields.description_top[full_collection_handle].value %}
+{% assign col_bottom_desc = collection.metafields.description_bottom[full_collection_handle].value %}  
+
+{% if col_top_desc == blank %}
+  {% assign col_top_desc = collection.metafields.description_top[full_collection_handle_short].value %}
+{% endif %}
+{% if col_bottom_desc == blank %}
+  {% assign col_bottom_desc = collection.metafields.description_bottom[full_collection_handle_short].value %}
+{% endif %}
+
+<div id="CollectionAjaxResult" class="collection-content">
+  <div id="CollectionAjaxContent">
+    <div class="page-width">
+      <div class="grid">
+        <div class="grid__item medium-up--one-fifth grid__item--sidebar">
+          {% section 'collection-sidebar' %}
+        </div>
+        <div class="grid__item medium-up--four-fifths grid__item--content">
+          {% section 'collection-promotions' %}
+          <div class="collection-grid__wrapper">
+            {% if col_top_desc != blank %}
+            <div class="collection-description collection-description-top">
+              {{col_top_desc}}
+            </div>
+            {% endif %}
+            {% section 'collection-template' %}
+            {% if col_bottom_desc != blank %}
+            <div class="collection-description collection-description-bottom">
+              {{col_bottom_desc}}
+            </div>
+            {% endif %}
+
+            {% assign rel_collections = collection.metafields.global.related_collections.value %}
+            {% if rel_collections %}
+              <div class="page-width">
+                <header class="section-header">
+                    <h2 class="section-header__title">
+                    {{ "collections.general.related_categories" | t }}
+                    </h2>
+                </header>
+              </div>
+              <div class="page-width col-related-collections">
+                {% for col in rel_collections %}
+                {% assign colle = collections[col] %}
+                {% assign c_title = colle.title %}
+                {% if col contains "/" %}
+                    {% assign collection_dyn_title = shop.metafields.global.category_headings.value[col] %}
+                        {% if collection_dyn_title != blank %}
+                        {% assign c_title = collection_dyn_title %}
+                    {% else %}
+                        {% assign c_tmp = col | split: '/' | first %}
+                        {% assign c_title = shop.metafields.global.category_headings.value[c_tmp] %}
+                    {% endif %}
+                {% endif %}
+                <a href="{{colle.url}}" class="link_underline">{{c_title}}</a>
+                {% endfor %}
+                
+              </div>
+            {% endif %}
+              
+              <div class="page-width">
+                <header class="section-header">
+                    <h2 class="section-header__title">
+                    {{ "collections.general.related_articles" | t }}
+                    </h2>
+                </header>
+              </div>
+              <div class="page-width col-related-articles">
+                  <div>
+                    {% assign rel_articles = collection.metafields.global.related_articles.value %}
+                    {% if rel_articles %}
+                      {% for art in rel_articles %}
+                      {% assign art_handle = "news/" | append: art %}
+                        {% assign article = blogs["news"].articles | where: "handle", art_handle | first %}
+                        {%- render 'article-grid-item',
+                          blog: "news",
+                          article: article,
+                          grid_item_width: 'medium-up--one-third',
+                          per_row: '3',
+                          image_size: "wide"
+                        -%}
+                      {% endfor %}
+                    {% else %}
+                      {% for article in blogs["news"].articles limit: 3 %}
+                        {%- render 'article-grid-item',
+                          blog: "news",
+                          article: article,
+                          grid_item_width: 'medium-up--one-third',
+                          per_row: '3',
+                          image_size: "wide"
+                        -%}
+                      {% endfor %}
+                    {% endif %}
+                  </div>
+                  <div class="col-related-articles-btn-wrapper">
+                    <a class="btn btn--secondary" href="{{blogs["news"].url}}" >{{"collections.general.related_articles_more" | t}}</a>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "CollectionPage",
+  {% if collection.description != blank %}
+    "description": {{ collection.description | strip_html | json }},
+  {% endif %}
+  {% if page_image %}
+    {% assign image_size = page_image.width | append: 'x' %}
+    "image": {
+      "@type": "ImageObject",
+      "height": {{ page_image.height | json }},
+      "url": {{ page_image | img_url: image_size | prepend: "https:" | json }},
+      "width": {{ page_image.width | json }}
+    },
+  {% endif %}
+  "name": {{ collection.title | json }}
+}
+</script>

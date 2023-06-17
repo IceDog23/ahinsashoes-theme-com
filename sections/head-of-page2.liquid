@@ -1,0 +1,37 @@
+{%- if section.settings.breadcrump -%}
+    {%- render 'breadcrumbs' -%}
+{%- endif -%}
+<header class="section-header">
+    <h1 class="section-header__title">{%- if section.settings.title != blank -%}{{ section.settings.title }}{%- else -%}{{ page.title }}{%- endif -%}</h1>
+    {%- if section.settings.subtitle != blank -%}<h3 class="bold mt-1">{{ section.settings.subtitle }}</h3>{%- endif -%}
+</header>
+
+{%- schema -%}
+{
+    "name": "Heading of page",
+    "settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+    },
+    {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Sub heading:"
+    },
+    {
+        "type": "checkbox",
+        "id": "breadcrump",
+        "label": "Breadcrump",
+        "default": true
+    }
+    ],
+    "presets": [
+      {
+        "name": "Heading of page",
+        "category": "Text"
+      }
+    ]
+}
+{%- endschema -%}

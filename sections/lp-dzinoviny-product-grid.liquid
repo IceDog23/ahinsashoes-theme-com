@@ -1,0 +1,88 @@
+{%- liquid
+  assign per_row = section.settings.per_row
+  assign grid_item_width = 'small--one-whole medium-up--one-third'
+
+  case per_row
+    when 2
+      assign grid_item_width = 'small--one-whole medium-up--one-half'
+    when 3
+      assign grid_item_width = 'small--one-whole medium-up--one-third'
+    when 4
+      assign grid_item_width = 'small--one-whole medium-up--one-quarter'
+    when 5
+      assign grid_item_width = 'small--one-whole medium-up--one-fifth'
+  endcase
+-%}
+
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+  <div class="page-width">
+    <div class="full-w feature-row centered-feature-row" data-aos>
+      <div class="dzinoviny-mb feature-row__item  feature-row__text feature-row__text--center text-center">
+        {%- if section.settings.heading != blank -%}
+        <p class="h3 bold dzinoviny-mb">{{ section.settings.heading | escape }}</p>
+        {%- endif -%}
+        {%- if section.settings.text != blank -%}
+        <div class="rte featured-row__subtext dzinoviny-mb">{{ section.settings.text }}</div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+  
+  <div class="page-width text-center">
+    <div class="grid grid--uniform grid--collection">
+      {% for block in section.blocks %}
+        {%- render 'product-grid-item', product: block.settings.product, 
+        grid_item_width: grid_item_width, per_row: per_row -%}
+      {% endfor %}
+    </div>
+  </div>
+  
+  {% schema %}
+    {
+      "name": "Product grid",
+      "class": "lp-section index-section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Richtext</p>"
+        },
+        {
+          "type": "range",
+          "id": "per_row",
+          "label": "Products per row",
+          "default": 5,
+          "min": 2,
+          "max": 5,
+          "step": 1
+        }
+      ],
+      "blocks": [
+        {
+          "name":"Product",
+          "type":"product",
+          "settings": [
+            {
+              "type":"product",
+              "label":"product",
+              "id":"product"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Text",
+          "category": "Image"
+        }
+      ]
+    }
+  {% endschema %}
+  

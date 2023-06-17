@@ -1,0 +1,38 @@
+{% assign user_img = "user.png" | asset_img_url: width: 200, height: 200 %}
+{% if product.metafields.global.text_review1_summary != blank %}
+    <div class="testimonials-section">
+        <div class="customer-reviews page-width text-center">
+            <div class="section-header">
+                <h3>{{ "products.product.customer_reviews" | t}}</h3>
+                {{ "products.product.customer_reviews_text_html" | t}}
+            </div>
+            <div class="grid customer-reviews-grid">
+                {% for n in (1 .. 999) %}
+                    {% assign mf_summary_handle = "text_review" | append: n | append: "_summary" %}
+                    {% assign mf_name_handle = "text_review" | append: n | append: "_name" %}
+                    {% assign text_review_summary = product.metafields.global[mf_summary_handle].value %}
+                    {% assign text_review_name = product.metafields.global[mf_name_handle].value %}
+
+                    {% if text_review_summary != blank %}
+                    <div class="customer-review grid__item medium-up--one-half aos-init aos-animate">
+                        <div>
+                            {%- comment -%}
+                            <div class="rating">
+                                <div class="rating-stars rating-stars-bg">
+                                <div class="rating-stars rating-stars-stars" style="width: {{ text_review.last.rating | times: 20 }}%;"></div>
+                                </div>
+                            </div>
+                            {%- endcomment -%}
+                            <p>{{text_review_summary}}</p> 
+                        </div>
+                        <div>
+                            <img src="{{ user_img }}" alt="{{text_review_name}}">
+                            <h4>{{text_review_name}}</h4>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endif %}

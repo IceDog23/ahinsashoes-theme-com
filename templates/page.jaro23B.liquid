@@ -1,0 +1,54 @@
+{%- section 'lp-slideshow_jaro23' -%}
+<div class="page-width page-content">
+
+  <div class="rte rte--nomargin">
+    {{ page.content }}
+    <div class="text-center">
+      <span>
+        <img src="{{ "arrow-down.png" | asset_url }}" alt="">
+      </span>
+    </div>
+    <div class="text-center">
+      {% if shop.url contains ".com" %}
+        <script>
+          (function (w,d,s,o,f,js,fjs) {
+                w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+                js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+                js.id = '9-54057be166928eb6fcc57504dc847797'; js.dataset.a = 'ahinsashoescom'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+            }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+        </script>
+        <div id="f-9-54057be166928eb6fcc57504dc847797"></div>
+      {% elsif shop.url contains ".cz" %}
+      <script>
+        (function (w,d,s,o,f,js,fjs) {
+            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+            js.id = '17-5a4345e2cfc20db946d8662a976213f2'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+    </script>
+            <div id="f-17-5a4345e2cfc20db946d8662a976213f2"></div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% section 'lp-text-columns_jaro23' %}
+  {% section 'lp-promotions_jaro23' %}
+  {% section 'lp-image-text_jaro23B' %}
+  {% section 'lp-image-text_jaro23B_2' %}
+    <div class="text-center">
+        {% if shop.url contains ".com" %}
+          {% comment %} chybejici formular {% endcomment %}
+        {% elsif shop.url contains ".cz" %}
+        <script>
+          (function (w,d,s,o,f,js,fjs) {
+              w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+              js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+              js.id = '18-eeb96ecd8eefc15f2198246e728510f1'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+          }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+      </script>
+              <div id="f-18-eeb96ecd8eefc15f2198246e728510f1"></div>
+        {% endif %}
+    </div>
+
+</div>
+

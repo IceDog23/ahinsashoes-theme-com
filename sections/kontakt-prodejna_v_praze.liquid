@@ -1,0 +1,59 @@
+{% unless shop.url contains "ahinsashoes.com" %}
+    {% render 'kontakt-prodejna' %}
+{% endunless %}
+
+{% schema %}
+{
+    "name": "Prodejna",
+    "class": "kontakt-prodejna_v_praze kontakt-box",
+    "settings": [
+    {
+        "type":"image_picker",
+        "id":"image",
+        "label":"obrázek"
+    },
+    {
+        "type":"text",
+        "id":"title",
+        "label":"Title",
+        "default":"Prodejna v Praze"
+    },
+    {
+        "type": "textarea",
+        "id": "rich_text",
+        "label": "Text",
+        "default": "Přijďte si vyzkoušet Ahinsa shoes na vlastní nohy. Poradíme s výběrem a podíváme se na vaše chodidla na podoskopu. Londýnská 309/81, Praha 2 - Vinohrady"
+    },
+    {
+        "type":"text",
+        "id":"btn_text",
+        "label":"Button text",
+        "default":"Jak to funguje?"
+    },
+    {
+        "type":"url",
+        "id":"btn_url",
+        "label":"Button Link",
+        "default":"/"
+    },
+    {
+        "type":"text",
+        "id":"odkaz_text",
+        "label":"Button text",
+        "default":"Jak to funguje?"
+    },
+    {
+        "type":"url",
+        "id":"odkaz_url",
+        "label":"Button Link",
+        "default":"/"
+    }
+    ],
+    "presets": [
+        {
+            "category": "Text",
+            "name":"Prodejna"
+        }
+    ]
+}
+{% endschema %}

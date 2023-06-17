@@ -1,0 +1,49 @@
+{% render 'jak_si_zmerit_nohu' %}
+
+{% schema %}
+{
+    "name": "Nejste si jistí, poradíme",
+    "class": "we_will_help",
+    "settings": [
+    {
+        "type":"image_picker",
+        "id":"image",
+        "label":"obrázek"
+     },
+     {
+        "type":"select",
+        "id":"layout",
+        "label":"Picture position",
+        "default":"left",
+        "options":[
+           {
+              "value":"left",
+              "label":"Left"
+           },
+           {
+              "value":"right",
+              "label":"Right"
+           }
+        ]
+     },
+     {
+        "type":"text",
+        "id":"title",
+        "label":"Title",
+        "default":"Nejste si jistí? Poradíme"
+     },
+    {
+        "type": "textarea",
+        "id": "rich_text",
+        "label": "Text",
+        "default": "Dobře známe Vaše boty"
+    }
+  ],
+    "presets": [
+        {
+            "category": "Text",
+            "name":"Nejste si jistí, poradíme"
+        }
+    ]
+}
+{% endschema %}

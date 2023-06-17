@@ -1,0 +1,129 @@
+{% if product.tags contains 'obuv' or product.tags contains 'footwear' %}
+
+{% if shop.url contains ".com" %}
+  {% assign page_how_to_choose_size = "https://ahinsashoes.com/pages/how-to-choose-your-size" %}
+{% elsif shop.url contains ".cz" %}
+  {% assign page_how_to_choose_size = "https://ahinsashoes.cz/pages/jak-spravne-vybrat-velikost" %}
+{% endif %}
+
+<a href="" id="popupLink">{{ 'sizing_table.product_popup_link' | t }}</a><br>
+<div id="popup">
+  <div id="closeEx">{% render 'times-solid.svg' %}</div>
+  <header class="section-header">
+    <h2 class="text-transform-init"><span class="bold">{{ 'sizing_table.product_popup_heading' | t }}</span></h2>
+
+    {% assign productTableTag = "" %}
+    {% for tag in product.tags %}
+      {% if tag contains "sizing-table" %}
+        {% assign productTableTag = tag %}
+      {% endif %}
+    {% endfor %}
+
+    {% if productTableTag != blank %}
+      <div id="tabulka-boty">
+        {{ pages[productTableTag].content }}
+      </div>
+    {% endif %}
+
+    <div id="subheading_text"></div>
+  </header>
+  <div id="zmerit_nohy"></div>
+  <div id="poradime"></div>
+  <div class="centered-feature-row mt-4">
+          <div id="closeBtn" class="btn btn--secondary">{{ 'sizing_table.close_btn' | t }}</div>
+  </div>
+</div>
+<div id="popupBg"></div>
+{% endif %}
+
+<script>
+        const loadPage = async (VybratVelikostAddress) => {
+                $content = await $.get(VybratVelikostAddress)
+                $subheading = $($content).find("div.subheading")
+                $zmerit_nohy = $($content).find("div.how_to_measure")
+                $poradime = $($content).find("div.we_will_help")
+                $('#subheading_text').html($subheading)
+                $('#zmerit_nohy').html($zmerit_nohy)
+                $('#poradime').html($poradime)
+        }
+
+        $("#popupLink").on("click", function(e) {
+                const VybratVelikostAddress = {{ page_how_to_choose_size | json }}
+                loadPage(VybratVelikostAddress)
+                e.preventDefault();
+                $("#popupBg").css("display","block");
+                $("#popup").css("display","block");
+                return false;
+        });
+
+  // Popup sizing information
+  document.getElementById("popupLink").onclick = function(e) {
+    e.preventDefault();
+    document.getElementById("popupBg").style.display = "block";
+    document.getElementById("popup").style.display = "block";
+    document.getElementById('popupBg').onclick = function() {
+      document.getElementById("popup").style.display = "none";
+      document.getElementById("popupBg").style.display = "none";
+    };
+    return false;
+  }
+
+  // Close popup sizing information with escape key
+  window.onkeydown = function(e) {
+    if (e.keyCode == 27) {
+      document.getElementById("popup-outher_margin").style.display = "none";
+      document.getElementById("popupBg").style.display = "none";
+      e.preventDefault();
+      return;
+    }
+  }
+
+  $("#closeEx").on("click", function() {
+        $("#popupBg").css("display","none");
+        $("#popup").css("display","none");
+  });
+
+  $("#closeBtn").on("click", function() {
+        $("#popupBg").css("display","none");
+        $("#popup").css("display","none");
+  });
+
+	$('.two_tables').before('<div class="popup-info-new-numbering-size"><p>{{ 'sizing_table.alert_change_sizing' | t }}</p></div>');
+</script>
+
+
+<style>
+        #popupLink { font-weight: normal; font-size: 12px; text-decoration: underline; display: block; }
+        #popup {
+          display: none;
+          position: fixed;
+          border: black 3px solid;
+          width: 80vw;
+          max-width: 70rem;
+          min-height: 20vh;
+          max-height: 80vh;
+          left: calc(100vw - 100%);
+          right: calc(100vw - 100%);
+          top: calc(100vh - 100%);
+          bottom: calc(100vh - 100%);
+          margin: auto;
+          padding: 3rem 6rem;
+          background-color: white;
+          z-index: 30;
+          overflow-y: scroll;
+        }
+        #popupBg { position: fixed; z-index: 29; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; background-color: rgba(0,0,0,.75); display: none; }
+
+        #popup .rte { padding: 2rem; }
+
+        #popup .rte table { table-layout: inherit; }
+
+        #popup .feature-row { margin: 0; }
+
+        @media screen and (max-width: 767px){
+          #popup .rte { padding: 1rem; }
+          #popup {
+            padding: 3rem 1rem 1rem;
+          }
+        }
+</style>

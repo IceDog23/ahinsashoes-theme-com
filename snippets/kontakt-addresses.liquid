@@ -1,0 +1,19 @@
+{% for block in section.blocks %}
+    <div class="mb-2">
+        {% if block.settings.title != blank %}
+            <h3>{{ block.settings.title | escape }}</h3>
+        {% endif %}
+
+        {% if block.settings.subtitle != blank %}
+            <div class="rte rte-setting featured-row__subtext">{{ block.settings.subtitle }}</div>
+        {% endif %}
+
+        {% if block.settings.adresa != blank %}
+            <div class="rte rte-setting featured-row__subtext ml-4">{{ block.settings.adresa }}</div>
+        {% endif %}
+    </div>
+{% endfor %}
+
+{% if section.settings.rich_text != blank %}
+    <p class="small-text">{{ section.settings.rich_text | escape }}</p>
+{% endif %}

@@ -1,0 +1,40 @@
+{% render 'lp_ads_banner' %}
+
+{% schema %}
+  {
+    "name": "Advertisments banner",
+    "class": "index-section",
+    "settings": [
+    ],
+    "blocks": [
+    {
+      "type": "html",
+      "name": "Ad",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        }
+      ]
+    }
+    ],
+    "presets": [
+      {
+        "name": "Advertisment",
+        "category": "Text",
+        "blocks": [
+          {
+            "type": "html"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,167 @@
+
+{%- capture seo_title -%}
+  {%- if template == "collection" or template == "collection.ajax" -%}
+    {%- assign full_collection_handle = request.path | split: "/collections/" | last -%}
+    {%- assign full_collection_handle_short = full_collection_handle | split: "/" | last -%}
+    {%- capture full_collection_handle_short_pt2 -%}
+      {%- for tag in current_tags -%}
+        {{- tag | handleize -}}
+        {%- unless forloop.last -%}+{%- endunless -%}
+      {%- endfor -%}
+      {%- for filter in collection.filters -%}
+        {%- assign is_size_filter = false -%}
+        {%- if filter.label == "Velikost" or filter.label == "Size" -%}
+          {%- assign is_size_filter = true -%}
+        {%- endif -%}
+        {%- assign is_availability_filter = false -%}
+        {%- if filter.label == "Dostupnost" or filter.label == "Availability" -%}
+          {%- assign is_availability_filter = true -%}
+        {%- endif -%}
+        {%- unless is_size_filter or is_availability_filter -%}
+          {%- for filter_value in filter.active_values -%}
+            {%- unless current_tags == blank -%}+{%- endunless -%}
+            {{- filter_value.label | handleize -}}
+            {%- unless forloop.last -%}+{%- endunless -%}
+          {%- endfor -%}
+        {%- endunless -%}
+      {%- endfor -%}
+    {%- endcapture -%}
+  {%- assign full_collection_handle_short_pt2 = full_collection_handle_short_pt2 | replace: ' ', "" | strip_newlines -%}
+  {%- if full_collection_handle_short_pt2 != blank -%}
+    {%- assign full_collection_handle_short = full_collection_handle_short | append: '/' | append: full_collection_handle_short_pt2 -%}
+    {%- assign full_collection_handle = collection.handle | append: '/' | append: full_collection_handle_short_pt2 -%}
+  {%- endif -%}
+    {%- assign collection_dyn_title = shop.metafields.global.category_headings.value[full_collection_handle] -%}
+    {%- if collection_dyn_title == blank -%}
+      {%- assign collection_dyn_title = shop.metafields.global.category_headings.value[full_collection_handle_short] -%}
+    {%- endif -%}
+
+    {%- assign filtered_sizes = "" -%}
+      {%- assign filtered_types = "" -%}
+      {%- assign filtered_colors = "" -%}
+      {%- assign filtered_materials = "" -%}
+      {%- for filter in collection.filters -%}
+        {%- if filter.label == "Velikost" or filter.label == "Size" -%}
+          {%- assign size_filter_label_downcase = filter.label | downcase -%}
+          {%- if shop.url contains "ahinsashoes.com" -%}
+            {%- assign size_filter_label_downcase = "size" -%}
+          {%- endif -%}
+          {%- for filter_value in filter.active_values -%}
+            {%- if filtered_sizes != "" -%}
+              {%- assign filtered_sizes = filtered_sizes | append: ", " -%}
+            {%- endif -%}
+            {%- assign filtered_sizes = filtered_sizes | append: filter_value.label -%}
+          {%- endfor -%}
+        {%- endif -%}
+        {%- if filter.label == "Typ obuvi" or filter.label == "Type" -%}
+          {%- for filter_value in filter.active_values -%}
+            {%- if filtered_types != "" -%}
+              {%- assign filtered_types = filtered_types | append: " " -%}
+            {%- endif -%}
+            {%- assign filtered_types = filtered_types | append: filter_value.label -%}
+          {%- endfor -%}
+        {%- endif -%}
+        {%- if filter.label == "Barva" or filter.label == "Color" -%}
+          {%- for filter_value in filter.active_values -%}
+            {%- if filtered_colors != "" -%}
+              {%- assign filtered_colors = filtered_colors | append: ", " -%}
+            {%- endif -%}
+            {%- assign filtered_colors = filtered_colors | append: filter_value.label -%}
+          {%- endfor -%}
+        {%- endif -%}
+        {%- if filter.label == "Materiál" or filter.label == "Material" -%}
+          {%- for filter_value in filter.active_values -%}
+            {%- if filtered_materials != "" -%}
+              {%- assign filtered_materials = filtered_materials | append: ", " -%}
+            {%- endif -%}
+            {%- assign filtered_materials = filtered_materials | append: filter_value.label -%}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+    {%- if collection_dyn_title != blank -%}
+      {%- assign collection_title = collection_dyn_title -%}
+      {% if filtered_sizes != "" %}
+        {% assign collection_title = collection_title | append: ', ' | append: size_filter_label_downcase | append: ' ' | append: filtered_sizes %}
+      {% endif %}
+    {%- else -%}
+      {%- assign collection_title = collection.title -%}
+      
+      {%- if filtered_types != "" -%}
+        {%- assign collection_title = collection_title | append: ', ' | append: ' ' | append: filtered_types -%}
+      {%- endif -%}
+      {%- if filtered_colors != "" -%}
+        {%- assign collection_title = collection_title | append: ', ' | append: ' ' | append: filtered_colors -%}
+      {%- endif -%}
+      {%- if filtered_materials != "" -%}
+        {%- assign collection_title = collection_title | append: ', ' | append: ' ' | append: filtered_materials -%}
+      {%- endif -%}
+      {%- if filtered_sizes != "" -%}
+        {%- assign collection_title = collection_title | append: ', ' | append: size_filter_label_downcase | append: ' ' | append: filtered_sizes -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- assign collection_title_suffix = "" -%}
+    {%- assign lowest_price = 9999999999 -%}
+    {%- for product in collection.products -%}
+      {%- if product.price < lowest_price -%}
+        {%- assign lowest_price = product.price -%}
+        {%- assign lowest_price_formatted = product.price | money_with_currency | remove: '<span class="money">' | remove: '</span>' -%} 
+        {%- assign seo_title_collection_from = "general.seo_title_collection_from" | t -%}
+        {%- assign collection_title_suffix = seo_title_collection_from | append: lowest_price_formatted -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if shop.metafields.global.category_titles_hide_prices.value[full_collection_handle] == true -%}
+      {%- assign collection_title_suffix = "general.seo_title_collection_stock" | t -%}
+    {%- endif -%}
+    {%- assign max_sale = 0 -%}
+    {%- for product in collection.products -%}
+      {%- if product.compare_at_price > product.price and product.available -%}
+        {%- assign percent_sale = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round -%}
+        {%- if percent_sale > max_sale -%}
+          {%- assign max_sale = percent_sale -%}
+        {%- endif -%}
+      {%- endif -%}
+      {%- if max_sale != 0 -%}
+      {%- assign seo_title_collection_sale = "general.seo_title_collection_sale" | t -%}
+        {%- assign collection_title_suffix = seo_title_collection_sale | append: max_sale | append: " %]" -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if shop.url contains ".cz" or shop.url contains ".com" -%}
+      {{- collection_title | append: " from EXPERTS" | append: collection_title_suffix -}}
+    {%- else -%}
+      {{- collection_title -}}
+    {%- endif -%}
+  {%- elsif template == "product" -%}
+    {%- assign product_title = page_title -%}
+    {%- if product.available -%}
+    {%- assign seo_title_product_stock = "general.seo_title_product_stock" | t -%}
+    {%- assign product_title = page_title | append: seo_title_product_stock -%}
+    {%- endif -%}
+    {%- if product.compare_at_price -%}
+    {%- assign seo_title_product_sale = "general.seo_title_product_sale" | t -%}
+      {%- assign product_title = page_title | append: seo_title_product_sale -%}
+    {%- endif -%}
+    {%- if shop.url contains ".cz" or shop.url contains ".com" -%}
+      {{- product_title -}}
+    {%- else -%}
+      {{- page_title -}}
+    {%- endif -%}
+  {%- else -%}
+    {{- page_title -}}
+  {%- endif -%}
+  {%- if current_tags -%}
+  {%- comment -%}
+  {%- assign meta_tags = current_tags | join: ', ' -%} — {{ 'general.meta.tags' | t: tags: meta_tags -}}
+  {%- assign meta_tags = current_tags | join: ', ' -%} — {{meta_tags}}
+  {%- endcomment -%}
+  {%- endif -%}
+  {%- if current_page != 1 -%}
+  — {{- 'general.meta.page' | t: page: current_page -}}
+  {%- endif -%}
+  {%- if template == 'password' -%}
+    {{- shop.name -}}
+  {%- else -%}
+    {% unless page_title contains shop.name %} | Ahinsa shoes 👣{% endunless %}
+  {%- endif -%}
+{%- endcapture -%}
+<title>{{- seo_title | strip -}}</title>

@@ -1,0 +1,60 @@
+{%- section 'lp-slideshow' -%}
+<div class="page-width page-content">
+
+  <div class="rte rte--nomargin">
+    {{ page.content }}
+    <div class="text-center">
+      <span>
+        <img src="{{ "arrow-down.png" | asset_url }}" alt="">
+      </span>
+    </div>
+    <div class="text-center">
+      {% if shop.url contains ".com" %}
+        <script>
+            (function (w,d,s,o,f,js,fjs) {
+                w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+                js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+                js.id = '5-ed07fd6b07ff0199fabc8509f995f058'; js.dataset.a = 'ahinsashoescom'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+            }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+        </script>
+        <div id="f-5-ed07fd6b07ff0199fabc8509f995f058"></div>
+      {% elsif shop.url contains ".cz" %}
+      <script>
+        (function (w,d,s,o,f,js,fjs) {
+          w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+          js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+          js.id = '5-ed07fd6b07ff0199fabc8509f995f058'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+        </script>
+      <div id="f-5-ed07fd6b07ff0199fabc8509f995f058"></div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% section 'lp-text-columns' %}
+  {% section 'lp-promotions' %}
+  {% section 'newsletter-adds' %}
+
+    <div class="text-center">
+      {% if shop.url contains ".com" %}
+        <script>
+            (function (w,d,s,o,f,js,fjs) {
+                w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+                js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+                js.id = '6-3fdfd544852ed7431aa64f3b9481afb9'; js.dataset.a = 'ahinsashoescom'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+            }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+        </script>
+        <div id="f-6-3fdfd544852ed7431aa64f3b9481afb9"></div>
+      {% elsif shop.url contains ".cz" %}
+      <script>
+          (function (w,d,s,o,f,js,fjs) {
+              w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+              js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+              js.id = '6-3fdfd544852ed7431aa64f3b9481afb9'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+          }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+      </script>
+      <div id="f-6-3fdfd544852ed7431aa64f3b9481afb9"></div>
+      {% endif %}
+    </div>
+</div>
+

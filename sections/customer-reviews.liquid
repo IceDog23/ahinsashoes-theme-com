@@ -1,0 +1,90 @@
+<div
+  data-section-id="{{ section.id }}"
+  data-section-type="customer-reviews-section"
+>
+
+    <header class="text-center">
+        <h2>{{section.settings.heading}}</h2>
+        <p>{{section.settings.text}}</p>
+    </header>
+
+    <div id="customerReviewsWrapper" class="customer-reviews-wrapper wrapped">
+        <div class="customer-reviews" id="customerReviews">
+            {% for block in section.blocks %}
+                <div class="customer-review">
+                    {{block.settings.text}}
+                    <i>
+                        {{block.settings.customer}}
+                    </i>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a href="#" class="btn" id="moreCustomerReviewsLink">{{ "reviews_page.more_reviews" | t }} ↓</a>
+    </div>
+
+</div>
+
+<script src="{{ "masonry.min.js" | asset_url}}"></script>
+<script>
+    $(window).on('load', () => {
+      $("#customerReviews").masonry({
+        gutter: 20
+      })
+    })
+
+    $("#moreCustomerReviewsLink").on("click",(e)=>{
+        e.preventDefault()
+        $("#customerReviewsWrapper").removeClass("wrapped")
+        $("#moreCustomerReviewsLink").addClass("hidden")
+    })
+</script>
+
+{% schema %}
+  {
+    "name": "Customer reviews",
+    "class": "section--customer-reviews",
+    "max_blocks": 999,
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Block",
+        "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "customer",
+          "label": "Customer"
+        }
+        ]
+      }
+    ],
+    "presets": [{
+      "name": "Customer reviews",
+      "category": "text",
+      "settings": {
+      },
+      "blocks": [
+        
+      ]
+    }]
+  }
+{% endschema %}

@@ -1,0 +1,34 @@
+<div id="popup-outher_margin">
+    <div id="closeEx">{% render 'times-solid.svg' %}</div>
+    <div id="inner_html"></div>
+</div>
+<div id="popupBg"></div>
+
+<script>
+    const loadPage = async (tableAddress) => {
+        $content = await $.get(tableAddress)
+        //const response = await fetch(tableAddress, { method: 'GET' })
+        //const jsonResponse = await response.json()
+        $('#inner_html').html($content)//jsonResponse.page.body_html
+        $('#ladies').href()
+        $('#gentlemen').href()
+    }
+
+    $(".popupLinkSizes").on("click", function(e) {
+        const tableAddress = $(this).data("product") + "?view=sizing-table"
+        loadPage(tableAddress)
+        e.preventDefault();
+        $("#popupBg").css("display","block");
+        $("#popup-outher_margin").css("display","block");
+        return false;
+    });
+    $("#popup_close").on("click", function() {
+        $("#popupBg").css("display","none");
+        $("#popup-outher_margin").css("display","none");
+    });
+    $("#closeEx").on("click", function() {
+        $("#popupBg").css("display","none");
+        $("#popup-outher_margin").css("display","none");
+    }); 
+  
+</script>

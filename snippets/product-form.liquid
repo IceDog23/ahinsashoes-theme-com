@@ -1,0 +1,630 @@
+{%- capture form_id -%}AddToCartForm-{{ section_id }}{%- endcapture -%}
+{%- form 'product', product, id: form_id, class: 'product-single__form' -%}
+
+  {% assign color_tag_prefix = "color-" %}
+  {% if shop.url contains "ahinsashoes.cz" %}
+    {% assign color_tag_prefix = "barva-" %}
+  {% endif %}
+
+{% if product.metafields.global.product_group.value != blank %}
+  {% assign product_group = product.metafields.global.product_group.value %}
+  {%- comment -%}e.g. bindu-2-barefoot-damske-polobotky{%- endcomment -%}
+  {% assign color_collection = collections[product_group] %}
+  {% assign is_dropdown = false %}
+  {% if color_collection.products.size > 4 %}
+    {% assign is_dropdown = true %}
+  {% endif %}
+
+    <div class="color-variants-options{% if is_dropdown %} dropdown{% endif %} ">
+
+      <label class="variant__label">{{ "products.product.color_variants" | t}}</label>
+      {% if is_dropdown == false %}
+        <div class="variant-options">
+            {% for item in color_collection.products %}
+              {% assign item_color_name = "" %}
+              {% for tag in item.tags %}
+                {% if tag contains color_tag_prefix %}
+                  {% assign item_color_name = tag | remove: color_tag_prefix %}
+                {% endif %}
+              {% endfor %}
+              {% assign is_currentColor = false %}
+              {% if item.id == product.id %}
+                {% assign is_currentColor = true %}
+              {% endif %}
+              <a
+                href="{{item.url}}"
+                class="color-option {% if is_currentColor %}current{% endif %}"
+                >
+                <img src="{{item.featured_media.src | img_url: "60x60"}}" alt="{{item_color_name}}" />
+              </a>
+            {% endfor %}
+          </div>
+        {% else %}
+
+          {% assign current_item_color_name = "" %}
+          {% for tag in product.tags %}
+            {% if tag contains color_tag_prefix %}
+              {% assign current_item_color_name = tag | remove: color_tag_prefix %}
+            {% endif %}
+          {% endfor %}
+          <a href="#" class="dropdown-current">
+            <span>{{ "products.product.color_variants_current" | t}}:</span>
+              <img
+              src="{{product.featured_media.src | img_url: "60x60"}}"
+              alt="{{current_item_color_name}}"
+              >
+              <strong>{{current_item_color_name}}</strong>
+          </a>
+          <div class="variant-dropdown-options hide">
+            {% for item in color_collection.products %}
+              {% assign item_color_name = "" %}
+              {% for tag in item.tags %}
+                {% if tag contains color_tag_prefix %}
+                  {% assign item_color_name = tag | remove: color_tag_prefix %}
+                {% endif %}
+              {% endfor %}
+              {% assign is_currentColor = false %}
+              {% if item.id == product.id %}
+                {% assign is_currentColor = true %}
+              {% endif %}
+              <a
+                href="{{item.url}}"
+                class="color-option {% if is_currentColor %}current{% endif %}"
+                >
+                <img src="{{item.featured_media.src | img_url: "60x60"}}" alt="{{item_color_name}}" />
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      
+    </div>
+  {% else %}
+
+{% if shop.url contains "ahinsashoes.com" %}
+  {% assign main_collections = "womens-barefoot-shoes,womens-comfort-shoes,mens-barefoot-shoes,mens-comfort-shoes" | split: ',' %}
+{% else %}
+  {% assign main_collections = "damske-barefoot,damske-komfortni-boty,panske-barefoot,panska-komfortni-obuv" | split: ',' %}
+{% endif %}
+{% for col in product.collections %}
+  {% for m_col in main_collections %}
+    {% if col.handle == m_col %}
+      {% assign current_group = m_col | append: "/" %}
+      {% for group in collections[m_col].metafields.global.product_groups.value %}
+      
+        {% assign group_tags = group | split: '+' %}
+        {% for gt in group_tags %}
+          {% assign has_gt = false %}
+          {% for t in product.tags %}
+            {% assign t_handleized = t | handleize %}
+            {% if t_handleized == gt %}
+              {% assign has_gt = true %}
+            {% endif %}
+          {% endfor %}
+          {% if has_gt %}
+            {% if forloop.index == group_tags.size %}
+              {% assign current_group = m_col | append: "/" | append: group %}
+            {% endif %}
+          {% else %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% if current_group != blank %}
+  {% assign product_group = current_group | split: '/' | first %}
+  {% assign group_tags = current_group | split: '/' | last | split: '+' %}
+
+  {% assign color_collection = collections[product_group] %}
+  {% assign is_dropdown = false %}
+
+  {% assign items_in_cc = 0 %}
+  {% paginate color_collection.products by 1000 %}
+
+  {% for item in color_collection.products %}
+    {% assign show_variant = false %}
+    {% for gt in group_tags %}
+      {% assign has_gt = false %}
+      {% for t in item.tags %}
+        {% assign t_handleized = t | handleize %}
+        {% if t_handleized == gt %}
+          {% assign has_gt = true %}
+        {% endif %}
+      {% endfor %}
+      {% if has_gt %}
+        {% if forloop.index == group_tags.size %}
+          {% assign items_in_cc = items_in_cc | plus: 1 %}
+        {% endif %}
+      {% else %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% endpaginate %}
+
+  {% if items_in_cc > 4 %}
+    {% assign is_dropdown = true %}
+  {% endif %}
+
+    {% if items_in_cc > 1 %}
+      <div class="color-variants-options{% if is_dropdown %} dropdown{% endif %} ">
+
+        <label class="variant__label">{{ "products.product.color_variants" | t}}</label>
+        {% if is_dropdown == false %}
+          <div class="variant-options">
+            {% paginate color_collection.products by 1000 %}
+              {% for item in color_collection.products %}
+                {% assign show_variant = false %}
+                {% for gt in group_tags %}
+                  {% assign has_gt = false %}
+                  {% for t in item.tags %}
+                    {% assign t_handleized = t | handleize %}
+                    {% if t_handleized == gt %}
+                      {% assign has_gt = true %}
+                    {% endif %}
+                  {% endfor %}
+                  {% if has_gt %}
+                    {% if forloop.index == group_tags.size %}
+                      {% assign show_variant = true %}
+                    {% endif %}
+                  {% else %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+
+                {% assign item_color_name = "" %}
+                {% for tag in item.tags %}
+                  {% if tag contains color_tag_prefix %}
+                    {% assign item_color_name = tag | remove: color_tag_prefix %}
+                  {% endif %}
+                {% endfor %}
+                {% assign is_currentColor = false %}
+                {% if item.id == product.id %}
+                  {% assign is_currentColor = true %}
+                {% endif %}
+                {% if show_variant %}
+                  <a
+                  href="{{item.url}}"
+                  class="color-option {% if is_currentColor %}current{% endif %}"
+                  >
+                  <img src="{{item.featured_media.src | img_url: "60x60"}}" alt="{{item_color_name}}" />
+                </a>
+                {% endif %}
+              {% endfor %}
+              {% endpaginate %}
+            </div>
+          {% else %}
+
+            {% assign current_item_color_name = "" %}
+            {% for tag in product.tags %}
+              {% if tag contains color_tag_prefix %}
+                {% assign current_item_color_name = tag | remove: color_tag_prefix %}
+              {% endif %}
+            {% endfor %}
+            <a href="#" class="dropdown-current">
+              <span>{{ "products.product.color_variants_current" | t}}:</span>
+                <img
+                src="{{product.featured_media.src | img_url: "60x60"}}"
+                alt="{{current_item_color_name}}"
+                >
+                <strong>{{current_item_color_name}}</strong>
+            </a>
+            <div class="variant-dropdown-options hide">
+              {% paginate color_collection.products by 1000 %}
+
+              {% for item in color_collection.products %}
+                {% assign show_variant = false %}
+
+                {% for gt in group_tags %}
+                  {% assign has_gt = false %}
+                  {% for t in item.tags %}
+                    {% assign t_handleized = t | handleize %}
+                    {% if t_handleized == gt %}
+                      {% assign has_gt = true %}
+                    {% endif %}
+                  {% endfor %}
+                  {% if has_gt %}
+                    {% if forloop.index == group_tags.size %}
+                      {% assign show_variant = true %}
+                    {% endif %}
+                  {% else %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+
+                {% assign item_color_name = "" %}
+                {% for tag in item.tags %}
+                  {% if tag contains color_tag_prefix %}
+                    {% assign item_color_name = tag | remove: color_tag_prefix %}
+                  {% endif %}
+                {% endfor %}
+                {% assign is_currentColor = false %}
+                {% if item.id == product.id %}
+                  {% assign is_currentColor = true %}
+                {% endif %}
+                {% if show_variant == true %}
+                  <a
+                  href="{{item.url}}"
+                  class="color-option {% if is_currentColor %}current{% endif %}"
+                  >
+                  <img src="{{item.featured_media.src | img_url: "60x60"}}" alt="{{item_color_name}}" />
+                </a>
+                {% endif %}
+              {% endfor %}
+              {% endpaginate %}
+            </div>
+          {% endif %}
+        
+      </div>
+    {% endif %}
+{% endif %}
+
+{% endif %}
+
+  {%- unless product.has_only_default_variant -%}
+    {%- for option in product.options_with_values -%}
+      {%- liquid
+        if settings.product_color_swatches
+          assign is_color = false
+          assign color_option_index = 0
+          assign swatch_trigger = 'products.general.color_swatch_trigger' | t | downcase
+          assign color_option_index = forloop.index0
+          assign downcased_option = option.name | downcase
+          if downcased_option contains swatch_trigger
+            assign is_color = true
+          elsif swatch_trigger == 'color' and downcased_option contains 'colour'
+            assign is_color = true
+          endif
+        endif
+      -%}
+
+      {%- if settings.variant_type == 'button' -%}
+        {%- render 'variant-button',
+          section_id: section_id,
+          option: option,
+          forloop: forloop,
+          is_color: is_color,
+          color_option_index: color_option_index
+        -%}
+      {%- else -%}
+        {%- render 'variant-dropdown',
+          section_id: section_id,
+          option: option,
+          forloop: forloop
+        -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endunless -%}
+
+      {% render "jak-spravne-vybrat-velikost" %}
+
+  <select name="id" id="ProductSelect-{{ section_id }}" class="product-single__variants no-js">
+    {%- for variant in product.variants -%}
+      {%- if variant.available -%}
+        <option {% if variant == product.selected_or_first_available_variant %}
+          selected="selected"{% endif %}
+          value="{{ variant.id }}">
+          {{ variant.title }} - {{ variant.price | money_with_currency }}
+        </option>
+      {%- else -%}
+        <option disabled="disabled">
+          {{ variant.title }} - {{ 'products.product.sold_out' | t }}
+        </option>
+      {%- endif -%}
+    {%- endfor -%}
+  </select>
+
+
+  {%- if settings.inventory_enable or settings.inventory_transfers_enable -%}
+              {%- assign variants_with_inventory_tracking = product.variants | where: 'inventory_management', 'shopify' -%}
+
+              <script>
+                // Store inventory quantities in JS because they're no longer
+                // available directly in JS when a variant changes.
+                // Have an object that holds all potential products so it works
+                // with quick view or with multiple featured products.
+                window.inventories = window.inventories || {};
+                window.inventories['{{ section_id }}'] = {};
+                 {% for variant in variants_with_inventory_tracking %}
+                  window.inventories['{{ section_id }}'][{{ variant.id }}] = {
+                    'quantity': {{ variant.inventory_quantity | default: 0 }},
+                    'incoming': {{ variant.incoming | default: false | json }},
+                    'next_incoming_date': {{ variant.next_incoming_date | date: format: 'date' | json }}
+                  };
+                 {% endfor %}
+              </script>
+
+              {% comment %}
+                If loaded in quick view, it might be from a JS-loaded function
+                that loads recommended products. If that's the case, the above
+                JS will not set the variant inventory. Add it to an accessible
+                data div to read later instead.
+              {% endcomment %}
+              {%- if isModal -%}
+                <div
+                  data-section-id="{{ section_id }}"
+                  class="hide js-product-inventory-data"
+                  aria-hidden="true"
+                  >
+                  {%- for variant in variants_with_inventory_tracking -%}
+                    <div
+                      class="js-variant-inventory-data"
+                      data-id="{{ variant.id }}"
+                      data-quantity="{{ variant.inventory_quantity | default: 0 }}"
+                      data-incoming="{{ variant.incoming | default: false | json }}"
+                      data-date="{{ variant.next_incoming_date | date: format: 'date' | json }}"
+                    >
+                    </div>
+                  {%- endfor -%}
+                </div>
+              {%- endif -%}
+            {%- endif -%}
+            
+
+
+            
+  {%- assign inventory_visible = false -%}
+  {%- if settings.inventory_enable and current_variant.inventory_management == 'shopify' -%}
+    {%- if current_variant.inventory_quantity <= settings.inventory_threshold and current_variant.inventory_quantity >= 0 -%}
+      {%- assign inventory_visible = true -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- liquid
+    if current_variant.inventory_quantity < 1
+      assign inventory_visible = false
+    endif
+
+    assign show_incoming = false
+    if current_variant.incoming and inventory_visible == false and current_variant.inventory_quantity <= settings.inventory_threshold
+      assign show_incoming = true
+    endif
+  -%}
+  {%- if settings.inventory_enable -%}
+    <div
+      id="XProductInventory-{{ section_id }}"
+      class="product__inventory"
+      >
+      {%- if current_variant.inventory_policy == 'continue' and current_variant.next_incoming_date != blank -%}
+        {%- assign date = current_variant.next_incoming_date | date: format: 'date' -%}
+        <strong>
+          {{ 'products.product.preorder2' | t: date: date }}
+        </strong>
+        {%- comment -%}
+        <input type="text" class="hide" name="properties[next_incoming_date]" value="{{current_variant.next_incoming_date | date: '%s' }}"/>
+        {%- elsif current_variant.available -%}
+        {{ 'products.product.stock_label' | t: count: current_variant.inventory_quantity }}
+        {%- endcomment -%}
+
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  {%- if settings.inventory_transfers_enable -%}
+    <div
+      id="ProductIncomingInventory-{{ section_id }}"
+      class="product__inventory{% unless inventory_visible %} hide{% endunless %}">
+      {%- if show_incoming == true -%}
+        {%- if current_variant.next_incoming_date -%}
+          {%- assign date = current_variant.next_incoming_date | date: format: 'date' -%}
+          {%- if current_variant.available -%}
+            {{ 'products.product.will_not_ship_until' | t: date: date }}
+          {%- else -%}
+            {{ 'products.product.will_be_in_stock_after' | t: date: date }}
+          {%- endif -%}
+        {%- else -%}
+          {{ 'products.product.waiting_for_stock' | t }}
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  <!--  Product availability  -->
+
+  {% capture inventory %}
+  {% for variant in product.variants %}
+    {{ variant.inventory_management }}
+  {% endfor %}
+{% endcapture %}
+
+
+{% if inventory contains "shopify" and product.selected_or_first_available_variant.next_incoming_date == blank %}
+  <div
+    id="ProductInventory-{{ section_id }}"
+    class="product__inventory hide product__inventory_in_stock {% if current_variant.inventory_policy != 'continue' %}hide{% endif %}"
+    {% if product.metafields.detail.stock_text.value %}
+      data-text="stock_label_3_days"
+    {% else %}
+      {%- comment -%}add 28 days:{%- endcomment -%}
+      {% if product.metafields.custom.next_incoming_date.value %}
+        {% capture date %}{{ product.metafields.custom.next_incoming_date.value | date: "%d.%m.%Y" }}{% endcapture %}
+      {% else %}
+        {% assign seconds = 28 | times: 24 | times: 60 | times: 60 %}
+        {% capture date %}{{ 'now' | date: "%s" | plus: seconds | date: "%d.%m.%Y" }}{% endcapture %}
+      {% endif %}
+
+        data-preorder-text="{{ 'products.product.preorder3' | t: date: date }}"
+      {% if product.tags contains "always in stock" or current_variant.inventory_policy == 'continue' %}
+        data-always-in-stock="true"
+      {% endif %}
+    {% endif %}
+    data-storeinstock="{{ 'products.product.store_in_stock_html' | t }}"
+    >
+  </div>
+{% endif %}
+
+{% if inventory contains "shopify" and product.selected_or_first_available_variant.next_incoming_date == blank %}
+  <div
+    id="ProductInventory-{{ section_id }}"
+    class="product__inventory hide {% if current_variant.inventory_policy != 'continue' %}hide{% endif %}"
+    >
+  </div>
+{% endif %}
+
+  {%- liquid
+    assign enable_dynamic_buttons = false
+    if settings.enable_payment_button and template != 'product.preorder'
+      assign enable_dynamic_buttons = true
+    endif
+  -%}
+
+  {%- if enable_dynamic_buttons -%}
+    <div class="payment-buttons">
+  {%- endif -%}
+
+    {%- liquid
+      assign default_text = 'products.product.add_to_cart' | t
+      assign button_text = 'products.product.add_to_cart' | t
+      if template == 'product.preorder'
+        assign default_text = 'products.product.preorder' | t
+        assign button_text = 'products.product.preorder' | t
+      endif
+      unless current_variant.available
+        assign button_text = 'products.product.sold_out' | t
+      endunless
+    -%}
+
+    <button
+      {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
+      name="add"
+      id="AddToCart-{{ section_id }}"
+      class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %}"
+      {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+      <span id="AddToCartText-{{ section_id }}" data-default-text="{{ default_text }}">
+        {{ button_text }}
+      </span>
+    </button>
+
+    {%- if enable_dynamic_buttons -%}
+      {{ form | payment_button }}
+    {%- endif -%}
+
+  {%- if enable_dynamic_buttons -%}
+    </div>
+  {%- endif -%}
+
+  <textarea id="VariantsJson-{{ section_id }}" class="hide" aria-hidden="true" aria-label="Product JSON">
+    {{ product.variants | json }}
+  </textarea>
+  {%- if product.options.size > 1 -%}
+    <textarea id="CurrentVariantJson-{{ section_id }}" class="hide" aria-hidden="true" aria-label="Variant JSON">
+      {{ current_variant | json }}
+    </textarea>
+  {%- endif -%}
+{%- endform -%}
+
+<div class="product-benefits">
+  {% for col in product.collections %}
+    {% for i in (1..6) %}
+      {% assign meta_key = "benefit" | append: i %}
+      {% assign benefit_val = col.metafields.global[meta_key].value %}
+
+      {% if benefit_val != blank %}
+        <div class="product-benefit">
+          {% if benefit_val contains "<p>" %}
+            {{ benefit_val }}
+          {% else %}
+            <p>
+              {{ benefit_val }}
+            </p>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+
+
+
+<!-- hanka - product label -->  
+{% assign product_tag_01 = settings.pr_label_01_tag %}
+{%- if product.tags contains product_tag_01 -%}
+  {%- if settings.pr_label_01_desc != blank -%}
+  <div class="pr-label">
+    {{ settings.pr_label_01_desc }}
+  </div>
+  {% endif %}
+{% endif %}
+
+{% assign product_tag_02 = settings.pr_label_02_tag %}
+{%- if product.tags contains product_tag_02 -%}
+  {%- if settings.pr_label_02_desc != blank -%}
+  <div class="pr-label">
+    {{ settings.pr_label_02_desc }}
+  </div>
+  {% endif %}
+{% endif %}
+
+{% assign product_tag_03 = settings.pr_label_03_tag %}
+{%- if product.tags contains product_tag_03 -%}
+  {%- if settings.pr_label_03_desc != blank -%}
+  <div class="pr-label">
+    {{ settings.pr_label_03_desc }}
+  </div>
+  {% endif %}
+{% endif %}
+
+{% assign product_tag_04 = settings.pr_label_04_tag %}
+{%- if product.tags contains product_tag_04 -%}
+  {%- if settings.pr_label_04_desc != blank -%}
+  <div class="pr-label">
+    {{ settings.pr_label_04_desc }}
+  </div>
+  {% endif %}
+{% endif %}
+
+{% assign product_tag_05 = settings.pr_label_05_tag %}
+{%- if product.tags contains product_tag_05 -%}
+  {%- if settings.pr_label_05_desc != blank -%}
+  <div class="pr-label">
+    {{ settings.pr_label_05_desc }}
+  </div>
+  {% endif %}
+{% endif %}
+<!-- endhanka -->
+
+
+<style>
+  .pr-label {
+    border-left: black 3px solid;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    line-height: normal;
+    margin: 5px 0;
+  }
+</style>
+
+
+<script>
+  // Uncheck default variant
+  document.querySelector("input[checked]").removeAttribute("checked");
+
+
+
+
+
+</script>
+
+<script>
+  //colors:
+  if (document.getElementsByClassName("dropdown-current")) {
+    var variantDropdown = document.getElementsByClassName("dropdown-current")[0]
+    var variantDropdownOptions = document.getElementsByClassName("variant-dropdown-options")[0]
+    
+    variantDropdown.addEventListener("click", (e)=>{
+      e.preventDefault()
+      if (variantDropdown.classList.contains("open")) {
+        variantDropdown.classList.remove("open")
+        variantDropdownOptions.classList.add("hide")
+      } else {
+        variantDropdown.classList.add("open")
+        variantDropdownOptions.classList.remove("hide")
+      }
+    })
+    
+  }
+</script>

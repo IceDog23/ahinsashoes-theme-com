@@ -1,0 +1,113 @@
+{%- unless images_col == blank -%}
+{% assign product_image_size = "600x600" %}
+{% assign product_zoom_size = "600x600" %}
+
+{% if section_id == blank %}
+{% assign section_id = 0 %}
+{% endif %}
+{% assign recycledLPGalleryThumbs = "RecycledLPGalleryThumbs" | append: section_id  %}
+{% assign recycledLPGallery = "RecycledLPGallery" | append: section_id %}
+{% assign recycledLPGalleryNavScroller = "RecycledLPGalleryNavScroller" | append: section_id  %}
+
+
+  <div
+    data-product-images
+    data-zoom="true"
+    data-has-slideshow="true">
+    <div class="product__photos product__photos-{{ section_id }} product__photos--below">
+
+      <div class="product__main-photos" data-aos data-product-single-media-group>
+        <div id="{{ recycledLPGallery }}" class="product-slideshow">
+          {%- for media2 in section.blocks -%}
+          {% assign media = media2.settings.image %}
+          
+            {%- render 'media',
+              section_id: section_id,
+              media: media,
+              featured_media: featured_media,
+              loopIndex0: forloop.index0,
+              loopIndex: forloop.index,
+              product_zoom_size: product_zoom_size,
+              product_image_size: product_image_size,
+              isModal: isModal,
+              video_looping: video_looping,
+              video_style: video_style
+            -%}
+          {%- endfor -%}
+        </div>
+      </div>
+
+      <div
+        id="{{ recycledLPGalleryThumbs }}"
+        class="product__thumbs product__thumbs--below product__thumbs-placement--below{% if images_col.size == 1 %} medium-up--hide{% endif %} small--hide"
+        data-position="below"
+        data-arrows="true"
+        data-aos>
+          <button type="button" class="product__thumb-arrow product__thumb-arrow--prev hide">
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 284.49 498.98"><path d="M249.49 0a35 35 0 0 1 24.75 59.75L84.49 249.49l189.75 189.74a35.002 35.002 0 1 1-49.5 49.5L10.25 274.24a35 35 0 0 1 0-49.5L224.74 10.25A34.89 34.89 0 0 1 249.49 0z"/></svg>
+          </button>
+
+        <div class="product__thumbs--scroller" id="{{ recycledLPGalleryNavScroller }}">
+          {%- if images_col.size > 1 -%}
+            {%- for media2 in images_col -%}
+              {% assign media = media2.settings.image %}
+              {%- liquid
+                assign image_set = false
+                assign image_set_group = ''
+                if media.alt contains '#'
+                  assign image_set_full = media.alt | split: '#' | last
+                  if image_set_full contains '_'
+                    assign image_set = true
+                    assign image_set_group = image_set_full | split: '_' | first
+                  endif
+                endif
+              -%}
+              <div class="product__thumb-item"
+                data-index="{{ forloop.index0 }}"
+                {% if image_set %}
+                  data-set-name="{{image_set_group}}"
+                  data-group="{{image_set_full}}"
+                {% endif %}>
+                <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: media.aspect_ratio }}%;">
+                  <a
+                    href="{{ media | img_url: product_zoom_size }}"
+                    class="product__thumb product__thumb"
+                    data-index="{{ forloop.index0 }}"
+                    data-id="{{ media.id }}">
+                  
+
+                    {%- assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="animation-delay-{{ forloop.index | times: 3 }} lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[120, 360, 540, 720]"
+                        data-aspectratio="{{ media.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ media.alt | escape | split: '#' | first }}">
+                  </a>
+                </div>
+              </div>
+            {%- endfor -%}
+          {%- endif -%}
+        </div>
+
+          <button type="button" class="product__thumb-arrow product__thumb-arrow--next">
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-right" viewBox="0 0 284.49 498.98"><path d="M35 498.98a35 35 0 0 1-24.75-59.75l189.74-189.74L10.25 59.75a35.002 35.002 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L59.75 488.73A34.89 34.89 0 0 1 35 498.98z"/></svg>
+          </button>
+      </div>
+    </div>
+  </div>
+
+  <script type="application/json" id="ModelJson-{{ section_id }}">
+    {{ images_col | where: 'media_type', 'model' | json }}
+  </script>
+{%- else -%}
+  <div class="product__photos product__photos-{{ section_id }}">
+    <div class="product__main-photos" style="width: 100%">
+      <div id="ProductPhotos-{{ section_id }}">
+        <div class="product-main-slide" data-index="{{ forloop.index0 }}">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endunless -%}

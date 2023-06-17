@@ -1,0 +1,96 @@
+<div class="page-width">
+  <div class="dzinoviny-faq">
+    {%- if section.settings.heading != blank -%}
+      <p class="h3 bold text-center dzinoviny-mb">{{ section.settings.heading | escape }}</p>
+    {%- endif -%}
+    {%- for block in section.blocks -%}
+      {%- if block.settings.question != blank -%}
+        {% if forloop.first == true %}
+        <div class="dzinoviny-faq-item faq-expanded">
+          <div class="dzinoviny-faq-question">
+            <img class="dzinoviny-faq-question-img" src="{{ 'arrow_right_circle.png' | asset_url }}" >
+            <div class="dzinoviny-faq-question-text">{{ block.settings.question }}</div>
+          </div>
+          <div class="dzinoviny-faq-answer aos-init aos-animate">{{ block.settings.answer }}</div>
+        </div>
+        {%- else -%}
+        <div class="dzinoviny-faq-item">
+          <div class="dzinoviny-faq-question">
+            <img class="dzinoviny-faq-question-img" src="{{ 'arrow_right_circle.png' | asset_url }}" >
+            <div class="dzinoviny-faq-question-text">{{ block.settings.question }}</div>
+          </div>
+          <div class="dzinoviny-faq-answer aos-init aos-animate">{{ block.settings.answer }}</div>
+        </div>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+<script>
+  const allFaqItems = document.querySelectorAll('.dzinoviny-faq-item')
+
+  allFaqItems.forEach(item => {
+    // item.querySelector('.dzinoviny-faq-question').addEventListener('click', (e) => {
+    //   if (item.classList.contains('faq-expanded')) {
+    //     item.classList.remove('faq-expanded')
+    //   }
+    //   else {
+    //     allFaqItems.forEach(item => item.classList.remove('faq-expanded'))
+    //     item.classList.add('faq-expanded')
+    //   }
+    // })
+    item.querySelector('.dzinoviny-faq-question').addEventListener('click', (e) => {
+      if (item.classList.contains('faq-expanded')) item.classList.remove('faq-expanded')
+      else item.classList.add('faq-expanded')
+    })
+  })
+</script>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "type":"faq_item",
+      "name":"FAQ item",
+      "settings":[
+        {
+          "type":"text",
+          "id":"question",
+          "label":"Question",
+          "default":"Question"
+        },
+        {
+          "type":"richtext",
+          "id":"answer",
+          "label":"Answer",
+          "default":"<p>Answer</p>"
+        }
+      ]
+    }
+  ],
+  "default":{
+    "blocks":[
+      {
+        "type":"faq_item"
+      },
+      {
+        "type":"faq_item"
+      },
+      {
+        "type":"faq_item"
+      }
+    ]
+  }
+}
+{% endschema %}

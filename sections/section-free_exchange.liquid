@@ -1,0 +1,40 @@
+{% render 'information_banner_with_button' %}
+
+{% schema %}
+{
+    "name": "Nejste si jistí, vyměníme",
+    "class": "we_will_exchange",
+    "settings": [
+    {
+        "type":"text",
+        "id":"title",
+        "label":"Title",
+        "default":"Nejste si jistí? Výměnu máte zdarma"
+    },
+    {
+        "type": "textarea",
+        "id": "rich_text",
+        "label": "Text",
+        "default": "Kdyby vám vaše Ahinsa shoes přece jenom nesedly,"
+    },
+    {
+        "type":"text",
+        "id":"btn_text",
+        "label":"Button text",
+        "default":"Jak to funguje?"
+    },
+    {
+        "type":"url",
+        "id":"btn_url",
+        "label":"Button Link",
+        "default":"/"
+    }
+  ],
+    "presets": [
+        {
+            "category": "Text",
+            "name":"Nejste si jistí, vyměníme"
+        }
+    ]
+}
+{% endschema %}

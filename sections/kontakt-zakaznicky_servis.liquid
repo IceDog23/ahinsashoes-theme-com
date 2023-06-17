@@ -1,0 +1,83 @@
+{% render 'kontakt-zakaznicky_servis' %}
+
+{% schema %}
+{
+    "name": "Service",
+    "class": "kontakt-zakaznicky_servis kontakt-box",
+    "settings": [
+    {
+        "type":"text",
+        "id":"title",
+        "label":"Title",
+        "default":"Zákaznický servis"
+    },
+    {
+        "type": "textarea",
+        "id": "rich_text",
+        "label": "Text",
+        "default": "S čím pomůžeme?"
+    },
+    {
+        "type": "text",
+        "id": "phone",
+        "label": "Telefon",
+        "default": "+420 226 111 222"
+    },
+    {
+        "type": "text",
+        "id": "phone_url",
+        "label": "Telefon bez mezer",
+        "default": "+420226111222"
+    },
+    {
+        "type": "text",
+        "id": "prov_doba",
+        "label": "Provozní doba",
+        "default": "(pondělí–pátek 8:00–20:00)"
+    },
+    {
+        "type": "text",
+        "id": "mail",
+        "label": "E-mail",
+        "default": "info@ahinsashoes.com"
+    },
+    {
+        "type": "text",
+        "id": "mail_url",
+        "label": "E-mail do odkazu",
+        "default": "info@ahinsashoes.com"
+    },
+    {
+        "type": "text",
+        "id": "postaraji_se",
+        "label": "Postarají se",
+        "default": "Postarají se o vás:"
+    }
+  ],
+    "blocks": [
+    {
+        "type": "html",
+        "name": "Custom content",
+        "settings": [
+        {
+            "type":"image_picker",
+            "id":"image",
+            "label":"obrázek"
+        },
+        {
+            "type": "text",
+            "id": "jmeno",
+            "label": "Jméno",
+            "default": "John Doe"
+        }
+        ]
+    }
+    ],
+    "presets": [
+        {
+            "category": "Text",
+            "name":"Service"
+        }
+    ]
+}
+{% endschema %}

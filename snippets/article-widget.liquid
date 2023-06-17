@@ -1,0 +1,23 @@
+{% assign key = "widget" | append: widget_id %}
+<div class="clearfix"></div>
+<div class="product-listxxx grid grid--uniform flex-grid article-widget widget-{{key}}">
+    {% for mf in article.metafields[key] %}
+        {% if mf.first contains "product" %}
+            {% assign product = all_products[mf.last] %}
+            {%- include 'product-grid-item', product: product, grid_item_width: 'medium-up--one-third small--one-half', per_row: 3 -%}
+        {% elsif mf.first contains "article" %}
+            {% capture article_handle %}news/{{mf.last.value}}{% endcapture %}
+            {% assign article_for_widget = articles[article_handle] %}
+            {%- render 'article-grid-item', article: article_for_widget,
+                grid_item_width: 'medium-up--one-half small--one-halfXX full-w',
+                per_row: 3,
+                image_size: "wide"
+            -%}
+        {% elsif mf.first contains "button" %}
+        <div class="mb-1 btn-widget-wrapper medium-up--one-half XXone-whole text-center XXtext-{{mf.last.value.align}}">
+            <a href="{{mf.last.value.url}}" class="btn">{{mf.last.value.text}}</a>
+        </div>
+        
+        {% endif %}
+    {% endfor %}
+</div>

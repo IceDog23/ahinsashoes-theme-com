@@ -1,0 +1,120 @@
+{% assign key = "widget" | append: widget_id %}
+<div class="clearfix"></div>
+
+{% assign is_promotion_widget = false %}
+{% for mf in page.metafields[key] %}
+    {% if mf.first contains "promotion" %}
+        {% assign is_promotion_widget = true %}
+    {% endif %}
+{% endfor %}
+{% assign is_textwithimage_widget = false %}
+{% for mf in page.metafields[key] %}
+    {% if mf.first contains "textwithimage_" %}
+        {% assign is_textwithimage_widget = true %}
+    {% endif %}
+{% endfor %}
+
+{% if is_promotion_widget %}
+<div class="footer-promotions-v2 article-widget widget-{{key}}">
+    <div class="grid grid--flush-bottom">
+{% elsif is_textwithimage_widget %}
+
+{% assign text_on_right = widget_id | modulo: 2 %}
+
+<div class="grid page-textwithimage {% if text_on_right == 0 %}textonright{% endif %} article-widget widget-{{key}}">
+{% else %}
+<div class="product-listxxx grid grid--uniform flex-grid article-widget widget-{{key}}">
+{% endif %}
+        
+    {% for mf in page.metafields[key] %}
+        {% if mf.first contains "product" %}
+            {% assign product = all_products[mf.last] %}
+            {%- include 'product-grid-item', product: product, grid_item_width: 'medium-up--one-third small--one-half', per_row: 3 -%}
+        {% elsif mf.first contains "article" %}
+            {% capture article_handle %}news/{{mf.last.value}}{% endcapture %}
+            {% assign article_for_widget = articles[article_handle] %}
+            {%- render 'article-grid-item', article: article_for_widget,
+                grid_item_width: 'medium-up--one-half small--one-half',
+                per_row: 3,
+                image_size: "wide"
+            -%}
+        {% elsif mf.first contains "button" %}
+        <div class="mb-1 btn-widget-wrapper medium-up--one-half XXone-whole text-center XXtext-{{mf.last.value.align}}">
+            <a href="{{mf.last.value.url}}" class="btn">{{mf.last.value.text}}</a>
+            </div>
+        {% elsif mf.first contains "collection" %}
+            {% assign collection = collections[mf.last] %}
+            {%- include 'collection-grid-item', collection: collection, grid_item_width: 'medium-up--one-third small--one-half', per_row: 3 -%}
+        {% elsif mf.first contains "promotion" %}
+            {%- liquid
+                assign grid_item_width = ''
+            -%}
+            {% if mf.last.value.title != blank %}
+                <div class="grid__item medium-up--one-third promo" data-aos="row-of-4">
+                    <a href="{{ mf.last.url }}" class="image-wrapper">
+
+                        {% assign image = mf.last.value.image %}
+                        {% if image != blank %}
+                        <img class="lazyload grid__image-cover"
+                        data-src="{{ image }}"
+                        data-widths="[360, 540, 720, 900, 1080]"
+                        data-aspectratio="1"
+                        data-sizes="auto"
+                        alt="{{image.alt}}">
+                        {% else %}
+                    
+
+                        {% assign img_url = "promo" | append: 1 | append: ".png" %}
+
+                        <img class="lazyload grid__image-cover"
+                            data-src="{{ img_url | asset_img_url: "180x" }}"
+                            data-widths="[360, 540, 720, 900, 1080]"
+                            data-aspectratio="1"
+                            data-sizes="auto"
+                            alt="">
+
+                        {% endif %}
+
+                    </a>
+                    <div>
+
+
+                    {%- if mf.last.value.title != blank -%}
+                    <div class="h3">{{ mf.last.value.title }}</div>
+                    {%- endif -%}
+                    {%- if mf.last.value.text != blank -%}
+                    <div class="rte-setting">{{ mf.last.value.text }}</div>
+                    {%- endif -%}
+                </div>
+                </div>
+            {% endif %}
+        
+        {% elsif mf.first contains "textwithimage_text" %}
+            <div class="medium-up--one-half grid__item">
+                {{ mf.last.value }}
+            </div>
+        {% elsif mf.first contains "textwithimage_image" %}
+            <div class="medium-up--one-half grid__item">
+                <img src="{{ mf.last.value | img_url: '480x' }}" alt="{{mf.last.alt}}">
+            </div>
+            {% elsif mf.first contains "textwithimage_embedvideo" %}
+            <div class="medium-up--one-half grid__item">
+                <iframe src="{{mf.last.value }}" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+            </div>
+            {% endif %}
+
+
+    {% endfor %}
+
+
+
+
+{% if is_promotion_widget %}
+</div>
+{% if page.metafields[key].promotion_image %}
+<img src="{{ page.metafields[key].promotion_image.value | img_url: '480x' }}" alt="{{page.metafields[key].promotion_image.alt}}">
+{% endif %}
+</div>
+{% else %}
+</div>
+{% endif %}

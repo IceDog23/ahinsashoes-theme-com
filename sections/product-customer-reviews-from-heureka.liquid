@@ -1,0 +1,37 @@
+{% assign heureka_reviews_for_products = shop.metafields.global.heureka_reviews_for_products.value %}
+{% assign product_text_reviews = heureka_reviews_for_products[product.handle].text_reviews %}
+
+{% assign user_img = "user.png" | asset_img_url: width: 200, height: 200 %}
+
+{% if product_text_reviews.size > 0 %}
+    <div class="testimonials-section">
+        <div class="customer-reviews page-width text-center">
+            <div class="section-header">
+                <h3>{{ "products.product.customer_reviews" | t}}</h3>
+                {{ "products.product.customer_reviews_text_html" | t}}
+            </div>
+            <div class="grid customer-reviews-grid">
+                {% for text_review in product_text_reviews %}
+                    {% if forloop.index < 3 %}
+                        <div class="customer-review grid__item medium-up--one-half aos-init aos-animate">
+                            <div>
+                                <div class="rating">
+                                    <div class="rating-stars rating-stars-bg">
+                                    <div class="rating-stars rating-stars-stars" style="width: {{ text_review.last.rating | times: 20 }}%;"></div>
+                                    </div>
+                                </div>
+                                <p>{{text_review.last.summary}}</p> 
+                                <p class="pros">{{text_review.last.pros}}</p> 
+                                <p class="cons">{{text_review.last.cons}}</p>
+                            </div>
+                            <div>
+                                <img src="{{ user_img }}" alt="{{ "products.product.customer_reviews_customer" | t}}">
+                                <h4>{{ "products.product.customer_reviews_customer" | t}}</h4>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endif %}

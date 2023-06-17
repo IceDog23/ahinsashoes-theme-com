@@ -1,0 +1,105 @@
+<div class="page-width section-store-directions" id="section-store-directions">
+    <h2 class="text-center">
+        {{section.settings.heading}}
+    </h2>
+    <div class="grid flex-grid--center flex-grid">
+        {% for block in section.blocks %}
+            <div class="grid__item medium-up--one-half">
+                <div class="bordered-wrapper {{block.type}}">
+                    <div>
+                        <h2 class="">
+                            {{block.settings.heading}}
+                        </h2>
+                        {{block.settings.content}}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <div class="grid__item map-wrapper">
+            <div id="store_map" style="height:380px"></div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+<script>
+    var center = SMap.Coords.fromWGS84(14.4326511,50.0766119);
+    var m = new SMap(JAK.gel("store_map"), center, 13);
+    m.addDefaultLayer(SMap.DEF_BASE).enable();
+    m.addDefaultControls();
+    var layer = new SMap.Layer.Marker();
+    m.addLayer(layer);
+    layer.enable();
+    var options = {};
+    var marker = new SMap.Marker(center, "myMarker", options);
+    layer.addMarker(marker);
+</script>
+<style>.smap img { max-width:none !important; }</style>
+
+
+{% schema %}
+    {
+      "name": "Directions",
+      "class": "index-section",
+      "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "Jak se k nám dostanete"
+        },
+        {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+        }
+      ],
+      "blocks": [
+        {
+            "name": "tram",
+            "type": "tram",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Heading",
+                    "default": "Tramvají nebo metrem"
+                },
+                {
+                    "type": "richtext",
+                    "id": "content",
+                    "label": "Content"
+                }
+            ]
+        },
+        {
+            "name": "car",
+            "type": "car",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Heading",
+                    "default": "Autem"
+                },
+                {
+                    "type": "richtext",
+                    "id": "content",
+                    "label": "Content"
+                }
+            ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Directions",
+          "blocks": []
+        }
+      ]
+    }
+  {% endschema %}
+  

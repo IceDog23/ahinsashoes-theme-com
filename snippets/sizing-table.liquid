@@ -1,0 +1,123 @@
+{%- comment -%}
+{% if page.content contains "<table" %}
+    {% assign parts = page.content | split: "<table" %}
+    {% assign before_table = "" %}
+    {% assign table = "" %}
+    {% assign after_table = "" %}
+
+    {% for part in parts %}
+        {% if part contains "<\/table" %}
+        {% assign parts = page.content | split: "<\/table" %}
+
+        break
+        {% endif %}
+        {% unless part contains "Vaše velikost" %}
+        {% if table == "" %}
+            {% assign before_table = before_table | append: part %}
+        {% else %}
+            {% assign after_table = after_table | append: part %}
+        {% endif %}
+        {% else %}
+        {% assign table = table | append: "<table" | append: part %}
+        {% endunless %}
+    {% endfor %}
+{% endif %}
+{{before_table}}
+
+{%- endcomment -%}
+        
+<h2>Balerínka Ánanda</h2>
+<p>
+  Nezapomeňte prosím
+  <a href="https://ahinsashoes.cz/pages/jak-spravne-vybrat-velikost"
+    >správně změřit chodidlo</a
+  >, přidat nadměrek 6-10mm a měli byste se bezpečně vejít do vnitřní délky
+  boty.
+</p>
+<div class="two_tables">
+  <div class="inside_table">
+    <table width="100%">
+      <tbody>
+        <tr class="table-headings">
+          <td style="text-align: center">
+            <strong>Vaše velikost<span> </span></strong>
+          </td>
+          <td style="text-align: center">
+            <strong>Vnitřní délka (mm)</strong>
+          </td>
+          <td style="text-align: center">
+            <strong>Vnitřní šířka boty <span> </span>(mm)</strong>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center">36</td>
+          <td style="text-align: center">22.6</td>
+          <td style="text-align: center">9</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">37</td>
+          <td style="text-align: center">23.2</td>
+          <td style="text-align: center">9.1</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">38</td>
+          <td style="text-align: center">24</td>
+          <td style="text-align: center">9.3</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">39</td>
+          <td style="text-align: center">24.6</td>
+          <td style="text-align: center">9.5</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">40</td>
+          <td style="text-align: center">25.2</td>
+          <td style="text-align: center">9.7</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="inside_table">
+    <table width="100%">
+      <tbody>
+        <tr class="table-headings">
+          <td style="text-align: center">
+            <strong>Vaše velikost<span> </span></strong>
+          </td>
+          <td style="text-align: center">
+            <strong>Vnitřní délka (mm)</strong>
+          </td>
+          <td style="text-align: center">
+            <strong>Vnitřní šířka boty <span> </span>(mm)</strong>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center">41</td>
+          <td style="text-align: center">25.8</td>
+          <td style="text-align: center">9.9</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">42</td>
+          <td style="text-align: center">26.4</td>
+          <td style="text-align: center">10.1</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">43</td>
+          <td style="text-align: center">27.2</td>
+          <td style="text-align: center">10.3</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">44</td>
+          <td style="text-align: center">27.9</td>
+          <td style="text-align: center">10.5</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">45</td>
+          <td style="text-align: center">28.5</td>
+          <td style="text-align: center">10.9</td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+  </div>
+</div>

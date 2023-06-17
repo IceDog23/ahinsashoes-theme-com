@@ -1,0 +1,37 @@
+.icon-payment-in-cart {
+	width: 38px;
+}
+
+.icon-in-cart {
+	width: 24px;
+	margin-right: 0.4rem;
+}
+
+.container-info-cart {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 16px!important;
+}
+
+.wrap-info-cart {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.wrap-info-cart p {
+	font-size: 14px;
+}
+
+.card-wrap {
+	display: flex;
+	align-items: center;
+	margin-right: 0.4rem;
+}
+
+@media screen and (max-width: 1174px) {
+	.card-wrap {
+		margin-left: -4px;
+	}
+}

@@ -1,0 +1,40 @@
+{{ 'info-numbering-size.css' | asset_url | stylesheet_tag }}
+{% layout none %}
+
+{% assign ladies_button = 'sizing_table.ladies_btn' %}
+{% if page.handle == "sizing-table-1" or page.handle == "sizing-table-6" %}
+    {% assign ladies_button = 'sizing_table.barefoot' %}
+    {% assign gentlemen_button = 'sizing_table.comfort' %}
+{% elsif page.handle == "sizing-table-2" %}
+    {% assign ladies_button = 'sizing_table.inspect' %}
+{% else %}
+    {% assign ladies_button = 'sizing_table.ladies_btn' %}
+    {% assign gentlemen_button = 'sizing_table.gentlemen_btn' %}
+{% endif %}
+
+<div class="rte rte--nomargin ">
+    <h2 class="text-transform-init"><span class="bold">{{ 'sizing_table.shoe_size_table' | t }}</span></h2>
+    <div id="inner-table">
+      {{ page.content }}
+    </div>
+        {% if page.metafields.collection.ladies != blank or page.metafields.collection.gentlemen != blank %}
+            <h3 class="text-transform-init"><span class="bold">{{ 'sizing_table.see_also' | t }}</span></h3>
+        {% endif %}
+    <div class="closeLadiesGentlemanBtn">
+        {%- comment -%}<div id="popup_close" class="btn">{{ 'sizing_table.close_btn' | t }}</div>{%- endcomment -%}
+        {% if page.metafields.collection.ladies != blank %}
+            <div class="ladiesBtn {% unless page.metafields.collection.gentlemen != blank %}full--w text-center{% endunless %}">
+                <a href="/collections/{{ page.metafields.collection.ladies.value }}" id="gentlemen" class="btn">{{ ladies_button | t }}</a>{%- comment -%}{{ collections[page.metafields.collection.ladies.value].url }}{%- endcomment -%}
+            </div>
+        {% endif %}
+        {% if page.metafields.collection.gentlemen != blank %}
+            <div class="gentlemenBtn">
+                <a href="/collections/{{ page.metafields.collection.gentlemen.value }}" id="gentlemen" class="btn">{{ gentlemen_button | t }}</a>{%- comment -%}{{ collections[page.metafields.collection.gentlemen.value].url }}{%- endcomment -%}
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+  $('.two_tables').before('<div class="popup-info-new-numbering-size"><p>{{ 'sizing_table.alert_change_sizing' | t }}</p></div>');
+</script>

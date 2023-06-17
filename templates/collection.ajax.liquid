@@ -1,0 +1,148 @@
+{% comment %}
+  Exact same as normal collection template but without unneeded markup
+  that slows down ajax loading
+{% endcomment %}
+{% layout none %}
+{%- include 'seo-title' -%}
+
+{% assign full_collection_handle = request.path | split: "/collections/" | last %}
+{% assign full_collection_handle_short = full_collection_handle | split: "/" | last %}
+{%- capture full_collection_handle_short_pt2 -%}
+  {%- for filter in collection.filters -%}
+    {%- assign is_size_filter = false -%}
+    {%- if filter.label == "Velikost" or filter.label == "Size" -%}
+      {%- assign is_size_filter = true -%}
+    {%- endif -%}
+    {%- unless is_size_filter -%}
+      {%- for filter_value in filter.active_values -%}
+        {{ filter_value.label | handleize }}
+        {%- unless forloop.last -%}+{%- endunless -%}
+      {%- endfor -%}
+    {% endunless %}
+  {%- endfor -%}
+{%- endcapture -%}
+{% assign full_collection_handle_short_pt2 = full_collection_handle_short_pt2 | replace: ' ', "" | strip_newlines %}
+{% if full_collection_handle_short_pt2 != blank %}
+  {% assign full_collection_handle_short = full_collection_handle_short | append: '/' | append: full_collection_handle_short_pt2 %}
+{% endif %}
+
+{% assign col_top_desc = collection.metafields.description_top[full_collection_handle].value %}
+{% assign col_bottom_desc = collection.metafields.description_bottom[full_collection_handle].value %}  
+
+{% if col_top_desc == blank %}
+  {% assign col_top_desc = collection.metafields.description_top[full_collection_handle_short].value %}
+{% endif %}
+{% if col_bottom_desc == blank %}
+  {% assign col_bottom_desc = collection.metafields.description_bottom[full_collection_handle_short].value %}
+{% endif %}
+
+{%- assign filter_active_values_size = 0 -%}
+{%- for filter in collection.filters -%}
+  {%- assign filter_active_values_size = filter_active_values_size | plus: filter.active_values.size -%}
+{%- endfor -%}
+
+{%- assign per_row = section.settings.per_row -%}
+{%- assign paginate_by = per_row | times: section.settings.rows_per_page -%}
+
+{%- paginate collection.products by paginate_by -%}
+
+<div id="CollectionAjaxContent">
+  <div id="CollectionTitle" class="visually-hidden">{{- seo_title | strip -}}</div>
+  {% section 'collection-header' %}
+  <div class="page-width">
+    <div class="grid">
+      <div class="grid__item medium-up--one-fifth grid__item--sidebar">
+        {% section 'collection-sidebar' %}
+      </div>
+      <div class="grid__item medium-up--four-fifths grid__item--content">
+        <div class="collection-grid__wrapper">
+          {% if col_top_desc != blank and current_page == 1 %}
+          <div class="collection-description collection-description-top">
+            {{col_top_desc}}
+          </div>
+          {% elsif current_page > 1 %}
+          <br>
+          {% endif %}
+          {% section 'collection-template' %}
+          {% if col_bottom_desc != blank and current_page == 1 %}
+            <div class="collection-description collection-description-bottom">
+              {{col_bottom_desc}}
+            </div>
+          {% endif %}
+
+          {% assign rel_collections = collection.metafields.global.related_collections.value %}
+          {% if rel_collections %}
+            <div class="page-width">
+              <header class="section-header">
+                  <h2 class="section-header__title">
+                  {{ "collections.general.related_categories" | t }}
+                  </h2>
+              </header>
+            </div>
+            <div class="page-width col-related-collections">
+              {% for col in rel_collections %}
+              {% assign colle = collections[col] %}
+              {% assign c_title = colle.title %}
+              {% if col contains "/" %}
+                  {% assign collection_dyn_title = shop.metafields.global.category_headings.value[col] %}
+                      {% if collection_dyn_title != blank %}
+                      {% assign c_title = collection_dyn_title %}
+                  {% else %}
+                      {% assign c_tmp = col | split: '/' | first %}
+                      {% assign c_title = shop.metafields.global.category_headings.value[c_tmp] %}
+                  {% endif %}
+              {% endif %}
+              <a href="{{shop.url}}/collections/{{col}}" class="link_underline">{{c_title}}</a>
+              {% endfor %}
+              
+            </div>
+          {% endif %}
+
+          <div class="page-width">
+            <header class="section-header">
+                <h2 class="section-header__title">
+                {{ "collections.general.related_articles" | t }}
+                </h2>
+            </header>
+          </div>
+          <div class="page-width col-related-articles">
+              <div>
+                {% assign rel_articles = collection.metafields.global.related_articles.value %}
+                {% if rel_articles %}
+                  {% for art in rel_articles %}
+                  {% assign art_handle = "news/" | append: art %}
+                    {% assign article = blogs["news"].articles | where: "handle", art_handle | first %}
+                    {%- render 'article-grid-item',
+                      blog: "news",
+                      article: article,
+                      grid_item_width: 'medium-up--one-third',
+                      per_row: '3',
+                      image_size: "wide"
+                    -%}
+                  {% endfor %}
+                {% else %}
+                  {% for article in blogs["news"].articles limit: 3 %}
+                    {%- render 'article-grid-item',
+                      blog: "news",
+                      article: article,
+                      grid_item_width: 'medium-up--one-third',
+                      per_row: '3',
+                      image_size: "wide"
+                    -%}
+                  {% endfor %}
+                {% endif %}
+              </div>
+              <div class="col-related-articles-btn-wrapper">
+                <a class="btn btn--secondary" href="{{blogs["news"].url}}" >{{"collections.general.related_articles_more" | t}}</a>
+              </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- endpaginate -%}

@@ -1,0 +1,43 @@
+{% capture image_layout %}
+    <div class="feature-row__item">
+        {% if section.settings.image != blank %}
+            {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            <div class="feature-row__image-wrapper js">
+                {%- comment -%}<div style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100}}%;" class="off-image">{%- endcomment -%}
+                    <img class="feature-row__image lazyload"
+                        src="{{ section.settings.image | img_url: 'master' }}"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ section.settings.image.alt | escape }}">
+                {%- comment -%}</div>{%- endcomment -%}
+            </div>
+            <noscript>
+                {{ section.settings.image | img_url: '600x600', scale: 2 | img_tag: section.settings.image.alt, 'feature-row__image' }}
+            </noscript>
+        {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {% endif %}
+    </div>
+{% endcapture %}
+
+
+<div class="feature-row">
+    {% if section.settings.layout == 'left' %}
+        {{ image_layout }}
+    {% endif %}
+    
+    <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
+        {% if section.settings.title != blank %}
+        <h3>{{ section.settings.title | escape }}</h3>
+        {% endif %}
+        {% if section.settings.rich_text != blank %}
+          <div class="rte rte-setting featured-row__subtext">{{ section.settings.rich_text }}</div>
+        {% endif %}
+      </div>
+
+    {% if section.settings.layout == 'right' %}
+        {{ image_layout }}
+    {% endif %}
+</div>

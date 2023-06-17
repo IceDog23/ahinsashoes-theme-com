@@ -1,0 +1,85 @@
+{{ 'text-info-cart.css' | asset_url | stylesheet_tag }}
+
+<div class="grid__item">
+  <div class="rte container-info-cart">
+    <div class="wrap-info-cart">
+      <img
+        id="shipping-icon"
+        class="lazyloaded icon-in-cart"
+        src="{{ section.settings.shipping-icon | img_url: 'master' }}"
+        alt="{{ section.settings.shipping-icon.alt }}" />
+
+      <p>{{ section.settings.shipping-txt }}</p>
+    </div>
+
+    <div class="wrap-info-cart">
+      <div class="card-wrap ">
+        {% for block in section.blocks %}
+          <img src="{{block.settings.image | img_url: 'master'}}" class="lazyloaded icon-payment-in-cart" />
+        {% endfor %}
+      </div>
+
+      <p>{{ section.settings.payment-txt }}</p>
+    </div>
+
+
+    <div class="wrap-info-cart">
+      <img
+        class="lazyloaded icon-in-cart"
+        src="{{ section.settings.replacement-icon | img_url: 'master' }}"
+        alt="{{ section.settings.replacement-icon.alt }}" />
+
+      <p>{{ section.settings.replacement-txt }}</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Info block text cart",
+    "tag": "section",
+    "class": "info-cart-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "shipping-txt",
+        "label": "Shipping text"
+      },
+      {
+        "type": "text",
+        "id": "payment-txt",
+        "label": "Payment text"
+      },
+      {
+        "type": "text",
+        "id": "replacement-txt",
+        "label": "Replacement text"
+      },
+      {
+        "type": "image_picker",
+        "id": "shipping-icon",
+        "label": "Shipping icon",
+        "info": "Image shipping icon"
+      }, {
+        "type": "image_picker",
+        "id": "replacement-icon",
+        "label": "Replacement icon",
+        "info": "Icon replacement"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image card",
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "Your image",
+            "id": "image"
+          }
+        ]
+      }
+    ]
+
+  }
+{% endschema %}

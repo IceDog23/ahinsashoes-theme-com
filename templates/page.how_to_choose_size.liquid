@@ -1,0 +1,32 @@
+<div class="page-width page-content">
+
+  {%- render 'breadcrumbs' -%}
+
+	<div class="grid">
+    <div class="grid__item medium-up--three-quarters medium-up--push-one-eighth how_to_choose_size">
+
+      <header class="section-header">
+        <h1 class="section-header__title uppercase">{{ page.title }}</h1>
+        {% section 'section-how_to_subheading' %}
+      </header>
+
+      {% section 'section-how_to_measure_foot' %}
+      {% section 'section-not_sure__help' %}
+      {% section 'section-free_exchange' %}
+      {% section 'section-barefoot_or_comfort' %}
+      {% section 'section-what_feet_type' %}
+
+      {%- comment -%}
+      <div class="rte rte--nomargin">
+        {{ page.content }}
+      </div>
+      {%- endcomment -%}
+
+    </div>
+  </div>
+
+</div>
+
+<div id="popup_block">
+  {% render "tabulka_velikosti" %}
+</div>

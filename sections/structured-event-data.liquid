@@ -1,0 +1,142 @@
+<!-------------  STRUCTURED DATA - TYPE EVENT ------------------>
+
+  {% if section.settings.name != blank %}
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "SaleEvent",
+      "name": "{{ section.settings.name }}",
+      "description": "",
+      "url": "{{ section.settings.url }}",
+      "startDate": "{{ section.settings.startDate }}",
+      "endDate": "{{ section.settings.endDate }}",
+      "location": {
+        "@type": "Place",
+        "name": "AhinsaShoes",
+        "address": "AhinsaShoes"
+      },
+        "eventAttendanceMode": "online"
+      }
+    </script>
+  {% endif %}
+
+  {% if section.settings.name2 != blank %}
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "SaleEvent",
+        "name": "{{ section.settings.name2 }}",
+        "description": "",
+        "url": "{{ section.settings.url2 }}",
+        "startDate": "{{ section.settings.startDate2 }}",
+        "endDate": "{{ section.settings.endDate2 }}",
+        "location": {
+          "@type": "Place",
+          "name": "AhinsaShoes",
+          "address": "AhinsaShoes"
+        },
+          "eventAttendanceMode": "online"
+        }
+    </script>
+  {% endif %}
+
+  {% if section.settings.name3 != blank %}
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "SaleEvent",
+      "name": "{{ section.settings.name3 }}",
+      "description": "",
+      "url": "{{ section.settings.url3 }}",
+      "startDate": "{{ section.settings.startDate3 }}",
+      "endDate": "{{ section.settings.endDate3 }}",
+      "location": {
+        "@type": "Place",
+        "name": "AhinsaShoes",
+        "address": "AhinsaShoes"
+      },
+        "eventAttendanceMode": "online"
+      }
+  </script>
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Structured Event Data",
+    "settings": [
+
+      {
+        "type": "text",
+        "id": "name",
+        "label": "Name"
+      },
+      {
+        "type": "text",
+        "id": "url",
+        "label": "URL"
+      },
+      {
+        "type": "text",
+        "id": "startDate",
+        "label": "Start Date"
+      },
+      {
+        "type": "text",
+        "id": "endDate",
+        "label": "End Date"
+      },
+
+
+      {
+        "type": "text",
+        "id": "name2",
+        "label": "Name - Second"
+      },
+      {
+        "type": "text",
+        "id": "url2",
+        "label": "URL - Second"
+      },
+      {
+        "type": "text",
+        "id": "startDate2",
+        "label": "Start Date - Second"
+      },
+      {
+        "type": "text",
+        "id": "endDate2",
+        "label": "End Date - Second"
+      },
+
+
+
+      {
+        "type": "text",
+        "id": "name3",
+        "label": "Name - Third"
+      },
+      {
+        "type": "text",
+        "id": "url3",
+        "label": "URL - Third"
+      },
+      {
+        "type": "text",
+        "id": "startDate3",
+        "label": "Start Date - Third"
+      },
+      {
+        "type": "text",
+        "id": "endDate3",
+        "label": "End Date - Third"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Structured Data"
+      }
+    ]
+  }
+{% endschema %}
+

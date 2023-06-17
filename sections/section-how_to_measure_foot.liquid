@@ -1,0 +1,49 @@
+{% render 'jak_si_zmerit_nohu' %}
+
+{% schema %}
+{
+    "name": "How to measure feet",
+    "class": "how_to_measure",
+    "settings": [
+    {
+        "type":"image_picker",
+        "id":"image",
+        "label":"obrázek"
+     },
+     {
+        "type":"select",
+        "id":"layout",
+        "label":"Picture position",
+        "default":"left",
+        "options":[
+           {
+              "value":"left",
+              "label":"Left"
+           },
+           {
+              "value":"right",
+              "label":"Right"
+           }
+        ]
+     },
+     {
+        "type":"text",
+        "id":"title",
+        "label":"Title",
+        "default":"Jak si správně změřit nohy?"
+     },
+    {
+        "type": "textarea",
+        "id": "rich_text",
+        "label": "Text",
+        "default": "Budete potřebovat metr/pravítko"
+    }
+  ],
+    "presets": [
+        {
+            "category": "Text",
+            "name":"How to measure feet"
+        }
+    ]
+}
+{% endschema %}

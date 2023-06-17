@@ -1,0 +1,149 @@
+{% render 'feet_type' %}
+
+{% schema %}
+{
+    "name": "What's your feet type?",
+    "class": "feet_type",
+    "settings": [
+        {
+            "type":"text",
+            "id":"title",
+            "label":"Title",
+            "default":"Jaký typ nohy máte?"
+        },
+        {
+          "type": "header",
+          "content": "First block"
+        },
+        {
+            "type":"text",
+            "id":"first_title",
+            "label":"Title",
+            "default":"Úzká"
+        },
+        {
+            "type":"text",
+            "id":"first_desc",
+            "label":"Description",
+            "default":"Většina bot je vám volná"
+        },
+        {
+           "type": "image_picker",
+           "id": "first_img",
+           "label": "Image"
+        },
+        {
+            "type":"text",
+            "id":"first_collections_tag",
+            "label":"Linking collection tag",
+            "default":"uzke"
+        },
+        {
+            "type": "textarea",
+            "id": "first_advice",
+            "label": "Advice",
+            "default": "Budou vám sedět tyto modely:"
+        },
+        {
+          "type": "header",
+          "content": "Second block"
+        },
+        {
+            "type":"text",
+            "id":"second_title",
+            "label":"Title",
+            "default":"Normální"
+        },
+        {
+            "type":"text",
+            "id":"second_desc",
+            "label":"Description",
+            "default":"Ani širší, ani uzší"
+        },
+        {
+           "type": "image_picker",
+           "id": "second_img",
+           "label": "Image"
+        },
+        {
+            "type":"text",
+            "id":"second_collections_tag",
+            "label":"Linking collection tag",
+            "default":"normalni"
+        },
+        {
+            "type": "textarea",
+            "id": "second_advice",
+            "label": "Advice",
+            "default": "Můžete si vybrat z těchto modelů:<p>Při měření <span class=\"bold\">přidejte 0,5-1 cm navíc,</span> aby vám byla bota pohodlná</p>"
+        },
+        {
+          "type": "header",
+          "content": "Third block"
+        },
+        {
+            "type":"text",
+            "id":"third_title",
+            "label":"Title",
+            "default":"Široká, vysoký nárt"
+        },
+        {
+            "type":"text",
+            "id":"third_desc",
+            "label":"Description",
+            "default":"Většina bot je vám těsná"
+        },
+        {
+           "type": "image_picker",
+           "id": "third_img",
+           "label": "Image"
+        },
+        {
+            "type":"text",
+            "id":"third_collections_tag",
+            "label":"Linking collection tag",
+            "default":"siroke"
+        },
+        {
+            "type": "textarea",
+            "id": "third_advice",
+            "label": "Advice",
+            "default": "Můžete si vybrat z těchto modelů:"
+        }
+    ],
+    "blocks": [
+    {
+        "type": "html",
+        "name": "Collection",
+        "settings": [
+            {
+                "type":"text",
+                "id":"feet",
+                "label":"Feet type"
+            },
+            {
+                "type":"text",
+                "id":"title",
+                "label":"Title"
+            },
+            {
+                "type": "url",
+                "id": "table_url",
+                "label": "Sizing table URL"
+            },
+            {
+                "type": "image_picker",
+                "id": "imagep",
+                "label": "Image for preview"
+            }
+        ]
+    }
+    ],
+    "presets": [
+        {
+            "category": "Text",
+            "name":"What's your feet type?"
+        }
+    ]
+}
+{% endschema %}

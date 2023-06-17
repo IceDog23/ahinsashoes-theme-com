@@ -1,0 +1,63 @@
+
+    <div id="black-box" class="black-box">
+        <h3>
+          {{ section.settings.bb_heading }}
+        </h3>
+        {{ section.settings.bb_text }}
+        
+        <script>
+          (function (w,d,s,o,f,js,fjs) {
+              w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+              js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+              js.id = '14-6094cedc595ae47c2d7e76e9362bf8d4'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+          }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+      </script>
+              <div id="f-14-6094cedc595ae47c2d7e76e9362bf8d4"></div>
+              
+      </div>
+
+{% schema %}
+{
+    
+    "name": "Black \"newsletter\" block",
+    "class": "index-section",
+    "settings": [
+    {
+        "type": "text",
+        "id": "bb_heading",
+        "label": "Black Box Heading",
+        "default": "XXX stránek pro šťastné tělo"
+      },
+      {
+        "type": "richtext",
+        "id": "bb_text",
+        "label": "Black Box Text",
+        "default": "<p>Pošleme vám všechny 3 e-booky.</p><p>Také se 2× měsíčně ozveme s tipy a akcemi.</p>"
+      },
+      {
+        "type": "text",
+        "id": "bb_placeholder",
+        "label": "placeholder",
+        "default": "Vložte váš e-mail"
+      },
+      {
+        "type": "text",
+        "id": "bb_button",
+        "label": "Black Box button text",
+        "default": "CHCI E-BOOKY ZDARMA"
+      },
+      {
+        "type": "richtext",
+        "id": "bb_text2",
+        "label": "Black Box text after button",
+        "default": "<p>Vaše údaje hlídáme jako oko v hlavě. Přečtěte si jak.</p>"
+      }
+      ],
+      "presets": [
+        {
+          "name": "Black \"newsletter\" block",
+          "category": "Image"
+        }
+      ]
+}
+{% endschema %}

@@ -1,0 +1,43 @@
+{% render 'barefoot_or_comfort' %}
+
+{% schema %}
+{
+    "name": "Barefoot or Comfort",
+    "class": "we_will_exchange",
+    "settings": [
+    {
+        "type":"text",
+        "id":"title",
+        "label":"Title",
+        "default":"Barefoot nebo komfort?"
+    }
+    ],
+    "blocks":[
+    {
+        "type": "html",
+        "name": "Custom content",
+        "limit": 3,
+        "settings": [
+            {
+                "type":"text",
+                "id":"title",
+                "label":"Title",
+                "default":"Jaste zvyklí na barefoot chůzi?"
+            },
+            {
+                "type": "textarea",
+                "id": "rich_text",
+                "label": "Text",
+                "default": "Zvolte variantu Barefoot! Najdete v ní tenkou stélu (vložku), se kterou si užijete zdravou chůzi bosky."
+            }
+        ]
+    }
+    ],
+    "presets": [
+        {
+            "name":"Barefoot or Comfort",
+            "category": "Text"
+        }
+    ]
+}
+{% endschema %}

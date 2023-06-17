@@ -1,0 +1,224 @@
+{%- paginate customer.orders by 20 -%}
+
+<div class="page-width page-content">
+  <header class="section-header{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}">
+    <h1 class="section-header__title">{{ 'customer.account.title' | t }}</h1>
+    <a href="{{ routes.account_logout_url }}" class="btn btn--secondary btn--small section-header__link">{{ 'layout.customer.log_out'| t }}</a>
+  </header>
+
+  {% if customer and customer.tags contains "velkoobchod" %}
+<div class="text-center mb-1 xxsection-header">
+  <a class="btn " href="https://walkfree.cz/wholesale/" >{{"customer.wholesale.wholesale_preorder_btn" | t}}</a>
+</div>
+<div class="text-center section-header">
+  <a class="btn " href="{{"customer.wholesale.url" | t}}" >{{"customer.wholesale.account_wholesale_btn" | t}}</a>
+</div>
+
+  <div class="grid form-vertical" id="WholesaleAddressForm">
+    <div class="grid__item medium-up--two-thirds">
+      <h2 class="">{{"customer.wholesale.account_billing_address" | t}}</h2>
+      <div class="grid grid--small">
+
+        <div class="grid__item one-half small--one-whole">
+          <label for="AddressFirstName">{{ 'customer.addresses.first_name' | t }}</label>
+          <input type="text" id="AddressFirstName" class="input-full" name="address[first_name]" value="{{customer.metafields.wholesale.first_name}}" autocapitalize="words">
+        </div>
+        
+        <div class="grid__item one-half small--one-whole">
+          <label for="AddressLastName">{{ 'customer.addresses.last_name' | t }}</label>
+          <input type="text" id="AddressLastName" class="input-full" name="address[last_name]" value="{{customer.metafields.wholesale.last_name}}" autocapitalize="words">
+        </div>
+        
+      </div>
+      
+      <label for="AddressCompany">{{ 'customer.addresses.company' | t }}</label>
+      <input type="text" id="AddressCompany" class="input-full" name="address[company]" value="{{customer.metafields.wholesale.company}}" autocapitalize="words">
+      
+
+      <div class="grid grid--small">
+        <div class="grid__item medium-up--one-half">
+          <label for="AddressCompanyID">{{"customer.wholesale.summary_billing_company_id" | t}}</label>
+          <input type="text" id="AddressCompanyID" class="input-full" name="address[company_id]" value="{{customer.metafields.wholesale.company_id}}">
+        </div>
+
+        <div class="grid__item medium-up--one-half">
+          <label for="AddressCompanyVAT">{{"customer.wholesale.summary_billing_company_vat" | t}}</label>
+          {% assign company_vat_value = customer.metafields.wholesale.company_vat %}
+          {% if company_vat_value == "-" %}
+            {% assign company_vat_value = "" %}
+          {% endif %}
+          <input type="text" id="AddressCompanyVAT" class="input-full" name="address[company_vat]" value="{{ company_vat_value }}">
+        </div>
+      </div>
+
+{%- comment -%}{%- endcomment -%}
+<label for="AddressAddress1">{{ 'customer.addresses.address1' | t }}</label>
+<input type="text" id="AddressAddress1" class="input-full" name="address[address1]" value="{{customer.metafields.wholesale.address1}}" autocapitalize="words">
+
+<label for="AddressAddress2">{{ 'customer.addresses.address2' | t }}</label>
+<input type="text" id="AddressAddress2" class="input-full" name="address[address2]" value="{{customer.metafields.wholesale.address2}}" autocapitalize="words">
+
+<div class="grid grid--small">
+  <div class="grid__item medium-up--one-half">
+    <label for="AddressCity">{{ 'customer.addresses.city' | t }}</label>
+    <input type="text" id="AddressCity" class="input-full" name="address[city]" value="{{customer.metafields.wholesale.city}}" autocapitalize="words">
+  </div>
+  
+  <div
+  class="grid__item medium-up--one-half js-address-country"
+  data-country-id="AddressCountry"
+  data-province-container-id="AddressProvinceContainer"
+  data-province-id="AddressProvince">
+  <label for="AddressCountry">{{ 'customer.addresses.country' | t }}</label>
+  <select id="AddressCountry" class="input-full" name="address[country]" data-default="{{customer.metafields.wholesale.country}}">{{ country_option_tags }}</select>
+</div>
+
+<div class="grid__item" id="AddressProvinceContainer" style="display: none;">
+  <label for="AddressProvince">{{ 'customer.addresses.province' | t }}</label>
+  <select id="AddressProvince" class="input-full" name="address[province]" data-default="{{customer.metafields.wholesale.province}}"></select>
+</div>
+
+        <div class="grid__item medium-up--one-half">
+          <label for="AddressZip">{{ 'customer.addresses.zip' | t }}</label>
+          <input type="text" id="AddressZip" class="input-full" name="address[zip]" value="{{customer.metafields.wholesale.zip}}" autocapitalize="characters">
+        </div>
+        
+        <div class="grid__item medium-up--one-half">
+          <label for="AddressPhone">{{ 'customer.addresses.phone' | t }}</label>
+          <input type="tel" id="AddressPhone" class="input-full" name="address[phone]" value="{{customer.metafields.wholesale.phone}}">
+        </div>
+        
+      </div>
+      
+      
+      
+      <p>
+        <a id="WholesaleAddressSaveBtn" href="#" class="btn"
+        data-customer-id="{{ customer.id | json | escape }}"
+        data-customer-id-signature="{{ customer.id | hmac_sha256: "mechanic123" | json | escape }}"
+        >
+        {{"customer.wholesale.account_save_address" | t}}
+        </a>
+      </p>
+
+    </div>
+
+    {%- comment -%}
+    <div class="grid__item medium-up--one-third">
+      <a class="btn" href="/pages/velkoobchodni-objednavka" >Velkoobchodní objednávka</a>
+    </div>
+    {%- endcomment -%}
+  </div>
+
+  <script>
+    $("#AddressCountry option[value='{{customer.metafields.wholesale.country}}']").prop('selected', true)
+
+    $("#WholesaleAddressSaveBtn").on("click",(ev) => {
+      ev.preventDefault();
+      let wholesale = {
+        first_name: $('#AddressFirstName').val(),
+        last_name: $('#AddressLastName').val(),
+        company: $('#AddressCompany').val(),
+        company_id: $('#AddressCompanyID').val(),
+        company_vat: $('#AddressCompanyVAT').val(),
+        address1: $('#AddressAddress1').val(),
+        address2: $('#AddressAddress2').val(),
+        city: $('#AddressCity').val(),
+        country: $('#AddressCountry').val(),
+        ///country_code: $('#').val(), /// todo?? ... dic...
+        province: $('#AddressProvince').val(),
+        zip: $('#AddressZip').val(),
+        phone: $('#AddressPhone').val()
+      };
+
+      
+      {% if shop.url == "https://ahinsashoes.com" %}
+        {% comment %} if (wholesale.company_vat.length < 1) {
+          alert("Please fill in Company VAT");
+          return;
+        }  {% endcomment %}
+      {% endif %}
+
+      var vatRegex = new RegExp(/(?:(AT)\s*(U\d{8}))|(?:(BE)\s*(0?\d{9}))|(?:(BG)\s*(\d{9,10}))|(?:(CZ)\s*(\d{8,10}))|(?:(DE)\s*(\d{9}))|(?:(CY)\s*(\d{8}[A-Z]))|(?:(DK)\s*((\d{8})|(\d{2}\s*\d{2}\s*\d{2}\s*\d{2})))|(?:(EE|EL)\s*(\d{9}))|(?:(GR)\s*(\d{9}))|(?:(ES|NIF:?)\s*([0-9A-Z]\d{7}[0-9A-Z]))|(?:(FI)\s*(\d{8}))|(?:(FR)\s*([0-9A-Z]{2}\d{9}))|(?:(GB)\s*((\d{9}|\d{12})~(GD|HA)\d{3}))|(?:(HR)\s*((\d{11})|(\d{9}\s*\d{2})))|(?:(HU)\s*(\d{8}))|(?:(IE)\s*(\d[A-Z0-9\\+\\*]\d{5}[A-Z]))|(?:(IT)\s*(\d{11}))|(?:(LT)\s*((\d{9}|\d{12})))|(?:(LU)\s*(\d{8}))|(?:(LV)\s*(\d{11}))|(?:(MT)\s*(\d{8}))|(?:(NL)\s*(\d{9}B\d{2}))|(?:(PL)\s*(\d{10}))|(?:(PT)\s*(\d{9}))|(?:(RO)\s*(\d{2,10}))|(?:(SE)\s*(\d{12}))|(?:(SI)\s*(\d{8}))|(?:(SK)\s*(\d{10}))|(?:\D|^)(\d{11})(?:\D|$)|(?:(CHE)(-|\s*)(\d{3}\.\d{3}\.\d{3}))|(?:(SM)\s*(\d{5}))/)
+      //console.log(vatRegex.test(wholesale.company_vat))
+      if (vatRegex.test(wholesale.company_vat.toUpperCase()) == false && wholesale.company_vat.length > 0) {
+        alert('{{"customer.wholesale.company_vat_invalid" | t}}');
+        return;
+      } 
+      // let webhookURL = 'https://usemechanic.com/webhook/462e94a9-a5ac-4ab6-b98e-08619302e03f'
+      // console.log('newData:',wholesale)
+      
+
+      let webhookURL = '{{"customer.wholesale.wholesale_webhook_url" | t}}'
+		
+      $.post(webhookURL, {
+        wholesale: wholesale,
+        customerId: JSON.parse(event.target.dataset.customerId),
+        customerIdSignature: JSON.parse(event.target.dataset.customerIdSignature)
+      }).then(function(data) {
+      	alert('{{"customer.wholesale.account_address_saved" | t}}')
+        //window.location.reload()
+      })
+    })
+  </script>
+{% endif %}
+
+
+
+
+  <div class="grid">
+
+    <div class="grid__item medium-up--two-thirds">
+      <h2>{{ 'customer.orders.title' | t }}</h2>
+
+      {%- if customer.orders.size != 0 -%}
+
+        <table class="table--responsive table--small-text">
+          <thead>
+            <tr>
+              <th>{{ 'customer.orders.order_number' | t }}</th>
+              <th>{{ 'customer.orders.date' | t }}</th>
+              <th>{{ 'customer.orders.payment_status' | t }}</th>
+              <th>{{ 'customer.orders.fulfillment_status' | t }}</th>
+              <th>{{ 'customer.orders.total' | t }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {%- for order in customer.orders -%}
+              <tr class="table__section">
+                <td data-label="{{ 'customer.orders.order_number' | t }}">{{ order.name | link_to: order.customer_url }}</td>
+                <td data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | time_tag: format: 'date' }}</td>
+                <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
+                <td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
+                <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
+              </tr>
+            {%- endfor -%}
+          </tbody>
+        </table>
+
+        <hr class="hr--clear">
+
+      {%- else -%}
+
+        <p>{{ 'customer.orders.none' | t }}</p>
+
+      {%- endif -%}
+    </div>
+
+    <div class="grid__item medium-up--one-third">
+      <h3>{{ 'customer.account.details' | t }}</h3>
+
+      <p class="h5">{{ customer.name }}</p>
+
+      {{ customer.default_address | format_address }}
+
+      <p><a href="{{ routes.account_addresses_url }}" class="text-link">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a></p>
+    </div>
+
+  </div>
+
+  {%- if paginate.pages > 1 -%}
+    {%- render 'pagination', paginate: paginate -%}
+  {%- endif -%}
+</div>
+{%- endpaginate -%}

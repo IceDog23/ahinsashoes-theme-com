@@ -1,0 +1,26 @@
+<div class="pages-reviewers-block">
+    <div>
+        <a href="{{ page.url }}" target="_blank">
+            {% assign img_url = page.metafields.social_sharing.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.'  %}
+            {% if img_url contains "//" %}
+            {% assign img_url = "http:" | append: img_url %}
+            {% endif %}
+
+            <img class="collection-hero__image image-fit lazyload"
+            src=""
+            data-src="{{ img_url }}"
+            data-aspectratio="{{ page.metafields.social_sharing.image.aspect_ratio }}"
+            data-widths="[720, 900, 1080]"
+            data-sizes="auto"
+            alt="{{ page.metafields.social_sharing.image.alt | escape }}">
+        </a>
+    </div>
+    <div class="text-center wau-blocks-text">
+        {% if page.metafields.who_wrote_about_us.portal != blank %}
+            <h5>{{ page.metafields.who_wrote_about_us.portal.value }}</h5>
+        {% endif %}
+        <a href="{{ page.url }}" target="_blank">
+            <h3>{{ page.title }}</h3>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,117 @@
+<div class="page-width section-store-contact">
+
+    {% if section.settings.show_banner %}
+    <div class="store-contact-banner">
+        {{section.settings.banner_text}}
+    </div>
+    {% endif %}
+
+    {% unless section.settings.show_banner %}
+        <div class="index-section"></div>
+    {% endunless %}
+
+    <div class="grid flex-grid--center flex-grid">
+        <div class="grid__item medium-up--one-third">
+            <div class="bordered-wrapper">
+                <h3>
+                    {{"store_page.where_to_find_us" | t }}
+                </h3>
+                <div class="store-contact-content">
+                    {{section.settings.address_text}}
+                    <p>
+                        <a class="btn" href="#section-store-directions">{{"store_page.show_on_map" | t }}</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="grid__item medium-up--one-third">
+            <div class="bordered-wrapper">
+                <h3>
+                    {{"store_page.opening_hours" | t }}
+                </h3>
+                <div class="store-contact-content store-contact-opening-hours">
+                    <div>
+                        {{section.settings.opening_hours_col1}}
+                    </div>
+                    <div>
+                        {{section.settings.opening_hours_col2}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid__item medium-up--one-third">
+            <div class="bordered-wrapper">
+                <h3>
+                    {{"store_page.contact_info" | t }}
+                </h3>
+                <div class="store-contact-content">
+                    <p class="phone">
+                        <a href="tel:{{section.settings.phone}}">{{section.settings.phone}}</a>
+                    </p>
+                    <p class="email">
+                        <a href="mailto:{{section.settings.email}}">{{section.settings.email}}</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+{% schema %}
+    {
+      "name": "Contact",
+      "class": "index-sectionXXX",
+      "settings": [
+        {
+          "type": "text",
+          "id": "banner_text",
+          "label": "Banner text",
+          "default": "Jen 7. a 8. září: Každý druhý pár Ahinsa shoes za polovinu!"
+        },
+        {
+            "type": "checkbox",
+            "id": "show_banner",
+            "label": "Show banner",
+            "default": true
+        },
+        {
+          "type": "richtext",
+          "id": "address_text",
+          "label": "Address text",
+          "default": "<p>Londýnská 309/81</p><p>120 00 Praha 2 - Vinohrady</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "opening_hours_col1",
+          "label": "Opening hours column 1",
+          "default": "<p>Pondělí–Čtvrtek</p><p>Pátek</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "opening_hours_col2",
+          "label": "Opening hours column 2",
+          "default": "<p>11:00–19:00</p><p>10:00–18:00</p>"
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "label": "Phone",
+          "default": "+420 226 111 222"
+        },
+        {
+          "type": "text",
+          "id": "email",
+          "label": "Email",
+          "default": "prodejna@ahinsashoes.com"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Contact"
+        }
+      ]
+    }
+  {% endschema %}
+  

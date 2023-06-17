@@ -1,0 +1,40 @@
+<div class="page-width">
+    <div class="pages-reviewers-blocks">
+            
+            {% for page in pages %}
+                {% unless page.template_suffix == "who-wrote-about-us" %}
+                    {% continue %}
+                {% endunless %}
+                {% render 'page-preview-block', page: page %}
+            {% endfor %}
+    </div>
+</div>
+
+<style>
+    .pages-reviewers-blocks {
+        margin-top: 75px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 9px;
+    }
+    .pages-reviewers-block {
+        width: calc(33% - 3px);
+    }
+    .wau-blocks-text {
+        margin-top: 20px;
+    }
+    .wau-blocks-text a h3 {
+        text-decoration: underline;
+    }
+    .wau-blocks-text a:hover h3 {
+        color: var(--colorLinkHover);
+    }
+    @media only screen and (max-width:768px){
+        .pages-reviewers-blocks {
+            margin-top: 50px;
+        }
+        .pages-reviewers-block {
+            width: 100%;
+        }
+    }
+</style>

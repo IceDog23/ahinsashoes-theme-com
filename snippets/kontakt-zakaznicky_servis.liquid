@@ -1,0 +1,78 @@
+
+<div class="kontakt-box-container">
+    <div>
+    {% if section.settings.title != blank %}
+        <h2>{{ section.settings.title | escape }}</h2>
+    {% endif %}
+    </div>
+
+    <div class="kontakt-customer_serv-flex">
+        {% if section.settings.rich_text != blank %}
+            <div><div class="rte rte-setting featured-row__subtext ml-1">{{ section.settings.rich_text }}</div></div>
+        {% endif %}
+        {% if section.settings.phone != blank or section.settings.mail != blank %}
+            <div class="rte">
+                {% if section.settings.phone != blank %}
+                <div class="kontakt-telephone h3">
+                    {% if section.settings.phone_url != blank %}<a href="tel:{{section.settings.phone_url}}">{% endif %}
+                        {%- comment -%}<div class="phone-icon">{% render 'icon-phone' %}</div>{%- endcomment -%}
+                        {{ section.settings.phone }}
+                    {% if section.settings.phone_url != blank %}</a>{% endif %}
+                    {% if section.settings.prov_doba != blank %}
+                        <div class="kontakt-provozni_doba">
+                            {{ section.settings.prov_doba }}
+                        </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+                {% if section.settings.mail != blank %}
+                <div class="kontakt-mail h3">
+                    {% if section.settings.mail_url != blank %}<a href="mailto:{{section.settings.mail_url}}">{% endif %}
+                    {%- comment -%}<div class="mail-icon">{% render 'icon-mail' %}</div>{%- endcomment -%}
+                    {{ section.settings.mail }}
+                    {% if section.settings.mail_url != blank %}</a>{% endif %}
+                </div>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+    <div class="kontakt-care_display-flex mt-2">
+        <div class="mt-1">
+            {% if section.settings.postaraji_se != blank %}
+                <div><div class="rte rte-setting featured-row__subtext ml-1 white-space_nowrap">{{ section.settings.postaraji_se }}</div></div>
+            {% endif %}
+        </div>
+        <div class="kontakt-care mt-1">
+            {% for block in section.blocks %}
+                <div class="kontakt-emploee">
+                    <div class="feature-row__item">
+                        {% if block.settings.image != blank %}
+                            {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                            <div class="feature-row__image-wrapper js">
+                                {%- comment -%}<div style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;" class="off-image">{%- endcomment -%}
+                                    <img class="feature-row__image lazyload"
+                                        src="{{ block.settings.image | img_url: 'master' }}"
+                                        data-src="{{ img_url }}"
+                                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                                        data-sizes="auto"
+                                        alt="{{ block.settings.image.alt | escape }}">
+                                {%- comment -%}</div>{%- endcomment -%}
+                            </div>
+                            <noscript>
+                                {{ block.settings.image | img_url: '600x600', scale: 2 | img_tag: block.settings.image.alt, 'feature-row__image' }}
+                            </noscript>
+                        {% else %}
+                            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        {% endif %}
+                    </div>
+                    {% if block.settings.jmeno != blank %}
+                        <div class="kontakt-emploee-name text-center">
+                            {{ block.settings.jmeno }}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

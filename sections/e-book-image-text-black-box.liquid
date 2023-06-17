@@ -1,0 +1,173 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+  <div class="page-width">
+    {%- capture image_layout -%}
+      <div class="feature-row__item" style="display:flex;">
+        <div style="margin: 0 auto; max-width: {{ section.settings.image_width }}px; bottom:0; align-self: flex-end; width: 100%;">
+          {%- if section.settings.image != blank -%}
+            {%- if section.settings.button_label != blank and section.settings.button_link != blank %}<a href="{{ section.settings.button_link }}">{% endif -%}
+            <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
+              {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              <img class="feature-row__image lazyload"
+                  data-src="{{ img_url }}"
+                  src="{{ section.settings.image | img_url: 'x900' }}"
+                  data-widths="[180, 360, 540, 720, 900, 1080]"
+                  data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                  data-sizes="auto"
+                  alt="{{ section.settings.image.alt }}">
+            </div>
+            {%- if section.settings.button_label != blank and section.settings.button_link != blank %}</a>{% endif -%}
+          {%- else -%}
+            <div class="image-wrap">
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endcapture -%}
+  
+    <div class="feature-row align-items-stretch black-box-main gap20" data-aos>{%- comment -%}top-section-margin{%- endcomment -%}
+      {%- if section.settings.layout == 'left' -%}
+        {{ image_layout }}
+      {%- endif -%}
+  
+      <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }} text-left flex-space-between">
+        <div class="flex-text">
+          {%- if section.settings.subtitle != blank -%}
+            <p class="h5">{{ section.settings.subtitle }}</p>
+          {%- endif -%}
+          {%- if section.settings.title != blank -%}
+            <p class="h3">{{ section.settings.title | escape }}</p>
+          {%- endif -%}
+          {%- if section.settings.text != blank -%}
+            <div class="rte featured-row__subtext">{{ section.settings.text }}</div>
+          {%- endif -%}
+        </div>
+
+        <div class="black-box">
+          <h3>
+            {{ section.settings.bb_heading }}
+          </h3>
+          {{ section.settings.bb_text }}
+
+          <script>
+            (function (w,d,s,o,f,js,fjs) {
+                w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+                js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+                js.id = '13-fd74319c464c247b7c0305bfc329d4f0'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+            }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+        </script>
+                <div id="f-13-fd74319c464c247b7c0305bfc329d4f0"></div>
+                
+        </div>
+        
+      </div>
+  
+      {%- if section.settings.layout == 'right' -%}
+        {{ image_layout }}
+      {%- endif -%}
+    </div>
+  </div>
+  
+  {%- if section.settings.divider -%}</div>{%- endif -%}
+  
+  {% schema %}
+    {
+      "name": "Text, img and black box",
+      "class": "index-section",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "label": "Image width",
+          "default": 500,
+          "min": 100,
+          "max": 500,
+          "step": 10,
+          "unit": "px"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subheading",
+          "default": "Improved"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Text heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+        },
+        {
+          "type": "select",
+          "id": "layout",
+          "label": "Layout",
+          "default": "left",
+          "options": [
+            {
+              "value": "left",
+              "label": "Image on left"
+            },
+            {
+              "value": "right",
+              "label": "Image on right"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "divider",
+          "label": "Show section divider",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "bb_heading",
+          "label": "Black Box Heading",
+          "default": "XXX stránek pro šťastné tělo"
+        },
+        {
+          "type": "richtext",
+          "id": "bb_text",
+          "label": "Black Box Text",
+          "default": "<p>Pošleme vám všechny 3 e-booky.</p><p>Také se 2× měsíčně ozveme s tipy a akcemi.</p>"
+        },
+        {
+          "type": "text",
+          "id": "bb_placeholder",
+          "label": "placeholder",
+          "default": "Vložte váš e-mail"
+        },
+        {
+          "type": "text",
+          "id": "bb_button",
+          "label": "Black Box button text",
+          "default": "CHCI E-BOOKY ZDARMA"
+        },
+        {
+          "type": "richtext",
+          "id": "bb_text2",
+          "label": "Black Box text after button",
+          "default": "<p>Vaše údaje hlídáme jako oko v hlavě. Přečtěte si jak.</p>"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Text, img and black box",
+          "category": "Image"
+        }
+      ]
+    }
+  {% endschema %}
+  

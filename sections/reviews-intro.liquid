@@ -1,0 +1,179 @@
+<div
+  data-section-id="{{ section.id }}"
+  data-section-type="reviews-intro-section"
+>
+
+{% if section.blocks[0] != blank and section.blocks[1] == blank %}
+{% assign block = section.blocks[0] %}
+
+<div class="grid rte">
+  <div class="grid__item large-up--one-half single-centered-review">
+    <div class="intro-review-wrapper">
+      <div>
+        <div class="img-wrapper">
+          <img src="{{block.settings.image.src | img_url: "200x"}}" alt="">
+        </div>
+        <div>
+          <h2>{{block.settings.heading}}</h2>
+          {% if block.settings.subheading != blank %}
+          <p>
+            <strong>
+              {{block.settings.subheading}}
+            </strong>
+          </p>
+          {% endif %}
+
+          <p>{{block.settings.text}}</p>
+
+          <a href="{{block.settings.link}}" target="blank" class="link link_underline">
+            {{"reviews_page.read_reviews" | t}}
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+  <div class="grid rte">
+    <div class="grid__item large-up--one-half">
+      {% if section.blocks[0] != blank %}
+        {% assign block = section.blocks[0] %}
+        
+        <div class="intro-review-wrapper">
+          <div>
+            <div class="img-wrapper">
+              <img src="{{block.settings.image.src | img_url: "200x"}}" alt="">
+            </div>
+            <div>
+              <h2>{{block.settings.heading}}</h2>
+              {% if block.settings.subheading != blank %}
+              <p>
+                <strong>
+                  {{block.settings.subheading}}
+                </strong>
+              </p>
+              {% endif %}
+
+              <p>{{block.settings.text}}</p>
+
+              <a href="{{block.settings.link}}" target="blank" class="link link_underline">
+                {{"reviews_page.read_reviews" | t}}
+              </a>
+
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+    <div class="grid__item large-up--one-half">
+      {% if section.blocks[2] != blank %}
+        {% assign block = section.blocks[2] %}
+        
+        <div class="intro-review-wrapper">
+          <div>
+            <div class="img-wrapper">
+              <img src="{{block.settings.image.src | img_url: "200x"}}" alt="">
+            </div>
+            <div class="review-wrapper-ml">
+              <h2>{{block.settings.heading}}</h2>
+              {% if block.settings.subheading != blank %}
+              <p>
+                <strong>
+                  {{block.settings.subheading}}
+                </strong>
+              </p>
+              {% endif %}
+
+              <p>{{block.settings.text}}</p>
+
+              <a href="{{block.settings.link}}" target="blank" class="link link_underline">{{"reviews_page.read_reviews" | t}}</a>
+
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      {% if section.blocks[1] != blank %}
+        {% assign block = section.blocks[1] %}
+        
+        <div class="intro-review-wrapper">
+          <div>
+            <div class="img-wrapper">
+              <img src="{{block.settings.image.src | img_url: "200x"}}" alt="">
+            </div>
+            <div class="review-wrapper-ml">
+              <h2>{{block.settings.heading}}</h2>
+                {% if block.settings.subheading != blank %}
+                <p>
+                  <strong>
+                    {{block.settings.subheading}}
+                  </strong>
+                </p>
+                {% endif %}
+
+                <p>{{block.settings.text}}</p>
+
+                <a href="{{block.settings.link}}" target="blank" class="link link_underline">{{"reviews_page.read_reviews" | t}}</a>
+
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+  
+
+</div>
+
+{% schema %}
+  {
+    "name": "Reviews intro",
+    "class": "section--reviews-intro",
+    "max_blocks": 3,
+    "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Block",
+        "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Badge"
+        }
+        ]
+      }
+    ],
+    "presets": [{
+      "name": "Reviews intro",
+      "category": "text",
+      "settings": {
+      },
+      "blocks": [
+        
+      ]
+    }]
+  }
+{% endschema %}

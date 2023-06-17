@@ -1,0 +1,635 @@
+<div class="page-width page-content">
+
+  {%- render 'breadcrumbs' -%}
+
+    <div class="grid">
+    <div class="grid__item large-up--three-quarters large-up--push-one-eighth">
+
+      <header class="section-header">
+        <h1 class="section-header__title">{{ page.title }}</h1>
+      </header>
+
+
+      {% if customer and customer.tags contains "velkoobchod" %}
+
+        <div class="rte rte--nomargin">
+            {{ page.content }}
+        </div>
+
+
+        {% assign company_id = customer.metafields.wholesale.company_id %}
+        {% assign company_vat = customer.metafields.wholesale.company_vat %}
+        {% assign bill_company = customer.metafields.wholesale.company %}
+        {% assign bill_country = customer.metafields.wholesale.country %}
+        {% assign bill_country_code = customer.metafields.wholesale.country_code %}
+        {% assign bill_first_name = customer.metafields.wholesale.first_name %}
+        {% assign bill_last_name = customer.metafields.wholesale.last_name %}
+        {% assign bill_phone = customer.metafields.wholesale.phone %}
+        {% assign bill_province = customer.metafields.wholesale.province %}
+        {% assign bill_province_code = customer.metafields.wholesale.province_code %}
+        {% assign bill_zip = customer.metafields.wholesale.zip %}
+        {% assign bill_address1 = customer.metafields.wholesale.address1 %}
+        {% assign bill_address2 = customer.metafields.wholesale.address2 %}
+        {% assign bill_city = customer.metafields.wholesale.city %}
+
+        {% assign is_billing_address_complete = false %}
+
+        {% if shop.url == "https://ahinsashoes.com" %}
+       
+          {% if company_vat and bill_company and bill_country
+              and bill_first_name and bill_last_name and bill_phone and bill_zip
+              and bill_address1 and bill_city %}
+              {% assign is_billing_address_complete = true %}
+          {% endif %}
+        
+        {% endif %}
+
+        {% if shop.url == "https://ahinsashoes.cz" %}
+       
+          {% if company_id and bill_company and bill_country
+              and bill_first_name and bill_last_name and bill_phone and bill_zip
+              and bill_address1 and bill_city %}
+              {% assign is_billing_address_complete = true %}
+          {% endif %}
+
+        {% endif %}
+
+
+        
+        
+        {%- comment -%}TYTO UDAJE NELZE BRAT Z METAFIELDU, PROTOZE FAKTUROID PAK STEJNE VYPISUJE ADRESU Z CUSTOMR.DEFAULT ADDR. {%- endcomment -%}
+        {% assign company = customer.default_address.company %}
+        {% assign country = customer.default_address.country %}
+        {% assign country_code = customer.default_address.country_code %}
+        {% assign first_name = customer.default_address.first_name %}
+        {% assign last_name = customer.default_address.last_name %}
+        {% assign phone = customer.default_address.phone %}
+        {% assign province = customer.default_address.province %}
+        {% assign province_code = customer.default_address.province_code %}
+        {% assign street = customer.default_address.street %}
+        {% assign zip = customer.default_address.zip %}
+        {% assign address1 = customer.default_address.address1 %}
+        {% assign address2 = customer.default_address.address2 %}
+        {% assign city = customer.default_address.city %}
+
+        {% assign is_shipping_address_complete = false %}
+        {% if customer.default_address %}
+          {% assign is_shipping_address_complete = true %}
+        {% endif %}
+        
+
+        {%- comment -%}
+        inventory_limit - kolik ks musi zustat na sklade
+        {%- endcomment -%}
+        {% assign inventory_limit = page.metafields.wholesale.form.value.limit %}
+        {% assign collection_handles = page.metafields.wholesale.form.value.collections %}
+
+        {% assign tax = 0.79 %}
+
+        {%- comment -%}nejobycejnejsi partner ma MOC bez DPH:{%- endcomment -%}
+        {% assign m_tax = 0.79 %}
+        {% assign tarif_name = "partner_basic" %}
+        
+
+        {%- comment -%}lepsi partneri maji slevy z MOC s DPH:{%- endcomment -%}
+        {% if customer.tags contains "partner_gold" %}
+            {% assign m_tax = 1 | minus: page.metafields.wholesale.form.value.partner_gold_discount %}
+            {% assign tarif_name = "partner_gold" %}
+        {% elsif customer.tags contains "partner_silver" %}
+            {% assign m_tax = 1 | minus: page.metafields.wholesale.form.value.partner_silver_discount %}
+            {% assign tarif_name = "partner_silver" %}
+        {% elsif customer.tags contains "partner_bronze" %}
+            {% assign m_tax = 1 | minus: page.metafields.wholesale.form.value.partner_bronze_discount %}
+            {% assign tarif_name = "partner_bronze" %}
+        {% endif %}
+        
+        {% assign tarif_discount = 1 | minus: m_tax %}
+
+        {% unless is_billing_address_complete %}
+          <a href="/account" class="text-center wholesale-warning">
+              {{ "wholesale.billing_address_incomplete" | t}}
+          </a>
+          {% endunless %}
+        {% unless is_shipping_address_complete %}
+          <a href="/account/addresses" class="text-center wholesale-warning">
+              {{ "wholesale.shipping_address_incomplete" | t}}
+          </a>
+          {% endunless %}
+
+          <div class="text-center section-header">
+              <a class="btn btn--secondary" href="/account" >{{"customer.wholesale.addresses_settings" | t}}</a>
+          </div>
+
+        <div class="wholesale-form" id="wholesale-form">
+
+            <div class="only-stock-wrapper">
+                <input type="checkbox" id="only_in_stock" />
+                <label for="only_in_stock">{{ "wholesale.only_in_stock" | t}}</label>
+            </div>
+
+            {% for collection_handle in collection_handles %}
+                <h3 class="collection-heading">{{collections[collection_handle].title}}</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                                <th></th>
+                                <th>{{ "wholesale.t_product" | t}}</th>
+                                <th>{{ "wholesale.t_price" | t}}</th>
+                                <th>{{ "wholesale.t_price_wvat" | t}}</th>
+                                <th>{{ "wholesale.t_final_price" | t}}</th>
+                                <th>{{ "wholesale.t_stock" | t}}</th>
+                                <th>{{ "wholesale.t_qty" | t}}</td>
+                                <th></th>
+                        </thead>
+
+                        <tbody>
+
+                            {% paginate collections[collection_handle].products by 1000 %}
+                            {% for product in collections[collection_handle].products %}
+
+                                  {% unless product.metafields.custom.hide_in_wholesale.value == true %}
+      
+                                      {% if product.variants.size > 1 %}
+      
+                                          {% liquid
+                                              assign product_outstock = true
+                                              for variant in product.variants
+                                                  if variant.inventory_quantity > inventory_limit
+                                                      assign qty_limit = variant.inventory_quantity | minus: inventory_limit
+                                                  else
+                                                      assign qty_limit = 0
+                                                  endif
+                                              
+                                                  if qty_limit > 0
+                                                      assign product_outstock = false
+                                                  endif
+                                              endfor
+                                          %}
+      
+                                          <tr class="{% if product_outstock == true %}outstock{% endif %}">
+                                              <td class="col-image">
+                                                  <a href="{{product.featured_image | img_url: "700x" }}" data-lightbox="lb-{{product.id}}">
+                                                      <img src="{{product.featured_image | img_url: "60x" }}" width="60" height="60" alt="" loading="lazy">
+                                                  </a>
+                                                  {% for image in product.images %}
+                                                  {% unless image.src == product.featured_image.src %}
+                                                      <a class="visually-hidden" href="{{image | img_url: "700x" }}" data-lightbox="lb-{{product.id}}"></a>
+                                                  {% endunless %}
+                                                  {% endfor %}
+                                              </td>
+                                              <td class="col-title"><a href="{{product.url}}">{{product.title}}</a></td>
+                                              <td class="col-price">-</td>
+                                              <td class="col-price-with-vat">-</td>
+                                              <td class="col-final-price">-</td>
+                                              <td class="col-stock">-</td>
+                                              <td class="col-qty">-</td>
+                                              <td class="col-chevron"><span class="chevron product-chevron collapsed" data-product="{{product.id}}"></span></td>
+                                          </tr> 
+      
+                                          {% for variant in product.variants %}
+                                              {% liquid
+                                                  if variant.inventory_quantity > inventory_limit
+                                                      assign qty_limit = variant.inventory_quantity | minus: inventory_limit
+                                                  else
+                                                      assign qty_limit = 0
+                                                  endif
+      
+                                                  if variant.metafields.global.wholesale_price.value != blank
+                                                      assign variant_price = variant.metafields.global.wholesale_price.value | times: 100
+                                                      assign variant_final_price = variant_price
+                                                      assign variant_final_price_w_vat = variant_final_price | times: 1.21
+                                                      assign variant_price_is_fixed = true
+                                                  elsif product.metafields.global.wholesale_price.value != blank
+                                                          assign variant_price = product.metafields.global.wholesale_price.value | times: 100
+                                                          assign variant_final_price = variant_price
+                                                          assign variant_final_price_w_vat = variant_final_price | times: 1.21
+                                                          assign variant_price_is_fixed = true
+                                                  else
+                                                          assign variant_price = variant.price
+                                                          if variant.compare_at_price
+                                                              assign variant_price = variant.compare_at_price
+                                                          endif
+                                                      assign variant_final_price = variant_price | times: m_tax | round: 1
+                                                      assign variant_final_price_w_vat = variant_final_price | times: 1.21
+                                                      assign variant_price_is_fixed = false
+                                                  endif
+      
+      
+      
+                                                  if variant.image
+                                                      assign variant_image = variant.image
+                                                  else
+                                                      assign variant_image = product.featured_image
+                                                  endif
+                                              %}
+      
+                                              <tr class="variant visually-hidden {% if qty_limit == 0 %}outstock{% endif %}" data-product="{{product.id}}" data-variant="{{variant.id}}" data-fixedprice="{{variant_price_is_fixed}}" data-name="{{product.title}} - {{variant.title}}" data-price="{{variant_final_price}}" data-priceb="{{variant_price}}">
+                                                  <td class="col-image">
+                                                      <a href="{{variant_image | img_url: "700x" }}" data-lightbox="lb-{{variant.id}}">
+                                                          <img src="{{variant_image | img_url: "60x" }}" width="60" height="60" alt="" loading="lazy">
+                                                      </a>
+                                                      {% for image in product.images %}
+                                                          {% unless image.src == variant_image.src %}
+                                                              <a class="visually-hidden" href="{{image | img_url: "700x" }}" data-lightbox="lb-{{variant.id}}"></a>
+                                                          {% endunless %}
+                                                      {% endfor %}
+                                                  </td>
+                                                  <td class="col-title">SKU: {{variant.sku}}, EAN: {{variant.barcode}}<br />{{ "wholesale.t_size" | t}}: {{variant.title}}</td>
+                                                  <td class="col-price">{{variant_final_price | times: 0.01}} {{ "wholesale.total_curr" | t}}</td>
+                                                  <td class="col-price-with-vat">{{variant_final_price_w_vat | money_with_currency}}</td>
+                                                  <td class="col-final-price">{{variant_price | money_with_currency}}</td>
+                                                  <td class="col-stock">{{qty_limit}}</td>
+                                                  <td class="col-qty">
+                                                      <input type="number" class="qty" min="0" max="{{qty_limit}}" value="0" {% if qty_limit == 0 %}disabled{% endif %} />
+                                                  </td>
+                                                  <td></td>
+                                              </tr>     
+                                          {% endfor %}
+                                      {% else %}
+      
+                                          {% liquid
+                                              if product.variants.first.inventory_quantity > inventory_limit
+                                                  assign qty_limit = product.variants.first.inventory_quantity | minus: inventory_limit
+                                              else
+                                                  assign qty_limit = 0
+                                              endif
+      
+                                              if product.metafields.global.wholesale_price.value != blank
+                                                  assign variant_price = product.metafields.global.wholesale_price.value | times: 100
+                                                  assign variant_final_price = variant_price
+                                                  assign variant_final_price_w_vat = variant_final_price | times: 1.21
+                                                  assign variant_price_is_fixed = true
+                                              else
+                                              assign variant_price = product.price
+                                              if product.compare_at_price_max
+                                                  assign variant_price = product.compare_at_price_max
+                                              endif
+                                                  assign variant_final_price = variant_price | times: m_tax | round: 1
+                                                  assign variant_final_price_w_vat = variant_final_price | times: 1.21
+                                                  assign variant_price_is_fixed = false
+                                              endif
+      
+                                              
+                                          %}
+                                              
+                                          <tr class="variant {% if qty_limit == 0 %}outstock{% endif %}" data-product="{{product.id}}" data-variant="{{product.selected_or_first_available_variant.id}}" data-fixedprice="{{variant_price_is_fixed}}" data-name="{{product.title}}" data-price="{{variant_final_price}}" data-priceb="{{variant_price}}">
+                                              <td class="col-image">
+                                                  <a href="{{product.featured_image | img_url: "700x" }}" data-lightbox="lb-{{product.id}}">
+                                                      <img src="{{product.featured_image | img_url: "60x" }}" width="60" height="60" alt="" loading="lazy">
+                                                  </a>
+                                                  {% for image in product.images %}
+                                                      {% unless image.src == product.featured_image.src %}
+                                                          <a class="visually-hidden" href="{{image | img_url: "700x" }}" data-lightbox="lb-{{product.id}}"></a>
+                                                      {% endunless %}
+                                                  {% endfor %}
+                                              </td>
+                                              <td class="col-title"><a href="{{product.url}}">{{product.title}}</a></td>
+                                              <td class="col-price">{{variant_final_price | times: 0.01 }} {{ "wholesale.total_curr" | t}}</td>
+                                              <td class="col-price-with-vat">{{variant_final_price_w_vat | money_with_currency}}</td>
+                                              <td class="col-final-price">{{variant_price | money_with_currency}}</td>
+                                              <td class="col-stock">{{qty_limit}}</td>
+                                              <td class="col-qty"><input type="number" class="qty" min="0" max="{{qty_limit}}" value="0" {% if qty_limit == 0 %}disabled{% endif %} /></td>
+                                              <td></td>
+                                          </tr> 
+                                      {% endif %}
+                                  {% endunless %}
+                              {% endfor %}
+                            {% endpaginate %}
+                            
+                        </tbody>
+                    </table>
+                </div>
+            {% endfor %}
+
+            <div class="wholesale-form-footer">
+              <p>
+                  {{ "wholesale.total" | t}} <strong><span id="totalQty">0</span> {{ "wholesale.total_qty" | t}}</strong> {{ "wholesale.total_for" | t}} <strong><span id="totalPrice">0</span> {{ "wholesale.total_curr" | t}}</strong>
+              </p>
+
+              <p class="wholesale-shipping-note">
+                  <strong>
+                      {{ "wholesale.note_about_shipping" | t}}
+                  </strong>
+              </p>
+              {% if page.metafields.wholesale.form.value.note_about_free_shipping %}                    
+                  <p class="wholesale-shipping-note">
+                      <strong>
+                          {{ page.metafields.wholesale.form.value.note_about_free_shipping }}
+                      </strong>
+                  </p>
+              {% endif %}
+
+              <p class="wholesale-shipping-note">
+                  <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
+                  <strong>
+                      I agree to Terms and Conditions
+                  </strong>
+              </p>
+                  
+              <input
+                  disabled
+                  type="button"
+                  class="btn disabled"
+                  id="create_order_btn"
+                  value="{{ "wholesale.submit" | t}}"
+                  data-cart="{{ cart | json | escape }}"
+                  data-customer-id="{{ customer.id | json | escape }}"
+                  data-customer-id-signature="{{ customer.id | hmac_sha256: "wholesale" | json | escape }}"
+                  data-tax-exempt="{{ customer.tax_exempt | json | escape }}"
+              >
+            </div>
+        </div>
+
+        <div class="wholesale-form-checkout">
+          <div>
+              <h2>{{"customer.wholesale.summary" | t}}:</h2>
+              <p><strong>{{"customer.wholesale.summary_items" | t}}:</strong></p>
+              <div id="OrderCheckoutItems" class="wholesale-checkout-items">{%- comment -%}Filled by script{%- endcomment -%}</div>
+              <p><strong>{{"customer.wholesale.summary_info" | t}}:</strong></p>
+              <p>{{"customer.wholesale.summary_name" | t}}: {{first_name}} {{last_name}}</p>
+              <p>{{"customer.wholesale.summary_email" | t}}: {{customer.email}}</p>
+              <p>{{"customer.wholesale.summary_phone" | t}}: {{customer.phone}}</p>
+              <p><strong>{{"customer.wholesale.summary_billing" | t}}:</strong></p>
+            {% unless is_billing_address_complete %}
+              <a href="/account" class="text-center wholesale-warning">
+                  {{ "wholesale.billing_address_incomplete" | t}}
+              </a>
+            {% else %}
+              <p>{{"customer.wholesale.summary_billing_company" | t}}: {{bill_company}}</p>
+              <p>{{"customer.wholesale.summary_billing_company_id" | t}}: {% if company_id %}{{company_id}}{% else %}<strong>{{"customer.wholesale.not_set" | t}}</strong>{% endif %}</p>
+              <p>{{"customer.wholesale.summary_billing_company_vat" | t}}: {% if company_vat %}{{company_vat}}{% else %}<strong>{{"customer.wholesale.not_set" | t}}</strong>{% endif %}</p>
+              <p>{{bill_address1}}</p>
+              <p>{{bill_address2}}</p>
+              <p>{{bill_zip}} {{bill_city}}</p>
+              <p>{{bill_country}}</p>
+            {% endunless %}
+              <p><strong>{{"customer.wholesale.summary_shipping_address" | t}}:</strong></p>
+              {% unless is_shipping_address_complete %}
+              <a href="/account" class="text-center wholesale-warning">
+                  {{ "wholesale.billing_address_incomplete" | t}}
+              </a>
+            {% else %}
+              <p>{{"customer.wholesale.summary_shipping_company" | t}}: {{company}}</p>
+              <p>{{address1}}</p>
+              <p>{{address2}}</p>
+              <p>{{zip}} {{city}}</p>
+              <p>{{country}}</p>
+          {% endunless %}
+
+              <a href="#" class="btn" id="WholesaleFormFinishBtn"
+              data-customer-id="{{ customer.id | json | escape }}"
+              data-customer-id-signature="{{ customer.id | hmac_sha256: "wholesale" | json | escape }}"
+              >{{"customer.wholesale.summary_shipping_confirm" | t}}</a>
+              <a href="#" class="btn btn--secondary" id="WholesaleFormCancelBtn">{{"customer.wholesale.summary_cancel" | t}}</a>
+          </div>
+        </div>
+    {% else %}
+    <p class="text-center">
+        {{ "wholesale.no_permissions" | t}}
+    </p>
+    {% endif %}
+    </div>
+  </div>
+
+</div>
+
+ <script>
+  $(document).ready(function() {
+      $('body').on('click', 'input', function() {
+        if ($('#agree').is(':checked')) {
+          $('input#create_order_btn').removeAttr('disabled');
+        }
+        else {
+          $('input#create_order_btn').attr('disabled', 'disabled');
+        }
+      });
+    });
+
+</script>
+
+
+<script>
+
+  window.onload = () => {
+    const is_billing_address_complete = "{{is_billing_address_complete | json}}"
+    const is_shipping_address_complete = "{{is_shipping_address_complete | json}}"
+    const country = "{{country}}"
+    const country_code = "{{country_code}}"
+    const first_name = "{{first_name}}"
+    const last_name = "{{last_name}}"
+    const phone = "{{phone}}"
+    const province = "{{province}}"
+    const province_code = "{{province_code}}"
+    const street = "{{street}}"
+    const zip = "{{zip}}"
+    const address1 = "{{address1}}"
+    const address2 = "{{address2}}"
+    const city = "{{city}}"
+    const company_id = "{{company_id}}"
+    const company_vat = "{{company_vat}}"
+    const company = "{{company}}"
+    const tarif_name = "{{tarif_name}}"
+    const tarif_discount = {{tarif_discount | json}} * 100
+
+    $(document).ready(()=>{
+        //reset all inputs to zero
+        $(".qty").each((i, el) => {
+            $(el).val(0)
+        })
+        $("#only_in_stock").prop('checked', false)
+
+        //load quantities from storage
+        var storedItems = JSON.parse(localStorage.getItem("wholesaleCartItems"));
+        storedItems.forEach(element => {
+            let qtyInput = $(`[data-variant="${element.variant}"]`).children(".col-qty").children()[0]
+            qtyInput.value = element.qty
+            qtyInput.dispatchEvent(new Event('change'));
+        });
+    })
+
+    $(".product-chevron").on("click",(ev) => {
+        let chevron = $(ev.target)
+        chevron.toggleClass("collapsed")
+        $(`.variant[data-product=${chevron.data("product")}]`).each((i,el)=>{
+            $(el).toggleClass("visually-hidden")
+        })
+    })
+
+    $("#only_in_stock").on("change",(ev) => {
+        if (ev.target.checked) {
+            $("#wholesale-form").addClass("only-stock")
+        } else {
+            $("#wholesale-form").removeClass("only-stock")
+        }
+    })
+
+    $(".qty").on("change",(ev) => {
+        let totalPrice = 0
+        let totalQty = 0
+
+        //user entered invalid value:
+        if (!$.isNumeric($(ev.target).val())) {
+            $(ev.target).val(0)
+        }
+        if (parseInt($(ev.target).val()) > parseInt($(ev.target).attr("max"))) {
+            $(ev.target).val($(ev.target).attr("max"))
+        }
+        
+        let inputValues = []
+
+        let checkoutItemsHTML = ""
+        $(".qty").each((i,el)=>{
+            let rowQty = parseInt($(el).val())
+            let rowPrice = parseInt($(el).parent().parent("tr").data("price")) ? parseInt($(el).parent().parent("tr").data("price")) : 0
+            totalPrice += (rowQty*rowPrice)
+            totalQty += (rowQty)
+            
+            if (rowQty > 0) {
+              let rowName = ($(el).parent().parent("tr").data("name")) ?  ($(el).parent().parent("tr").data("name")) : ""
+              let rowPriceFormatted = (rowQty*rowPrice*0.01) + '{{"wholesale.curr" | t}}'
+              let rowHTML = `<div class="row"><span class="item-name">${rowQty} x ${rowName}</span><strong class="item-price">${rowPriceFormatted}</strong></div>`
+              checkoutItemsHTML+=rowHTML
+            }
+
+
+          if ($(el).attr("disabled") == "disabled" || rowQty == 0) {//out of stock or 0 qty
+              return
+          }
+
+            inputValues = [
+                  ...inputValues,
+                  {
+                      "variant": $(el).parent().parent().data("variant"),
+                      "qty": rowQty,
+                  }
+              ]
+        })
+
+        localStorage.setItem("wholesaleCartItems", JSON.stringify(inputValues));
+
+        totalPrice = (totalPrice / 100)
+        $("#totalPrice").html(totalPrice)
+        $("#totalQty").html(totalQty)
+        $("#OrderCheckoutItems").html(checkoutItemsHTML)
+
+        if (totalQty > 0) {
+          $("#create_order_btn").removeClass("disabled")
+      } else {
+            $("#create_order_btn").addClass("disabled")
+        }
+    })
+
+    $("#WholesaleFormCancelBtn").on("click",(ev) => {
+      $(".wholesale-form-checkout").hide()
+    })
+
+
+    $("#WholesaleFormFinishBtn").on("click",(ev) => {
+
+      if (is_billing_address_complete == "false") {
+          alert('{{ "wholesale.billing_address_incomplete" | t}}')
+          return
+      }
+      if (is_shipping_address_complete == "false") {
+          alert('{{ "wholesale.shipping_address_incomplete" | t}}')
+          return
+      }
+
+      let cartItems = []
+
+        $(".qty").each((i,el)=>{
+            let rowQty = parseInt($(el).val())
+            let rowID = $(el).parent().parent("tr").data("variant")
+            let rowPriceB2C = parseInt($(el).parent().parent("tr").data("priceb")) ? parseInt($(el).parent().parent("tr").data("priceb")) : 0
+            let isFixedPrice = $(el).parent().parent("tr").data("fixedprice")                
+
+            if (rowQty > 0) {   
+                cartItems = [
+                    ...cartItems,
+                    { "variant_id": rowID,
+                      "quantity": rowQty,
+                      "isFixedPrice": isFixedPrice,
+                      "price": rowPriceB2C
+                    }
+                  ]
+            }
+          })
+
+
+
+        let newData = {
+            items: cartItems,
+            company_id: company_id,
+            company_vat: company_vat,
+            company: company
+        }
+
+        let shippingAddress = {// bere se z customer default address
+          address1: address1,
+          address2: address2,
+          city: city,
+          company: company,
+          country: country,
+          country_code: country_code,
+          first_name: first_name,
+          last_name: last_name,
+          name: first_name + " " + last_name,
+          phone: phone,
+          province: province,
+          province_code: province_code,
+          street: street,
+          zip: zip,
+          longitude: null,
+          latitude: null
+        }
+        let billingAddress = {
+          address1: "{{bill_address1}}",
+          address2: "{{bill_address2}}",
+          city: "{{bill_city}}",
+          company: "{{bill_company}}",
+          country: "{{bill_country}}",
+          country_code: "{{bill_country_code}}",
+          first_name: "{{bill_first_name}}",
+          last_name: "{{bill_last_name}}",
+          name: "{{bill_first_name}}" + " " + "{{bill_last_name}}",
+          phone: "{{bill_phone}}",
+          province: "{{bill_province}}",
+          province_code: "{{bill_province_code}}",
+          zip: "{{bill_zip}}",
+          longitude: null,
+          latitude: null
+        }
+
+        let webhookURL = '{{"wholesale.webhook_url" | t}}'
+        fetch(webhookURL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                  cart: (newData),
+                  customerId: JSON.parse(event.target.dataset.customerId),
+                  customerIdSignature: JSON.parse(event.target.dataset.customerIdSignature),
+                  billing_address: billingAddress,
+                  shipping_address: shippingAddress,
+                  tarif_name,
+                  tarif_discount
+              }),
+        }).then(data => {
+            $.post('/cart/clear.js').then(function() {
+                localStorage.removeItem("wholesaleCartItems")
+                window.location.replace('{{shop.url}}{{"wholesale.thankyou_url" | t}}');
+            })
+        })
+        .catch((error) => {
+            console.error('odeslano: Error!', error);
+        });
+    })
+
+    $("#create_order_btn").on("click",(ev) => {
+        $(".wholesale-form-checkout").show()
+    })
+
+
+  }
+</script>

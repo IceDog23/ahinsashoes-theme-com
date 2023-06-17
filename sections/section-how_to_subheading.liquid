@@ -1,0 +1,31 @@
+<div class="subheading">
+  <p>{{ section.settings.first_line }}</p>
+  <p class="bolt">{{ section.settings.second_line }}</p>
+</div>
+
+{% schema %}
+{
+    "name": "Subheading - measure feet",
+    "class": "subheading-measure",
+    "settings": [
+    {
+        "type": "textarea",
+        "id": "first_line",
+        "label": "Text 1",
+        "default": "Je to jednoduché - a kdyby vám náhodou boty nesedly, nic se neděje."
+    },
+    {
+        "type": "textarea",
+        "id": "second_line",
+        "label": "Text 2",
+        "default": "Zdarma vám je vyměníme a zaplatíme poštovné."
+    }
+  ],
+    "presets": [
+        {
+            "category": "Text",
+            "name":"Subheading - measure feet"
+        }
+    ]
+}
+{% endschema %}

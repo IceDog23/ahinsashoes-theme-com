@@ -1,0 +1,36 @@
+{%- if template.name == 'page' and page.metafields.global.altLinks.value != blank -%}
+    {% assign altLinkEN = page.metafields.global.altLinks.value["en"] %}
+    {% assign altLinkCS = page.metafields.global.altLinks.value["cs-cz"] %}
+    {% assign altLinkHR = page.metafields.global.altLinks.value["hr"] %}
+{%- elsif template.name == 'product' and product.metafields.global.altLinks.value != blank -%}
+    {% assign altLinkEN = product.metafields.global.altLinks.value["en"] %}
+    {% assign altLinkCS = product.metafields.global.altLinks.value["cs-cz"] %}
+    {% assign altLinkHR = product.metafields.global.altLinks.value["hr"] %}
+{%- elsif template.name == 'collection' and collection.metafields.global.altLinks.value != blank -%}
+    {% assign altLinkEN = collection.metafields.global.altLinks.value["en"] %}
+    {% assign altLinkCS = collection.metafields.global.altLinks.value["cs-cz"] %}
+    {% assign altLinkHR = collection.metafields.global.altLinks.value["hr"] %}
+{%- elsif template.name == 'blog' and blog.metafields.global.altLinks.value != blank -%}
+    {% assign altLinkEN = blog.metafields.global.altLinks.value["en"] %}
+    {% assign altLinkCS = blog.metafields.global.altLinks.value["cs-cz"] %}
+    {% assign altLinkHR = blog.metafields.global.altLinks.value["hr"] %}
+{%- elsif template.name == 'article' and article.metafields.global.altLinks.value != blank -%}
+    {% assign altLinkEN = article.metafields.global.altLinks.value["en"] %}
+    {% assign altLinkCS = article.metafields.global.altLinks.value["cs-cz"] %}
+    {% assign altLinkHR = article.metafields.global.altLinks.value["hr"] %}
+{%- else -%}
+    {% assign altLinkEN = shop.metafields.global.altLinks.value["en"] | append: request.path %}
+    {% assign altLinkCS = shop.metafields.global.altLinks.value["cs-cz"] | append: request.path %}
+    {% assign altLinkHR = shop.metafields.global.altLinks.value["hr"] | append: request.path %}
+{%- endif -%}
+
+{% if shop.url contains ".cz" %}
+    <link rel="alternate" hreflang="en" href="{{ altLinkEN }}" />
+    <link rel="alternate" hreflang="hr" href="{{ altLinkHR }}" />
+{% elsif shop.url contains ".com" %}
+    <link rel="alternate" hreflang="cs-cz" href="{{ altLinkCS }}" />
+    <link rel="alternate" hreflang="hr" href="{{ altLinkHR }}" />
+{% else %}
+    <link rel="alternate" hreflang="en" href="{{ altLinkEN }}" />
+    <link rel="alternate" hreflang="cs-cz" href="{{ altLinkCS }}" />
+{% endif %}

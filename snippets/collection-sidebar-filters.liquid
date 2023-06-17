@@ -1,0 +1,340 @@
+{% assign footwear_type_tags = settings.footwear_type_tags | split: ";" | sort %}
+<ul class="no-bullets tag-list tag-list--active-tags">
+  {% assign def_filter_index = 0 %}
+  {%- for ftag in footwear_type_tags -%}
+    {% if current_tags contains ftag %}
+      {% assign def_filter_index = def_filter_index | plus: 1 %}
+      <li class="tag tag--remove">
+        {{ ftag | link_to_remove_tag: ftag | replace: 'title=', 'class="btn btn--small no-ajax" title=' | replace: '?view=ajax', '' }}
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/></svg>
+      </li>
+    {% endif %}
+  {%- endfor -%}
+
+  {%- for filter in collection.filters -%}
+    {%- assign filter_index = forloop.index | plus: def_filter_index -%}
+
+    {%- for filter_value in filter.active_values -%}
+      
+        <li class="tag tag--remove {% if filter.label == "Dostupnost" or filter.label == "Availability" %}hide {% endif %}">
+          <a class="btn btn--small" href="{{ filter_value.url_to_remove }}">
+            {{ filter_value.label | escape }}
+          </a>
+          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/></svg>
+        </li>
+    {%- endfor -%}
+  {%- endfor -%}
+</ul>
+
+<form class="filter-form">
+
+  {% comment %} categories: {% endcomment %}
+  {%- assign collapsed_state = true -%}
+  <div class="collection-sidebar__group--1">
+    <div class="collection-sidebar__group">
+      {%- liquid
+        assign block_title = 'collections.filters.categories_title' | t
+        assign title_printed = false
+        for link in linklists.main-menu.links
+          if link.child_active and title_printed == false
+            assign block_title =  link.title
+            assign title_printed = true
+          endif
+        endfor
+        render 'collection-sidebar-filter-trigger', location: location, title: block_title, index: 1, collapsed_state: collapsed_state, id: "category"
+      -%}
+      <div
+        id="{{ location }}-1-category"
+        data-collapsible-id="category"
+        class="collapsible-content collapsible-content--sidebar{% unless collapsed_state %} is-open{% endunless %}"
+        {% unless collapsed_state %}style="height: auto;"{% endunless %}>
+        <div class="collapsible-content__inner">
+          <ul class="no-bullets tag-list">
+            {%- liquid
+              assign sub_collection_links = link.links
+              assign list_printed = false
+    
+              for link in linklists.main-menu.links
+                unless list_printed
+                  if link.active or link.child_active
+                    assign sub_collection_links = link.links
+                    render 'subcollection-list', block: block, link: link, list_printed: list_printed
+                    assign list_printed = true
+                  endif
+                endunless
+              endfor
+            -%}
+    
+            {%- unless sub_collection_links.size > 0 -%}
+              {%- style -%}
+                .collection-sidebar__group--1 { display: none; }
+              {%- endstyle -%}
+            {%- endunless -%}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% comment %} footwear types: {% endcomment %}
+  {%- assign collapsed_state = false -%}
+  <div class="collection-sidebar__group--2">
+    <div class="collection-sidebar__group">
+      {%- liquid
+        assign block_title = 'collections.filters.footwear_type_title' | t
+        render 'collection-sidebar-filter-trigger', location: location, title: block_title, index: 2, collapsed_state: collapsed_state, id: "footwear_type"
+      -%}
+      <div
+        id="{{ location }}-2-footwear_type"
+        data-collapsible-id="footwear_type"
+        class="collapsible-content collapsible-content--sidebar{% unless collapsed_state %} is-open{% endunless %}"
+        {% unless collapsed_state %}style="height: auto;"{% endunless %}>
+        <div class="collapsible-content__inner">
+          <ul class="no-bullets tag-list">
+            
+            {% assign footwear_filters_size = 0 %}
+              {%- for filter_value in footwear_type_tags -%}
+                {% if collection.all_tags contains filter_value %}
+                  {% assign footwear_filters_size = footwear_filters_size | plus: 1 %}
+                  <li class="footwear-type-tag tag{% if current_tags contains filter_value %} tag--active{% endif %}">
+                    {% comment %} {{ filter_value | link_to_add_tag: filter_value }} {% endcomment %}
+                    {% if current_tags contains filter_value %}
+                      {{ filter_value | link_to_remove_tag: filter_value | replace: 'title=', 'class="no-ajax" title=' | replace: '?view=ajax', '' }}
+                    {% else %}
+                      <a href="{{ collection.url}}/{{ filter_value | handleize }}" class="no-ajax">{{ filter_value | escape }}</a>
+                    {% endif %}
+                  </li>
+                {% endif %}
+              {%- endfor -%}
+
+              {% comment %} {%- for filter in collection.filters-%}
+                {%- if filter.label == "Typ obuvi" or filter.label == "Type"-%}
+                  {% assign footwear_filters_size = footwear_filters_size | plus: 1 %}
+                  {%- for filter_value in filter.values -%}
+                    <li class="footwear-type-tag tag{% if it_could_be %} tag--active{% endif %}">
+                      <a href="{{ collection.url}}/{{ filter_value.value | handleize }}" class="no-ajax footwear-type">{{ filter_value.label | escape }}</a>
+                      </li>
+                  {%- endfor-%}
+                {%- endif-%}
+              {%- endfor -%} {% endcomment %}
+    
+            {%- unless footwear_filters_size > 0 -%}
+              {%- style -%}
+                .collection-sidebar__group--2 { display: none; }
+              {%- endstyle -%}
+            {%- endunless -%}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {%- for filter in collection.filters -%}
+    {%- if filter.label == "Typ obuvi" or filter.label == "Type" -%}
+      {% continue %}
+    {%- endif -%}
+
+    {%- capture filter_id -%}filter-{{ filter.label | handleize }}{%- endcapture -%}
+    {%- assign filter_index = forloop.index | plus: 2 -%}
+    {%- assign collapsed_state = section.settings.collapsed -%}
+
+    {% assign filter_title = filter.label %}
+    {% if shop.url contains "ahinsashoes.com" and filter.label == "Velikost" %}
+      {% assign filter_title = "Size" %}
+    {% endif %}
+    <div class="collection-sidebar__group--{{ filter_index }} csg--{{filter_title}}">
+      <div class="collection-sidebar__group">
+        {%- render 'collection-sidebar-filter-trigger',
+              id: filter_id,
+              location: location,
+              title: filter_title,
+              index: filter_index,
+              collapsed_state: collapsed_state -%}
+        <div
+          id="{{ location }}-{{ filter_index }}-{{ filter_id }}"
+          class="collapsible-content collapsible-content--sidebar{% unless collapsed_state %} is-open{% endunless %}"
+          data-collapsible-id="{{ filter_id }}"
+          {% unless collapsed_state %}style="height: auto;"{% endunless %}>
+          <div class="collapsible-content__inner">
+            {%- case filter.type -%}
+              {%- when 'list' -%}
+                {%- liquid
+                  assign is_color = false
+                  assign swatch_file_extension = 'png'
+                  if section.settings.enable_color_swatches
+                    assign swatch_trigger = 'products.general.color_swatch_trigger' | t | downcase
+                    assign downcased_label = filter.label | downcase
+                    if downcased_label contains swatch_trigger
+                      assign is_color = true
+                    elsif swatch_trigger == 'color' and downcased_label contains 'colour'
+                      assign is_color = true
+                    endif
+                  endif
+
+                  assign is_size = false
+                  if filter.label == "Velikost" or filter.label == "Size"
+                    assign is_size = true
+
+                    assign available_sizes = ""
+                    for item in collection.products
+                      for va in item.variants
+                        if va.available == true
+                          unless available_sizes contains va.option1
+                          assign available_sizes = available_sizes | append: ',' | append: va.option1
+                          endunless
+                        endif
+                      endfor
+                    endfor
+                    assign available_sizes = available_sizes | remove_first: ','
+
+                  endif
+                -%}
+
+                <ul class="no-bullets tag-list">
+
+                  {% if shop.url contains "ahinsashoes.cz" %}
+                  {% assign colors_to_show = "černá\nvínová\nmodrá\nžlutá\nbílá\nčervená\nhnědá\nbéžová\npřírodní\nšedá" | split: '\n' %}
+                  {% else %}
+                  {% assign colors_to_show = "black\nburgundy\nblue\nyellow\nwhite\nred\nbrown\nbeige\nnatural\ngrey" | split: '\n' %}
+                  {% endif %}
+                  {%- assign tag_count = filter.values.size -%}
+                  {%- for filter_value in filter.values -%}
+                    {%- liquid
+                      assign tag_count = tag_count | plus: 1
+                      assign filter_value_index = forloop.index
+
+                      assign color_file_name = filter_value.label | handle | append: '.' | append: swatch_file_extension
+                      assign color_image = color_file_name | asset_img_url: '50x' | prepend: 'https:' | split: '?' | first
+                      assign color_swatch_fallback = filter_value.label | split: ' ' | last | handle
+
+                      assign hide_value = true
+                      assign colors_to_show_contain_color = false
+                      if colors_to_show contains filter_value.label
+                        assign colors_to_show_contain_color = true
+                      endif
+
+                      if is_color == false
+                        assign hide_value = false
+                      endif
+                      if is_color and colors_to_show_contain_color == true
+                        assign hide_value = false
+                      endif
+
+                    -%}
+
+                    <li class="tag{% if filter_value.active %} tag--active{% endif %}{% if is_color %} tag--swatch{% endif %}
+                    {% if filter_value.count == 0 or hide_value == true%}
+                    {% unless is_size %}
+                       hide
+                    {% endunless %}
+                     {% endif %}"
+                    >
+                      <label class="tag__checkbox-wrapper text-label">
+                        <input
+                          type="checkbox"
+                          class="tag__input"
+                          name="{{ filter_value.param_name }}"
+                          value="{{ filter_value.value }}"
+                          {% if filter_value.active %}checked{% endif %}
+                          {% if is_size %}
+                            {% unless available_sizes contains filter_value.label %}disabled{% endunless %}
+                          {% endif %}
+                          >
+                        {%- if is_color -%}
+                          <span
+                            class="color-swatch color-swatch--filter color-swatch--{{ filter_value.label | handle }}"
+                            title="{{ filter_value.label }}"
+                            style="background-color: {{ color_swatch_fallback }};{% if color_image != blank %}  background-image: url({{ color_image }});{% endif %}"
+                          >
+                            {{ filter_value.label }}
+                          </span>
+                          <span class="tag__text hide">{{ filter_value.label | escape }}</span>
+                        {%- elsif is_size -%}
+                          <span class="{% unless available_sizes contains filter_value.label %} size--disabled{% endunless %} tag__text size-tag-text">
+                            {% unless available_sizes contains filter_value.label %}
+                            <div class="size-cross">
+                              <span class="size-cross-1"></span>
+                              <span class="size-cross-2"></span>
+                              <span class="size-cross-3"></span>
+                            </div>
+                            {% endunless %}
+                            
+                            {{ filter_value.label | escape }}
+                          </span>
+                        {%- else -%}
+                          <span class="tag__checkbox"></span>
+                          <span>
+                            <span class="tag__text">{{ filter_value.label | escape }}</span>
+                          </span>
+                        {%- endif -%}
+                      </label>
+                    </li>
+                  {%- endfor -%}
+                </ul>
+
+                {%- if tag_count == 0 -%}
+                  {%- style -%}
+                    .collection-sidebar__group--{{ filter_index }} { display: none; }
+                  {%- endstyle -%}
+                {%- endif -%}
+              {%- when 'price_range'-%}
+                {% comment %} Comma code from Dawn {% endcomment %}
+                {% liquid
+                  assign currencies_using_comma_decimals = 'ANG,ARS,BRL,BYN,BYR,CLF,CLP,COP,CRC,CZK,DKK,EUR,HRK,HUF,IDR,ISK,MZN,NOK,PLN,RON,RUB,SEK,TRY,UYU,VES,VND' | split: ','
+                  assign uses_comma_decimals = false
+
+                  if currencies_using_comma_decimals contains cart.currency.iso_code
+                    assign uses_comma_decimals = true
+                  endif
+
+                  assign filter_min_value = filter.min_value.value | money_without_currency | replace: ',', ''
+                  assign filter_max_value = filter.max_value.value | money_without_currency | replace: ',', ''
+                  assign filter_range_min = filter.range_min | money_without_currency | replace: ',', ''
+                  assign filter_range_max = filter.range_max | money_without_currency | replace: ',', ''
+
+                  if uses_comma_decimals
+                    if filter.min_value.value
+                      assign filter_min_value = filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.'
+                    endif
+
+                    if filter.max_value.value
+                      assign filter_max_value = filter.max_value.value | money_without_currency | replace: '.', '' | replace: ',', '.'
+                    endif
+
+                    assign filter_range_min = filter.range_min | money_without_currency | replace: '.', '' | replace: ',', '.'
+                    assign filter_range_max = filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.'
+                  endif
+                %}
+                <div
+                  class="price-range"
+                  data-min-value="{{ filter_min_value }}"
+                  data-min-name="{{ filter.min_value.param_name }}"
+                  data-min="{{ filter_range_min }}"
+                  data-max-value="{{ filter_max_value }}"
+                  data-max-name="{{ filter.max_value.param_name }}"
+                  data-max="{{ filter_range_max }}">
+                  <div class="price-range__display-wrapper">
+                    <span class="price-range__display-min">{{ filter_min_value }}</span>
+                    <span class="price-range__display-max">{{ filter_max_value }}</span>
+                  </div>
+                  <div class="price-range__slider-wrapper">
+                    <div class="price-range__slider"></div>
+                  </div>
+                  <input
+                    class="price-range__input price-range__input-min"
+                    name="{{ filter.min_value.param_name }}"
+                    value="{{ filter_min_value }}"
+                    readonly>
+                  <input
+                    class="price-range__input price-range__input-max"
+                    name="{{ filter.max_value.param_name }}"
+                    value="{{ filter_max_value }}"
+                    readonly>
+                </div>
+            {%- endcase -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  {%- endfor -%}
+</form>

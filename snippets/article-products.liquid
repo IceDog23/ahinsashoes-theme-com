@@ -1,0 +1,11 @@
+{% assign key = "products" | append: products_id %}
+{% if article.metafields[key] != blank %}
+    
+    <div class="product-list flex-grid">
+        {% for prod in article.metafields[key] %}
+        {% assign product = all_products[prod.last] %}
+        {%- include 'product-grid-item', product: product, grid_item_width: 'medium-up--one-third small--one-half', per_row: 3 -%}
+        {% endfor %}
+    </div>
+
+{% endif %}

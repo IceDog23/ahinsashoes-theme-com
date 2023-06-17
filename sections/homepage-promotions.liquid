@@ -1,0 +1,114 @@
+{%- liquid
+  assign fixed_aspect_ratio = false
+  unless section.settings.image_size == 'natural'
+    assign fixed_aspect_ratio = true
+  endunless
+
+  assign show_section = true
+
+-%}
+
+{%- if show_section -%}
+  {%- if section.blocks.size > 0 -%}
+    {%- liquid
+      assign grid_item_width = 'medium-up--one-half'
+      if section.blocks.size == 4
+        assign grid_item_width = 'medium-up--one-quarter'
+      endif
+    -%}
+
+    <div class="index-section">
+      <div class="xxxsection--divider">
+        <div class="page-width footer-promotions-v2">
+          <div class="grid grid--flush-bottom">
+            {%- for block in section.blocks -%}
+              <div class="grid__item {{ grid_item_width }} promo" {{ block.shopify_attributes }} data-aos="row-of-4">
+
+
+                  <a href="{{ block.settings.button_link }}" class="image-wrapper">
+
+                      {% assign image = block.settings.image %}
+                      {% if image != blank %}
+                        <img class="lazyload grid__image-cover"
+                        data-src="{{ image.src | img_url: "180x" }}"
+                        data-widths="[360, 540, 720, 900, 1080]"
+                        data-aspectratio="1"
+                        data-sizes="auto"
+                        alt="{{image.alt}}">
+                      {% else %}
+                  
+                        {% assign imgindex = forloop.index | string %}
+                        {% assign img_url = "promo" | append: imgindex | append: ".png" %}
+
+                        <img class="lazyload grid__image-cover"
+                          data-src="{{ img_url | asset_img_url: "180x" }}"
+                          data-widths="[360, 540, 720, 900, 1080]"
+                          data-aspectratio="1"
+                          data-sizes="auto"
+                          alt="">
+
+                      {% endif %}
+
+                  </a>
+                  <div>
+
+
+                  {%- if block.settings.title != blank -%}
+                    <div class="h3">{{ block.settings.title }}</div>
+                  {%- endif -%}
+                  {%- if block.settings.text != blank -%}
+                    <div class="rte-setting">{{ block.settings.text }}</div>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  {%- endif -%}
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Homepage promotions",
+    "max_blocks": 4,
+    "class": "index-section--homepage",
+    "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "promotion",
+        "name": "Column",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Site-wide promotion"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Link"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [{
+        "name": "Promotions",
+        "category": "Text"
+      }]
+  }
+{% endschema %}

@@ -1,0 +1,82 @@
+{%- if section.settings.title -%}
+<h3 class="h3 footer__title text-center">{{ section.settings.title }}</h3>
+{%- endif -%}
+<div class="newsletter_adds centered-description-text">
+    <div class="newsletter_text">
+      {%- if section.settings.text -%}
+        {{ section.settings.text }}
+      {%- endif -%}
+      {%- if section.settings.as_gift -%}
+        <p class="p2 bold">{{ section.settings.as_gift }}</p>
+      {%- endif -%}
+      {%- if section.settings.gift_title -%}
+        <p class="bigger-h3">{{ section.settings.gift_title }}</p>
+      {%- endif -%}
+    </div>
+    {% if section.settings.image %}
+      <div class="newsletter_image">
+        <img src="{{ section.settings.image | img_url: '300x' }}" alt="{{ section.settings.image.alt }}">
+      </div>
+    {% endif %}
+  </div>
+
+
+{% schema %}
+  {
+    "name": "Newsletter adds",
+    "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_footer_title",
+      "label": "Show heading",
+      "default": true
+    },
+    {
+      "type": "paragraph",
+      "content": "Any customers who sign up will have an account created for them in Shopify. [View customers](/admin/customers)."
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Sign up and save"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "info": "Optional",
+      "default": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>"
+    },
+    {
+      "type": "text",
+      "id": "as_gift",
+      "label": "As a gift",
+      "default": "+ jako dárek e-book:"
+    },
+    {
+      "type": "text",
+      "id": "gift_title",
+      "label": "Gift title",
+      "default": "Krok za Krokem ke zdravé chůzi"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "label": "Column width",
+      "default": 25,
+      "min": 15,
+      "max": 95,
+      "unit": "%"
+    }
+  ],
+    "default": {
+      "settings": {}
+    }
+  }
+{% endschema %}

@@ -1,0 +1,173 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+    {%- capture image_layout -%}
+      <div class="feature-row__item">
+        <div style="margin: 0 auto; max-width: {{ section.settings.image_width }}px; ">
+          {%- if section.settings.image != blank -%}
+            {%- if section.settings.button_label != blank and section.settings.button_link != blank %}<a href="{{ section.settings.button_link }}">{% endif -%}
+            <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
+              {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              <img class="feature-row__image lazyload"
+                  data-src="{{ img_url }}"
+                  src="{{ section.settings.image | img_url: 'x900' }}"
+                  data-widths="[180, 360, 540, 720, 900, 1080]"
+                  data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                  data-sizes="auto"
+                  alt="{{ section.settings.image.alt }}">
+            </div>
+            {%- if section.settings.button_label != blank and section.settings.button_link != blank %}</a>{% endif -%}
+          {%- else -%}
+            <div class="image-wrap">
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endcapture -%}
+  
+    <div class="feature-row align-items-stretch black-box-main gap20" data-aos>{%- comment -%}top-section-margin{%- endcomment -%}
+      {%- if section.settings.layout == 'left' -%}
+        {{ image_layout }}
+      {%- endif -%}
+  
+      <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }} text-left">
+        <div class="flex-text">
+          {%- if section.settings.subtitle != blank -%}
+            <p class="h5">{{ section.settings.subtitle }}</p>
+          {%- endif -%}
+          {%- if section.settings.title != blank -%}
+            <p class="h3">{{ section.settings.title | escape }}</p>
+          {%- endif -%}
+          {%- if section.settings.text != blank -%}
+            <div class="rte featured-row__subtext">{{ section.settings.text }}</div>
+          {%- endif -%}
+        </div>
+
+        <div class="mt-2">
+          <h3>
+            {{ section.settings.second_heading }}
+          </h3>
+          {% if section.settings.second_text2 != blank %}
+            <div class="list-two-columns store-text-content2 ebook-list collapsed">
+              {{ section.settings.second_text_list }}
+            </div>
+
+            <div class="ebook-list-text collapsed">
+              <div class="elt-content">
+                {{ section.settings.second_text2 }}
+              </div>
+              <div class="show-more">
+                <a href="#" class="link_underline">
+                  {{ "ebook_page.show_more" | t }}
+                </a>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+        
+      </div>
+  
+      {%- if section.settings.layout == 'right' -%}
+        {{ image_layout }}
+      {%- endif -%}
+    </div>
+  
+  {%- if section.settings.divider -%}</div>{%- endif -%}
+
+
+  <script type="text/javascript">
+    $(".ebook-list-text .show-more").on("click",(e)=>{
+      e.preventDefault()
+      $(".ebook-list").toggleClass("collapsed")
+      $(".ebook-list-text").toggleClass("collapsed")
+    })
+
+  </script>
+  
+  {% schema %}
+    {
+      "name": "Text double and img",
+      "class": "index-section",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "label": "Image width",
+          "default": 500,
+          "min": 100,
+          "max": 500,
+          "step": 10,
+          "unit": "px"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subheading",
+          "default": "Improved"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Text heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+        },
+        {
+          "type": "select",
+          "id": "layout",
+          "label": "Layout",
+          "default": "left",
+          "options": [
+            {
+              "value": "left",
+              "label": "Image on left"
+            },
+            {
+              "value": "right",
+              "label": "Image on right"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "divider",
+          "label": "Show section divider",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "second_heading",
+          "label": "Second Heading",
+          "default": "Čemu se e-book věnuje?"
+        },
+        {
+          "type": "richtext",
+          "id": "second_text_list",
+          "label": "List "
+        },
+        {
+          "type": "richtext",
+          "id": "second_text2",
+          "label": "Bottom text",
+          "default": "<p>Zjistíte, že všechny tyto potíže dokážete vyřešit.</p><p>Odhalíte, proč často doporučovaná řešení, jako jsou vložky nebo kompresní punčochy, dlouhodobě nefungují.</p>"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Text double and img",
+          "category": "Image"
+        }
+      ]
+    }
+  {% endschema %}
+  

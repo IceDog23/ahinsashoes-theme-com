@@ -1,0 +1,33 @@
+<div class="page-width lp-ads_banner">
+    <div class="feature-row">
+    {%- for block in section.blocks -%}
+        <div class="ads_banner_add">
+            <div class="ads_banner_add-image">
+                <div style="margin: 0 auto;">
+                {%- if block.settings.image != blank -%}
+                    <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+                    {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="feature-row__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080]"
+                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.image.alt }}">
+                    </div>
+                    {%- if block.settings.button_label != blank and block.settings.button_link != blank %}</a>{% endif -%}
+                {%- else -%}
+                    <div class="image-wrap">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                    </div>
+                {%- endif -%}
+                </div>
+            </div>
+            <div class="ads_banner_add-text">
+                {%- if block.settings.title != blank -%}
+                <p class="h3">{{ block.settings.title | escape }}</p>
+                {%- endif -%}
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>

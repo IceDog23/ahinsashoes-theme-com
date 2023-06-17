@@ -1,0 +1,48 @@
+{% render 'kontakt-addresses' %}
+
+{% schema %}
+{
+    "name": "Addresses",
+    "class": "kontakt-addresses kontakt-box-container kontakt-box",
+    "settings": [
+    {
+        "type": "textarea",
+        "id": "rich_text",
+        "label": "Malý text",
+        "default": "Společnost je zapsána v obchodním rejstříku u Městského soudu v Praze oddíl C, vložka 204350."
+    }
+  ],
+    "blocks": [
+    {
+        "type": "html",
+        "name": "Custom content",
+        "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Nadpis",
+            "default": "Adresa pro výměnu a vrácení"
+        },
+        {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Podnadpis",
+            "default": "Sem nám posílejte všechno, co chcete vyměnit, vrátit nebo reklamovat."
+        },
+        {
+            "type": "textarea",
+            "id": "adresa",
+            "label": "Text",
+            "default": "Walk free, s. r. o.<br>IČO: 04724470<br>DIČ: CZ04724470"
+        }
+        ]
+    }
+    ],
+    "presets": [
+        {
+            "category": "Text",
+            "name":"Addresses"
+        }
+    ]
+}
+{% endschema %}

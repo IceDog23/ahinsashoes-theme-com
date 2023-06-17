@@ -1,0 +1,615 @@
+{% assign full_collection_handle = request.path | split: "/collections/" | last %}
+{% assign full_collection_handle_short = full_collection_handle | split: "/" | last %}
+
+{%- capture full_collection_handle_short_pt2 -%}
+  {%- for filter in collection.filters -%}
+    {%- assign is_size_filter = false -%}
+    {%- if filter.label == "Velikost" or filter.label == "Size" -%}
+      {%- assign is_size_filter = true -%}
+    {%- endif -%}
+    {%- unless is_size_filter -%}
+      {%- for filter_value in filter.active_values -%}
+        {{ filter_value.label | handleize }}
+        {%- unless forloop.last -%}+{%- endunless -%}
+      {%- endfor -%}
+    {% endunless %}
+  {%- endfor -%}
+{%- endcapture -%}
+{% assign full_collection_handle_short_pt2 = full_collection_handle_short_pt2 | replace: ' ', "" | strip_newlines %}
+{% if full_collection_handle_short_pt2 != blank %}
+  {% assign full_collection_handle_short = full_collection_handle_short | append: '/' | append: full_collection_handle_short_pt2 %}
+{% endif %}
+
+{% assign col_top_desc = blank %}
+{% assign col_bottom_desc = blank %}  
+
+{% if col_top_desc == blank %}
+  {% assign col_top_desc = collection.metafields.description_top[full_collection_handle_short].value %}
+{% endif %}
+{% if col_top_desc == blank %}
+  {% assign col_top_desc = collection.metafields.description_top[full_collection_handle_short_pt2].value %}
+{% endif %}
+{% if col_top_desc == blank %}
+  {% assign col_top_desc = collection.metafields.description_top[full_collection_handle].value %}
+{% endif %}
+{% if col_bottom_desc == blank %}
+  {% assign col_bottom_desc = collection.metafields.description_bottom[full_collection_handle_short].value %}
+{% endif %}
+{% if col_bottom_desc == blank %}
+  {% assign col_bottom_desc = collection.metafields.description_bottom[full_collection_handle_short_pt2].value %}
+{% endif %}
+{% if col_bottom_desc == blank %}
+  {% assign col_bottom_desc = collection.metafields.description_bottom[full_collection_handle].value %}
+{% endif %}
+
+{%- assign filter_active_values_size = 0 -%}
+{%- for filter in collection.filters -%}
+  {%- assign filter_active_values_size = filter_active_values_size | plus: filter.active_values.size -%}
+{%- endfor -%}
+
+<div
+  id="CollectionAjaxResult"
+  class="collection-content"
+  data-section-id="{{ section.id }}"
+  data-section-type="collection-template"
+>
+  <div id="CollectionAjaxContent">
+    <div id="CollectionTitle" class="visually-hidden">{{- seo_title | strip -}}</div>
+    <div class="page-width">
+      <div class="grid">
+        <div class="grid__item medium-up--one-fifth grid__item--sidebar">
+            {% render 'collection-sidebar', section: section %}
+        </div>
+        <div class="grid__item medium-up--four-fifths grid__item--content">
+
+            <!--- BAREFOOT MAN ----->
+
+            {% if request.path contains '/collections/all/barefoot' %}
+              <div class="grid grid--uniform grid--collection">
+                <div class="grid__item small--one-half medium-up--one-fifth">
+                  <a href="https://ahinsashoes.com/collections/mens-barefoot-shoes" class="collection-item collection-item--overlaid-box aos-init aos-animate" data-aos="row-of-{{ per_row }}">
+                      <div class="collection-image collection-image--square image-wrap">
+                        <img
+                          class="lazyload"
+                          src=""
+                          data-src="{{ 'https://cdn.shopify.com/s/files/1/0522/3428/9312/files/panske_barefoot.webp?v=1677331876' }}"
+                          data-aspectratio="{{ collection_image.aspect_ratio }}"
+                          data-widths="[360, 540, 720, 900, 1080]"
+                          data-sizes="auto"
+                          alt="{{ collection_image.alt | escape }}"
+                          style="object-position: {{ background_position }};">
+                      </div>
+                    <span
+                      class="collection-item__title collection-item__title--overlaid-box collection-item__title--body collection-item__title--center">
+                      <span>
+                        Men's Barefoot Shoes
+                      </span>
+                    </span>
+                  </a>
+                </div>
+    
+                <div class="grid__item small--one-half medium-up--one-fifth">
+                  <a href="https://ahinsashoes.com/collections/womens-barefoot-shoes" class="collection-item collection-item--overlaid-box aos-init aos-animate" data-aos="row-of-{{ per_row }}">
+                      <div class="collection-image collection-image--square image-wrap">
+                        <img
+                          class="lazyload"
+                          src=""
+                          data-src="{{ 'https://cdn.shopify.com/s/files/1/0522/3428/9312/files/damske_barefoot.webp?v=1677331876' }}"
+                          data-aspectratio="{{ collection_image.aspect_ratio }}"
+                          data-widths="[360, 540, 720, 900, 1080]"
+                          data-sizes="auto"
+                          alt="{{ collection_image.alt | escape }}"
+                          style="object-position: {{ background_position }};">
+                      </div>
+                    <span
+                      class="collection-item__title collection-item__title--overlaid-box collection-item__title--body collection-item__title--center">
+                      <span>
+                        Women's Barefoot Shoes
+                      </span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+    
+              {% endif %}
+    
+    
+              {% if request.path contains '/collections/all/comfort' %}
+                <div class="grid grid--uniform grid--collection">
+                  <div class="grid__item small--one-half medium-up--one-fifth">
+                    <a href="https://ahinsashoes.com/collections/mens-comfort-shoes" class="collection-item collection-item--overlaid-box aos-init aos-animate" data-aos="row-of-{{ per_row }}">
+                        <div class="collection-image collection-image--square image-wrap">
+                          <img
+                            class="lazyload"
+                            src=""
+                            data-src="{{ 'https://cdn.shopify.com/s/files/1/0522/3428/9312/files/panove_komfort.jpg?v=1655920584' }}"
+                            data-aspectratio="{{ collection_image.aspect_ratio }}"
+                            data-widths="[360, 540, 720, 900, 1080]"
+                            data-sizes="auto"
+                            alt="{{ collection_image.alt | escape }}"
+                            style="object-position: {{ background_position }};">
+                        </div>
+                      <span
+                        class="collection-item__title collection-item__title--overlaid-box collection-item__title--body collection-item__title--center">
+                        <span>
+                          Men's Comfort Shoes
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+    
+                  <div class="grid__item small--one-half medium-up--one-fifth">
+                    <a href="https://ahinsashoes.com/collections/womens-comfort-shoes" class="collection-item collection-item--overlaid-box aos-init aos-animate" data-aos="row-of-{{ per_row }}">
+                        <div class="collection-image collection-image--square image-wrap">
+                          <img
+                            class="lazyload"
+                            src=""
+                            data-src="{{ 'https://cdn.shopify.com/s/files/1/0522/3428/9312/files/damske_komfort.webp?v=1677332430' }}"
+                            data-aspectratio="{{ collection_image.aspect_ratio }}"
+                            data-widths="[360, 540, 720, 900, 1080]"
+                            data-sizes="auto"
+                            alt="{{ collection_image.alt | escape }}"
+                            style="object-position: {{ background_position }};">
+                        </div>
+                      <span
+                        class="collection-item__title collection-item__title--overlaid-box collection-item__title--body collection-item__title--center">
+                        <span>
+                          Women's Comfort Shoes
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+    
+                {% endif %}
+    
+          {% unless current_tags %}
+            {%- render 'promo-grid', section: section, collection_page: true -%}
+          {% endunless %}
+          <div class="collection-grid__wrapper">
+            {% if col_top_desc != blank and current_page == 1 %}
+            <div class="collection-description collection-description-top">
+            {{col_top_desc}}
+            </div>
+            {% elsif current_page > 1 %}
+            <br>
+            {% endif %}
+            {% render 'collection-template', section: section %}
+            {% if col_bottom_desc != blank and current_page == 1 %}
+            <div class="collection-description collection-description-bottom">
+              {{col_bottom_desc}}
+            </div>
+            {% endif %}
+
+            {% assign rel_collections = collection.metafields.global.related_collections.value %}
+            {% if rel_collections %}
+              <div class="page-width">
+                <header class="section-header">
+                    <h2 class="section-header__title">
+                    {{ "collections.general.related_categories" | t }}
+                    </h2>
+                </header>
+              </div>
+              <div class="page-width col-related-collections">
+                {% for col in rel_collections %}
+                {% assign colle = collections[col] %}
+                {% assign c_title = colle.title %}
+                {% if col contains "/" %}
+                    {% assign collection_dyn_title = shop.metafields.global.category_headings.value[col] %}
+                        {% if collection_dyn_title != blank %}
+                        {% assign c_title = collection_dyn_title %}
+                    {% else %}
+                        {% assign c_tmp = col | split: '/' | first %}
+                        {% assign c_title = shop.metafields.global.category_headings.value[c_tmp] %}
+                    {% endif %}
+                {% endif %}
+                <a href="{{shop.url}}/collections/{{col}}" class="link_underline">{{c_title}}</a>
+                {% endfor %}
+                
+              </div>
+            {% endif %}
+              
+              <div class="page-width">
+                <header class="section-header">
+                    <h2 class="section-header__title">
+                    {{ "collections.general.related_articles" | t }}
+                    </h2>
+                </header>
+              </div>
+              <div class="page-width col-related-articles">
+                  <div>
+                    {% assign rel_articles = collection.metafields.global.related_articles.value %}
+                    {% if rel_articles %}
+                      {% for art in rel_articles %}
+                      {% assign art_handle = "news/" | append: art %}
+                        {% assign article = blogs["news"].articles | where: "handle", art_handle | first %}
+                        {%- render 'article-grid-item',
+                          blog: "news",
+                          article: article,
+                          grid_item_width: 'medium-up--one-third',
+                          per_row: '3',
+                          image_size: "wide"
+                        -%}
+                      {% endfor %}
+                    {% else %}
+                      {% for article in blogs["news"].articles limit: 3 %}
+                        {%- render 'article-grid-item',
+                          blog: "news",
+                          article: article,
+                          grid_item_width: 'medium-up--one-third',
+                          per_row: '3',
+                          image_size: "wide"
+                        -%}
+                      {% endfor %}
+                    {% endif %}
+                  </div>
+                  <div class="col-related-articles-btn-wrapper">
+                    <a class="btn btn--secondary" href="{{blogs["news"].url}}" >{{"collections.general.related_articles_more" | t}}</a>
+                  </div>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "CollectionPage",
+  {% if collection.description != blank %}
+    "description": {{ collection.description | strip_html | json }},
+  {% endif %}
+  {% if page_image %}
+    {% assign image_size = page_image.width | append: 'x' %}
+    "image": {
+      "@type": "ImageObject",
+      "height": {{ page_image.height | json }},
+      "url": {{ page_image | img_url: image_size | prepend: "https:" | json }},
+      "width": {{ page_image.width | json }}
+    },
+  {% endif %}
+  "name": {{ collection.title | json }}
+}
+</script>
+
+
+{% schema %}
+  {
+    "name": "Product grid",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Filtering and sorting"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sidebar",
+        "label": "Enable filter",
+        "default": true,
+        "info": "Allow your customers to filter collections and search results by product availability, price, color, and more. [Customize filters](/admin/menus)"
+      },
+      {
+        "type": "checkbox",
+        "id": "collapsed",
+        "label": "Collapse filters",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "filter_style",
+        "label": "Filter style",
+        "default": "sidebar",
+        "options": [
+          {
+            "value": "sidebar",
+            "label": "Sidebar"
+          },
+          {
+            "value": "drawer",
+            "label": "Drawer"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_color_swatches",
+        "label": "Enable color swatches",
+        "info": "[View setup instructions](https://archetypethemes.co/blogs/impulse/how-do-i-set-up-color-swatches)"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sort",
+        "label": "Show sort options",
+        "default": true
+      }
+    ],
+    "blocks": [
+      {
+        "type": "collection_description",
+        "name": "Collection description",
+        "limit": 1
+      },
+      {
+        "type": "product_grid",
+        "name": "Products",
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "enable_collection_count",
+            "label": "Enable collection count",
+            "default": true
+          },
+          {
+            "type": "range",
+            "id": "per_row",
+            "label": "Products per row",
+            "default": 4,
+            "min": 2,
+            "max": 5,
+            "step": 1
+          },
+          {
+            "type": "range",
+            "id": "rows_per_page",
+            "label": "Rows per page",
+            "default": 7,
+            "min": 3,
+            "max": 20,
+            "step": 1
+          },
+          {
+            "type": "checkbox",
+            "id": "mobile_flush_grid",
+            "label": "Flush grid on mobile",
+            "default": false
+          }
+        ],
+        "limit": 1
+      },
+      {
+        "type": "subcollections",
+        "name": "Subcollections",
+        "settings": [
+          {
+            "type": "paragraph",
+            "content": "Links to collections from your menu will appear here. [Learn more](https://archetypethemes.co/blogs/expanse/how-do-i-create-subcollections)"
+          },
+          {
+            "type": "range",
+            "id": "subcollections_per_row",
+            "label": "Subcollections per row",
+            "default": 5,
+            "min": 2,
+            "max": 5,
+            "step": 1
+          }
+        ],
+        "limit": 1
+      },
+      {
+        "type": "advanced",
+        "name": "Advanced",
+        "settings": [
+          {
+            "label": "Only show promotion on",
+            "id": "promo_collection",
+            "type": "collection",
+            "info": "If no collection is chosen, your promotion will appear on all collections"
+          },
+          {
+            "type": "text",
+            "id": "subheading",
+            "label": "Subheading",
+            "default": "Limited time"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "Announce your promotion"
+          },
+          {
+            "type": "textarea",
+            "id": "textarea",
+            "label": "Text",
+            "default": "Include the smaller details of your promotion in text below the title."
+          },
+          {
+            "type": "text",
+            "id": "cta_text1",
+            "label": "Button #1 text",
+            "default": "Shop This"
+          },
+          {
+            "type": "url",
+            "id": "cta_link1",
+            "label": "Button #1 link"
+          },
+          {
+            "type": "text",
+            "id": "cta_text2",
+            "label": "Button #2 text",
+            "default": "Shop All"
+          },
+          {
+            "type": "url",
+            "id": "cta_link2",
+            "label": "Button #2 link"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "video_url",
+            "label": "Video url"
+          },
+          {
+            "type": "header",
+            "content": "Layout"
+          },
+          {
+            "type": "select",
+            "id": "width",
+            "label": "Width",
+            "default": "100",
+            "options": [
+              {
+                "value": "33",
+                "label": "33%"
+              },
+              {
+                "value": "50",
+                "label": "50%"
+              },
+              {
+                "value": "100",
+                "label": "100%"
+              }
+            ]
+          },
+          {
+            "type": "range",
+            "id": "height",
+            "label": "Height",
+            "default": 500,
+            "min": 100,
+            "max": 800,
+            "step": 20,
+            "unit": "px"
+          },
+          {
+            "type": "range",
+            "id": "text_size",
+            "label": "Text size",
+            "default": 100,
+            "min": 40,
+            "max": 200,
+            "step": 5,
+            "unit": "%"
+          },
+          {
+            "type": "header",
+            "content": "Alignment"
+          },
+          {
+            "type": "select",
+            "id": "text_align",
+            "label": "Text alignment",
+            "default": "vertical-center horizontal-center",
+            "options": [
+              {
+                "value": "vertical-top horizontal-left",
+                "label": "Top left"
+              },
+              {
+                "value": "vertical-top horizontal-center",
+                "label": "Top center"
+              },
+              {
+                "value": "vertical-top horizontal-right",
+                "label": "Top right"
+              },
+              {
+                "value": "vertical-center horizontal-left",
+                "label": "Center left"
+              },
+              {
+                "value": "vertical-center horizontal-center",
+                "label": "Center"
+              },
+              {
+                "value": "vertical-center horizontal-right",
+                "label": "Center right"
+              },
+              {
+                "value": "vertical-bottom horizontal-left",
+                "label": "Bottom left"
+              },
+              {
+                "value": "vertical-bottom horizontal-center",
+                "label": "Bottom center"
+              },
+              {
+                "value": "vertical-bottom horizontal-right",
+                "label": "Bottom right"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "focal_point",
+            "label": "Image focal point",
+            "default": "center",
+            "options": [
+              {
+                "value": "20% 0",
+                "label": "Top left"
+              },
+              {
+                "value": "top",
+                "label": "Top center"
+              },
+              {
+                "value": "80% 0",
+                "label": "Top right"
+              },
+              {
+                "value": "20% 50%",
+                "label": "Center left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "80% 50%",
+                "label": "Center right"
+              },
+              {
+                "value": "20% 100%",
+                "label": "Bottom left"
+              },
+              {
+                "value": "bottom",
+                "label": "Bottom center"
+              },
+              {
+                "value": "80% 100%",
+                "label": "Bottom right"
+              }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "Design"
+          },
+          {
+            "type": "color",
+            "id": "color_accent",
+            "label": "Buttons",
+            "default": "rgba(0,0,0,0)"
+          },
+          {
+            "type": "checkbox",
+            "id": "boxed",
+            "label": "Add box",
+            "default": false
+          },
+          {
+            "type": "checkbox",
+            "id": "framed",
+            "label": "Add frame",
+            "default": false
+          }
+        ]
+      }
+    ]
+
+  }
+{% endschema %}

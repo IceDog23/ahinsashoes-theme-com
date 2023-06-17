@@ -1,0 +1,89 @@
+{% render 'lp_recyclated_edition' %}
+
+{% schema %}
+  {
+    "name": "Recyclated collections",
+    "class": "index-section",
+    "settings": [
+      {
+        "type": "range",
+        "id": "spacing",
+        "label": "spacing between blocks",
+        "default": 80,
+        "step": 10,
+        "min": 0,
+        "max": 150,
+        "unit": "px"
+      }
+    ],
+    "blocks": [
+    {
+      "type": "html",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subheading",
+          "default": "Improved"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Džíny jsou osobní záležitost. Zažily s vámi první rande i ty nejkrásnější výlety. Pojďte jim to vrátit! Pošlete nám své oblíbené džíny a my vám z nich ušijeme dokonale pohodlné boty.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label",
+          "default": "Všechny modely"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "layout",
+          "label": "Layout",
+          "default": "left",
+          "options": [
+            {
+              "value": "left",
+              "label": "Image on left"
+            },
+            {
+              "value": "right",
+              "label": "Image on right"
+            }
+          ]
+        }
+      ]
+    }
+    ],
+    "presets": [
+      {
+        "name": "Recyclated collection",
+        "category": "Text",
+        "blocks": [
+          {
+            "type": "html"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

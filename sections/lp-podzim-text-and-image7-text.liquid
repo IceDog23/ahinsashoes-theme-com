@@ -1,0 +1,109 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+  <div class="page-width">
+  
+  
+    <div class="feature-row centered-feature-row" data-aos>
+  
+  
+      <div class="feature-row__item  feature-row__text feature-row__text--center text-center">
+        {%- if section.settings.title != blank -%}
+          <p class="h3">{{ section.settings.title | escape }}</p>
+        {%- endif -%}
+        {%- if section.settings.text != blank -%}
+          <div class="rte featured-row__subtext">{{ section.settings.text }}</div>
+        {%- endif -%}
+        {%- if section.settings.button_label != blank -%}
+        <div id="secretCode" class="hide">
+          <span class="secret-code" id="secretCodeValue">
+            {{section.settings.promo_code}}
+          </span>
+        </div>
+          <a href="#" class="btn" id="showSecretCodeBtn">
+            {{ section.settings.button_label }}
+          </a>
+          <a href="#" class="btn hide" id="hideSecretCodeBtn">
+            {{ section.settings.button_label2 }}
+          </a>
+          <p id="promoNote" class="promo-note hide">
+            {{section.settings.promo_note}}
+            </p>
+  
+            <div id="copied" class="hide">
+              <p>{{section.settings.copied_text}}</p>
+            </div>
+        {%- endif -%}
+      </div>
+  
+    </div>
+  </div>
+  
+  <script>
+    document.getElementById("showSecretCodeBtn").addEventListener("click",(e)=>{
+      e.preventDefault()
+      document.getElementById("secretCode").classList.remove("hide")
+      document.getElementById("showSecretCodeBtn").classList.add("hide")
+      document.getElementById("hideSecretCodeBtn").classList.remove("hide")
+      document.getElementById("promoNote").classList.remove("hide")
+    })
+    document.getElementById("hideSecretCodeBtn").addEventListener("click",(e)=>{
+      e.preventDefault()
+      navigator.clipboard.writeText({{section.settings.promo_code|json}});
+  
+  
+      document.getElementById("copied").classList.remove("hide")
+      const myTimeout = setTimeout(()=>{
+        clearTimeout(myTimeout)
+        document.getElementById("copied").classList.add("hide")
+      }, 800);
+  
+  
+    })
+  </script>
+  
+  
+  {%- if section.settings.divider -%}</div>{%- endif -%}
+  
+  {% schema %}
+    {
+      "name": "Text",
+      "class": "index-section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "checkbox",
+          "id": "divider",
+          "label": "Show section divider",
+          "default": false
+        }
+      ],
+      "presets": [
+        {
+          "name": "Text",
+          "category": "Image"
+        }
+      ]
+    }
+  {% endschema %}
+  

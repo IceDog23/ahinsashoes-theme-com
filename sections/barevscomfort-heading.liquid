@@ -1,0 +1,53 @@
+{%- if section.settings.breadcrump -%}
+    {%- render 'breadcrumbs' -%}
+{%- endif -%}
+
+{%- if section.settings.image -%}
+    <header class="bare-vs-comfort-header section-header desktop-only">
+        <img src="{{ section.settings.image | img_url: "2720x" }}" />
+    </header>
+{%- else -%}
+    <header class="section-header desktop-only">
+        <h1 class="section-header__title">{%- if section.settings.title != blank -%}{{ section.settings.title }}{%- else -%}{{ page.title }}{%- endif -%}</h1>
+        {%- if section.settings.subtitle != blank -%}<h3 class="bold mt-1">{{ section.settings.subtitle }}</h3>{%- endif -%}
+    </header>
+{%- endif -%}
+<header class="section-header mobile-only">
+    <h1 class="section-header__title">{%- if section.settings.title != blank -%}{{ section.settings.title }}{%- else -%}{{ page.title }}{%- endif -%}</h1>
+    {%- if section.settings.subtitle != blank -%}<h3 class="bold mt-1">{{ section.settings.subtitle }}</h3>{%- endif -%}
+</header>
+
+{%- schema -%}
+{
+    "name": "Heading of page",
+    "settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+    },
+    {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Sub heading:"
+    },
+    {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+    {
+        "type": "checkbox",
+        "id": "breadcrump",
+        "label": "Breadcrump",
+        "default": true
+    }
+    ],
+    "presets": [
+      {
+        "name": "Heading of page",
+        "category": "Text"
+      }
+    ]
+}
+{%- endschema -%}

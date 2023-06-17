@@ -1,0 +1,68 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+  <div class="page-width">
+  
+  
+    <div class="full-w feature-row centered-feature-row" data-aos>
+  
+  
+      <div class="feature-row__item  feature-row__text feature-row__text--center text-center">
+        {%- if section.settings.title != blank -%}
+        <p class="h3">{{ section.settings.title | escape }}</p>
+        {%- endif -%}
+        {%- if section.settings.text != blank -%}
+        <div class="rte featured-row__subtext">{{ section.settings.text }}</div>
+        {%- endif -%}
+        
+      </div>
+    </div>
+  </div>
+  <div class="page-width text-center">
+    <div class="grid medium-up--two-thirds lp-product-grid {% if section.blocks.size < 3 %} lp-product-grid-centered{% endif %}">
+      {% for block in section.blocks %}
+        {%- render 'product-grid-item', product: block.settings.product,
+        grid_item_width: "small--one-half medium-up--one-third", per_row: 3 -%}
+      {% endfor %}
+    </div>
+  </div>
+  
+  {% schema %}
+    {
+      "name": "Text",
+      "class": "lp-section index-section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+        }
+      ],
+      "blocks": [
+        {
+          "name":"Product",
+          "type":"product",
+          "settings": [
+            {
+              "type":"product",
+              "label":"product",
+              "id":"product"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Text",
+          "category": "Image"
+        }
+      ]
+    }
+  {% endschema %}
+  

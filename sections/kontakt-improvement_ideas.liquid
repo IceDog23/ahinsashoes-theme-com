@@ -1,0 +1,65 @@
+{% render 'kontakt-improvement_ideas' %}
+
+{% schema %}
+{
+    "name": "Návrhy zlepšení",
+    "class": "kontakt-improvement_ideas kontakt-box-container kontakt-box",
+    "settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Nadpis",
+        "default": "Máte nápad na zlepšení? Pište zakladateli"
+    },
+    {
+        "type": "textarea",
+        "id": "rich_text",
+        "label": "Text",
+        "default": "Ozvěte se zakladateli Ahinsa shoes Lukáši Klimperovi."
+    },
+    {
+        "type": "text",
+        "id": "mail",
+        "label": "E-mail",
+        "default": "info@ahinsashoes.com"
+    },
+    {
+        "type": "text",
+        "id": "mail_url",
+        "label": "E-mail do odkazu",
+        "default": "info@ahinsashoes.com"
+    },
+    {
+        "type":"image_picker",
+        "id":"image",
+        "label":"obrázek"
+    },
+    {
+        "type": "textarea",
+        "id": "rich_text2",
+        "label": "Text 2",
+        "default": "S čím se obracet na Lukáše?"
+    },
+    {
+        "type": "text",
+        "id": "title2",
+        "label": "Nadpis 2",
+        "default": "Máte chuť spolupracovat?"
+    },
+    {
+        "type": "textarea",
+        "id": "rich_text3",
+        "label": "Text 3",
+        "default": "Chcete prodávat Ahinsa shoes nebo máte jiný nápad na spolupráci? Pojďme to probrat."
+    }
+  ],
+    "blocks": [
+    ],
+    "presets": [
+        {
+            "category": "Text",
+            "name":"Návrhy zlepšení"
+        }
+    ]
+}
+{% endschema %}

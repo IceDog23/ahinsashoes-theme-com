@@ -1,0 +1,65 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+<div class="page-width">
+<div class="section-header text-center">
+    <h2>
+        {{ section.settings.main_heading }}
+    </h2>
+</div>
+  <div class="page-width text-center">
+  
+    <div class="feature-row flex-col-reverse gap20" data-aos>
+  
+      <div class="centered-description-text feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }} ">
+        {%- if section.settings.text != blank -%}
+          <div class=" text-center rte featured-row__subtext store-text-content2">{{ section.settings.text }}</div>
+        {%- endif -%}
+    </div>
+    
+</div>
+    <div class="text-center mt-1">
+        <span>
+            <img src="{{ "arrow-down.png" | asset_url }}" alt="" />
+        </span>
+    </div>
+</div>
+
+  
+  
+  {%- if section.settings.divider -%}</div>{%- endif -%}
+  
+  {% schema %}
+    {
+      "name": "Text",
+      "class": "index-section",
+      "settings": [
+        {
+            "type": "text",
+            "id": "main_heading",
+            "label": "Main heading",
+            "default": "Buďte první, kdo jarní novinky objeví"
+          },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "divider",
+          "label": "Show section divider",
+          "default": false
+        }
+      ],
+      "blocks": [
+      ],
+      "presets": [
+        {
+          "name": "text",
+          "category": "text"
+        }
+      ]
+    }
+  {% endschema %}
+  

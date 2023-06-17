@@ -1,0 +1,429 @@
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ settings.text_direction }}">
+<head>
+
+
+<!------- GOOGLE TAG MANAGER ------->
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+  </script>
+
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T76NBT6');</script>
+
+    
+
+<!------- GOOGLE TAG MANAGER END ------->
+
+<!-- Zacatek kodu chatu SupportBox -->
+<script type="text/javascript">
+    var supportBoxChatId = 1075;
+    var supportBoxChatSecret = '7f079ee4e9924e20d4a40fc7a0394726';
+    var supportBoxChatVariables = {
+        email: 'client@email.tld',
+        fullName: 'John Doe',
+        phone: '123456789',
+        customerId: 12345
+    };
+</script>
+<script src="https://chat.supportbox.cz/web-chat/entry-point" async defer></script>
+<!-- Konec kodu chatu SupportBox -->
+
+  {% if template contains 'page' %}
+    {% if page.metafields.social_sharing.image != blank %}
+      {% assign custom_image = page.metafields.social_sharing.image | img_url: "1200x" %}
+      {% if custom_image contains "//" %}
+        {% assign custom_image = "http:" | append: custom_image %}
+      {% endif %}
+      <meta property="og:image" content="{{ custom_image }}" />
+    {% endif %}
+  {% endif %}
+
+  <script type="text/javascript" src="https://postback.affiliateport.eu/track.js" ></script><script type="text/javascript">_AP_tracker.init();</script>
+  
+  <meta name="google-site-verification" content="XEL-iP5LRwSvzhAmFTS-i1DERcaTgFvrKslftw7-vZ8" />
+  {%- comment -%}{% if template == '404' %}<meta http-equiv="refresh" content="0;URL={{ shop.url }}" />{% endif %}{%- endcomment -%}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="{{ settings.color_button }}">
+
+{%- assign canonical_replace_this = request.host | append: request.path -%}
+{%- assign canonical_replace_with = request.host | append: request.path -%}
+
+{% if collection and collection.filters %}
+  {%- assign active_filters_count = 0 -%}
+  {%- assign params = "?" -%}
+  {%- for filter in collection.filters -%}
+    {%- for filter_value in filter.values -%}
+      {% if filter_value.active %}
+        {%- if filter.label == "Dostupnost" or filter.label == "Availability" -%}
+          {%- assign params = params | append: '&filter.v.availability=' | append: filter_value.value -%}
+        {%- else -%}
+          {%- assign active_filters_count = active_filters_count | plus: 1 -%}
+          {%- assign filter_label_handle = filter.label | handleize -%}
+          {%- if filter.label == "Barva" or filter.label == "Color" -%}
+            {%- assign params = params | append: '&filter.p.m.custom.' | append: filter_label_handle | append: '=' | append: filter_value.value -%}
+          {%- else -%}
+            {%- assign params = params | append: '&filter.v.option.' | append: filter_label_handle | append: '=' | append: filter_value.value -%}
+          {%- endif -%}
+        {%- endif -%}
+      {% endif %}
+    {%- endfor -%}
+  {%- endfor -%}
+  
+  {%- if params.size > 2 and active_filters_count == 1 -%}
+    {%- assign final_params = params | replace: '?&', '?' -%}
+    {%- assign canonical_replace_with = request.host | append: request.path| append: final_params -%}
+  {%- endif -%}
+{% endif %}
+
+  <link rel="canonical" href="{{ canonical_url | replace: canonical_replace_this, canonical_replace_with }}">
+  <link rel="preconnect" href="https://cdn.shopify.com">
+  <link rel="preconnect" href="https://fonts.shopifycdn.com">
+  <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+  <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+  <link rel="dns-prefetch" href="https://maps.googleapis.com">
+  <link rel="dns-prefetch" href="https://maps.gstatic.com">
+
+
+  {%- if settings.favicon != blank -%}
+    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
+  {%- endif -%}
+
+  {%- include 'seo-title' -%}
+  {%- include 'hreflang' -%}
+
+  {%- if page_description -%}
+  <meta name="description" content="{{ page_description | escape }}">
+  {%- endif -%}
+
+  {%- include 'social-meta-tags' -%}
+
+  {% if collection and collection.filters %}
+    {%- assign active_filters_count = 0 -%}
+    {%- for filter in collection.filters -%}
+      {%- for filter_value in filter.values -%}
+        {% if filter_value.active %}
+          {%- if filter.label != "Dostupnost" and filter.label != "Availability" -%}
+            {%- assign active_filters_count = active_filters_count | plus: 1 -%}
+          {%- endif -%}
+          {% endif %}
+        {%- endfor -%}
+    {%- endfor -%}
+    {%- if active_filters_count < 2 -%}
+      <meta name="robots" content="index, follow">
+    {%- elsif active_filters_count > 1 -%}
+      <meta name="robots" content="noindex, nofollow">
+    {%- endif -%}
+  {% endif %}
+
+  {%- render 'font-face' -%}
+  {{ 'theme.css' | asset_url | stylesheet_tag }}
+  {{ 'custom.css' | asset_url | stylesheet_tag }}
+  {%- render 'css-variables' -%}
+
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+
+    window.theme = window.theme || {};
+    theme.routes = {
+      home: "{{ routes.root_url }}",
+      cart: "{{ routes.cart_url | append: '.js' }}",
+      cartAdd: "{{ routes.cart_add_url | append: '.js' }}",
+      cartChange: "{{ routes.cart_change_url | append: '.js' }}"
+    };
+    theme.strings = {
+      soldOut: {{ 'products.product.sold_out' | t | json }},
+      unavailable: {{ 'products.product.unavailable' | t | json }},
+      stockLabel: {{ 'products.product.stock_label' | t: count: '[count]' | json }},
+      stockLabelToday: {{ 'products.product.stock_label_today' | t: count: '[count]' | json }},
+      stockLabelTomorow: {{ 'products.product.stock_label_tomorow' | t: count: '[count]' | json }},
+      stockLabelCustom: {{ 'products.product.stock_label_3_days' | t: count: '[count]' | json }},
+      stockLabelMonday: {{ 'products.product.stock_label_monday' | t: count: '[count]' | json }},
+      willNotShipUntil: {{ 'products.product.will_not_ship_until' | t: date: '[date]' | json }},
+      willBeInStockAfter: {{ 'products.product.will_be_in_stock_after' | t: date: '[date]' | json }},
+      waitingForStock: {{ 'products.product.waiting_for_stock' | t | json }},
+      savePrice: {{ 'products.general.save_html' | t: saved_amount: '[saved_amount]' | json }},
+      cartEmpty: {{ 'cart.general.empty' | t | json }},
+      cartTermsConfirmation: {{ 'cart.general.terms_confirm' | t | json }}
+    };
+    theme.settings = {
+      dynamicVariantsEnable: true,
+      dynamicVariantType: {{ settings.variant_type | json }},
+      cartType: {{ settings.cart_type | json }},
+      isCustomerTemplate: {% if request.page_type contains 'customers/' %}true{% else %}false{% endif %},
+      moneyFormat: {{ shop.money_format | json }},
+      saveType: {{ settings.product_save_type | json }},
+      recentlyViewedEnabled: false,
+      predictiveSearch: {{ settings.predictive_search_enabled }},
+      predictiveSearchType: {{ settings.search_type | json }},
+      inventoryThreshold: {{ settings.inventory_threshold }},
+      quickView: {{ settings.quick_shop_enable }},
+      themeName: 'Impulse',
+      themeVersion: "4.0.0"
+    };
+  </script>
+
+  {% comment %}{{ content_for_header }}{% endcomment %}
+ {{ content_for_header | replace: '779803106', '581245772' }}
+
+  <script src="{{ 'vendor-scripts-v8.js' | asset_url | split: '?' | first }}" defer="defer"></script>
+
+  {%- if shop.enabled_currencies.size > 1 -%}
+    <link rel="preload" as="style" href="{{ 'currency-flags.css' | asset_url | split: '?' | first }}" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="{{ 'currency-flags.css' | asset_url | split: '?' | first }}">
+  {%- endif -%}
+
+  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
+
+  {%- if request.page_type contains 'customers/' -%}
+    <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
+  {%- endif -%}
+  
+  <!-- Glami piXel for AhinsaShoes.cz -->
+ {% if request.page_type == 'collection' %}
+    <script>
+    (function(f, a, s, h, i, o, n) {f['GlamiTrackerObject'] = i;
+    f[i]=f[i]||function(){(f[i].q=f[i].q||[]).push(arguments)};o=a.createElement(s),
+    n=a.getElementsByTagName(s)[0];o.async=1;o.src=h;n.parentNode.insertBefore(o,n)
+    })(window, document, 'script', '//www.glami.cz/js/compiled/pt.js', 'glami');
+
+    glami('create', '981D9B4E8D34513AC79AEEFA74C6FACB', 'cz');
+    glami('track', 'PageView');
+
+      glami('track', 'ViewContent', {
+        content_type: 'category',
+        item_ids: [{% for product in collection.products %}'{{ product.selected_or_first_available_variant.id }}',{% endfor %}], 
+        product_names: [{% for product in collection.products %}'{{ product.title }}',{% endfor %}] 
+        category_text: '{{ collection.metafields.glami["Glami-CategoryText"] }}' 
+      });
+
+    </script>
+ 
+  
+ {% elsif request.page_type == 'product' %}
+   <script>
+      (function(f, a, s, h, i, o, n) {f['GlamiTrackerObject'] = i;
+      f[i]=f[i]||function(){(f[i].q=f[i].q||[]).push(arguments)};o=a.createElement(s),
+      n=a.getElementsByTagName(s)[0];o.async=1;o.src=h;n.parentNode.insertBefore(o,n)
+      })(window, document, 'script', '//www.glami.cz/js/compiled/pt.js', 'glami');
+
+      glami('create', '981D9B4E8D34513AC79AEEFA74C6FACB', 'cz');
+      glami('track', 'PageView');
+
+        glami('track', 'ViewContent', {
+        content_type: 'product',
+          item_ids: '{{ product.id }}'
+        });
+
+    </script>
+ 
+
+      
+{% endif %}
+  
+ 
+ {% if cart.item_count > 0 %}
+ {% for line_item in cart.items %}
+
+     <script>
+      (function(f, a, s, h, i, o, n) {f['GlamiTrackerObject'] = i;
+      f[i]=f[i]||function(){(f[i].q=f[i].q||[]).push(arguments)};o=a.createElement(s),
+      n=a.getElementsByTagName(s)[0];o.async=1;o.src=h;n.parentNode.insertBefore(o,n)
+      })(window, document, 'script', '//www.glami.cz/js/compiled/pt.js', 'glami');
+
+      glami('create', '981D9B4E8D34513AC79AEEFA74C6FACB', 'cz');
+      glami('track', 'PageView');
+
+      glami('track', 'AddToCart', {
+      item_ids: '{{ line_item.product_id }}', 
+      value: {{ line_item.original_price | divided_by: 100 }}, 
+      currency: 'CZK' 
+      });
+
+    </script>
+  
+ {% endfor %}
+ {% endif %}
+<!-- End Glami piXel -->
+
+{% if shop.url contains "ahinsashoes.cz" %}
+<!-- seznam retargeting -->
+  <script type="text/javascript" src="https://c.seznam.cz/js/rc.js"></script>
+  <script>
+  var retargetingConf = {
+    {% if template contains 'collection' %}
+      category: "{{collection.title}}",
+    {% endif %}
+    {% if template contains 'product' %}
+      itemId: {{ product.id }},
+    {% endif %}
+    rtgId: 103996
+  };
+  if (window.rc && window.rc.retargetingHit) {
+    window.rc.retargetingHit(retargetingConf);
+  }
+  </script>
+<!-- End seznam retargeting -->
+ {% endif %}
+
+  {%- comment -%}lightbox{%- endcomment -%}
+  <link href="{{ 'lightbox.css' | asset_url }}" rel="stylesheet" />
+
+  {% if template.suffix == "store" %}
+  <script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
+  <script type="text/javascript">Loader.load();</script>
+  {% endif %}
+  
+ {%- comment -%}slick.js slider stylesheet{%- endcomment -%}
+ <link rel="stylesheet" href="{{ 'slick-theme.css' | asset_url }}" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+
+  {%- if request.path == "/collections/vendors" and collection.all_products_count == 0 -%}
+    <meta name="robots" content="noindex">
+  {%- endif -%}
+
+  {%- if request.path == "/pages/ebooky-ke-stazeni" -%}
+    <meta name="robots" content="noindex">
+  {%- endif -%}
+</head>
+
+<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-center-text="{{ settings.type_body_align_text }}" data-button_style="{{ settings.button_style }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-type_headers_align_text="{{ settings.type_headers_align_text }}" data-type_product_capitalize="false" data-swatch_style="{{ settings.swatch_style }}" {% if settings.disable_animations %}data-disable-animations="true"{% endif %}>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T76NBT6"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+  <div id="PageContainer" class="page-container">
+    <div class="transition-body">
+
+    {%- section 'header' -%}
+
+      <main class="main-content" id="MainContent">
+        {{ content_for_layout }}
+      </main>
+
+      {% unless template contains "nas_pribeh" %}
+      {%- section 'footer-promotions' -%}
+      {% endunless %}
+      {%- section 'footer' -%}
+      {% section 'structured-event-data' %}
+    </div>
+  </div>
+
+  {%- section 'newsletter-popup' -%}
+
+  {%- if settings.cart_type == 'drawer' -%}
+    {%- render 'ajax-cart-template' -%}
+  {%- endif -%}
+
+  <div class="hide">
+    <button data-id="prevArrowTemplate" class="slick-prev" aria-label="{{ 'general.pagination.previous' | t }}" type="button">
+      <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 284.49 498.98"><path d="M249.49 0a35 35 0 0 1 24.75 59.75L84.49 249.49l189.75 189.74a35.002 35.002 0 1 1-49.5 49.5L10.25 274.24a35 35 0 0 1 0-49.5L224.74 10.25A34.89 34.89 0 0 1 249.49 0z"/></svg>
+      <span class="icon__fallback-text">{{ 'general.pagination.previous' | t }}</span>
+    </button>
+    <button data-id="nextArrowTemplate" class="slick-next" aria-label="{{ 'general.pagination.next' | t }}" type="button">
+      <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-right" viewBox="0 0 284.49 498.98"><path d="M35 498.98a35 35 0 0 1-24.75-59.75l189.74-189.74L10.25 59.75a35.002 35.002 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L59.75 488.73A34.89 34.89 0 0 1 35 498.98z"/></svg>
+      <span class="icon__fallback-text">{{ 'general.pagination.next' | t }}</span>
+    </button>
+  </div>
+
+  {%- if settings.predictive_search_enabled -%}
+    {%- render 'predictive-template' -%}
+  {%- endif -%}
+
+  {%- render 'video-modal' -%}
+  {%- render 'photoswipe-template' -%}
+  {%- if template contains 'product' -%}
+    {%- render 'recently-viewed-product-template' -%}
+    {%- render 'product-description-photoswipe' -%}
+  {%- endif -%}
+  {%- if template contains 'e-book' -%}
+    {%- render 'ebook-photoswipe' -%}
+  {%- endif -%}
+  {%- if template contains 'jaro23' -%}
+    {%- render 'lp-jaro23-photoswipe' -%}
+  {%- endif -%}
+  
+
+<!-- Google Reviews Badge -->
+
+  
+<script>
+  window.renderBadge = function() {
+    var ratingBadgeContainer = document.createElement("div");
+    document.body.appendChild(ratingBadgeContainer);
+    window.gapi.load('ratingbadge', function() {
+      window.gapi.ratingbadge.render(ratingBadgeContainer, {
+        "merchant_id": 256061170,
+      });
+    });
+  }
+  window.___gcfg = {
+  lang: 'cs'
+};
+</script>
+<!-- End Google Reviews Badge -->
+
+
+<!-- Ecomail -->
+{% if shop.url contains "ahinsashoes.cz" %}
+    <script>
+      (function (w,d,s,o,f,js,fjs) {
+          w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+          js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+          js.id = '1-43c2cd496486bcc27217c3e790fb4088'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+      }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+    </script>
+{% elsif shop.url contains "ahinsashoes.com" %}
+    <script>
+      (function (w,d,s,o,f,js,fjs) {
+          w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+          js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+          js.id = '4-f67e22c6c3dacfc9b77b6b40399abc16'; js.dataset.a = 'ahinsashoescom'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+      }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+    </script>
+{% endif %}
+
+<!-- END Ecomail-->
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>  
+  
+
+<script src="{{ 'lightbox.js' | asset_url }}"></script>
+
+<script>
+  lightbox.option({
+    'positionFromTop': 0,
+    'alwaysShowNavOnTouchDevices': true
+  })
+</script>
+
+{% include 'product-rating-schema' %}
+
+
+<!-- Back in Stock helper snippet -->
+{% render 'back-in-stock-helper' %}
+<!-- End Back in Stock helper snippet -->
+</body>
+</html>
+
+  <!-- Avada Size Chart Script -->
+ {% include 'avada-sc-setting' %}
+  <!-- /Avada Size Chart Script -->
+
+

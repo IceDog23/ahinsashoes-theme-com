@@ -1,0 +1,19 @@
+{% unless section.blocks.size == 0 %}
+    <div class="rte text-center barefoot_or_comfort">
+        <h3>{{ section.settings.title }}</h3>
+        <div class="BOC_blocks">
+            {% for block in section.blocks %}
+                <div class="BOC_block">
+                    <h4>{{ block.settings.title }}</h4>
+                    <p>{{ block.settings.rich_text }}</p>
+                </div>
+            {% endfor %}
+            {% if section.blocks.size == 2 %}
+                <div class="BOC_block hidden">
+                    <h4></h4>
+                    <p></p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% endunless %}
