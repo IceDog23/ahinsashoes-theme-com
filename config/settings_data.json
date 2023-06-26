@@ -124,6 +124,7 @@
           },
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Our new collection is here!",
               "link_text": "Take the first look at the fresh styles.",
@@ -138,12 +139,21 @@
               "link_text": "Up to 20% discounts.",
               "link": ""
             }
+          },
+          "cae1281a-8737-47b9-96f0-e29e176b747b": {
+            "type": "announcement",
+            "settings": {
+              "text": "Burgundy ballerina sandals are back in stock!",
+              "link_text": "Experience the elegance of natural walking.",
+              "link": "shopify:\/\/products\/womens-ballerina-barefoot-burgundy-sandals"
+            }
           }
         },
         "block_order": [
           "1524770014057",
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce",
-          "aeefe181-c8ba-49d3-91d2-a122c47160ce"
+          "aeefe181-c8ba-49d3-91d2-a122c47160ce",
+          "cae1281a-8737-47b9-96f0-e29e176b747b"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
