@@ -555,7 +555,6 @@
         "blocks": {
           "1524769873765-0": {
             "type": "image",
-            "disabled": true,
             "settings": {
               "top_subheading": "Handmade. Ethical. And oh, so comfortable!",
               "title": "Shoes designed by physiotherapists",
@@ -575,6 +574,7 @@
           },
           "b6e6893c-1ab9-45e6-9ebf-013f55e40f26": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "Spring collection",
@@ -4958,14 +4958,14 @@
       "structured-event-data": {
         "type": "structured-event-data",
         "settings": {
-          "name": "",
-          "url": "",
-          "startDate": "",
-          "endDate": "",
-          "name2": "",
-          "url2": "",
-          "startDate2": "",
-          "endDate2": "",
+          "name": "Summer SALE – up to 30% off 🔥",
+          "url": "https:\/\/ahinsashoes.com\/",
+          "startDate": "2023-07-24",
+          "endDate": "2023-07-31",
+          "name2": "Free e-book from physiotherapists 📖",
+          "url2": "https:\/\/ahinsashoes.com\/pages\/tips-for-those-who-care-about-their-health",
+          "startDate2": "2023-01-01",
+          "endDate2": "2023-12-31",
           "name3": "",
           "url3": "",
           "startDate3": "",
