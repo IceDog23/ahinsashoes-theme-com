@@ -135,9 +135,9 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Winter sale!",
-              "link_text": "Up to 20% discounts.",
-              "link": ""
+              "text": "Summer sale is here! ☀️",
+              "link_text": "Experience the Freedom of Natural Movement and Get up to 30 % off your favorite barefoot shoes.",
+              "link": "shopify:\/\/collections\/sale"
             }
           },
           "cae1281a-8737-47b9-96f0-e29e176b747b": {
