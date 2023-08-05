@@ -133,6 +133,7 @@
           },
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Summer sale is here! ☀️",
               "link_text": "Get up to 30 % off your favorite barefoot shoes. Experience the freedom of natural movement.",
