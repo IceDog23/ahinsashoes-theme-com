@@ -5201,6 +5201,206 @@
           "layout": "left",
           "divider": false
         }
+      },
+      "lp-slideshow_fall_23": {
+        "type": "lp-slideshow_fall_23",
+        "blocks": {
+          "27eeac1e-8986-4f03-aa08-81cc539a1402": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "Two line\ntitle slide.",
+              "title_size": 80,
+              "subheading": "And optional subtext",
+              "link": "",
+              "link_text": "Optional button",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/Ahinsazima_web_9KC9870.jpg",
+              "overlay_opacity": 0,
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "27eeac1e-8986-4f03-aa08-81cc539a1402"
+        ],
+        "settings": {
+          "section_height": "650px",
+          "mobile_height": "auto",
+          "parallax": true,
+          "style": "bars",
+          "autoplay": true,
+          "autoplay_speed": 7
+        }
+      },
+      "lp-text-on-image_fall_23_1": {
+        "type": "lp-text-on-image_fall_23_1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/KopiesouboruDSC_7803_a1ded2fc-7d6e-4d1a-9865-0bdfc6f92a63.jpg",
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "lp-text-and-gallery_fall_23_1": {
+        "type": "lp-text-and-gallery_fall_23_1",
+        "blocks": {
+          "50a8b96a-9cb4-49c9-89b4-209eb5e57771": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/KopiesouboruDSC_7770_e436a9c9-6de4-4e56-8863-e7ac56399b3d.jpg"
+            }
+          },
+          "7cab7142-0531-4d92-93b1-913b07c9afad": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsazima_web_9KC9912_1956bb59-c91b-44f0-b134-e44b7031c042.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "50a8b96a-9cb4-49c9-89b4-209eb5e57771",
+          "7cab7142-0531-4d92-93b1-913b07c9afad"
+        ],
+        "settings": {
+          "image_width": 500,
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "lp-text-and-gallery_fall_23_2": {
+        "type": "lp-text-and-gallery_fall_23_2",
+        "settings": {
+          "image_width": 500,
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "lp-text-and-gallery_fall_23_3": {
+        "type": "lp-text-and-gallery_fall_23_3",
+        "settings": {
+          "image_width": 500,
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "lp-text-and-gallery_fall_23_4": {
+        "type": "lp-text-and-gallery_fall_23_4",
+        "settings": {
+          "image_width": 500,
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "lp-text-and-gallery_fall_23_5": {
+        "type": "lp-text-and-gallery_fall_23_5",
+        "settings": {
+          "image_width": 500,
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "lp-text-and-gallery_fall_23_6": {
+        "type": "lp-text-and-gallery_fall_23_6",
+        "settings": {
+          "image_width": 500,
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "lp-text-and-gallery_fall_23_7": {
+        "type": "lp-text-and-gallery_fall_23_7",
+        "settings": {
+          "image_width": 500,
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "lp-text-and-gallery_fall_23_8": {
+        "type": "lp-text-and-gallery_fall_23_8",
+        "settings": {
+          "image_width": 500,
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "lp-section-title_fall23": {
+        "type": "lp-section-title_fall23",
+        "settings": {
+          "main_heading": "Section Title",
+          "divider": false
+        }
+      },
+      "lp-text-on-image_fall_23_2": {
+        "type": "lp-text-on-image_fall_23_2",
+        "settings": {
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "lp-text-on-image_fall_23_3": {
+        "type": "lp-text-on-image_fall_23_3",
+        "settings": {
+          "title": "Image with text",
+          "subtitle": "Improved",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
       }
     },
     "content_for_index": [
