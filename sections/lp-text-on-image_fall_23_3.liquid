@@ -1,0 +1,158 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+  <div class="page-width">
+
+  
+    <div id='lp-text-on-image_fall_32_3' class="feature-row text-on-image" data-aos>
+
+  
+      <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
+        {%- if section.settings.title != blank -%}
+          <p class="h3 bold">{{ section.settings.title | escape }}</p>
+        {%- endif -%}
+        {%- if section.settings.subtitle != blank -%}
+          <p class="h3">{{ section.settings.subtitle }}</p>
+        {%- endif -%}
+        {%- if section.settings.text != blank -%}
+          <div class="rte featured-row__subtext dzinoviny-mlXX">{{ section.settings.text }}</div>
+        {%- endif -%}
+        {%- if section.settings.button_label != blank -%}
+          <a href="{{ section.settings.button_link }}" class="btn dzinoviny-mlXX">
+            {{ section.settings.button_label }}
+          </a>
+        {%- endif -%}
+      </div>
+  
+
+    </div>
+
+  </div>
+  
+  {%- if section.settings.divider -%}</div>{%- endif -%}
+  
+  
+{%- if section.settings.image -%}
+<style>
+    #lp-text-on-image_fall_32_3 {
+        background-image: url("{{ section.settings.image | img_url: "1400x" }}");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    @media only screen and (max-width:769px){
+      #lp-text-on-image_fall_32_3 {
+          background-size: contain;
+          background-position: top;
+      }
+    }
+
+    #lp-text-on-image_fall_32_3 .feature-row__text--right {
+        margin-left: auto;
+    }
+    #lp-text-on-image_fall_32_3 .feature-row__text {
+        padding-top: 35px;
+        padding-left: 35px;
+        padding-bottom: 205px;
+    }
+    @media only screen and (max-width:769px){
+      #lp-text-on-image_fall_32_3 .feature-row__text {
+        padding-top: 200px;
+        padding-left: 0;
+        padding-bottom: 0;
+      }
+    }
+    #lp-text-on-image_fall_32_3 .feature-row__text > div.rte {
+        padding: 20px;
+        background: #ffffffde;
+    }
+    @media only screen and (max-width:769px){
+      #lp-text-on-image_fall_32_3 .feature-row__text > div.rte {
+          padding: 20px 0;
+          background: #fff;
+          text-align: left;
+      }
+    }
+    #lp-text-on-image_fall_32_3 .feature-row__text > div.rte::before {
+      content: "";
+      background-image: url({{"review-quote.png" | asset_img_url}});
+      width: 42px;
+      height: 35px;
+      display: block;
+      margin-bottom: 20px;
+    }
+</style>
+{%- endif -%}
+
+  {% schema %}
+    {
+      "name": "Text and gallery",
+      "class": "index-section",
+      "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subheading",
+          "default": "Improved"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label",
+          "default": "Optional button"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "layout",
+          "label": "Layout",
+          "default": "left",
+          "options": [
+            {
+              "value": "left",
+              "label": "Image on left"
+            },
+            {
+              "value": "right",
+              "label": "Image on right"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "divider",
+          "label": "Show section divider",
+          "default": false
+        }
+      ],
+      "blocks": [
+      ],
+      "presets": [
+        {
+          "name": "Text on background",
+          "category": "Image"
+        }
+      ]
+    }
+  {% endschema %}
+  

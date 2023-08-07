@@ -1,0 +1,41 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+<div class="page-width">
+<div class="section-header text-center">
+    <h2>
+        {{ section.settings.main_heading }}
+    </h2>
+</div>
+</div>
+  
+{%- if section.settings.divider -%}</div>{%- endif -%}
+  
+  {% schema %}
+    {
+      "name": "Title Text",
+      "class": "index-section",
+      "settings": [
+        {
+            "type": "text",
+            "id": "main_heading",
+            "label": "Main heading",
+            "default": "Section Title"
+          },        
+          {
+            "type": "checkbox",
+            "id": "divider",
+            "label": "Show section divider",
+            "default": false
+          }
+      ],
+      "blocks": [
+      ],
+      "presets": [
+        {
+            "name": "Title text", 
+            "category": "Text"
+        }
+
+      ]
+    }
+  {% endschema %}
