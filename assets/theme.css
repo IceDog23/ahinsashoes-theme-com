@@ -13561,3 +13561,8 @@ span.discount-code-value>small {
 }
 
 /* DISCOUNT END */
+@media (max-width: 769px) {
+  .feature-row--item {
+    padding-top: 500px !important; 
+  }
+}
