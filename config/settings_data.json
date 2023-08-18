@@ -89,7 +89,7 @@
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": true,
     "cart_terms_conditions_link": "shopify:\/\/policies\/terms-of-service",
-    "social_facebook_link": "https:\/\/www.facebook.com\/ahinsashoes",
+    "social_facebook_link": "https:\/\/www.facebook.com\/ahinsashoescom",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/ahinsashoes",
     "social_instagram_link": "https:\/\/instagram.com\/ahinsashoes",
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/ahinsashoes-vegan-fair\/videos",
@@ -304,7 +304,6 @@
       },
       "1499789718857": {
         "type": "featured-collections",
-        "disabled": true,
         "blocks": {
           "1499789718857-0": {
             "type": "collection",
@@ -345,6 +344,7 @@
           "1499789718857-2",
           "1499789718857-3"
         ],
+        "disabled": true,
         "settings": {
           "title": "NAŠE KATEGORIE",
           "divider": false,
@@ -715,7 +715,6 @@
       },
       "1525886124958": {
         "type": "promo-grid",
-        "disabled": true,
         "blocks": {
           "1525886482727": {
             "type": "advanced",
@@ -794,6 +793,7 @@
           "1525911710924",
           "2a8e25d7-e581-4d6a-9871-b246ef1d984b"
         ],
+        "disabled": true,
         "settings": {
           "full_width": false,
           "gutter_size": 20,
@@ -1211,7 +1211,6 @@
       },
       "16140080041755fd34": {
         "type": "faq",
-        "disabled": true,
         "blocks": {
           "16140080041755fd34-0": {
             "type": "question",
@@ -1241,6 +1240,7 @@
           "16140080041755fd34-1",
           "22bcf166-e016-4a1c-8117-535b7b1131bf"
         ],
+        "disabled": true,
         "settings": {
           "title": "FAQs"
         }
@@ -5380,18 +5380,6 @@
       },
       "lp-text-on-image_fall_23_2": {
         "type": "lp-text-on-image_fall_23_2",
-        "settings": {
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
-          "button_link": "",
-          "layout": "left",
-          "divider": false
-        }
-      },
-      "lp-text-on-image_fall_23_3": {
-        "type": "lp-text-on-image_fall_23_3",
         "settings": {
           "title": "Image with text",
           "subtitle": "Improved",
