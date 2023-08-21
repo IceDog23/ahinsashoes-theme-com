@@ -142,10 +142,9 @@
           },
           "cae1281a-8737-47b9-96f0-e29e176b747b": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Step by step to healthy walking",
-              "link_text": "Download E-book from physiotherapist for FREE",
+              "text": "Step by step to healthy walking ➡️",
+              "link_text": "Download E-book from physiotherapist for FREE!",
               "link": "shopify:\/\/pages\/tips-for-those-who-care-about-their-health"
             }
           }
