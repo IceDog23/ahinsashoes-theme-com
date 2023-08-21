@@ -89,7 +89,7 @@
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": true,
     "cart_terms_conditions_link": "shopify:\/\/policies\/terms-of-service",
-    "social_facebook_link": "https:\/\/www.facebook.com\/ahinsashoes.com",
+    "social_facebook_link": "https:\/\/www.facebook.com\/ahinsashoescom",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/ahinsashoes",
     "social_instagram_link": "https:\/\/instagram.com\/ahinsashoes",
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/ahinsashoes-vegan-fair\/videos",
@@ -144,9 +144,9 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Burgundy ballerina sandals are back in stock!",
-              "link_text": "Experience the elegance of natural walking.",
-              "link": "shopify:\/\/products\/womens-ballerina-barefoot-burgundy-sandals"
+              "text": "Step by step to healthy walking",
+              "link_text": "Download E-book from physiotherapist for FREE",
+              "link": "shopify:\/\/pages\/tips-for-those-who-care-about-their-health"
             }
           }
         },
