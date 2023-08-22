@@ -142,9 +142,10 @@
           },
           "cae1281a-8737-47b9-96f0-e29e176b747b": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
-              "text": "Step by step to healthy walking ➡️",
-              "link_text": "Download E-book from physiotherapist for FREE!",
+              "text": "Step by step to healthy walking",
+              "link_text": "Download E-book from physiotherapist for FREE",
               "link": "shopify:\/\/pages\/tips-for-those-who-care-about-their-health"
             }
           }
@@ -5207,18 +5208,19 @@
           "27eeac1e-8986-4f03-aa08-81cc539a1402": {
             "type": "image",
             "settings": {
-              "top_subheading": "",
-              "title": "Two line\ntitle slide.",
+              "top_subheading": "The new Ahinsa Shoes autumn and winter collection",
+              "title": "Jump into autumn \nwith healthy feet",
               "title_size": 80,
-              "subheading": "And optional subtext",
+              "subheading": "There are three things that will make you happy this autumn:<br>\n\n<b>The first<\/b> will be putting on a new pair of Ahinsa shoes.<br>\n\n<b>The second<\/b> will be realizing how warm your feet are in them.<br>\n\n<b>The third<\/b> will be <b>winning free shoes for the whole year. <\/b>",
               "link": "",
-              "link_text": "Optional button",
+              "link_text": "",
               "link_2": "",
               "link_text_2": "",
               "color_accent": "rgba(0,0,0,0)",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/Ahinsazima_web_9KC9870.jpg",
-              "overlay_opacity": 0,
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8487_1.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8487_1.jpg",
+              "overlay_opacity": 26,
               "focal_point": "center center"
             }
           }
@@ -5238,11 +5240,11 @@
       "lp-text-on-image_fall_23_1": {
         "type": "lp-text-on-image_fall_23_1",
         "settings": {
-          "image": "shopify:\/\/shop_images\/KopiesouboruDSC_7803_a1ded2fc-7d6e-4d1a-9865-0bdfc6f92a63.jpg",
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
+          "image": "shopify:\/\/shop_images\/img_blok.jpg",
+          "title": "",
+          "subtitle": "",
+          "text": "<h3>Win a pair of Ahinsa shoes for every season of the year <\/h3><p>Be careful not to miss out – this event will only last until the 7th of September.<\/p><p>Did our new shoes catch your eye? You might be the one <strong>who wins a free pair of shoes for the whole year<\/strong>.<\/p><p>Each pair of shoes from the new collection is your ticket in the contest. <strong>Each pair of shoes you buy is a new chance to win.<\/strong><\/p><p>We will draw 3 winners on 11. 9.<\/p><p>Do you already know which free pair of shoes we’ll be sending you?<\/p>",
+          "button_label": "",
           "button_link": "",
           "layout": "left",
           "divider": false
@@ -5254,39 +5256,99 @@
           "50a8b96a-9cb4-49c9-89b4-209eb5e57771": {
             "type": "html",
             "settings": {
-              "image": "shopify:\/\/shop_images\/KopiesouboruDSC_7770_e436a9c9-6de4-4e56-8863-e7ac56399b3d.jpg"
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8234.jpg"
             }
           },
           "7cab7142-0531-4d92-93b1-913b07c9afad": {
             "type": "html",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ahinsazima_web_9KC9912_1956bb59-c91b-44f0-b134-e44b7031c042.jpg"
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8557.jpg"
+            }
+          },
+          "855ebdb3-7719-4a34-a9ac-c23efb5f1eb2": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8618.jpg"
+            }
+          },
+          "0c8ddd07-abb0-4fb2-ba36-344cb3570eb8": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9702.jpg"
+            }
+          },
+          "b807a935-10e4-4d6b-993b-4457b2e438be": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9742.jpg"
             }
           }
         },
         "block_order": [
           "50a8b96a-9cb4-49c9-89b4-209eb5e57771",
-          "7cab7142-0531-4d92-93b1-913b07c9afad"
+          "7cab7142-0531-4d92-93b1-913b07c9afad",
+          "855ebdb3-7719-4a34-a9ac-c23efb5f1eb2",
+          "0c8ddd07-abb0-4fb2-ba36-344cb3570eb8",
+          "b807a935-10e4-4d6b-993b-4457b2e438be"
         ],
         "settings": {
           "image_width": 500,
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
+          "title": "Even better Pura sneakers",
+          "subtitle": "We’re keeping you barefoot enthusiasts in mind!",
+          "text": "<p>Pura sneakers are one of our bestsellers. And now barefoot aficionados can enjoy them too! <\/p><p>We now carry these stylish sneakers in <strong>barefoot version<\/strong>. And, for comfort lovers, we also offer Pura Comfort with a super-soft insole. <\/p>",
+          "button_label": "This way towards comfort",
           "button_link": "",
-          "layout": "left",
+          "layout": "right",
           "divider": false
         }
       },
       "lp-text-and-gallery_fall_23_2": {
         "type": "lp-text-and-gallery_fall_23_2",
+        "blocks": {
+          "442daf4e-f59a-4cb9-8861-2337b2067f56": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8335.jpg"
+            }
+          },
+          "e1685299-6800-4a88-be76-2cfa4e4dbee3": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9455.jpg"
+            }
+          },
+          "d827f005-6103-47f9-b632-4fdf8d3efcdf": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9538.jpg"
+            }
+          },
+          "47883c7f-de8a-47d5-b777-0a966ad4a61b": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9487.jpg"
+            }
+          },
+          "7808f070-fa8c-4cac-933e-57a24ebaa023": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9574.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "442daf4e-f59a-4cb9-8861-2337b2067f56",
+          "e1685299-6800-4a88-be76-2cfa4e4dbee3",
+          "d827f005-6103-47f9-b632-4fdf8d3efcdf",
+          "47883c7f-de8a-47d5-b777-0a966ad4a61b",
+          "7808f070-fa8c-4cac-933e-57a24ebaa023"
+        ],
         "settings": {
           "image_width": 500,
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
+          "title": "Shuma Autumn and Winter shoes",
+          "subtitle": "Indestructible in the forest, stylish in town",
+          "text": "<p>The immortal classic, finally in a <strong>healthy version<\/strong>! A wide toe-box, flexible sole and durable vegan leather. <\/p><p>You couldn’t destroy these autumn\/winter boots even if you tried.<\/p>",
+          "button_label": "Head outdoors",
           "button_link": "",
           "layout": "left",
           "divider": false
@@ -5294,25 +5356,103 @@
       },
       "lp-text-and-gallery_fall_23_3": {
         "type": "lp-text-and-gallery_fall_23_3",
+        "blocks": {
+          "4249d454-e241-440c-b61e-7da4eb870d12": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9374.jpg"
+            }
+          },
+          "66ca4fc8-b4be-437d-b8a3-d5327568d4bb": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9419.jpg"
+            }
+          },
+          "99b7fd26-8241-4e69-9dcc-6136bc38c53a": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8469.jpg"
+            }
+          },
+          "f08514f1-a806-44d2-a8ee-71dad0367cd3": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9412.jpg"
+            }
+          },
+          "08a7c0b9-cbfe-416a-a625-c9e34620e736": {
+            "type": "html",
+            "disabled": true,
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "4249d454-e241-440c-b61e-7da4eb870d12",
+          "66ca4fc8-b4be-437d-b8a3-d5327568d4bb",
+          "99b7fd26-8241-4e69-9dcc-6136bc38c53a",
+          "f08514f1-a806-44d2-a8ee-71dad0367cd3",
+          "08a7c0b9-cbfe-416a-a625-c9e34620e736"
+        ],
         "settings": {
           "image_width": 500,
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
+          "title": "Quick autumn and winter shoes",
+          "subtitle": "Fast forward to the future",
+          "text": "<p>Shoes that we’d take on a trip to the year 3000. <strong>Quick fastening<\/strong>, durable white non-leather and timeless comfort. <\/p><p>Three, two, one…<\/p>",
+          "button_label": "Come get them!",
           "button_link": "",
-          "layout": "left",
+          "layout": "right",
           "divider": false
         }
       },
       "lp-text-and-gallery_fall_23_4": {
         "type": "lp-text-and-gallery_fall_23_4",
+        "blocks": {
+          "b198dc76-c2bd-4d70-bb05-e56101ddb0fa": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9658.jpg"
+            }
+          },
+          "7729f1cb-4781-4c41-ac7a-fc8f17e172fb": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8852.jpg"
+            }
+          },
+          "b2e3ac7e-1598-4539-98a4-c789c7b04876": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8799.jpg"
+            }
+          },
+          "3f779335-0c6e-4d7c-996a-99189ee5335d": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8815.jpg"
+            }
+          },
+          "9f3c7c9c-8f73-423f-a3d5-cd2a1e4658e9": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8828.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "b198dc76-c2bd-4d70-bb05-e56101ddb0fa",
+          "7729f1cb-4781-4c41-ac7a-fc8f17e172fb",
+          "b2e3ac7e-1598-4539-98a4-c789c7b04876",
+          "3f779335-0c6e-4d7c-996a-99189ee5335d",
+          "9f3c7c9c-8f73-423f-a3d5-cd2a1e4658e9"
+        ],
         "settings": {
           "image_width": 500,
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
+          "title": "Chelsea boots in beige",
+          "subtitle": "Queen Victoria’s favorite shoes in a new color",
+          "text": "<p>Did you know that Chelsea boots were designed by Queen Victoria’s shoemaker? <\/p><p>We’ve designed these ones <strong>for you<\/strong> – and we’re sure <strong>you’ll be feeling just like royalty<\/strong> in them.<\/p>",
+          "button_label": "Put on shoes fit for a queen",
           "button_link": "",
           "layout": "left",
           "divider": false
@@ -5327,7 +5467,7 @@
           "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
           "button_label": "Optional button",
           "button_link": "",
-          "layout": "left",
+          "layout": "right",
           "divider": false
         }
       },
