@@ -5460,12 +5460,51 @@
       },
       "lp-text-and-gallery_fall_23_5": {
         "type": "lp-text-and-gallery_fall_23_5",
+        "blocks": {
+          "b8d861e4-446f-4133-9ae0-dcb48c5e6303": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9491.jpg"
+            }
+          },
+          "d6c81ae1-a932-45c2-ae45-3662edd5ddeb": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9350.jpg"
+            }
+          },
+          "0cec4379-1ff3-419e-b0d9-623efef66d08": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9589.jpg"
+            }
+          },
+          "ab1ca488-5495-495f-8b62-2e5fc821a6b4": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9651.jpg"
+            }
+          },
+          "db176b62-8f04-4dd7-88ed-d8e7d9e5bfef": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8724.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "b8d861e4-446f-4133-9ae0-dcb48c5e6303",
+          "d6c81ae1-a932-45c2-ae45-3662edd5ddeb",
+          "0cec4379-1ff3-419e-b0d9-623efef66d08",
+          "ab1ca488-5495-495f-8b62-2e5fc821a6b4",
+          "db176b62-8f04-4dd7-88ed-d8e7d9e5bfef"
+        ],
         "settings": {
           "image_width": 500,
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
+          "title": "Tara Winter sneakers",
+          "subtitle": "Who says you can’t wear sneakers in the winter?",
+          "text": "<p>What do you get when you combine <strong>waterproof materials<\/strong> and add a vegan fur lining – the most stylish shoes to wear for the whole winter. <\/p><p>If you love sneakers, wear them in winter too. It’s that simple.<\/p>",
+          "button_label": "Winter is sneaker time",
           "button_link": "",
           "layout": "right",
           "divider": false
