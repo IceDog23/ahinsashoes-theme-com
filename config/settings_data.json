@@ -5512,12 +5512,51 @@
       },
       "lp-text-and-gallery_fall_23_6": {
         "type": "lp-text-and-gallery_fall_23_6",
+        "blocks": {
+          "98a2c068-c310-4a2d-a8b2-f1f5864d5cbf": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9870.jpg"
+            }
+          },
+          "2768dac2-2ce6-49c7-902d-927646b2c388": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9067.jpg"
+            }
+          },
+          "6c575529-f29a-4d03-adf0-405d02b7c60e": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC_0177_725e6599-5161-4fdd-b5b8-6b062f8f98c4.jpg"
+            }
+          },
+          "dffc48ad-cb42-49f6-bc53-867f4c6fb488": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9125.jpg"
+            }
+          },
+          "28b1987d-30fa-4a1d-8cb9-b5f31720d383": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9912.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "98a2c068-c310-4a2d-a8b2-f1f5864d5cbf",
+          "2768dac2-2ce6-49c7-902d-927646b2c388",
+          "6c575529-f29a-4d03-adf0-405d02b7c60e",
+          "dffc48ad-cb42-49f6-bc53-867f4c6fb488",
+          "28b1987d-30fa-4a1d-8cb9-b5f31720d383"
+        ],
         "settings": {
           "image_width": 500,
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
+          "title": "Tall and mid-calf boots with vegan fur lining",
+          "subtitle": "Your wish is our command",
+          "text": "<p>Last year, you took our new Tall boots and mid-calf boots by storm. But you asked for an improvement: adding <strong>vegan fur lining <\/strong>that will keep you as warm outside as you are at home. <\/p><p>You got it!<\/p>",
+          "button_label": "Get warm",
           "button_link": "",
           "layout": "left",
           "divider": false
@@ -5525,25 +5564,110 @@
       },
       "lp-text-and-gallery_fall_23_7": {
         "type": "lp-text-and-gallery_fall_23_7",
+        "blocks": {
+          "d77da4b9-6b50-471c-866f-e1fd150084e2": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9240.jpg"
+            }
+          },
+          "62aff85e-e6d4-4a66-84b8-25b5a6470c88": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9269.jpg"
+            }
+          },
+          "82b219a0-a751-4ece-9b60-a02a9e99a95f": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9291.jpg"
+            }
+          },
+          "f1ed9cd2-5d56-4a8c-b411-8dcdd7cb4912": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9274.jpg"
+            }
+          },
+          "d1610388-1cfe-406e-828d-1825670eb6a7": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8444.jpg"
+            }
+          },
+          "93fac9d5-ddef-4c01-87ca-25f722558996": {
+            "type": "html",
+            "disabled": true,
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "d77da4b9-6b50-471c-866f-e1fd150084e2",
+          "62aff85e-e6d4-4a66-84b8-25b5a6470c88",
+          "82b219a0-a751-4ece-9b60-a02a9e99a95f",
+          "f1ed9cd2-5d56-4a8c-b411-8dcdd7cb4912",
+          "d1610388-1cfe-406e-828d-1825670eb6a7",
+          "93fac9d5-ddef-4c01-87ca-25f722558996"
+        ],
         "settings": {
           "image_width": 500,
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
+          "title": "Irbis Snow boots",
+          "subtitle": "The Snow Queen is back in fashion",
+          "text": "<p>If the fairy-tale Snow Queen were still around, she’d be wearing these snow boots. And why wouldn’t she – they’re back in style! <\/p><p>We’ve added a <strong>winter sole and vegan fur lining <\/strong>to them. They’ll keep you warm whether you’re sipping mulled wine or hiking up a mountain. <\/p>",
+          "button_label": "Bundle up",
           "button_link": "",
-          "layout": "left",
+          "layout": "right",
           "divider": false
         }
       },
       "lp-text-and-gallery_fall_23_8": {
         "type": "lp-text-and-gallery_fall_23_8",
+        "blocks": {
+          "e79ed935-664d-40ad-b404-813aa9b5e3a6": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8365.jpg"
+            }
+          },
+          "3eb7c581-ae18-487e-ba1a-390ec6693aba": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8945.jpg"
+            }
+          },
+          "ac0635f8-c30b-4732-9a5e-a35674781a1e": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC8457.jpg"
+            }
+          },
+          "32e948cd-e7a4-4e27-bd9c-1fddd716afe6": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC_8850_51bd1379-b48a-4c12-a4cb-eedb281b2416.jpg"
+            }
+          },
+          "97070772-9f3a-4634-a147-de6b74a8e93f": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC_8817_e51237db-f191-4df6-ae02-84bae9d69b92.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "e79ed935-664d-40ad-b404-813aa9b5e3a6",
+          "3eb7c581-ae18-487e-ba1a-390ec6693aba",
+          "ac0635f8-c30b-4732-9a5e-a35674781a1e",
+          "32e948cd-e7a4-4e27-bd9c-1fddd716afe6",
+          "97070772-9f3a-4634-a147-de6b74a8e93f"
+        ],
         "settings": {
           "image_width": 500,
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
+          "title": "Jaya Winter boots – finally with black fur",
+          "subtitle": "Our best models are designed by YOU",
+          "text": "<p>Jaya boots are our <strong>long-standing bestseller<\/strong>. You wanted them with a fur and zipper, so we improved them last year. And again you came up with a great idea: Replace the white fur with <strong>black<\/strong>.<\/p><p>That's how our <strong>new Jaya Winter boots<\/strong> came about. Indestructible and wonderfully warm. <\/p><p>Thank you for helping us improve Ahinsa shoes!<\/p>",
+          "button_label": "Choose yours",
           "button_link": "",
           "layout": "left",
           "divider": false
@@ -5552,17 +5676,18 @@
       "lp-section-title_fall23": {
         "type": "lp-section-title_fall23",
         "settings": {
-          "main_heading": "Section Title",
+          "main_heading": "",
           "divider": false
         }
       },
       "lp-text-on-image_fall_23_2": {
         "type": "lp-text-on-image_fall_23_2",
         "settings": {
-          "title": "Image with text",
-          "subtitle": "Improved",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
+          "image": "shopify:\/\/shop_images\/Verze-AJ-1_uprava.jpg",
+          "title": "",
+          "subtitle": "",
+          "text": "",
+          "button_label": "",
           "button_link": "",
           "layout": "left",
           "divider": false
