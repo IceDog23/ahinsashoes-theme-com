@@ -3,7 +3,7 @@
   <div class="page-width">
 
   
-    <div id="lp-text-on-image_fall_32_2" class="feature-row text-on-image" data-aos>
+    <div class="lp-text-on-image_fall_32_2_mobile" id="lp-text-on-image_fall_32_2" class="feature-row text-on-image" data-aos>
 
   
       <div class="feature-row__item feature-row__text feature-row--item feature-row__text--{{ section.settings.layout }}">
@@ -39,12 +39,22 @@
         background-size: cover;
         background-position: center;
     }
+  
     @media only screen and (max-width:769px){
       #lp-text-on-image_fall_32_2 {
+          background: none;
           background-size: contain;
           background-position: top;
       }
+
+      .lp-text-on-image_fall_32_2_mobile {
+        background-image: url("{{ section.settings.imageMobile | img_url: "700x" }}") !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+      }
     }
+    
 
     #lp-text-on-image_fall_32_2 .feature-row__text--right {
         margin-left: auto;
@@ -92,6 +102,11 @@
             "type": "image_picker",
             "id": "image",
             "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "imageMobile",
+          "label": "imageMobile"
         },
         {
           "type": "text",
