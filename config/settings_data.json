@@ -5684,6 +5684,7 @@
         "type": "lp-text-on-image_fall_23_2",
         "settings": {
           "image": "shopify:\/\/shop_images\/Verze-AJ-1_uprava.jpg",
+          "imageMobile": "shopify:\/\/shop_images\/Mobilni-verze_AJ.jpg",
           "title": "",
           "subtitle": "",
           "text": "",
