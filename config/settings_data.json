@@ -555,6 +555,7 @@
         "blocks": {
           "1524769873765-0": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "Handmade. Ethical. And oh, so comfortable!",
               "title": "Shoes designed by physiotherapists",
@@ -591,11 +592,31 @@
               "overlay_opacity": 0,
               "focal_point": "center center"
             }
+          },
+          "1894c90c-586d-48fb-ab85-b1f872649f49": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "NEW AUTUMN AND WINTER COLLECTION",
+              "title": "Jump into autumn\nwith healthy feet",
+              "title_size": 65,
+              "subheading": "",
+              "link": "",
+              "link_text": "DISCOVER NEW STYLES",
+              "link_2": "shopify:\/\/pages\/autumn-collection",
+              "link_text_2": "",
+              "color_accent": "#ffffff",
+              "text_align": "vertical-center horizontal-right",
+              "image": "shopify:\/\/shop_images\/Ahinsa_zima_web_9KC9487.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/header_mobil.jpg",
+              "overlay_opacity": 10,
+              "focal_point": "bottom center"
+            }
           }
         },
         "block_order": [
           "1524769873765-0",
-          "b6e6893c-1ab9-45e6-9ebf-013f55e40f26"
+          "b6e6893c-1ab9-45e6-9ebf-013f55e40f26",
+          "1894c90c-586d-48fb-ab85-b1f872649f49"
         ],
         "settings": {
           "section_height": "450px",
