@@ -124,11 +124,10 @@
           },
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Our new collection is here!",
               "link_text": "Take the first look at the fresh styles.",
-              "link": "shopify:\/\/pages\/freedom-with-every-step"
+              "link": "shopify:\/\/pages\/autumn-collection"
             }
           },
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
