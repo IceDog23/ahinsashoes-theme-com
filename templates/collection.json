@@ -65,14 +65,14 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/DSC_6516.jpg",
+            "image": "shopify:\/\/shop_images\/Ahinsazima_web_9KC8594_66468f79-6ba0-473e-a5a2-a6217f483244.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
+            "color_accent": "#ffffff",
             "boxed": false,
             "framed": false
           }
