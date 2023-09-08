@@ -5259,6 +5259,9 @@
       },
       "lp-text-on-image_fall_23_1": {
         "type": "lp-text-on-image_fall_23_1",
+        "custom_css": [
+          "#lp-text-on-image_fall_32_1{display:none}"
+        ],
         "settings": {
           "image": "shopify:\/\/shop_images\/img_blok.jpg",
           "title": "",
