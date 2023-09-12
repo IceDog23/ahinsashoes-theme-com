@@ -3280,6 +3280,7 @@
           },
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I'm excited about the shoes - that's it in a nutshell. I have been wearing the shoes for about 10 days and they are great. I was afraid that the soles would be too thin, but (I have the Comfort version) it's great. Even on these days, when the temperature is around -5 °C in the morning, I am not cold in them.<br\/><br\/>I work in an office and I keep my shoes on all day (up to 10 hours). Unlike other shoes, I don't get sweaty or tired feet from them. The soles do not slip (and I have tested this on a smooth wet floor in the hallway).<br\/><br\/>Did I notice changes when I walk? Yes, I have had so-called \"flat feet\" since I was a child (I don't know if this is the correct name for the diagnosis) and even though I exercised regularly as a child, my legs - feet - sometimes hurt. Not from my new Ahinsa boots.<br\/><br\/>I am really excited, they are light, flexible and look very nice on the feet. In short, I'm glad I discovered you and I'll definitely buy another one.<\/p>",
               "customer": "Lucie Jelínková"
@@ -3321,13 +3322,6 @@
               "customer": "Miroslav Svoboda"
             }
           },
-          "9d4b02b1-c841-495d-93b8-6f9fa021b519": {
-            "type": "block",
-            "settings": {
-              "text": "<p>The shoes are absolutely perfect - the materials and the look, not to mention the perfect fit. I've only worn barefoot shoes in the summer so far, and I have to say that this winter version is really flawless.<br\/><br\/>I'm literally enjoying being outside these days, I'm sending a photo from my morning walk and I'm looking forward to more pieces from your workshop, I'll definitely be back.<\/p>",
-              "customer": "Pavlína Melikyan"
-            }
-          },
           "89f6531f-d2ad-4887-8aaf-fb87915760f2": {
             "type": "block",
             "settings": {
@@ -3366,7 +3360,7 @@
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf": {
             "type": "block",
             "settings": {
-              "text": "<p>The shoes (Chintra Trek&Trail x wide) are really good, best toe box and feel I’ve got out of any minimalist shoes I’ve worn over the years and feel really good in the trail. The ebook was very<br\/>helpful in filling a couple of gaps in my own knowledge and they turned up in just a couple of days after ordering. I had to pay a hefty bit of import tax as<br\/>I live in the UK but overall I’m extremely happy with the shoes. <br\/>I absolutely love the shoes and I would have replaced my road running shoes with a pair as well.<\/p>",
+              "text": "<p>The shoes (Chitra Trek&Trail x wide) are really good, best toe box and feel I’ve got out of any minimalist shoes I’ve worn over the years and feel really good in the trail. The ebook was very helpful in filling a couple of gaps in my own knowledge and they turned up in just a couple of days after ordering. I had to pay a hefty bit of import tax as I live in the UK but overall I’m extremely happy with the shoes. I absolutely love the shoes and I would have replaced my road running shoes with a pair as well.<\/p>",
               "customer": "Amanda Brown"
             }
           },
@@ -3397,6 +3391,13 @@
               "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter with the merino insole and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!<\/p>",
               "customer": "Veronika Brenkusová"
             }
+          },
+          "9d4b02b1-c841-495d-93b8-6f9fa021b519": {
+            "type": "block",
+            "settings": {
+              "text": "<p>The shoes are absolutely perfect - the materials and the look, not to mention the perfect fit. I've only worn barefoot shoes in the summer so far, and I have to say that this winter version is really flawless.<br\/><br\/>I'm literally enjoying being outside these days, I'm sending a photo from my morning walk and I'm looking forward to more pieces from your workshop, I'll definitely be back.<\/p>",
+              "customer": "Pavlína Melikyan"
+            }
           }
         },
         "block_order": [
@@ -3425,7 +3426,6 @@
           "f9b155da-333f-4412-a218-657f56d36ddf",
           "b613afce-3e08-4f17-b04b-d4be81c1acde",
           "2070fe9a-987e-49a0-bf37-0ea2d54b49c0",
-          "9d4b02b1-c841-495d-93b8-6f9fa021b519",
           "89f6531f-d2ad-4887-8aaf-fb87915760f2",
           "f43be3a8-0a83-403b-b9e8-a4b938e2744c",
           "55798a06-ead9-4ae6-b817-d0a2ea867f93",
@@ -3435,7 +3435,8 @@
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
           "5dda9802-42e6-450b-8ba5-6bb77315e59b",
           "bff73c87-3d35-4461-b292-a9f4818f7fa8",
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e"
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
+          "9d4b02b1-c841-495d-93b8-6f9fa021b519"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
