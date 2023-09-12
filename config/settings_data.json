@@ -3145,6 +3145,55 @@
       "customer-reviews": {
         "type": "customer-reviews",
         "blocks": {
+          "1c8f1519-463d-44fa-8a24-370b78c52481": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I have only worn my new shoes for about an hour in total so<br\/>far. But that is all the time i need to let you know that my new Chelsea boots are absolutely perfect in every way! I have shoes from different companies, but Ahinsa is from now on (and probably ever) my new favorite brand. As a vegan barefoot enthusiast, its not always easy to find the right shoes. But I found<br\/>them today! THANK YOU!<\/p>",
+              "customer": "Thale Waaler Eggen"
+            }
+          },
+          "b059d893-8622-4107-ae0d-a371051d1b15": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I wanted to thank you for making these shoes. As a colleague, I really appreciate the concept behind it. I have been wearing barefoot shoes for the last 3 years now. My feet has gone down a size because my arches have increased. The design is also superb, in fact, I think I will purchase another pair soon.<\/p>",
+              "customer": "Alan Rastelli"
+            }
+          },
+          "6e830b02-8fec-494b-a61f-5648396dddac": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I just wanted to say that the shoes are wonderful: I have never felt quality and comfort like this. Ahinsa has just earned a lifelong customer.<\/p>",
+              "customer": "Matty Evans"
+            }
+          },
+          "664cfa9d-a33d-4b7b-918a-76300ccc5268": {
+            "type": "block",
+            "settings": {
+              "text": "<p>It's my first time buying this brand. I've got to say it could not have been better. First of all my pair of shoes arrived in 48h. Knowing I live in the Balearic Islands it has been a great surprise to me. Then, I used them yesterday and they fit perfectly and are so comfortable for walking. So the size guide in your webpage works great. Thank you so much, I will definetely recommend this brand.<\/p>",
+              "customer": "Blanca Muntaner"
+            }
+          },
+          "a6d3c9af-0588-433e-ac5c-fe356febfa6a": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I love the shoes and the feeling they give my feet. I am still in the<br\/>process of recovering from years of wearing the wrong shoes but your shoes are helping a lot! Would buy and recommend them any time! :)<\/p>",
+              "customer": "Linda Baxter"
+            }
+          },
+          "dd78275c-ec2b-4cd5-823b-33ea3e4764d2": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I am very happy with the shoes - I bought 3 pairs and using the simple sizing guide on your website, they all fit well. I cannot say I have noticed any particular changes in my stride, but that is not expected because I had<br\/>already been wearing barefoot shoes for years prior to purchasing some from Ahinsa Shoes. I noticed changes when I started wearing barefoot shoes originally, for sure. I downloaded the e-book and began reading some of it. I plan to finish reading it soon. I liked what I read so far - I find it both interesting and practical :) I appreciate, admire, and respect yourself and your business and feel privileged to get to wear your shoes! Thank you for what you do.<\/p>",
+              "customer": "Zachary Tervonen"
+            }
+          },
+          "2805ccde-f3f5-4a41-9bac-f9d7985d5682": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Your shoes are fantastic, very comfortable, naturally closed to the ground, my toes splay like actual barefoot walk. Absolutely no issue. I’m vegetarian and a barefoot fan, so I was looking for barefoot, vegan, dress shoes for years, finally I met you guys. By the way, I’ll try your recommended exercises in order to strengthen my feet, improve my strides, and prevent running injury.<\/p>",
+              "customer": "Shin Smith"
+            }
+          },
           "c993290e-4297-4fc9-a67c-acaa73e19622": {
             "type": "block",
             "settings": {
@@ -3229,13 +3278,6 @@
               "customer": "Iva Fröhlichová"
             }
           },
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
-            "type": "block",
-            "settings": {
-              "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter with the merino insole and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!<\/p>",
-              "customer": "Veronika Brenkusová"
-            }
-          },
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b": {
             "type": "block",
             "settings": {
@@ -3293,20 +3335,6 @@
               "customer": "Majka"
             }
           },
-          "5dda9802-42e6-450b-8ba5-6bb77315e59b": {
-            "type": "block",
-            "settings": {
-              "text": "<p>After over three months wearing Sundara Ankle Comfort boots pretty much every day, I can happily say they are the most comfortable extra wide shoes I've ever worn and wished to have on my feet! I wish there were more shoes like those. They are truly game changers! I'm also very satisfied with the excellent customer service. They helped me out a lot and efficiently in order to exchange to the right shoe size.<\/p>",
-              "customer": "Gabriele Pacca"
-            }
-          },
-          "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d": {
-            "type": "block",
-            "settings": {
-              "text": "<p>The shoes are great, I got the Jaya last week and I already purchased another pair – this time I ordered the Ananda. I already used barefoot shoes but I never found barefoot boots so comfortable. <br\/>Can’t wait to get my new pair!<\/p>",
-              "customer": "Beppe"
-            }
-          },
           "f43be3a8-0a83-403b-b9e8-a4b938e2744c": {
             "type": "block",
             "settings": {
@@ -3328,53 +3356,11 @@
               "customer": "Annelies Miedema"
             }
           },
-          "2805ccde-f3f5-4a41-9bac-f9d7985d5682": {
-            "type": "block",
-            "settings": {
-              "text": "<p>Your shoes are fantastic, very comfortable, naturally closed to the ground, my toes splay like actual barefoot walk. Absolutely no issue. I’m vegetarian and a barefoot fan, so I was looking for barefoot, vegan, dress shoes for years, finally I met you guys. By the way, I’ll try your recommended exercises in order to strengthen my feet, improve my strides, and prevent running injury.<\/p>",
-              "customer": "Shin Smith"
-            }
-          },
           "533d7237-b680-424c-bfa1-782faddbfbf2": {
             "type": "block",
             "settings": {
               "text": "<p>I received my second Ananda pair and I'm very happy with them. I wanted something quite particular (comfortable, stylish, barefoot and high-quality vegan shoes) and Ahinsa makes just that. <br\/>Thanks again to you and the team for making such a great product.<\/p>",
               "customer": "Pablo Rodrigo"
-            }
-          },
-          "dd78275c-ec2b-4cd5-823b-33ea3e4764d2": {
-            "type": "block",
-            "settings": {
-              "text": "<p>I am very happy with the shoes - I bought 3 pairs and using the simple sizing guide on your website, they all fit well. I cannot say I have noticed any particular changes in my stride, but that is not expected because I had<br\/>already been wearing barefoot shoes for years prior to purchasing some from Ahinsa Shoes. I noticed changes when I started wearing barefoot shoes originally, for sure. I downloaded the e-book and began reading some of it. I plan to finish reading it soon. I liked what I read so far - I find it both interesting and practical :) I appreciate, admire, and respect yourself and your business and feel privileged to get to wear your shoes! Thank you for what you do.<\/p>",
-              "customer": "Zachary Tervonen"
-            }
-          },
-          "a6d3c9af-0588-433e-ac5c-fe356febfa6a": {
-            "type": "block",
-            "settings": {
-              "text": "<p>I love the shoes and the feeling they give my feet. I am still in the<br\/>process of recovering from years of wearing the wrong shoes but your shoes are helping a lot! Would buy and recommend them any time! :)<\/p>",
-              "customer": "Linda Baxter"
-            }
-          },
-          "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
-            "type": "block",
-            "settings": {
-              "text": "<p>I’m writing to say I LOVE my simple black barefoot sandals. I wear them everyday and I feel so happy in them. Thank you for making them!!!!!<\/p>",
-              "customer": "Jacqueline Smith"
-            }
-          },
-          "664cfa9d-a33d-4b7b-918a-76300ccc5268": {
-            "type": "block",
-            "settings": {
-              "text": "<p>It's my first time buying this brand. I've got to say it could not have been better. First of all my pair of shoes arrived in 48h. Knowing I live in the Balearic Islands it has been a great surprise to me. Then, I used them yesterday and they fit perfectly and are so comfortable for walking. So the size guide in your webpage works great. Thank you so much, I will definetely recommend this brand.<\/p>",
-              "customer": "Blanca Muntaner"
-            }
-          },
-          "b059d893-8622-4107-ae0d-a371051d1b15": {
-            "type": "block",
-            "settings": {
-              "text": "<p>I wanted to thank you for making these shoes. As a colleague, I really appreciate the concept behind it. I have been wearing barefoot shoes for the last 3 years now. My feet has gone down a size because my arches have increased. The design is also superb, in fact, I think I will purchase another pair soon.<\/p>",
-              "customer": "Alan Rastelli"
             }
           },
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf": {
@@ -3384,22 +3370,43 @@
               "customer": "Amanda Brown"
             }
           },
-          "6e830b02-8fec-494b-a61f-5648396dddac": {
+          "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d": {
             "type": "block",
             "settings": {
-              "text": "<p>I just wanted to say that the shoes are wonderful: I have never felt quality and comfort like this. Ahinsa has just earned a lifelong customer.<\/p>",
-              "customer": "Matty Evans"
+              "text": "<p>The shoes are great, I got the Jaya last week and I already purchased another pair – this time I ordered the Ananda. I already used barefoot shoes but I never found barefoot boots so comfortable. <br\/>Can’t wait to get my new pair!<\/p>",
+              "customer": "Beppe"
             }
           },
-          "1c8f1519-463d-44fa-8a24-370b78c52481": {
+          "5dda9802-42e6-450b-8ba5-6bb77315e59b": {
             "type": "block",
             "settings": {
-              "text": "<p>I have only worn my new shoes for about an hour in total so<br\/>far. But that is all the time i need to let you know that my new Chelsea boots are absolutely perfect in every way! I have shoes from different companies, but Ahinsa is from now on (and probably ever) my new favorite brand. As a vegan barefoot enthusiast, its not always easy to find the right shoes. But I found<br\/>them today! THANK YOU!<\/p>",
-              "customer": "Thale Waaler Eggen"
+              "text": "<p>After over three months wearing Sundara Ankle Comfort boots pretty much every day, I can happily say they are the most comfortable extra wide shoes I've ever worn and wished to have on my feet! I wish there were more shoes like those. They are truly game changers! I'm also very satisfied with the excellent customer service. They helped me out a lot and efficiently in order to exchange to the right shoe size.<\/p>",
+              "customer": "Gabriele Pacca"
+            }
+          },
+          "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I’m writing to say I LOVE my simple black barefoot sandals. I wear them everyday and I feel so happy in them. Thank you for making them!!!!!<\/p>",
+              "customer": "Jacqueline Smith"
+            }
+          },
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter with the merino insole and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!<\/p>",
+              "customer": "Veronika Brenkusová"
             }
           }
         },
         "block_order": [
+          "1c8f1519-463d-44fa-8a24-370b78c52481",
+          "b059d893-8622-4107-ae0d-a371051d1b15",
+          "6e830b02-8fec-494b-a61f-5648396dddac",
+          "664cfa9d-a33d-4b7b-918a-76300ccc5268",
+          "a6d3c9af-0588-433e-ac5c-fe356febfa6a",
+          "dd78275c-ec2b-4cd5-823b-33ea3e4764d2",
+          "2805ccde-f3f5-4a41-9bac-f9d7985d5682",
           "c993290e-4297-4fc9-a67c-acaa73e19622",
           "00c8e11b-14d9-4242-8994-85ba156c3e4d",
           "1041b183-9709-4b30-a865-b68400e50fca",
@@ -3412,7 +3419,6 @@
           "cd494f6e-210f-4abc-82c7-a6d144e2e213",
           "1c165b8d-bce4-4091-beb2-8068e95f11ba",
           "21b965e7-646a-438a-906b-b87196a9e059",
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b",
           "6790a163-fa11-4f52-820f-2fc2337f144c",
           "1502b308-53e3-451a-99d5-184da0180962",
@@ -3421,21 +3427,15 @@
           "2070fe9a-987e-49a0-bf37-0ea2d54b49c0",
           "9d4b02b1-c841-495d-93b8-6f9fa021b519",
           "89f6531f-d2ad-4887-8aaf-fb87915760f2",
-          "5dda9802-42e6-450b-8ba5-6bb77315e59b",
-          "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
           "f43be3a8-0a83-403b-b9e8-a4b938e2744c",
           "55798a06-ead9-4ae6-b817-d0a2ea867f93",
           "fcd7d11c-2bf8-48ef-a8a0-b40363fc0974",
-          "2805ccde-f3f5-4a41-9bac-f9d7985d5682",
           "533d7237-b680-424c-bfa1-782faddbfbf2",
-          "dd78275c-ec2b-4cd5-823b-33ea3e4764d2",
-          "a6d3c9af-0588-433e-ac5c-fe356febfa6a",
-          "bff73c87-3d35-4461-b292-a9f4818f7fa8",
-          "664cfa9d-a33d-4b7b-918a-76300ccc5268",
-          "b059d893-8622-4107-ae0d-a371051d1b15",
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf",
-          "6e830b02-8fec-494b-a61f-5648396dddac",
-          "1c8f1519-463d-44fa-8a24-370b78c52481"
+          "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
+          "5dda9802-42e6-450b-8ba5-6bb77315e59b",
+          "bff73c87-3d35-4461-b292-a9f4818f7fa8",
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
