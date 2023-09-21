@@ -1472,8 +1472,8 @@
           "a9bda7f8-f0f5-4f02-8c3f-3cd1125e0d92": {
             "type": "promotion",
             "settings": {
-              "title": "Shipping worldwide",
-              "text": "<p>Fast & easy <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">size exchanges<\/a>.<\/p>",
+              "title": "Fast&easy exchanges",
+              "text": "<p>Shipping to EU, UK, Switzerland, USA, Canada, Australia, New Zealand.<\/p>",
               "button_link": "shopify:\/\/policies\/refund-policy",
               "image": "shopify:\/\/shop_images\/ico-replace.png"
             }
