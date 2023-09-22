@@ -1092,9 +1092,9 @@
           "089447de-46d9-4ec0-96b3-3319be7196b4": {
             "type": "promotion",
             "settings": {
-              "title": "Shipping worldwide",
-              "text": "<p>Fast & easy <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">size exchanges<\/a>.<\/p>",
-              "button_link": "shopify:\/\/policies\/refund-policy",
+              "title": "Fast&easy exchanges",
+              "text": "<p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping  <\/a>to EU, UK, Switzerland, USA, Canada, Australia, New Zealand<\/p>",
+              "button_link": "shopify:\/\/policies\/shipping-policy",
               "image": "shopify:\/\/shop_images\/ico-replace.png"
             }
           }
@@ -5797,6 +5797,14 @@
           "button_link": "",
           "layout": "left",
           "divider": false
+        }
+      },
+      "text-block-info-cart": {
+        "type": "text-block-info-cart",
+        "settings": {
+          "shipping-txt": "",
+          "payment-txt": "",
+          "replacement-txt": ""
         }
       }
     },
