@@ -1093,7 +1093,7 @@
             "type": "promotion",
             "settings": {
               "title": "Fast&easy exchanges",
-              "text": "<p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping  <\/a>to EU, UK, Switzerland, USA, Canada, Australia, New Zealand<\/p>",
+              "text": "<p><a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Shipping <\/a>to EU, UK, Switzerland, USA, Canada, Australia, New Zealand<\/p>",
               "button_link": "shopify:\/\/policies\/shipping-policy",
               "image": "shopify:\/\/shop_images\/ico-replace.png"
             }
