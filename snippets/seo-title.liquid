@@ -145,9 +145,9 @@
     {%- endfor -%}
       {%- if shop.url contains ".cz" or shop.url contains ".com" -%}
         {% if max_sale == 0 %}
-          {{- collection_title | append: " od EXPERTŮ - výměna zdarma" | append: collection_title_suffix -}} 
+          {{- collection_title | append: " from Experts - free exchange" | append: collection_title_suffix -}} 
         {% else %}
-          {{- collection_title | append: " - výměna zdarma" | append: collection_title_suffix -}} 
+          {{- collection_title | append: " - free exchange" | append: collection_title_suffix -}} 
         {% endif %}
       {%- else -%}
         {{- collection_title -}}
