@@ -1,13 +1,20 @@
 
 {%- capture seo_title -%}
   {%- if template == "collection" or template == "collection.ajax" -%}
+    {% comment %} Capture everything from url after /collections/ {% endcomment %}
     {%- assign full_collection_handle = request.path | split: "/collections/" | last -%}
+    {% comment %} grab the last segment of collection url after / {% endcomment %}
     {%- assign full_collection_handle_short = full_collection_handle | split: "/" | last -%}
-    {%- capture full_collection_handle_short_pt2 -%}
+    
+    {% comment %} capture second part of handle {% endcomment %}
+    {%- capture full_collection_handle_short_pt2 -%}  
+    {% comment %} Looping through all current tags and converting them to a URL-friendly format {% endcomment %}
       {%- for tag in current_tags -%}
         {{- tag | handleize -}}
+        {% comment %} Add a "+" separator unless it's the last tag {% endcomment %}
         {%- unless forloop.last -%}+{%- endunless -%}
       {%- endfor -%}
+
       {%- for filter in collection.filters -%}
         {%- assign is_size_filter = false -%}
         {%- if filter.label == "Velikost" or filter.label == "Size" -%}
@@ -17,24 +24,32 @@
         {%- if filter.label == "Dostupnost" or filter.label == "Availability" -%}
           {%- assign is_availability_filter = true -%}
         {%- endif -%}
+        {% comment %} Process filters that aren't Size or Availability {% endcomment %}
         {%- unless is_size_filter or is_availability_filter -%}
           {%- for filter_value in filter.active_values -%}
+            {% comment %} If there are any tags and current tags are not empty, prepend a "+"  {% endcomment %}
             {%- unless current_tags == blank -%}+{%- endunless -%}
+            {% comment %} Convert the filter value's label to a URL-friendly format {% endcomment %}
             {{- filter_value.label | handleize -}}
+            {% comment %} add + unless it is the last value {% endcomment %}
             {%- unless forloop.last -%}+{%- endunless -%}
           {%- endfor -%}
         {%- endunless -%}
       {%- endfor -%}
     {%- endcapture -%}
+
+  {% comment %} Remove spaces and newlines {% endcomment %}
   {%- assign full_collection_handle_short_pt2 = full_collection_handle_short_pt2 | replace: ' ', "" | strip_newlines -%}
+
   {%- if full_collection_handle_short_pt2 != blank -%}
     {%- assign full_collection_handle_short = full_collection_handle_short | append: '/' | append: full_collection_handle_short_pt2 -%}
     {%- assign full_collection_handle = collection.handle | append: '/' | append: full_collection_handle_short_pt2 -%}
   {%- endif -%}
-    {%- assign collection_dyn_title = shop.metafields.global.category_headings.value[full_collection_handle] -%}
-    {%- if collection_dyn_title == blank -%}
-      {%- assign collection_dyn_title = shop.metafields.global.category_headings.value[full_collection_handle_short] -%}
-    {%- endif -%}
+
+  {%- assign collection_dyn_title = shop.metafields.global.category_headings.value[full_collection_handle] -%}
+  {%- if collection_dyn_title == blank -%}
+    {%- assign collection_dyn_title = shop.metafields.global.category_headings.value[full_collection_handle_short] -%}
+  {%- endif -%}
 
     {%- assign filtered_sizes = "" -%}
       {%- assign filtered_types = "" -%}
@@ -100,8 +115,10 @@
         {%- assign collection_title = collection_title | append: ', ' | append: size_filter_label_downcase | append: ' ' | append: filtered_sizes -%}
       {%- endif -%}
     {%- endif -%}
+
+    {% comment %} SEO title for products {% endcomment %}
     {%- assign collection_title_suffix = "" -%}
-    {%- assign lowest_price = 9999999999 -%}
+    {% comment %} {%- assign lowest_price = 9999999999 -%}
     {%- for product in collection.products -%}
       {%- if product.price < lowest_price -%}
         {%- assign lowest_price = product.price -%}
@@ -109,10 +126,10 @@
         {%- assign seo_title_collection_from = "general.seo_title_collection_from" | t -%}
         {%- assign collection_title_suffix = seo_title_collection_from | append: lowest_price_formatted -%}
       {%- endif -%}
-    {%- endfor -%}
-    {%- if shop.metafields.global.category_titles_hide_prices.value[full_collection_handle] == true -%}
+    {%- endfor -%} {% endcomment %}
+    {% comment %} {%- if shop.metafields.global.category_titles_hide_prices.value[full_collection_handle] == true -%}
       {%- assign collection_title_suffix = "general.seo_title_collection_stock" | t -%}
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
     {%- assign max_sale = 0 -%}
     {%- for product in collection.products -%}
       {%- if product.compare_at_price > product.price and product.available -%}
@@ -126,23 +143,30 @@
         {%- assign collection_title_suffix = seo_title_collection_sale | append: max_sale | append: " %]" -%}
       {%- endif -%}
     {%- endfor -%}
-    {%- if shop.url contains ".cz" or shop.url contains ".com" -%}
-      {{- collection_title | append: " from EXPERTS" | append: collection_title_suffix -}}
-    {%- else -%}
-      {{- collection_title -}}
-    {%- endif -%}
+      {%- if shop.url contains ".cz" or shop.url contains ".com" -%}
+        {% if max_sale == 0 %}
+          {{- collection_title | append: " od EXPERTŮ - výměna zdarma" | append: collection_title_suffix -}} 
+        {% else %}
+          {{- collection_title | append: " - výměna zdarma" | append: collection_title_suffix -}} 
+        {% endif %}
+      {%- else -%}
+        {{- collection_title -}}
+      {%- endif -%}
   {%- elsif template == "product" -%}
     {%- assign product_title = page_title -%}
-    {%- if product.available -%}
-    {%- assign seo_title_product_stock = "general.seo_title_product_stock" | t -%}
+    {% comment %} {%- if product.available -%}
+      {%- assign seo_title_product_stock = "general.seo_title_product_stock" | t -%}
     {%- assign product_title = page_title | append: seo_title_product_stock -%}
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
     {%- if product.compare_at_price -%}
-    {%- assign seo_title_product_sale = "general.seo_title_product_sale" | t -%}
+      {%- assign seo_title_product_sale = "general.seo_title_product_sale" | t -%}
       {%- assign product_title = page_title | append: seo_title_product_sale -%}
+    {% else %}
+      {%- assign seo_title_product_exchange = "general.seo_title_product_exchange" | t -%}
+      {%- assign product_title = page_title | append: seo_title_product_exchange -%}
     {%- endif -%}
     {%- if shop.url contains ".cz" or shop.url contains ".com" -%}
-      {{- product_title -}}
+      {{- product_title -}} 
     {%- else -%}
       {{- page_title -}}
     {%- endif -%}
@@ -156,7 +180,7 @@
   {%- endcomment -%}
   {%- endif -%}
   {%- if current_page != 1 -%}
-  — {{- 'general.meta.page' | t: page: current_page -}}
+  — {{- 'general.meta.page' | t: page: current_page -}} 
   {%- endif -%}
   {%- if template == 'password' -%}
     {{- shop.name -}}
@@ -164,4 +188,10 @@
     {% unless page_title contains shop.name %} | Ahinsa shoes 👣{% endunless %}
   {%- endif -%}
 {%- endcapture -%}
+{% if request.path contains "/blogs" %}
+
+{% else %}
+
 <title>{{- seo_title | strip -}}</title>
+
+{% endif %}
