@@ -95,7 +95,8 @@
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
   {%- endif -%}
 
-  {%- include 'seo-title' -%}
+  <!-- Sctructured data script -->
+  {% include 'structure-data' %}
   {%- include 'hreflang' -%}
 
   {%- if page_description -%}
@@ -296,9 +297,6 @@
   
 <!-- End Pixel Script -->
  {% endif %}
-
-  <!-- Sctructured data script -->
-  {% include 'structure-data' %}
 
   {%- comment -%}lightbox{%- endcomment -%}
   <link href="{{ 'lightbox.css' | asset_url }}" rel="stylesheet" />
