@@ -1,12 +1,13 @@
 {% include 'seo-title' %}
-{% assign url = request.url %}
+
+{% assign full_url = request.host | append: request.path %}
 
 <script type="application/ld+json">
   
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "{{ seo_title }}" ,
-    "url": "{{ url }}"
+    "name": "{{ seo_title | strip }}" ,
+    "url": "{{ full_url }}"
   }
 </script>
