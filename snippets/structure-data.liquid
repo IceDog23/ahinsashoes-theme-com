@@ -1,4 +1,5 @@
 {% include 'seo-title' %}
+{% assign url = request.url %}
 
 <script type="application/ld+json">
   
@@ -6,6 +7,6 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "{{ seo_title }}" ,
-    "url": "{{ request.url }}"
+    "url": "{{ url }}"
   }
 </script>
