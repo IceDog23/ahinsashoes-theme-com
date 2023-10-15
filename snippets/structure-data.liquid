@@ -1,0 +1,11 @@
+{% include 'seo-title' %}
+
+<script type="application/ld+json">
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ seo_title }}" ,
+    "url": "{{ request.url }}"
+  }
+</script>
