@@ -1379,10 +1379,24 @@
               "link": ""
             }
           },
+          "1625469845aed436c7-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Harper_s_Bazaar_Logo_svg.png",
+              "link": ""
+            }
+          },
+          "74a08073-86fb-43d7-ba1d-98bb47c8f57e": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cosmopolitan.png",
+              "link": ""
+            }
+          },
           "1625469845aed436c7-1": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/czechcrunch.png",
+              "image": "shopify:\/\/shop_images\/VOGUE_LOGO.svg_af7bc3f9-c83e-424c-96c7-ff36e0054be9.png",
               "link": ""
             }
           },
@@ -1392,20 +1406,14 @@
               "image": "shopify:\/\/shop_images\/flowee.png",
               "link": ""
             }
-          },
-          "1625469845aed436c7-3": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/moderni-rizeni_900f55b3-f1f1-416a-8a58-f59df6b99d0a.png",
-              "link": ""
-            }
           }
         },
         "block_order": [
           "1625469845aed436c7-0",
+          "1625469845aed436c7-3",
+          "74a08073-86fb-43d7-ba1d-98bb47c8f57e",
           "1625469845aed436c7-1",
-          "1625469845aed436c7-2",
-          "1625469845aed436c7-3"
+          "1625469845aed436c7-2"
         ],
         "settings": {
           "title": "",
