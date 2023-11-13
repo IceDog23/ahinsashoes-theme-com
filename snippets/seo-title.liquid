@@ -188,7 +188,12 @@
     {% unless page_title contains shop.name %} | Ahinsa shoes 👣{% endunless %}
   {%- endif -%}
 {%- endcapture -%}
-{% if request.path contains "/blogs" %}
+{% if template == 'blog' %}
+  {% if request.path == '/blogs/news' %}
+    <title>Walk in healthy shoes blog | Ahinsa shoes 👣</title>
+  {% else %}
+    <title>{{ article.title }} | Ahinsa shoes 👣</title>
+  {% endif %}
 
 {% else %}
 
