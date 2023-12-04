@@ -3422,6 +3422,7 @@
           },
           "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I’m writing to say I LOVE my simple black barefoot sandals. I wear them everyday and I feel so happy in them. Thank you for making them!!!!!<\/p>",
               "customer": "Jacqueline Smith"
