@@ -3153,6 +3153,20 @@
       "customer-reviews": {
         "type": "customer-reviews",
         "blocks": {
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter with the merino insole and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!<\/p>",
+              "customer": "Veronika Brenkusová"
+            }
+          },
+          "9d4b02b1-c841-495d-93b8-6f9fa021b519": {
+            "type": "block",
+            "settings": {
+              "text": "<p>The shoes are absolutely perfect - the materials and the look, not to mention the perfect fit. I've only worn barefoot shoes in the summer so far, and I have to say that this winter version is really flawless.<br\/><br\/>I'm literally enjoying being outside these days, I'm sending a photo from my morning walk and I'm looking forward to more pieces from your workshop, I'll definitely be back.<\/p>",
+              "customer": "Pavlína Melikyan"
+            }
+          },
           "1c8f1519-463d-44fa-8a24-370b78c52481": {
             "type": "block",
             "settings": {
@@ -3289,7 +3303,6 @@
           },
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>I'm excited about the shoes - that's it in a nutshell. I have been wearing the shoes for about 10 days and they are great. I was afraid that the soles would be too thin, but (I have the Comfort version) it's great. Even on these days, when the temperature is around -5 °C in the morning, I am not cold in them.<br\/><br\/>I work in an office and I keep my shoes on all day (up to 10 hours). Unlike other shoes, I don't get sweaty or tired feet from them. The soles do not slip (and I have tested this on a smooth wet floor in the hallway).<br\/><br\/>Did I notice changes when I walk? Yes, I have had so-called \"flat feet\" since I was a child (I don't know if this is the correct name for the diagnosis) and even though I exercised regularly as a child, my legs - feet - sometimes hurt. Not from my new Ahinsa boots.<br\/><br\/>I am really excited, they are light, flexible and look very nice on the feet. In short, I'm glad I discovered you and I'll definitely buy another one.<\/p>",
               "customer": "Lucie Jelínková"
@@ -3297,7 +3310,6 @@
           },
           "6790a163-fa11-4f52-820f-2fc2337f144c": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>I feel great in the winter boots. I've been wearing Barefoot boots exclusively for 3 years now, and since then I've had no pain in my bunions, which I've developed over the past 35 years...<\/p>",
               "customer": "Lenka Vlková"
@@ -3387,20 +3399,6 @@
               "customer": "Jacqueline Smith"
             }
           },
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
-            "type": "block",
-            "settings": {
-              "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter with the merino insole and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!<\/p>",
-              "customer": "Veronika Brenkusová"
-            }
-          },
-          "9d4b02b1-c841-495d-93b8-6f9fa021b519": {
-            "type": "block",
-            "settings": {
-              "text": "<p>The shoes are absolutely perfect - the materials and the look, not to mention the perfect fit. I've only worn barefoot shoes in the summer so far, and I have to say that this winter version is really flawless.<br\/><br\/>I'm literally enjoying being outside these days, I'm sending a photo from my morning walk and I'm looking forward to more pieces from your workshop, I'll definitely be back.<\/p>",
-              "customer": "Pavlína Melikyan"
-            }
-          },
           "f9b155da-333f-4412-a218-657f56d36ddf": {
             "type": "block",
             "settings": {
@@ -3410,6 +3408,8 @@
           }
         },
         "block_order": [
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
+          "9d4b02b1-c841-495d-93b8-6f9fa021b519",
           "1c8f1519-463d-44fa-8a24-370b78c52481",
           "b059d893-8622-4107-ae0d-a371051d1b15",
           "6e830b02-8fec-494b-a61f-5648396dddac",
@@ -3443,8 +3443,6 @@
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
           "5dda9802-42e6-450b-8ba5-6bb77315e59b",
           "bff73c87-3d35-4461-b292-a9f4818f7fa8",
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
-          "9d4b02b1-c841-495d-93b8-6f9fa021b519",
           "f9b155da-333f-4412-a218-657f56d36ddf"
         ],
         "settings": {
