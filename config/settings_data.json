@@ -124,6 +124,7 @@
           },
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "For Warm Feet and a Joyful Soul ❄️",
               "link_text": "Put on a pair of the most comfortable winter Ahinsa shoes.",
@@ -132,10 +133,9 @@
           },
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Black Friday sale is here! 🔥",
-              "link_text": "Get up to 30 % off your favorite shoes. Experience the freedom of natural movement.",
+              "text": "Winter sale is here! ❄️",
+              "link_text": "Get up to 30 % off your favorite shoes. Experience the freedom of natural movement!",
               "link": "shopify:\/\/collections\/sale"
             }
           },
