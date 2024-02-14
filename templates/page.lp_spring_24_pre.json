@@ -1,22 +1,84 @@
 {
-    "sections": {
-        "lp_slideshow": {
-            "type": "lp_slideshow"
-        }, 
-        "newsletter_form": {
-            "type": "newsletter"
-        }, 
-        "lp-promotions": {
-            "type": "lp-promotions"
-        }, 
-        "newsletter_form_bot": {
-            "type": "newsletter"
-        }
+  "sections": {
+    "lp_slideshow": {
+      "type": "lp_slideshow",
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
     },
-    "order":[
-        "lp_slideshow", 
-        "newsletter_form", 
-        "lp-promotions", 
-        "newsletter_form_bot"
-    ]
+    "newsletter_form": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Sign up and save",
+        "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "lp-promotions": {
+      "type": "lp-promotions",
+      "blocks": {
+        "promotion_VNxjJC": {
+          "type": "promotion",
+          "settings": {
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_link": ""
+          }
+        },
+        "promotion_Hrj4mf": {
+          "type": "promotion",
+          "settings": {
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_link": ""
+          }
+        },
+        "promotion_KCA9JV": {
+          "type": "promotion",
+          "settings": {
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_link": ""
+          }
+        },
+        "promotion_KTPtiX": {
+          "type": "promotion",
+          "settings": {
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "promotion_VNxjJC",
+        "promotion_Hrj4mf",
+        "promotion_KCA9JV",
+        "promotion_KTPtiX"
+      ],
+      "settings": {
+      }
+    },
+    "newsletter_form_bot": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Sign up and save",
+        "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    }
+  },
+  "order": [
+    "lp_slideshow",
+    "newsletter_form",
+    "lp-promotions",
+    "newsletter_form_bot"
+  ]
 }
