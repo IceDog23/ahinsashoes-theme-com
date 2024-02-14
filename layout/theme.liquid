@@ -33,6 +33,14 @@
 <script src="https://chat.supportbox.cz/web-chat/entry-point" async defer></script>
 <!-- Konec kodu chatu SupportBox -->
 
+ <!-- Library used for media galleries on LP -->
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- End Swiper -->
+
+
   {% if template contains 'page' %}
     {% if page.metafields.social_sharing.image != blank %}
       {% assign custom_image = page.metafields.social_sharing.image | img_url: "1200x" %}
