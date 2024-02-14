@@ -1,0 +1,22 @@
+{
+    "sections": {
+        "lp_slideshow": {
+            "type": "lp_slideshow"
+        }, 
+        "newsletter_form": {
+            "type": "newsletter"
+        }, 
+        "lp-promotions": {
+            "type": "lp-promotions"
+        }, 
+        "newsletter_form_bot": {
+            "type": "newsletter"
+        }
+    },
+    "order":[
+        "lp_slideshow", 
+        "newsletter_form", 
+        "lp-promotions", 
+        "newsletter_form_bot"
+    ]
+}
