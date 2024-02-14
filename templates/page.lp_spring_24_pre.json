@@ -22,46 +22,7 @@
     },
     "lp-promotions": {
       "type": "lp-promotions",
-      "blocks": {
-        "promotion_VNxjJC": {
-          "type": "promotion",
-          "settings": {
-            "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-            "button_link": ""
-          }
-        },
-        "promotion_Hrj4mf": {
-          "type": "promotion",
-          "settings": {
-            "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-            "button_link": ""
-          }
-        },
-        "promotion_KCA9JV": {
-          "type": "promotion",
-          "settings": {
-            "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-            "button_link": ""
-          }
-        },
-        "promotion_KTPtiX": {
-          "type": "promotion",
-          "settings": {
-            "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "promotion_VNxjJC",
-        "promotion_Hrj4mf",
-        "promotion_KCA9JV",
-        "promotion_KTPtiX"
-      ],
+      "disabled": true,
       "settings": {
       }
     },
