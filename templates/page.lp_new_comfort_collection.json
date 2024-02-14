@@ -270,6 +270,7 @@
     "lp_image_text_middle_B4DRHP": {
       "type": "lp_image_text_middle",
       "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_9551.jpg",
         "heading": "Ministerstvo šťastných nohou varuje: Pohodlí je návykové",
         "text": "<p>Kdo jednou obuje pohodlné Ahinsa shoes, ten už nechce nic jiného.<br\/>To vám dosvědčí naši zákazníci.<\/p>",
         "text_position": "10%",
