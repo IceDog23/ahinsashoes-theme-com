@@ -1,12 +1,14 @@
 
-{%- unless images == blank -%}
+{%- unless images_col == blank -%}
     <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff; --swiper-navigation-size: 20px --swiper-navigation-top-offset: 50px " class="swiper mySwiper2 section--{{ section.id }}">
         <div class="swiper-wrapper">
             {%- for item in section.blocks -%}
                 {%  assign media = item.settings.image %}
-                <div class="swiper-slide">
-                    {{ media.src | image_url: width: 700 | image_tag }}
-                </div>
+                {% if media %}
+                    <div class="swiper-slide">
+                       {{ media.src | image_url: width: 700 | image_tag }}
+                    </div>
+                {% endif %}
             {%- endfor -%}
         </div>
         <div class="swiper-pagination"></div>
@@ -15,9 +17,11 @@
         <div class="swiper-wrapper thumbnails">
             {%- for item in section.blocks -%}
                 {%  assign media = item.settings.image %}
-                <div class="swiper-slide img-thumbnail">
-                    {{ media.src | image_url: width: 200 | image_tag }}
-                </div>
+                {% if media %}
+                    <div class="swiper-slide img-thumbnail">
+                        {{ media.src | image_url: width: 200 | image_tag }}
+                    </div>
+                {% endif %}
             {%- endfor -%}
         </div>
     </div>
