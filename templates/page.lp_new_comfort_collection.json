@@ -178,6 +178,22 @@
     },
     "629e967d-2ba6-445e-ac1d-37425cf62106": {
       "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_9x9DcP": {
+          "type": "html",
+          "settings": {
+          }
+        },
+        "html_xzFDrR": {
+          "type": "html",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "html_9x9DcP",
+        "html_xzFDrR"
+      ],
       "settings": {
         "image_width": 500,
         "title": "Prostorná špička",
