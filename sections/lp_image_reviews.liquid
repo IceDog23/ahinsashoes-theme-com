@@ -1,0 +1,89 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+  <div class="page-width">
+    <div class='image-review-box desktop'>
+      {%- if section.settings.image -%}
+          {{ section.settings.image | image_url: width: '1400x' | image_tag: class: 'image-review' }}
+      {%- endif -%}   
+    </div>
+    <div class='image-review-box mobile'>
+      {%- if section.settings.image_m -%}
+        {{ section.settings.image_m | image_url: width: '500x' | image_tag: class: 'image-review' }}
+      {%- endif -%}  
+    </div>
+  </div>
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% style %}
+#shopify-section-{{ section.id }}.index-section {
+  margin-bottom: {{ section.settings.m_bot }}px;
+}
+
+.image-review-box.desktop {
+  display: flex; 
+  align-items: center; 
+}
+
+.image-review-box.mobile {
+  display: none; 
+}
+
+
+.image-review {
+  object-fit: contain;
+  max-width: 100%; 
+  max-height: 100%; 
+  width: auto; 
+  height: auto; 
+}
+
+@media screen and (max-width: 785px) {
+  .image-review-box.desktop {
+    display: none 
+  }
+
+  .image-review-box.mobile {
+    display: flex; 
+    align-items: center; 
+  }
+}
+
+{% endstyle %}
+  
+  {% schema %}
+{
+  "name": "Large image simple",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_m",
+      "label": "Image mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "Show section divider",
+      "default": false
+    }, 
+    {
+      "type": "number", 
+      "id": "m_bot", 
+      "label": "Margin bottom", 
+      "default": 10
+    }
+  ],
+  "presets": [
+    {
+      "name": "Large image simple - landing page",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}
+  

@@ -1,0 +1,172 @@
+
+{%- unless images_col == blank -%}
+    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff; --swiper-navigation-size: 20px --swiper-navigation-top-offset: 50px " class="swiper mySwiper2 section--{{ section.id }}">
+        <div class="swiper-wrapper">
+            {%- for item in section.blocks -%}
+                {%  assign media = item.settings.image %}
+                {% if media %}
+                    <div class="swiper-slide">
+                       {{ media.src | image_url: width: 700 | image_tag }}
+                    </div>
+                {% endif %}
+            {%- endfor -%}
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div thumbsSlider="" class="swiper mySwiper section--{{ section.id }}">
+        <div class="swiper-wrapper thumbnails">
+            {%- for item in section.blocks -%}
+                {%  assign media = item.settings.image %}
+                {% if media %}
+                    <div class="swiper-slide img-thumbnail">
+                        {{ media.src | image_url: width: 200 | image_tag }}
+                    </div>
+                {% endif %}
+            {%- endfor -%}
+        </div>
+    </div>
+    <div class='thumbs-navigation'>
+        <div class="swiper-button-next section--{{ section.id }}">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-right" viewBox="0 0 284.49 498.98"><path d="M35 498.98a35 35 0 0 1-24.75-59.75l189.74-189.74L10.25 59.75a35.002 35.002 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L59.75 488.73A34.89 34.89 0 0 1 35 498.98z"/></svg>
+        </div>
+        <div class="swiper-button-prev section--{{ section.id }}">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 284.49 498.98"><path d="M249.49 0a35 35 0 0 1 24.75 59.75L84.49 249.49l189.75 189.74a35.002 35.002 0 1 1-49.5 49.5L10.25 274.24a35 35 0 0 1 0-49.5L224.74 10.25A34.89 34.89 0 0 1 249.49 0z"/></svg>
+        </div>
+    </div>
+
+
+{% style %}
+.thumbs-navigation {
+    position: relative;
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    top: -20px; 
+}
+
+.thumbs-navigation .swiper-button-next {
+    right: -5px
+}
+
+.thumbs-navigation .swiper-button-prev {
+    left: -5px
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: black;
+    height: 15px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.mySwipe .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-thumbnail {
+    max-width: 80px;
+}
+
+.mySwiper.section--{{ section.id }} .swiper-slide-thumb-active {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.swiper-pagination {
+    display: none;       
+}
+
+@media screen and (max-width: 770px) {
+    .thumbs-navigation {
+        display: none; 
+    }
+
+    .mySwiper {
+        display: none;
+    }
+
+    .mySwiper2 {
+        margin-bottom: 10px
+    }
+
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        display: block; 
+    }
+}
+{%  endstyle %}
+
+<script>
+var swiper = new Swiper(".mySwiper.section--{{ section.id }}", {
+    spaceBetween: 10,
+    slidesPerView: 'auto',
+    freeMode: true,
+    watchSlidesProgress: true
+});
+
+var swiper2 = new Swiper(".mySwiper2.section--{{ section.id }}", {
+    spaceBetween: 10,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true, // Optional: makes pagination bullets clickable
+    }, 
+    navigation: {
+        nextEl: ".swiper-button-next.section--{{ section.id }}",
+        prevEl: ".swiper-button-prev.section--{{ section.id }}",
+    },
+    thumbs: {
+        swiper: swiper,
+    },
+});  
+</script>
+    
+{% endunless %} 
