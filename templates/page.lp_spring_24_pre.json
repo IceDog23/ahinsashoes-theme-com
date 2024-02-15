@@ -51,6 +51,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/3T1A2502.jpg",
             "image_width": 650,
             "title": "Playfully colorful Pura Play sneakers",
             "text": "",
