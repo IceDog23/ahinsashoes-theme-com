@@ -52,8 +52,8 @@
             "enable_image": true,
             "image_width": 650,
             "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "text": "",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -63,8 +63,8 @@
             "enable_image": true,
             "image_width": 650,
             "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "text": "",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -74,19 +74,19 @@
             "enable_image": true,
             "image_width": 650,
             "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "text": "",
+            "button_label": "",
             "button_link": ""
           }
         },
-        "text_block_cq9iRQ": {
+        "text_block_TC8wnz": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
             "image_width": 650,
             "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "text": "",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -95,7 +95,7 @@
         "text_block_fDwQgL",
         "text_block_33EiPz",
         "text_block_fBFJed",
-        "text_block_cq9iRQ"
+        "text_block_TC8wnz"
       ],
       "settings": {
         "title": "Tyto Ahinsa shoes se na vás těšív nové kolekci",
@@ -113,8 +113,8 @@
             "enable_image": true,
             "image_width": 650,
             "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "text": "",
+            "button_label": "",
             "button_link": ""
           }
         }
