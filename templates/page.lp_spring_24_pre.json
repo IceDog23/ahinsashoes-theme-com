@@ -6,17 +6,18 @@
         "image_dckMDB": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
-            "title": "Nejpohodlnější jaro\nvašeho života",
+            "top_subheading": "Grab one of the first 100 pairs of the new Ahinsa shoes",
+            "title": "[New collection coming soon] The most comfortable \nspring of your life",
             "title_size": 80,
-            "subheading": "And optional subtext",
+            "subheading": "Do you know when you look the best? When you’re <b>comfortable and being yourself<\/b>. We kept that in mind while designing the new, fresh Ahinsa shoes collection.\n<p>It’s finally here – and you can be the first to get a pair. A 20% discount applies to the first 100 pairs.<\/p>",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "overlay_opacity": 0,
+            "image": "shopify:\/\/shop_images\/DSC_3487_d6c2b56a-5644-4917-897f-0e55b0867bf8.jpg",
+            "overlay_opacity": 40,
             "focal_point": "center center"
           }
         }
@@ -36,8 +37,8 @@
     "lp-newsletter-top": {
       "type": "lp-newsletter-top",
       "settings": {
-        "title": "Ulovte jeden z prvních 100 párů včas a  získejte slevu XX %",
-        "text": "<p>Novou jarní kolekci už došíváme a připravujeme k odeslání.<\/p><p><strong>Jakmile spustíme prodej, ozveme se vám.<\/strong> Prvních 100 párů jarních Ahinsa shoes jsme zlevnili. Získáte je právě vy?<\/p>",
+        "title": "Grab one of the first 100 pairs before time runs out and get a 20 % discount",
+        "text": "<p>We’re just finishing up the new spring collection and preparing it for delivery. <\/p><p><strong>The moment we launch the sale, we’ll get in touch with you<\/strong>. We’ve discounted the first 100 pairs of Ahinsa shoes for the spring. Will you be one to get a pair in time?<\/p>",
         "color_background": "#f9f9f9",
         "color_text": "#1c1d1d",
         "icon": "shopify:\/\/shop_images\/arrow-down-bold_0c3422ae-c4f6-4119-8b63-d3035db4f46b.svg"
@@ -51,7 +52,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 650,
-            "title": "Example title",
+            "title": "Playfully colorful Pura Play sneakers",
             "text": "",
             "button_label": "",
             "button_link": ""
@@ -62,7 +63,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 650,
-            "title": "Example title",
+            "title": "Breathable Pura Airnet summer sneakers",
             "text": "",
             "button_label": "",
             "button_link": ""
@@ -73,7 +74,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 650,
-            "title": "Example title",
+            "title": "Improved and indestructible Hava sandals ",
             "text": "",
             "button_label": "",
             "button_link": ""
@@ -84,7 +85,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 650,
-            "title": "Example title",
+            "title": "Trekking sandals and ankle boots",
             "text": "",
             "button_label": "",
             "button_link": ""
@@ -98,7 +99,7 @@
         "text_block_TC8wnz"
       ],
       "settings": {
-        "title": "Tyto Ahinsa shoes se na vás těšív nové kolekci",
+        "title": "These new Ahinsa shoes can’t wait to be worn by you!",
         "align_text": "center",
         "bottom_spacing": 20,
         "divider": false
@@ -112,7 +113,7 @@
           "settings": {
             "enable_image": true,
             "image_width": 650,
-            "title": "Example title",
+            "title": "Pura Hemp sneakers",
             "text": "",
             "button_label": "",
             "button_link": ""
@@ -137,7 +138,7 @@
     "lp-newsletter-bot": {
       "type": "lp-newsletter-bot",
       "settings": {
-        "title": "A další novinky, které odtajníme už brzy.",
+        "title": "And other new styles that we’ll reveal soon! ",
         "text": "",
         "color_background": "#f9f9f9",
         "color_text": "#1c1d1d",
