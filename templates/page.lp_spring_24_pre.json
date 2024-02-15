@@ -11,8 +11,8 @@
         "autoplay_speed": 7
       }
     },
-    "newsletter_form": {
-      "type": "newsletter",
+    "lp-newsletter-top": {
+      "type": "lp-newsletter-top",
       "settings": {
         "title": "Sign up and save",
         "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
@@ -20,43 +20,11 @@
         "color_text": "#1c1d1d"
       }
     },
-    "text_columns_DPCf3E": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_gKCPew": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/DSC_3779.jpg",
-            "image_width": 300,
-            "title": "Example title",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_WztDDV": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/DSC_3878.jpg",
-            "image_width": 300,
-            "title": "Example title",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_gKCPew",
-        "text_block_WztDDV"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "divider": false
-      }
+    "lp-text-columns_jaro": {
+      "type": "lp-text-columns_jaro23"
+    },
+    "lp-text-columns_jaro_1": {
+        "type": "lp-text-columns_jaro23"
     },
     "lp-promotions": {
       "type": "lp-promotions",
@@ -64,8 +32,8 @@
       "settings": {
       }
     },
-    "newsletter_form_bot": {
-      "type": "newsletter",
+    "lp-newsletter-bot": {
+      "type": "lp-newsletter-bot",
       "settings": {
         "title": "Sign up and save",
         "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
@@ -76,9 +44,10 @@
   },
   "order": [
     "lp_slideshow",
-    "newsletter_form",
-    "text_columns_DPCf3E",
+    "lp-newsletter-top",
+    "lp-text-columns_jaro",
+    "lp-text-columns_jaro_1",
     "lp-promotions",
-    "newsletter_form_bot"
+    "lp-newsletter-bot"
   ]
 }

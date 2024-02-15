@@ -12,7 +12,7 @@
       assign grid_item_width = 'medium-up--one-third'
       case section.blocks.size
         when 1
-          assign grid_item_width = 'medium-up--one-half'
+          assign grid_item_width = 'medium-up--one-half middle'
         when 2
           assign grid_item_width = 'medium-up--one-half'
         when 4
@@ -67,6 +67,17 @@
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
+{%  style %}
+  #shopify-section-{{ section.id }} {
+    margin-bottom: {{ section.settings.bottom_spacing }}px!important; 
+  }
+
+  .middle {
+    float: none; 
+    margin: 0 auto;
+  }
+{%  endstyle %}
+
 {% schema %}
   {
     "name": "Text columns with images",
@@ -96,6 +107,11 @@
             "label": "Right"
           }
         ]
+      },
+      {
+        "type": "number", 
+        "id": "bottom_spacing", 
+        "label": "Bottom spacing"
       },
       {
         "type": "checkbox",
