@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "lp_slideshow": {
+      "type": "lp_slideshow",
+      "blocks": {
+        "image_dckMDB": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Nejpohodlnější jaro\nvašeho života",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_dckMDB"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "lp-newsletter-top": {
+      "type": "lp-newsletter-top",
+      "settings": {
+        "title": "Ulovte jeden z prvních 100 párů včas a  získejte slevu XX %",
+        "text": "<p>Novou jarní kolekci už došíváme a připravujeme k odeslání.<\/p><p><strong>Jakmile spustíme prodej, ozveme se vám.<\/strong> Prvních 100 párů jarních Ahinsa shoes jsme zlevnili. Získáte je právě vy?<\/p>",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d",
+        "icon": "shopify:\/\/shop_images\/arrow-down-bold_0c3422ae-c4f6-4119-8b63-d3035db4f46b.svg"
+      }
+    },
+    "lp-text-columns_jaro": {
+      "type": "lp-text-columns_jaro23",
+      "blocks": {
+        "text_block_fDwQgL": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_33EiPz": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_fBFJed": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_TC8wnz": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_fDwQgL",
+        "text_block_33EiPz",
+        "text_block_fBFJed",
+        "text_block_TC8wnz"
+      ],
+      "settings": {
+        "title": "Tyto Ahinsa shoes se na vás těšív nové kolekci",
+        "align_text": "center",
+        "bottom_spacing": 20,
+        "divider": false
+      }
+    },
+    "lp-text-columns_jaro_1": {
+      "type": "lp-text-columns_jaro23",
+      "blocks": {
+        "text_block_VKt4Ux": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_VKt4Ux"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "lp-promotions": {
+      "type": "lp-promotions",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "lp-newsletter-bot": {
+      "type": "lp-newsletter-bot",
+      "settings": {
+        "title": "A další novinky, které odtajníme už brzy.",
+        "text": "",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d",
+        "icon": "shopify:\/\/shop_images\/arrow-down-bold_0c3422ae-c4f6-4119-8b63-d3035db4f46b.svg"
+      }
+    }
+  },
+  "order": [
+    "lp_slideshow",
+    "lp-newsletter-top",
+    "lp-text-columns_jaro",
+    "lp-text-columns_jaro_1",
+    "lp-promotions",
+    "lp-newsletter-bot"
+  ]
+}

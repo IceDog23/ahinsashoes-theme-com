@@ -1,0 +1,89 @@
+{%- style -%}
+  .newsletter-{{ section.id }} {
+    background-color: {{ section.settings.color_background }};
+    color: {{ section.settings.color_text }};
+  }
+
+  .newsletter-{{ section.id }} .newsletter__input::-webkit-input-placeholder { color: {{ section.settings.color_text }}; }
+  .newsletter-{{ section.id }} .newsletter__input::-moz-placeholder { color: {{ section.settings.color_text }}; }
+  .newsletter-{{ section.id }} .newsletter__input::-ms-input-placeholder { color: {{ section.settings.color_text }}; }
+{%- endstyle -%}
+
+<div class="newsletter-section newsletter-{{ section.id }}{% if section.settings.color_background == settings.color_body_bg %} newsletter-section--with-divider{% endif %}">
+  <div class="page-width text-center">
+    {%- if section.settings.title != blank -%}
+      <p class="h3">{{ section.settings.title | escape }}</p>
+    {%- endif -%}
+    {%- if section.settings.text != blank -%}
+      <div class="rte">{{ section.settings.text }}</div>
+    {%- endif -%}
+    {% if section.settings.icon %}
+        <div class='icon-bot'>
+            {{ section.settings.icon.src | image_url: width: 50 | image_tag }}
+        </div>
+    
+    {% endif %}
+    <script>
+        (function (w,d,s,o,f,js,fjs) {
+            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+            js.id = '9-54057be166928eb6fcc57504dc847797'; js.dataset.a = 'ahinsashoescom'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+    </script>
+    <div id="f-9-54057be166928eb6fcc57504dc847797"></div>
+  </div>
+</div>
+
+{% style %}
+    .icon-bot {
+        margin: 20px auto;
+    }
+{% endstyle %}
+
+{% schema %}
+  {
+    "name": "Newsletter",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Customers who subscribe will have their email address added to the 'accepts marketing' [customer list](/admin/customers?query=&accepts_marketing=1)."
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Sign up and save"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Subheading",
+        "default": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>"
+      },
+      {
+        "type": "color",
+        "id": "color_background",
+        "label": "Background",
+        "default": "#f9f9f9"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text",
+        "default": "#1c1d1d"
+      },
+      {
+        "type": "image_picker", 
+        "id": "icon", 
+        "label":"Icon bottom"
+        }
+    ],
+    "presets": [
+      {
+        "name": "Newsletter",
+        "category": "Promotional"
+      }
+    ]
+  }
+{% endschema %}
+
