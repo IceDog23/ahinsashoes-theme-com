@@ -98,7 +98,7 @@
         "text_block_cq9iRQ"
       ],
       "settings": {
-        "title": "",
+        "title": "Tyto Ahinsa shoes se na vás těšív nové kolekci",
         "align_text": "center",
         "bottom_spacing": 20,
         "divider": false
@@ -137,10 +137,11 @@
     "lp-newsletter-bot": {
       "type": "lp-newsletter-bot",
       "settings": {
-        "title": "Sign up and save",
-        "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+        "title": "A další novinky, které odtajníme už brzy.",
+        "text": "",
         "color_background": "#f9f9f9",
-        "color_text": "#1c1d1d"
+        "color_text": "#1c1d1d",
+        "icon": "shopify:\/\/shop_images\/arrow-down-bold_0c3422ae-c4f6-4119-8b63-d3035db4f46b.svg"
       }
     }
   },
