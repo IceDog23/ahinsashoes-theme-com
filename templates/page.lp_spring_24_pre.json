@@ -63,8 +63,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DSC_2488_a22dba83-a4e4-466b-97f4-84ad952c0844.jpg",
             "image_width": 650,
-            "title": "Breathable Pura Airnet summer sneakers",
+            "title": "Breathable Flow mesh summer sneakers",
             "text": "",
             "button_label": "",
             "button_link": ""
@@ -74,6 +75,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DSC_1661_ac5f3756-239f-41f3-bcef-d296d94e6913.jpg",
             "image_width": 650,
             "title": "Improved and indestructible Hava sandals ",
             "text": "",
@@ -85,6 +87,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DSC01895_23b92bc9-882c-4e3c-a166-bf8ce1afc971.jpg",
             "image_width": 650,
             "title": "Trekking sandals and ankle boots",
             "text": "",
@@ -113,8 +116,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DSC_3487_0bb4d641-0442-417a-85e9-13effbcd9de7.jpg",
             "image_width": 650,
-            "title": "Pura Hemp sneakers",
+            "title": "Vida Hemp sneakers",
             "text": "",
             "button_label": "",
             "button_link": ""
