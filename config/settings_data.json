@@ -2346,25 +2346,31 @@
           "d4a645ff-8ee0-4667-95a3-b9f528e65099": {
             "type": "html",
             "settings": {
-              "image": "shopify:\/\/shop_images\/sunbrella.png"
+              "image": "shopify:\/\/shop_images\/2_af6535c7-b85f-4bbc-8556-ddb9fdaeb91e.png"
             }
           },
           "7f08f240-59e4-4a5f-ad8e-0d0d08569621": {
             "type": "html",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9.png"
+              "image": "shopify:\/\/shop_images\/4_a5ce02f2-5521-411c-be88-6bc677adb556.png"
             }
           },
           "39ad30c5-1613-4864-81e0-fa08eb52a4dd": {
             "type": "html",
             "settings": {
-              "image": "shopify:\/\/shop_images\/11.png"
+              "image": "shopify:\/\/shop_images\/1.png"
             }
           },
           "4ef6c827-1c07-47eb-a46a-ac2ce01adc78": {
             "type": "html",
             "settings": {
-              "image": "shopify:\/\/shop_images\/12.png"
+              "image": "shopify:\/\/shop_images\/5_26a5ad47-233c-4774-831a-e567dc083e16.png"
+            }
+          },
+          "html_bzyUjd": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_b8908cf9-77ee-4ed7-b3ed-ed7c6c9b2d00.png"
             }
           }
         },
@@ -2372,15 +2378,16 @@
           "d4a645ff-8ee0-4667-95a3-b9f528e65099",
           "7f08f240-59e4-4a5f-ad8e-0d0d08569621",
           "39ad30c5-1613-4864-81e0-fa08eb52a4dd",
-          "4ef6c827-1c07-47eb-a46a-ac2ce01adc78"
+          "4ef6c827-1c07-47eb-a46a-ac2ce01adc78",
+          "html_bzyUjd"
         ],
         "settings": {
           "image_width": 500,
-          "title": "Ahinsa Sunbrella",
-          "subtitle": "Recycled fabric that’s made it to the moon",
-          "text": "<p>Sunbrella material manufacturers use <strong>scraps from their own production<\/strong> to create a perfectly breathable fabric so durable that it can even survive on the moon. It’s true! The flag planted by astronauts is made from Sunbrella. <\/p><p>• Reuses production waste<\/p><p>• Ethically produced in Europe <\/p><p>• Lasts for years<\/p>",
-          "button_label": "Ahinsa Sunbrella models 🡪",
-          "button_link": "shopify:\/\/collections\/shoes-made-from-recycled-fabric-sunbrella",
+          "title": "Ahinsa Mabel",
+          "subtitle": "Leather made from apples helps the planet",
+          "text": "<p>There are a lot of ways to make things easier for the planet. One of them smells like apple pie. <\/p><p>Mabel is a material that is <strong>made of 25%<\/strong> <strong>apple waste<\/strong>. It looks like leather, it lasts for years, and it helps create more sustainable Ahinsa shoes. <\/p><p>It’s nothing new. Mabel material has been produced in Tuscany since 2010 and has proven to be useful to shoemakers and furniture manufacturers. <\/p><ul><li>Sustainable material<\/li><li>24% made from apple waste<\/li><li>Firm and durable<\/li><\/ul>",
+          "button_label": "Ahinsa Mabel models 🡪",
+          "button_link": "https:\/\/ahinsashoes.com\/collections\/women\/podsivka_mabel",
           "layout": "right",
           "divider": false
         }
