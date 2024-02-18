@@ -33,6 +33,13 @@
         "autoplay_speed": 5
       }
     },
+    "lp_text_and_image1_cB6BGr": {
+      "type": "lp-text-and-image1",
+      "settings": {
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>"
+      }
+    },
     "lp_image_reviews_iUy3ac": {
       "type": "lp_image_reviews",
       "settings": {
@@ -40,102 +47,24 @@
         "m_bot": 10
       }
     },
-    "product_story_sections_gXBitH": {
-      "type": "product-story-sections",
-      "blocks": {
-        "testimonials_AW96hp": {
-          "type": "testimonials",
-          "settings": {
-            "title": "Boty od fyzioterapeutů = pohodlí bez kompromisů",
-            "align_text": "center",
-            "round_images": false,
-            "color_background": "#f9f9f9",
-            "color_text": "#1c1d1d",
-            "icon_1": "5-stars",
-            "testimonial_1": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author_1": "Author's name",
-            "author_info_1": "Los Angeles, CA",
-            "icon_2": "5-stars",
-            "testimonial_2": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author_2": "Author's name",
-            "author_info_2": "Los Angeles, CA"
-          }
-        }
-      },
-      "block_order": [
-        "testimonials_AW96hp"
-      ],
-      "settings": {
-      }
-    },
-    "promo_grid_Pb7EnP": {
-      "type": "promo-grid",
-      "blocks": {
-        "advanced_JNiffN": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "POHODLÍ PRO DÁMY",
-            "textarea": "",
-            "cta_text1": "Odkaz",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "advanced_4hBiEg": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "POHODLÍPRO PÁNY",
-            "textarea": "",
-            "cta_text1": "Odkaz",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "advanced_JNiffN",
-        "advanced_4hBiEg"
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
-        "space_below": true
-      }
-    },
-    "e809c555-6577-4219-9b81-be00aed9aa5c": {
+    "lp_text_on_image_qGHnHh": {
       "type": "lp_text_on_image",
       "settings": {
-        "title": "Psssst, neprozraďte nás!",
-        "subtitle": "Improved",
-        "text": "<p>O jarní kolekci Ahinsa shoes ještě skoro nikdo neví. Zatím jsme ji ukázali <strong>jen vám, našim zákazníkům<\/strong>.<br\/>Vyberte si jako první se slevou 25 %.<br\/>Boty už pro vás vyrábíme a odešleme je nejpozději v pondělí XX. března.<\/p>",
-        "button_label": "",
+        "image": "shopify:\/\/shop_images\/svatba_mobil_lp.jpg",
+        "title": "Vylepšená řada Comfort",
+        "subtitle": "Nekompromisní pohodlí",
+        "text": "<p>Jaké by asi bylo <strong>chodit po oblacích<\/strong>? Brzy to zjistíte.<br\/>Řadu Ahinsa Comfort jsme vylepšili o Technogel, který<strong>změkčí a odpruží vaše došlapy<\/strong>. Výlet po městě nikdy nebyl pohodlnější.<\/p>",
+        "button_label": "UŽIJTE SI POHODLÍ",
         "button_link": "",
         "layout": "right",
         "divider": false,
         "quote": false
+      }
+    },
+    "product_story_sections_gXBitH": {
+      "type": "product-story-sections",
+      "disabled": true,
+      "settings": {
       }
     },
     "afadba8b-f130-41fc-8a37-2cc6ce89906e": {
@@ -243,6 +172,97 @@
         "divider": false
       }
     },
+    "lp_text_and_image_gallery_4QD9Qa": {
+      "type": "lp_text_and_image_gallery",
+      "settings": {
+        "image_width": 500,
+        "title": "Pružné a ohebné",
+        "subtitle": "Boty kopírují váš pohyb",
+        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "lp_text_and_image_gallery_WWqhVd": {
+      "type": "lp_text_and_image_gallery",
+      "settings": {
+        "image_width": 500,
+        "title": "Pružné a ohebné",
+        "subtitle": "Boty kopírují váš pohyb",
+        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "lp_text_and_image_gallery_KJ8hVd": {
+      "type": "lp_text_and_image_gallery",
+      "settings": {
+        "image_width": 500,
+        "title": "Pružné a ohebné",
+        "subtitle": "Boty kopírují váš pohyb",
+        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "lp_text_and_image_gallery_gDiqxc": {
+      "type": "lp_text_and_image_gallery",
+      "settings": {
+        "image_width": 500,
+        "title": "Pružné a ohebné",
+        "subtitle": "Boty kopírují váš pohyb",
+        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "lp_text_and_image_gallery_wU7XLU": {
+      "type": "lp_text_and_image_gallery",
+      "settings": {
+        "image_width": 500,
+        "title": "Pružné a ohebné",
+        "subtitle": "Boty kopírují váš pohyb",
+        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "lp_text_and_image_gallery_7UdyAQ": {
+      "type": "lp_text_and_image_gallery",
+      "settings": {
+        "image_width": 500,
+        "title": "Pružné a ohebné",
+        "subtitle": "Boty kopírují váš pohyb",
+        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "lp_text_and_image_gallery_7C6jAf": {
+      "type": "lp_text_and_image_gallery",
+      "settings": {
+        "image_width": 500,
+        "title": "Pružné a ohebné",
+        "subtitle": "Boty kopírují váš pohyb",
+        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
     "2e15496b-aa26-40ba-8cc9-74be914ee25a": {
       "type": "lp_text_on_image",
       "settings": {
@@ -267,88 +287,34 @@
         "divider": false
       }
     },
-    "lp_image_text_middle_B4DRHP": {
-      "type": "lp_image_text_middle",
+    "lp_image_reviews_8FdL9N": {
+      "type": "lp_image_reviews",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC_9551.jpg",
-        "heading": "Ministerstvo šťastných nohou varuje: Pohodlí je návykové",
-        "text": "<p>Kdo jednou obuje pohodlné Ahinsa shoes, ten už nechce nic jiného.<br\/>To vám dosvědčí naši zákazníci.<\/p>",
-        "text_position": "10%",
-        "icon_position": "right",
-        "divider": false
-      }
-    },
-    "promo_grid_EpWMVF": {
-      "type": "promo-grid",
-      "blocks": {
-        "advanced_TYt7Bt": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "POHODLÍPRO DÁMY",
-            "textarea": "",
-            "cta_text1": "odkaz",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "advanced_LgCn8U": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "POHODLÍPRO PÁNY",
-            "textarea": "",
-            "cta_text1": "odkaz",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "advanced_TYt7Bt",
-        "advanced_LgCn8U"
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
-        "space_below": true
+        "image": "shopify:\/\/shop_images\/recenze_jaro_24_web.png",
+        "divider": false,
+        "m_bot": 10
       }
     }
   },
   "order": [
     "26396f05-6969-47e0-aa8d-0fb2471ab88e",
+    "lp_text_and_image1_cB6BGr",
     "lp_image_reviews_iUy3ac",
+    "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
-    "promo_grid_Pb7EnP",
-    "e809c555-6577-4219-9b81-be00aed9aa5c",
     "afadba8b-f130-41fc-8a37-2cc6ce89906e",
     "629e967d-2ba6-445e-ac1d-37425cf62106",
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
     "78f72821-6c02-4943-8234-82d8128e2acd",
+    "lp_text_and_image_gallery_4QD9Qa",
+    "lp_text_and_image_gallery_WWqhVd",
+    "lp_text_and_image_gallery_KJ8hVd",
+    "lp_text_and_image_gallery_gDiqxc",
+    "lp_text_and_image_gallery_wU7XLU",
+    "lp_text_and_image_gallery_7UdyAQ",
+    "lp_text_and_image_gallery_7C6jAf",
     "2e15496b-aa26-40ba-8cc9-74be914ee25a",
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b",
-    "lp_image_text_middle_B4DRHP",
-    "promo_grid_EpWMVF"
+    "lp_image_reviews_8FdL9N"
   ]
 }
