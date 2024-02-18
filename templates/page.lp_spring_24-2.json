@@ -43,6 +43,7 @@
     "lp_image_reviews_iUy3ac": {
       "type": "lp_image_reviews",
       "settings": {
+        "image": "shopify:\/\/shop_images\/recenze_jaro_24_web.png",
         "divider": false,
         "m_bot": 10
       }
