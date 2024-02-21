@@ -112,6 +112,18 @@
     "lp-text-columns_jaro_1": {
       "type": "lp-text-columns_jaro23",
       "blocks": {
+        "text_block_RdFXyM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DSC01706_5cdd85e2-e31d-41d8-ac90-eec4d5abd2c4.jpg",
+            "image_width": 650,
+            "title": "Chic Ballet Flats",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "text_block_VKt4Ux": {
           "type": "text_block",
           "settings": {
@@ -123,10 +135,37 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_jFPQdj": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DSC_2934_41665166-493c-4b72-a4fa-ef513ca95ca6.jpg",
+            "image_width": 650,
+            "title": "Breathable Slip-on Sneakers",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_xcYgYb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_9of41.jpg",
+            "image_width": 650,
+            "title": "Suna Sandals",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "text_block_VKt4Ux"
+        "text_block_RdFXyM",
+        "text_block_VKt4Ux",
+        "text_block_jFPQdj",
+        "text_block_xcYgYb"
       ],
       "settings": {
         "title": "",
