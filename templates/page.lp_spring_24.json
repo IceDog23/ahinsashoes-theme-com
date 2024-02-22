@@ -17,7 +17,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/DSC_3487_0bb4d641-0442-417a-85e9-13effbcd9de7.jpg",
-            "overlay_opacity": 0,
+            "overlay_opacity": 30,
             "focal_point": "center center"
           }
         }
