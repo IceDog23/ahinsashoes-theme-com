@@ -473,11 +473,47 @@
         "html_4w8LfW": {
           "type": "html",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1552_738491a8-b4c7-47eb-ab2c-c3435473038f.jpg"
+          }
+        },
+        "html_7AQVRf": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2259.jpg"
+          }
+        },
+        "html_zhP9Lr": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1978.jpg"
+          }
+        },
+        "html_CB6mWg": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1989.jpg"
+          }
+        },
+        "html_awLDHd": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2116.jpg"
+          }
+        },
+        "html_4ekNhi": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2282.jpg"
           }
         }
       },
       "block_order": [
-        "html_4w8LfW"
+        "html_4w8LfW",
+        "html_7AQVRf",
+        "html_zhP9Lr",
+        "html_CB6mWg",
+        "html_awLDHd",
+        "html_4ekNhi"
       ],
       "settings": {
         "image_width": 500,
@@ -492,6 +528,66 @@
     },
     "lp_text_and_image_gallery_gDiqxc": {
       "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_CLgnxG": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1661.jpg"
+          }
+        },
+        "html_6FPai9": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1704.jpg"
+          }
+        },
+        "html_8myGPR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1820.jpg"
+          }
+        },
+        "html_ehi9rp": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_13of41.jpg"
+          }
+        },
+        "html_FziUYc": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1639.jpg"
+          }
+        },
+        "html_BJdTg7": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1823.jpg"
+          }
+        },
+        "html_JX9EBn": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_16of41_be018847-26d0-46c4-9a0b-b6377e47b186.jpg"
+          }
+        },
+        "html_K36XiC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1737_d1a73e39-301a-450a-8421-a465fd625fd7.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_CLgnxG",
+        "html_6FPai9",
+        "html_8myGPR",
+        "html_ehi9rp",
+        "html_FziUYc",
+        "html_BJdTg7",
+        "html_JX9EBn",
+        "html_K36XiC"
+      ],
       "settings": {
         "image_width": 500,
         "title": "The popular Hava sandals 2.0",
@@ -505,6 +601,45 @@
     },
     "lp_text_and_image_gallery_wU7XLU": {
       "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_FAckTU": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01895_23b92bc9-882c-4e3c-a166-bf8ce1afc971.jpg"
+          }
+        },
+        "html_VGwRQB": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC02053.jpg"
+          }
+        },
+        "html_giHYMM": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC02036-2-Enhanced-NR.jpg"
+          }
+        },
+        "html_W8ptbC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC02009-min.jpg"
+          }
+        },
+        "html_Mry8j3": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01837-min.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_FAckTU",
+        "html_VGwRQB",
+        "html_giHYMM",
+        "html_W8ptbC",
+        "html_Mry8j3"
+      ],
       "settings": {
         "image_width": 500,
         "title": "Hiker Boots",
@@ -518,6 +653,52 @@
     },
     "lp_text_and_image_gallery_7UdyAQ": {
       "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_ibijLP": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_19of41.jpg"
+          }
+        },
+        "html_KdzPKx": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ahinsa_svatebni_webAhinsa_svatebni_9KC5663_7a3970bc-80a9-4edd-8cc6-b540a412be0d.jpg"
+          }
+        },
+        "html_Fg6yFx": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_27of41.jpg"
+          }
+        },
+        "html_rQjtjE": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ahinsa_svatebni_webAhinsa_svatebni_9KC5702_dede3f4b-a8da-4c68-98db-2efe3a6b471a.jpg"
+          }
+        },
+        "html_yLMG8F": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_26of41_1.jpg"
+          }
+        },
+        "html_xPNH48": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_25of41.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_ibijLP",
+        "html_KdzPKx",
+        "html_Fg6yFx",
+        "html_rQjtjE",
+        "html_yLMG8F",
+        "html_xPNH48"
+      ],
       "settings": {
         "image_width": 500,
         "title": "Trekking sandals",
@@ -531,6 +712,45 @@
     },
     "lp_text_and_image_gallery_7C6jAf": {
       "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_MQziCV": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC02078.jpg"
+          }
+        },
+        "html_zLifxH": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01796.jpg"
+          }
+        },
+        "html_c7mbmy": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01996.jpg"
+          }
+        },
+        "html_dQVPFK": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01792.jpg"
+          }
+        },
+        "html_yRDFWL": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01780.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_MQziCV",
+        "html_zLifxH",
+        "html_c7mbmy",
+        "html_dQVPFK",
+        "html_yRDFWL"
+      ],
       "settings": {
         "image_width": 500,
         "title": "Chitra Trek&Trail in turquoise",
@@ -559,7 +779,7 @@
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b": {
       "type": "lp-podzim-text-and-image7-text",
       "settings": {
-        "title": "How did the new collection come about? We used your ideas",
+        "title": "Your feedback on our last collection touched us. Thank you!",
         "text": "<p>We’ve been collecting your experiences, and we’ve used them to improve your favorite models and come up with new ones that are still missing in your shoe collection.<\/p>",
         "button_label": "",
         "button_link": "",
