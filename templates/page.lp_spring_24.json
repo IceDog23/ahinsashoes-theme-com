@@ -6,16 +6,17 @@
         "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
-            "title": "Ahinsa Comfort\nPohodlí vám sluší",
+            "top_subheading": "The new collection of spring and summer Ahinsa shoes is here!",
+            "title": "The Most Comfortable \nSpring of Your Life",
             "title_size": 60,
-            "subheading": "Obujete radši pohodlné boty, nebo stylové?\nA proč ne oboje zároveň? Nedělejte kompromisy. Zamilujte si Ahinsa Comfort od fyzioterapeutů.\nNejvíc vám to sluší, když jste v pohodlí.",
+            "subheading": "",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/DSC_3487_0bb4d641-0442-417a-85e9-13effbcd9de7.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -36,12 +37,13 @@
     "lp_text_and_image1_cB6BGr": {
       "type": "lp-text-and-image1",
       "settings": {
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>"
+        "title": "Know when you look the best?",
+        "text": "<p>When you’re <strong>comfortable and being yourself<\/strong>. We kept that in mind while designing the new and fresh Ahinsa shoes collection. <\/p><p>It’s finally here – and you can b<strong>e the first to get a pair<\/strong>.<\/p>"
       }
     },
     "lp_image_reviews_iUy3ac": {
       "type": "lp_image_reviews",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/recenze_jaro_24_web.png",
         "divider": false,
@@ -50,6 +52,7 @@
     },
     "lp_text_on_image_qGHnHh": {
       "type": "lp_text_on_image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/svatba_mobil_lp.jpg",
         "title": "Vylepšená řada Comfort",
@@ -74,33 +77,75 @@
         "f366022b-15fb-48b1-b5d0-2149cee9c220": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_1083.jpg"
+            "image": "shopify:\/\/shop_images\/3T1A2502.jpg"
+          }
+        },
+        "html_VYaYqw": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_3140.jpg"
           }
         },
         "html_RjdyxT": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_9758.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_2713.jpg"
           }
         },
         "1cfab0be-5b16-4269-a8f2-79479431caa0": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_9756_82d47d66-e8de-4fe2-bbd2-d188912269ea.jpg"
+            "image": "shopify:\/\/shop_images\/3T1A2303.jpg"
+          }
+        },
+        "html_dLmNjR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_3851.jpg"
+          }
+        },
+        "html_3YazB9": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3T1A1910.jpg"
+          }
+        },
+        "html_rUdAiE": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3T1A2127.jpg"
+          }
+        },
+        "html_rFBWfP": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_3082.jpg"
+          }
+        },
+        "html_KAGrLw": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_3057.jpg"
           }
         }
       },
       "block_order": [
         "f366022b-15fb-48b1-b5d0-2149cee9c220",
+        "html_VYaYqw",
         "html_RjdyxT",
-        "1cfab0be-5b16-4269-a8f2-79479431caa0"
+        "1cfab0be-5b16-4269-a8f2-79479431caa0",
+        "html_dLmNjR",
+        "html_3YazB9",
+        "html_rUdAiE",
+        "html_rFBWfP",
+        "html_KAGrLw"
       ],
       "settings": {
         "image_width": 500,
-        "title": "Měkký došlap",
-        "subtitle": "Městem jako na obláčku",
-        "text": "<p>Město je tvrdé. Betonové. Proto potřebujete boty, které <strong>pečují o vaše chodidla<\/strong>.<\/p><p>Boty Ahinsa shoes <strong>změkčí každý váš krok<\/strong>. Vrstva pružného Technogelu odpruží došlapy a uleví kloubům. Cesta městem nikdy nebyla příjemnější.<\/p>",
-        "button_label": "",
+        "title": "Pura Play sneakers",
+        "subtitle": "Overflowing with color",
+        "text": "<p>You’ve taken a real liking to our Pura sneakers. Thank you! As a reward, we’ve added <strong>a touch of playfulness<\/strong> to them. What color will you choose to make your day more fun?<\/p>",
+        "button_label": "Select a color",
         "button_link": "",
         "layout": "right",
         "divider": false
@@ -112,21 +157,49 @@
         "html_9x9DcP": {
           "type": "html",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_3487.jpg"
           }
         },
         "html_nwMQ7H": {
           "type": "html",
           "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaStudio_8of26.jpg"
           }
         },
         "html_4D9nEe": {
           "type": "html",
           "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaStudio_18of26.jpg"
           }
         },
         "html_xzFDrR": {
           "type": "html",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_3429.jpg"
+          }
+        },
+        "html_TWANRF": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaStudio_10of26.jpg"
+          }
+        },
+        "html_fYLCNV": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_3528.jpg"
+          }
+        },
+        "html_VzNxfK": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaStudio_16of26.jpg"
+          }
+        },
+        "html_AqCyPN": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaStudio_15of26.jpg"
           }
         }
       },
@@ -134,14 +207,18 @@
         "html_9x9DcP",
         "html_nwMQ7H",
         "html_4D9nEe",
-        "html_xzFDrR"
+        "html_xzFDrR",
+        "html_TWANRF",
+        "html_fYLCNV",
+        "html_VzNxfK",
+        "html_AqCyPN"
       ],
       "settings": {
         "image_width": 500,
-        "title": "Prostorná špička",
-        "subtitle": "Protože nohy nejsou špičaté",
-        "text": "<p>Všimli jste si toho někdy? Nohy nejsou špičaté – tak proč jsou takové boty? Ve špičce se prsty tísní a nemůžou pracovat.<\/p><p>Proto vyrábíme <strong>Ahinsa shoes s prostornou špičkou<\/strong>. Osvobodí vaše prsty a sednou vám na první dobrou. To pohodlí!<\/p>",
-        "button_label": "",
+        "title": "Natural Vida Hemp sneakers",
+        "subtitle": "- in living color ❤️",
+        "text": "<p>What’s the best material for summer? Hemp! <strong>It breathes, dries quickly <\/strong>– and it looks <strong>wonderful<\/strong>. What’s more, no one has the same pair as you. Color them with markers and show off your style. <\/p>",
+        "button_label": "Experience a summer in comfort",
         "button_link": "",
         "layout": "left",
         "divider": false
@@ -149,12 +226,72 @@
     },
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa": {
       "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_93zeBN": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2488.jpg"
+          }
+        },
+        "html_4Abtch": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2375.jpg"
+          }
+        },
+        "html_7dwhJj": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2509.jpg"
+          }
+        },
+        "html_tiTGqN": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2463.jpg"
+          }
+        },
+        "html_3YNcdW": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2321.jpg"
+          }
+        },
+        "html_4dpYbw": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2494.jpg"
+          }
+        },
+        "html_i8UmkP": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2368.jpg"
+          }
+        },
+        "html_bLHEcy": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2651.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_93zeBN",
+        "html_4Abtch",
+        "html_7dwhJj",
+        "html_tiTGqN",
+        "html_3YNcdW",
+        "html_4dpYbw",
+        "html_i8UmkP",
+        "html_bLHEcy"
+      ],
       "settings": {
         "image_width": 500,
-        "title": "Nulový podpatek",
-        "subtitle": "100% zdraví",
-        "text": "<p>Věděli jste, že sebemenší podpatek mění váš postoj? Naklání tělo a škodí mu.<\/p><p>Ahinsa shoes <strong>podpatek nemají<\/strong>. Poznejte, jaké to je, postavit se na zem rovnýma nohama. Narovnejte se díky rovné podrážce.<\/p>",
-        "button_label": "",
+        "title": "Summer Flow sneakers",
+        "subtitle": "A fresh breeze for your feet",
+        "text": "<p><strong>A breeze is caressing your feet<\/strong>. You’re enjoying a summer trip and every step is bringing you joy. This is exactly what you’ll experience in the Pura Airnet sneakers made with breathable mesh. <\/p>",
+        "button_label": "Enjoy the breeze",
         "button_link": "",
         "layout": "right",
         "divider": false
@@ -162,12 +299,65 @@
     },
     "78f72821-6c02-4943-8234-82d8128e2acd": {
       "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_KFgieJ": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01526-min_cfd642e5-ec64-42f2-a469-9f253b8767c4.jpg"
+          }
+        },
+        "html_cht9bC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01670.jpg"
+          }
+        },
+        "html_ytc3yA": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01651.jpg"
+          }
+        },
+        "html_U6UAKq": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01599.jpg"
+          }
+        },
+        "html_3ezqX4": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01558.jpg"
+          }
+        },
+        "html_JWzBCN": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01706.jpg"
+          }
+        },
+        "html_ax9jCY": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01603.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_KFgieJ",
+        "html_cht9bC",
+        "html_ytc3yA",
+        "html_U6UAKq",
+        "html_3ezqX4",
+        "html_JWzBCN",
+        "html_ax9jCY"
+      ],
       "settings": {
         "image_width": 500,
-        "title": "Pružné a ohebné",
-        "subtitle": "Boty kopírují váš pohyb",
-        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
-        "button_label": "",
+        "title": "Chic Ballet Flats",
+        "subtitle": "One pair of shoes – but different every day ✨",
+        "text": "<p>Is your outfit just asking for a <strong>fluffy ribbon<\/strong> or a <strong>delicate anklet<\/strong>? Details matter, and that’s why you can put your own finishing touches on these new Chic ballet flats.<\/p>",
+        "button_label": "Be chic",
         "button_link": "",
         "layout": "left",
         "divider": false
@@ -175,12 +365,51 @@
     },
     "lp_text_and_image_gallery_4QD9Qa": {
       "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_cQEcBF": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2934.jpg"
+          }
+        },
+        "html_GMgnaK": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2960.jpg"
+          }
+        },
+        "html_EKT78K": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2887.jpg"
+          }
+        },
+        "html_A7PxEb": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2924.jpg"
+          }
+        },
+        "html_6eiMgC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2900.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_cQEcBF",
+        "html_GMgnaK",
+        "html_EKT78K",
+        "html_A7PxEb",
+        "html_6eiMgC"
+      ],
       "settings": {
         "image_width": 500,
-        "title": "Pružné a ohebné",
-        "subtitle": "Boty kopírují váš pohyb",
-        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
-        "button_label": "",
+        "title": "Mesh Slip-on sneakers",
+        "subtitle": "Heading outdoors in three… two…",
+        "text": "<p>…one! Slide into these <strong>slip-on sneakers, <\/strong>whichare prepared for the sweltering summer. The breathable mesh will <strong>adapt to your feet and keepthem comfortable<\/strong>.<\/p>",
+        "button_label": "Choose Comfort",
         "button_link": "",
         "layout": "right",
         "divider": false
@@ -188,12 +417,51 @@
     },
     "lp_text_and_image_gallery_WWqhVd": {
       "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_f7Vpt8": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_9of41.jpg"
+          }
+        },
+        "html_mD6cim": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1228.jpg"
+          }
+        },
+        "html_Gd8GHU": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_8of41.jpg"
+          }
+        },
+        "html_EQ7ctj": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_10of41.jpg"
+          }
+        },
+        "html_Fc6e8m": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1281.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_f7Vpt8",
+        "html_mD6cim",
+        "html_Gd8GHU",
+        "html_EQ7ctj",
+        "html_Fc6e8m"
+      ],
       "settings": {
         "image_width": 500,
-        "title": "Pružné a ohebné",
-        "subtitle": "Boty kopírují váš pohyb",
-        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
-        "button_label": "",
+        "title": "Suna sandals",
+        "subtitle": "– for every foot, big and small",
+        "text": "<p>We love simple things. Like simple sandals that <strong>truly fit everyone. <\/strong>The flexible rubber <strong>adapts <\/strong>to your heel, your instep – and also your style. And they’re ultra-easy to put on.<\/p>",
+        "button_label": "Choose minimalistic footwear",
         "button_link": "",
         "layout": "left",
         "divider": false
@@ -201,12 +469,22 @@
     },
     "lp_text_and_image_gallery_KJ8hVd": {
       "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_4w8LfW": {
+          "type": "html",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "html_4w8LfW"
+      ],
       "settings": {
         "image_width": 500,
-        "title": "Pružné a ohebné",
-        "subtitle": "Boty kopírují váš pohyb",
-        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
-        "button_label": "",
+        "title": "The most comfortable slip-on sandals",
+        "subtitle": "New and improved",
+        "text": "<p>Until now, we only offered these sandals for barefoot enthusiasts. Now they’re for everyone! We’ve added a new color and the<strong> Comfort option for an ultra-soft step. <\/strong><\/p>",
+        "button_label": "Enjoy comfort",
         "button_link": "",
         "layout": "right",
         "divider": false
@@ -216,10 +494,10 @@
       "type": "lp_text_and_image_gallery",
       "settings": {
         "image_width": 500,
-        "title": "Pružné a ohebné",
-        "subtitle": "Boty kopírují váš pohyb",
-        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
-        "button_label": "",
+        "title": "The popular Hava sandals 2.0",
+        "subtitle": "– the perfect fit",
+        "text": "<p>If Cinderella was wearing Hava sandals, she wouldn’t have lost them on her way to the castle. <strong>She would have been able to adjust the strap over her instep and around her ankle<\/strong>.<strong> <\/strong>Finally, a pair of sandals that fits perfectly!<\/p>",
+        "button_label": "Discover the new Hava sandals",
         "button_link": "",
         "layout": "left",
         "divider": false
@@ -229,10 +507,10 @@
       "type": "lp_text_and_image_gallery",
       "settings": {
         "image_width": 500,
-        "title": "Pružné a ohebné",
-        "subtitle": "Boty kopírují váš pohyb",
-        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
-        "button_label": "",
+        "title": "Hiker Boots",
+        "subtitle": "For a proper trek",
+        "text": "<p>You asked for them, so here they are! <strong>Ankle-high trekking boots <\/strong>with a Vibram sole, which will endure and keep you firmly footed. They’re <strong>waterproof<\/strong>, and you’ll never – really, never – scuff them up. <\/p>",
+        "button_label": "Head outdoors",
         "button_link": "",
         "layout": "right",
         "divider": false
@@ -242,10 +520,10 @@
       "type": "lp_text_and_image_gallery",
       "settings": {
         "image_width": 500,
-        "title": "Pružné a ohebné",
-        "subtitle": "Boty kopírují váš pohyb",
-        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
-        "button_label": "",
+        "title": "Trekking sandals",
+        "subtitle": "– the way you like them",
+        "text": "<p>Do you prefer a <strong>strap between your toes<\/strong> or a more <strong>classic fit<\/strong>? We’ve made these trekking sandals for you in both options. The Vibram sole won’t slip and it can handle every terrain. Put it to the test! <\/p>",
+        "button_label": "Pick out a pair of your own",
         "button_link": "",
         "layout": "left",
         "divider": false
@@ -255,10 +533,10 @@
       "type": "lp_text_and_image_gallery",
       "settings": {
         "image_width": 500,
-        "title": "Pružné a ohebné",
-        "subtitle": "Boty kopírují váš pohyb",
-        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
-        "button_label": "",
+        "title": "Chitra Trek&Trail in turquoise",
+        "subtitle": "Run out into the terrain",
+        "text": "<p><strong>Feel the world beneath you<\/strong> and lean into it. The <strong>Vibram trekking outsole<\/strong> will support you in the woods, on the trail and on the rocks.<\/p>",
+        "button_label": "Head out",
         "button_link": "",
         "layout": "right",
         "divider": false
@@ -267,11 +545,11 @@
     "2e15496b-aa26-40ba-8cc9-74be914ee25a": {
       "type": "lp_text_on_image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/svatba_mobil_lp.jpg",
-        "title": "Vylepšená řada Comfort",
-        "subtitle": "Nekompromisní pohodlí",
-        "text": "<p>Jaké by asi bylo <strong>chodit po oblacích<\/strong>? Brzy to zjistíte.<br\/>Řadu Ahinsa Comfort jsme vylepšili o Technogel, který<strong>změkčí a odpruží vaše došlapy<\/strong>. Výlet po městě nikdy nebyl pohodlnější.<\/p>",
-        "button_label": "UŽIJTE SI POHODLÍ",
+        "image": "shopify:\/\/shop_images\/AhinsaStudio_12of26.jpg",
+        "title": "The improved Comfort line:",
+        "subtitle": "Uncompromisingly comfortable",
+        "text": "<p>What would it be like to <strong>walk on clouds? <\/strong>You’ll soon find out. We’ve improved the Ahinsa Comfort line with Technogel, which <strong>softens and cushions your step<\/strong>. A trip around town has never been more comfortable.<\/p>",
+        "button_label": "Enjoy comfort",
         "button_link": "",
         "layout": "right",
         "divider": false,
@@ -281,8 +559,8 @@
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b": {
       "type": "lp-podzim-text-and-image7-text",
       "settings": {
-        "title": "Vaše ohlasy na minulou kolekci nás dojaly.",
-        "text": "<h3>Děkujeme!<\/h3><p>Sbíráme vaše zkušenosti. Díky vám vylepšujeme oblíbené modely a přidáváme ty, které vám v botníku chybí.<\/p>",
+        "title": "How did the new collection come about? We used your ideas",
+        "text": "<p>We’ve been collecting your experiences, and we’ve used them to improve your favorite models and come up with new ones that are still missing in your shoe collection.<\/p>",
         "button_label": "",
         "button_link": "",
         "divider": false
@@ -291,7 +569,8 @@
     "lp_image_reviews_8FdL9N": {
       "type": "lp_image_reviews",
       "settings": {
-        "image": "shopify:\/\/shop_images\/recenze_jaro_24_web.png",
+        "image": "shopify:\/\/shop_images\/image.png",
+        "image_m": "shopify:\/\/shop_images\/image_1_-2.png",
         "divider": false,
         "m_bot": 10
       }
