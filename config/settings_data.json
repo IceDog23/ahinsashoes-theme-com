@@ -873,6 +873,7 @@
           "1525912530555-0",
           "1525912530555-1"
         ],
+        "disabled": true,
         "settings": {
           "full_width": true,
           "gutter_size": 20,
@@ -1331,6 +1332,7 @@
           "1625467989a63ff617-0",
           "1625467989a63ff617-1"
         ],
+        "disabled": true,
         "settings": {
           "full_width": true,
           "gutter_size": 20,
@@ -5881,10 +5883,52 @@
           "payment-txt": "",
           "replacement-txt": ""
         }
+      },
+      "section_slideshow_w_benefits_DTNfjR": {
+        "type": "section-slideshow-w-benefits",
+        "blocks": {
+          "image_CFnqQx": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "Endless\npossibilities.",
+              "title_size": 80,
+              "subheading": "Bring your brand",
+              "text_color": "",
+              "link": "",
+              "link_text": "Optional button",
+              "icon_h_1": 40,
+              "arrow_1": true,
+              "link_2": "",
+              "link_text_2": "",
+              "icon_h_2": 40,
+              "arrow_2": true,
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "overlay_opacity": 0,
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "image_CFnqQx"
+        ],
+        "disabled": true,
+        "settings": {
+          "section_height": "650px",
+          "mobile_height": "auto",
+          "benefits": "<p>Benefit 1 | Benefit 2<\/p>",
+          "benefits_color": "",
+          "parallax": true,
+          "style": "bars",
+          "autoplay": true,
+          "autoplay_speed": 5
+        }
       }
     },
     "content_for_index": [
       "1524769873765",
+      "section_slideshow_w_benefits_DTNfjR",
       "1643378217365c689a",
       "1498163293234",
       "1525912530555",
