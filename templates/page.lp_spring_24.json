@@ -762,18 +762,20 @@
         "divider": false
       }
     },
-    "2e15496b-aa26-40ba-8cc9-74be914ee25a": {
-      "type": "lp_text_on_image",
+    "background_image_text_C9KreF": {
+      "type": "background-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/AhinsaStudio_12of26.jpg",
-        "title": "The improved Comfort line:",
         "subtitle": "Uncompromisingly comfortable",
+        "title": "The improved Comfort line:",
         "text": "<p>What would it be like to <strong>walk on clouds? <\/strong>You’ll soon find out. We’ve improved the Ahinsa Comfort line with Technogel, which <strong>softens and cushions your step<\/strong>. A trip around town has never been more comfortable.<\/p>",
         "button_label": "Enjoy comfort",
-        "button_link": "",
+        "button_link": "shopify:\/\/collections",
+        "image": "shopify:\/\/shop_images\/AhinsaStudio_12of26.jpg",
+        "focal_point": "center",
         "layout": "right",
-        "divider": false,
-        "quote": false
+        "height": 550,
+        "framed": false,
+        "parallax": true
       }
     },
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b": {
@@ -813,7 +815,7 @@
     "lp_text_and_image_gallery_wU7XLU",
     "lp_text_and_image_gallery_7UdyAQ",
     "lp_text_and_image_gallery_7C6jAf",
-    "2e15496b-aa26-40ba-8cc9-74be914ee25a",
+    "background_image_text_C9KreF",
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b",
     "lp_image_reviews_8FdL9N"
   ]
