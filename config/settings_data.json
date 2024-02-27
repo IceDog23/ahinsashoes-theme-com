@@ -5905,6 +5905,8 @@
               "arrow_2": true,
               "color_accent": "rgba(0,0,0,0)",
               "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/hero-desktop3.png",
+              "image_mobile": "shopify:\/\/shop_images\/hero-mobil3.png",
               "overlay_opacity": 0,
               "focal_point": "center center"
             }
@@ -5917,9 +5919,9 @@
         "settings": {
           "section_height": "650px",
           "mobile_height": "auto",
-          "benefits": "<p>Benefit 1 | Benefit 2<\/p>",
-          "benefits_color": "",
-          "parallax": true,
+          "benefits": "<p><strong>ZDRAVÉ - OVĚŘENO NA UNIVERZITĚ  |  VYDRŽÍ MILIONY KROKŮ  |  RYCHLÁ VÝMĚNA ZDARMA  |  RUČNĚ VYROBENÉ V EU  |  100% VEGAN<\/strong><\/p>",
+          "benefits_color": "#000000",
+          "parallax": false,
           "style": "bars",
           "autoplay": true,
           "autoplay_speed": 5
