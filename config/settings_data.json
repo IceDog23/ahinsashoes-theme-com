@@ -5928,6 +5928,21 @@
           "autoplay": true,
           "autoplay_speed": 5
         }
+      },
+      "text_and_image_U8c3cr": {
+        "type": "text-and-image",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Lukas.jpg",
+          "image_width": 500,
+          "subtitle": "studies confirm",
+          "title": "SECTION PRO LUKASE",
+          "text": "<p>Research from Masaryk University found that your stride is as healthy and natural as a bare foot when you wear Ahinsa shoes. <br\/><br\/><br\/>Studies show that Ahinsa shoes engage your foot just like when you walk barefoot. Unlike ordinary shoes, they won’t restrict your feet or keep them from making natural contact with the ground.<br\/><br\/>Do something good for yourself, today.<\/p><p><\/p>",
+          "button_label": "Put on a pair of Ahinsa shoes®",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
       }
     },
     "content_for_index": [
@@ -5942,6 +5957,7 @@
       "1525886124958",
       "1525295772132",
       "16254695500633acb9",
+      "text_and_image_U8c3cr",
       "1625469886c08f070e",
       "1625469845aed436c7",
       "1499790633921",
