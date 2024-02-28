@@ -4895,14 +4895,38 @@
         "blocks": {
           "3a77632e-7051-4678-8817-cda1ceab6e16": {
             "type": "html",
-            "disabled": true,
             "settings": {
-              "jmeno": "John Doe"
+              "image": "shopify:\/\/shop_images\/adela_1.jpg",
+              "jmeno": "Adéla"
+            }
+          },
+          "html_BjkGCV": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/nikola.jpg",
+              "jmeno": "Nikola"
+            }
+          },
+          "html_j3xFFP": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/zaneta.jpg",
+              "jmeno": "Žaneta"
+            }
+          },
+          "html_yk643C": {
+            "type": "html",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sarka.jpg",
+              "jmeno": "Šárka"
             }
           }
         },
         "block_order": [
-          "3a77632e-7051-4678-8817-cda1ceab6e16"
+          "3a77632e-7051-4678-8817-cda1ceab6e16",
+          "html_BjkGCV",
+          "html_j3xFFP",
+          "html_yk643C"
         ],
         "settings": {
           "title": "Customer service",
@@ -4912,7 +4936,7 @@
           "prov_doba": "(Monday–Friday 9am–6pm, GMT +1)",
           "mail": "info@ahinsashoes.com",
           "mail_url": "info@ahinsashoes.com",
-          "postaraji_se": ""
+          "postaraji_se": "Our CS team will take care of you:"
         }
       },
       "kontakt-prodejna_v_praze": {
