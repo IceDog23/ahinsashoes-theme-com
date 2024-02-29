@@ -3169,13 +3169,6 @@
               "customer": "Markéta Šimičková"
             }
           },
-          "2c88f05f-fea8-4d7e-b3f3-4b354caa8902": {
-            "type": "block",
-            "settings": {
-              "text": "<p>I feel good in my new shoes and they have also done very well in deep wet snow on a trip in Norway. They are the best barefoot shoes I have owned to this date - and several others have looked enviously at them! :) <\/p><p>I was recommended your brand by a friend whose mother has several shoes from you, and are very happy about them, and I have personally recommended your brand to many others already! <\/p><p>Very pleasant and wonderful experience in finding and buying my new<br\/>barefoot winter boots from you at Ahinsa! <\/p>",
-              "customer": "Johanne Hauge Westerlund"
-            }
-          },
           "block_jMDENQ": {
             "type": "block",
             "settings": {
@@ -3251,6 +3244,13 @@
             "settings": {
               "text": "<p>I'm excited about the shoes - that's it in a nutshell. I have been wearing the shoes for about 10 days and they are great. I was afraid that the soles would be too thin, but (I have the Comfort version) it's great. Even on these days, when the temperature is around -5 °C in the morning, I am not cold in them.<br\/><br\/>I work in an office and I keep my shoes on all day (up to 10 hours). Unlike other shoes, I don't get sweaty or tired feet from them. The soles do not slip (and I have tested this on a smooth wet floor in the hallway).<br\/><br\/>Did I notice changes when I walk? Yes, I have had so-called \"flat feet\" since I was a child (I don't know if this is the correct name for the diagnosis) and even though I exercised regularly as a child, my legs - feet - sometimes hurt. Not from my new Ahinsa boots.<br\/><br\/>I am really excited, they are light, flexible and look very nice on the feet. In short, I'm glad I discovered you and I'll definitely buy another one.<\/p>",
               "customer": "Lucie Jelínková"
+            }
+          },
+          "2c88f05f-fea8-4d7e-b3f3-4b354caa8902": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I feel good in my new shoes and they have also done very well in deep wet snow on a trip in Norway. They are the best barefoot shoes I have owned to this date - and several others have looked enviously at them! :) <\/p><p>I was recommended your brand by a friend whose mother has several shoes from you, and are very happy about them, and I have personally recommended your brand to many others already! <\/p><p>Very pleasant and wonderful experience in finding and buying my new barefoot winter boots from you at Ahinsa! <\/p>",
+              "customer": "Johanne Hauge Westerlund"
             }
           },
           "0ee6eb91-cbec-488d-bf91-8be2028aa091": {
@@ -3494,7 +3494,6 @@
         },
         "block_order": [
           "17888abf-fad6-47eb-8e27-0ecc230e886d",
-          "2c88f05f-fea8-4d7e-b3f3-4b354caa8902",
           "block_jMDENQ",
           "block_XmJtk7",
           "block_G8LXCq",
@@ -3506,6 +3505,7 @@
           "b059d893-8622-4107-ae0d-a371051d1b15",
           "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b",
+          "2c88f05f-fea8-4d7e-b3f3-4b354caa8902",
           "0ee6eb91-cbec-488d-bf91-8be2028aa091",
           "6790a163-fa11-4f52-820f-2fc2337f144c",
           "1c165b8d-bce4-4091-beb2-8068e95f11ba",
