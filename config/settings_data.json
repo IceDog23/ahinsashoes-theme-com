@@ -3204,13 +3204,6 @@
               "customer": "Jonáš Horáček"
             }
           },
-          "9d4b02b1-c841-495d-93b8-6f9fa021b519": {
-            "type": "block",
-            "settings": {
-              "text": "<p>The shoes are absolutely perfect - the materials and the look, not to mention the perfect fit. I've only worn barefoot shoes in the summer so far, and I have to say that this winter version is really flawless.<br\/><br\/>I'm literally enjoying being outside these days, I'm sending a photo from my morning walk and I'm looking forward to more pieces from your workshop, I'll definitely be back.<\/p>",
-              "customer": "Pavlína Melikyan"
-            }
-          },
           "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
             "type": "block",
             "settings": {
@@ -3258,6 +3251,13 @@
             "settings": {
               "text": "<p>For snowy weather I love my Ahinsa Ankle Boots because my feet stay warm and dry in them.<\/p>",
               "customer": "Annette Cre"
+            }
+          },
+          "9d4b02b1-c841-495d-93b8-6f9fa021b519": {
+            "type": "block",
+            "settings": {
+              "text": "<p>The shoes are absolutely perfect - the materials and the look, not to mention the perfect fit. I've only worn barefoot shoes in the summer so far, and I have to say that this winter version is really flawless.<br\/><br\/>I'm literally enjoying being outside these days, I'm sending a photo from my morning walk and I'm looking forward to more pieces from your workshop, I'll definitely be back.<\/p>",
+              "customer": "Pavlína Melikyan"
             }
           },
           "6790a163-fa11-4f52-820f-2fc2337f144c": {
@@ -3499,7 +3499,6 @@
           "block_G8LXCq",
           "block_d4hnK8",
           "f9b155da-333f-4412-a218-657f56d36ddf",
-          "9d4b02b1-c841-495d-93b8-6f9fa021b519",
           "bff73c87-3d35-4461-b292-a9f4818f7fa8",
           "1c8f1519-463d-44fa-8a24-370b78c52481",
           "b059d893-8622-4107-ae0d-a371051d1b15",
@@ -3507,6 +3506,7 @@
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b",
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902",
           "0ee6eb91-cbec-488d-bf91-8be2028aa091",
+          "9d4b02b1-c841-495d-93b8-6f9fa021b519",
           "6790a163-fa11-4f52-820f-2fc2337f144c",
           "1c165b8d-bce4-4091-beb2-8068e95f11ba",
           "699379ac-e5c5-49a4-bcd8-8d11ce1a7a0c",
