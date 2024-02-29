@@ -3190,6 +3190,13 @@
               "customer": "Francesco Nanni"
             }
           },
+          "block_G8LXCq": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I absolutely love them! As someone with very wide feet it is amazing to have shoes wide enough to not only not press on my pinkie toe, but also be able to wear my toe spacers in them!! I've been wearing them to the gym and they're my new favourites. <\/p>",
+              "customer": "Mel Stones"
+            }
+          },
           "block_d4hnK8": {
             "type": "block",
             "settings": {
@@ -3485,13 +3492,6 @@
               "text": "<p>I wanted to express my heartfelt appreciation for my Ahinsa Shoes, I absolutely love them! Finding a stylish vegan barefoot shoe was quiet the challenge, and I genuinely appreciate your efforts in creating these shoes!!<\/p>",
               "customer": "Justin Marucci"
             }
-          },
-          "block_G8LXCq": {
-            "type": "block",
-            "settings": {
-              "text": "<p>I absolutely love them!! As someone with very wide feet it is amazing to have shoes wide enough to not only not press on my pinkie toe, but also be able to wear my toe spacers in them!! I've been wearing them to the gym and they're my new favourites. <\/p>",
-              "customer": "Mel Stones"
-            }
           }
         },
         "block_order": [
@@ -3499,6 +3499,7 @@
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902",
           "block_jMDENQ",
           "block_XmJtk7",
+          "block_G8LXCq",
           "block_d4hnK8",
           "f9b155da-333f-4412-a218-657f56d36ddf",
           "9d4b02b1-c841-495d-93b8-6f9fa021b519",
@@ -3540,8 +3541,7 @@
           "bff73c87-3d35-4461-b292-a9f4818f7fa8",
           "c110205e-a226-48d7-ae33-437c4be134d3",
           "f5699edc-5ce7-4afe-acc4-554c2133aace",
-          "9ce449fb-acc5-433f-949b-9355e6979c99",
-          "block_G8LXCq"
+          "9ce449fb-acc5-433f-949b-9355e6979c99"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
