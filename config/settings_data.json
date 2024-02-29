@@ -3457,6 +3457,13 @@
               "text": "<p>I wanted to express my heartfelt appreciation for my Ahinsa Shoes, I absolutely love them! Finding a stylish vegan barefoot shoe was quiet the challenge, and I genuinely appreciate your efforts in creating these shoes!!<\/p>",
               "customer": "Justin Marucci"
             }
+          },
+          "block_ektrbC": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I have the winter ankle boots, and I love them. I garden a lot, and they’ve been amazing. The best shoes I have for that purpose.   They’re the most flexible, comfortable, light winter ankle boot I own. I also use them for hiking during the winter months. <\/p>",
+              "customer": "Alexandra Gatsis"
+            }
           }
         },
         "block_order": [
@@ -3501,7 +3508,8 @@
           "bff73c87-3d35-4461-b292-a9f4818f7fa8",
           "c110205e-a226-48d7-ae33-437c4be134d3",
           "f5699edc-5ce7-4afe-acc4-554c2133aace",
-          "9ce449fb-acc5-433f-949b-9355e6979c99"
+          "9ce449fb-acc5-433f-949b-9355e6979c99",
+          "block_ektrbC"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
