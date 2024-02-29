@@ -3218,6 +3218,13 @@
               "customer": "Pavlína Melikyan"
             }
           },
+          "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I’m writing to say I LOVE my simple black barefoot sandals. I wear them everyday and I feel so happy in them. Thank you for making them!!!!!<\/p>",
+              "customer": "Jacqueline Smith"
+            }
+          },
           "1c8f1519-463d-44fa-8a24-370b78c52481": {
             "type": "block",
             "settings": {
@@ -3258,6 +3265,13 @@
             "settings": {
               "text": "<p>I feel great in the winter boots. I've been wearing Barefoot boots exclusively for 3 years now, and since then I've had no pain in my bunions, which I've developed over the past 35 years...<\/p>",
               "customer": "Lenka Vlková"
+            }
+          },
+          "1c165b8d-bce4-4091-beb2-8068e95f11ba": {
+            "type": "block",
+            "settings": {
+              "text": "<p>So far I'm walking in my winter boots, the best boots I've had (even barefoot). At first, they were tight across the instep, but after a week they loosened up a bit. On the road I feel a harder impact on the heels, but not on softer terrain. When I walked at home, I stomped and now I don't stomp anymore. They are very comfortable shoes, classic shoes are uncomfortable for me, I gave them all away.😉 I recommend your shoes everywhere.<\/p>",
+              "customer": "Iveta Heroutová"
             }
           },
           "699379ac-e5c5-49a4-bcd8-8d11ce1a7a0c": {
@@ -3372,14 +3386,6 @@
               "customer": "Romana Kotrlová"
             }
           },
-          "1c165b8d-bce4-4091-beb2-8068e95f11ba": {
-            "type": "block",
-            "disabled": true,
-            "settings": {
-              "text": "<p>So far I'm walking in my winter boots, the best boots I've had (even barefoot). At first, they were tight across the instep, but after a week they loosened up a bit. On the road I feel a harder impact on the heels, but not on softer terrain. When I walked at home, I stomped and now I don't stomp anymore. They are very comfortable shoes, classic shoes are uncomfortable for me, I gave them all away.😉 I recommend your shoes everywhere.<\/p>",
-              "customer": "Iveta Heroutová"
-            }
-          },
           "21b965e7-646a-438a-906b-b87196a9e059": {
             "type": "block",
             "settings": {
@@ -3464,14 +3470,6 @@
               "customer": "Gabriele Pacca"
             }
           },
-          "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
-            "type": "block",
-            "disabled": true,
-            "settings": {
-              "text": "<p>I’m writing to say I LOVE my simple black barefoot sandals. I wear them everyday and I feel so happy in them. Thank you for making them!!!!!<\/p>",
-              "customer": "Jacqueline Smith"
-            }
-          },
           "c110205e-a226-48d7-ae33-437c4be134d3": {
             "type": "block",
             "settings": {
@@ -3503,12 +3501,14 @@
           "block_d4hnK8",
           "f9b155da-333f-4412-a218-657f56d36ddf",
           "9d4b02b1-c841-495d-93b8-6f9fa021b519",
+          "bff73c87-3d35-4461-b292-a9f4818f7fa8",
           "1c8f1519-463d-44fa-8a24-370b78c52481",
           "b059d893-8622-4107-ae0d-a371051d1b15",
           "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b",
           "0ee6eb91-cbec-488d-bf91-8be2028aa091",
           "6790a163-fa11-4f52-820f-2fc2337f144c",
+          "1c165b8d-bce4-4091-beb2-8068e95f11ba",
           "699379ac-e5c5-49a4-bcd8-8d11ce1a7a0c",
           "block_ektrbC",
           "6e830b02-8fec-494b-a61f-5648396dddac",
@@ -3525,7 +3525,6 @@
           "8076ad21-5cd2-4a89-849c-d67b06ffef80",
           "e5e43f46-3634-4716-b2c2-baf332d0f483",
           "cd494f6e-210f-4abc-82c7-a6d144e2e213",
-          "1c165b8d-bce4-4091-beb2-8068e95f11ba",
           "21b965e7-646a-438a-906b-b87196a9e059",
           "1502b308-53e3-451a-99d5-184da0180962",
           "b613afce-3e08-4f17-b04b-d4be81c1acde",
@@ -3538,7 +3537,6 @@
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf",
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
           "5dda9802-42e6-450b-8ba5-6bb77315e59b",
-          "bff73c87-3d35-4461-b292-a9f4818f7fa8",
           "c110205e-a226-48d7-ae33-437c4be134d3",
           "f5699edc-5ce7-4afe-acc4-554c2133aace",
           "9ce449fb-acc5-433f-949b-9355e6979c99"
