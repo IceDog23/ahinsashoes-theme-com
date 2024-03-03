@@ -68,6 +68,21 @@
       "settings": {
       }
     },
+    "featured_content_kDJEzL": {
+      "type": "featured-content",
+      "settings": {
+        "title": "Heading",
+        "text": "",
+        "link": "",
+        "link_text": "",
+        "bot_spacing_heading": false,
+        "section_spacing": 50,
+        "align_text": "left",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
     "promo_grid_Pb7EnP": {
       "type": "promo-grid",
       "blocks": {
@@ -340,6 +355,7 @@
     "26396f05-6969-47e0-aa8d-0fb2471ab88e",
     "lp_image_reviews_iUy3ac",
     "product_story_sections_gXBitH",
+    "featured_content_kDJEzL",
     "promo_grid_Pb7EnP",
     "e809c555-6577-4219-9b81-be00aed9aa5c",
     "afadba8b-f130-41fc-8a37-2cc6ce89906e",
