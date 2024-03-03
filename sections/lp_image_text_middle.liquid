@@ -20,6 +20,9 @@
             image_tag: class: 'image-text-icon'
         }}
     {%- endif -%}   
+    {%- if section.settings.image_m -%}
+      {{ section.settings.image_m | image_url: width: '500x' | image_tag: class: 'image-text-icon-m' }}
+    {%- endif -%}   
     </div>
   </div>
   
@@ -28,6 +31,7 @@
 {% style %}
     .img-container {
       display: flex; 
+      justify-content: center;
       align-items: center;
       position: relative; 
     }
@@ -40,13 +44,17 @@
       height: auto;
     }
 
+    .image-text-icon-m {
+      display: none;
+    }
+
     .icon-container {
         position: absolute;
-        top: 10%; 
+        top: 5%; 
         {% if section.settings.icon_position == "right" %}
-            right: 10%; 
+            right: 5%; 
             {% elsif section.settings.icon_position == "left" %}
-            left: 10%; 
+            left: 5%; 
         {% endif %}
     }
 
@@ -60,11 +68,16 @@
 
 @media screen and (max-width: 550px) {
     .icon-container {
+        display: none;
         position: absolute;
         top: 5%; 
         left: 60%; 
         transform: translateX(-50%);
         
+    }
+
+    .image-text-icon-m {
+      display: block;
     }
 
     .text-box {
@@ -75,10 +88,11 @@
       transform: translate(-50%, -50%); 
       text-align: center;
     }
+
+    .image-text-icon {
+      display: none;
+    }
 }
-
-
-
 {% endstyle %}
   
 {% schema %}
@@ -90,6 +104,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_m",
+      "label": "Image mobile"
     },
     {
       "type": "text",

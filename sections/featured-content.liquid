@@ -57,6 +57,21 @@
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
+{% style %}
+  {% if section.settings.section_spacing %}
+    #shopify-section-{{ section.id }}.index-section {
+      margin: {{ section.settings.section_spacing }}px 0px;
+    }
+  {% endif %}
+
+  {% unless section.settings.bot_spacing_heading %}
+    #shopify-section-{{ section.id }} .section-header {
+      margin-bottom: 0; 
+    }
+  {% endunless %}
+
+{% endstyle %}
+
 {% schema %}
   {
     "name": "Rich text",
@@ -83,6 +98,17 @@
         "type": "text",
         "id": "link_text",
         "label": "Button text"
+      },
+      {
+        "type": "checkbox", 
+        "id": "bot_spacing_heading", 
+        "label": "Enable bottom spacing from heading",
+        "default": true
+      },
+      {
+        "type": "number", 
+        "id": "section_spacing", 
+        "label": "Set bottom and top spacing for section"
       },
       {
         "type": "select",
