@@ -142,6 +142,7 @@
     },
     "e809c555-6577-4219-9b81-be00aed9aa5c": {
       "type": "lp_text_on_image",
+      "disabled": true,
       "settings": {
         "title": "Psssst, neprozraďte nás!",
         "subtitle": "Improved",
@@ -151,6 +152,20 @@
         "layout": "right",
         "divider": false,
         "quote": false
+      }
+    },
+    "e_book_image_text3_qFQxtJ": {
+      "type": "e-book-image-text3",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_1808_7fceec2a-cd2f-40ad-ab81-9a344e61f56e.jpg",
+        "image_width": 500,
+        "subtitle": "<b>Měkký došlap<\/b>",
+        "title": "Městem jako na obláčku",
+        "text": "<p>Město je tvrdé. Betonové. Proto potřebujete boty, které <strong>pečují o vaše chodidla<\/strong>.<\/p><p>Boty Ahinsa shoes <strong>změkčí každý váš krok<\/strong>. Vrstva pružného Technogelu odpruží došlapy a uleví kloubům. Cesta městem nikdy nebyla příjemnější.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
       }
     },
     "afadba8b-f130-41fc-8a37-2cc6ce89906e": {
@@ -289,6 +304,7 @@
         "heading": "Ministerstvo šťastných nohou varuje: Pohodlí je návykové",
         "text": "<p>Kdo jednou obuje pohodlné Ahinsa shoes, ten už nechce nic jiného.<br\/>To vám dosvědčí naši zákazníci.<\/p>",
         "text_position": "10%",
+        "icon": "shopify:\/\/shop_images\/u2771.png",
         "icon_position": "right",
         "divider": false
       }
@@ -358,6 +374,7 @@
     "featured_content_kDJEzL",
     "promo_grid_Pb7EnP",
     "e809c555-6577-4219-9b81-be00aed9aa5c",
+    "e_book_image_text3_qFQxtJ",
     "afadba8b-f130-41fc-8a37-2cc6ce89906e",
     "629e967d-2ba6-445e-ac1d-37425cf62106",
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
