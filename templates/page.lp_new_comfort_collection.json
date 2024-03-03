@@ -77,8 +77,8 @@
         "link_text": "",
         "bot_spacing_heading": false,
         "section_spacing": 50,
-        "align_text": "left",
-        "narrow_column": false,
+        "align_text": "center",
+        "narrow_column": true,
         "enlarge_text": true,
         "divider": false
       }
@@ -136,8 +136,8 @@
       "settings": {
         "full_width": false,
         "gutter_size": 20,
-        "space_above": true,
-        "space_below": true
+        "space_above": false,
+        "space_below": false
       }
     },
     "e809c555-6577-4219-9b81-be00aed9aa5c": {
