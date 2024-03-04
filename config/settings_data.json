@@ -23,6 +23,7 @@
     "color_drawer_button_text": "#ffffff",
     "color_modal_overlays": "#e6e6e6",
     "color_image_overlay": "#000000",
+    "color_image_overlay_opacity": 40,
     "color_image_overlay_text_shadow": 20,
     "type_header_font_family": "tiemann_n4",
     "type_header_spacing": "0",

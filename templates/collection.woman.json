@@ -5,10 +5,10 @@
       "settings": {
         "enable": true,
         "collection_image_enable": true,
-        "parallax": false,
+        "parallax": true,
         "text_align_left": true,
-        "text_width": 50,
-        "subtitle": "<p>Co byste řekl na pánské boty, ve kterých můžete vyrazit<\/p><p><strong>do práce, do divadla i na Sněžku<\/strong>?<br\/><\/p><p>Právě jste je našel. Nekonečně <strong>pohodlné boty od fyzioterapeutů<\/strong>, které vydrží roky.<\/p>",
+        "text_width": 40,
+        "subtitle": "<p>Comfortable or stylish shoes? You can have both in one pair. Healthy Ahinsa shoes made out of a collaboration between <strong>physiotherapists and designers<\/strong>. <\/p><p>You’re the most beautiful when you’re <strong>comfortable<\/strong>. <\/p>",
         "text_color": "#ffffff"
       }
     },
@@ -20,12 +20,12 @@
           "settings": {
             "subcollections_per_row": 2,
             "collection_1": "",
-            "title_1": "BAREFOOT OBUV",
-            "content_1": "<p>Pružná podrážka a nulový drop vás spojí se zemí. Choďte tak přirozeně, jak to příroda zamýšlela.<\/p>",
+            "title_1": "BAREFOOT SHOES",
+            "content_1": "<p><strong>A flexible sole <\/strong>and <strong>zero drop <\/strong>will connect you to the ground. <\/p><p>Walk naturally like nature intended. <\/p>",
             "icon_1": "shopify:\/\/shop_images\/ahinsa-barefoot.png",
             "collection_2": "",
-            "title_2": "KOMFORTNÍ OBUV",
-            "content_2": "<p>Pohodlí bez kompromisů. Osvobodí vaše chodidla a změkčí vaše kroky. Ideální pro vás, kdo nechcete cítit každý kamínek na cestě.<\/p>",
+            "title_2": "COMFORT SHOES",
+            "content_2": "<p>Comfort without compromises. <strong>They’ll liberate your feet <\/strong>and <strong>soften your steps<\/strong>. Ideal for those who don’t want to feel every pebble along their path. <\/p>",
             "icon_2": "shopify:\/\/shop_images\/ahinsa-comfort.png"
           }
         },
