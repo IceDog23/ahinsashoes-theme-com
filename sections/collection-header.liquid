@@ -142,14 +142,17 @@
         <div class="collection-hero__content">
           <div class="page-width">
             <header id="HeaderAjaxContent" class="section-header section-header--hero">
-              <div class="section-header__shadow">
-                {%- render 'breadcrumbs' -%}
+              <div class="section-header__shadow {% if section.settings.text_align_left %} align_left {% endif %}">
+                {%- render 'breadcrumbs', text_left: section.settings.text_align_left -%}
                 <h1 class="section-header__title">
                   {{ collection_title }}
                   {%- if current_page != 1 -%}
                   — {{ 'general.meta.page' | t: page: current_page }}
                   {%- endif -%}
                 </h1>
+                {% if section.settings.subtitle %}
+                  {{ section.settings.subtitle }}
+                {% endif %}
               </div>
             </header>
           </div>
@@ -185,6 +188,26 @@
   </div>
 {%- endif -%}
 
+{% style %}
+  .align_left {
+    text-align: left!important;
+    width: {{ section.settings.text_width }}%;
+  }
+
+  .align_left * {
+    color: {{section.settings.text_color}}!important;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .align_left {
+      margin-top:  5px;
+      text-align: left!important;
+      width: 100%;
+  }
+  }
+
+{% endstyle %}
+
 {% schema %}
   {
     "name": "Collection header",
@@ -206,7 +229,30 @@
         "id": "parallax",
         "label": "Parallax image",
         "default": true
+      }, 
+      {
+        "type": "checkbox",
+        "id": "text_align_left",
+        "label": "Align text left",
+        "default": false
+      }, 
+      {
+        "type": "number",
+        "id": "text_width",
+        "label": "Title and content text width (only works when Align text left is true)",
+        "default": 50
+      },
+      {
+        "type": "richtext",
+        "id": "subtitle", 
+        "label": "Collection subtitle" 
+      }, 
+      {
+        "type": "color", 
+        "id": "text_color", 
+        "label": "Text color for hero image"
       }
     ]
   }
 {% endschema %}
+
