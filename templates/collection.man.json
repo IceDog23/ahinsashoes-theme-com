@@ -4,8 +4,12 @@
       "type": "collection-header",
       "settings": {
         "enable": true,
-        "collection_image_enable": false,
-        "parallax": true
+        "collection_image_enable": true,
+        "parallax": false,
+        "text_align_left": true,
+        "text_width": 50,
+        "subtitle": "<p>Co byste řekl na pánské boty, ve kterých můžete vyrazit<\/p><p><strong>do práce, do divadla i na Sněžku<\/strong>?<br\/><\/p><p>Právě jste je našel. Nekonečně <strong>pohodlné boty od fyzioterapeutů<\/strong>, které vydrží roky.<\/p>",
+        "text_color": "#ffffff"
       }
     },
     "main-collection": {
