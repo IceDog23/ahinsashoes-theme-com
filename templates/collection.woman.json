@@ -19,11 +19,11 @@
           "type": "newsubcols",
           "settings": {
             "subcollections_per_row": 2,
-            "collection_1": "",
+            "collection_1": "womens-barefoot-shoes",
             "title_1": "BAREFOOT SHOES",
             "content_1": "<p><strong>A flexible sole <\/strong>and <strong>zero drop <\/strong>will connect you to the ground. <\/p><p>Walk naturally like nature intended. <\/p>",
             "icon_1": "shopify:\/\/shop_images\/ahinsa-barefoot.png",
-            "collection_2": "",
+            "collection_2": "womens-comfort-shoes",
             "title_2": "COMFORT SHOES",
             "content_2": "<p>Comfort without compromises. <strong>They’ll liberate your feet <\/strong>and <strong>soften your steps<\/strong>. Ideal for those who don’t want to feel every pebble along their path. <\/p>",
             "icon_2": "shopify:\/\/shop_images\/ahinsa-comfort.png"
