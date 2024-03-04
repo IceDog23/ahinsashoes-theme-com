@@ -1,0 +1,250 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false,
+        "text_align_left": true,
+        "text_width": 50,
+        "subtitle": "<p>Co byste řekl na pánské boty, ve kterých můžete vyrazit<\/p><p><strong>do práce, do divadla i na Sněžku<\/strong>?<br\/><\/p><p>Právě jste je našel. Nekonečně <strong>pohodlné boty od fyzioterapeutů<\/strong>, které vydrží roky.<\/p>",
+        "text_color": "#ffffff"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "newsubcols_i7JmbM": {
+          "type": "newsubcols",
+          "settings": {
+            "subcollections_per_row": 2,
+            "collection_1": "",
+            "title_1": "BAREFOOT OBUV",
+            "content_1": "<p>Pružná podrážka a nulový drop vás spojí se zemí. Choďte tak přirozeně, jak to příroda zamýšlela.<\/p>",
+            "icon_1": "shopify:\/\/shop_images\/ahinsa-barefoot.png",
+            "collection_2": "",
+            "title_2": "KOMFORTNÍ OBUV",
+            "content_2": "<p>Pohodlí bez kompromisů. Osvobodí vaše chodidla a změkčí vaše kroky. Ideální pro vás, kdo nechcete cítit každý kamínek na cestě.<\/p>",
+            "icon_2": "shopify:\/\/shop_images\/ahinsa-comfort.png"
+          }
+        },
+        "collection_description": {
+          "type": "collection_description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        },
+        "7ad27337-8407-4949-ac22-9c27f5fa8a58": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "womens-barefoot-shoes",
+            "subheading": "Shoes designed by physiotherapists.",
+            "heading": "Women's Barefoot Shoes",
+            "textarea": "Walk as if you were barefoot. Handmade in the Czech Republic and Croatia.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/DSC_2509.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "3be91749-97af-492b-a3af-6b406c08f094": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "womens-comfort-shoes",
+            "subheading": "Shoes designed by physiotherapists",
+            "heading": "Women's Comfort Shoes",
+            "textarea": "Softens the impact on your heel with every step. Maximum cushion that adapts to your stride.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/AhinsaStudio_7of26.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "d3bf45f7-0ba2-448b-8b3d-22e18d3f5621": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "mens-barefoot-shoes",
+            "subheading": "Shoes designed by physiotherapists",
+            "heading": "Men's Barefoot Shoes",
+            "textarea": "As natural as walking barefoot. Handmade to last millions of steps.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/AhinsaStudio_25of26.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "e97bc826-041b-413d-a7ec-51054e008056": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "mens-comfort-shoes",
+            "subheading": "Shoes designed by physiotherapists",
+            "heading": "Men's Comfort Shoes",
+            "textarea": "Handmade in the Czech Republic and Croatia. Made to last millions of steps.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_36of41.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "6868f9ce-6f37-4177-bfd2-e37f532dbb9d": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "barefoot-ballet-flats",
+            "subheading": "skvělá volba",
+            "heading": "DÁMSKÉ BAREFOOT BOTY",
+            "textarea": "Navržená fyzioterapeuty. Eticky vyráběná jen z těch nejkvalitnějších certifikovaných materiálů.",
+            "cta_text1": "ZDRAVÍ JE SEXY",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/AUM08243.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "829cb235-4f32-42e8-803d-63edb1826125": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "women",
+            "subheading": "shoes designed by physiotherapists",
+            "heading": "Women's barefoot and comfort shoes",
+            "textarea": "Handmade. Ethical. And oh, so comfortable!",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/3T1A2488.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "3ab5da66-9d33-4625-8893-c1f243437cfc": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "promo_collection": "men",
+            "subheading": "shoes designed by physiotherapists",
+            "heading": "Men's barefoot and comfort shoes",
+            "textarea": "Handmade. Ethical. And oh, so comfortable!",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_41of41_59dcbe6a-abd7-4e39-ae0f-9157c4229b58.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "newsubcols_i7JmbM",
+        "collection_description",
+        "subcollections",
+        "product_grid",
+        "7ad27337-8407-4949-ac22-9c27f5fa8a58",
+        "3be91749-97af-492b-a3af-6b406c08f094",
+        "d3bf45f7-0ba2-448b-8b3d-22e18d3f5621",
+        "e97bc826-041b-413d-a7ec-51054e008056",
+        "6868f9ce-6f37-4177-bfd2-e37f532dbb9d",
+        "829cb235-4f32-42e8-803d-63edb1826125",
+        "3ab5da66-9d33-4625-8893-c1f243437cfc"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": false,
+        "display_top_desc": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": true,
+        "enable_sort": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "main-collection"
+  ]
+}
