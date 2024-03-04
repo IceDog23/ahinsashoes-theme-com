@@ -32,6 +32,20 @@
       {%- if current_filter_size == 0 -%}
         {%- render 'subcollections', per_row: block.settings.subcollections_per_row -%}
       {%- endif -%}
+      {%- when 'newsubcols' -%}
+        {%- if current_filter_size == 0 -%}
+          {%- render 'collection_n_col_related', 
+            per_row: block.settings.subcollections_per_row,
+            collection_1: block.settings.collection_1,
+            title_1: block.settings.title_1,
+            content_1: block.settings.content_1,
+            icon_1: block.settings.icon_1,
+            collection_2: block.settings.collection_2,
+            title_2: block.settings.title_2,
+            content_2: block.settings.content_2,
+            icon_2: block.settings.icon_2
+          -%}
+        {%- endif -%}
     {%- when 'product_grid' -%}
       <div class="collection-filter">
         {%- liquid

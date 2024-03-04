@@ -1,0 +1,85 @@
+{%- liquid
+    unless grid_item_width
+      assign grid_item_width = 'small--one-half medium-up--one-third'
+    endunless
+  
+    unless background_position
+      assign background_position = 'center center'
+    endunless
+  
+    if block.settings.title != blank
+      assign title_output = block.settings.title
+    else
+      if collection.empty?
+        assign title_output = 'home_page.onboarding.collection_title' | t
+      elsif collection_title
+        assign title_output = collection_title
+      else
+        assign title_output = collection.title | escape
+      endif
+    endif
+  -%}
+  
+  <div class="grid__item {{ grid_item_width }} new-collection_container">
+    <a href="{{ collection.url }}" class="collection-item collection-item--{{ settings.collection_grid_style }}" data-aos="row-of-{{ per_row }}">
+      <div class='collection-item_icon'>
+        {% if collection_icon %}
+            {{ collection_icon.src | image_url: width: 80 | image_tag }}
+        {% endif %}
+      </div>
+      <div class='collection-item_content'>
+      <span
+        class="collection-item__title">
+        <span>
+          <h2>{{ title_output }}</h2>
+        </span>
+      </span>
+      <span
+        class="collection-item_text">
+        {% comment %} collection-item__title--{{ settings.collection_grid_style }} collection-item__title--{{ settings.type_collection_font }} collection-item__title--{{ settings.collection_grid_text_align }} {% endcomment %}
+        <span>
+          {{ collection_content }}
+        </span>
+      </span>
+     </div>
+     <div class="collection-item_arrow_icon">
+        {% render "arrow_right_b" %}
+    </div>
+    
+    </a>
+  </div>
+
+  {% style %}
+    .new-collection_container {
+        background-color: white; 
+        text-align: center;
+    }
+
+    .new-collection_container .collection-item {
+        position: relative;
+        padding: 30px;
+        min-height: 350px;
+    }
+
+    .new-collection_container .collection-item_content {
+        margin-top: 20px; 
+    }
+    
+    .new-collection_container .collection-item_arrow_icon {
+        position: absolute; 
+        bottom: 20px; 
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    @media screen and (max-width: 450px) {
+      .new-collection_container .collection-item {
+        min-height: 0;
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+      .new-collection_container .collection-item_arrow_icon {
+        bottom: 5px; 
+    }
+    }
+  {% endstyle %}

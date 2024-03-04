@@ -167,12 +167,14 @@
             {%- render 'promo-grid', section: section, collection_page: true -%}
           {% endunless %}
           <div class="collection-grid__wrapper">
-            {% if col_top_desc != blank and current_page == 1 %}
-            <div class="collection-description collection-description-top">
-            {{col_top_desc}}
-            </div>
-            {% elsif current_page > 1 %}
-            <br>
+            {% if section.settings.display_top_desc %}
+              {% if col_top_desc != blank and current_page == 1 %}
+              <div class="collection-description collection-description-top">
+              {{col_top_desc}}
+              </div>
+              {% elsif current_page > 1 %}
+              <br>
+              {% endif %}
             {% endif %}
             {% render 'collection-template', section: section %}
             {% if col_bottom_desc != blank and current_page == 1 %}
@@ -298,6 +300,12 @@
         "default": true
       },
       {
+        "type": "checkbox", 
+        "id": "display_top_desc", 
+        "label": "Display description under hero image", 
+        "default": true
+      },
+      {
         "type": "select",
         "id": "filter_style",
         "label": "Filter style",
@@ -385,6 +393,70 @@
             "min": 2,
             "max": 5,
             "step": 1
+          }
+        ],
+        "limit": 1
+      },
+      {
+        "type": "newsubcols",
+        "name": "New subcollections",
+        "settings": [
+          {
+            "type": "paragraph",
+            "content": "Add to two link collections, title, text and icon"
+          },
+          {
+            "type": "range",
+            "id": "subcollections_per_row",
+            "label": "Subcollections per row",
+            "default": 5,
+            "min": 2,
+            "max": 5,
+            "step": 1
+          }, 
+          {
+            "type": "collection",
+            "id": "collection_1",
+            "label": "Collection 1"
+          },
+          {
+            "type": "text", 
+            "id": "title_1", 
+            "label": "Collection title 1", 
+            "default": "BAREFOOT OBUV"
+          }, 
+          {
+            "type": "richtext", 
+            "id": "content_1", 
+            "label": "Collection content 1", 
+            "default": "<p>Pružná podrážka a nulový drop vás spojí se zemí. Choďte tak přirozeně, jak to příroda zamýšlela.</p>"
+          }, 
+          {
+            "type": "image_picker", 
+            "id": "icon_1", 
+            "label": "Collection icon 1"
+          }, 
+          {
+            "type": "collection",
+            "id": "collection_2",
+            "label": "Collection 1"
+          },
+          {
+            "type": "text", 
+            "id": "title_2", 
+            "label": "Collection title 2", 
+            "default": "KOMFORTNÍ OBUV"
+          }, 
+          {
+            "type": "richtext", 
+            "id": "content_2", 
+            "label": "Collection content 2", 
+            "default": "<p>Pohodlí bez kompromisů. Osvobodí vaše chodidla a změkčí vaše kroky. Ideální pro vás, kdo nechcete cítit každý kamínek na cestě.</p>"
+          }, 
+          {
+            "type": "image_picker", 
+            "id": "icon_2", 
+            "label": "Collection icon 2"
           }
         ],
         "limit": 1
