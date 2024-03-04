@@ -125,9 +125,9 @@
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce": {
             "type": "announcement",
             "settings": {
-              "text": "For Warm Feet and a Joyful Soul ❄️",
-              "link_text": "Put on a pair of the most comfortable winter Ahinsa shoes.",
-              "link": "shopify:\/\/pages\/autumn-collection"
+              "text": "New spring\/summer collection is coming soon! 🌿",
+              "link_text": "Be the first to get a pair with a 20% discount.",
+              "link": "shopify:\/\/pages\/spring-24"
             }
           },
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
@@ -282,6 +282,7 @@
           "text": "<p>Designed by physiotherapists for ultimate comfort. Handmade in the Czech Republic and Croatia. 100% vegan. Made to last millions of steps<\/p>",
           "link": "",
           "link_text": "",
+          "bot_spacing_heading": true,
           "align_text": "center",
           "narrow_column": true,
           "enlarge_text": true,
@@ -1274,6 +1275,7 @@
           "text": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.<\/p>",
           "link": "",
           "link_text": "",
+          "bot_spacing_heading": true,
           "align_text": "center",
           "narrow_column": false,
           "enlarge_text": true,
@@ -1430,6 +1432,7 @@
           "text": "<p>You might have seen Ahinsa shoes in the news. <\/p>",
           "link": "",
           "link_text": "",
+          "bot_spacing_heading": true,
           "align_text": "center",
           "narrow_column": false,
           "enlarge_text": true,
@@ -1443,6 +1446,7 @@
           "text": "<p>Your online guide to barefoot walking, written by our team together with physiotherapists<br\/><\/p>",
           "link": "",
           "link_text": "",
+          "bot_spacing_heading": true,
           "align_text": "center",
           "narrow_column": false,
           "enlarge_text": true,
