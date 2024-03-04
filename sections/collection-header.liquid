@@ -142,7 +142,7 @@
         <div class="collection-hero__content">
           <div class="page-width">
             <header id="HeaderAjaxContent" class="section-header section-header--hero">
-              <div class="section-header__shadow {% if section.settings.text_align_left %} align_left {% endif %}">
+              <div class="section-header {% if section.settings.text_align_left %} align_left {% endif %}">
                 {%- render 'breadcrumbs', text_left: section.settings.text_align_left -%}
                 <h1 class="section-header__title">
                   {{ collection_title }}
