@@ -5,10 +5,10 @@
       "settings": {
         "enable": true,
         "collection_image_enable": true,
-        "parallax": false,
+        "parallax": true,
         "text_align_left": true,
-        "text_width": 50,
-        "subtitle": "<p>Co byste řekl na pánské boty, ve kterých můžete vyrazit<\/p><p><strong>do práce, do divadla i na Sněžku<\/strong>?<br\/><\/p><p>Právě jste je našel. Nekonečně <strong>pohodlné boty od fyzioterapeutů<\/strong>, které vydrží roky.<\/p>",
+        "text_width": 40,
+        "subtitle": "<p>What would you say to a pair of men’s shoes that you can wear <strong>to work, a formal evening or into nature? <\/strong><\/p><p>You’ve just found them. Endlessly <strong>comfortable shoes designed by physiotherapists<\/strong>, which will last for years. <\/p>",
         "text_color": "#ffffff"
       }
     },
