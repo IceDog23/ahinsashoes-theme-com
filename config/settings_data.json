@@ -620,6 +620,7 @@
           "b6e6893c-1ab9-45e6-9ebf-013f55e40f26",
           "1894c90c-586d-48fb-ab85-b1f872649f49"
         ],
+        "disabled": true,
         "settings": {
           "section_height": "450px",
           "mobile_height": "300px",
@@ -1362,6 +1363,7 @@
       },
       "16254695500633acb9": {
         "type": "text-and-image",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/ahinsa-feet.jpg",
           "image_width": 500,
@@ -1500,6 +1502,7 @@
           "eda2374d-8b01-4ff9-8986-08530d16184e",
           "a9bda7f8-f0f5-4f02-8c3f-3cd1125e0d92"
         ],
+        "disabled": true,
         "settings": {
         }
       },
@@ -5984,7 +5987,6 @@
         "block_order": [
           "image_CFnqQx"
         ],
-        "disabled": true,
         "settings": {
           "section_height": "650px",
           "mobile_height": "auto",
@@ -5998,7 +6000,6 @@
       },
       "text_and_image_U8c3cr": {
         "type": "text-and-image",
-        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/DSC_2968.jpg",
           "image_width": 500,
@@ -6006,7 +6007,7 @@
           "title": "“Don’t make compromises when it comes to health and comfort”",
           "text": "<p>Shoes shouldn’t be healthy <em>or <\/em>stylish. You can have both. <\/p><p>Ahinsa shoes are designed around the <strong>natural shape of the foot<\/strong>, and they’re also based on research and <strong>my practice as a physiotherapist<\/strong>. That’s why I know you’ll feel good in them the first time you put them on.<\/p>",
           "button_label": "Choose comfort",
-          "button_link": "",
+          "button_link": "https:\/\/ahinsashoes.com\/collections\/all\/comfort?sort_by=created-descending",
           "layout": "left",
           "divider": false
         }
