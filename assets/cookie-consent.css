@@ -7,7 +7,8 @@
     backface-visibility: hidden;
     display: flex;
     flex-shrink: 0;
-    height: 20px;
+    height: 20px!important;
     position: relative;
-    width: 36px;
+    width: 36px!important;
+  
 }
