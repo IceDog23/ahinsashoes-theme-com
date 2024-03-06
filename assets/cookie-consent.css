@@ -1,3 +1,13 @@
 /* #CybotCookiebotDialog {
   background-color: red;
 } */
+
+.CybotCookiebotDialogBodyLevelButtonSliderWrapper {
+  -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-shrink: 0;
+    height: 20px;
+    position: relative;
+    width: 36px;
+}
