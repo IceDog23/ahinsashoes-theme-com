@@ -189,7 +189,7 @@
   {% comment %}{{ content_for_header }}{% endcomment %}
  {{ content_for_header | replace: '779803106', '581245772' }}
   {% render 'cookie-consent' %}
-  {{ 'cookie-consent' | asset_url | stylesheet_tag }}
+  {{ 'cookie-consent.css' | asset_url | stylesheet_tag }}
 
   <script src="{{ 'vendor-scripts-v8.js' | asset_url | split: '?' | first }}" defer="defer"></script>
 
