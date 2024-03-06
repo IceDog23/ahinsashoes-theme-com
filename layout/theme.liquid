@@ -188,6 +188,8 @@
 
   {% comment %}{{ content_for_header }}{% endcomment %}
  {{ content_for_header | replace: '779803106', '581245772' }}
+
+  <!-- CookieBot bar snippet and styles -->
   {% render 'cookie-consent' %}
   {{ 'cookie-consent.css' | asset_url | stylesheet_tag }}
 
