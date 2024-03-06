@@ -18,7 +18,10 @@ window.Shopify.loadFeatures(
         "marketing": false,
         "preferences": false,
         "sale_of_data": false,
-      }, () => console.log("Awaiting consent")
+      }, () => {
+        feedback()
+        console.log("Awaiting consent")
+      }
     );
   }
 );
@@ -37,4 +40,5 @@ window.addEventListener("CookiebotOnConsentReady", function () {
         }
       }, 100);
 });
+feedback()
 </script>
