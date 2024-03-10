@@ -1,8 +1,8 @@
-/* #CybotCookiebotDialog {
+#CybotCookiebotDialog {
   background-color: red;
-} */
+}
 
-/* .CybotCookiebotDialogBodyLevelButtonSliderWrapper {
+.CybotCookiebotDialogBodyLevelButtonSliderWrapper {
   -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     display: flex;
@@ -11,4 +11,4 @@
     position: relative;
     width: 36px!important;
   
-} */
+}
