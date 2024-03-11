@@ -28,12 +28,15 @@ window.Shopify.loadFeatures(
 );
 
 window.addEventListener("CookiebotOnConsentReady", function () {
+  // Changes in the script are for only for mobile devies below 450px
   const mediaQuery = window.matchMedia('(max-width: 450px)');
   const C = Cookiebot.consent,
       existConsentShopify = setInterval(function () {
         if (window.Shopify.customerPrivacy) {
           clearInterval(existConsentShopify);
+          // This is making sure that changes are only to mobile devices
           if (mediaQuery.matches) {
+          // when user do the consent this will match preferences consent with marketing consent
           C['preferences'] = C['marketing']
           window.Shopify.customerPrivacy.setTrackingConsent({
             "analytics": C["statistics"],
