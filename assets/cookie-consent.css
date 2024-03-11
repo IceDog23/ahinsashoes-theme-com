@@ -1,14 +1,90 @@
-/* #CybotCookiebotDialog {
-  background-color: red;
-}
 
-.CybotCookiebotDialogBodyLevelButtonSliderWrapper {
-  -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    display: flex;
-    flex-shrink: 0;
-    height: 20px!important;
-    position: relative;
-    width: 36px!important;
+  #CookiebotWidget .CookiebotWidget-consent-details button {
+    color: var(--colorTextBody)!important;
+  }
+
+  #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+    border-color: var(--colorBtnPrimary)!important; 
+  }
+
+  #CookiebotWidget #CookiebotWidget-buttons #CookiebotWidget-btn-withdraw {
+    border-color: var(--colorBtnPrimary)!important; 
+  }
+
+  #CookiebotWidget #CookiebotWidget-buttons #CookiebotWidget-btn-change {
+    border-color: var(--colorBtnPrimary)!important;
+    background-color: #FFFFFF!important; 
+    color: var(--colorTextBody)!important;
+  }
+
+
+  #CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyEdgeMoreDetails a {
+    color: var(--colorTextBody)
+  }
   
-} */
+  #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
+    border-color: var(--colorBtnPrimary)
+  }
+  
+  #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonCustomize, 
+  #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+    border-color: var(--colorBtnPrimary)
+  }
+
+@media screen and (max-width: 450px) {
+  #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll.CybotCookiebotDialogBodyButton {
+    display: none
+  }
+
+  #CybotCookiebotDialog *, #CybotCookiebotDialogBodyUnderlay * {
+    font-size: 12px;
+  }
+
+  #CybotCookiebotDialogHeader {
+    display: none;
+  }
+
+  #CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonWrapper:nth-last-of-type(3) {
+    display:none;
+  }
+
+  #CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyEdgeMoreDetails a {
+    color: var(--colorTextBody)
+  }
+  
+  #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
+    border-color: var(--colorBtnPrimary)
+  }
+  
+  #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonCustomize, 
+  #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+    border-color: var(--colorBtnPrimary)
+  }
+
+  #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtonsWrapper {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  #CybotCookiebotDialogBodyButtonDecline {
+    width: 100%;
+  }
+
+  #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+    width: 100%;
+  }
+
+  #CookiebotWidget .CookiebotWidget-consent-details button {
+    color: var(--colorTextBody)!important;
+  }
+
+  #CookiebotWidget #CookiebotWidget-buttons #CookiebotWidget-btn-withdraw {
+    border-color: var(--colorBtnPrimary)!important; 
+  }
+
+  #CookiebotWidget #CookiebotWidget-buttons #CookiebotWidget-btn-change {
+    border-color: var(--colorBtnPrimary)!important;
+    background-color: #FFFFFF!important; 
+    color: var(--colorTextBody)!important;
+  }
+}
