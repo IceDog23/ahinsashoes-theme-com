@@ -3435,6 +3435,7 @@
           },
           "1502b308-53e3-451a-99d5-184da0180962": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>This weekend I had the opportunity to walk a few kilometers in the snow in your boots and they are great, you did an amazing job. Thank you so much for making them for me.<\/p>",
               "customer": "Magda Cermanová"
