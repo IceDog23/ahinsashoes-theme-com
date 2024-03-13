@@ -3198,6 +3198,13 @@
               "customer": "Mel Stones"
             }
           },
+          "21b965e7-646a-438a-906b-b87196a9e059": {
+            "type": "block",
+            "settings": {
+              "text": "<p>So far, Ahinsa shoes are the best for me out of the \"boots\" available on our market. I started using Barefoot approx. 5 years ago on the recommendation of a physiotherapist (back pain, tendency to transversely flat feet) - I tried different manufacturers. In general, I can confirm from my own experience the health effect of the correct use of barefoot shoes - my back doesn't hurt, I don't \"stomp\" even when I'm in a hurry...<br\/><br\/>I like the material, the appearance, the speed of delivery of your products - simply the overall quality of the products and the quality of your services. I have spring, summer and winter shoes from your company and as I already mentioned, they are the best for me :)<\/p>",
+              "customer": "Iva Fröhlichová"
+            }
+          },
           "block_d4hnK8": {
             "type": "block",
             "settings": {
@@ -3402,13 +3409,6 @@
               "customer": "Romana Kotrlová"
             }
           },
-          "21b965e7-646a-438a-906b-b87196a9e059": {
-            "type": "block",
-            "settings": {
-              "text": "<p>So far, Ahinsa shoes are the best for me out of the \"boots\" available on our market. I started using Barefoot approx. 5 years ago on the recommendation of a physiotherapist (back pain, tendency to transversely flat feet) - I tried different manufacturers. In general, I can confirm from my own experience the health effect of the correct use of barefoot shoes - my back doesn't hurt, I don't \"stomp\" even when I'm in a hurry...<br\/><br\/>I like the material, the appearance, the speed of delivery of your products - simply the overall quality of the products and the quality of your services. I have spring, summer and winter shoes from your company and as I already mentioned, they are the best for me :)<\/p>",
-              "customer": "Iva Fröhlichová"
-            }
-          },
           "1502b308-53e3-451a-99d5-184da0180962": {
             "type": "block",
             "settings": {
@@ -3513,6 +3513,7 @@
           "block_jMDENQ",
           "block_XmJtk7",
           "block_G8LXCq",
+          "21b965e7-646a-438a-906b-b87196a9e059",
           "block_d4hnK8",
           "f9b155da-333f-4412-a218-657f56d36ddf",
           "bff73c87-3d35-4461-b292-a9f4818f7fa8",
@@ -3541,7 +3542,6 @@
           "8076ad21-5cd2-4a89-849c-d67b06ffef80",
           "e5e43f46-3634-4716-b2c2-baf332d0f483",
           "cd494f6e-210f-4abc-82c7-a6d144e2e213",
-          "21b965e7-646a-438a-906b-b87196a9e059",
           "1502b308-53e3-451a-99d5-184da0180962",
           "b613afce-3e08-4f17-b04b-d4be81c1acde",
           "2070fe9a-987e-49a0-bf37-0ea2d54b49c0",
