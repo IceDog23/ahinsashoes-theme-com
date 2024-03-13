@@ -3205,6 +3205,20 @@
               "customer": "Pablo Rodrigo"
             }
           },
+          "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf": {
+            "type": "block",
+            "settings": {
+              "text": "<p>The shoes (Chitra Trek&Trail x wide) are really good, best toe box and feel I’ve got out of any minimalist shoes I’ve worn over the years and feel really good in the trail. The ebook was very helpful in filling a couple of gaps in my own knowledge and they turned up in just a couple of days after ordering. I had to pay a hefty bit of import tax as I live in the UK but overall I’m extremely happy with the shoes. I absolutely love the shoes and I would have replaced my road running shoes with a pair as well.<\/p>",
+              "customer": "Amanda Brown"
+            }
+          },
+          "2805ccde-f3f5-4a41-9bac-f9d7985d5682": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Your shoes are fantastic, very comfortable, naturally closed to the ground, my toes splay like actual barefoot walk. Absolutely no issue. I’m vegetarian and a barefoot fan, so I was looking for barefoot, vegan, dress shoes for years, finally I met you guys. By the way, I’ll try your recommended exercises in order to strengthen my feet, improve my strides, and prevent running injury.<\/p>",
+              "customer": "Shin Smith"
+            }
+          },
           "c110205e-a226-48d7-ae33-437c4be134d3": {
             "type": "block",
             "settings": {
@@ -3353,13 +3367,6 @@
               "customer": "Zachary Tervonen"
             }
           },
-          "2805ccde-f3f5-4a41-9bac-f9d7985d5682": {
-            "type": "block",
-            "settings": {
-              "text": "<p>Your shoes are fantastic, very comfortable, naturally closed to the ground, my toes splay like actual barefoot walk. Absolutely no issue. I’m vegetarian and a barefoot fan, so I was looking for barefoot, vegan, dress shoes for years, finally I met you guys. By the way, I’ll try your recommended exercises in order to strengthen my feet, improve my strides, and prevent running injury.<\/p>",
-              "customer": "Shin Smith"
-            }
-          },
           "c993290e-4297-4fc9-a67c-acaa73e19622": {
             "type": "block",
             "settings": {
@@ -3473,13 +3480,6 @@
               "customer": "Annelies Miedema"
             }
           },
-          "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf": {
-            "type": "block",
-            "settings": {
-              "text": "<p>The shoes (Chitra Trek&Trail x wide) are really good, best toe box and feel I’ve got out of any minimalist shoes I’ve worn over the years and feel really good in the trail. The ebook was very helpful in filling a couple of gaps in my own knowledge and they turned up in just a couple of days after ordering. I had to pay a hefty bit of import tax as I live in the UK but overall I’m extremely happy with the shoes. I absolutely love the shoes and I would have replaced my road running shoes with a pair as well.<\/p>",
-              "customer": "Amanda Brown"
-            }
-          },
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d": {
             "type": "block",
             "settings": {
@@ -3515,6 +3515,8 @@
           "block_XmJtk7",
           "bff73c87-3d35-4461-b292-a9f4818f7fa8",
           "533d7237-b680-424c-bfa1-782faddbfbf2",
+          "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf",
+          "2805ccde-f3f5-4a41-9bac-f9d7985d5682",
           "c110205e-a226-48d7-ae33-437c4be134d3",
           "block_G8LXCq",
           "21b965e7-646a-438a-906b-b87196a9e059",
@@ -3535,7 +3537,6 @@
           "664cfa9d-a33d-4b7b-918a-76300ccc5268",
           "a6d3c9af-0588-433e-ac5c-fe356febfa6a",
           "dd78275c-ec2b-4cd5-823b-33ea3e4764d2",
-          "2805ccde-f3f5-4a41-9bac-f9d7985d5682",
           "c993290e-4297-4fc9-a67c-acaa73e19622",
           "00c8e11b-14d9-4242-8994-85ba156c3e4d",
           "1041b183-9709-4b30-a865-b68400e50fca",
@@ -3552,7 +3553,6 @@
           "f43be3a8-0a83-403b-b9e8-a4b938e2744c",
           "55798a06-ead9-4ae6-b817-d0a2ea867f93",
           "fcd7d11c-2bf8-48ef-a8a0-b40363fc0974",
-          "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf",
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
           "5dda9802-42e6-450b-8ba5-6bb77315e59b",
           "f5699edc-5ce7-4afe-acc4-554c2133aace",
