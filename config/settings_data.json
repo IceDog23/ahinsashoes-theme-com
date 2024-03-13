@@ -3427,6 +3427,7 @@
           },
           "cd494f6e-210f-4abc-82c7-a6d144e2e213": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>Your shoes are my first BF. We have already walked a few tens of km together and I adore them. So far they haven't gotten wet inside, even once, and they went through a storm in the fall, when there was 5 cm of water on the road and now heaps of snow.<\/p>",
               "customer": "Romana Kotrlová"
