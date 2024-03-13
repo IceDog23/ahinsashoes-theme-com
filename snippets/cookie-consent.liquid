@@ -28,14 +28,10 @@ window.Shopify.loadFeatures(
 );
 
 window.addEventListener("CookiebotOnConsentReady", function () {
-  // Changes in the script are for only for mobile devies below 450px
-  const mediaQuery = window.matchMedia('(max-width: 450px)');
   const C = Cookiebot.consent,
       existConsentShopify = setInterval(function () {
         if (window.Shopify.customerPrivacy) {
           clearInterval(existConsentShopify);
-          // This is making sure that changes are only to mobile devices
-          if (mediaQuery.matches) {
           // when user do the consent this will match preferences consent with marketing consent
           C['preferences'] = C['marketing']
           window.Shopify.customerPrivacy.setTrackingConsent({
@@ -45,17 +41,8 @@ window.addEventListener("CookiebotOnConsentReady", function () {
             "sale_of_data": C["marketing"],
           }, () => {
             console.log(C)
-            console.log("Consent captured")})
-          } else {
-            window.Shopify.customerPrivacy.setTrackingConsent({
-            "analytics": C["statistics"],
-            "marketing": C["marketing"],
-            "preferences": C["preferences"],
-            "sale_of_data": C["marketing"],
-          }, () => {
-              console.log(C)
-              console.log("Consent captured")})
-          }
+            console.log("Consent captured")
+          })
         }
       }, 100);
 });
