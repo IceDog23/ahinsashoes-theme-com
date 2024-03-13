@@ -3172,6 +3172,7 @@
         "blocks": {
           "17888abf-fad6-47eb-8e27-0ecc230e886d": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I have to say that I bought the shoes on the recommendation of a doctor. I didn't really believe it, but now I'm really excited. When walking, the legs naturally get blood supply, so the fear of being cold has completely disappeared. Even the position and overall strengthening of the foot arch is visible<\/p>",
               "customer": "Markéta Šimičková"
