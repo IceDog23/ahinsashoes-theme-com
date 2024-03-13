@@ -3191,6 +3191,20 @@
               "customer": "Francesco Nanni"
             }
           },
+          "533d7237-b680-424c-bfa1-782faddbfbf2": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I received my second Ananda pair and I'm very happy with them. I wanted something quite particular (comfortable, stylish, barefoot and high-quality vegan shoes) and Ahinsa makes just that. <br\/>Thanks again to you and the team for making such a great product.<\/p>",
+              "customer": "Pablo Rodrigo"
+            }
+          },
+          "c110205e-a226-48d7-ae33-437c4be134d3": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Everything was perfect, the shipping and the shoes too. I have ananda and sundara shoes and both are comfortable and durable. <\/p><p>This Ahinsa shoes gives me an incredible ground feeling and true barefoot lifestyle, my brain always gets a lot of information about the ground. <\/p><p>So I prefer Ahinsa to over all other brands. If only I had knew Ahinsa earlier. If I had known before, I would not have bought another brand's shoes. Ahnisa's shoes suits everyone at the city and off course go with in the woods or hiking. <\/p><p>Mine are made of vegan leather which is waterproof and breathable. To my knowledge they are perfect, aren't they? <\/p>",
+              "customer": "Adam Gal"
+            }
+          },
           "block_G8LXCq": {
             "type": "block",
             "settings": {
@@ -3459,13 +3473,6 @@
               "customer": "Annelies Miedema"
             }
           },
-          "533d7237-b680-424c-bfa1-782faddbfbf2": {
-            "type": "block",
-            "settings": {
-              "text": "<p>I received my second Ananda pair and I'm very happy with them. I wanted something quite particular (comfortable, stylish, barefoot and high-quality vegan shoes) and Ahinsa makes just that. <br\/>Thanks again to you and the team for making such a great product.<\/p>",
-              "customer": "Pablo Rodrigo"
-            }
-          },
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf": {
             "type": "block",
             "settings": {
@@ -3487,13 +3494,6 @@
               "customer": "Gabriele Pacca"
             }
           },
-          "c110205e-a226-48d7-ae33-437c4be134d3": {
-            "type": "block",
-            "settings": {
-              "text": "<p>Everything was perfect, the shipping and the shoes too. I have ananda and sundara shoes and both are comfortable and durable. <\/p><p>This Ahinsa shoes gives me an incredible ground feeling and true barefoot lifestyle, my brain always gets a lot of information about the ground. <\/p><p>So I prefer Ahinsa to over all other brands. If only I had knew Ahinsa earlier. If I had known before, I would not have bought another brand's shoes. Ahnisa's shoes suits everyone at the city and off course go with in the woods or hiking. <\/p><p>Mine are made of vegan leather which is waterproof and breathable. To my knowledge they are perfect, aren't they? <\/p>",
-              "customer": "Adam Gal"
-            }
-          },
           "f5699edc-5ce7-4afe-acc4-554c2133aace": {
             "type": "block",
             "settings": {
@@ -3513,6 +3513,8 @@
           "17888abf-fad6-47eb-8e27-0ecc230e886d",
           "block_jMDENQ",
           "block_XmJtk7",
+          "533d7237-b680-424c-bfa1-782faddbfbf2",
+          "c110205e-a226-48d7-ae33-437c4be134d3",
           "block_G8LXCq",
           "21b965e7-646a-438a-906b-b87196a9e059",
           "block_d4hnK8",
@@ -3550,11 +3552,9 @@
           "f43be3a8-0a83-403b-b9e8-a4b938e2744c",
           "55798a06-ead9-4ae6-b817-d0a2ea867f93",
           "fcd7d11c-2bf8-48ef-a8a0-b40363fc0974",
-          "533d7237-b680-424c-bfa1-782faddbfbf2",
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf",
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
           "5dda9802-42e6-450b-8ba5-6bb77315e59b",
-          "c110205e-a226-48d7-ae33-437c4be134d3",
           "f5699edc-5ce7-4afe-acc4-554c2133aace",
           "9ce449fb-acc5-433f-949b-9355e6979c99"
         ],
