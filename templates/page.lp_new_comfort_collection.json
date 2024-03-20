@@ -7,17 +7,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Ahinsa Comfort\nPohodlí vám sluší",
+            "title": "Ahinsa Comfort\nComfort that looks great on you",
             "title_size": 60,
-            "subheading": "Obujete radši pohodlné boty, nebo stylové?\nA proč ne oboje zároveň? Nedělejte kompromisy. Zamilujte si Ahinsa Comfort od fyzioterapeutů.\nNejvíc vám to sluší, když jste v pohodlí.",
+            "subheading": "<p>Would you prefer <b>comfortable shoes, or more stylish ones<\/b>?<\/p> \n<p>Why not have the best of both worlds? Don’t make compromises. Fall in love with <b>Ahinsa Comfort, designed by physiotherapists<\/b>.<\/p>\nYou’re looking your best when you’re comfortable.",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/DSC_2924.jpg",
+            "overlay_opacity": 30,
+            "focal_point": "bottom center"
           }
         }
       },
@@ -36,6 +37,7 @@
     "lp_image_reviews_iUy3ac": {
       "type": "lp_image_reviews",
       "settings": {
+        "image": "shopify:\/\/shop_images\/rozobrana_topanka_en_1.png",
         "divider": false,
         "m_bot": 10
       }
@@ -46,19 +48,19 @@
         "testimonials_AW96hp": {
           "type": "testimonials",
           "settings": {
-            "title": "Boty od fyzioterapeutů = pohodlí bez kompromisů",
+            "title": "Shoes designed by physiotherapists = comfort without compromises",
             "align_text": "center",
             "round_images": false,
             "color_background": "#f9f9f9",
             "color_text": "#1c1d1d",
             "icon_1": "5-stars",
-            "testimonial_1": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author_1": "Author's name",
-            "author_info_1": "Los Angeles, CA",
+            "testimonial_1": "<p>There are some diagnoses and situations where classic barefoot shoes are not ideal. <strong>Our Comfort shoes with foam insole and a layer of flexible Technogel are perfect and safe for those cases.<\/strong><\/p>",
+            "author_1": "Lukas Klimpera",
+            "author_info_1": "physiotherapist",
             "icon_2": "5-stars",
-            "testimonial_2": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author_2": "Author's name",
-            "author_info_2": "Los Angeles, CA"
+            "testimonial_2": "<p>Ahinsa shoes <strong>provide generous space in the front of the foot.<\/strong> This is essential for correct and natural alignment of all toes and with it also <strong>determines the proper position of the whole body<\/strong>. <\/p>",
+            "author_2": "MUDr. Hana Borecka",
+            "author_info_2": "doctor"
           }
         }
       },
@@ -71,7 +73,7 @@
     "featured_content_kDJEzL": {
       "type": "featured-content",
       "settings": {
-        "title": "Heading",
+        "title": "Experience comfort on your own two feet",
         "text": "",
         "link": "",
         "link_text": "",
@@ -90,12 +92,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "POHODLÍ PRO DÁMY",
+            "heading": "COMFORT FOR WOMEN →",
             "textarea": "",
             "cta_text1": "",
-            "cta_link1": "",
+            "cta_link1": "shopify:\/\/collections\/womens-comfort-shoes",
             "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/DSC_2651.jpg",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -111,12 +114,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "POHODLÍPRO PÁNY",
+            "heading": "COMFORT FOR MEN →",
             "textarea": "",
             "cta_text1": "",
-            "cta_link1": "",
+            "cta_link1": "shopify:\/\/collections\/mens-comfort-shoes",
             "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/DSC02009-min.jpg",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -159,7 +163,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC_1808_7fceec2a-cd2f-40ad-ab81-9a344e61f56e.jpg",
         "image_width": 500,
-        "subtitle": "<b>Měkký došlap<\/b>",
+        "subtitle": "Měkký došlap",
         "title": "Městem jako na obláčku",
         "text": "<p>Město je tvrdé. Betonové. Proto potřebujete boty, které <strong>pečují o vaše chodidla<\/strong>.<\/p><p>Boty Ahinsa shoes <strong>změkčí každý váš krok<\/strong>. Vrstva pružného Technogelu odpruží došlapy a uleví kloubům. Cesta městem nikdy nebyla příjemnější.<\/p>",
         "button_label": "",
@@ -176,24 +180,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/DSC_1083.jpg"
           }
-        },
-        "html_RjdyxT": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_9758.jpg"
-          }
-        },
-        "1cfab0be-5b16-4269-a8f2-79479431caa0": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_9756_82d47d66-e8de-4fe2-bbd2-d188912269ea.jpg"
-          }
         }
       },
       "block_order": [
-        "f366022b-15fb-48b1-b5d0-2149cee9c220",
-        "html_RjdyxT",
-        "1cfab0be-5b16-4269-a8f2-79479431caa0"
+        "f366022b-15fb-48b1-b5d0-2149cee9c220"
       ],
       "settings": {
         "image_width": 500,
@@ -203,73 +193,6 @@
         "button_label": "",
         "button_link": "",
         "layout": "right",
-        "divider": false
-      }
-    },
-    "629e967d-2ba6-445e-ac1d-37425cf62106": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_9x9DcP": {
-          "type": "html",
-          "settings": {
-          }
-        },
-        "html_nwMQ7H": {
-          "type": "html",
-          "settings": {
-          }
-        },
-        "html_4D9nEe": {
-          "type": "html",
-          "settings": {
-          }
-        },
-        "html_xzFDrR": {
-          "type": "html",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "html_9x9DcP",
-        "html_nwMQ7H",
-        "html_4D9nEe",
-        "html_xzFDrR"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Prostorná špička",
-        "subtitle": "Protože nohy nejsou špičaté",
-        "text": "<p>Všimli jste si toho někdy? Nohy nejsou špičaté – tak proč jsou takové boty? Ve špičce se prsty tísní a nemůžou pracovat.<\/p><p>Proto vyrábíme <strong>Ahinsa shoes s prostornou špičkou<\/strong>. Osvobodí vaše prsty a sednou vám na první dobrou. To pohodlí!<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "25133cf6-5f4c-475f-97a0-62278cf1d0aa": {
-      "type": "lp_text_and_image_gallery",
-      "settings": {
-        "image_width": 500,
-        "title": "Nulový podpatek",
-        "subtitle": "100% zdraví",
-        "text": "<p>Věděli jste, že sebemenší podpatek mění váš postoj? Naklání tělo a škodí mu.<\/p><p>Ahinsa shoes <strong>podpatek nemají<\/strong>. Poznejte, jaké to je, postavit se na zem rovnýma nohama. Narovnejte se díky rovné podrážce.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "78f72821-6c02-4943-8234-82d8128e2acd": {
-      "type": "lp_text_and_image_gallery",
-      "settings": {
-        "image_width": 500,
-        "title": "Pružné a ohebné",
-        "subtitle": "Boty kopírují váš pohyb",
-        "text": "<p><strong>Zdravé boty se přizpůsobí vám<\/strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů<\/strong>.<\/p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "layout": "left",
         "divider": false
       }
     },
@@ -316,12 +239,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "POHODLÍPRO DÁMY",
+            "heading": "COMFORT FOR WOMEN →",
             "textarea": "",
-            "cta_text1": "odkaz",
-            "cta_link1": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/womens-comfort-shoes",
             "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/DSC_2651.jpg",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -337,12 +261,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "POHODLÍPRO PÁNY",
+            "heading": "COMFORT FOR MEN →",
             "textarea": "",
-            "cta_text1": "odkaz",
-            "cta_link1": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/mens-comfort-shoes",
             "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/DSC02009-min.jpg",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -376,9 +301,6 @@
     "e809c555-6577-4219-9b81-be00aed9aa5c",
     "e_book_image_text3_qFQxtJ",
     "afadba8b-f130-41fc-8a37-2cc6ce89906e",
-    "629e967d-2ba6-445e-ac1d-37425cf62106",
-    "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
-    "78f72821-6c02-4943-8234-82d8128e2acd",
     "2e15496b-aa26-40ba-8cc9-74be914ee25a",
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b",
     "lp_image_text_middle_B4DRHP",
