@@ -226,6 +226,21 @@
         "divider": false
       }
     },
+    "featured_content_iwKamQ": {
+      "type": "featured-content",
+      "settings": {
+        "title": "Experience comfort on your own two feet",
+        "text": "",
+        "link": "",
+        "link_text": "",
+        "bot_spacing_heading": false,
+        "section_spacing": 50,
+        "align_text": "center",
+        "narrow_column": true,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
     "promo_grid_EpWMVF": {
       "type": "promo-grid",
       "blocks": {
@@ -281,8 +296,8 @@
       "settings": {
         "full_width": false,
         "gutter_size": 20,
-        "space_above": true,
-        "space_below": true
+        "space_above": false,
+        "space_below": false
       }
     }
   },
@@ -298,6 +313,7 @@
     "e_book_image_text3_CqnRFC",
     "e_book_image_text3_AJQhJm",
     "lp_image_text_middle_B4DRHP",
+    "featured_content_iwKamQ",
     "promo_grid_EpWMVF"
   ]
 }
