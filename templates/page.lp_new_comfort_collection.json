@@ -218,6 +218,7 @@
       "type": "lp_image_text_middle",
       "settings": {
         "image": "shopify:\/\/shop_images\/testimonials_en.png",
+        "image_m": "shopify:\/\/shop_images\/testimonials_en_mobile.png",
         "heading": "",
         "text": "",
         "text_position": "10%",
