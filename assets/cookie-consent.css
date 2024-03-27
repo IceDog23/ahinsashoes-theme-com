@@ -31,18 +31,18 @@
     border-color: var(--colorBtnPrimary)
   }
 
-  #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll.CybotCookiebotDialogBodyButton {
+  /* #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll.CybotCookiebotDialogBodyButton {
     display: none
-  }
+  } */
 
   #CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonWrapper:nth-last-of-type(3) {
     display:none;
   }
 
 @media screen and (max-width: 450px) {
-  #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll.CybotCookiebotDialogBodyButton {
+  /* #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll.CybotCookiebotDialogBodyButton {
     display: none
-  }
+  } */
 
   #CybotCookiebotDialog *, #CybotCookiebotDialogBodyUnderlay * {
     font-size: 12px;
