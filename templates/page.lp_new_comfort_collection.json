@@ -216,6 +216,7 @@
     },
     "lp_image_text_middle_B4DRHP": {
       "type": "lp_image_text_middle",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/testimonials_en.png",
         "image_m": "shopify:\/\/shop_images\/testimonials_en_mobile.png",
@@ -225,6 +226,15 @@
         "icon": "shopify:\/\/shop_images\/u2771.png",
         "icon_position": "right",
         "divider": false
+      }
+    },
+    "lp_image_reviews_mJ6bGU": {
+      "type": "lp_image_reviews",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/testimonials_en.png",
+        "image_m": "shopify:\/\/shop_images\/testimonials_en_mobile.png",
+        "divider": false,
+        "m_bot": 10
       }
     },
     "featured_content_iwKamQ": {
@@ -314,6 +324,7 @@
     "e_book_image_text3_CqnRFC",
     "e_book_image_text3_AJQhJm",
     "lp_image_text_middle_B4DRHP",
+    "lp_image_reviews_mJ6bGU",
     "featured_content_iwKamQ",
     "promo_grid_EpWMVF"
   ]
