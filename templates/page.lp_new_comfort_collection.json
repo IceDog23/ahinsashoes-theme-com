@@ -234,7 +234,7 @@
         "image": "shopify:\/\/shop_images\/testimonials_en.png",
         "image_m": "shopify:\/\/shop_images\/testimonials_en_mobile.png",
         "divider": false,
-        "m_bot": 10
+        "m_bot": 0
       }
     },
     "featured_content_iwKamQ": {
