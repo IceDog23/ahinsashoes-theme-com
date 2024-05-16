@@ -231,8 +231,8 @@
     "lp_image_reviews_mJ6bGU": {
       "type": "lp_image_reviews",
       "settings": {
-        "image": "shopify:\/\/shop_images\/testimonials_en.png",
-        "image_m": "shopify:\/\/shop_images\/testimonials_en_mobile.png",
+        "image": "shopify:\/\/shop_images\/testimonials_en_1.png",
+        "image_m": "shopify:\/\/shop_images\/testimonials_en_mobile_1.png",
         "divider": false,
         "m_bot": 0
       }
