@@ -3192,6 +3192,13 @@
               "customer": "Francesco Nanni"
             }
           },
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!<\/p>",
+              "customer": "Veronika Brenkusová"
+            }
+          },
           "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
             "type": "block",
             "settings": {
@@ -3267,14 +3274,6 @@
             "settings": {
               "text": "<p>I wanted to thank you for making these shoes. As a colleague, I really appreciate the concept behind it. I have been wearing barefoot shoes for the last 3 years now. My feet has gone down a size because my arches have increased. The design is also superb, in fact, I think I will purchase another pair soon.<\/p>",
               "customer": "Alan Rastelli"
-            }
-          },
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
-            "type": "block",
-            "disabled": true,
-            "settings": {
-              "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!<\/p>",
-              "customer": "Veronika Brenkusová"
             }
           },
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b": {
@@ -3517,6 +3516,7 @@
           "17888abf-fad6-47eb-8e27-0ecc230e886d",
           "block_jMDENQ",
           "block_XmJtk7",
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
           "bff73c87-3d35-4461-b292-a9f4818f7fa8",
           "533d7237-b680-424c-bfa1-782faddbfbf2",
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf",
@@ -3528,7 +3528,6 @@
           "f9b155da-333f-4412-a218-657f56d36ddf",
           "1c8f1519-463d-44fa-8a24-370b78c52481",
           "b059d893-8622-4107-ae0d-a371051d1b15",
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b",
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902",
           "0ee6eb91-cbec-488d-bf91-8be2028aa091",
