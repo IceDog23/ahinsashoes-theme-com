@@ -3235,6 +3235,13 @@
               "customer": "Adam Gal"
             }
           },
+          "block_hxiKpx": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Just took an pair out for a test drive on a holiday in Porto! They were excellent in terms of breath ability, comfort, and style. I’ve also been wearing my pair of boots to the office a few times in Stockholm and have also loved the look and feel. I log about 15 000 steps before my feet started to hurt in the shoes (but this is my first pair of barefoot shoes ever so I know I’m pushing my feet at a faster rate than I probably should). <br\/><br\/>I had an awkward stride to begin with, but have noticed an immediate difference whenever I switch between my Ahinsas and other shoes. <br\/><br\/>Thanks for the products and continue the great work. I have already started recommending them to friends and colleagues<\/p>",
+              "customer": "Corey Martinez"
+            }
+          },
           "block_G8LXCq": {
             "type": "block",
             "settings": {
@@ -3524,6 +3531,7 @@
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf",
           "2805ccde-f3f5-4a41-9bac-f9d7985d5682",
           "c110205e-a226-48d7-ae33-437c4be134d3",
+          "block_hxiKpx",
           "block_G8LXCq",
           "21b965e7-646a-438a-906b-b87196a9e059",
           "block_d4hnK8",
