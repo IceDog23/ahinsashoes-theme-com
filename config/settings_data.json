@@ -3277,6 +3277,13 @@
               "customer": "Thale Waaler Eggen"
             }
           },
+          "block_enBCwX": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I love your shoes and tell everybody how wonderful they are! Next to my wish list are the ribbon sandals, but I am still saving up for them! Thank you so much!<\/p>",
+              "customer": "Maria Paciullo"
+            }
+          },
           "b059d893-8622-4107-ae0d-a371051d1b15": {
             "type": "block",
             "settings": {
@@ -3537,6 +3544,7 @@
           "block_d4hnK8",
           "f9b155da-333f-4412-a218-657f56d36ddf",
           "1c8f1519-463d-44fa-8a24-370b78c52481",
+          "block_enBCwX",
           "b059d893-8622-4107-ae0d-a371051d1b15",
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b",
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902",
