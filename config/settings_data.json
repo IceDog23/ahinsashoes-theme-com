@@ -3614,15 +3614,6 @@
               "link": "https:\/\/www.minimal-list.org\/post\/ahinsa-vida-hemp-barefoot-shoes-barefoot-shoe-review"
             }
           },
-          "398cfaad-2297-4e35-92c9-b944437dd1bc": {
-            "type": "block",
-            "settings": {
-              "text": "<p>Ahinsa Shoes Jaya – Review<\/p>",
-              "author": "bosenogice.si",
-              "image": "shopify:\/\/shop_images\/jaya_bosenogice.jpg",
-              "link": "https:\/\/www.bosenogice.si\/2022\/01\/07\/ahinsa-shoes-jaya-review\/"
-            }
-          },
           "block_3bEWVJ": {
             "type": "block",
             "settings": {
@@ -3632,15 +3623,6 @@
               "link": "https:\/\/barefootbrit.co.uk\/review-of-ahinsa-ananda-black-barefoot-ballet-flat\/"
             }
           },
-          "02a5ac71-4d2d-4f41-934d-48d24d11ab94": {
-            "type": "block",
-            "settings": {
-              "text": "<p>Ahinsa Bindu 2 Bare and Ananda Bare – Review<\/p>",
-              "author": "bosenogice.si",
-              "image": "shopify:\/\/shop_images\/bosenogice_bindu.jpg",
-              "link": "https:\/\/www.bosenogice.si\/2021\/05\/17\/ahinsa-bindu-2-bare-and-ananda-bare-review\/"
-            }
-          },
           "b0e8a149-f299-4d60-bbc7-617224a9ff42": {
             "type": "block",
             "settings": {
@@ -3648,6 +3630,15 @@
               "author": "baresoledgirl.com",
               "image": "shopify:\/\/shop_images\/sundara.jpg",
               "link": "https:\/\/baresoledgirl.com\/ahinsa-sundara-ankle-comfort-boots-a-review\/"
+            }
+          },
+          "02a5ac71-4d2d-4f41-934d-48d24d11ab94": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Ahinsa Bindu 2 Bare and Ananda Bare – Review<\/p>",
+              "author": "bosenogice.si",
+              "image": "shopify:\/\/shop_images\/bosenogice_bindu.jpg",
+              "link": "https:\/\/www.bosenogice.si\/2021\/05\/17\/ahinsa-bindu-2-bare-and-ananda-bare-review\/"
             }
           },
           "1b179133-81f1-4a82-9c12-f12b9d49a261": {
@@ -3676,18 +3667,27 @@
               "image": "shopify:\/\/shop_images\/hemp_shoes.jpg",
               "link": "https:\/\/www.thebarefootshoereview.com\/post\/episode-42-ahinsa-sundara-bare-hemp"
             }
+          },
+          "398cfaad-2297-4e35-92c9-b944437dd1bc": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Ahinsa Shoes Jaya – Review<\/p>",
+              "author": "bosenogice.si",
+              "image": "shopify:\/\/shop_images\/jaya_bosenogice.jpg",
+              "link": "https:\/\/www.bosenogice.si\/2022\/01\/07\/ahinsa-shoes-jaya-review\/"
+            }
           }
         },
         "block_order": [
           "block_bk9DAn",
           "block_CyzFiM",
-          "398cfaad-2297-4e35-92c9-b944437dd1bc",
           "block_3bEWVJ",
-          "02a5ac71-4d2d-4f41-934d-48d24d11ab94",
           "b0e8a149-f299-4d60-bbc7-617224a9ff42",
+          "02a5ac71-4d2d-4f41-934d-48d24d11ab94",
           "1b179133-81f1-4a82-9c12-f12b9d49a261",
           "0c0c852d-51b0-4741-b267-af42af78d62d",
-          "1c860650-e9ea-44c4-917d-74456878be8f"
+          "1c860650-e9ea-44c4-917d-74456878be8f",
+          "398cfaad-2297-4e35-92c9-b944437dd1bc"
         ],
         "settings": {
           "heading": "Independent reviews of Ahinsa shoes",
