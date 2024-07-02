@@ -136,13 +136,14 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "New spring\/summer collection is here! 🌿",
+              "text": "New summer collection is here! 🌿",
               "link_text": "Be the first one to discover the fresh styles.",
               "link": "shopify:\/\/pages\/spring-24"
             }
           },
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Summer clearance sale is here! 🔥",
               "link_text": "Get up to 40 % off your favorite shoes. Experience the freedom of natural movement!",
@@ -151,10 +152,9 @@
           },
           "cae1281a-8737-47b9-96f0-e29e176b747b": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Step by step to healthy walking",
-              "link_text": "Download E-book from physiotherapist for FREE",
+              "text": "Step by step to healthy walking 👣",
+              "link_text": "Download E-book from physiotherapist for FREE and learn how to walk healthy.",
               "link": "shopify:\/\/pages\/tips-for-those-who-care-about-their-health"
             }
           }
