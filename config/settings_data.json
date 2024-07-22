@@ -3661,6 +3661,7 @@
           },
           "1c860650-e9ea-44c4-917d-74456878be8f": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>Ahinsa Sundara Bare Hemp Review<\/p>",
               "author": "thebarefootshoereview.com",
@@ -3676,6 +3677,15 @@
               "image": "shopify:\/\/shop_images\/jaya_bosenogice.jpg",
               "link": "https:\/\/www.bosenogice.si\/2022\/01\/07\/ahinsa-shoes-jaya-review\/"
             }
+          },
+          "block_birUVW": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Chitra Trek&Trail video review<\/p>",
+              "author": "Andrew Folts",
+              "image": "shopify:\/\/shop_images\/chitra_review.jpg",
+              "link": "https:\/\/youtu.be\/RHJnkMezZdo?si=n_8KW3NYkQ926VxT"
+            }
           }
         },
         "block_order": [
@@ -3687,7 +3697,8 @@
           "1b179133-81f1-4a82-9c12-f12b9d49a261",
           "0c0c852d-51b0-4741-b267-af42af78d62d",
           "1c860650-e9ea-44c4-917d-74456878be8f",
-          "398cfaad-2297-4e35-92c9-b944437dd1bc"
+          "398cfaad-2297-4e35-92c9-b944437dd1bc",
+          "block_birUVW"
         ],
         "settings": {
           "heading": "Independent reviews of Ahinsa shoes",
