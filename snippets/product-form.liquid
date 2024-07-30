@@ -628,3 +628,38 @@
     
   }
 </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Select all div elements with class 'variant-input'
+    const variantInputs = document.querySelectorAll('.variant-input');
+
+    // For each div, find the input and add a click event listener
+    variantInputs.forEach((div) => {
+      const input = div.querySelector('input');
+      if (input) {
+        input.addEventListener('click', () => {
+          console.log('clicked')
+          const bisTrigger = document.getElementById('BIS_trigger');
+          if (bisTrigger) {
+          console.log('btn back to stock')
+            setTimeout(() => {
+              
+            if (input.classList.contains('disabled')) {
+              console.log('option disabled')
+              
+              bisTrigger.style.display = 'block';
+              bisTrigger.style.setProperty('display', 'block', 'important'); // Ensure !important is set
+            } else {
+              console.log('option no-disabled')
+              
+              bisTrigger.style.display = 'none';
+              bisTrigger.style.setProperty('display', 'none', 'important'); // Ensure !important is set
+            }
+            }, 50)
+          }
+        });
+      }
+    });
+  });
+</script>
