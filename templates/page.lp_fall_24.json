@@ -45,6 +45,7 @@
     },
     "lp_text_and_image1_cB6BGr": {
       "type": "lp-text-and-image1",
+      "disabled": true,
       "settings": {
         "title": "Know when you look the best?",
         "text": "<p>When you’re <strong>comfortable and being yourself<\/strong>. We kept that in mind while designing the new and fresh Ahinsa shoes collection. <\/p><p>It’s finally here – and you can be the first to get a pair.<\/p>"
@@ -773,6 +774,7 @@
     },
     "background_image_text_C9KreF": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "Uncompromisingly comfortable",
         "title": "The improved Comfort line:",
@@ -789,6 +791,7 @@
     },
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b": {
       "type": "lp-podzim-text-and-image7-text",
+      "disabled": true,
       "settings": {
         "title": "Your feedback on our last collection touched us. Thank you!",
         "text": "<p>We’ve been collecting your experiences, and we’ve used them to improve your favorite models and come up with new ones that are still missing in your shoe collection.<\/p>",
@@ -799,6 +802,7 @@
     },
     "lp_image_reviews_8FdL9N": {
       "type": "lp_image_reviews",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/image.png",
         "image_m": "shopify:\/\/shop_images\/image_1_-2.png",
