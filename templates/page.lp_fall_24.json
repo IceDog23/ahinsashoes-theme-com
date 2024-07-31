@@ -332,11 +332,11 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Chic Ballet Flats",
-        "subtitle": "One pair of shoes – but different every day ✨",
-        "text": "<p>Is your outfit just asking for a <strong>fluffy ribbon<\/strong> or a <strong>delicate anklet<\/strong>? Details matter, and that’s why you can put your own finishing touches on these new Chic ballet flats.<\/p>",
-        "button_label": "Be chic",
-        "button_link": "https:\/\/ahinsashoes.com\/collections\/news\/chic",
+        "title": "Keep nice and warm in Shuma Winter boots",
+        "subtitle": "",
+        "text": "<p>You fell in love with the autumn Shuma shoes so much that you didn’t want to take them off for winter. That’s why we’ve created the <strong>winter version with fuzzy fur lining<\/strong>. What warmth!<\/p>",
+        "button_label": "Warm yourself up",
+        "button_link": "https:\/\/ahinsashoes.com\/collections\/news\/shuma-winter",
         "layout": "right",
         "divider": false
       }
@@ -384,10 +384,10 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Suna sandals",
-        "subtitle": "– for every foot, big and small",
-        "text": "<p>We love simple things. Like simple sandals that <strong>truly fit everyone. <\/strong>The flexible rubber <strong>adapts <\/strong>to your heel, your instep – and also your style. And they’re ultra-easy to put on.<\/p>",
-        "button_label": "Choose minimalistic footwear",
+        "title": "Zzzzzip! Tara Winter sneakers now come with a zipper",
+        "subtitle": "",
+        "text": "<p>Who says you can’t wear sneakers in the winter? And who says you have to tie the laces on them? We’ve added a <strong>practical zipper <\/strong>to these winter Tara sneakers, just like you wished.<\/p>",
+        "button_label": "Zzzip them up!",
         "button_link": "https:\/\/ahinsashoes.com\/collections\/news\/suna",
         "layout": "left",
         "divider": false
@@ -420,12 +420,6 @@
             "image": "shopify:\/\/shop_images\/DSC_1989.jpg"
           }
         },
-        "html_awLDHd": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_2116.jpg"
-          }
-        },
         "html_4ekNhi": {
           "type": "html",
           "settings": {
@@ -438,7 +432,6 @@
         "html_7AQVRf",
         "html_zhP9Lr",
         "html_CB6mWg",
-        "html_awLDHd",
         "html_4ekNhi"
       ],
       "settings": {
@@ -479,24 +472,6 @@
             "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_13of41.jpg"
           }
         },
-        "html_FziUYc": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_1639.jpg"
-          }
-        },
-        "html_BJdTg7": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_1823.jpg"
-          }
-        },
-        "html_JX9EBn": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_16of41_be018847-26d0-46c4-9a0b-b6377e47b186.jpg"
-          }
-        },
         "html_K36XiC": {
           "type": "html",
           "settings": {
@@ -509,9 +484,6 @@
         "html_6FPai9",
         "html_8myGPR",
         "html_ehi9rp",
-        "html_FziUYc",
-        "html_BJdTg7",
-        "html_JX9EBn",
         "html_K36XiC"
       ],
       "settings": {
@@ -604,12 +576,6 @@
             "image": "shopify:\/\/shop_images\/Ahinsa_svatebni_webAhinsa_svatebni_9KC5702_dede3f4b-a8da-4c68-98db-2efe3a6b471a.jpg"
           }
         },
-        "html_yLMG8F": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_26of41_1.jpg"
-          }
-        },
         "html_xPNH48": {
           "type": "html",
           "settings": {
@@ -622,7 +588,6 @@
         "html_KdzPKx",
         "html_Fg6yFx",
         "html_rQjtjE",
-        "html_yLMG8F",
         "html_xPNH48"
       ],
       "settings": {
