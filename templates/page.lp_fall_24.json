@@ -15,19 +15,19 @@
         "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1": {
           "type": "image",
           "settings": {
-            "top_subheading": "The new collection of spring and summer Ahinsa shoes is here!",
-            "title": "The Most Comfortable \nSpring of Your Life",
+            "top_subheading": "The new autumn and winter Ahinsa shoes collection",
+            "title": "The shoes you’ve been wishing for. Literally.",
             "title_size": 60,
-            "subheading": "",
+            "subheading": "Know what the names of our <b>best designers are?<\/b> Sarah, Emma, David, Mark... \nThey’re <b>our customers<\/b>, who’ve sent us their ideas for new models. \n<p>That’s why the new collection is only about you. We’ve answered your requests and created <b>healthy shoes to fit them.<\/b>\n<\/p>",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/DSC_3487_0bb4d641-0442-417a-85e9-13effbcd9de7.jpg",
+            "image": "shopify:\/\/shop_images\/01c77e57-e81e-4ad8-9ad0-279bf212c7a3.jpg",
             "overlay_opacity": 30,
-            "focal_point": "center center"
+            "focal_point": "bottom center"
           }
         }
       },
@@ -35,7 +35,7 @@
         "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1"
       ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "550px",
         "mobile_height": "auto",
         "parallax": true,
         "style": "bars",
@@ -87,55 +87,31 @@
         "f366022b-15fb-48b1-b5d0-2149cee9c220": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3T1A2502.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_9983_20240508.jpg"
           }
         },
         "html_VYaYqw": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_3140.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_9901_20240508_2b53ead8-c935-41be-96ce-91be9011cc1a.jpg"
           }
         },
         "html_RjdyxT": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_2713.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_9845_20240508.jpg"
           }
         },
         "1cfab0be-5b16-4269-a8f2-79479431caa0": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3T1A2303.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_9875_20240508.jpg"
           }
         },
         "html_dLmNjR": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_3851.jpg"
-          }
-        },
-        "html_3YazB9": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3T1A1910.jpg"
-          }
-        },
-        "html_rUdAiE": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3T1A2127.jpg"
-          }
-        },
-        "html_rFBWfP": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_3082.jpg"
-          }
-        },
-        "html_KAGrLw": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_3057.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_9681_20240508.jpg"
           }
         }
       },
@@ -144,19 +120,15 @@
         "html_VYaYqw",
         "html_RjdyxT",
         "1cfab0be-5b16-4269-a8f2-79479431caa0",
-        "html_dLmNjR",
-        "html_3YazB9",
-        "html_rUdAiE",
-        "html_rFBWfP",
-        "html_KAGrLw"
+        "html_dLmNjR"
       ],
       "settings": {
         "image_width": 500,
-        "title": "Pura Play sneakers",
-        "subtitle": "Overflowing with color",
-        "text": "<p>You’ve taken a real liking to our Pura sneakers. Thank you! As a reward, we’ve added <strong>a touch of playfulness<\/strong> to them. What color will you choose to make your day more fun?<\/p>",
-        "button_label": "Select a color",
-        "button_link": "https:\/\/ahinsashoes.com\/collections\/news\/pura-play",
+        "title": "Shuma Nature ankle boots won’t get wet",
+        "subtitle": "",
+        "text": "<p>The popular Shuma boots have been fitted with <strong>waterproof lining<\/strong> and also a <strong>tested Vibram sole that will grip, even on ice.<\/strong><\/p>",
+        "button_label": "Walk through the rain",
+        "button_link": "https:\/\/ahinsashoes.com\/collections\/news\/shuma-nature",
         "layout": "right",
         "divider": false
       }
