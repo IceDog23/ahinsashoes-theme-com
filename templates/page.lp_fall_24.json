@@ -237,103 +237,37 @@
         "divider": false
       }
     },
-    "78f72821-6c02-4943-8234-82d8128e2acd": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_KFgieJ": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC01526-min_cfd642e5-ec64-42f2-a469-9f253b8767c4.jpg"
-          }
-        },
-        "html_cht9bC": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC01670.jpg"
-          }
-        },
-        "html_ytc3yA": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC01651.jpg"
-          }
-        },
-        "html_U6UAKq": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC01599.jpg"
-          }
-        },
-        "html_3ezqX4": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC01558.jpg"
-          }
-        },
-        "html_JWzBCN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC01706.jpg"
-          }
-        },
-        "html_ax9jCY": {
-          "type": "html",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC01603.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_KFgieJ",
-        "html_cht9bC",
-        "html_ytc3yA",
-        "html_U6UAKq",
-        "html_3ezqX4",
-        "html_JWzBCN",
-        "html_ax9jCY"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Chic Ballet Flats",
-        "subtitle": "One pair of shoes – but different every day ✨",
-        "text": "<p>Is your outfit just asking for a <strong>fluffy ribbon<\/strong> or a <strong>delicate anklet<\/strong>? Details matter, and that’s why you can put your own finishing touches on these new Chic ballet flats.<\/p>",
-        "button_label": "Be chic",
-        "button_link": "https:\/\/ahinsashoes.com\/collections\/news\/chic",
-        "layout": "left",
-        "divider": false
-      }
-    },
     "lp_text_and_image_gallery_4QD9Qa": {
       "type": "lp_text_and_image_gallery",
       "blocks": {
         "html_cQEcBF": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_2934.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_8955_20240507.jpg"
           }
         },
         "html_GMgnaK": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_2960.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_8932_20240507_1.jpg"
           }
         },
         "html_EKT78K": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_2887.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_8929_20240507.jpg"
           }
         },
         "html_A7PxEb": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_2924.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_8963_20240507.jpg"
           }
         },
         "html_6eiMgC": {
           "type": "html",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_2900.jpg"
+            "image": "shopify:\/\/shop_images\/DSC_8922_20240507.jpg"
           }
         }
       },
@@ -346,11 +280,63 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Mesh Slip-on sneakers",
-        "subtitle": "Heading outdoors in three… two…",
-        "text": "<p>…one! Slide into these <strong>slip-on sneakers, <\/strong>which are prepared for the sweltering summer. The breathable mesh will <strong>adapt to your feet and keep them comfortable<\/strong>.<\/p>",
-        "button_label": "Choose Comfort",
-        "button_link": "https:\/\/ahinsashoes.com\/collections\/news\/slip-on",
+        "title": "Knee-high boots? Just say the word!",
+        "subtitle": "",
+        "text": "<p>You mentioned that our selection was missing <strong>high boots<\/strong>. Not anymore! The laces of these Jaya Tall boots will make them fit any calf, but they also have a <strong>zipper<\/strong> so you won’t have to tie them each time you put them on.<\/p>",
+        "button_label": "Lace them up!",
+        "button_link": "https:\/\/ahinsashoes.com\/collections\/news\/jaya",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "78f72821-6c02-4943-8234-82d8128e2acd": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_KFgieJ": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_9533_20240508.jpg"
+          }
+        },
+        "html_cht9bC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_9363_20240508_1.jpg"
+          }
+        },
+        "html_ytc3yA": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AhinsaFinal_38_of_51_1.jpg"
+          }
+        },
+        "html_U6UAKq": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_9321_20240508_1.jpg"
+          }
+        },
+        "html_3ezqX4": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1851_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_KFgieJ",
+        "html_cht9bC",
+        "html_ytc3yA",
+        "html_U6UAKq",
+        "html_3ezqX4"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Chic Ballet Flats",
+        "subtitle": "One pair of shoes – but different every day ✨",
+        "text": "<p>Is your outfit just asking for a <strong>fluffy ribbon<\/strong> or a <strong>delicate anklet<\/strong>? Details matter, and that’s why you can put your own finishing touches on these new Chic ballet flats.<\/p>",
+        "button_label": "Be chic",
+        "button_link": "https:\/\/ahinsashoes.com\/collections\/news\/chic",
         "layout": "right",
         "divider": false
       }
@@ -750,8 +736,8 @@
     "afadba8b-f130-41fc-8a37-2cc6ce89906e",
     "629e967d-2ba6-445e-ac1d-37425cf62106",
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
-    "78f72821-6c02-4943-8234-82d8128e2acd",
     "lp_text_and_image_gallery_4QD9Qa",
+    "78f72821-6c02-4943-8234-82d8128e2acd",
     "lp_text_and_image_gallery_WWqhVd",
     "lp_text_and_image_gallery_KJ8hVd",
     "lp_text_and_image_gallery_gDiqxc",
