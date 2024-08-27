@@ -3538,6 +3538,13 @@
               "text": "<p>I wanted to express my heartfelt appreciation for my Ahinsa Shoes, I absolutely love them! Finding a stylish vegan barefoot shoe was quiet the challenge, and I genuinely appreciate your efforts in creating these shoes!!<\/p>",
               "customer": "Justin Marucci"
             }
+          },
+          "block_4xryMJ": {
+            "type": "block",
+            "settings": {
+              "text": "<p>First and foremost, I'd like to say I love your shoes! The quality, look, and feel have been spectacular. Transforming my shoes into healthier options has been much easier and more enjoyable, thanks to your company. ed (hoping for mustard or beige). Thank you for being a great option for peo<\/p>",
+              "customer": "Ramona Haswell"
+            }
           }
         },
         "block_order": [
@@ -3589,7 +3596,8 @@
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
           "5dda9802-42e6-450b-8ba5-6bb77315e59b",
           "f5699edc-5ce7-4afe-acc4-554c2133aace",
-          "9ce449fb-acc5-433f-949b-9355e6979c99"
+          "9ce449fb-acc5-433f-949b-9355e6979c99",
+          "block_4xryMJ"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
