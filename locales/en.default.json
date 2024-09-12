@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "accessibility": {
@@ -356,9 +365,9 @@
       "waiting_for_stock": "Inventory on the way",
       "view_in_space": "View in your space",
       "view_in_space_label": "View in your space, loads item in augmented reality window",
-      "stock_label": "In stock, we ship within 1-2 days!",
-      "stock_label_today": "In stock, your order is flying to you today!",
-      "stock_label_tomorow": "In stock, we'll send it to you tomorrow.",
+      "stock_label": "In stock, we ship within 3 days!",
+      "stock_label_today": "In stock, your order is flying to you within 3 days!",
+      "stock_label_tomorow": "In stock, we'll send it to you within 3 days.",
       "stock_label_monday": "In stock, we ship on Monday.",
       "preorder2": "Pre-order, will be in stock {{ date }}",
       "preorder3": "We are already making them, you will have them by {{ date }}",
