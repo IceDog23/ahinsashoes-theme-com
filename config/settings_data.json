@@ -134,6 +134,7 @@
           },
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "New autumn collection is here! 💚",
               "link_text": "Be the first one to discover the most comfortable shoes of the season.",
@@ -142,11 +143,10 @@
           },
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Summer clearance sale is here! 🔥",
+              "text": "Black Friday sale is here! 🔥",
               "link_text": "Get up to 40 % off your favorite shoes. Experience the freedom of natural movement!",
-              "link": "shopify://collections/sale"
+              "link": "shopify://blogs/news/black-friday-discount"
             }
           },
           "cae1281a-8737-47b9-96f0-e29e176b747b": {
