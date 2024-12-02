@@ -134,15 +134,15 @@
           },
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "New autumn collection is here! 💚",
+              "text": "New winter collection is here! ❄️",
               "link_text": "Be the first one to discover the most comfortable shoes of the season.",
               "link": "shopify://pages/autumn-collection"
             }
           },
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Black Friday sale is here! 🔥",
               "link_text": "Get up to 40 % off your favorite shoes. Experience the freedom of natural movement!",
@@ -5273,14 +5273,14 @@
       "structured-event-data": {
         "type": "structured-event-data",
         "settings": {
-          "name": "Black Friday sale is here – up to 40 % discounts 🖤",
-          "url": "https://ahinsashoes.com/blogs/news/black-friday-discount",
-          "startDate": "2024-11-25",
-          "endDate": "2024-12-02",
-          "name2": "Free e-book from physiotherapists 📖",
-          "url2": "https://ahinsashoes.com/pages/tips-for-those-who-care-about-their-health",
-          "startDate2": "2024-01-01",
-          "endDate2": "2024-12-31",
+          "name": "Free e-book from physiotherapists 📖",
+          "url": "https://ahinsashoes.com/pages/tips-for-those-who-care-about-their-health",
+          "startDate": "2024-01-01",
+          "endDate": "2024-12-31",
+          "name2": "",
+          "url2": "",
+          "startDate2": "",
+          "endDate2": "",
           "name3": "",
           "url3": "",
           "startDate3": "",
