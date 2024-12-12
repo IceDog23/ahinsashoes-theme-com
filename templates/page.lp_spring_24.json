@@ -45,22 +45,9 @@
     },
     "lp_text_and_image1_cB6BGr": {
       "type": "lp-text-and-image1",
-      "disabled": true,
       "settings": {
         "title": "Know when you look the best?",
         "text": "<p>When you’re <strong>comfortable and being yourself</strong>. We kept that in mind while designing the new and fresh Ahinsa shoes collection. </p><p>It’s finally here – and you can be the first to get a pair.</p>"
-      }
-    },
-    "wau_text_Q4qDEE": {
-      "type": "WAU-text",
-      "settings": {
-        "title": "",
-        "subtitle": "Udělejte radost sobě i svým drahým. Vyberte si troje Ahinsa shoes a nejlevnější pár získáte zdarma.",
-        "text": "<p>Large text to tell a story, explain a detail about your product, or describe a new promotion.</p>",
-        "button_label": "Optional button",
-        "button_link": "",
-        "divider": false,
-        "textcenter": true
       }
     },
     "lp_image_reviews_iUy3ac": {
@@ -822,7 +809,6 @@
   "order": [
     "26396f05-6969-47e0-aa8d-0fb2471ab88e",
     "lp_text_and_image1_cB6BGr",
-    "wau_text_Q4qDEE",
     "lp_image_reviews_iUy3ac",
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
