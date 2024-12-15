@@ -545,15 +545,16 @@
       "newsletter-popup": {
         "type": "newsletter-popup",
         "settings": {
-          "mode": "disabled",
-          "popup_seconds": 5,
+          "mode": "testing",
+          "popup_seconds": 15,
           "popup_days": 30,
-          "popup_title": "Sign up and save",
-          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
-          "close_text": "No thanks",
+          "popup_title": "🎁 Boxing Day – 15% off your order",
+          "popup_image": "shopify://shop_images/bboxing_day.jpg",
+          "popup_text": "<p><strong>Thank you so much for giving our work meaning!</strong> We planned a small gift for you – you can use the discount code <strong>COMFYNEWYEAR </strong>for 15% off your order. Simply use the code at checkout.</p>",
+          "close_text": "Close",
           "enable_newsletter": false,
-          "button_label": "Optional button",
-          "button_link": "",
+          "button_label": "",
+          "button_link": "shopify://collections/sale",
           "enable_button": false
         }
       },
