@@ -169,6 +169,17 @@
             </div>
           {% endfor %}
 
+          // Cart attribute 
+                <div class="t4s-split-order-container">
+            <input type="checkbox" name="attributes[split_order]" value="true">
+            <label for="split_order">Rozdělte mi objednávku do více balíčků</label>
+            <div class="break"></div>
+            <p>
+              Některé z bot, které jste si vybrali, nemáme skladem. Běžně čekáme, až budeme mít všechny, a posíláme jen
+              1 balíček. Jestli se ale nemůžete dočkat, balíček vám rozdělíme.
+            </p>
+          </div> 
+
           <div class="cart__row">
             <div class="grid">
               {% if settings.cart_notes_enable %}
