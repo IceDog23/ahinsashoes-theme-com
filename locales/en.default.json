@@ -146,7 +146,9 @@
       "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions<\/a>",
       "terms_confirm": "You must agree with the terms and conditions of sales to check out",
       "to_cart": "Continue to cart",
-      "upsell_title": "You may also like:"
+      "upsell_title": "You may also like:",
+      "split_order_label": "Split my order into multiple packages",
+      "split_order_text": "Some of the shoes you have selected are out of stock. We normally wait until we have them all and only send 1 package. But if you can't wait, we will divide the package for you."
     },
     "label": {
       "price": "Price",
