@@ -545,7 +545,7 @@
       "newsletter-popup": {
         "type": "newsletter-popup",
         "settings": {
-          "mode": "enabled",
+          "mode": "disabled",
           "popup_seconds": 15,
           "popup_days": 30,
           "popup_title": "🎁 Boxing Day – 15% off your order",
