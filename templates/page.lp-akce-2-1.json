@@ -55,43 +55,51 @@
         "textcenter": true
       }
     },
-    "np_3img_banner_CpUgPV": {
-      "type": "np-3img_banner",
+    "homepage_promotions_ApBGy6": {
+      "type": "homepage-promotions",
       "blocks": {
-        "html_h8LkBg": {
-          "type": "html",
+        "promotion_3YrDjh": {
+          "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/ico-barefoot.png",
-            "title": "Healthy shoes from physiotherapists"
+            "title": "Healthy shoes from physiotherapists",
+            "text": "",
+            "button_link": "",
+            "image": "shopify://shop_images/ico-barefoot.png"
           }
         },
-        "html_hFVczX": {
-          "type": "html",
+        "promotion_rtcHk8": {
+          "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Sport.png",
-            "title": "Will last millions of steps"
+            "title": "Will last millions of steps",
+            "text": "",
+            "button_link": "",
+            "image": "shopify://shop_images/Sport.png"
           }
         },
-        "html_QbEmXn": {
-          "type": "html",
+        "promotion_3bMA9e": {
+          "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/ico-best.png",
-            "title": "Comforms to your feet"
+            "title": "Comforms to your feet",
+            "text": "",
+            "button_link": "",
+            "image": "shopify://shop_images/ico-best.png"
           }
         },
-        "html_AHJpVB": {
-          "type": "html",
+        "promotion_9g3bTD": {
+          "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/ico-replace.png",
-            "title": "Easy size exchanges and returns"
+            "title": "Easy size exchanges and returns",
+            "text": "",
+            "button_link": "",
+            "image": "shopify://shop_images/ico-replace.png"
           }
         }
       },
       "block_order": [
-        "html_h8LkBg",
-        "html_hFVczX",
-        "html_QbEmXn",
-        "html_AHJpVB"
+        "promotion_3YrDjh",
+        "promotion_rtcHk8",
+        "promotion_3bMA9e",
+        "promotion_9g3bTD"
       ],
       "settings": {}
     },
@@ -152,6 +160,18 @@
       "settings": {
         "title": "Hřejivé zimní boty s kožíškem",
         "text": "<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <strong>osvědčil i ve finských mrazech</strong>.</p>"
+      }
+    },
+    "featured_collection_XWBBDf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "ballerina-sandals",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
       }
     },
     "lp_text_on_image_qGHnHh": {
@@ -223,9 +243,10 @@
   "order": [
     "26396f05-6969-47e0-aa8d-0fb2471ab88e",
     "wau_text_mWRH8i",
-    "np_3img_banner_CpUgPV",
+    "homepage_promotions_ApBGy6",
     "advanced_content_JHPiQz",
     "lp_text_and_image1_7iVPam",
+    "featured_collection_XWBBDf",
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
     "featured_collections_wCDCDP",
