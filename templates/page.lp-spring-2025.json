@@ -120,7 +120,7 @@
         "text": "<p>You’ve taken a real liking to our Pura sneakers. Thank you! As a reward, we’ve added <strong>a touch of playfulness</strong> to them. What color will you choose to make your day more fun?</p>",
         "button_label": "",
         "button_link": "",
-        "layout": "right",
+        "layout": "left",
         "divider": false
       }
     },
@@ -172,7 +172,7 @@
         "text": "<p>What’s the best material for summer? Hemp! <strong>It breathes, dries quickly </strong>– and it looks <strong>wonderful</strong>. What’s more, no one has the same pair as you. Color them with markers and show off your style. </p>",
         "button_label": "",
         "button_link": "",
-        "layout": "left",
+        "layout": "right",
         "divider": false
       }
     },
@@ -224,7 +224,7 @@
         "text": "<p><strong>A breeze is caressing your feet</strong>. You’re enjoying a summer trip and every step is bringing you joy. This is exactly what you’ll experience in the Flow sneakers made with breathable mesh. </p>",
         "button_label": "",
         "button_link": "",
-        "layout": "right",
+        "layout": "left",
         "divider": false
       }
     },
@@ -290,7 +290,7 @@
         "text": "<p>Is your outfit just asking for a <strong>fluffy ribbon</strong> or a <strong>delicate anklet</strong>? Details matter, and that’s why you can put your own finishing touches on these new Chic ballet flats.</p>",
         "button_label": "",
         "button_link": "",
-        "layout": "left",
+        "layout": "right",
         "divider": false
       }
     },
@@ -342,65 +342,6 @@
         "text": "<p>…one! Slide into these <strong>slip-on sneakers, </strong>which are prepared for the sweltering summer. The breathable mesh will <strong>adapt to your feet and keep them comfortable</strong>.</p>",
         "button_label": "Choose Comfort",
         "button_link": "https://ahinsashoes.com/collections/news/slip-on",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_7UdyAQ": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_ibijLP": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_19of41.jpg"
-          }
-        },
-        "html_KdzPKx": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_webAhinsa_svatebni_9KC5663_7a3970bc-80a9-4edd-8cc6-b540a412be0d.jpg"
-          }
-        },
-        "html_Fg6yFx": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_27of41.jpg"
-          }
-        },
-        "html_rQjtjE": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_webAhinsa_svatebni_9KC5702_dede3f4b-a8da-4c68-98db-2efe3a6b471a.jpg"
-          }
-        },
-        "html_yLMG8F": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_26of41_1.jpg"
-          }
-        },
-        "html_xPNH48": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_25of41.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_ibijLP",
-        "html_KdzPKx",
-        "html_Fg6yFx",
-        "html_rQjtjE",
-        "html_yLMG8F",
-        "html_xPNH48"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Trekking sandals",
-        "subtitle": "– the way you like them",
-        "text": "<p>Do you prefer a <strong>strap between your toes</strong> or a more <strong>classic fit</strong>? We’ve made these trekking sandals for you in both options. The Vibram sole won’t slip and it can handle every terrain. Put it to the test! </p>",
-        "button_label": "Pick out a pair of your own",
-        "button_link": "https://ahinsashoes.com/collections/news/for-hiking+sandals",
         "layout": "left",
         "divider": false
       }
@@ -427,7 +368,6 @@
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
     "78f72821-6c02-4943-8234-82d8128e2acd",
     "lp_text_and_image_gallery_4QD9Qa",
-    "lp_text_and_image_gallery_7UdyAQ",
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b"
   ]
 }
