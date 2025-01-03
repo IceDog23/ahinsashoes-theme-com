@@ -182,49 +182,31 @@
         "html_93zeBN": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2488.jpg"
+            "image": "shopify://shop_images/DSC05764.jpg"
           }
         },
         "html_4Abtch": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2375.jpg"
+            "image": "shopify://shop_images/IMG_9848.jpg"
           }
         },
         "html_7dwhJj": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2509.jpg"
+            "image": "shopify://shop_images/DSC05797.jpg"
           }
         },
         "html_tiTGqN": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2463.jpg"
+            "image": "shopify://shop_images/IMG_0005.jpg"
           }
         },
         "html_3YNcdW": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2321.jpg"
-          }
-        },
-        "html_4dpYbw": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_2494.jpg"
-          }
-        },
-        "html_i8UmkP": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_2368.jpg"
-          }
-        },
-        "html_bLHEcy": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_2651.jpg"
+            "image": "shopify://shop_images/DSC2468-kopie.jpg"
           }
         }
       },
@@ -233,18 +215,15 @@
         "html_4Abtch",
         "html_7dwhJj",
         "html_tiTGqN",
-        "html_3YNcdW",
-        "html_4dpYbw",
-        "html_i8UmkP",
-        "html_bLHEcy"
+        "html_3YNcdW"
       ],
       "settings": {
         "image_width": 500,
         "title": "Summer Flow sneakers",
         "subtitle": "A fresh breeze for your feet",
         "text": "<p><strong>A breeze is caressing your feet</strong>. You’re enjoying a summer trip and every step is bringing you joy. This is exactly what you’ll experience in the Flow sneakers made with breathable mesh. </p>",
-        "button_label": "Enjoy the breeze",
-        "button_link": "https://ahinsashoes.com/collections/news/flow",
+        "button_label": "",
+        "button_link": "",
         "layout": "right",
         "divider": false
       }
@@ -281,18 +260,6 @@
           "settings": {
             "image": "shopify://shop_images/DSC01558.jpg"
           }
-        },
-        "html_JWzBCN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01706.jpg"
-          }
-        },
-        "html_ax9jCY": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01603.jpg"
-          }
         }
       },
       "block_order": [
@@ -300,17 +267,15 @@
         "html_cht9bC",
         "html_ytc3yA",
         "html_U6UAKq",
-        "html_3ezqX4",
-        "html_JWzBCN",
-        "html_ax9jCY"
+        "html_3ezqX4"
       ],
       "settings": {
         "image_width": 500,
-        "title": "Chic Ballet Flats",
-        "subtitle": "One pair of shoes – but different every day ✨",
+        "title": "Preciosa",
+        "subtitle": "",
         "text": "<p>Is your outfit just asking for a <strong>fluffy ribbon</strong> or a <strong>delicate anklet</strong>? Details matter, and that’s why you can put your own finishing touches on these new Chic ballet flats.</p>",
-        "button_label": "Be chic",
-        "button_link": "https://ahinsashoes.com/collections/news/chic",
+        "button_label": "",
+        "button_link": "",
         "layout": "left",
         "divider": false
       }
