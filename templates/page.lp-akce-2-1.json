@@ -49,7 +49,7 @@
         "title": "Zdravá chůze dělá dobrou náladu",
         "subtitle": "…a tu my šíříme ze všeho nejradši",
         "text": "<p>Víte, že <strong>chůze ve zdravých botách</strong> funguje jako masáž nohou? Přes chodila stimuluje mozková centra, a tím spouští radost. </p><p>Ten pocit chceme šířit. Proto teď <strong>posíláme do světa Ahinsa shoes zdarma</strong>. Pro vás, vaše přátele, rodinu. </p><p>Je jen na vás, komu radost pošlete.</p>",
-        "button_label": "Jdu sdílet RADOST",
+        "button_label": "",
         "button_link": "",
         "divider": false,
         "textcenter": true
@@ -118,6 +118,7 @@
       "block_order": [
         "html_MHgW3D"
       ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "space_around": false
@@ -162,14 +163,27 @@
         "text": "<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <strong>osvědčil i ve finských mrazech</strong>.</p>"
       }
     },
-    "lp_text_and_image2_podzim_y39ykN": {
-      "type": "lp-text-and-image2-podzim",
+    "advanced_content_34WmKp": {
+      "type": "advanced-content",
+      "blocks": {
+        "html_UdHVrE": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"full-w feature-row centered-feature-row aos-init aos-animate\" data-aos=\"\">\n<div class=\"feature-row__item  feature-row__text feature-row__text--center text-center\">\n<p class=\"h3\" id=\"products\">Hřejivé zimní boty s kožíškem</p>\n<div class=\"rte featured-row__subtext\">\n<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <b>osvědčil i ve finských mrazech.</b></p>\n</div>\n</div>\n</div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "html_UdHVrE"
+      ],
       "custom_css": [
         "div {margin-bottom: -20px;}"
       ],
       "settings": {
-        "title": "Hřejivé zimní boty s kožíškem",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+        "full_width": true,
+        "space_around": false
       }
     },
     "featured_collection_XWBBDf": {
@@ -177,6 +191,28 @@
       "settings": {
         "title": "",
         "home_featured_products": "ballerina-sandals",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "lp_text_and_image2_podzim_y39ykN": {
+      "type": "lp-text-and-image2-podzim",
+      "custom_css": [
+        "div {margin-bottom: -20px;}"
+      ],
+      "settings": {
+        "title": "Hřejivé zimní boty s kožíškem",
+        "text": "<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <strong>osvědčil i ve finských mrazech</strong>.</p>"
+      }
+    },
+    "featured_collection_PhYH6h": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "simple-flip-flops-sandals",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -265,8 +301,10 @@
     "homepage_promotions_ApBGy6",
     "advanced_content_JHPiQz",
     "lp_text_and_image1_7iVPam",
-    "lp_text_and_image2_podzim_y39ykN",
+    "advanced_content_34WmKp",
     "featured_collection_XWBBDf",
+    "lp_text_and_image2_podzim_y39ykN",
+    "featured_collection_PhYH6h",
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
     "featured_collections_wCDCDP",
