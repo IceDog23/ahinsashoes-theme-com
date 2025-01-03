@@ -169,7 +169,7 @@
         "html_UdHVrE": {
           "type": "html",
           "settings": {
-            "code": "<div class=\"full-w feature-row centered-feature-row aos-init aos-animate\" data-aos=\"\">\n<div class=\"feature-row__item  feature-row__text feature-row__text--center text-center\">\n<p class=\"h3\" id=\"products\">Hřejivé zimní boty s kožíškem</p>\n<div class=\"rte featured-row__subtext\">\n<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <b>osvědčil i ve finských mrazech.</b></p>\n</div>\n</div>\n</div>",
+            "code": "<div class=\"full-w feature-row centered-feature-row aos-init aos-animate\" data-aos=\"\" style=\"  margin-bottom: -20px;\">\n<div class=\"feature-row__item  feature-row__text feature-row__text--center text-center\">\n<p class=\"h3\" id=\"products\">Hřejivé zimní boty s kožíškem</p>\n<div class=\"rte featured-row__subtext\">\n<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <b>osvědčil i ve finských mrazech.</b></p>\n</div>\n</div>\n</div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -178,9 +178,7 @@
       "block_order": [
         "html_UdHVrE"
       ],
-      "custom_css": [
-        "div {margin-bottom: -20px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "space_around": false
