@@ -118,8 +118,8 @@
         "title": "Pura Play sneakers",
         "subtitle": "Overflowing with color",
         "text": "<p>You’ve taken a real liking to our Pura sneakers. Thank you! As a reward, we’ve added <strong>a touch of playfulness</strong> to them. What color will you choose to make your day more fun?</p>",
-        "button_label": "Select a color",
-        "button_link": "https://ahinsashoes.com/collections/news/pura-play",
+        "button_label": "",
+        "button_link": "",
         "layout": "right",
         "divider": false
       }
@@ -130,49 +130,31 @@
         "html_9x9DcP": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_3487.jpg"
+            "image": "shopify://shop_images/IMG_7931_7e9b3931-ac82-4f62-b248-04fbe8d2c21c.jpg"
           }
         },
         "html_nwMQ7H": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/AhinsaStudio_8of26.jpg"
+            "image": "shopify://shop_images/DSC2977-kopie.jpg"
           }
         },
         "html_4D9nEe": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/AhinsaStudio_18of26.jpg"
+            "image": "shopify://shop_images/IMG_7967.jpg"
           }
         },
         "html_xzFDrR": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_3429.jpg"
+            "image": "shopify://shop_images/DSC2949-kopie.jpg"
           }
         },
         "html_TWANRF": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/AhinsaStudio_10of26.jpg"
-          }
-        },
-        "html_fYLCNV": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_3528.jpg"
-          }
-        },
-        "html_VzNxfK": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaStudio_16of26.jpg"
-          }
-        },
-        "html_AqCyPN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaStudio_15of26.jpg"
+            "image": "shopify://shop_images/IMG_7808.jpg"
           }
         }
       },
@@ -181,18 +163,15 @@
         "html_nwMQ7H",
         "html_4D9nEe",
         "html_xzFDrR",
-        "html_TWANRF",
-        "html_fYLCNV",
-        "html_VzNxfK",
-        "html_AqCyPN"
+        "html_TWANRF"
       ],
       "settings": {
         "image_width": 500,
         "title": "Natural Vida Hemp sneakers",
         "subtitle": "- in living color ❤️",
         "text": "<p>What’s the best material for summer? Hemp! <strong>It breathes, dries quickly </strong>– and it looks <strong>wonderful</strong>. What’s more, no one has the same pair as you. Color them with markers and show off your style. </p>",
-        "button_label": "Experience a summer in comfort",
-        "button_link": "https://ahinsashoes.com/collections/news/vida-hemp",
+        "button_label": "",
+        "button_link": "",
         "layout": "left",
         "divider": false
       }
