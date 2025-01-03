@@ -162,16 +162,14 @@
         "text": "<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <strong>osvědčil i ve finských mrazech</strong>.</p>"
       }
     },
-    "wau_text_kQYTGc": {
-      "type": "WAU-text",
+    "lp_text_and_image2_podzim_y39ykN": {
+      "type": "lp-text-and-image2-podzim",
+      "custom_css": [
+        "div {margin-bottom: -20px;}"
+      ],
       "settings": {
         "title": "Hřejivé zimní boty s kožíškem",
-        "subtitle": "",
-        "text": "<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <strong>osvědčil i ve finských mrazech</strong>.</p>",
-        "button_label": "",
-        "button_link": "",
-        "divider": false,
-        "textcenter": false
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
       }
     },
     "featured_collection_XWBBDf": {
@@ -231,7 +229,7 @@
         "collection_N63N4n"
       ],
       "settings": {
-        "title": "<h2>Nebo obujete něco jiného?</h2><p></p><h3>Akce platí na všechny Ahinsa shoes. Najděte ty své a sdílejte radost.</h3>",
+        "title": "Nebo obujete něco jiného?Akce platí na všechny Ahinsa shoes. Najděte ty své a sdílejte radost.",
         "divider": false,
         "per_row": 2,
         "enable_gutter": true
@@ -267,7 +265,7 @@
     "homepage_promotions_ApBGy6",
     "advanced_content_JHPiQz",
     "lp_text_and_image1_7iVPam",
-    "wau_text_kQYTGc",
+    "lp_text_and_image2_podzim_y39ykN",
     "featured_collection_XWBBDf",
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
