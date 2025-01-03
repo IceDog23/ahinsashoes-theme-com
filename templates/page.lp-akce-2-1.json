@@ -43,21 +43,115 @@
         "autoplay_speed": 5
       }
     },
-    "lp_text_and_image1_cB6BGr": {
-      "type": "lp-text-and-image1",
-      "disabled": true,
+    "wau_text_mWRH8i": {
+      "type": "WAU-text",
       "settings": {
-        "title": "Know when you look the best?",
-        "text": "<p>When you’re <strong>comfortable and being yourself</strong>. We kept that in mind while designing the new and fresh Ahinsa shoes collection. </p><p>It’s finally here – and you can be the first to get a pair.</p>"
+        "title": "Zdravá chůze dělá dobrou náladu",
+        "subtitle": "…a tu my šíříme ze všeho nejradši",
+        "text": "<p>Víte, že <strong>chůze ve zdravých botách</strong> funguje jako masáž nohou? Přes chodila stimuluje mozková centra, a tím spouští radost. </p><p>Ten pocit chceme šířit. Proto teď <strong>posíláme do světa Ahinsa shoes zdarma</strong>. Pro vás, vaše přátele, rodinu. </p><p>Je jen na vás, komu radost pošlete.</p>",
+        "button_label": "Jdu sdílet RADOST",
+        "button_link": "",
+        "divider": false,
+        "textcenter": true
       }
     },
-    "lp_image_reviews_iUy3ac": {
-      "type": "lp_image_reviews",
-      "disabled": true,
+    "np_3img_banner_CpUgPV": {
+      "type": "np-3img_banner",
+      "blocks": {
+        "html_h8LkBg": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/ico-barefoot.png",
+            "title": "Healthy shoes from physiotherapists"
+          }
+        },
+        "html_hFVczX": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Sport.png",
+            "title": "Will last millions of steps"
+          }
+        },
+        "html_QbEmXn": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/ico-best.png",
+            "title": "Comforms to your feet"
+          }
+        },
+        "html_AHJpVB": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/ico-replace.png",
+            "title": "Easy size exchanges and returns"
+          }
+        }
+      },
+      "block_order": [
+        "html_h8LkBg",
+        "html_hFVczX",
+        "html_QbEmXn",
+        "html_AHJpVB"
+      ],
+      "settings": {}
+    },
+    "advanced_content_JHPiQz": {
+      "type": "advanced-content",
+      "blocks": {
+        "html_MHgW3D": {
+          "type": "html",
+          "settings": {
+            "code": "<body>\n\n\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Informational Banner</title>\n    <style>\n        .info-banner {\n            background-color: #C2B288; /* Bright yellow background */\n            color: #333; /* Dark text color for contrast */\n            padding: 20px;\n            text-align: center;\n         font-size: 26px;\n            font-weight: bold;\n            border: 1px solid #999; /* Optional border for emphasis */\n        }\n    </style>\n\n\n\n<div class=\"info-banner\">\n    Please note: Valid only while stocks last. And as we know you, it'll be quick.\n</div>\n\n\n</body>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "html_MHgW3D"
+      ],
       "settings": {
-        "image": "shopify://shop_images/recenze_jaro_24_web.png",
-        "divider": false,
-        "m_bot": 10
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "lp_text_and_image1_7iVPam": {
+      "type": "lp-text-and-image1",
+      "blocks": {
+        "product_JXHVpd": {
+          "type": "product",
+          "settings": {
+            "product": "womens-barefoot-boots-jaya-winter-tall-black"
+          }
+        },
+        "product_J6XQPd": {
+          "type": "product",
+          "settings": {
+            "product": "womens-winter-barefoot-sneakers-tara-winter-2-white"
+          }
+        },
+        "product_QNARXA": {
+          "type": "product",
+          "settings": {
+            "product": "mens-winter-barefoot-boots-sundara-winter-black"
+          }
+        },
+        "product_HA8DBw": {
+          "type": "product",
+          "settings": {
+            "product": "womens-winter-barefoot-boots-shuma-winter-mustard-nubuck"
+          }
+        }
+      },
+      "block_order": [
+        "product_JXHVpd",
+        "product_J6XQPd",
+        "product_QNARXA",
+        "product_HA8DBw"
+      ],
+      "settings": {
+        "title": "Hřejivé zimní boty s kožíškem",
+        "text": "<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <strong>osvědčil i ve finských mrazech</strong>.</p>"
       }
     },
     "lp_text_on_image_qGHnHh": {
@@ -80,637 +174,61 @@
       "disabled": true,
       "settings": {}
     },
-    "afadba8b-f130-41fc-8a37-2cc6ce89906e": {
-      "type": "lp_text_and_image_gallery",
+    "featured_collections_wCDCDP": {
+      "type": "featured-collections",
       "blocks": {
-        "f366022b-15fb-48b1-b5d0-2149cee9c220": {
-          "type": "html",
+        "collection_WCFnx9": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/DSC_9983_20240508.jpg"
+            "collection": "women",
+            "title": "For women",
+            "focal_point": "center center"
           }
         },
-        "html_VYaYqw": {
-          "type": "html",
+        "collection_N63N4n": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/DSC_9901_20240508_2b53ead8-c935-41be-96ce-91be9011cc1a.jpg"
-          }
-        },
-        "html_RjdyxT": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_9845_20240508.jpg"
-          }
-        },
-        "1cfab0be-5b16-4269-a8f2-79479431caa0": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_9875_20240508.jpg"
-          }
-        },
-        "html_dLmNjR": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_9681_20240508.jpg"
+            "collection": "men",
+            "title": "For men",
+            "focal_point": "center center"
           }
         }
       },
       "block_order": [
-        "f366022b-15fb-48b1-b5d0-2149cee9c220",
-        "html_VYaYqw",
-        "html_RjdyxT",
-        "1cfab0be-5b16-4269-a8f2-79479431caa0",
-        "html_dLmNjR"
+        "collection_WCFnx9",
+        "collection_N63N4n"
       ],
       "settings": {
-        "image_width": 500,
-        "title": "Shuma Nature ankle boots won’t get wet",
-        "subtitle": "",
-        "text": "<p>The popular Shuma boots have been fitted with <strong>waterproof lining</strong> and also a <strong>tested Vibram sole that will grip, even on ice.</strong></p>",
-        "button_label": "Walk through the rain",
-        "button_link": "https://ahinsashoes.com/collections/news/shuma-nature",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "629e967d-2ba6-445e-ac1d-37425cf62106": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_9x9DcP": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_0147_20240508.jpg"
-          }
-        },
-        "html_nwMQ7H": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_0251_20240508.jpg"
-          }
-        },
-        "html_4D9nEe": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_0218_20240508.jpg"
-          }
-        },
-        "html_xzFDrR": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_0105_20240508.jpg"
-          }
-        },
-        "html_AqCyPN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_2175.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_9x9DcP",
-        "html_nwMQ7H",
-        "html_4D9nEe",
-        "html_xzFDrR",
-        "html_AqCyPN"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Timeless beauties with new winter sole",
-        "subtitle": "",
-        "text": "<p>Chelsea boots are so popular they deserved an upgrade. Now you can find them in a <strong>stylish mustard colour</strong>. And they've all been given <strong>non-slip winter soles</strong>.</p>",
-        "button_label": "Indulge yourself",
-        "button_link": "https://ahinsashoes.com/collections/news/chelsea",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "25133cf6-5f4c-475f-97a0-62278cf1d0aa": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_93zeBN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/pura_sedy_nubuk_lfst.jpg"
-          }
-        },
-        "html_4Abtch": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8733_20240507_0e652b4c-07f8-41fb-92c6-a16e2e3a1410.jpg"
-          }
-        },
-        "html_7dwhJj": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8695_20240507_1f2f06e5-c4d2-4cf9-9915-176845cae249.jpg"
-          }
-        },
-        "html_tiTGqN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8656_20240507_05209c3e-8283-4df4-ab22-d9da853b4277.jpg"
-          }
-        },
-        "html_bLHEcy": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8635_20240507_3d52b98a-9dae-4c14-b57a-ddf13db2035b.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_93zeBN",
-        "html_4Abtch",
-        "html_7dwhJj",
-        "html_tiTGqN",
-        "html_bLHEcy"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Limited model: Grey Pura sneakers",
-        "subtitle": "",
-        "text": "<p>Do you also love shoes that not everyone has? We made the Grey Pura sneakers as a <strong>limited edition </strong>with only 100 pairs.</p>",
-        "button_label": "Snag them in time",
-        "button_link": "https://ahinsashoes.com/collections/news/pura",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_4QD9Qa": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_cQEcBF": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8955_20240507.jpg"
-          }
-        },
-        "html_GMgnaK": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8932_20240507_1.jpg"
-          }
-        },
-        "html_EKT78K": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8929_20240507.jpg"
-          }
-        },
-        "html_A7PxEb": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8963_20240507.jpg"
-          }
-        },
-        "html_6eiMgC": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8922_20240507.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_cQEcBF",
-        "html_GMgnaK",
-        "html_EKT78K",
-        "html_A7PxEb",
-        "html_6eiMgC"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Knee-high boots? Just say the word!",
-        "subtitle": "",
-        "text": "<p>You mentioned that our selection was missing <strong>high boots</strong>. Not anymore! The laces of these Jaya Tall boots will make them fit any calf, but they also have a <strong>zipper</strong> so you won’t have to tie them each time you put them on.</p>",
-        "button_label": "Lace them up!",
-        "button_link": "https://ahinsashoes.com/collections/news/jaya",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "78f72821-6c02-4943-8234-82d8128e2acd": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_KFgieJ": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_9533_20240508.jpg"
-          }
-        },
-        "html_cht9bC": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_9363_20240508_1.jpg"
-          }
-        },
-        "html_ytc3yA": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaFinal_38_of_51_1.jpg"
-          }
-        },
-        "html_U6UAKq": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_9321_20240508_1.jpg"
-          }
-        },
-        "html_3ezqX4": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_1851_1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_KFgieJ",
-        "html_cht9bC",
-        "html_ytc3yA",
-        "html_U6UAKq",
-        "html_3ezqX4"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Keep nice and warm in Shuma Winter boots",
-        "subtitle": "",
-        "text": "<p>You fell in love with the autumn Shuma shoes so much that you didn’t want to take them off for winter. That’s why we’ve created the <strong>winter version with fuzzy fur lining</strong>. What warmth!</p>",
-        "button_label": "Warm yourself up",
-        "button_link": "https://ahinsashoes.com/collections/news/shuma-winter",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_WWqhVd": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_f7Vpt8": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8444_20240507.jpg"
-          }
-        },
-        "html_mD6cim": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8453_20240507_1.jpg"
-          }
-        },
-        "html_Gd8GHU": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9661_1.jpg"
-          }
-        },
-        "html_EQ7ctj": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8430_20240507.jpg"
-          }
-        },
-        "html_Fc6e8m": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8789a_1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_f7Vpt8",
-        "html_mD6cim",
-        "html_Gd8GHU",
-        "html_EQ7ctj",
-        "html_Fc6e8m"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Zzzzzip! Tara Winter sneakers now come with a zipper",
-        "subtitle": "",
-        "text": "<p>Who says you can’t wear sneakers in the winter? And who says you have to tie the laces on them? We’ve added a <strong>practical zipper </strong>to these winter Tara sneakers, just like you wished.</p>",
-        "button_label": "Zzzip them up!",
-        "button_link": "https://ahinsashoes.com/collections/news/tara",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_KJ8hVd": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_4w8LfW": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9719.jpg"
-          }
-        },
-        "html_7AQVRf": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9961.jpg"
-          }
-        },
-        "html_zhP9Lr": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9552.jpg"
-          }
-        },
-        "html_CB6mWg": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9379.jpg"
-          }
-        },
-        "html_4ekNhi": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9833.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_4w8LfW",
-        "html_7AQVRf",
-        "html_zhP9Lr",
-        "html_CB6mWg",
-        "html_4ekNhi"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Black fur for black shoes",
-        "subtitle": "",
-        "text": "<p>Sundara Winter boots are one of our staple products, and they last their owners for years. But you wrote to us that <strong>they’d also look nice with black fur</strong>, and your wish is our command. </p>",
-        "button_label": "Make your wish come true",
-        "button_link": "https://ahinsashoes.com/collections/news/sundara-winter",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_gDiqxc": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_CLgnxG": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_9154_2_3c09d3fd-8816-4145-aa06-8ab57e9a677e.jpg"
-          }
-        },
-        "html_6FPai9": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/snehule_1.jpg"
-          }
-        },
-        "html_8myGPR": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsazima_web_9KC9274.jpg"
-          }
-        },
-        "html_ehi9rp": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaFinal_19_of_51.jpg"
-          }
-        },
-        "html_K36XiC": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaFinal_25_of_51.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_CLgnxG",
-        "html_6FPai9",
-        "html_8myGPR",
-        "html_ehi9rp",
-        "html_K36XiC"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "You won’t slip up in Irbis snow boots",
-        "subtitle": "",
-        "text": "<p>You went crazy over last year’s new product – Irbis snow boots. But you wanted different soles, so we selected the <strong>tried-and-tested Vibram brand</strong>. They hold fast and won’t slip.</p>",
-        "button_label": "Grip the ground",
-        "button_link": "https://ahinsashoes.com/collections/news/irbis",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_wU7XLU": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_FAckTU": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_1535-2.jpg"
-          }
-        },
-        "html_VGwRQB": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9367.jpg"
-          }
-        },
-        "html_giHYMM": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_1851.jpg"
-          }
-        },
-        "html_W8ptbC": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9864.jpg"
-          }
-        },
-        "html_Mry8j3": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_9776_20240508.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_FAckTU",
-        "html_VGwRQB",
-        "html_giHYMM",
-        "html_W8ptbC",
-        "html_Mry8j3"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Wide feet also have something to look forward to",
-        "subtitle": "",
-        "text": "<p>You wrote us about <strong>extra-wide models</strong>. Here they are! Soon your feet will be enjoying the comfort of wide Shuma and Sundara Winter ankle boots. </p>",
-        "button_label": "Enjoy the extra space",
-        "button_link": "https://ahinsashoes.com/collections/news/xwide",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_7UdyAQ": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_ibijLP": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_19of41.jpg"
-          }
-        },
-        "html_KdzPKx": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_webAhinsa_svatebni_9KC5663_7a3970bc-80a9-4edd-8cc6-b540a412be0d.jpg"
-          }
-        },
-        "html_Fg6yFx": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_27of41.jpg"
-          }
-        },
-        "html_rQjtjE": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_webAhinsa_svatebni_9KC5702_dede3f4b-a8da-4c68-98db-2efe3a6b471a.jpg"
-          }
-        },
-        "html_xPNH48": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_25of41.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_ibijLP",
-        "html_KdzPKx",
-        "html_Fg6yFx",
-        "html_rQjtjE",
-        "html_xPNH48"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_width": 500,
-        "title": "Trekking sandals",
-        "subtitle": "– the way you like them",
-        "text": "<p>Do you prefer a <strong>strap between your toes</strong> or a more <strong>classic fit</strong>? We’ve made these trekking sandals for you in both options. The Vibram sole won’t slip and it can handle every terrain. Put it to the test! </p>",
-        "button_label": "Pick out a pair of your own",
-        "button_link": "https://ahinsashoes.com/collections/news/for-hiking+sandals",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_7C6jAf": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_MQziCV": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC02078.jpg"
-          }
-        },
-        "html_zLifxH": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01796.jpg"
-          }
-        },
-        "html_c7mbmy": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01996.jpg"
-          }
-        },
-        "html_dQVPFK": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01792.jpg"
-          }
-        },
-        "html_yRDFWL": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01780.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_MQziCV",
-        "html_zLifxH",
-        "html_c7mbmy",
-        "html_dQVPFK",
-        "html_yRDFWL"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_width": 500,
-        "title": "Chitra Trek&Trail in turquoise",
-        "subtitle": "Run out into the terrain",
-        "text": "<p><strong>Feel the world beneath you</strong> and lean into it. The <strong>Vibram trekking outsole</strong> will support you in the woods, on the trail and on the rocks.</p>",
-        "button_label": "Head out",
-        "button_link": "https://ahinsashoes.com/collections/news/chitra",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "background_image_text_C9KreF": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
-        "title": "Even more Comfort",
-        "text": "<p>Sometimes you don’t want to feel every pebble beneath your feet. You want to be <strong>treading as if you were walking</strong> <strong>on a cloud</strong>. </p><p>That’s why we’ve improved the <strong>Ahinsa Comfort line</strong> for you. It cares for your steps with the flexible Technogel and foam insole. Mmmm, what comfort!</p>",
-        "button_label": "Wear Pure comfort",
-        "button_link": "shopify://pages/ahinsa-comfort",
-        "image": "shopify://shop_images/tara_lp.jpg",
-        "focal_point": "center",
-        "layout": "right",
-        "height": 550,
-        "framed": false,
-        "parallax": true
-      }
-    },
-    "0f03e679-9781-41a4-b033-4a9bc5d23e8b": {
-      "type": "lp-podzim-text-and-image7-text",
-      "disabled": true,
-      "settings": {
-        "title": "Your feedback on our last collection touched us. Thank you!",
-        "text": "<p>We’ve been collecting your experiences, and we’ve used them to improve your favorite models and come up with new ones that are still missing in your shoe collection.</p>",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
-      }
-    },
-    "lp_image_reviews_8FdL9N": {
-      "type": "lp_image_reviews",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/image.png",
-        "image_m": "shopify://shop_images/image_1_-2.png",
+        "title": "<h2>Nebo obujete něco jiného?</h2><p></p><h3>Akce platí na všechny Ahinsa shoes. Najděte ty své a sdílejte radost.</h3>",
         "divider": false,
-        "m_bot": 10
+        "per_row": 2,
+        "enable_gutter": true
+      }
+    },
+    "e_book_image_text3_jjTYjH": {
+      "type": "e-book-image-text3",
+      "settings": {
+        "image": "shopify://shop_images/DSC_9612_1.jpg",
+        "image_width": 500,
+        "subtitle": "Jak to funguje",
+        "title": "",
+        "text": "<p>Jednoduše: Přidejte do košíku troje Ahinsa shoes a <strong>vložte kód XXXX</strong>. </p><p>Cenu nejlevnějšího páru vám <strong>automaticky odečteme</strong>. </p><p>Měli byste vědět ještě pár věcí:</p><ul><li>Akce platí na <strong>všechny Ahinsa shoes</strong>. I na ty zlevněné.</li><li>Boty vám rádi <strong>zdarma vyměníme</strong>. </li><li><strong>Vracíte jeden z párů?</strong> Nárok na pár zdarma bohužel zaniká.</li></ul>",
+        "button_label": "Jdu si vybrat",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
       }
     }
   },
   "order": [
     "26396f05-6969-47e0-aa8d-0fb2471ab88e",
-    "lp_text_and_image1_cB6BGr",
-    "lp_image_reviews_iUy3ac",
+    "wau_text_mWRH8i",
+    "np_3img_banner_CpUgPV",
+    "advanced_content_JHPiQz",
+    "lp_text_and_image1_7iVPam",
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
-    "afadba8b-f130-41fc-8a37-2cc6ce89906e",
-    "629e967d-2ba6-445e-ac1d-37425cf62106",
-    "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
-    "lp_text_and_image_gallery_4QD9Qa",
-    "78f72821-6c02-4943-8234-82d8128e2acd",
-    "lp_text_and_image_gallery_WWqhVd",
-    "lp_text_and_image_gallery_KJ8hVd",
-    "lp_text_and_image_gallery_gDiqxc",
-    "lp_text_and_image_gallery_wU7XLU",
-    "lp_text_and_image_gallery_7UdyAQ",
-    "lp_text_and_image_gallery_7C6jAf",
-    "background_image_text_C9KreF",
-    "0f03e679-9781-41a4-b033-4a9bc5d23e8b",
-    "lp_image_reviews_8FdL9N"
+    "featured_collections_wCDCDP",
+    "e_book_image_text3_jjTYjH"
   ]
 }

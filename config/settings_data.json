@@ -55,6 +55,7 @@
     "icon_weight": "2px",
     "icon_linecaps": "miter",
     "vendor_enable": false,
+    "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "natural",
     "product_hover_image": true,
@@ -6089,6 +6090,14 @@
       "product-categories": {
         "type": "product-categories",
         "settings": {}
+      },
+      "lp-image-text_jaro23B_2": {
+        "type": "lp-image-text_jaro23B_2",
+        "settings": {
+          "main_heading": "Buďte první, kdo jarní novinky objeví",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>",
+          "divider": false
+        }
       }
     },
     "content_for_index": [
