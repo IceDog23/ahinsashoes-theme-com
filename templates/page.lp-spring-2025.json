@@ -25,9 +25,9 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/DSC_3487_0bb4d641-0442-417a-85e9-13effbcd9de7.jpg",
-            "overlay_opacity": 30,
-            "focal_point": "center center"
+            "image": "shopify://shop_images/IMG_7931.jpg",
+            "overlay_opacity": 18,
+            "focal_point": "bottom center"
           }
         }
       },
@@ -41,13 +41,6 @@
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5
-      }
-    },
-    "lp_text_and_image1_cB6BGr": {
-      "type": "lp-text-and-image1",
-      "settings": {
-        "title": "Know when you look the best?",
-        "text": "<p>When you’re <strong>comfortable and being yourself</strong>. We kept that in mind while designing the new and fresh Ahinsa shoes collection. </p><p>It’s finally here – and you can be the first to get a pair.</p>"
       }
     },
     "lp_image_reviews_iUy3ac": {
@@ -85,55 +78,31 @@
         "f366022b-15fb-48b1-b5d0-2149cee9c220": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/3T1A2502.jpg"
+            "image": "shopify://shop_images/DSC1459-kopie.jpg"
           }
         },
         "html_VYaYqw": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_3140.jpg"
+            "image": "shopify://shop_images/DSC2799-kopie.jpg"
           }
         },
         "html_RjdyxT": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2713.jpg"
+            "image": "shopify://shop_images/IMG_7380_69472679.webp"
           }
         },
         "1cfab0be-5b16-4269-a8f2-79479431caa0": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/3T1A2303.jpg"
+            "image": "shopify://shop_images/IMG_0241.jpg"
           }
         },
         "html_dLmNjR": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_3851.jpg"
-          }
-        },
-        "html_3YazB9": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/3T1A1910.jpg"
-          }
-        },
-        "html_rUdAiE": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/3T1A2127.jpg"
-          }
-        },
-        "html_rFBWfP": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_3082.jpg"
-          }
-        },
-        "html_KAGrLw": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_3057.jpg"
+            "image": "shopify://shop_images/DSC1666-kopie.jpg"
           }
         }
       },
@@ -142,11 +111,7 @@
         "html_VYaYqw",
         "html_RjdyxT",
         "1cfab0be-5b16-4269-a8f2-79479431caa0",
-        "html_dLmNjR",
-        "html_3YazB9",
-        "html_rUdAiE",
-        "html_rFBWfP",
-        "html_KAGrLw"
+        "html_dLmNjR"
       ],
       "settings": {
         "image_width": 500,
@@ -808,7 +773,6 @@
   },
   "order": [
     "26396f05-6969-47e0-aa8d-0fb2471ab88e",
-    "lp_text_and_image1_cB6BGr",
     "lp_image_reviews_iUy3ac",
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
