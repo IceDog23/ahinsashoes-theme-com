@@ -234,31 +234,43 @@
         "html_KFgieJ": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC01526-min_cfd642e5-ec64-42f2-a469-9f253b8767c4.jpg"
+            "image": "shopify://shop_images/DSC2588-kopie_1.jpg"
           }
         },
         "html_cht9bC": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC01670.jpg"
+            "image": "shopify://shop_images/IMG_9132.jpg"
           }
         },
         "html_ytc3yA": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC01651.jpg"
+            "image": "shopify://shop_images/IMG_2614.jpg"
           }
         },
         "html_U6UAKq": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC01599.jpg"
+            "image": "shopify://shop_images/IMG_2972.jpg"
           }
         },
         "html_3ezqX4": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC01558.jpg"
+            "image": "shopify://shop_images/DSC2673-kopie.jpg"
+          }
+        },
+        "html_HEVWjR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9755.jpg"
+          }
+        },
+        "html_4R4hGE": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2370-kopie.jpg"
           }
         }
       },
@@ -267,7 +279,9 @@
         "html_cht9bC",
         "html_ytc3yA",
         "html_U6UAKq",
-        "html_3ezqX4"
+        "html_3ezqX4",
+        "html_HEVWjR",
+        "html_4R4hGE"
       ],
       "settings": {
         "image_width": 500,
@@ -286,31 +300,31 @@
         "html_cQEcBF": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2934.jpg"
+            "image": "shopify://shop_images/IMG_8512.jpg"
           }
         },
         "html_GMgnaK": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2960.jpg"
+            "image": "shopify://shop_images/DSC2173-kopie.jpg"
           }
         },
         "html_EKT78K": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2887.jpg"
+            "image": "shopify://shop_images/DSC6903-kopie.jpg"
           }
         },
         "html_A7PxEb": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2924.jpg"
+            "image": "shopify://shop_images/IMG_8634.jpg"
           }
         },
         "html_6eiMgC": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_2900.jpg"
+            "image": "shopify://shop_images/IMG_8172.jpg"
           }
         }
       },
@@ -328,242 +342,6 @@
         "text": "<p>…one! Slide into these <strong>slip-on sneakers, </strong>which are prepared for the sweltering summer. The breathable mesh will <strong>adapt to your feet and keep them comfortable</strong>.</p>",
         "button_label": "Choose Comfort",
         "button_link": "https://ahinsashoes.com/collections/news/slip-on",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_WWqhVd": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_f7Vpt8": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_9of41.jpg"
-          }
-        },
-        "html_mD6cim": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1228.jpg"
-          }
-        },
-        "html_Gd8GHU": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_8of41.jpg"
-          }
-        },
-        "html_EQ7ctj": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_10of41.jpg"
-          }
-        },
-        "html_Fc6e8m": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1281.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_f7Vpt8",
-        "html_mD6cim",
-        "html_Gd8GHU",
-        "html_EQ7ctj",
-        "html_Fc6e8m"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Suna sandals",
-        "subtitle": "– for every foot, big and small",
-        "text": "<p>We love simple things. Like simple sandals that <strong>truly fit everyone. </strong>The flexible rubber <strong>adapts </strong>to your heel, your instep – and also your style. And they’re ultra-easy to put on.</p>",
-        "button_label": "Choose minimalistic footwear",
-        "button_link": "https://ahinsashoes.com/collections/news/suna",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_KJ8hVd": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_4w8LfW": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1552_738491a8-b4c7-47eb-ab2c-c3435473038f.jpg"
-          }
-        },
-        "html_7AQVRf": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_2259.jpg"
-          }
-        },
-        "html_zhP9Lr": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1978.jpg"
-          }
-        },
-        "html_CB6mWg": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1989.jpg"
-          }
-        },
-        "html_awLDHd": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_2116.jpg"
-          }
-        },
-        "html_4ekNhi": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_2282.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_4w8LfW",
-        "html_7AQVRf",
-        "html_zhP9Lr",
-        "html_CB6mWg",
-        "html_awLDHd",
-        "html_4ekNhi"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "The most comfortable slip-on sandals",
-        "subtitle": "New and improved",
-        "text": "<p>Until now, we only offered these sandals for barefoot enthusiasts. Now they’re for everyone! We’ve added a new color and the<strong> Comfort option for an ultra-soft step. </strong></p>",
-        "button_label": "Enjoy comfort",
-        "button_link": "https://ahinsashoes.com/collections/news/sandals+pantofle",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_gDiqxc": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_CLgnxG": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1661.jpg"
-          }
-        },
-        "html_6FPai9": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1704.jpg"
-          }
-        },
-        "html_8myGPR": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1820.jpg"
-          }
-        },
-        "html_ehi9rp": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_13of41.jpg"
-          }
-        },
-        "html_FziUYc": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1639.jpg"
-          }
-        },
-        "html_BJdTg7": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1823.jpg"
-          }
-        },
-        "html_JX9EBn": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_16of41_be018847-26d0-46c4-9a0b-b6377e47b186.jpg"
-          }
-        },
-        "html_K36XiC": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_1737_d1a73e39-301a-450a-8421-a465fd625fd7.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_CLgnxG",
-        "html_6FPai9",
-        "html_8myGPR",
-        "html_ehi9rp",
-        "html_FziUYc",
-        "html_BJdTg7",
-        "html_JX9EBn",
-        "html_K36XiC"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "The popular Hava sandals 2.0",
-        "subtitle": "– the perfect fit",
-        "text": "<p>If Cinderella was wearing Hava sandals, she wouldn’t have lost them on her way to the castle. <strong>She would have been able to adjust the strap over her instep and around her ankle</strong>.<strong> </strong>Finally, a pair of sandals that fits perfectly!</p>",
-        "button_label": "Discover the new Hava sandals",
-        "button_link": "https://ahinsashoes.com/collections/news/hava2",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_wU7XLU": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_FAckTU": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01895_23b92bc9-882c-4e3c-a166-bf8ce1afc971.jpg"
-          }
-        },
-        "html_VGwRQB": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC02053.jpg"
-          }
-        },
-        "html_giHYMM": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC02036-2-Enhanced-NR.jpg"
-          }
-        },
-        "html_W8ptbC": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC02009-min.jpg"
-          }
-        },
-        "html_Mry8j3": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01837-min.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_FAckTU",
-        "html_VGwRQB",
-        "html_giHYMM",
-        "html_W8ptbC",
-        "html_Mry8j3"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Hiker Boots",
-        "subtitle": "For a proper trek",
-        "text": "<p>You asked for them, so here they are! <strong>Ankle-high trekking boots </strong>with a Vibram sole, which will endure and keep you firmly footed. They’re <strong>waterproof</strong>, and you’ll never – really, never – scuff them up. </p>",
-        "button_label": "Head outdoors",
-        "button_link": "https://ahinsashoes.com/collections/news/hiker",
         "layout": "right",
         "divider": false
       }
@@ -627,91 +405,15 @@
         "divider": false
       }
     },
-    "lp_text_and_image_gallery_7C6jAf": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_MQziCV": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC02078.jpg"
-          }
-        },
-        "html_zLifxH": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01796.jpg"
-          }
-        },
-        "html_c7mbmy": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01996.jpg"
-          }
-        },
-        "html_dQVPFK": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01792.jpg"
-          }
-        },
-        "html_yRDFWL": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01780.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_MQziCV",
-        "html_zLifxH",
-        "html_c7mbmy",
-        "html_dQVPFK",
-        "html_yRDFWL"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Chitra Trek&Trail in turquoise",
-        "subtitle": "Run out into the terrain",
-        "text": "<p><strong>Feel the world beneath you</strong> and lean into it. The <strong>Vibram trekking outsole</strong> will support you in the woods, on the trail and on the rocks.</p>",
-        "button_label": "Head out",
-        "button_link": "https://ahinsashoes.com/collections/news/chitra",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "background_image_text_C9KreF": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "Uncompromisingly comfortable",
-        "title": "The improved Comfort line:",
-        "text": "<p>What would it be like to <strong>walk on clouds? </strong>You’ll soon find out. We’ve improved the Ahinsa Comfort line with Technogel, which <strong>softens and cushions your step</strong>. A trip around town has never been more comfortable.</p>",
-        "button_label": "Enjoy comfort",
-        "button_link": "shopify://pages/ahinsa-comfort",
-        "image": "shopify://shop_images/AhinsaStudio_12of26.jpg",
-        "focal_point": "center",
-        "layout": "right",
-        "height": 550,
-        "framed": false,
-        "parallax": true
-      }
-    },
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b": {
       "type": "lp-podzim-text-and-image7-text",
+      "disabled": true,
       "settings": {
         "title": "Your feedback on our last collection touched us. Thank you!",
         "text": "<p>We’ve been collecting your experiences, and we’ve used them to improve your favorite models and come up with new ones that are still missing in your shoe collection.</p>",
         "button_label": "",
         "button_link": "",
         "divider": false
-      }
-    },
-    "lp_image_reviews_8FdL9N": {
-      "type": "lp_image_reviews",
-      "settings": {
-        "image": "shopify://shop_images/image.png",
-        "image_m": "shopify://shop_images/image_1_-2.png",
-        "divider": false,
-        "m_bot": 10
       }
     }
   },
@@ -725,14 +427,7 @@
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
     "78f72821-6c02-4943-8234-82d8128e2acd",
     "lp_text_and_image_gallery_4QD9Qa",
-    "lp_text_and_image_gallery_WWqhVd",
-    "lp_text_and_image_gallery_KJ8hVd",
-    "lp_text_and_image_gallery_gDiqxc",
-    "lp_text_and_image_gallery_wU7XLU",
     "lp_text_and_image_gallery_7UdyAQ",
-    "lp_text_and_image_gallery_7C6jAf",
-    "background_image_text_C9KreF",
-    "0f03e679-9781-41a4-b033-4a9bc5d23e8b",
-    "lp_image_reviews_8FdL9N"
+    "0f03e679-9781-41a4-b033-4a9bc5d23e8b"
   ]
 }
