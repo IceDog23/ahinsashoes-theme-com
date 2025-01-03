@@ -162,6 +162,18 @@
         "text": "<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <strong>osvědčil i ve finských mrazech</strong>.</p>"
       }
     },
+    "wau_text_kQYTGc": {
+      "type": "WAU-text",
+      "settings": {
+        "title": "Hřejivé zimní boty s kožíškem",
+        "subtitle": "",
+        "text": "<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <strong>osvědčil i ve finských mrazech</strong>.</p>",
+        "button_label": "",
+        "button_link": "",
+        "divider": false,
+        "textcenter": false
+      }
+    },
     "featured_collection_XWBBDf": {
       "type": "featured-collection",
       "settings": {
@@ -227,6 +239,15 @@
     },
     "e_book_image_text3_jjTYjH": {
       "type": "e-book-image-text3",
+      "blocks": {
+        "image_EnBCPj": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_EnBCPj"
+      ],
       "settings": {
         "image": "shopify://shop_images/DSC_9612_1.jpg",
         "image_width": 500,
@@ -246,6 +267,7 @@
     "homepage_promotions_ApBGy6",
     "advanced_content_JHPiQz",
     "lp_text_and_image1_7iVPam",
+    "wau_text_kQYTGc",
     "featured_collection_XWBBDf",
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
