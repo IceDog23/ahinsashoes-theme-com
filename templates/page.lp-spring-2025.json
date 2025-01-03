@@ -115,7 +115,7 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Pura Play sneakers",
+        "title": "Street sneakers",
         "subtitle": "Overflowing with color",
         "text": "<p>You’ve taken a real liking to our Pura sneakers. Thank you! As a reward, we’ve added <strong>a touch of playfulness</strong> to them. What color will you choose to make your day more fun?</p>",
         "button_label": "",
@@ -167,7 +167,7 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Natural Vida Hemp sneakers",
+        "title": "AI sneakers",
         "subtitle": "- in living color ❤️",
         "text": "<p>What’s the best material for summer? Hemp! <strong>It breathes, dries quickly </strong>– and it looks <strong>wonderful</strong>. What’s more, no one has the same pair as you. Color them with markers and show off your style. </p>",
         "button_label": "",
@@ -219,7 +219,7 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Summer Flow sneakers",
+        "title": "Chic ballet flats",
         "subtitle": "A fresh breeze for your feet",
         "text": "<p><strong>A breeze is caressing your feet</strong>. You’re enjoying a summer trip and every step is bringing you joy. This is exactly what you’ll experience in the Flow sneakers made with breathable mesh. </p>",
         "button_label": "",
@@ -337,12 +337,26 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Mesh Slip-on sneakers",
+        "title": "AirNet sneakers",
         "subtitle": "Heading outdoors in three… two…",
         "text": "<p>…one! Slide into these <strong>slip-on sneakers, </strong>which are prepared for the sweltering summer. The breathable mesh will <strong>adapt to your feet and keep them comfortable</strong>.</p>",
         "button_label": "Choose Comfort",
         "button_link": "https://ahinsashoes.com/collections/news/slip-on",
         "layout": "left",
+        "divider": false
+      }
+    },
+    "e_book_image_text3_6rL9jQ": {
+      "type": "e-book-image-text3",
+      "settings": {
+        "image": "shopify://shop_images/3T1A1879.jpg",
+        "image_width": 500,
+        "subtitle": "Improved",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>",
+        "button_label": "Optional button",
+        "button_link": "",
+        "layout": "right",
         "divider": false
       }
     },
@@ -368,6 +382,7 @@
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
     "78f72821-6c02-4943-8234-82d8128e2acd",
     "lp_text_and_image_gallery_4QD9Qa",
+    "e_book_image_text3_6rL9jQ",
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b"
   ]
 }
