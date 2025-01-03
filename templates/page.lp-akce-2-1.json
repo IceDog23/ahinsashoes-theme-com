@@ -19,7 +19,7 @@
             "title": "The shoes you’ve been wishing for. Literally.",
             "title_size": 60,
             "subheading": "Know what the names of our <b>best designers are?</b> Sarah, Emma, David, Mark... \nThey’re <b>our customers</b>, who’ve sent us their ideas for new models. \n<p>That’s why the new collection is only about you. We’ve answered your requests and created <b>healthy shoes to fit them.</b>\n</p>",
-            "link": "#products",
+            "link": "#products class=\"scroll-link\"",
             "link_text": "Jdu sdílet RADOST ↓",
             "link_2": "",
             "link_text_2": "",
