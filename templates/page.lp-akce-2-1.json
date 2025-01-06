@@ -18,7 +18,7 @@
             "top_subheading": "Only while supplies last: 2 + 1 pair free",
             "title": "Share the joy. Share Ahinsa shoes.",
             "title_size": 60,
-            "subheading": "How do you feel when you <b>finally find a comfortable pair of shoes</b>? And what if you could give that same feeling to the people you love?\n\n<br> Bring joy to yourself and your loved ones. Choose three pairs of Ahinsa shoes and <b>get the cheapest one for free</b>. Just enter the code <b>JOY</b> at the checkout.\n",
+            "subheading": "How do you feel when you <b>finally find a comfortable pair of shoes</b>? And what if you could give that same feeling to the people you love?\n\n<br> Bring joy to yourself and your loved ones. Choose three pairs of Ahinsa shoes and <b>get the cheapest one for free</b>. Just enter the code <b>JOY</b> at the checkout.",
             "link": "#products",
             "link_text": "Share the joy ↓",
             "link_2": "#products",
@@ -189,7 +189,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "",
-        "home_featured_products": "ballerina-sandals",
+        "home_featured_products": "warm-winter-boots-with-vegan-fur-lining",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -203,15 +203,59 @@
         "div {margin-bottom: -20px;}"
       ],
       "settings": {
-        "title": "Hřejivé zimní boty s kožíškem",
-        "text": "<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <strong>osvědčil i ve finských mrazech</strong>.</p>"
+        "title": "From the office to a formal event in comfort",
+        "text": "<p>You no longer have to change into stiff dress shoes or pumps that cramp you. <strong>Comfort </strong>is now in style for formal events. Get double the enjoyment from your evening program with shoes that <strong>respect the shape of your foot</strong>.</p>"
       }
     },
     "featured_collection_PhYH6h": {
       "type": "featured-collection",
       "settings": {
         "title": "",
-        "home_featured_products": "simple-flip-flops-sandals",
+        "home_featured_products": "from-the-office-to-a-formal-event-in-comfort",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "lp_text_and_image2_podzim_caY4Yf": {
+      "type": "lp-text-and-image2-podzim",
+      "custom_css": [
+        "div {margin-bottom: -20px;}"
+      ],
+      "settings": {
+        "title": "Sneakers for both sports and work",
+        "text": "<p>Imagine sneakers <strong>you can wear all day long while forgetting they’re even on your feet</strong>. Now you can stop daydreaming and get your own pair! You can wear these sneakers <strong>designed by physiotherapists</strong> for both sports and the office.</p>"
+      }
+    },
+    "featured_collection_pDrzzH": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "sneakers-for-both-sports-and-work",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "lp_text_and_image2_podzim_EGwRfz": {
+      "type": "lp-text-and-image2-podzim",
+      "custom_css": [
+        "div {margin-bottom: -20px;}"
+      ],
+      "settings": {
+        "title": "In the great outdoors – with natural footwear",
+        "text": "<p>Every trip to the forest can be a small foot massage. Ahinsa shoes for your outdoor adventures are <strong>non-slip, highly durable and will keep you firmly footed</strong>.</p>"
+      }
+    },
+    "featured_collection_CTByUj": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "in-the-great-outdoors",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -246,7 +290,7 @@
           "type": "collection",
           "settings": {
             "collection": "women",
-            "title": "For women",
+            "title": "Women’s shoes",
             "focal_point": "center center"
           }
         },
@@ -254,7 +298,7 @@
           "type": "collection",
           "settings": {
             "collection": "men",
-            "title": "For men",
+            "title": "Men’s shoes",
             "focal_point": "center center"
           }
         }
@@ -264,7 +308,7 @@
         "collection_N63N4n"
       ],
       "settings": {
-        "title": "Nebo obujete něco jiného?Akce platí na všechny Ahinsa shoes. Najděte ty své a sdílejte radost.",
+        "title": "Thinking of wearing a different pair of shoes? This special offer is valid for all Ahinsa shoes. Find your favorites and share the joy.",
         "divider": false,
         "per_row": 2,
         "enable_gutter": true
@@ -282,14 +326,37 @@
         "image_EnBCPj"
       ],
       "settings": {
-        "image": "shopify://shop_images/DSC_9612_1.jpg",
+        "image": "shopify://shop_images/DSC_9983_20240508_a71e49dc-ad37-46c9-96d1-77c4ac83be3b.jpg",
         "image_width": 500,
-        "subtitle": "Jak to funguje",
+        "subtitle": "How does it work?",
         "title": "",
-        "text": "<p>Jednoduše: Přidejte do košíku troje Ahinsa shoes a <strong>vložte kód XXXX</strong>. </p><p>Cenu nejlevnějšího páru vám <strong>automaticky odečteme</strong>. </p><p>Měli byste vědět ještě pár věcí:</p><ul><li>Akce platí na <strong>všechny Ahinsa shoes</strong>. I na ty zlevněné.</li><li>Boty vám rádi <strong>zdarma vyměníme</strong>. </li><li><strong>Vracíte jeden z párů?</strong> Nárok na pár zdarma bohužel zaniká.</li></ul>",
-        "button_label": "Jdu si vybrat",
-        "button_link": "",
+        "text": "<p>It’s easy: Just add three pairs of Ahinsa shoes to the shopping cart and <strong>enter the code</strong> <strong>JOY at the checkout</strong>.</p><p>We’ll <strong>automatically subtract</strong> the price of the cheapest pair from the total. </p><p>A few more things to keep in mind:</p><ul><li>This special offer applies to <strong>all Ahinsa shoes</strong>. Even to those that are discounted. </li><li><strong>Want to return one of the 3 pairs? </strong>This unfortunately voids your claim to the free pair. There's a solution though – <strong>you can exchange them</strong> instead.</li></ul>",
+        "button_label": "Choose yours",
+        "button_link": "shopify://collections/all-barefoot-shoes",
         "layout": "right",
+        "divider": false
+      }
+    },
+    "e_book_image_text3_3Pd7GQ": {
+      "type": "e-book-image-text3",
+      "blocks": {
+        "image_rLLw9D": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_rLLw9D"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DSC_9983_20240508_a71e49dc-ad37-46c9-96d1-77c4ac83be3b.jpg",
+        "image_width": 500,
+        "subtitle": "Will you help us make space for new models?",
+        "title": "",
+        "text": "<p>It’s easy: Just add three pairs of Ahinsa shoes to the shopping cart and <strong>enter the code</strong> <strong>JOY at the checkout</strong>.</p><p>We’ll <strong>automatically subtract</strong> the price of the cheapest pair from the total. </p><p>A few more things to keep in mind:</p><ul><li>This special offer applies to <strong>all Ahinsa shoes</strong>. Even to those that are discounted. </li><li><strong>Want to return one of the 3 pairs? </strong>This unfortunately voids your claim to the free pair. There's a solution though – <strong>you can exchange them</strong> instead.</li></ul>",
+        "button_label": "Choose yours",
+        "button_link": "shopify://collections/all-barefoot-shoes",
+        "layout": "left",
         "divider": false
       }
     }
@@ -304,9 +371,14 @@
     "featured_collection_XWBBDf",
     "lp_text_and_image2_podzim_y39ykN",
     "featured_collection_PhYH6h",
+    "lp_text_and_image2_podzim_caY4Yf",
+    "featured_collection_pDrzzH",
+    "lp_text_and_image2_podzim_EGwRfz",
+    "featured_collection_CTByUj",
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
     "featured_collections_wCDCDP",
-    "e_book_image_text3_jjTYjH"
+    "e_book_image_text3_jjTYjH",
+    "e_book_image_text3_3Pd7GQ"
   ]
 }
