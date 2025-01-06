@@ -15,19 +15,19 @@
         "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1": {
           "type": "image",
           "settings": {
-            "top_subheading": "The new autumn and winter Ahinsa shoes collection",
-            "title": "The shoes you’ve been wishing for. Literally.",
+            "top_subheading": "Only while supplies last: 2 + 1 pair free",
+            "title": "Share the joy. Share Ahinsa shoes.",
             "title_size": 60,
-            "subheading": "Know what the names of our <b>best designers are?</b> Sarah, Emma, David, Mark... \nThey’re <b>our customers</b>, who’ve sent us their ideas for new models. \n<p>That’s why the new collection is only about you. We’ve answered your requests and created <b>healthy shoes to fit them.</b>\n</p>",
+            "subheading": "How do you feel when you <b>finally find a comfortable pair of shoes</b>? And what if you could give that same feeling to the people you love?\n\n<br> Bring joy to yourself and your loved ones. Choose three pairs of Ahinsa shoes and <b>get the cheapest one for free</b>. Just enter the code <b>JOY</b> at the checkout.\n",
             "link": "#products",
-            "link_text": "Jdu sdílet RADOST ↓",
+            "link_text": "Share the joy ↓",
             "link_2": "#products",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/01c77e57-e81e-4ad8-9ad0-279bf212c7a3.jpg",
+            "image": "shopify://shop_images/DSC_2472.jpg",
             "overlay_opacity": 30,
-            "focal_point": "bottom center"
+            "focal_point": "center center"
           }
         }
       },
@@ -36,8 +36,8 @@
       ],
       "settings": {
         "section_height": "550px",
-        "mobile_height": "auto",
-        "parallax": true,
+        "mobile_height": "500px",
+        "parallax": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5
@@ -46,9 +46,9 @@
     "wau_text_mWRH8i": {
       "type": "WAU-text",
       "settings": {
-        "title": "Zdravá chůze dělá dobrou náladu",
-        "subtitle": "…a tu my šíříme ze všeho nejradši",
-        "text": "<p>Víte, že <strong>chůze ve zdravých botách</strong> funguje jako masáž nohou? Přes chodila stimuluje mozková centra, a tím spouští radost. </p><p>Ten pocit chceme šířit. Proto teď <strong>posíláme do světa Ahinsa shoes zdarma</strong>. Pro vás, vaše přátele, rodinu. </p><p>Je jen na vás, komu radost pošlete.</p>",
+        "title": "Healthy walking improves mood",
+        "subtitle": "… and that’s something we want to spread.",
+        "text": "<p>Did you know that <strong>walking in healthy shoes </strong>works like a foot massage? It stimulates the brain centers through the feet and releases joy. </p><p>We want to spread that feeling. That’s why<strong> we’re sending Ahinsa shoes out into the world</strong> for free. For you and your friends and family. </p><p>You choose who you want to share the joy with. </p>",
         "button_label": "",
         "button_link": "",
         "divider": false,
@@ -61,7 +61,7 @@
         "promotion_3YrDjh": {
           "type": "promotion",
           "settings": {
-            "title": "Healthy shoes from physiotherapists",
+            "title": "Healthy shoes designed by physiotherapists",
             "text": "",
             "button_link": "",
             "image": "shopify://shop_images/ico-barefoot.png"
@@ -70,7 +70,7 @@
         "promotion_rtcHk8": {
           "type": "promotion",
           "settings": {
-            "title": "Will last millions of steps",
+            "title": "They’ll last millions of steps",
             "text": "",
             "button_link": "",
             "image": "shopify://shop_images/Sport.png"
@@ -88,7 +88,7 @@
         "promotion_9g3bTD": {
           "type": "promotion",
           "settings": {
-            "title": "Easy size exchanges and returns",
+            "title": "Quick and easy size exchanges and returns",
             "text": "",
             "button_link": "",
             "image": "shopify://shop_images/ico-replace.png"
@@ -109,7 +109,7 @@
         "html_MHgW3D": {
           "type": "html",
           "settings": {
-            "code": "<body>\n\n\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Informational Banner</title>\n    <style>\n        .info-banner {\n            background-color: #C2B288; /* Bright yellow background */\n            color: #333; /* Dark text color for contrast */\n            padding: 20px;\n            text-align: center;\n         font-size: 26px;\n            font-weight: bold;\n            border: 1px solid #999; /* Optional border for emphasis */\n        }\n    </style>\n\n\n\n<div class=\"info-banner\">\n    Please note: Valid only while stocks last. And as we know you, it'll be quick.\n</div>\n\n\n</body>",
+            "code": "<body>\n\n\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Informational Banner</title>\n    <style>\n        .info-banner {\n            background-color: #C2B288; /* Bright yellow background */\n            color: #333; /* Dark text color for contrast */\n            padding: 20px;\n            text-align: center;\n         font-size: 26px;\n            font-weight: bold;\n            border: 1px solid #999; /* Optional border for emphasis */\n        }\n    </style>\n\n\n\n<div class=\"info-banner\">\n    Attention: Offer is valid only while supplies last. And knowing you, they won’t last long.\n</div>\n\n\n</body>",
             "width": "100%",
             "alignment": "center"
           }
@@ -158,6 +158,7 @@
         "product_QNARXA",
         "product_HA8DBw"
       ],
+      "disabled": true,
       "settings": {
         "title": "Hřejivé zimní boty s kožíškem",
         "text": "<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <strong>osvědčil i ve finských mrazech</strong>.</p>"
@@ -169,7 +170,7 @@
         "html_UdHVrE": {
           "type": "html",
           "settings": {
-            "code": "<div class=\"full-w feature-row centered-feature-row aos-init aos-animate\" data-aos=\"\" style=\"  margin-bottom: -20px;\">\n<div class=\"feature-row__item  feature-row__text feature-row__text--center text-center\">\n<p class=\"h3\" id=\"products\">Hřejivé zimní boty s kožíškem</p>\n<div class=\"rte featured-row__subtext\">\n<p>Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <b>osvědčil i ve finských mrazech.</b></p>\n</div>\n</div>\n</div>",
+            "code": "<div class=\"full-w feature-row centered-feature-row aos-init aos-animate\" data-aos=\"\" style=\"  margin-bottom: -20px;\">\n<div class=\"feature-row__item  feature-row__text feature-row__text--center text-center\">\n<p class=\"h3\" id=\"products\">Warm winter boots with vegan fur lining</p>\n<div class=\"rte featured-row__subtext\">\n<p>Spring is still a long way away. So get warm by walking healthily! We’ve added a vegan fur lining <b>tested in the freezing temperatures of Finland to warm up these winter boots.</b></p>\n</div>\n</div>\n</div>",
             "width": "100%",
             "alignment": "center"
           }
