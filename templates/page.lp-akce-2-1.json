@@ -349,13 +349,13 @@
         "image_rLLw9D"
       ],
       "settings": {
-        "image": "shopify://shop_images/DSC_9983_20240508_a71e49dc-ad37-46c9-96d1-77c4ac83be3b.jpg",
+        "image": "shopify://shop_images/IMG_7931.jpg",
         "image_width": 500,
         "subtitle": "Will you help us make space for new models?",
         "title": "",
-        "text": "<p>It’s easy: Just add three pairs of Ahinsa shoes to the shopping cart and <strong>enter the code</strong> <strong>JOY at the checkout</strong>.</p><p>We’ll <strong>automatically subtract</strong> the price of the cheapest pair from the total. </p><p>A few more things to keep in mind:</p><ul><li>This special offer applies to <strong>all Ahinsa shoes</strong>. Even to those that are discounted. </li><li><strong>Want to return one of the 3 pairs? </strong>This unfortunately voids your claim to the free pair. There's a solution though – <strong>you can exchange them</strong> instead.</li></ul>",
-        "button_label": "Choose yours",
-        "button_link": "shopify://collections/all-barefoot-shoes",
+        "text": "<p>The new spring styles are nearly on their way to the warehouse, but we need to make room for them. <strong>And you can help</strong>!</p><p>Share the joy of healthy walking with the people you care about. Choose shoes for yourself and for them. Buy 2 pairs from the current selection and get a <strong>3rd pair for free with the code JOY.</strong></p><p>And what new products can you look forward to?</p>",
+        "button_label": "Take a look at what's coming up",
+        "button_link": "shopify://pages/lp-jaro-2025",
         "layout": "left",
         "divider": false
       }
