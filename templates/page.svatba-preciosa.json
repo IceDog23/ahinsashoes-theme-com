@@ -25,8 +25,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/01c77e57-e81e-4ad8-9ad0-279bf212c7a3.jpg",
-            "overlay_opacity": 30,
+            "image": "shopify://shop_images/IMG_9303.jpg",
+            "overlay_opacity": 28,
             "focal_point": "bottom center"
           }
         }
@@ -340,160 +340,20 @@
         "divider": false
       }
     },
-    "lp_text_and_image_gallery_WWqhVd": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_f7Vpt8": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8444_20240507.jpg"
-          }
-        },
-        "html_mD6cim": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8453_20240507_1.jpg"
-          }
-        },
-        "html_Gd8GHU": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9661_1.jpg"
-          }
-        },
-        "html_EQ7ctj": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8430_20240507.jpg"
-          }
-        },
-        "html_Fc6e8m": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8789a_1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_f7Vpt8",
-        "html_mD6cim",
-        "html_Gd8GHU",
-        "html_EQ7ctj",
-        "html_Fc6e8m"
-      ],
+    "background_image_text_C9KreF": {
+      "type": "background-image-text",
       "settings": {
-        "image_width": 500,
-        "title": "Zzzzzip! Tara Winter sneakers now come with a zipper",
         "subtitle": "",
-        "text": "<p>Who says you can’t wear sneakers in the winter? And who says you have to tie the laces on them? We’ve added a <strong>practical zipper </strong>to these winter Tara sneakers, just like you wished.</p>",
-        "button_label": "Zzzip them up!",
-        "button_link": "https://ahinsashoes.com/collections/news/tara",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_KJ8hVd": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_4w8LfW": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9719.jpg"
-          }
-        },
-        "html_7AQVRf": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9961.jpg"
-          }
-        },
-        "html_zhP9Lr": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9552.jpg"
-          }
-        },
-        "html_CB6mWg": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9379.jpg"
-          }
-        },
-        "html_4ekNhi": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9833.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_4w8LfW",
-        "html_7AQVRf",
-        "html_zhP9Lr",
-        "html_CB6mWg",
-        "html_4ekNhi"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Black fur for black shoes",
-        "subtitle": "",
-        "text": "<p>Sundara Winter boots are one of our staple products, and they last their owners for years. But you wrote to us that <strong>they’d also look nice with black fur</strong>, and your wish is our command. </p>",
-        "button_label": "Make your wish come true",
-        "button_link": "https://ahinsashoes.com/collections/news/sundara-winter",
+        "title": "Even more Comfort",
+        "text": "<p>Sometimes you don’t want to feel every pebble beneath your feet. You want to be <strong>treading as if you were walking</strong> <strong>on a cloud</strong>. </p><p>That’s why we’ve improved the <strong>Ahinsa Comfort line</strong> for you. It cares for your steps with the flexible Technogel and foam insole. Mmmm, what comfort!</p>",
+        "button_label": "Wear Pure comfort",
+        "button_link": "shopify://pages/ahinsa-comfort",
+        "image": "shopify://shop_images/tara_lp.jpg",
+        "focal_point": "center",
         "layout": "right",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_gDiqxc": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_CLgnxG": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_9154_2_3c09d3fd-8816-4145-aa06-8ab57e9a677e.jpg"
-          }
-        },
-        "html_6FPai9": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/snehule_1.jpg"
-          }
-        },
-        "html_8myGPR": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsazima_web_9KC9274.jpg"
-          }
-        },
-        "html_ehi9rp": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaFinal_19_of_51.jpg"
-          }
-        },
-        "html_K36XiC": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaFinal_25_of_51.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_CLgnxG",
-        "html_6FPai9",
-        "html_8myGPR",
-        "html_ehi9rp",
-        "html_K36XiC"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "You won’t slip up in Irbis snow boots",
-        "subtitle": "",
-        "text": "<p>You went crazy over last year’s new product – Irbis snow boots. But you wanted different soles, so we selected the <strong>tried-and-tested Vibram brand</strong>. They hold fast and won’t slip.</p>",
-        "button_label": "Grip the ground",
-        "button_link": "https://ahinsashoes.com/collections/news/irbis",
-        "layout": "left",
-        "divider": false
+        "height": 550,
+        "framed": false,
+        "parallax": true
       }
     },
     "lp_text_and_image_gallery_wU7XLU": {
@@ -548,128 +408,6 @@
         "divider": false
       }
     },
-    "lp_text_and_image_gallery_7UdyAQ": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_ibijLP": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_19of41.jpg"
-          }
-        },
-        "html_KdzPKx": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_webAhinsa_svatebni_9KC5663_7a3970bc-80a9-4edd-8cc6-b540a412be0d.jpg"
-          }
-        },
-        "html_Fg6yFx": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_27of41.jpg"
-          }
-        },
-        "html_rQjtjE": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_webAhinsa_svatebni_9KC5702_dede3f4b-a8da-4c68-98db-2efe3a6b471a.jpg"
-          }
-        },
-        "html_xPNH48": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/AhinsaBotanickaGram_25of41.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_ibijLP",
-        "html_KdzPKx",
-        "html_Fg6yFx",
-        "html_rQjtjE",
-        "html_xPNH48"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_width": 500,
-        "title": "Trekking sandals",
-        "subtitle": "– the way you like them",
-        "text": "<p>Do you prefer a <strong>strap between your toes</strong> or a more <strong>classic fit</strong>? We’ve made these trekking sandals for you in both options. The Vibram sole won’t slip and it can handle every terrain. Put it to the test! </p>",
-        "button_label": "Pick out a pair of your own",
-        "button_link": "https://ahinsashoes.com/collections/news/for-hiking+sandals",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "lp_text_and_image_gallery_7C6jAf": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_MQziCV": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC02078.jpg"
-          }
-        },
-        "html_zLifxH": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01796.jpg"
-          }
-        },
-        "html_c7mbmy": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01996.jpg"
-          }
-        },
-        "html_dQVPFK": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01792.jpg"
-          }
-        },
-        "html_yRDFWL": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC01780.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_MQziCV",
-        "html_zLifxH",
-        "html_c7mbmy",
-        "html_dQVPFK",
-        "html_yRDFWL"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_width": 500,
-        "title": "Chitra Trek&Trail in turquoise",
-        "subtitle": "Run out into the terrain",
-        "text": "<p><strong>Feel the world beneath you</strong> and lean into it. The <strong>Vibram trekking outsole</strong> will support you in the woods, on the trail and on the rocks.</p>",
-        "button_label": "Head out",
-        "button_link": "https://ahinsashoes.com/collections/news/chitra",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "background_image_text_C9KreF": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
-        "title": "Even more Comfort",
-        "text": "<p>Sometimes you don’t want to feel every pebble beneath your feet. You want to be <strong>treading as if you were walking</strong> <strong>on a cloud</strong>. </p><p>That’s why we’ve improved the <strong>Ahinsa Comfort line</strong> for you. It cares for your steps with the flexible Technogel and foam insole. Mmmm, what comfort!</p>",
-        "button_label": "Wear Pure comfort",
-        "button_link": "shopify://pages/ahinsa-comfort",
-        "image": "shopify://shop_images/tara_lp.jpg",
-        "focal_point": "center",
-        "layout": "right",
-        "height": 550,
-        "framed": false,
-        "parallax": true
-      }
-    },
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b": {
       "type": "lp-podzim-text-and-image7-text",
       "disabled": true,
@@ -703,13 +441,8 @@
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
     "lp_text_and_image_gallery_4QD9Qa",
     "78f72821-6c02-4943-8234-82d8128e2acd",
-    "lp_text_and_image_gallery_WWqhVd",
-    "lp_text_and_image_gallery_KJ8hVd",
-    "lp_text_and_image_gallery_gDiqxc",
-    "lp_text_and_image_gallery_wU7XLU",
-    "lp_text_and_image_gallery_7UdyAQ",
-    "lp_text_and_image_gallery_7C6jAf",
     "background_image_text_C9KreF",
+    "lp_text_and_image_gallery_wU7XLU",
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b",
     "lp_image_reviews_8FdL9N"
   ]
