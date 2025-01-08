@@ -200,7 +200,7 @@
     "lp_text_and_image2_podzim_y39ykN": {
       "type": "lp-text-and-image2-podzim",
       "custom_css": [
-        "div {margin-bottom: -20px;}"
+        "div {margin-bottom: -15px;}"
       ],
       "settings": {
         "title": "From the office to a formal event in comfort",
@@ -222,7 +222,7 @@
     "lp_text_and_image2_podzim_caY4Yf": {
       "type": "lp-text-and-image2-podzim",
       "custom_css": [
-        "div {margin-bottom: -20px;}"
+        "div {margin-bottom: -15px;}"
       ],
       "settings": {
         "title": "Sneakers for both sports and work",
@@ -244,7 +244,7 @@
     "lp_text_and_image2_podzim_EGwRfz": {
       "type": "lp-text-and-image2-podzim",
       "custom_css": [
-        "div {margin-bottom: -20px;}"
+        "div {margin-bottom: -15px;}"
       ],
       "settings": {
         "title": "In the great outdoors – with natural footwear",
