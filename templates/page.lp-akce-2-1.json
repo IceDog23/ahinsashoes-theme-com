@@ -357,7 +357,7 @@
         "title": "",
         "text": "<p>It’s easy: Just add three pairs of Ahinsa shoes to the shopping cart and <strong>enter the code</strong> <strong>JOY at the checkout</strong>.</p><p>We’ll <strong>automatically subtract</strong> the price of the cheapest pair from the total. </p><p>A few more things to keep in mind:</p><ul><li>This special offer applies to <strong>all Ahinsa shoes</strong>. Even to those that are discounted. </li><li><strong>Want to return one of the 3 pairs? </strong>This unfortunately voids your claim to the free pair. There's a solution though – <strong>you can exchange them</strong> instead.</li></ul>",
         "button_label": "Choose yours",
-        "button_link": "shopify://collections/all-barefoot-shoes",
+        "button_link": "https://ahinsashoes.com/collections/all/barefoot?sort_by=created-descending",
         "layout": "right",
         "divider": false
       }
