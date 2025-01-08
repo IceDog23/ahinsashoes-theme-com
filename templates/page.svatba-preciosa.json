@@ -331,11 +331,11 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Keep nice and warm in Shuma Winter boots",
-        "subtitle": "",
-        "text": "<p>You fell in love with the autumn Shuma shoes so much that you didn’t want to take them off for winter. That’s why we’ve created the <strong>winter version with fuzzy fur lining</strong>. What warmth!</p>",
-        "button_label": "Warm yourself up",
-        "button_link": "https://ahinsashoes.com/collections/news/shuma-winter",
+        "title": "Hava Sandals",
+        "subtitle": "Wedding sandals that you won’t even know you’re wearing",
+        "text": "<p>On your wedding day, you shouldn’t have to be thinking about shoes. You’ll put these sandals on in the morning and forget you’re even wearing them. You can <strong>adjust the super-soft straps to fit your needs</strong>, and the rubber strap in front will allow them <strong>to adapt to your feet.</strong></p>",
+        "button_label": "put them on",
+        "button_link": "https://ahinsashoes.com/collections/hava-crossed-straps-sandals",
         "layout": "right",
         "divider": false
       }
