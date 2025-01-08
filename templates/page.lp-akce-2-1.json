@@ -325,8 +325,33 @@
       "block_order": [
         "image_EnBCPj"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/DSC_9983_20240508_a71e49dc-ad37-46c9-96d1-77c4ac83be3b.jpg",
+        "image_width": 500,
+        "subtitle": "How does it work?",
+        "title": "",
+        "text": "<p>It’s easy: Just add three pairs of Ahinsa shoes to the shopping cart and <strong>enter the code</strong> <strong>JOY at the checkout</strong>.</p><p>We’ll <strong>automatically subtract</strong> the price of the cheapest pair from the total. </p><p>A few more things to keep in mind:</p><ul><li>This special offer applies to <strong>all Ahinsa shoes</strong>. Even to those that are discounted. </li><li><strong>Want to return one of the 3 pairs? </strong>This unfortunately voids your claim to the free pair. There's a solution though – <strong>you can exchange them</strong> instead.</li></ul>",
+        "button_label": "Choose yours",
+        "button_link": "shopify://collections/all-barefoot-shoes",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "e_book_image_text3_3Pd7GQ": {
+      "type": "e-book-image-text3",
+      "blocks": {
+        "image_rLLw9D": {
+          "type": "image",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_rLLw9D"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DSC_9983_20240508.jpg",
         "image_width": 500,
         "subtitle": "How does it work?",
         "title": "",
@@ -337,16 +362,17 @@
         "divider": false
       }
     },
-    "e_book_image_text3_3Pd7GQ": {
+    "e_book_image_text3_xYQq33": {
       "type": "e-book-image-text3",
       "blocks": {
-        "image_rLLw9D": {
+        "image_jP8Qyj": {
           "type": "image",
+          "disabled": true,
           "settings": {}
         }
       },
       "block_order": [
-        "image_rLLw9D"
+        "image_jP8Qyj"
       ],
       "settings": {
         "image": "shopify://shop_images/IMG_7931_7e9b3931-ac82-4f62-b248-04fbe8d2c21c.jpg",
@@ -379,6 +405,7 @@
     "product_story_sections_gXBitH",
     "featured_collections_wCDCDP",
     "e_book_image_text3_jjTYjH",
-    "e_book_image_text3_3Pd7GQ"
+    "e_book_image_text3_3Pd7GQ",
+    "e_book_image_text3_xYQq33"
   ]
 }
