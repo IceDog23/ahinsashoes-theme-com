@@ -197,31 +197,25 @@
         "html_93zeBN": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/pura_sedy_nubuk_lfst.jpg"
+            "image": "shopify://shop_images/satkove2.jpg"
           }
         },
         "html_4Abtch": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_8733_20240507_0e652b4c-07f8-41fb-92c6-a16e2e3a1410.jpg"
+            "image": "shopify://shop_images/Ahinsa_web_9KC1387_1.jpg"
           }
         },
         "html_7dwhJj": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_8695_20240507_1f2f06e5-c4d2-4cf9-9915-176845cae249.jpg"
+            "image": "shopify://shop_images/Ahinsa_web_9KC1389_1.jpg"
           }
         },
         "html_tiTGqN": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_8656_20240507_05209c3e-8283-4df4-ab22-d9da853b4277.jpg"
-          }
-        },
-        "html_bLHEcy": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC_8635_20240507_3d52b98a-9dae-4c14-b57a-ddf13db2035b.jpg"
+            "image": "shopify://shop_images/satkove1.jpg"
           }
         }
       },
@@ -229,8 +223,7 @@
         "html_93zeBN",
         "html_4Abtch",
         "html_7dwhJj",
-        "html_tiTGqN",
-        "html_bLHEcy"
+        "html_tiTGqN"
       ],
       "settings": {
         "image_width": 500,
