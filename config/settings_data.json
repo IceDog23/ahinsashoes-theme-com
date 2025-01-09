@@ -546,11 +546,11 @@
       "newsletter-popup": {
         "type": "newsletter-popup",
         "settings": {
-          "mode": "disabled",
+          "mode": "enabled",
           "popup_seconds": 15,
           "popup_days": 30,
           "popup_title": "Special promotion: Get free pair of shoes 🎁",
-          "popup_image": "shopify://shop_images/joy_banner_2.jpg",
+          "popup_image": "shopify://shop_images/joy_banner_5.jpg",
           "popup_text": "<p>Choose three pairs of Ahinsa shoes and<br/><strong>get the cheapest one for free</strong>. Just enter the code <strong>JOY</strong> at the checkout.</p>",
           "close_text": "",
           "enable_newsletter": false,
