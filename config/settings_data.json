@@ -3249,6 +3249,13 @@
               "customer": "Romana Kotrlová"
             }
           },
+          "21b965e7-646a-438a-906b-b87196a9e059": {
+            "type": "block",
+            "settings": {
+              "text": "<p>So far, Ahinsa shoes are the best for me out of the \"boots\" available on our market. I started using Barefoot approx. 5 years ago on the recommendation of a physiotherapist (back pain, tendency to transversely flat feet) - I tried different manufacturers. In general, I can confirm from my own experience the health effect of the correct use of barefoot shoes - my back doesn't hurt, I don't \"stomp\" even when I'm in a hurry...<br/><br/>I like the material, the appearance, the speed of delivery of your products - simply the overall quality of the products and the quality of your services. I have spring, summer and winter shoes from your company and as I already mentioned, they are the best for me :)</p>",
+              "customer": "Iva Fröhlichová"
+            }
+          },
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d": {
             "type": "block",
             "settings": {
@@ -3270,18 +3277,25 @@
               "customer": "Annette Cre"
             }
           },
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!</p>",
+              "customer": "Veronika Brenkusová"
+            }
+          },
+          "block_enBCwX": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I love your shoes and tell everybody how wonderful they are! Next to my wish list are the ribbon sandals, but I am still saving up for them! Thank you so much!</p>",
+              "customer": "Maria Paciullo"
+            }
+          },
           "1502b308-53e3-451a-99d5-184da0180962": {
             "type": "block",
             "settings": {
               "text": "<p>This weekend I had the opportunity to walk a few kilometers in the snow in your boots and they are great, you did an amazing job. Thank you so much for making them for me.</p>",
               "customer": "Magda Cermanová"
-            }
-          },
-          "21b965e7-646a-438a-906b-b87196a9e059": {
-            "type": "block",
-            "settings": {
-              "text": "<p>So far, Ahinsa shoes are the best for me out of the \"boots\" available on our market. I started using Barefoot approx. 5 years ago on the recommendation of a physiotherapist (back pain, tendency to transversely flat feet) - I tried different manufacturers. In general, I can confirm from my own experience the health effect of the correct use of barefoot shoes - my back doesn't hurt, I don't \"stomp\" even when I'm in a hurry...<br/><br/>I like the material, the appearance, the speed of delivery of your products - simply the overall quality of the products and the quality of your services. I have spring, summer and winter shoes from your company and as I already mentioned, they are the best for me :)</p>",
-              "customer": "Iva Fröhlichová"
             }
           },
           "9d4b02b1-c841-495d-93b8-6f9fa021b519": {
@@ -3303,13 +3317,6 @@
             "settings": {
               "text": "<p>The shoes feels fantastic both for material and feeling, the best ones i've tried. This is the best vegan shoes out there in my opinion!</p>",
               "customer": "Francesco Nanni"
-            }
-          },
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
-            "type": "block",
-            "settings": {
-              "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!</p>",
-              "customer": "Veronika Brenkusová"
             }
           },
           "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
@@ -3381,13 +3388,6 @@
             "settings": {
               "text": "<p>I have only worn my new shoes for about an hour in total so far. But that is all the time i need to let you know that my new Chelsea boots are absolutely perfect in every way! I have shoes from different companies, but Ahinsa is from now on (and probably ever) my new favorite brand. As a vegan barefoot enthusiast, its not always easy to find the right shoes. But I found them today! THANK YOU!</p>",
               "customer": "Thale Waaler Eggen"
-            }
-          },
-          "block_enBCwX": {
-            "type": "block",
-            "settings": {
-              "text": "<p>I love your shoes and tell everybody how wonderful they are! Next to my wish list are the ribbon sandals, but I am still saving up for them! Thank you so much!</p>",
-              "customer": "Maria Paciullo"
             }
           },
           "b059d893-8622-4107-ae0d-a371051d1b15": {
@@ -3565,15 +3565,16 @@
           "block_wdW8BW",
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902",
           "cd494f6e-210f-4abc-82c7-a6d144e2e213",
+          "21b965e7-646a-438a-906b-b87196a9e059",
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
           "17888abf-fad6-47eb-8e27-0ecc230e886d",
           "0ee6eb91-cbec-488d-bf91-8be2028aa091",
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
+          "block_enBCwX",
           "1502b308-53e3-451a-99d5-184da0180962",
-          "21b965e7-646a-438a-906b-b87196a9e059",
           "9d4b02b1-c841-495d-93b8-6f9fa021b519",
           "699379ac-e5c5-49a4-bcd8-8d11ce1a7a0c",
           "block_XmJtk7",
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
           "bff73c87-3d35-4461-b292-a9f4818f7fa8",
           "533d7237-b680-424c-bfa1-782faddbfbf2",
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf",
@@ -3584,7 +3585,6 @@
           "block_d4hnK8",
           "f9b155da-333f-4412-a218-657f56d36ddf",
           "1c8f1519-463d-44fa-8a24-370b78c52481",
-          "block_enBCwX",
           "b059d893-8622-4107-ae0d-a371051d1b15",
           "6e830b02-8fec-494b-a61f-5648396dddac",
           "664cfa9d-a33d-4b7b-918a-76300ccc5268",
