@@ -3186,6 +3186,13 @@
               "customer": "Iveta Heroutová"
             }
           },
+          "block_mtNUE7": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I really love my new Ahinsa shoes Tara Winter 2.0 black. Im still learning how to walk in a barefoot shoe, but its very comfortable so far. I enjoy its warm and waterproof, very good in cold weather. :)</p>",
+              "customer": "Bence Vass"
+            }
+          },
           "block_ektrbC": {
             "type": "block",
             "settings": {
@@ -3542,6 +3549,7 @@
         "block_order": [
           "block_nLFyLq",
           "1c165b8d-bce4-4091-beb2-8068e95f11ba",
+          "block_mtNUE7",
           "block_ektrbC",
           "6790a163-fa11-4f52-820f-2fc2337f144c",
           "block_jMDENQ",
