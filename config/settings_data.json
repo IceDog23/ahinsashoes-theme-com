@@ -3214,6 +3214,13 @@
               "customer": "Lucie Jelínková"
             }
           },
+          "block_gihHg4": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Love my xWide Hikers and very glad I found your company. This is only the second brand of shoes I have been able to wear “off the shelf” because my feet are so wide. I have been a barefoot shoe person for over a decade now so my feet have widened quite a bit.<br/><br/>In the couple of weeks since buying these I have been in rain, mud, sleet, and almost a meter of snow.  My feet have stayed dry and warm - absolutely love these boots! Thank you for making a truly extra wide barefoot shoe!</p>",
+              "customer": "Jennifer Farley"
+            }
+          },
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902": {
             "type": "block",
             "settings": {
@@ -3539,6 +3546,7 @@
           "6790a163-fa11-4f52-820f-2fc2337f144c",
           "block_jMDENQ",
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b",
+          "block_gihHg4",
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902",
           "cd494f6e-210f-4abc-82c7-a6d144e2e213",
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
