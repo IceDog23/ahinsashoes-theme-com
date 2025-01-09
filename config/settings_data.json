@@ -3228,6 +3228,13 @@
               "customer": "Jennifer Farley"
             }
           },
+          "block_wdW8BW": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I have ordered 2 sneakers: one Pura Play Comfort and one Simple barefoot version and 1 summer sandals. After wearing Ahinsa since July, I would like to share with you my feedback. Comfort sneakers are amazing. Good style and very comfortable. I walked with it during my city trip in Slovenia and Austria and didnt feel any foot pain. They are wide enough without looking like duck feet shoes. <br/>The sneakers are stylish, urban chic style and match well with casual chic outfits.</p>",
+              "customer": "Donna Nachampassak"
+            }
+          },
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902": {
             "type": "block",
             "settings": {
@@ -3555,6 +3562,7 @@
           "block_jMDENQ",
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b",
           "block_gihHg4",
+          "block_wdW8BW",
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902",
           "cd494f6e-210f-4abc-82c7-a6d144e2e213",
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
