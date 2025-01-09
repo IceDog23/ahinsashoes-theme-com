@@ -3200,11 +3200,25 @@
               "customer": "Alexandra Gatsis"
             }
           },
+          "block_wdW8BW": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I have ordered 2 sneakers: one Pura Play Comfort and one Simple barefoot version and 1 summer sandals. After wearing Ahinsa since July, I would like to share with you my feedback. Comfort sneakers are amazing. Good style and very comfortable. I walked with it during my city trip in Slovenia and Austria and didnt feel any foot pain. They are wide enough without looking like duck feet shoes. <br/>The sneakers are stylish, urban chic style and match well with casual chic outfits.</p>",
+              "customer": "Donna Nachampassak"
+            }
+          },
           "6790a163-fa11-4f52-820f-2fc2337f144c": {
             "type": "block",
             "settings": {
               "text": "<p>I feel great in the winter boots. I've been wearing Barefoot boots exclusively for 3 years now, and since then I've had no pain in my bunions, which I've developed over the past 35 years...</p>",
               "customer": "Lenka Vlková"
+            }
+          },
+          "block_gihHg4": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Love my xWide Hikers and very glad I found your company. This is only the second brand of shoes I have been able to wear “off the shelf” because my feet are so wide. I have been a barefoot shoe person for over a decade now so my feet have widened quite a bit.<br/><br/>In the couple of weeks since buying these I have been in rain, mud, sleet, and almost a meter of snow.  My feet have stayed dry and warm - absolutely love these boots! Thank you for making a truly extra wide barefoot shoe!</p>",
+              "customer": "Jennifer Farley"
             }
           },
           "block_jMDENQ": {
@@ -3221,18 +3235,18 @@
               "customer": "Lucie Jelínková"
             }
           },
-          "block_gihHg4": {
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
             "type": "block",
             "settings": {
-              "text": "<p>Love my xWide Hikers and very glad I found your company. This is only the second brand of shoes I have been able to wear “off the shelf” because my feet are so wide. I have been a barefoot shoe person for over a decade now so my feet have widened quite a bit.<br/><br/>In the couple of weeks since buying these I have been in rain, mud, sleet, and almost a meter of snow.  My feet have stayed dry and warm - absolutely love these boots! Thank you for making a truly extra wide barefoot shoe!</p>",
-              "customer": "Jennifer Farley"
+              "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!</p>",
+              "customer": "Veronika Brenkusová"
             }
           },
-          "block_wdW8BW": {
+          "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
             "type": "block",
             "settings": {
-              "text": "<p>I have ordered 2 sneakers: one Pura Play Comfort and one Simple barefoot version and 1 summer sandals. After wearing Ahinsa since July, I would like to share with you my feedback. Comfort sneakers are amazing. Good style and very comfortable. I walked with it during my city trip in Slovenia and Austria and didnt feel any foot pain. They are wide enough without looking like duck feet shoes. <br/>The sneakers are stylish, urban chic style and match well with casual chic outfits.</p>",
-              "customer": "Donna Nachampassak"
+              "text": "<p>I’m writing to say I LOVE my simple black barefoot sandals. I wear them everyday and I feel so happy in them. Thank you for making them!!!!!</p>",
+              "customer": "Jacqueline Smith"
             }
           },
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902": {
@@ -3240,6 +3254,13 @@
             "settings": {
               "text": "<p>I feel good in my new shoes and they have also done very well in deep wet snow on a trip in Norway. They are the best barefoot shoes I have owned to this date - and several others have looked enviously at them! :) </p><p>I was recommended your brand by a friend whose mother has several shoes from you, and are very happy about them, and I have personally recommended your brand to many others already! </p><p>Very pleasant and wonderful experience in finding and buying my new barefoot winter boots from you at Ahinsa! </p>",
               "customer": "Johanne Hauge Westerlund"
+            }
+          },
+          "block_enBCwX": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I love your shoes and tell everybody how wonderful they are! Next to my wish list are the ribbon sandals, but I am still saving up for them! Thank you so much!</p>",
+              "customer": "Maria Paciullo"
             }
           },
           "cd494f6e-210f-4abc-82c7-a6d144e2e213": {
@@ -3277,20 +3298,6 @@
               "customer": "Annette Cre"
             }
           },
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
-            "type": "block",
-            "settings": {
-              "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!</p>",
-              "customer": "Veronika Brenkusová"
-            }
-          },
-          "block_enBCwX": {
-            "type": "block",
-            "settings": {
-              "text": "<p>I love your shoes and tell everybody how wonderful they are! Next to my wish list are the ribbon sandals, but I am still saving up for them! Thank you so much!</p>",
-              "customer": "Maria Paciullo"
-            }
-          },
           "1502b308-53e3-451a-99d5-184da0180962": {
             "type": "block",
             "settings": {
@@ -3317,13 +3324,6 @@
             "settings": {
               "text": "<p>The shoes feels fantastic both for material and feeling, the best ones i've tried. This is the best vegan shoes out there in my opinion!</p>",
               "customer": "Francesco Nanni"
-            }
-          },
-          "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
-            "type": "block",
-            "settings": {
-              "text": "<p>I’m writing to say I LOVE my simple black barefoot sandals. I wear them everyday and I feel so happy in them. Thank you for making them!!!!!</p>",
-              "customer": "Jacqueline Smith"
             }
           },
           "533d7237-b680-424c-bfa1-782faddbfbf2": {
@@ -3558,24 +3558,24 @@
           "1c165b8d-bce4-4091-beb2-8068e95f11ba",
           "block_mtNUE7",
           "block_ektrbC",
+          "block_wdW8BW",
           "6790a163-fa11-4f52-820f-2fc2337f144c",
+          "block_gihHg4",
           "block_jMDENQ",
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b",
-          "block_gihHg4",
-          "block_wdW8BW",
+          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
+          "bff73c87-3d35-4461-b292-a9f4818f7fa8",
           "2c88f05f-fea8-4d7e-b3f3-4b354caa8902",
+          "block_enBCwX",
           "cd494f6e-210f-4abc-82c7-a6d144e2e213",
           "21b965e7-646a-438a-906b-b87196a9e059",
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d",
           "17888abf-fad6-47eb-8e27-0ecc230e886d",
           "0ee6eb91-cbec-488d-bf91-8be2028aa091",
-          "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e",
-          "block_enBCwX",
           "1502b308-53e3-451a-99d5-184da0180962",
           "9d4b02b1-c841-495d-93b8-6f9fa021b519",
           "699379ac-e5c5-49a4-bcd8-8d11ce1a7a0c",
           "block_XmJtk7",
-          "bff73c87-3d35-4461-b292-a9f4818f7fa8",
           "533d7237-b680-424c-bfa1-782faddbfbf2",
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf",
           "2805ccde-f3f5-4a41-9bac-f9d7985d5682",
