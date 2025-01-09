@@ -3172,6 +3172,13 @@
       "customer-reviews": {
         "type": "customer-reviews",
         "blocks": {
+          "block_nLFyLq": {
+            "type": "block",
+            "settings": {
+              "text": "<p>The shoes are marvelous. 1st set of shoes I have had that fit my wide feet and high instep. It’s winter here in Ohio, U.S.A. I wear them with out sox’s. I love barefoot shoes, physically assist my leg circulation by the pumping of the foot each step. No slipping on ice!  Seventeen degrees Fahrenheit, one hour scrapping ice of my sidewalk, feet still warm. My thanks, these shows met all my hopes and more.  Quality material, very comfortable.  I’v tried three other barefoot shoe companies and these shows I rate in the top three.  </p>",
+              "customer": "David Wigle"
+            }
+          },
           "1c165b8d-bce4-4091-beb2-8068e95f11ba": {
             "type": "block",
             "settings": {
@@ -3526,6 +3533,7 @@
           }
         },
         "block_order": [
+          "block_nLFyLq",
           "1c165b8d-bce4-4091-beb2-8068e95f11ba",
           "block_ektrbC",
           "6790a163-fa11-4f52-820f-2fc2337f144c",
