@@ -6055,6 +6055,7 @@
         "blocks": {
           "image_CFnqQx": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "Love at first step",
@@ -6081,10 +6082,9 @@
           },
           "image_w7BCHU": {
             "type": "image",
-            "disabled": true,
             "settings": {
               "top_subheading": "Share joy. Share Ahinsa shoes",
-              "title": "<p style=\"color: white;\">2 + 1 pair free\nOnly while supplies last.</p>",
+              "title": "<p style=\"color: white;\">2 + 1 pair free.\nOnly while supplies last.</p>",
               "title_size": 75,
               "subheading": "",
               "text_color": "#ffffff",
@@ -6099,6 +6099,7 @@
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
               "image": "shopify://shop_images/hero_banne2_1.png",
+              "image_mobile": "shopify://shop_images/hero_banner_2_1_mobil_1.png",
               "overlay_opacity": 0,
               "focal_point": "center center"
             }
@@ -6110,7 +6111,7 @@
         ],
         "settings": {
           "section_height": "650px",
-          "mobile_height": "auto",
+          "mobile_height": "500px",
           "benefits": "<p><strong>HEALTHY – UNIVERSITY-TESTED | HANDMADE IN THE EU | THEY'LL LAST MILLIONS OF STEPS | QUICK AND EASY SIZE EXCHANGES AND RETURNS | 100% VEGAN</strong></p>",
           "benefits_color": "#ffffff",
           "parallax": false,
