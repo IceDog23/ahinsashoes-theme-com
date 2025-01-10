@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-header": {
@@ -8,7 +17,7 @@
         "parallax": true,
         "text_align_left": true,
         "text_width": 40,
-        "subtitle": "<p>What would you say to a pair of men’s shoes that you can wear <strong>to work, a formal evening or into nature? <\/strong><\/p><p>You’ve just found them. Endlessly <strong>comfortable shoes designed by physiotherapists<\/strong>, which will last for years. <\/p>",
+        "subtitle": "<p>What would you say to a pair of men’s shoes that you can wear <strong>to work, a formal evening or into nature? </strong></p><p>You’ve just found them. Endlessly <strong>comfortable shoes designed by physiotherapists</strong>, which will last for years. </p>",
         "text_color": "#ffffff"
       }
     },
@@ -21,19 +30,41 @@
             "subcollections_per_row": 2,
             "collection_1": "mens-barefoot-shoes",
             "title_1": "BAREFOOT SHOES",
-            "content_1": "<p><strong>A flexible sole <\/strong>and <strong>zero drop <\/strong>will connect you to the ground. <\/p><p>Walk naturally like nature intended. <\/p>",
-            "icon_1": "shopify:\/\/shop_images\/ahinsa-barefoot.png",
+            "content_1": "<p><strong>A flexible sole </strong>and <strong>zero drop </strong>will connect you to the ground. </p><p>Walk naturally like nature intended. </p>",
+            "icon_1": "shopify://shop_images/ahinsa-barefoot.png",
             "collection_2": "mens-comfort-shoes",
             "title_2": "COMFORT SHOES",
-            "content_2": "<p>Comfort without compromises. <strong>They’ll liberate your feet <\/strong>and <strong>soften your steps<\/strong>. Ideal for those who don’t want to feel every pebble along their path. <\/p>",
-            "icon_2": "shopify:\/\/shop_images\/ahinsa-comfort.png"
+            "content_2": "<p>Comfort without compromises. <strong>They’ll liberate your feet </strong>and <strong>soften your steps</strong>. Ideal for those who don’t want to feel every pebble along their path. </p>",
+            "icon_2": "shopify://shop_images/ahinsa-comfort.png"
+          }
+        },
+        "advanced_CDGGKT": {
+          "type": "advanced",
+          "settings": {
+            "promo_collection": "",
+            "subheading": "",
+            "heading": "Only while supplies last: 2 + 1 pair FREE",
+            "textarea": "Choose three pairs of Ahinsa shoes and get the cheapest one for free. Just enter the code <b>JOY</b> at the checkout.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/DSC_2494.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 100,
+            "text_size": 115,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
           }
         },
         "collection_description": {
           "type": "collection_description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "subcollections": {
           "type": "subcollections",
@@ -63,7 +94,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/DSC_2509.jpg",
+            "image": "shopify://shop_images/DSC_2509.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -87,7 +118,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/AhinsaStudio_7of26.jpg",
+            "image": "shopify://shop_images/AhinsaStudio_7of26.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -111,7 +142,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/AhinsaStudio_25of26.jpg",
+            "image": "shopify://shop_images/AhinsaStudio_25of26.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -135,7 +166,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_36of41.jpg",
+            "image": "shopify://shop_images/AhinsaBotanickaGram_36of41.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -159,7 +190,7 @@
             "cta_link1": "",
             "cta_text2": "Shop All",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/AUM08243.jpg",
+            "image": "shopify://shop_images/AUM08243.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -183,7 +214,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/3T1A2488.jpg",
+            "image": "shopify://shop_images/3T1A2488.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -207,7 +238,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_41of41_59dcbe6a-abd7-4e39-ae0f-9157c4229b58.jpg",
+            "image": "shopify://shop_images/AhinsaBotanickaGram_41of41_59dcbe6a-abd7-4e39-ae0f-9157c4229b58.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -222,6 +253,7 @@
       },
       "block_order": [
         "newsubcols_i7JmbM",
+        "advanced_CDGGKT",
         "collection_description",
         "subcollections",
         "product_grid",
