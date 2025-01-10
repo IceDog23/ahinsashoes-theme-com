@@ -6055,6 +6055,7 @@
         "blocks": {
           "image_CFnqQx": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "Love at first step",
@@ -6081,24 +6082,23 @@
           },
           "image_w7BCHU": {
             "type": "image",
-            "disabled": true,
             "settings": {
-              "top_subheading": "Only while supplies last: 2 + 1 pair free",
-              "title": "<p style=\"color: white;\">Share joy.\nShare Ahinsa shoes</p>",
+              "top_subheading": "Share joy. Share Ahinsa shoes",
+              "title": "<p style=\"color: white;\">2 + 1 pair free\nOnly while supplies last.</p>",
               "title_size": 75,
               "subheading": "",
               "text_color": "#ffffff",
-              "link": "",
+              "link": "shopify://collections/women",
               "link_text": "Women's shoes >",
               "icon_h_1": 40,
               "arrow_1": false,
-              "link_2": "",
+              "link_2": "shopify://collections/men",
               "link_text_2": "Men's shoes >",
               "icon_h_2": 40,
               "arrow_2": false,
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify://shop_images/hero_banner_test_3.png",
+              "image": "shopify://shop_images/hero_banne2_1.png",
               "overlay_opacity": 0,
               "focal_point": "center center"
             }
@@ -6112,7 +6112,7 @@
           "section_height": "650px",
           "mobile_height": "auto",
           "benefits": "<p><strong>HEALTHY – UNIVERSITY-TESTED | HANDMADE IN THE EU | THEY'LL LAST MILLIONS OF STEPS | QUICK AND EASY SIZE EXCHANGES AND RETURNS | 100% VEGAN</strong></p>",
-          "benefits_color": "#000000",
+          "benefits_color": "#ffffff",
           "parallax": false,
           "style": "bars",
           "autoplay": true,
