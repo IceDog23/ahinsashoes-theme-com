@@ -546,7 +546,7 @@
       "newsletter-popup": {
         "type": "newsletter-popup",
         "settings": {
-          "mode": "enabled",
+          "mode": "disabled",
           "popup_seconds": 15,
           "popup_days": 30,
           "popup_title": "Special promotion: Get free pair of shoes 🎁",
