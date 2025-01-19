@@ -139,6 +139,16 @@
     {%- endif -%}
   {% endif %}
 
+  {% if template == 'collection' and collection.handle === 'warm-winter-boots-with-vegan-fur-lining' %}
+    <meta name="robots" content="noindex, nofollow">
+  {%  elsif template == 'collection' and collection.handle === 'in-the-great-outdoors' %}
+    <meta name="robots" content="noindex, nofollow">
+  {%  elsif template == 'collection' and collection.handle === 'from-the-office-to-a-formal-event-in-comfort' %}
+    <meta name="robots" content="noindex, nofollow">
+  {%  elsif template == 'collection' and collection.handle === 'sneakers-for-both-sports-and-work' %}
+    <meta name="robots" content="noindex, nofollow">
+  {% endif %}
+
   {%- render 'font-face' -%}
   {{ 'theme.css' | asset_url | stylesheet_tag }}
   {{ 'custom.css' | asset_url | stylesheet_tag }}
