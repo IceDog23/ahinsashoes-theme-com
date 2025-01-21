@@ -94,7 +94,7 @@
     "collection_grid_tint": "#000000",
     "collection_grid_opacity": 10,
     "collection_grid_gutter": true,
-    "footwear_type_tags": "ballet flats;boots;sandals;sneakers;casual shoes;sport shoes;ankle shoes;winter shoes;slip-on shoes;extra wide;narrow;spring;summer;autumn;urban;formal;all-season;for hiking",
+    "footwear_type_tags": "dress shoes;boots;sandals;sneakers;casual shoes;sport shoes;ankle shoes;winter shoes;slip-on shoes;extra wide;narrow;spring;summer;autumn;urban;formal;all-season;for hiking",
     "cart_type": "drawer",
     "cart_additional_buttons": true,
     "cart_notes_enable": true,
