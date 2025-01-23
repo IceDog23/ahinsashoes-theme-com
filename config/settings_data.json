@@ -4834,11 +4834,11 @@
         ],
         "settings": {
           "image_width": 500,
-          "title": "Ballerina sandals",
+          "title": "Ballerina dress shoes",
           "subtitle": "The queen of delicate elegance",
-          "text": "<p>Who says you have to suffer to be beautiful? Freedom is beauty. Experience it in <strong>sandals</strong> that will make you <strong>want to dance</strong>. After the wedding, you can wear them to a picnic or even a formal ball.</p>",
+          "text": "<p>Who says you have to suffer to be beautiful? Freedom is beauty. Experience it in <strong>dress shoes </strong>that will make you <strong>want to dance</strong>. After the wedding, you can wear them to a picnic or even a formal ball.</p>",
           "button_label": "Indulge yourself",
-          "button_link": "https://ahinsashoes.com/collections/ballerina-sandals",
+          "button_link": "shopify://collections/ballerina-sandals",
           "layout": "right",
           "divider": false
         }
@@ -4946,7 +4946,7 @@
           "image": "shopify://shop_images/svatebni_3.png",
           "title": "",
           "subtitle": "",
-          "text": "<p>“My wedding was a day when I wanted to be myself.</p><p>Comfortably, without the blisters, and that’s why formal high-heels were out of the question. I chose barefoot ballet flats and enjoyed every step towards the altar and every minute of dancing. </p><p>And mainly, I still wear my wedding shoes – they didn’t end up at the back of the closet.”</p><p>Ahinsa bride</p>",
+          "text": "<p>“My wedding was a day when I wanted to be myself.</p><p>Comfortably, without the blisters, and that’s why formal high-heels were out of the question. I chose barefoot dress shoes and enjoyed every step towards the altar and every minute of dancing. </p><p>And mainly, I still wear my wedding shoes – they didn’t end up at the back of the closet.”</p><p>Ahinsa bride</p>",
           "button_label": "",
           "button_link": "",
           "layout": "left",
