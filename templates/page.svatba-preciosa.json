@@ -350,7 +350,7 @@
         "button_link": "",
         "image": "shopify://shop_images/svatebni_3.png",
         "focal_point": "center",
-        "layout": "right",
+        "layout": "left",
         "height": 550,
         "framed": false,
         "parallax": true
