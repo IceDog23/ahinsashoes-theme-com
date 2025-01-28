@@ -182,11 +182,11 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Ballerina sandals",
+        "title": "Ballerina dress shoes",
         "subtitle": "The queen of delicate elegance",
-        "text": "<p>Who says you have to suffer to be beautiful? Freedom is beauty. Experience it in <strong>sandals</strong> that will make you <strong>want to dance</strong>. After the wedding, you can wear them to a picnic or even a formal ball.</p>",
+        "text": "<p>Who says you have to suffer to be beautiful? Freedom is beauty. Experience it in <strong>dress shoes </strong>that will make you <strong>want to dance</strong>. After the wedding, you can wear them to a picnic or even a formal ball.</p>",
         "button_label": "Indulge yourself",
-        "button_link": "https://ahinsashoes.com/collections/ballerina-sandals",
+        "button_link": "shopify://collections/ballerina-sandals",
         "layout": "left",
         "divider": false
       }
@@ -279,11 +279,11 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Ananda ballet flats",
+        "title": "Ananda dress shoes",
         "subtitle": "The happiness of dancing the night away",
         "text": "<p>Ananda means <strong>happiness and bliss</strong>. And that’s exactly what you’ll feel when you’re dancing your wedding day away without one single blister. Who says your wedding shoes have to be white?</p>",
         "button_label": "start dancing",
-        "button_link": "https://ahinsashoes.com/collections/women/ballet-flats",
+        "button_link": "https://ahinsashoes.com/collections/women/dress-shoes",
         "layout": "left",
         "divider": false
       }
@@ -345,12 +345,12 @@
       "settings": {
         "subtitle": "",
         "title": "",
-        "text": "<p><em>“My wedding was a day when I wanted to be myself.</em></p><p><em>Comfortably, without the blisters, and that’s why formal high-heels were out of the question. I chose barefoot ballet flats and enjoyed every step towards the altar and every minute of dancing.</em></p><p><em>And mainly, I still wear my wedding shoes – they didn’t end up at the back of the closet.”</em></p><p>Ahinsa bride</p>",
+        "text": "<p><em>“My wedding was a day when I wanted to be myself.</em></p><p><em>Comfortably, without the blisters, and that’s why formal high-heels were out of the question. I chose barefoot dress shoes and enjoyed every step towards the altar and every minute of dancing.</em></p><p><em>And mainly, I still wear my wedding shoes – they didn’t end up at the back of the closet.”</em></p><p>Ahinsa bride</p>",
         "button_label": "",
         "button_link": "",
         "image": "shopify://shop_images/svatebni_3.png",
         "focal_point": "center",
-        "layout": "right",
+        "layout": "left",
         "height": 550,
         "framed": false,
         "parallax": true

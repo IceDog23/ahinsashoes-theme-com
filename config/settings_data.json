@@ -94,7 +94,7 @@
     "collection_grid_tint": "#000000",
     "collection_grid_opacity": 10,
     "collection_grid_gutter": true,
-    "footwear_type_tags": "ballet flats;boots;sandals;sneakers;casual shoes;sport shoes;ankle shoes;winter shoes;slip-on shoes;extra wide;narrow;spring;summer;autumn;urban;formal;all-season;for hiking",
+    "footwear_type_tags": "dress shoes;boots;sandals;sneakers;casual shoes;sport shoes;ankle shoes;winter shoes;slip-on shoes;extra wide;narrow;spring;summer;autumn;urban;formal;all-season;for hiking",
     "cart_type": "drawer",
     "cart_additional_buttons": true,
     "cart_notes_enable": true,
@@ -2021,7 +2021,7 @@
           "606de0b4-5eca-41b0-8244-8a3d28ef8323": {
             "type": "product",
             "settings": {
-              "product": "ananda-barefoot-ballet-flats-blue-nubuck"
+              "product": "ananda-barefoot-dress-shoes-blue-nubuck"
             }
           },
           "04471407-0499-405f-a29b-bc291f1f537c": {
@@ -2969,7 +2969,7 @@
           "np-promotions-3": {
             "type": "promotion",
             "settings": {
-              "title": "We manufacture in the Czech Republic and Croatia",
+              "title": "We manufacture in Slovakia and Croatia",
               "text": "",
               "button_link": ""
             }
@@ -3050,7 +3050,7 @@
           "image_width": 500,
           "title": "Ahinsa shoes are made with love in Europe",
           "subtitle": "",
-          "text": "<p>Goran and Štefica with their team – our Croatian colleagues. <strong>Their family has worked in the shoemaking craft </strong>for decades, and that’s why we’re grateful to them for taking on our Ahinsa shoes. </p><p>They make each pair <strong>by hand and with love</strong>. Thanks to them, you can rest assured that they were created ethically in Europe and will accompany you on your path throughout the world.</p>",
+          "text": "<p>Goran and Štefica with their team – our Croatian colleagues. <strong>Their family has worked in the shoemaking craft </strong>for decades, and that’s why we’re grateful to them for taking on our Ahinsa shoes. At the beginning of 2025, they were joined by skilled shoemakers from Slovakia.</p><p>They make each pair <strong>by hand and with love</strong>. Thanks to them, you can rest assured that they were created ethically in Europe and will accompany you on your path throughout the world.</p>",
           "button_label": "How are Ahinsa shoes sewn?",
           "button_link": "shopify://blogs/news/how-are-ahinsa-shoes-sewn",
           "layout": "right",
@@ -4834,11 +4834,11 @@
         ],
         "settings": {
           "image_width": 500,
-          "title": "Ballerina sandals",
+          "title": "Ballerina dress shoes",
           "subtitle": "The queen of delicate elegance",
-          "text": "<p>Who says you have to suffer to be beautiful? Freedom is beauty. Experience it in <strong>sandals</strong> that will make you <strong>want to dance</strong>. After the wedding, you can wear them to a picnic or even a formal ball.</p>",
+          "text": "<p>Who says you have to suffer to be beautiful? Freedom is beauty. Experience it in <strong>dress shoes </strong>that will make you <strong>want to dance</strong>. After the wedding, you can wear them to a picnic or even a formal ball.</p>",
           "button_label": "Indulge yourself",
-          "button_link": "https://ahinsashoes.com/collections/ballerina-sandals",
+          "button_link": "shopify://collections/ballerina-sandals",
           "layout": "right",
           "divider": false
         }
@@ -4931,11 +4931,11 @@
         ],
         "settings": {
           "image_width": 500,
-          "title": "Ananda ballet flats",
+          "title": "Ananda dress shoes",
           "subtitle": "The happiness of dancing the night away",
           "text": "<p>Ananda means <strong>happiness and bliss</strong>. And that’s exactly what you’ll feel when you’re dancing your wedding day away without one single blister. Who says your wedding shoes have to be white?</p>",
           "button_label": "Start dancing",
-          "button_link": "https://ahinsashoes.com/collections/women/ballet-flats",
+          "button_link": "https://ahinsashoes.com/collections/women/dress-shoes",
           "layout": "right",
           "divider": false
         }
@@ -4946,7 +4946,7 @@
           "image": "shopify://shop_images/svatebni_3.png",
           "title": "",
           "subtitle": "",
-          "text": "<p>“My wedding was a day when I wanted to be myself.</p><p>Comfortably, without the blisters, and that’s why formal high-heels were out of the question. I chose barefoot ballet flats and enjoyed every step towards the altar and every minute of dancing. </p><p>And mainly, I still wear my wedding shoes – they didn’t end up at the back of the closet.”</p><p>Ahinsa bride</p>",
+          "text": "<p>“My wedding was a day when I wanted to be myself.</p><p>Comfortably, without the blisters, and that’s why formal high-heels were out of the question. I chose barefoot dress shoes and enjoyed every step towards the altar and every minute of dancing. </p><p>And mainly, I still wear my wedding shoes – they didn’t end up at the back of the closet.”</p><p>Ahinsa bride</p>",
           "button_label": "",
           "button_link": "",
           "layout": "left",
