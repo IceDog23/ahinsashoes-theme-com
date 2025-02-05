@@ -15,10 +15,10 @@
         "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
+            "top_subheading": "Be the first to get these stylish spring shoes and get 20% off",
             "title": "Dare to wear shoes that \nstand out from the crowd",
             "title_size": 60,
-            "subheading": "<br>Shoes with glitter, dazzle and color... even <b>sneakers designed by AI</b>! This spring will bring a fresh breeze to your shoe collection and freedom for your feet.\n<br>\n<br><b>We’re starting at the end of February</b>. Will you be there?",
+            "subheading": "<br>Shoes with glitter, dazzle and color... even <b>sneakers designed by AI</b>! This spring will bring a fresh breeze to your shoe collection and freedom for your feet.\n<br>\n\n<br>We’re offering a 20% discount to our fastest customers.\n\n\n<br><b>We’re starting on February 17th</b>. Will you be there?",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -69,7 +69,24 @@
     },
     "product_story_sections_gXBitH": {
       "type": "product-story-sections",
-      "disabled": true,
+      "blocks": {
+        "rich_text_n3WG3L": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Pssst – keep it a secret! ",
+            "text": "<p>Hardly anyone knows about the Ahinsa spring shoe collection yet. So far, we’ve only shown it <strong>to you, our customers</strong>. </p><p>Be the first to choose a pair and get a 20% discount. </p><p>The pre-sale <strong>starts on February 17th</strong>. We’re now making the new products for you, and we’ll be sending them out to you in March.</p>",
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_n3WG3L"
+      ],
+      "custom_css": [
+        "{margin-top: 20px;}"
+      ],
       "settings": {}
     },
     "afadba8b-f130-41fc-8a37-2cc6ce89906e": {
@@ -118,8 +135,8 @@
         "title": "Street Sneakers – Hemp",
         "subtitle": "A playful classic that’s finally comfortable",
         "text": "<p>Canvas sneakers <strong>will never go out of style</strong>. But they’ve never been so comfortable and healthy. Put on this new version of a stylish classic <strong>designed by physiotherapists</strong>.</p>",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Be playful",
+        "button_link": "https://ahinsashoes.com/collections/news?filter.p.m.custom.material=hemp",
         "layout": "left",
         "divider": false
       }
@@ -170,8 +187,8 @@
         "title": "Yuva AI sneakers",
         "subtitle": "When physiotherapists team up with AI",
         "text": "<p>Combine the <strong>expertise of physiotherapists </strong>and <strong>ideas from artificial intelligence</strong>... and you get sneakers like the world has never seen before. Stylish, comfortable, and (nearly) indestructible.</p>",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Be the first to wear them",
+        "button_link": "https://ahinsashoes.com/collections/news/yuva",
         "layout": "right",
         "divider": false
       }
@@ -222,8 +239,8 @@
         "title": "Upgraded Chic dress shoes",
         "subtitle": "One shoe in a thousand different styles",
         "text": "<p>You don't need ten pairs of dress shoes. You only need one with a heel loop. String a <strong>ribbon </strong>through them one day, then a <strong>chain </strong>the next. Be different and chic, every time.</p>",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Be chic",
+        "button_link": "https://ahinsashoes.com/collections/news/chic+nepreciosa",
         "layout": "left",
         "divider": false
       }
@@ -288,8 +305,8 @@
         "title": "Preciosa sandals and dress shoes",
         "subtitle": "Glitter designed by the masters of dazzle",
         "text": "<p>You can never shine too brightly. Wouldn’t you agree? If so, you'll be thrilled with our dazzling <strong>collaboration with the masters of glitter at Preciosa</strong>. Warning: These crystals attract compliments!</p>",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Dazzle it up",
+        "button_link": "https://ahinsashoes.com/collections/news/preciosa",
         "layout": "right",
         "divider": false
       }
@@ -340,8 +357,8 @@
         "title": "AirNet mesh sneakers",
         "subtitle": "The star of your shoe collection makes a comeback",
         "text": "<p>We wanted to discontinue these <strong>breathable sneakers</strong>, but you said no. And we're not surprised. They’re breathable and they <strong>keep your feet dry </strong>both at work and while playing sports.</p>",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Get yourself a pair",
+        "button_link": "https://ahinsashoes.com/collections/news/airnet",
         "layout": "left",
         "divider": false
       }
