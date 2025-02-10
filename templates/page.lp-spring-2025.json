@@ -365,6 +365,7 @@
     },
     "e_book_image_text3_6rL9jQ": {
       "type": "e-book-image-text3",
+      "disabled": true,
       "custom_css": [
         "{background-color: #EFEBE2; /* Change background color */"
       ],
