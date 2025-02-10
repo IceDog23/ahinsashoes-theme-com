@@ -40,6 +40,7 @@
         },
         "advanced_teBRYh": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "promo_collection": "",
             "subheading": "",

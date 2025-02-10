@@ -36,6 +36,7 @@
         },
         "advanced_izjk8p": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "promo_collection": "",
             "subheading": "",
