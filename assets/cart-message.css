@@ -1,0 +1,14 @@
+.cart-message-hidden {
+    display: none!important;
+}
+
+.cart-message-section {
+    width: 50%;
+    padding-left: 17px;
+}
+
+@media (max-width: 768px) {
+    .cart-message-section {
+        width: 100%;
+    }
+}

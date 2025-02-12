@@ -1,0 +1,31 @@
+<!-- sections/cart-cart-message.liquid -->
+
+{{ 'cart-message.css' | asset_url | stylesheet_tag }}
+
+<div class=" {% if section.settings.hide_message %} cart-message-hidden {% endif %}">
+    <div class="">
+      <p>{{ section.settings.cart_message }}</p>
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Cart message",
+    "tag": "section",
+    "class": "cart-message-section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "hide_message",
+        "label": "Hide message",
+        "default": true
+      },
+      {
+        "type": "richtext",
+        "id": "cart_message",
+        "label": "Cart message"
+      }
+    ],
+
+  }
+{% endschema %}

@@ -190,6 +190,8 @@
 
           <div class="cart__row">
             <div class="grid">
+              {% section 'cart-cart-message' %}     
+
               {% if settings.cart_notes_enable %}
                 <div class="grid__item medium-up--one-half">
 
@@ -302,6 +304,7 @@
         </header>
       {% endif %}
     </div>
+
 
     {% section 'text-block-info-cart' %}
 
