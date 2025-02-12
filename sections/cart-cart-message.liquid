@@ -2,7 +2,7 @@
 
 {{ 'cart-message.css' | asset_url | stylesheet_tag }}
 
-<div class=" {% if section.settings.hide_message %} cart-message-hidden {% endif %}">
+<div class="{% if section.settings.hide_message %}cart-message-hidden{% endif %}">
     <div class="">
       <p>{{ section.settings.cart_message }}</p>
     </div>
