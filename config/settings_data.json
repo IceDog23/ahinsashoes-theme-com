@@ -6153,6 +6153,13 @@
           "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>",
           "divider": false
         }
+      },
+      "cart-cart-message": {
+        "type": "cart-cart-message",
+        "settings": {
+          "hide_message": false,
+          "cart_message": "<p><em>Do you have multiple items in your order, including pre-order shoes? We usually wait until all products are in stock and ship them together in one package. If you prefer to receive them separately, please place a separate order for the pre-order shoes.</em></p>"
+        }
       }
     },
     "content_for_index": [
