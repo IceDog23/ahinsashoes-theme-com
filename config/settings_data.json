@@ -5304,18 +5304,18 @@
       "structured-event-data": {
         "type": "structured-event-data",
         "settings": {
-          "name": "Winter sale – up to 40 % off ❄️",
-          "url": "https://ahinsashoes.com/collections/sale",
-          "startDate": "2025-01-09",
-          "endDate": "2025-02-17",
+          "name": "The new spring collection is here 🍀 On pre-sale with 20% discount!",
+          "url": "https://ahinsashoes.com/pages/spring",
+          "startDate": "2025-02-17",
+          "endDate": "2025-03-09",
           "name2": "Free e-book from physiotherapists 📖",
           "url2": "https://ahinsashoes.com/pages/tips-for-those-who-care-about-their-health",
           "startDate2": "2025-01-01",
           "endDate2": "2025-12-31",
-          "name3": "",
-          "url3": "",
-          "startDate3": "",
-          "endDate3": ""
+          "name3": "Winter sale – up to 40 % off ❄️",
+          "url3": "https://ahinsashoes.com/collections/sale",
+          "startDate3": "2025-01-09",
+          "endDate3": "2025-02-28"
         }
       },
       "head-of-page1": {
