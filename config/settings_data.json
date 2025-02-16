@@ -6055,6 +6055,7 @@
         "blocks": {
           "image_CFnqQx": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "Love at first step",
@@ -6076,6 +6077,30 @@
               "image": "shopify://shop_images/hero-desktop3.png",
               "image_mobile": "shopify://shop_images/hero-mobil3.png",
               "overlay_opacity": 0,
+              "focal_point": "center center"
+            }
+          },
+          "image_geXtjg": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "<p style=\"color: white;\">New spring styles\n20 % off in pre-sale </p>",
+              "title_size": 75,
+              "subheading": "",
+              "text_color": "#ffffff",
+              "link": "shopify://collections/news",
+              "link_text": "GET THEM FIRST",
+              "icon_h_1": 40,
+              "arrow_1": true,
+              "link_2": "",
+              "link_text_2": "",
+              "icon_h_2": 40,
+              "arrow_2": true,
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify://shop_images/hero_banner_spring_1.jpg",
+              "image_mobile": "shopify://shop_images/hero_banner_spring_mobil_1.jpg",
+              "overlay_opacity": 12,
               "focal_point": "center center"
             }
           },
@@ -6107,6 +6132,7 @@
         },
         "block_order": [
           "image_CFnqQx",
+          "image_geXtjg",
           "image_w7BCHU"
         ],
         "settings": {
