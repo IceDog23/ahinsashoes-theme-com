@@ -138,19 +138,19 @@
         "html_9x9DcP": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/balerina1.jpg"
+            "image": "shopify://shop_images/Ahinsa_svatebni_web_9KC7210.jpg"
           }
         },
         "html_nwMQ7H": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/balerina6.jpg"
+            "image": "shopify://shop_images/Ahinsa_svatebni_web_9KC7461.jpg"
           }
         },
         "html_4D9nEe": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/balerina4.jpg"
+            "image": "shopify://shop_images/Ahinsa_svatebni_web_9KC7199.jpg"
           }
         },
         "html_xzFDrR": {
@@ -168,7 +168,7 @@
         "html_Lg79Q6": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/ballerina4.jpg"
+            "image": "shopify://shop_images/Ahinsa_svatebni_webAhinsa_svatebni_9KC6282.jpg"
           }
         }
       },
@@ -188,51 +188,6 @@
         "button_label": "Indulge yourself",
         "button_link": "shopify://collections/ballerina-sandals",
         "layout": "left",
-        "divider": false
-      }
-    },
-    "25133cf6-5f4c-475f-97a0-62278cf1d0aa": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_93zeBN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/satkove2.jpg"
-          }
-        },
-        "html_4Abtch": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_web_9KC1387_1.jpg"
-          }
-        },
-        "html_7dwhJj": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_web_9KC1389_1.jpg"
-          }
-        },
-        "html_tiTGqN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/satkove1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_93zeBN",
-        "html_4Abtch",
-        "html_7dwhJj",
-        "html_tiTGqN"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Ribbon ankle-tie sandals",
-        "subtitle": "As enchanting as you are",
-        "text": "<p>Tie up the gentle ribbons any way you want. They won’t compete with you in shine or glitter, <strong>they’ll just gently highlight your beauty. </strong>You’ll stand out as you go about your day.</p>",
-        "button_label": "tie them up",
-        "button_link": "https://ahinsashoes.com/products/womens-barefoot-ribbon-ankle-tie-sandals-beige",
-        "layout": "right",
         "divider": false
       }
     },
@@ -284,7 +239,7 @@
         "text": "<p>Ananda means <strong>happiness and bliss</strong>. And that’s exactly what you’ll feel when you’re dancing your wedding day away without one single blister. Who says your wedding shoes have to be white?</p>",
         "button_label": "start dancing",
         "button_link": "https://ahinsashoes.com/collections/women/dress-shoes",
-        "layout": "left",
+        "layout": "right",
         "divider": false
       }
     },
@@ -294,31 +249,31 @@
         "html_KFgieJ": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/hava3.jpg"
+            "image": "shopify://shop_images/Ahinsa_web_9KC8268.jpg"
           }
         },
         "html_cht9bC": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/paskove2.jpg"
+            "image": "shopify://shop_images/Ahinsa_web_9KC8411.jpg"
           }
         },
         "html_ytc3yA": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/paskove3.jpg"
+            "image": "shopify://shop_images/DSC_1669.jpg"
           }
         },
         "html_U6UAKq": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/paskove4.jpg"
+            "image": "shopify://shop_images/DSC_1788.jpg"
           }
         },
         "html_3ezqX4": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/paskove5.jpg"
+            "image": "shopify://shop_images/DSC_1737_d1a73e39-301a-450a-8421-a465fd625fd7.jpg"
           }
         }
       },
@@ -336,7 +291,7 @@
         "text": "<p>On your wedding day, you shouldn’t have to be thinking about shoes. You’ll put these sandals on in the morning and forget you’re even wearing them. You can <strong>adjust the super-soft straps to fit your needs</strong>, and the rubber strap in front will allow them <strong>to adapt to your feet.</strong></p>",
         "button_label": "put them on",
         "button_link": "https://ahinsashoes.com/collections/hava-crossed-straps-sandals",
-        "layout": "right",
+        "layout": "left",
         "divider": false
       }
     },
@@ -350,7 +305,7 @@
         "button_link": "",
         "image": "shopify://shop_images/svatebni_3.png",
         "focal_point": "center",
-        "layout": "left",
+        "layout": "right",
         "height": 550,
         "framed": false,
         "parallax": true
@@ -386,7 +341,7 @@
         "html_Mry8j3": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/him4.jpg"
+            "image": "shopify://shop_images/IMG_9274.jpg"
           }
         }
       },
@@ -404,7 +359,7 @@
         "text": "<p>What will the groom wear so he can be himself? <strong>Soft, light and spacious shoes.</strong> Our shoes won’t end up under the table at midnight.</p>",
         "button_label": "have a look",
         "button_link": "https://ahinsashoes.com/collections/mens-barefoot-shoes/formal",
-        "layout": "right",
+        "layout": "left",
         "divider": false
       }
     },
@@ -438,7 +393,6 @@
     "product_story_sections_gXBitH",
     "afadba8b-f130-41fc-8a37-2cc6ce89906e",
     "629e967d-2ba6-445e-ac1d-37425cf62106",
-    "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
     "lp_text_and_image_gallery_4QD9Qa",
     "78f72821-6c02-4943-8234-82d8128e2acd",
     "background_image_text_C9KreF",
