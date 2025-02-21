@@ -135,6 +135,7 @@
           },
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "🍀 Get the new spring styles 20% off in the pre-sale with code SPRINGREADY.",
               "link_text": "",
@@ -152,10 +153,9 @@
           },
           "cae1281a-8737-47b9-96f0-e29e176b747b": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Winter sale continues ❄️",
-              "link_text": "Get the last pairs of winter bestsellers in stock with up to 40% discount.",
+              "link_text": "Get the last pairs in stock with up to 50% discount.",
               "link": "shopify://collections/sale"
             }
           }
