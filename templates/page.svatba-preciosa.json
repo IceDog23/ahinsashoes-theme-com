@@ -98,7 +98,7 @@
         "html_RjdyxT": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC2706-kopie.jpg"
+            "image": "shopify://shop_images/IMG_9172.jpg"
           }
         },
         "1cfab0be-5b16-4269-a8f2-79479431caa0": {
@@ -110,7 +110,7 @@
         "html_dLmNjR": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/IMG_2550_sirka.jpg"
+            "image": "shopify://shop_images/IMG_9191.jpg"
           }
         }
       },
@@ -123,63 +123,63 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Preciosa sandals and dress shoes",
+        "title": "Preciosa sandals",
         "subtitle": "Glitter and dazzle for your special day",
-        "text": "<p><strong>Who should be shining brighter than the bride-to-be? </strong>If you’re a fan of glitter, put on a pair of these sandals or dress shoes, which we’ve made in cooperation with the dazzle masters <strong>Preciosa</strong>. </p><p>The crystals will be reminiscent of the flower petals on your wedding bouquet. </p>",
+        "text": "<p>We believe that on the wedding day, the <strong>bride should be the center of attention</strong>. And nothing draws admiring glances and compliments like a <strong>little extra sparkle</strong>. </p><p>The sandals shimmer thanks to the <strong>crystals from Preciosa</strong>. Delicate petals add a touch of shine without overwhelming your beauty.</p>",
         "button_label": "Time to Shine",
-        "button_link": "https://ahinsashoes.com/collections/women/preciosa",
+        "button_link": "https://ahinsashoes.com/collections/women/hava2+preciosa?filter.p.m.custom.color=white",
         "layout": "right",
         "divider": false
       }
     },
-    "629e967d-2ba6-445e-ac1d-37425cf62106": {
+    "78f72821-6c02-4943-8234-82d8128e2acd": {
       "type": "lp_text_and_image_gallery",
       "blocks": {
-        "html_9x9DcP": {
+        "html_KFgieJ": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_web_9KC7210.jpg"
+            "image": "shopify://shop_images/DSC2706-kopie.jpg"
           }
         },
-        "html_nwMQ7H": {
+        "html_cht9bC": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_web_9KC7461.jpg"
+            "image": "shopify://shop_images/DSC7012-kopie.jpg"
           }
         },
-        "html_4D9nEe": {
+        "html_ytc3yA": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_web_9KC7199.jpg"
+            "image": "shopify://shop_images/IMG_2550_sirka.jpg"
           }
         },
-        "html_xzFDrR": {
+        "html_U6UAKq": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/balerina7_1422a5ff-b1f7-4011-b12c-35bd2fa60ef1.jpg"
+            "image": "shopify://shop_images/IMG_2568_sirka.jpg"
           }
         },
-        "html_Lg79Q6": {
+        "html_3ezqX4": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_webAhinsa_svatebni_9KC6282.jpg"
+            "image": "shopify://shop_images/IMG_2330_sirka.jpg"
           }
         }
       },
       "block_order": [
-        "html_9x9DcP",
-        "html_nwMQ7H",
-        "html_4D9nEe",
-        "html_xzFDrR",
-        "html_Lg79Q6"
+        "html_KFgieJ",
+        "html_cht9bC",
+        "html_ytc3yA",
+        "html_U6UAKq",
+        "html_3ezqX4"
       ],
       "settings": {
         "image_width": 500,
-        "title": "Ballerina dress shoes",
-        "subtitle": "The queen of delicate elegance",
-        "text": "<p>Who says you have to suffer to be beautiful? Freedom is beauty. Experience it in <strong>dress shoes </strong>that will make you <strong>want to dance</strong>. After the wedding, you can wear them to a picnic or even a formal ball.</p>",
-        "button_label": "Indulge yourself",
-        "button_link": "shopify://collections/ballerina-sandals",
+        "title": "Preciosa Dress shoes",
+        "subtitle": "With petals reminiscent of a wedding bouquet.",
+        "text": "<p><strong>Who should be shining brighter than the bride-to-be? </strong>If you’re a fan of glitter, put on a pair of these sandals or which we’ve made in cooperation with the dazzle masters <strong>Preciosa</strong>. </p><p>The crystals will be reminiscent of the flower petals on your wedding bouquet. </p>",
+        "button_label": "put them on",
+        "button_link": "https://ahinsashoes.com/collections/hava-crossed-straps-sandals",
         "layout": "left",
         "divider": false
       }
@@ -236,54 +236,54 @@
         "divider": false
       }
     },
-    "78f72821-6c02-4943-8234-82d8128e2acd": {
+    "629e967d-2ba6-445e-ac1d-37425cf62106": {
       "type": "lp_text_and_image_gallery",
       "blocks": {
-        "html_KFgieJ": {
+        "html_9x9DcP": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/Ahinsa_web_9KC8268.jpg"
+            "image": "shopify://shop_images/Ahinsa_svatebni_web_9KC7210.jpg"
           }
         },
-        "html_cht9bC": {
+        "html_nwMQ7H": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/Ahinsa_web_9KC8411.jpg"
+            "image": "shopify://shop_images/Ahinsa_svatebni_web_9KC7461.jpg"
           }
         },
-        "html_ytc3yA": {
+        "html_4D9nEe": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_1669.jpg"
+            "image": "shopify://shop_images/Ahinsa_svatebni_web_9KC7199.jpg"
           }
         },
-        "html_U6UAKq": {
+        "html_xzFDrR": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_1788.jpg"
+            "image": "shopify://shop_images/balerina7_1422a5ff-b1f7-4011-b12c-35bd2fa60ef1.jpg"
           }
         },
-        "html_3ezqX4": {
+        "html_Lg79Q6": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC_1737_d1a73e39-301a-450a-8421-a465fd625fd7.jpg"
+            "image": "shopify://shop_images/Ahinsa_svatebni_webAhinsa_svatebni_9KC6282.jpg"
           }
         }
       },
       "block_order": [
-        "html_KFgieJ",
-        "html_cht9bC",
-        "html_ytc3yA",
-        "html_U6UAKq",
-        "html_3ezqX4"
+        "html_9x9DcP",
+        "html_nwMQ7H",
+        "html_4D9nEe",
+        "html_xzFDrR",
+        "html_Lg79Q6"
       ],
       "settings": {
         "image_width": 500,
-        "title": "Hava Sandals",
-        "subtitle": "Wedding sandals that you won’t even know you’re wearing",
-        "text": "<p>On your wedding day, you shouldn’t have to be thinking about shoes. You’ll put these sandals on in the morning and forget you’re even wearing them. You can <strong>adjust the super-soft straps to fit your needs</strong>, and the rubber strap in front will allow them <strong>to adapt to your feet.</strong></p>",
-        "button_label": "put them on",
-        "button_link": "https://ahinsashoes.com/collections/hava-crossed-straps-sandals",
+        "title": "Ballerina dress shoes",
+        "subtitle": "The queen of delicate elegance",
+        "text": "<p>Who says you have to suffer to be beautiful? Freedom is beauty. Experience it in <strong>dress shoes </strong>that will make you <strong>want to dance</strong>. After the wedding, you can wear them to a picnic or even a formal ball.</p>",
+        "button_label": "Indulge yourself",
+        "button_link": "shopify://collections/ballerina-sandals",
         "layout": "left",
         "divider": false
       }
@@ -385,9 +385,9 @@
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
     "afadba8b-f130-41fc-8a37-2cc6ce89906e",
-    "629e967d-2ba6-445e-ac1d-37425cf62106",
-    "lp_text_and_image_gallery_4QD9Qa",
     "78f72821-6c02-4943-8234-82d8128e2acd",
+    "lp_text_and_image_gallery_4QD9Qa",
+    "629e967d-2ba6-445e-ac1d-37425cf62106",
     "background_image_text_C9KreF",
     "lp_text_and_image_gallery_wU7XLU",
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b",
