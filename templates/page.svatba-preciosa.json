@@ -123,7 +123,7 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Preciosa sandals",
+        "title": "Preciosa Sandals",
         "subtitle": "Glitter and dazzle for your special day",
         "text": "<p>We believe that on the wedding day, the <strong>bride should be the center of attention</strong>. And nothing draws admiring glances and compliments like a <strong>little extra sparkle</strong>. </p><p>The sandals shimmer thanks to the <strong>crystals from Preciosa</strong>. Delicate petals add a touch of shine without overwhelming your beauty.</p>",
         "button_label": "Time to Shine",
@@ -141,16 +141,16 @@
             "image": "shopify://shop_images/DSC2706-kopie.jpg"
           }
         },
-        "html_cht9bC": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC7012-kopie.jpg"
-          }
-        },
         "html_ytc3yA": {
           "type": "html",
           "settings": {
             "image": "shopify://shop_images/IMG_2550_sirka.jpg"
+          }
+        },
+        "html_cht9bC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC7012-kopie.jpg"
           }
         },
         "html_U6UAKq": {
@@ -168,8 +168,8 @@
       },
       "block_order": [
         "html_KFgieJ",
-        "html_cht9bC",
         "html_ytc3yA",
+        "html_cht9bC",
         "html_U6UAKq",
         "html_3ezqX4"
       ],
@@ -179,7 +179,7 @@
         "subtitle": "With petals reminiscent of a wedding bouquet.",
         "text": "<p><strong>Who should be shining brighter than the bride-to-be? </strong>If you’re a fan of glitter, put on a pair of these sandals or which we’ve made in cooperation with the dazzle masters <strong>Preciosa</strong>. </p><p>The crystals will be reminiscent of the flower petals on your wedding bouquet. </p>",
         "button_label": "put them on",
-        "button_link": "https://ahinsashoes.com/collections/hava-crossed-straps-sandals",
+        "button_link": "https://ahinsashoes.com/collections/women/chic+preciosa+gold",
         "layout": "left",
         "divider": false
       }
@@ -190,31 +190,31 @@
         "html_cQEcBF": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/ananda1.jpg"
+            "image": "shopify://shop_images/DSC05756.jpg"
           }
         },
         "html_GMgnaK": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/ananda3.jpg"
+            "image": "shopify://shop_images/DSC05797.jpg"
           }
         },
         "html_EKT78K": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/ananda4.jpg"
+            "image": "shopify://shop_images/DSC05735.jpg"
           }
         },
         "html_A7PxEb": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/ananda2.jpg"
+            "image": "shopify://shop_images/DSC05818.jpg"
           }
         },
         "html_6eiMgC": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/Ahinsa_svatebni_web_9KC7010.jpg"
+            "image": "shopify://shop_images/DSC2468-kopie.jpg"
           }
         }
       },
@@ -227,11 +227,11 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Ananda dress shoes",
+        "title": "Chic Golden Dress shoes",
         "subtitle": "The happiness of dancing the night away",
-        "text": "<p>Ananda means <strong>happiness and bliss</strong>. And that’s exactly what you’ll feel when you’re dancing your wedding day away without one single blister. Who says your wedding shoes have to be white?</p>",
+        "text": "<p>Who says your wedding shoes have to be white? Slip into shoes as if <strong>made of gold</strong> and dance your entire wedding day away in them.</p><p>It’s entirely up to you whether you tie a <a href=\"https://ahinsashoes.com/products/ribbon-for-chic-ballet-flats-white\" title=\"https://ahinsashoes.com/products/ribbon-for-chic-ballet-flats-white\"><strong>ribbon</strong></a> around your ankle or fasten a dainty <a href=\"https://ahinsashoes.com/search?type=product%2Carticle&q=chain+for+chic+dress+shoes\" title=\"https://ahinsashoes.com/search?type=product%2Carticle&q=chain+for+chic+dress+shoes\"><strong>chain</strong></a>.</p>",
         "button_label": "start dancing",
-        "button_link": "https://ahinsashoes.com/collections/women/dress-shoes",
+        "button_link": "https://ahinsashoes.com/collections/women/chic+nepreciosa+gold",
         "layout": "right",
         "divider": false
       }
