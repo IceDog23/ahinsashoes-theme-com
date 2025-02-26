@@ -296,7 +296,7 @@
         "text": "<p><em>“My wedding was a day when I wanted to be myself.</em></p><p><em>Comfortably, without the blisters, and that’s why formal high-heels were out of the question. I chose barefoot dress shoes and enjoyed every step towards the altar and every minute of dancing.</em></p><p><em>And mainly, I still wear my wedding shoes – they didn’t end up at the back of the closet.”</em></p><p>Ahinsa bride</p>",
         "button_label": "",
         "button_link": "",
-        "image": "shopify://shop_images/svatebni_3.png",
+        "image": "shopify://shop_images/IMG_9172.jpg",
         "focal_point": "center",
         "layout": "right",
         "height": 550,
@@ -310,7 +310,7 @@
         "html_FAckTU": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/him1.jpg"
+            "image": "shopify://shop_images/IMG_9543.jpg"
           }
         },
         "html_VGwRQB": {
@@ -325,16 +325,16 @@
             "image": "shopify://shop_images/him3.jpg"
           }
         },
-        "html_W8ptbC": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/him5.jpg"
-          }
-        },
         "html_Mry8j3": {
           "type": "html",
           "settings": {
             "image": "shopify://shop_images/IMG_9274.jpg"
+          }
+        },
+        "html_W8ptbC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/him5.jpg"
           }
         }
       },
@@ -342,8 +342,8 @@
         "html_FAckTU",
         "html_VGwRQB",
         "html_giHYMM",
-        "html_W8ptbC",
-        "html_Mry8j3"
+        "html_Mry8j3",
+        "html_W8ptbC"
       ],
       "settings": {
         "image_width": 500,
