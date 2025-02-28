@@ -2269,24 +2269,28 @@
         "blocks": {
           "4e34ed18-aecd-4089-9764-dbb1889f2204": {
             "type": "html",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Untitled_500_x_560_px.png"
             }
           },
           "583be008-76ce-4c5e-91bb-b4b188550b47": {
             "type": "html",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/3.png"
             }
           },
           "a8e5cb99-066c-4240-8cda-6522bcd09497": {
             "type": "html",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/1_2.png"
             }
           },
           "5c44b950-c446-47f6-97ad-5fdd131c19ab": {
             "type": "html",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/4_1.png"
             }
@@ -2298,6 +2302,7 @@
           "a8e5cb99-066c-4240-8cda-6522bcd09497",
           "5c44b950-c446-47f6-97ad-5fdd131c19ab"
         ],
+        "disabled": true,
         "settings": {
           "image_width": 500,
           "title": "Ahinsa Jeans",
