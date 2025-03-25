@@ -242,9 +242,9 @@
                           {%- if block.settings.link_text != blank or block.settings.link_text_2 != blank -%}
                             <div class="hero__link">
                               {%- if block.settings.link_text != blank -%}
-                                <a href="{{ block.settings.link }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %} btn_w_icon"
-                                value='{"promotion_id": "{{ block.settings.promotion_click_id_1 }}","promotion_name": "{{ block.settings.promotion_click_name_1 }}","creative_name": "{{ block.settings.creative_name }}","location_id": "{{ block.settings.location_id }}"}'
->
+                                <a href="{{ block.settings.link }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %} btn_w_icon promotion-button"
+                                  value='{"promotion_id": "{{ block.settings.promotion_click_id_1 }}","promotion_name": "{{ block.settings.promotion_click_name_1 }}","creative_name": "{{ block.settings.creative_name }}","location_id": "{{ block.settings.location_id }}"}'
+                                >
                                 <span>
                                     {% if block.settings.link_icon_1 %}
                                     {{ block.settings.link_icon_1.src | image_url: height: block.settings.icon_h_1 | image_tag }}
