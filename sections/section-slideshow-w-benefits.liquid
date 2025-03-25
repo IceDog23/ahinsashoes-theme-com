@@ -257,7 +257,9 @@
                                 </a>
                               {%- endif -%}
                               {%- if block.settings.link_text_2 != blank -%}
-                                <a href="{{ block.settings.link_2 }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %} btn_w_icon">
+                                <a href="{{ block.settings.link_2 }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %} btn_w_icon promotion-button"
+                                  value='{"promotion_id": "{{ block.settings.promotion_click_id_2 }}","promotion_name": "{{ block.settings.promotion_click_name_2 }}","creative_name": "{{ block.settings.creative_name }}","location_id": "{{ block.settings.location_id }}"}'
+                                  >
                                     <span>
                                         {% if block.settings.link_icon_2 %}
                                             {{ block.settings.link_icon_2.src | image_url: height: block.settings.icon_h_2 | image_tag }}
