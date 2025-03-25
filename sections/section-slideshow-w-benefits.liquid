@@ -163,7 +163,10 @@
                 endif
               -%}
 
-              <div class="hero__image-wrapper{% unless hero_text %} hero__image-wrapper--no-overlay{% endunless %}">
+              <div class="hero__image-wrapper{% unless hero_text %} hero__image-wrapper--no-overlay{% endunless %}"
+                type="{{ block.settings.type }}"
+                value='{"promotion_id": "{{ block.settings.promotion_id }}","promotion_name": "{{ block.settings.promotion_name }}","creative_name": "{{ block.settings.creative_name }}","location_id": "{{ block.settings.location_id }}"}'
+                >
 
                 {%- if section.settings.parallax -%}
                   <div class="parallax-container">
@@ -239,7 +242,9 @@
                           {%- if block.settings.link_text != blank or block.settings.link_text_2 != blank -%}
                             <div class="hero__link">
                               {%- if block.settings.link_text != blank -%}
-                                <a href="{{ block.settings.link }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %} btn_w_icon">
+                                <a href="{{ block.settings.link }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %} btn_w_icon"
+                                value='{"promotion_id": "{{ block.settings.promotion_click_id_1 }}","promotion_name": "{{ block.settings.promotion_click_name_1 }}","creative_name": "{{ block.settings.creative_name }}","location_id": "{{ block.settings.location_id }}"}'
+>
                                 <span>
                                     {% if block.settings.link_icon_1 %}
                                     {{ block.settings.link_icon_1.src | image_url: height: block.settings.icon_h_1 | image_tag }}
