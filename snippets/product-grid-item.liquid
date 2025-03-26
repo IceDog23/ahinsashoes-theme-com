@@ -27,7 +27,7 @@
   endif
 -%}
 {% if product != blank %}
-  
+<!-- snippets/product-grid-item.liquid -->
 <div class="grid__item grid-product {{ grid_item_width }}{% if settings.quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-aos="row-of-{{ per_row }}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
   <div class="grid-product__content">
     
@@ -105,8 +105,8 @@
       assign preview_image = product.featured_media.preview_image
       assign img_url = preview_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.'
     -%}
-
-    <a href="{{ product.url }}" class="grid-product__link">
+    {% assign index = forloop_index | plus: pagination_offset %}
+    <a href="{{ product.url }}" class="grid-product__link analytics-item" type="{{ section_settings.event_type }}" value='{"id": "{{ product.id }}","title": "{{ product.title | escape }}","price": "{{ product.price | money_without_currency }}","item_list_name": "{{ item_list_name | escape }}", "index": "{{ index }}"}'>
       <div class="grid-product__image-mask">
         {%- if settings.quick_shop_enable -%}
           <div class="quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-{{ product.id }} small--hide">

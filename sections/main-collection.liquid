@@ -176,7 +176,7 @@
               <br>
               {% endif %}
             {% endif %}
-            {% render 'collection-template', section: section %}
+            {% render 'collection-template', section: section, section_settings: section.settings %}
             {% if col_bottom_desc != blank and current_page == 1 %}
             <div class="collection-description collection-description-bottom">
               {{col_bottom_desc}}
@@ -332,6 +332,17 @@
         "id": "enable_sort",
         "label": "Show sort options",
         "default": true
+      }, 
+      {
+        "type": "header",
+        "content": "5. GTM Analytics"
+      },
+      {
+        "type": "text",
+        "id": "event_type",
+        "label": "Event name",
+        "info": "Event name for data analytics, when change it will break analytics for product listing on homepage and collection page", 
+        "default": "view_item_list"
       }
     ],
     "blocks": [

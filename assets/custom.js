@@ -146,7 +146,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     const collectionItemClickData = {
                         customData: itemClickData
                     }
-
                     Shopify.analytics.publish(itemClick, collectionItemClickData);
                 })
             })
@@ -155,7 +154,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const productListingData = {
             customData: listItemsData
         }
-
         Shopify.analytics.publish(homepage_product_listing, productListingData);
     }
 

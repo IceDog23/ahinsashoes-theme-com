@@ -3,7 +3,7 @@
 {%- assign collection = collections[section.settings.home_featured_products] -%}
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
-
+<!-- section/featured-collection.liquid -->
 <div
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
@@ -69,9 +69,14 @@
           </div>
 
         {%- else -%}
+          {%  if template.name == 'collection' %}
+            {% assign item_list_name = collection.title %}
+          {% elsif template.name == 'index' %}
+            {% assign item_list_name = 'homepage' %}
+          {% endif %}
 
           {%- for product in collections[section.settings.home_featured_products].products limit: product_limit -%}
-            {%- render 'product-grid-item', product: product, grid_item_width: grid_item_width, per_row: per_row -%}
+            {%- render 'product-grid-item', product: product, grid_item_width: grid_item_width, per_row: per_row, section_settings: section.settings, forloop_index: forloop.index, item_list_name: item_list_name -%}
           {%- endfor -%}
 
           {%- if section.settings.view_all -%}
@@ -157,6 +162,17 @@
         "id": "divider",
         "label": "Show section divider",
         "default": false
+      },
+      {
+        "type": "header",
+        "content": "5. GTM Analytics"
+      },
+      {
+        "type": "text",
+        "id": "event_type",
+        "label": "Event name",
+        "info": "Event name for data analytics, when change it will break analytics for product listing on homepage and collection page", 
+        "default": "view_item_list"
       }
     ],
     "presets": [{

@@ -109,11 +109,22 @@
           endcase
         -%}
 
+        {%  if template.name == 'collection' %}
+          {% assign item_list_name = collection.title %}
+        {% elsif template.name == 'index' %}
+          {% assign item_list_name = 'homepage' %}
+        {% endif %}
+
         {%- for product in collection.products -%}
           {%- render 'product-grid-item',
             product: product,
             grid_item_width: grid_item_width,
-            per_row: per_row -%}
+            per_row: per_row,
+            section_settings: section_settings, 
+            item_list_name: item_list_name,
+            pagination_offset: paginate.current_offset, 
+            forloop_index: forloop.index
+             -%}
         {%- else -%}
           <div class="grid__item">
             <p>{{ 'collections.general.no_matches' | t }}</p>
