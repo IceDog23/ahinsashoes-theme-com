@@ -3295,6 +3295,7 @@
           },
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>The shoes are great, I got the Jaya last week and I already purchased another pair – this time I ordered the Ananda. I already used barefoot shoes but I never found barefoot boots so comfortable. <br/>Can’t wait to get my new pair!</p>",
               "customer": "Beppe"
