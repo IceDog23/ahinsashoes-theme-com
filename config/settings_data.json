@@ -3597,6 +3597,13 @@
               "text": "<p>The shoes are marvelous. 1st set of shoes I have had that fit my wide feet and high instep. It’s winter here in Ohio, U.S.A. I wear them with out sox’s. I love barefoot shoes, physically assist my leg circulation by the pumping of the foot each step. No slipping on ice! Seventeen degrees Fahrenheit, one hour scrapping ice of my sidewalk, feet still warm. I warmed the shoes and added Beeswax to fully water proof the shoes. My thanks, these shows met all my hopes and more. Quality material, very comfortable. I’v tried three other barefoot shoe companies and these shows I rate in the top three. Thank you for your quality product.</p>",
               "customer": "David Wigle"
             }
+          },
+          "block_TjwGrV": {
+            "type": "block",
+            "settings": {
+              "text": "<p>The most comfortable and durable vegan waterproof barefoot shoes you'll ever own! I had been searching for vegan, waterproof shoes that are comfortable, stylish, and produced in Europe, and Ahinsa shoes tick all those boxes. I’m truly grateful to the team for creating such high-quality footwear. I’ve been wearing my Ahinsa shoes for a year and a half, and my feet have never felt better. They provide an exceptional balance of comfort and durability. If you’re new to barefoot shoes or need a little extra support, I highly recommend getting their comfort insoles. They offer just the right amount of cushioning, perfect for easing the transition or addressing any specific foot issues. I’ve just purchased my third pair—the new Chelsea model—and I absolutely love them! Do yourself a favor and invest in a pair of Ahinsa shoes. You won’t regret it!</p>",
+              "customer": "Maike Mojica"
+            }
           }
         },
         "block_order": [
@@ -3656,7 +3663,8 @@
           "5dda9802-42e6-450b-8ba5-6bb77315e59b",
           "block_fcjAVH",
           "block_9nr7DB",
-          "block_9YCP7G"
+          "block_9YCP7G",
+          "block_TjwGrV"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
