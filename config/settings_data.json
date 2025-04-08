@@ -3180,6 +3180,7 @@
         "blocks": {
           "block_nLFyLq": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>The shoes Sundara Ankle xWide are marvelous. 1st set of shoes I have had that fit my wide feet and high instep. It’s winter here in Ohio, U.S.A. I wear them with out sox’s. I love barefoot shoes, physically assist my leg circulation by the pumping of the foot each step. No slipping on ice!  Seventeen degrees Fahrenheit, one hour scrapping ice of my sidewalk, feet still warm. My thanks, these shows met all my hopes and more.  Quality material, very comfortable.  I’v tried three other barefoot shoe companies and these shows I rate in the top three.  </p>",
               "customer": "David Wigle"
@@ -3187,6 +3188,7 @@
           },
           "1c165b8d-bce4-4091-beb2-8068e95f11ba": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>So far I'm walking in my winter boots, the best boots I've had (even barefoot). At first, they were tight across the instep, but after a week they loosened up a bit. On the road I feel a harder impact on the heels, but not on softer terrain. When I walked at home, I stomped and now I don't stomp anymore. They are very comfortable shoes, classic shoes are uncomfortable for me, I gave them all away.😉 I recommend your shoes everywhere.</p>",
               "customer": "Iveta Heroutová"
@@ -3194,6 +3196,7 @@
           },
           "block_mtNUE7": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I really love my new Ahinsa shoes Tara Winter 2.0 black. Im still learning how to walk in a barefoot shoe, but its very comfortable so far. I enjoy its warm and waterproof, very good in cold weather. :)</p>",
               "customer": "Bence Vass"
@@ -3201,6 +3204,7 @@
           },
           "block_ektrbC": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I have the winter ankle boots, and I love them. I garden a lot, and they’ve been amazing. The best shoes I have for that purpose.   They’re the most flexible, comfortable, light winter ankle boot I own. I also use them for hiking during the winter months. </p>",
               "customer": "Alexandra Gatsis"
@@ -3215,6 +3219,7 @@
           },
           "6790a163-fa11-4f52-820f-2fc2337f144c": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I feel great in the winter boots. I've been wearing Barefoot boots exclusively for 3 years now, and since then I've had no pain in my bunions, which I've developed over the past 35 years...</p>",
               "customer": "Lenka Vlková"
@@ -3236,6 +3241,7 @@
           },
           "fc2caf7f-d606-42ef-9e50-e63fdec7bd4b": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I'm excited about the shoes - that's it in a nutshell. I have been wearing the shoes for about 10 days and they are great. I was afraid that the soles would be too thin, but (I have the Comfort version) it's great. Even on these days, when the temperature is around -5 °C in the morning, I am not cold in them.<br/><br/>I work in an office and I keep my shoes on all day (up to 10 hours). Unlike other shoes, I don't get sweaty or tired feet from them. The soles do not slip (and I have tested this on a smooth wet floor in the hallway).<br/><br/>Did I notice changes when I walk? Yes, I have had so-called \"flat feet\" since I was a child (I don't know if this is the correct name for the diagnosis) and even though I exercised regularly as a child, my legs - feet - sometimes hurt. Not from my new Ahinsa boots.<br/><br/>I am really excited, they are light, flexible and look very nice on the feet. In short, I'm glad I discovered you and I'll definitely buy another one.</p>",
               "customer": "Lucie Jelínková"
@@ -3271,6 +3277,7 @@
           },
           "cd494f6e-210f-4abc-82c7-a6d144e2e213": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>Your shoes are my first BF. We have already walked a few tens of km together and I adore them. So far they haven't gotten wet inside, even once, and they went through a storm in the fall, when there was 5 cm of water on the road and now heaps of snow.</p>",
               "customer": "Romana Kotrlová"
@@ -3299,6 +3306,7 @@
           },
           "0ee6eb91-cbec-488d-bf91-8be2028aa091": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>For snowy weather I love my Ahinsa Ankle Boots because my feet stay warm and dry in them.</p>",
               "customer": "Annette Cre"
@@ -3362,7 +3370,6 @@
           },
           "block_hxiKpx": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>Just took an pair out for a test drive on a holiday in Porto! They were excellent in terms of breath ability, comfort, and style. I’ve also been wearing my pair of boots to the office a few times in Stockholm and have also loved the look and feel. I log about 15 000 steps before my feet started to hurt in the shoes (but this is my first pair of barefoot shoes ever so I know I’m pushing my feet at a faster rate than I probably should). <br/><br/>I had an awkward stride to begin with, but have noticed an immediate difference whenever I switch between my Ahinsas and other shoes. <br/><br/>Thanks for the products and continue the great work. I have already started recommending them to friends and colleagues</p>",
               "customer": "Corey Martinez"
@@ -3391,6 +3398,7 @@
           },
           "1c8f1519-463d-44fa-8a24-370b78c52481": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I have only worn my new shoes for about an hour in total so far. But that is all the time i need to let you know that my new Chelsea boots are absolutely perfect in every way! I have shoes from different companies, but Ahinsa is from now on (and probably ever) my new favorite brand. As a vegan barefoot enthusiast, its not always easy to find the right shoes. But I found them today! THANK YOU!</p>",
               "customer": "Thale Waaler Eggen"
@@ -3557,6 +3565,30 @@
               "text": "<p>After over three months wearing Sundara Ankle Comfort boots pretty much every day, I can happily say they are the most comfortable extra wide shoes I've ever worn and wished to have on my feet! I wish there were more shoes like those. They are truly game changers! I'm also very satisfied with the excellent customer service. They helped me out a lot and efficiently in order to exchange to the right shoe size.</p>",
               "customer": "Gabriele Pacca"
             }
+          },
+          "block_fcjAVH": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "text": "<p>I love them! I got Quick and mid-calf boots. They were comfortable from the get go and I didnt need to break them in. I walked A LOT and I didnt get any blisters or anything. I got winter insoles as well and used them in the snow. It wasnt extreme cold but Im very happy with my purchases. </p>",
+              "customer": "Angela Avida"
+            }
+          },
+          "block_9nr7DB": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "text": "<p>I just wanted to send you a note to let you know that your Jaya boots are my absolute favorite shoes I have ever owned. Not only are they the most comfortable but the quality is incredible. I have owned them for I think now 5 years and they look like they are brand new. I wear them almost daily unless its snowing or hot, so they get a lot of use. I rave to everyone I know about these boots and have sent many people to your website. Thank you for creating these shoes and for your commitment to using materials that are so high quality and long lasting.</p>",
+              "customer": "Hannah Milkins"
+            }
+          },
+          "block_9YCP7G": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "text": "<p>The shoes are marvelous. 1st set of shoes I have had that fit my wide feet and high instep. It’s winter here in Ohio, U.S.A. I wear them with out sox’s. I love barefoot shoes, physically assist my leg circulation by the pumping of the foot each step. No slipping on ice! Seventeen degrees Fahrenheit, one hour scrapping ice of my sidewalk, feet still warm. I warmed the shoes and added Beeswax to fully water proof the shoes. My thanks, these shows met all my hopes and more. Quality material, very comfortable. I’v tried three other barefoot shoe companies and these shows I rate in the top three. Thank you for your quality product.</p>",
+              "customer": "David Wigle"
+            }
           }
         },
         "block_order": [
@@ -3613,7 +3645,10 @@
           "f5699edc-5ce7-4afe-acc4-554c2133aace",
           "9ce449fb-acc5-433f-949b-9355e6979c99",
           "block_4xryMJ",
-          "5dda9802-42e6-450b-8ba5-6bb77315e59b"
+          "5dda9802-42e6-450b-8ba5-6bb77315e59b",
+          "block_fcjAVH",
+          "block_9nr7DB",
+          "block_9YCP7G"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
