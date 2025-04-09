@@ -172,7 +172,10 @@
             {% endif %}
           {% endfor %}
 
-          {% assign split_order = false %}
+          {% comment %}
+          <!-- DELETE TO PUBLISH -->
+          {% assign split_order = false %} 
+          {% endcomment %}
           <!-- SPLIT ORDER -->
           {% if split_order %}
           <div class="split-order-container">
