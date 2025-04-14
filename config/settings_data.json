@@ -1087,7 +1087,7 @@
             "type": "promotion",
             "settings": {
               "title": "For healthy walking.",
-              "text": "<p><a href=\"https://ahinsashoes.com/pages/barefoot-shoes\" title=\"Barefoot shoes\">Verified by studies</a>from Masaryk University.</p>",
+              "text": "<p><a href=\"https://ahinsashoes.com/pages/barefoot-shoes\" target=\"_blank\" title=\"Barefoot shoes\">Verified by studies</a> from Masaryk University.</p>",
               "button_link": "shopify://pages/barefoot-shoes",
               "image": "shopify://shop_images/ico-barefoot.png"
             }
