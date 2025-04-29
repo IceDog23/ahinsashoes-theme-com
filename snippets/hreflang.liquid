@@ -1,36 +1,59 @@
 {%- if template.name == 'page' and page.metafields.global.altLinks.value != blank -%}
     {% assign altLinkEN = page.metafields.global.altLinks.value["en"] %}
     {% assign altLinkCS = page.metafields.global.altLinks.value["cs-cz"] %}
-    {% assign altLinkHR = page.metafields.global.altLinks.value["hr"] %}
+    {% assign altLinkDE = page.metafields.global.altLinks.value["de"] %}
 {%- elsif template.name == 'product' and product.metafields.global.altLinks.value != blank -%}
     {% assign altLinkEN = product.metafields.global.altLinks.value["en"] %}
     {% assign altLinkCS = product.metafields.global.altLinks.value["cs-cz"] %}
-    {% assign altLinkHR = product.metafields.global.altLinks.value["hr"] %}
+    {% assign altLinkDE = product.metafields.global.altLinks.value["de"] %}
 {%- elsif template.name == 'collection' and collection.metafields.global.altLinks.value != blank -%}
     {% assign altLinkEN = collection.metafields.global.altLinks.value["en"] %}
     {% assign altLinkCS = collection.metafields.global.altLinks.value["cs-cz"] %}
-    {% assign altLinkHR = collection.metafields.global.altLinks.value["hr"] %}
+    {% assign altLinkDE = collection.metafields.global.altLinks.value["de"] %}
 {%- elsif template.name == 'blog' and blog.metafields.global.altLinks.value != blank -%}
     {% assign altLinkEN = blog.metafields.global.altLinks.value["en"] %}
     {% assign altLinkCS = blog.metafields.global.altLinks.value["cs-cz"] %}
-    {% assign altLinkHR = blog.metafields.global.altLinks.value["hr"] %}
+    {% assign altLinkDE = blog.metafields.global.altLinks.value["de"] %}
 {%- elsif template.name == 'article' and article.metafields.global.altLinks.value != blank -%}
     {% assign altLinkEN = article.metafields.global.altLinks.value["en"] %}
     {% assign altLinkCS = article.metafields.global.altLinks.value["cs-cz"] %}
-    {% assign altLinkHR = article.metafields.global.altLinks.value["hr"] %}
+    {% assign altLinkDE = article.metafields.global.altLinks.value["de"] %}
 {%- else -%}
     {% assign altLinkEN = shop.metafields.global.altLinks.value["en"] | append: request.path %}
     {% assign altLinkCS = shop.metafields.global.altLinks.value["cs-cz"] | append: request.path %}
-    {% assign altLinkHR = shop.metafields.global.altLinks.value["hr"] | append: request.path %}
+    {% assign altLinkDE = shop.metafields.global.altLinks.value["de"] | append: request.path %}
 {%- endif -%}
 
 {% if shop.url contains ".cz" %}
-    <link rel="alternate" hreflang="en" href="{{ altLinkEN }}" />
-    <link rel="alternate" hreflang="hr" href="{{ altLinkHR }}" />
+    <link rel="alternate" hreflang="cs-cz" href="{{ request.path | prepend: shop.url }}" />
+    {% if altLinkEN != blank %}
+        <link rel="alternate" hreflang="en" href="{{ altLinkEN }}" />
+    {% endif %}
+    {% if altLinkDE != blank %}
+        <link rel="alternate" hreflang="de" href="{{ altLinkDE }}" />
+    {% endif %}
 {% elsif shop.url contains ".com" %}
-    <link rel="alternate" hreflang="cs-cz" href="{{ altLinkCS }}" />
-    <link rel="alternate" hreflang="hr" href="{{ altLinkHR }}" />
+    <link rel="alternate" hreflang="en" href="{{ request.path | prepend: shop.url }}" />
+    {% if altLinkCS != blank %}
+        <link rel="alternate" hreflang="cs-cz" href="{{ altLinkCS }}" />
+    {% endif %}
+    {% if altLinkDE != blank %}
+        <link rel="alternate" hreflang="de" href="{{ altLinkDE }}" />
+    {% endif %}
+{% elsif shop.url contains ".de" %}
+    <link rel="alternate" hreflang="de" href="{{ request.path | prepend: shop.url }}" />
+    {% if altLinkCS != blank %}
+        <link rel="alternate" hreflang="cs-cz" href="{{ altLinkCS }}" />
+    {% endif %}
+    {% if altLinkEN != blank %}
+        <link rel="alternate" hreflang="en" href="{{ altLinkEN }}" />
+    {% endif %}
+{% endif %} 
+
+
+{% comment %} Default language {% endcomment %}
+{% if altLinkEN != blank %}
+    <link rel="alternate" hreflang="x-default" href="{{ altLinkEN | escape }}" />
 {% else %}
-    <link rel="alternate" hreflang="en" href="{{ altLinkEN }}" />
-    <link rel="alternate" hreflang="cs-cz" href="{{ altLinkCS }}" />
+    <link rel="alternate" hreflang="x-default" href="https://ahinsashoes.com/" />
 {% endif %}
