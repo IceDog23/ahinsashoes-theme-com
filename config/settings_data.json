@@ -3683,6 +3683,15 @@
               "link": "https://barefootbrit.co.uk/review-of-ahinsa-slip-on-comfort-sandal/"
             }
           },
+          "block_Qr88ja": {
+            "type": "block",
+            "settings": {
+              "text": "<p>AirNet Sneakers video review</p>",
+              "author": "Jill Branch",
+              "image": "shopify://shop_images/jill_branch.jpg",
+              "link": "https://youtu.be/wVT8dQfKn_o?si=lZ0ar-qCje3iofcx"
+            }
+          },
           "block_CyzFiM": {
             "type": "block",
             "settings": {
@@ -3699,6 +3708,24 @@
               "author": "barefootbrit.co.uk",
               "image": "shopify://shop_images/ahinsa_shoes_baleriny_cerne_0001_0e80837b-2f1f-4e26-9557-a21a212b6bdd.jpg",
               "link": "https://barefootbrit.co.uk/review-of-ahinsa-ananda-black-barefoot-ballet-flat/"
+            }
+          },
+          "block_birUVW": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Chitra Trek&Trail video review</p>",
+              "author": "Andrew Folts",
+              "image": "shopify://shop_images/chitra_review.jpg",
+              "link": "https://youtu.be/RHJnkMezZdo?si=n_8KW3NYkQ926VxT"
+            }
+          },
+          "0c0c852d-51b0-4741-b267-af42af78d62d": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Sundara Ankle Barefoot Trekking Boots</p>",
+              "author": "blootsvoetsgeschoeid.nl",
+              "image": "shopify://shop_images/sundara_black.jpg",
+              "link": "https://www.blootsvoetsgeschoeid.nl/reviews/ahinsa-bare-trek"
             }
           },
           "b0e8a149-f299-4d60-bbc7-617224a9ff42": {
@@ -3728,25 +3755,6 @@
               "link": "https://obsessedwithbarefootshoes.com/ahinsa-jaya-bare-barefoot-boots-a-full-review/"
             }
           },
-          "0c0c852d-51b0-4741-b267-af42af78d62d": {
-            "type": "block",
-            "settings": {
-              "text": "<p>Sundara Ankle Barefoot Trekking Boots</p>",
-              "author": "blootsvoetsgeschoeid.nl",
-              "image": "shopify://shop_images/sundara_black.jpg",
-              "link": "https://www.blootsvoetsgeschoeid.nl/reviews/ahinsa-bare-trek"
-            }
-          },
-          "1c860650-e9ea-44c4-917d-74456878be8f": {
-            "type": "block",
-            "disabled": true,
-            "settings": {
-              "text": "<p>Ahinsa Sundara Bare Hemp Review</p>",
-              "author": "thebarefootshoereview.com",
-              "image": "shopify://shop_images/hemp_shoes.jpg",
-              "link": "https://www.thebarefootshoereview.com/post/episode-42-ahinsa-sundara-bare-hemp"
-            }
-          },
           "398cfaad-2297-4e35-92c9-b944437dd1bc": {
             "type": "block",
             "settings": {
@@ -3756,27 +3764,38 @@
               "link": "https://www.bosenogice.si/2022/01/07/ahinsa-shoes-jaya-review/"
             }
           },
-          "block_birUVW": {
+          "1c860650-e9ea-44c4-917d-74456878be8f": {
             "type": "block",
             "settings": {
-              "text": "<p>Chitra Trek&Trail video review</p>",
-              "author": "Andrew Folts",
-              "image": "shopify://shop_images/chitra_review.jpg",
-              "link": "https://youtu.be/RHJnkMezZdo?si=n_8KW3NYkQ926VxT"
+              "text": "<p>Ahinsa Sundara Bare Hemp Review</p>",
+              "author": "thebarefootshoereview.com",
+              "image": "shopify://shop_images/hemp_shoes.jpg",
+              "link": "https://www.thebarefootshoereview.com/post/episode-42-ahinsa-sundara-bare-hemp"
+            }
+          },
+          "block_ytkAUY": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Pura Comfort Sneakers</p>",
+              "author": "seasonofearth.com",
+              "image": "shopify://shop_images/Ahinsazima_web_9KC9702.jpg",
+              "link": "https://seasonofearth.com/barefoot-white-trainers-ahinsa-shoes-pura-comfort-sneakers-review/"
             }
           }
         },
         "block_order": [
           "block_bk9DAn",
+          "block_Qr88ja",
           "block_CyzFiM",
           "block_3bEWVJ",
+          "block_birUVW",
+          "0c0c852d-51b0-4741-b267-af42af78d62d",
           "b0e8a149-f299-4d60-bbc7-617224a9ff42",
           "02a5ac71-4d2d-4f41-934d-48d24d11ab94",
           "1b179133-81f1-4a82-9c12-f12b9d49a261",
-          "0c0c852d-51b0-4741-b267-af42af78d62d",
-          "1c860650-e9ea-44c4-917d-74456878be8f",
           "398cfaad-2297-4e35-92c9-b944437dd1bc",
-          "block_birUVW"
+          "1c860650-e9ea-44c4-917d-74456878be8f",
+          "block_ytkAUY"
         ],
         "settings": {
           "heading": "Independent reviews of Ahinsa shoes",
