@@ -5383,18 +5383,18 @@
       "structured-event-data": {
         "type": "structured-event-data",
         "settings": {
-          "name": "The new summer collection is here 🌿 Step into spring in comfort",
-          "url": "https://ahinsashoes.com/collections/news",
-          "startDate": "2025-03-09",
-          "endDate": "2025-08-30",
-          "name2": "Free e-book from physiotherapists 📖",
-          "url2": "https://ahinsashoes.com/pages/tips-for-those-who-care-about-their-health",
-          "startDate2": "2025-01-01",
-          "endDate2": "2025-12-31",
-          "name3": "",
-          "url3": "",
-          "startDate3": "",
-          "endDate3": ""
+          "name": "Seasonal sale is here! 🔥 Up to 40 % off 👉🏼",
+          "url": "https://ahinsashoes.cz/collections/vyprodej",
+          "startDate": "2025-06-16",
+          "endDate": "2025-06-30",
+          "name2": "The new summer collection is here 🌿 Step into spring in comfort",
+          "url2": "https://ahinsashoes.com/collections/news",
+          "startDate2": "2025-03-09",
+          "endDate2": "2025-08-30",
+          "name3": "Free e-book from physiotherapists 📖",
+          "url3": "https://ahinsashoes.com/pages/tips-for-those-who-care-about-their-health",
+          "startDate3": "2025-01-01",
+          "endDate3": "2025-12-31"
         }
       },
       "head-of-page1": {
