@@ -3180,7 +3180,6 @@
         "blocks": {
           "block_nLFyLq": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>The shoes Sundara Ankle xWide are marvelous. 1st set of shoes I have had that fit my wide feet and high instep. It’s winter here in Ohio, U.S.A. I wear them with out sox’s. I love barefoot shoes, physically assist my leg circulation by the pumping of the foot each step. No slipping on ice!  Seventeen degrees Fahrenheit, one hour scrapping ice of my sidewalk, feet still warm. My thanks, these shows met all my hopes and more.  Quality material, very comfortable.  I’v tried three other barefoot shoe companies and these shows I rate in the top three.  </p>",
               "customer": "David Wigle"
@@ -3212,6 +3211,7 @@
           },
           "block_wdW8BW": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I have ordered 2 sneakers: one Pura Play Comfort and one Simple barefoot version and 1 summer sandals. After wearing Ahinsa since July, I would like to share with you my feedback. Comfort sneakers are amazing. Good style and very comfortable. I walked with it during my city trip in Slovenia and Austria and didnt feel any foot pain. They are wide enough without looking like duck feet shoes. <br/>The sneakers are stylish, urban chic style and match well with casual chic outfits.</p>",
               "customer": "Donna Nachampassak"
@@ -3227,7 +3227,6 @@
           },
           "block_gihHg4": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>Love my xWide Hikers and very glad I found your company. This is only the second brand of shoes I have been able to wear “off the shelf” because my feet are so wide. I have been a barefoot shoe person for over a decade now so my feet have widened quite a bit.<br/><br/>In the couple of weeks since buying these I have been in rain, mud, sleet, and almost a meter of snow.  My feet have stayed dry and warm - absolutely love these boots! Thank you for making a truly extra wide barefoot shoe!</p>",
               "customer": "Jennifer Farley"
@@ -3258,6 +3257,7 @@
           },
           "bff73c87-3d35-4461-b292-a9f4818f7fa8": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I’m writing to say I LOVE my simple black barefoot sandals. I wear them everyday and I feel so happy in them. Thank you for making them!!!!!</p>",
               "customer": "Jacqueline Smith"
@@ -3273,6 +3273,7 @@
           },
           "block_enBCwX": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>I love your shoes and tell everybody how wonderful they are! Next to my wish list are the ribbon sandals, but I am still saving up for them! Thank you so much!</p>",
               "customer": "Maria Paciullo"
@@ -3295,7 +3296,6 @@
           },
           "dad7cce7-976b-4cb3-ad54-d5cc9b226f5d": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>The shoes are great, I got the Jaya last week and I already purchased another pair – this time I ordered the Ananda. I already used barefoot shoes but I never found barefoot boots so comfortable. <br/>Can’t wait to get my new pair!</p>",
               "customer": "Beppe"
@@ -3304,7 +3304,7 @@
           "17888abf-fad6-47eb-8e27-0ecc230e886d": {
             "type": "block",
             "settings": {
-              "text": "<p>I have to say that I bought the shoes on the recommendation of a doctor. I didn't really believe it, but now I'm really excited. When walking, the legs naturally get blood supply, so the fear of being cold has completely disappeared. Even the position and overall strengthening of the foot arch is visible</p>",
+              "text": "<p>I have to say that I bought the shoes on the recommendation of a doctor. I didn't really believe it, but now I'm really excited. When walking, the legs naturally get blood supply, so the fear of being cold has completely disappeared. Even the position and overall strengthening of the foot arch is visible.</p>",
               "customer": "Markéta Šimičková"
             }
           },
@@ -3406,7 +3406,6 @@
           },
           "1c8f1519-463d-44fa-8a24-370b78c52481": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>I have only worn my new shoes for about an hour in total so far. But that is all the time i need to let you know that my new Chelsea boots are absolutely perfect in every way! I have shoes from different companies, but Ahinsa is from now on (and probably ever) my new favorite brand. As a vegan barefoot enthusiast, its not always easy to find the right shoes. But I found them today! THANK YOU!</p>",
               "customer": "Thale Waaler Eggen"
@@ -3428,6 +3427,7 @@
           },
           "664cfa9d-a33d-4b7b-918a-76300ccc5268": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "text": "<p>It's my first time buying this brand. I've got to say it could not have been better. First of all my pair of shoes arrived in 48h. Knowing I live in the Balearic Islands it has been a great surprise to me. Then, I used them yesterday and they fit perfectly and are so comfortable for walking. So the size guide in your webpage works great. Thank you so much, I will definetely recommend this brand.</p>",
               "customer": "Blanca Muntaner"
@@ -3484,7 +3484,6 @@
           },
           "58dba89a-5ba5-4ddc-a036-3e515334e243": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>I read somewhere that you can become addicted to these shoes... ;-). I admit that I didn't fully believe all the information, but I do now and the addiction has set in. The shoes are amazing and I went out in them almost all summer, so I also ordered ankle boots for autumn and I really like walking in them.</p>",
               "customer": "Magda Cermanová"
@@ -3584,7 +3583,6 @@
           },
           "block_9nr7DB": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>I just wanted to send you a note to let you know that your Jaya boots are my absolute favorite shoes I have ever owned. Not only are they the most comfortable but the quality is incredible. I have owned them for I think now 5 years and they look like they are brand new. I wear them almost daily unless its snowing or hot, so they get a lot of use. I rave to everyone I know about these boots and have sent many people to your website. Thank you for creating these shoes and for your commitment to using materials that are so high quality and long lasting.</p>",
               "customer": "Hannah Milkins"
@@ -3603,6 +3601,21 @@
             "settings": {
               "text": "<p>The most comfortable and durable vegan waterproof barefoot shoes you'll ever own! I had been searching for vegan, waterproof shoes that are comfortable, stylish, and produced in Europe, and Ahinsa shoes tick all those boxes. I’m truly grateful to the team for creating such high-quality footwear. I’ve been wearing my Ahinsa shoes for a year and a half, and my feet have never felt better. They provide an exceptional balance of comfort and durability. If you’re new to barefoot shoes or need a little extra support, I highly recommend getting their comfort insoles. They offer just the right amount of cushioning, perfect for easing the transition or addressing any specific foot issues. I’ve just purchased my third pair—the new Chelsea model—and I absolutely love them! Do yourself a favor and invest in a pair of Ahinsa shoes. You won’t regret it!</p>",
               "customer": "Maike Mojica"
+            }
+          },
+          "block_pciXnn": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "text": "<p>I love my sandals. They are beautiful, healthy, and the style and colour that I wanted. Im not religious, but I call them my Jesus sandals. :) Theyve got an earthy, minimalist, grounding, and wholesome essence to them.</p>",
+              "customer": "Angelkate Rose"
+            }
+          },
+          "block_UYBzRM": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I recently bought the Chitra Trek&Trail and I’m impressed! I love the Vibram sole and the lacing system. I have relatively narrow feet with sloped toes and while I could do with less fabric, the design allows me to tighten the fabric around the mid-foot to my liking. Thank you so much for designing these shoes! Please never stop making them.</p>",
+              "customer": "Amy"
             }
           }
         },
@@ -3664,7 +3677,9 @@
           "block_fcjAVH",
           "block_9nr7DB",
           "block_9YCP7G",
-          "block_TjwGrV"
+          "block_TjwGrV",
+          "block_pciXnn",
+          "block_UYBzRM"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
