@@ -15,9 +15,9 @@
         "enable": true,
         "collection_image_enable": true,
         "parallax": true,
-        "text_align_left": true,
+        "text_align_left": false,
         "text_width": 40,
-        "subtitle": "<p>What would you say to a pair of men’s shoes that you can wear <strong>to work, a formal evening or into nature? </strong></p><p>You’ve just found them. Endlessly <strong>comfortable shoes designed by physiotherapists</strong>, which will last for years. </p>",
+        "subtitle": "<p>Až se zima zeptá, co jste dělali v létě... <strong>Budete mít klid na duši a nohy v teple</strong>. Mrazíky vás letos nezaskočí – <strong>využijte 20% </strong>slevu na (pod)zimní bestsellery a získejte k nim <strong>barefoot ponožky ZDARMA</strong>. 🎁 Vyberte si z naší nabídky bot a přidejte si do košíku <a href=\"https://ahinsashoes.cz/collections/barefoot-ponozky\" target=\"_blank\" title=\"Barefoot ponožky\"><strong>ponožky</strong></a><strong>dle výběru</strong>. V posledním kroku objednávky zadejte kód <strong>NOHYVTEPLE</strong> a cena za ponožky se automaticky odečte.</p>",
         "text_color": "#ffffff"
       }
     },
@@ -26,6 +26,7 @@
       "blocks": {
         "newsubcols_i7JmbM": {
           "type": "newsubcols",
+          "disabled": true,
           "settings": {
             "subcollections_per_row": 2,
             "collection_1": "mens-barefoot-shoes",
@@ -40,7 +41,6 @@
         },
         "advanced_CDGGKT": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "promo_collection": "",
             "subheading": "",
@@ -50,7 +50,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/DSC_2494.jpg",
+            "image": "shopify://shop_images/collection_black_podzim.jpg",
             "video_url": "",
             "width": "100",
             "height": 100,
@@ -272,7 +272,8 @@
         "display_top_desc": true,
         "filter_style": "sidebar",
         "enable_color_swatches": true,
-        "enable_sort": true
+        "enable_sort": true,
+        "event_type": "view_item_list"
       }
     }
   },
