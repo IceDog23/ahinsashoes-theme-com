@@ -17,7 +17,7 @@
         "parallax": true,
         "text_align_left": false,
         "text_width": 40,
-        "subtitle": "<p>Až se zima zeptá, co jste dělali v létě... <strong>Budete mít klid na duši a nohy v teple</strong>. Mrazíky vás letos nezaskočí – <strong>využijte 20% </strong>slevu na (pod)zimní bestsellery a získejte k nim <strong>barefoot ponožky ZDARMA</strong>. 🎁 Vyberte si z naší nabídky bot a přidejte si do košíku <a href=\"https://ahinsashoes.cz/collections/barefoot-ponozky\" target=\"_blank\" title=\"Barefoot ponožky\"><strong>ponožky</strong></a><strong>dle výběru</strong>. V posledním kroku objednávky zadejte kód <strong>NOHYVTEPLE</strong> a cena za ponožky se automaticky odečte.</p>",
+        "subtitle": "<p>Get ready for the chilly season ahead with our <strong>Early Bird offer</strong>– enjoy <strong>20% off </strong>autumn & winter bestsellers <strong>plus </strong>a pair of barefoot socks <strong>FREE</strong>. 🎁 Simply choose your favourite shoes from our selection, add <a href=\"https://ahinsashoes.com/collections/accessories/socks\" target=\"_blank\" title=\"https://ahinsashoes.com/collections/accessories/socks\">barefoot socks</a> to your cart, and enter the code <strong>COMFYFEET </strong>at checkout – the sock price will be automatically deducted.</p>",
         "text_color": "#ffffff"
       }
     },
@@ -44,8 +44,8 @@
           "settings": {
             "promo_collection": "",
             "subheading": "",
-            "heading": "Only while supplies last: 2 + 1 pair FREE",
-            "textarea": "Choose three pairs of Ahinsa shoes and get the cheapest one for free. Just enter the code <b>JOY</b> at the checkout.",
+            "heading": "Use code <b>COMFYFEET</b> for free socks",
+            "textarea": "Choose from our barefoot socks, enter the code <b>COMFYFEET</b> at checkout, and the price of the socks will be automatically deducted.",
             "cta_text1": "",
             "cta_link1": "",
             "cta_text2": "",
