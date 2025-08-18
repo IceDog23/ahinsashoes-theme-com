@@ -136,9 +136,9 @@
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce": {
             "type": "announcement",
             "settings": {
-              "text": "Get special 10% discount on all sneakers! 👟",
-              "link_text": "Just use the code \"SNEAKERS10\" at the checkout. ➡️ Choose yours!",
-              "link": "https://ahinsashoes.com/collections/sneakers"
+              "text": "🌿 New Summer styles from physiotherapists are here!",
+              "link_text": "Dare to wear shoes that stand out from the crowd. ☀️",
+              "link": "shopify://pages/spring"
             }
           },
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
@@ -6156,14 +6156,14 @@
               "title_size": 80,
               "subheading": "",
               "text_color": "#ffffff",
-              "link": "shopify://collections/women",
+              "link": "shopify://collections/womens-news",
               "link_text": "Women‘s",
               "link_icon_1": "shopify://shop_images/woman_162d7f1a-73eb-48dc-a4c1-d61c486880b9.png",
               "icon_h_1": 40,
               "arrow_1": true,
               "promotion_click_id_1": "promotion_click_001",
               "promotion_click_name_1": "Hero promotion jarni - Damy",
-              "link_2": "shopify://collections/men",
+              "link_2": "shopify://collections/mens-news",
               "link_text_2": "Men‘s",
               "link_icon_2": "shopify://shop_images/man_87b83bd7-6f58-4dba-9ddd-94ca1ec190df.png",
               "icon_h_2": 40,
