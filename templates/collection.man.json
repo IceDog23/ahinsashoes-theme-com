@@ -40,17 +40,16 @@
         },
         "advanced_CDGGKT": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "promo_collection": "",
             "subheading": "",
-            "heading": "Only while supplies last: 2 + 1 pair FREE",
-            "textarea": "Choose three pairs of Ahinsa shoes and get the cheapest one for free. Just enter the code <b>JOY</b> at the checkout.",
+            "heading": "Use code <b>COMFYFEET</b> for free socks",
+            "textarea": "Choose from our barefoot socks, enter the code COMFYFEET at checkout, and the price of the socks will be automatically deducted.",
             "cta_text1": "",
-            "cta_link1": "",
+            "cta_link1": "https://ahinsashoes.com/collections/free-socks",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/DSC_2494.jpg",
+            "image": "shopify://shop_images/collection_black_podzim.jpg",
             "video_url": "",
             "width": "100",
             "height": 100,
@@ -272,7 +271,8 @@
         "display_top_desc": true,
         "filter_style": "sidebar",
         "enable_color_swatches": true,
-        "enable_sort": true
+        "enable_sort": true,
+        "event_type": "view_item_list"
       }
     }
   },
