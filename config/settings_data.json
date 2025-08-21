@@ -97,7 +97,7 @@
     "footwear_type_tags": "dress shoes;boots;sandals;sneakers;casual shoes;sport shoes;ankle shoes;winter shoes;slip-on shoes;extra wide;narrow;spring;summer;autumn;urban;formal;all-season;for hiking",
     "cart_type": "drawer",
     "cart_additional_buttons": true,
-    "cart_notes_enable": true,
+    "cart_notes_enable": false,
     "cart_terms_conditions_enable": true,
     "cart_terms_conditions_link": "shopify://policies/terms-of-service",
     "social_facebook_link": "https://www.facebook.com/ahinsashoescom",
