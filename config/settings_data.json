@@ -5399,18 +5399,18 @@
       "structured-event-data": {
         "type": "structured-event-data",
         "settings": {
-          "name": "The new collection is here ☀️ Step into summer in comfort",
-          "url": "https://ahinsashoes.com/collections/news",
-          "startDate": "2025-03-09",
-          "endDate": "2025-08-30",
+          "name": "Early bird 20% off autumn styles + 🧦 free socks with Code: COMFYFEET",
+          "url": "https://ahinsashoes.com/collections/free-socks",
+          "startDate": "2025-08-21",
+          "endDate": "2025-08-31",
           "name2": "Free e-book from physiotherapists 📖",
           "url2": "https://ahinsashoes.com/pages/tips-for-those-who-care-about-their-health",
           "startDate2": "2025-01-01",
           "endDate2": "2025-12-31",
-          "name3": "",
-          "url3": "",
-          "startDate3": "",
-          "endDate3": ""
+          "name3": "The new collection is here ☀️ Step into summer in comfort",
+          "url3": "https://ahinsashoes.com/collections/news",
+          "startDate3": "2025-03-09",
+          "endDate3": "2025-08-30"
         }
       },
       "head-of-page1": {
