@@ -36,10 +36,11 @@
         },
         "advanced_izjk8p": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "promo_collection": "",
             "subheading": "",
-            "heading": "Use code <b>COMFYFEET</b> for free socks",
+            "heading": "Use code COMFYFEET for free socks",
             "textarea": "Choose your new barefoot shoes with 20 % discount – for selected models, you’ll get free socks. 🧦",
             "cta_text1": "",
             "cta_link1": "https://ahinsashoes.com/collections/free-socks",
