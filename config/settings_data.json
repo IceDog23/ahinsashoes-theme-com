@@ -5154,6 +5154,7 @@
           },
           "html_yk643C": {
             "type": "html",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/sarka.jpg",
               "jmeno": "Šárka"
