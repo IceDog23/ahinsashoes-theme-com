@@ -3607,6 +3607,14 @@
               "text": "<p>I recently bought the Chitra Trek&Trail and I’m impressed! I love the Vibram sole and the lacing system. I have relatively narrow feet with sloped toes and while I could do with less fabric, the design allows me to tighten the fabric around the mid-foot to my liking. Thank you so much for designing these shoes! Please never stop making them.</p>",
               "customer": "Amy"
             }
+          },
+          "block_VxWjNW": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "text": "<p>I purchased a pair of xwide Hikers in January of this year. I have been adapting to the barefoot shoe type since then. These have worked very well. Recently, I traveled to Sedona, AZ. The shoes were great on the hard stone, gravel and rocky trails. </p>",
+              "customer": "Rick Shields"
+            }
           }
         },
         "block_order": [
@@ -3669,7 +3677,8 @@
           "block_9YCP7G",
           "block_TjwGrV",
           "block_pciXnn",
-          "block_UYBzRM"
+          "block_UYBzRM",
+          "block_VxWjNW"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
