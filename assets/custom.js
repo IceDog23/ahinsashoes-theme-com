@@ -175,4 +175,41 @@ document.addEventListener('DOMContentLoaded', () => {
     // 	})		
     // })
 
+
+
+    // Affiliate customers POP UP 
+    // const landingPages = ['/pages/winter-autumn-collection', '/pages/autumn-collection', '/pages/spring-24']
+    const searchParams = new URLSearchParams(window.location.search)
+    const affiliate = searchParams.has('utm_medium')
+
+    const path = window.location.pathname
+    const isArticle = path.includes('blogs/news/')
+
+    const isLandingPage = window.landingPage
+
+    // landingPages.forEach(page => {
+    //     if (path.includes(page)) {
+    //         isLandingPage = true
+    //     }
+    // })
+    console.log('isLandingPage', isLandingPage)
+
+    console.log('path',path)
+
+    // article - blogs/news/[article_name]
+    // landing page - pages/[landing_page_name]
+
+    // if (blog article or landing page) && (!affiliate)
+        // show popup 
+    // else 
+        // do nothing
+    if ((isArticle || isLandingPage) && !affiliate) {
+        console.log('show popup')
+        (function (w,d,s,o,f,js,fjs) {
+            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+            js.id = '22-b6cffcc9a5bfa7e25701b93290a48d80'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+    }
 });
+

@@ -141,6 +141,12 @@
   {%- endif -%}
 
 
+  {% comment %} LOAD PAGE METAFIELDS {% endcomment %}
+  {% if template contains 'page' %}
+    <script>
+      window.landingPage = {{ page.metafields.custom.landing_page }};
+    </script>
+  {% endif %}
 
   {%- render 'font-face' -%}
   {{ 'theme.css' | asset_url | stylesheet_tag }}
