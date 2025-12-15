@@ -141,7 +141,7 @@
   {%- endif -%}
 
 
-  {% comment %} LOAD PAGE METAFIELDS {% endcomment %}
+  {% comment %} LOAD PAGE METAFIELDS - LANDING PAGE WORKS FOR NON AFFILIATE CUSTOMERS POP UP{% endcomment %}
   {% if template contains 'page' %}
     <script>
       window.landingPage = {{ page.metafields.custom.landing_page }};
