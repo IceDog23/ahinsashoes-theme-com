@@ -1,0 +1,86 @@
+<!-- snippets/size-filtering.liquid -->
+{% liquid
+    assign base_url = request.origin
+    assign filter_url_34=base_url | append: "/collections/all?filter.v.option.velikost=34"
+    assign filter_url_35=base_url | append: "/collections/all?filter.v.option.velikost=35"
+    assign filter_url_36=base_url | append: "/collections/all?filter.v.option.velikost=36"
+    assign filter_url_37=base_url | append: "/collections/all?filter.v.option.velikost=37"
+    assign filter_url_38=base_url | append: "/collections/all?filter.v.option.velikost=38"
+    assign filter_url_39=base_url | append: "/collections/all?filter.v.option.velikost=39"
+    assign filter_url_40=base_url | append: "/collections/all?filter.v.option.velikost=40"
+    assign filter_url_41=base_url | append: "/collections/all?filter.v.option.velikost=41"
+    assign filter_url_42=base_url | append: "/collections/all?filter.v.option.velikost=42"
+    assign filter_url_44=base_url | append: "/collections/all?filter.v.option.velikost=44"
+    assign filter_url_45=base_url | append: "/collections/all?filter.v.option.velikost=45"
+    assign filter_url_46=base_url | append: "/collections/all?filter.v.option.velikost=46"
+    assign filter_url_47=base_url | append: "/collections/all?filter.v.option.velikost=47"
+    assign filter_url_48=base_url | append: "/collections/all?filter.v.option.velikost=48"
+%}
+<div class="size-filtering-container">
+    <p>Find your size:</p>
+    <div class="size-filtering">
+        <a href="{{ filter_url_34 }}">34</a>
+        <a href="{{ filter_url_35 }}">35</a>
+        <a href="{{ filter_url_36 }}">36</a>
+        <a href="{{ filter_url_37 }}">37</a>
+        <a href="{{ filter_url_38 }}">38</a>
+        <a href="{{ filter_url_39 }}">39</a>
+        <a href="{{ filter_url_40 }}">40</a>
+        <a href="{{ filter_url_41 }}">41</a>
+        <a href="{{ filter_url_42 }}">42</a>
+        <a href="{{ filter_url_44 }}">44</a>
+        <a href="{{ filter_url_45 }}">45</a>
+        <a href="{{ filter_url_46 }}">46</a>
+        <a href="{{ filter_url_47 }}">47</a>
+        <a href="{{ filter_url_48 }}">48</a>
+    </div>
+</div>
+
+<style>
+    .size-filtering-container {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px; 
+        align-items: center;
+    }
+
+    .size-filtering-container p {
+        margin: 0;
+    }
+    .size-filtering {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .size-filtering a {
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+        padding: 10px 20px;
+        border: 1px solid #000;
+        transition: all 0.5s ease;
+        min-width: 70px;
+    }
+    .size-filtering a:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    @media (max-width: 768px) {
+        .size-filtering-container {
+            flex-direction: column;
+            width: 100%;
+            gap: 10px;
+        }
+    }
+
+    @media (max-width: 475px) {
+        .size-filtering-container {
+            flex-direction: column;
+        }
+
+        .size-filtering {
+            justify-content: center;
+        }
+    }
+</style>
