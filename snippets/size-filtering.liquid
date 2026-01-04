@@ -17,7 +17,7 @@
     assign filter_url_48=base_url | append: "/collections/all?filter.v.option.velikost=48"
 %}
 <div class="size-filtering-container">
-    <p>Find your size:</p>
+    <p>Najděte si svoji velikost:</p>
     <div class="size-filtering">
         <a href="{{ filter_url_34 }}">34</a>
         <a href="{{ filter_url_35 }}">35</a>
@@ -37,33 +37,75 @@
 </div>
 
 <style>
-    .size-filtering-container {
+    .size-filtering-wrapper {
         margin-top: 20px;
+    }
+
+    .size-filtering-container {
+        {% comment %} margin-top: 20px; {% endcomment %}
         display: flex;
         gap: 20px; 
         align-items: center;
+        min-width: 0; /* Allow container to shrink */
+        flex: 1 1 auto;
     }
 
     .size-filtering-container p {
         margin: 0;
+        flex: 0 0 auto;
+        white-space: nowrap;
     }
     .size-filtering {
         display: flex;
+        flex: 1 1 auto;
         flex-wrap: wrap;
-        gap: 5px;
+        justify-content: flex-start;
+        gap: 2px;
+        min-width: 0; /* Allow to shrink */
     }
     .size-filtering a {
         text-decoration: none;
         color: #000;
         font-size: 16px;
-        padding: 10px 20px;
+        padding: 10px 15px;
         border: 1px solid #000;
         transition: all 0.5s ease;
-        min-width: 70px;
+        text-align: center;
+        max-height: 40px;
     }
     .size-filtering a:hover {
         background-color: #000;
         color: #fff;
+    }
+
+    .t4s-collection-header {
+        flex-wrap: wrap;
+        margin: 40px 0 80px 0;
+        row-gap: 20px;
+    }
+
+    /* Size filtering takes as much space as it needs */
+    .t4s-collection-header >:first-child {
+        flex: 1 1 auto;
+        min-width: 0; /* Allow shrinking below content size */
+    }
+
+    /* Sortby dropdown - wraps to second row and aligns right */
+    .t4s-collection-header >:last-child {
+        flex: 0 0 auto;
+        margin-left: auto;
+    }
+
+    @media (max-width: 1200px) {
+        /* When not enough space, dropdown goes to new row, full width, aligned right */
+        .t4s-collection-header >:first-child {
+            flex: 1 1 100%;
+        }
+
+        .t4s-collection-header >:last-child {
+            flex: 1 1 100%;
+            justify-content: flex-end;
+        }
     }
 
     @media (max-width: 768px) {
