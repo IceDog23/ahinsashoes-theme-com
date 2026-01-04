@@ -49,6 +49,7 @@
         {%- endif -%}
     {%- when 'product_grid' -%}
       <div class="collection-filter">
+      {% render 'size-filtering' %}
         {%- liquid
           assign current_filter_size = 0
 
