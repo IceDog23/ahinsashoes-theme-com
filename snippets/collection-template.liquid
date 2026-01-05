@@ -69,7 +69,6 @@
           </button>
         </div>
 
-        {% render 'size-filtering' %}
 
 
         <div class="collection-filter__item collection-filter__item--count small--hide">
@@ -91,6 +90,9 @@
           </div>
         </div>
       </div>
+
+      {% render 'size-filtering' %}
+
 
       {%- if block.settings.enable_collection_count -%}
         <p class="medium-up--hide text-center" data-scroll-to>{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</p>
