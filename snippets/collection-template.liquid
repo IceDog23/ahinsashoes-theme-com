@@ -91,7 +91,9 @@
         </div>
       </div>
 
-      {% render 'size-filtering' %}
+			<div class="size-filtering-wrapper">
+        {% render 'size-filtering' %}
+      </div>
 
 
       {%- if block.settings.enable_collection_count -%}
