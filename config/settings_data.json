@@ -143,11 +143,10 @@
           },
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Black Friday sale is here! 🔥",
-              "link_text": "Get up to 40 % off your favorite shoes. Experience the freedom of natural movement!",
-              "link": "shopify://collections/sale"
+              "text": "Worldwide Shipping: Europe, UK, USA, Canada, Australia & NZ 🇪🇺🇬🇧🇺🇸🇨🇦🇦🇺",
+              "link_text": "",
+              "link": ""
             }
           },
           "cae1281a-8737-47b9-96f0-e29e176b747b": {
