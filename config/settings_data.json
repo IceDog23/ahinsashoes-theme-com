@@ -144,8 +144,8 @@
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
             "type": "announcement",
             "settings": {
-              "text": "Worldwide Shipping: Europe, UK, USA, Canada, Australia & NZ 🇪🇺🇬🇧🇺🇸🇨🇦🇦🇺",
-              "link_text": "",
+              "text": "Worldwide Shipping: Europe, UK, USA, Canada, Australia & NZ",
+              "link_text": "🇪🇺🇬🇧🇺🇸🇨🇦🇦🇺",
               "link": ""
             }
           },
