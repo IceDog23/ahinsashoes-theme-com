@@ -3243,7 +3243,6 @@
           },
           "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!</p>",
               "customer": "Veronika Brenkusová"
@@ -3344,7 +3343,6 @@
           },
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>The shoes (Chitra Trek&Trail x wide) are really good, best toe box and feel I’ve got out of any minimalist shoes I’ve worn over the years and feel really good in the trail. The ebook was very helpful in filling a couple of gaps in my own knowledge and they turned up in just a couple of days after ordering. I had to pay a hefty bit of import tax as I live in the UK but overall I’m extremely happy with the shoes. I absolutely love the shoes and I would have replaced my road running shoes with a pair as well.</p>",
               "customer": "Amanda Brown"
@@ -3452,7 +3450,6 @@
           },
           "1041b183-9709-4b30-a865-b68400e50fca": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>Put simply, I love my Ahinsa Bindu! They’ve started making a big difference to my daily health & overall return to enjoying life. I’d been experiencing plantar fasciitis on & off for the last 3-4 years. I’m over 60, still work a 5 day week & never enjoyed sport or exercise, but do love to walk my dogs. It was becoming increasingly painful & difficult to get through the day. Needless to say I wore my Bindus as soon as they arrived & were the only pair of shoes i took with me on a 3 day trip to Paris! Walked miles, barely a twinge in my feet! My feet have changed shape, wider spread toes, ankle stability has improved. I love that I now feel the terrain under my feet through the flexi soles, such a joy.</p>",
               "customer": "Jules"
@@ -3601,7 +3598,6 @@
           },
           "block_UYBzRM": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>I recently bought the Chitra Trek&Trail and I’m impressed! I love the Vibram sole and the lacing system. I have relatively narrow feet with sloped toes and while I could do with less fabric, the design allows me to tighten the fabric around the mid-foot to my liking. Thank you so much for designing these shoes! Please never stop making them.</p>",
               "customer": "Amy"
@@ -3613,6 +3609,14 @@
             "settings": {
               "text": "<p>I purchased a pair of xwide Hikers in January of this year. I have been adapting to the barefoot shoe type since then. These have worked very well. Recently, I traveled to Sedona, AZ. The shoes were great on the hard stone, gravel and rocky trails. </p>",
               "customer": "Rick Shields"
+            }
+          },
+          "block_TEhQYP": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "text": "<p>I really love the womens comfort flow shoes! Ive been wearing barefoot shoes for 2 years now and I appreciate how these supply a bit more cushioning while still supporting healthy walking. I LOVE them! Thank you!</p>",
+              "customer": "Nancy Roane"
             }
           }
         },
@@ -3677,7 +3681,8 @@
           "block_TjwGrV",
           "block_pciXnn",
           "block_UYBzRM",
-          "block_VxWjNW"
+          "block_VxWjNW",
+          "block_TEhQYP"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
