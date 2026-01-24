@@ -1,0 +1,411 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "26396f05-6969-47e0-aa8d-0fb2471ab88e": {
+      "type": "lp-slideshow_svatba",
+      "blocks": {
+        "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "New spring styles designed by physiotherapists are now available",
+            "title": "Dare to wear shoes that \nstand out from the crowd",
+            "title_size": 60,
+            "subheading": "<br>Shoes with glitter, dazzle and color... even <b>sneakers designed by AI</b>! This spring will bring a fresh breeze to your shoe collection and freedom for your feet.\n<br>\n\n<br>Dare to be different in new Ahinsa shoes.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/IMG_7931.jpg",
+            "overlay_opacity": 18,
+            "focal_point": "bottom center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "500px",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "lp_image_reviews_iUy3ac": {
+      "type": "lp_image_reviews",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/recenze_jaro_24_web.png",
+        "divider": false,
+        "m_bot": 10
+      }
+    },
+    "lp_text_on_image_qGHnHh": {
+      "type": "lp_text_on_image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/svatba_mobil_lp.jpg",
+        "title": "Vylepšená řada Comfort",
+        "subtitle": "Nekompromisní pohodlí",
+        "text": "<p>Jaké by asi bylo <strong>chodit po oblacích</strong>? Brzy to zjistíte.<br/>Řadu Ahinsa Comfort jsme vylepšili o Technogel, který<strong>změkčí a odpruží vaše došlapy</strong>. Výlet po městě nikdy nebyl pohodlnější.</p>",
+        "button_label": "UŽIJTE SI POHODLÍ",
+        "button_link": "",
+        "layout": "right",
+        "divider": false,
+        "quote": false
+      }
+    },
+    "product_story_sections_gXBitH": {
+      "type": "product-story-sections",
+      "blocks": {
+        "rich_text_n3WG3L": {
+          "type": "rich-text",
+          "disabled": true,
+          "settings": {
+            "title": "Pssst – keep it a secret! ",
+            "text": "<p>Hardly anyone knows about the Ahinsa spring shoe collection yet.</p><p>Be the first to choose a pair and get a <strong>20% discount for your preorder </strong>– just enter the code<strong> SPRINGREADY </strong>at the checkout.</p><p>We’re now making the new products for you, and we’ll be sending them out to you <strong>in March</strong>.</p>",
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_n3WG3L"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{margin-top: 20px;}"
+      ],
+      "settings": {}
+    },
+    "afadba8b-f130-41fc-8a37-2cc6ce89906e": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "f366022b-15fb-48b1-b5d0-2149cee9c220": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC1459-kopie.jpg"
+          }
+        },
+        "html_VYaYqw": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2799-kopie.jpg"
+          }
+        },
+        "html_RjdyxT": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7380_69472679.webp"
+          }
+        },
+        "1cfab0be-5b16-4269-a8f2-79479431caa0": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0241.jpg"
+          }
+        },
+        "html_dLmNjR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC1666-kopie.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f366022b-15fb-48b1-b5d0-2149cee9c220",
+        "html_VYaYqw",
+        "html_RjdyxT",
+        "1cfab0be-5b16-4269-a8f2-79479431caa0",
+        "html_dLmNjR"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Street Sneakers – Hemp",
+        "subtitle": "A playful classic that’s finally comfortable",
+        "text": "<p>Canvas sneakers <strong>will never go out of style</strong>. But they’ve never been so comfortable and healthy. Put on this new version of a stylish classic <strong>designed by physiotherapists</strong>.</p>",
+        "button_label": "Be playful",
+        "button_link": "https://ahinsashoes.com/collections/news?filter.p.m.custom.material=hemp",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "629e967d-2ba6-445e-ac1d-37425cf62106": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_9x9DcP": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7931_7e9b3931-ac82-4f62-b248-04fbe8d2c21c.jpg"
+          }
+        },
+        "html_nwMQ7H": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2977-kopie.jpg"
+          }
+        },
+        "html_4D9nEe": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7967.jpg"
+          }
+        },
+        "html_xzFDrR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2949-kopie.jpg"
+          }
+        },
+        "html_TWANRF": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7808.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_9x9DcP",
+        "html_nwMQ7H",
+        "html_4D9nEe",
+        "html_xzFDrR",
+        "html_TWANRF"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Yuva AI sneakers",
+        "subtitle": "When physiotherapists team up with AI",
+        "text": "<p>Combine the <strong>expertise of physiotherapists </strong>and <strong>ideas from artificial intelligence</strong>... and you get sneakers like the world has never seen before. Stylish, comfortable, and (nearly) indestructible.</p>",
+        "button_label": "Be the first to wear them",
+        "button_link": "https://ahinsashoes.com/collections/news/yuva",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "25133cf6-5f4c-475f-97a0-62278cf1d0aa": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_93zeBN": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC05764.jpg"
+          }
+        },
+        "html_4Abtch": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9848.jpg"
+          }
+        },
+        "html_7dwhJj": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC05797.jpg"
+          }
+        },
+        "html_tiTGqN": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0005.jpg"
+          }
+        },
+        "html_3YNcdW": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2468-kopie.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_93zeBN",
+        "html_4Abtch",
+        "html_7dwhJj",
+        "html_tiTGqN",
+        "html_3YNcdW"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Upgraded Chic dress shoes",
+        "subtitle": "One shoe in a thousand different styles",
+        "text": "<p>You don't need ten pairs of dress shoes. You only need one with a heel loop. String a <strong>ribbon </strong>through them one day, then a <strong>chain </strong>the next. Be different and chic, every time.</p>",
+        "button_label": "Be chic",
+        "button_link": "https://ahinsashoes.com/collections/news/chic+nepreciosa",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "78f72821-6c02-4943-8234-82d8128e2acd": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_KFgieJ": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2588-kopie_1.jpg"
+          }
+        },
+        "html_cht9bC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9132.jpg"
+          }
+        },
+        "html_ytc3yA": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2614.jpg"
+          }
+        },
+        "html_U6UAKq": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2972.jpg"
+          }
+        },
+        "html_3ezqX4": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2673-kopie.jpg"
+          }
+        },
+        "html_HEVWjR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9755.jpg"
+          }
+        },
+        "html_4R4hGE": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2370-kopie.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_KFgieJ",
+        "html_cht9bC",
+        "html_ytc3yA",
+        "html_U6UAKq",
+        "html_3ezqX4",
+        "html_HEVWjR",
+        "html_4R4hGE"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Preciosa sandals and dress shoes",
+        "subtitle": "Glitter designed by the masters of dazzle",
+        "text": "<p>You can never shine too brightly. Wouldn’t you agree? If so, you'll be thrilled with our dazzling <strong>collaboration with the masters of glitter at Preciosa</strong>. Warning: These crystals attract compliments!</p>",
+        "button_label": "Dazzle it up",
+        "button_link": "https://ahinsashoes.com/collections/news/preciosa",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "lp_text_and_image_gallery_4QD9Qa": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_cQEcBF": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8512.jpg"
+          }
+        },
+        "html_GMgnaK": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2173-kopie.jpg"
+          }
+        },
+        "html_EKT78K": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC6903-kopie.jpg"
+          }
+        },
+        "html_A7PxEb": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8634.jpg"
+          }
+        },
+        "html_6eiMgC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8172.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_cQEcBF",
+        "html_GMgnaK",
+        "html_EKT78K",
+        "html_A7PxEb",
+        "html_6eiMgC"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "AirNet mesh sneakers",
+        "subtitle": "The star of your shoe collection makes a comeback",
+        "text": "<p>We wanted to discontinue these <strong>breathable sneakers</strong>, but you said no. And we're not surprised. They’re breathable and they <strong>keep your feet dry </strong>both at work and while playing sports.</p>",
+        "button_label": "Get yourself a pair",
+        "button_link": "https://ahinsashoes.com/collections/news/airnet",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "e_book_image_text3_6rL9jQ": {
+      "type": "e-book-image-text3",
+      "disabled": true,
+      "custom_css": [
+        "{background-color: #EFEBE2; /* Change background color */"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/3T1A1879.jpg",
+        "image_width": 500,
+        "subtitle": "Can you help us make room for the new products?",
+        "title": "Share the joy with the 2 + 1 free pair offer",
+        "text": "<p>Before we launch the sale of our spring products, we need to free up some space for them in our warehouse. And you can help! </p><p>Choose <strong>2 pairs of Ahinsa shoes </strong>from the current offer and <strong>get the 3rd one for free</strong>.</p><p>Share the joy of healthy walking with your loved ones. Choose shoes designed by physiotherapists <strong>for yourself and for them</strong>.</p>",
+        "button_label": "👉🏼 Choose yours",
+        "button_link": "https://ahinsashoes.com/collections/all/barefoot?sort_by=created-descending",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "0f03e679-9781-41a4-b033-4a9bc5d23e8b": {
+      "type": "lp-podzim-text-and-image7-text",
+      "disabled": true,
+      "settings": {
+        "title": "Your feedback on our last collection touched us. Thank you!",
+        "text": "<p>We’ve been collecting your experiences, and we’ve used them to improve your favorite models and come up with new ones that are still missing in your shoe collection.</p>",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "26396f05-6969-47e0-aa8d-0fb2471ab88e",
+    "lp_image_reviews_iUy3ac",
+    "lp_text_on_image_qGHnHh",
+    "product_story_sections_gXBitH",
+    "afadba8b-f130-41fc-8a37-2cc6ce89906e",
+    "629e967d-2ba6-445e-ac1d-37425cf62106",
+    "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
+    "78f72821-6c02-4943-8234-82d8128e2acd",
+    "lp_text_and_image_gallery_4QD9Qa",
+    "e_book_image_text3_6rL9jQ",
+    "0f03e679-9781-41a4-b033-4a9bc5d23e8b"
+  ]
+}
