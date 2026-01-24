@@ -132,10 +132,10 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Street Sneakers – Hemp",
-        "subtitle": "A playful classic that’s finally comfortable",
-        "text": "<p>Canvas sneakers <strong>will never go out of style</strong>. But they’ve never been so comfortable and healthy. Put on this new version of a stylish classic <strong>designed by physiotherapists</strong>.</p>",
-        "button_label": "Be playful",
+        "title": "Knit Sneakers Softy",
+        "subtitle": "Gently wrap your feet",
+        "text": "<p>Imagine sneakers that fit as if they were <strong>made just for you</strong> – only we didn’t sew them, we knitted them.</p><p>The ultra-light Softy <strong>knit sneakers</strong> are made from elastic fibers that naturally adapt to your foot, delivering a soft, comfortable fit from the very first step.</p>",
+        "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news?filter.p.m.custom.material=hemp",
         "layout": "left",
         "divider": false
@@ -184,10 +184,10 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Yuva AI sneakers",
-        "subtitle": "When physiotherapists team up with AI",
-        "text": "<p>Combine the <strong>expertise of physiotherapists </strong>and <strong>ideas from artificial intelligence</strong>... and you get sneakers like the world has never seen before. Stylish, comfortable, and (nearly) indestructible.</p>",
-        "button_label": "Be the first to wear them",
+        "title": "Knit Ballet Flats Softy",
+        "subtitle": "Light steps, all day long",
+        "text": "<p>Dress shoes you can wear from morning to evening? </p><p>Exactly. These <strong>knit ballet flats</strong> gently wrap your foot in elastic, breathable knit and stay comfortable all day – at work, on a walk, or in meetings.</p>",
+        "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/yuva",
         "layout": "right",
         "divider": false
@@ -236,10 +236,10 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Upgraded Chic dress shoes",
-        "subtitle": "One shoe in a thousand different styles",
-        "text": "<p>You don't need ten pairs of dress shoes. You only need one with a heel loop. String a <strong>ribbon </strong>through them one day, then a <strong>chain </strong>the next. Be different and chic, every time.</p>",
-        "button_label": "Be chic",
+        "title": "Yuva Barefoot Sneakers",
+        "subtitle": "So soft, you forget to take them off",
+        "text": "<p>Honest craftsmanship under your feet. <strong>Comfort designed by physiotherapists</strong>, precision from skilled shoemakers – and a timeless style that’s easy to wear.</p>",
+        "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/chic+nepreciosa",
         "layout": "left",
         "divider": false
@@ -302,10 +302,10 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "Preciosa sandals and dress shoes",
-        "subtitle": "Glitter designed by the masters of dazzle",
-        "text": "<p>You can never shine too brightly. Wouldn’t you agree? If so, you'll be thrilled with our dazzling <strong>collaboration with the masters of glitter at Preciosa</strong>. Warning: These crystals attract compliments!</p>",
-        "button_label": "Dazzle it up",
+        "title": "Aura Barefoot Sandals",
+        "subtitle": "Minimalist lightness",
+        "text": "<p><strong>Elegance lies in simplicity</strong>. A thin line across the instep. An <strong>adjustable heel</strong>. Our finest materials. Nothing more needed.</p>",
+        "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/preciosa",
         "layout": "right",
         "divider": false
@@ -354,12 +354,78 @@
       ],
       "settings": {
         "image_width": 500,
-        "title": "AirNet mesh sneakers",
-        "subtitle": "The star of your shoe collection makes a comeback",
-        "text": "<p>We wanted to discontinue these <strong>breathable sneakers</strong>, but you said no. And we're not surprised. They’re breathable and they <strong>keep your feet dry </strong>both at work and while playing sports.</p>",
-        "button_label": "Get yourself a pair",
+        "title": "Hava Sparkle Barefoot Sandals",
+        "subtitle": "A touch of starlight",
+        "text": "<p>You’ve grown to love the Hava sandals – so we added a subtle sparkle. Who says you can’t <strong>feel like a star</strong> on an ordinary day?</p>",
+        "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/airnet",
         "layout": "left",
+        "divider": false
+      }
+    },
+    "lp_text_and_image_gallery_J4gFYa": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_TQaTpF": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2588-kopie_1.jpg"
+          }
+        },
+        "html_PwF3ee": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9132.jpg"
+          }
+        },
+        "html_a3mt6X": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2614.jpg"
+          }
+        },
+        "html_dfz6pU": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2972.jpg"
+          }
+        },
+        "html_39jX9f": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2673-kopie.jpg"
+          }
+        },
+        "html_Eq9fdq": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9755.jpg"
+          }
+        },
+        "html_K7FQmP": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2370-kopie.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_TQaTpF",
+        "html_PwF3ee",
+        "html_a3mt6X",
+        "html_dfz6pU",
+        "html_39jX9f",
+        "html_Eq9fdq",
+        "html_K7FQmP"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Preciosa sandals and dress shoes",
+        "subtitle": "Glitter designed by the masters of dazzle",
+        "text": "<p>You can never shine too brightly. Wouldn’t you agree? If so, you'll be thrilled with our dazzling <strong>collaboration with the masters of glitter at Preciosa</strong>. Warning: These crystals attract compliments!</p>",
+        "button_label": "Get Them First",
+        "button_link": "https://ahinsashoes.com/collections/news/preciosa",
+        "layout": "right",
         "divider": false
       }
     },
@@ -403,6 +469,7 @@
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
     "78f72821-6c02-4943-8234-82d8128e2acd",
     "lp_text_and_image_gallery_4QD9Qa",
+    "lp_text_and_image_gallery_J4gFYa",
     "e_book_image_text3_6rL9jQ",
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b"
   ]
