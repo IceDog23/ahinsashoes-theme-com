@@ -72,10 +72,9 @@
       "blocks": {
         "rich_text_n3WG3L": {
           "type": "rich-text",
-          "disabled": true,
           "settings": {
-            "title": "Pssst – keep it a secret! ",
-            "text": "<p>Hardly anyone knows about the Ahinsa spring shoe collection yet.</p><p>Be the first to choose a pair and get a <strong>20% discount for your preorder </strong>– just enter the code<strong> SPRINGREADY </strong>at the checkout.</p><p>We’re now making the new products for you, and we’ll be sending them out to you <strong>in March</strong>.</p>",
+            "title": "20% discount just for you",
+            "text": "<p>For spring, we’ve lightened not only the shoes – but the price too. Choose your new Ahinsa shoes <strong>in pre-sale </strong>and enjoy <strong>20% off</strong>.</p><p>Use the code: <strong>COMFYSPRING</strong> at checkout </p><p>We’re already making your shoes and will ship them <strong>by the end of March</strong>.</p><p><strong>P.S.</strong> Only our fans who’ve found this page know about the new collection so far. Enjoy early access. 😉</p>",
             "align_text": "center",
             "narrow_column": true,
             "enlarge_text": false
@@ -85,7 +84,6 @@
       "block_order": [
         "rich_text_n3WG3L"
       ],
-      "disabled": true,
       "custom_css": [
         "{margin-top: 20px;}"
       ],
