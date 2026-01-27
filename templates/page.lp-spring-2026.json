@@ -390,11 +390,13 @@
     },
     "e_book_image_text3_6rL9jQ": {
       "type": "e-book-image-text3",
-      "custom_css": [],
+      "custom_css": [
+        "div {background-color: #F6F5EE;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/comfort3.0.final.png",
         "image_width": 500,
-        "subtitle": "<b>Discover a New Dimension of Comfort</b>",
+        "subtitle": "Discover a New Dimension of Comfort",
         "title": "➡️ With Triple Cushioning",
         "text": "<p>Sometimes you don’t want to feel every pebble under your feet. You want to <strong>step onto a cloud</strong>.<br/><br/>That’s why we <strong>enhanced the Ahinsa Comfort line</strong>.</p><p>It cares for your steps with a <strong>triple-cushioned insole</strong>:</p><ul><li>The first layer <strong>wicks away moisture</strong><br/></li><li>The second layer <strong>absorbs impact</strong><br/></li><li>The third and fourth layers <strong>cushion</strong> even the finest vibrations</li></ul>",
         "button_label": "👉🏼 Wear comfort",
