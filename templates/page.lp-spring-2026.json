@@ -73,7 +73,7 @@
         "rich_text_n3WG3L": {
           "type": "rich-text",
           "settings": {
-            "title": "20% discount just for you",
+            "title": "20% discount just for you (if you can see this page)",
             "text": "<p>For spring, we’ve lightened not only the shoes – but the price too. Choose your new Ahinsa shoes <strong>in pre-sale </strong>and enjoy <strong>20% off</strong>.</p><p>Use the code: <strong>COMFYSPRING</strong> at checkout </p><p>We’re already making your shoes and will ship them <strong>by the end of March</strong>.</p><p><strong>P.S.</strong> Only our fans who’ve found this page know about the new collection so far. Enjoy early access. 😉</p>",
             "align_text": "center",
             "narrow_column": true,
@@ -391,7 +391,7 @@
     "e_book_image_text3_6rL9jQ": {
       "type": "e-book-image-text3",
       "custom_css": [
-        "div {background-color: #F6F5EE;}"
+        "div {background-color: #f6f5ee;}"
       ],
       "settings": {
         "image": "shopify://shop_images/comfort3.0.final.png",
