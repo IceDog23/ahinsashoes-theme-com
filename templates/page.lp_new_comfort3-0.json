@@ -169,11 +169,11 @@
     "e_book_image_text3_qFQxtJ": {
       "type": "e-book-image-text3",
       "settings": {
-        "image": "shopify://shop_images/bota_s_vlozkou.png",
+        "image": "shopify://shop_images/comfort3.0.final.png",
         "image_width": 500,
-        "subtitle": "A soft step:",
-        "title": "Walking around town has never been more comfortable",
-        "text": "<p>City surfaces are hard and made of concrete. That’s why you need shoes that <strong>care for your feet</strong>. </p><p>Ahinsa shoes <strong>will soften your every step</strong>. The special flexible layer will cushion your steps and take the strain off your joints. A trip around town has never been comfier. </p>",
+        "subtitle": "Triple cushioning",
+        "title": "Cloud-soft comfort for city walking",
+        "text": "<p>With our special insole, walking through the city feels soft and natural — almost like stepping on moss.</p><ul><li>The first layer <strong>wicks away moisture</strong><br/></li><li>The second layer <strong>absorbs impact<br/></strong></li><li>The third and fourth layers<strong> cushion even the finest vibrations</strong></li></ul>",
         "button_label": "",
         "button_link": "",
         "layout": "right",
