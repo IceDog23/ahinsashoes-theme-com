@@ -338,6 +338,7 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
 
+
   <!-- MS CLARITY TRACKING CODE -->
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -347,6 +348,10 @@
     })(window, document, "clarity", "script", "kcns7r3sgz");
   </script>
   <!--  END MS CLARITY TRACKING CODE -->
+  
+  <!-- Begin eTrusted bootstrap tag -->
+<script src="https://integrations.etrusted.com/applications/widget.js/v2" defer async></script>
+<!-- End eTrusted bootstrap tag -->
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-center-text="{{ settings.type_body_align_text }}" data-button_style="{{ settings.button_style }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-type_headers_align_text="{{ settings.type_headers_align_text }}" data-type_product_capitalize="false" data-swatch_style="{{ settings.swatch_style }}" {% if settings.disable_animations %}data-disable-animations="true"{% endif %}>
