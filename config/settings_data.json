@@ -6306,7 +6306,7 @@
       "cart-cart-message": {
         "type": "cart-cart-message",
         "settings": {
-          "hide_message": false,
+          "hide_message": true,
           "cart_message": "<p><em>Do you have multiple items in your order, including pre-order shoes? We usually wait until all products are in stock and ship them together in one package. </em><em><strong>If you prefer to receive them separately, please place a separate order for the pre-order shoes.</strong></em></p>"
         }
       }
