@@ -134,7 +134,7 @@
         "image_width": 500,
         "title": "Knit Sneakers Softy",
         "subtitle": "Gently wrap your feet",
-        "text": "<p>Imagine sneakers that fit as if they were <strong>made just for you</strong> – only we didn’t sew them, we knitted them.</p><p>The ultra-light Softy <strong>knit sneakers</strong> are made from elastic fibers that naturally adapt to your foot, delivering a soft, comfortable fit from the very first step.</p>",
+        "text": "<p>Imagine sneakers that fit as if they were <strong>made just for you</strong> – only we didn’t sew them, we knitted them.</p><p>The ultra-light Softy <strong>knit sneakers</strong> are made from elastic fibers that naturally adapt to your foot, delivering a soft, comfortable fit from the very first step.</p><p><strong>Early access price from</strong>: 111 EUR</p>",
         "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/softy+sneakers",
         "layout": "left",
@@ -186,7 +186,7 @@
         "image_width": 500,
         "title": "Knit Ballet Flats Softy",
         "subtitle": "Light steps, all day long",
-        "text": "<p>Dress shoes you can wear from morning to evening? </p><p>Exactly. These <strong>knit ballet flats</strong> gently wrap your foot in elastic, breathable knit and stay comfortable all day – at work, on a walk, or in meetings.</p>",
+        "text": "<p>Dress shoes you can wear from morning to evening? </p><p>Exactly. These <strong>knit ballet flats</strong> gently wrap your foot in elastic, breathable knit and stay comfortable all day – at work, on a walk, or in meetings.</p><p><strong>Early access price from</strong>: 95 EUR</p>",
         "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/softy+dress-shoes",
         "layout": "right",
@@ -238,7 +238,7 @@
         "image_width": 500,
         "title": "Yuva Barefoot Sneakers",
         "subtitle": "So soft, you forget to take them off",
-        "text": "<p>Honest craftsmanship under your feet. <strong>Comfort designed by physiotherapists</strong>, precision from skilled shoemakers – and a timeless style that’s easy to wear.</p>",
+        "text": "<p>Honest craftsmanship under your feet. <strong>Comfort designed by physiotherapists</strong>, precision from skilled shoemakers – and a timeless style that’s easy to wear.</p><p><strong>Early access price from</strong>: 143 EUR</p>",
         "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/yuva",
         "layout": "left",
@@ -304,7 +304,7 @@
         "image_width": 500,
         "title": "Aura Barefoot Sandals",
         "subtitle": "Minimalist lightness",
-        "text": "<p><strong>Elegance lies in simplicity</strong>. A thin line across the instep. An <strong>adjustable heel</strong>. Our finest materials. Nothing more needed.</p>",
+        "text": "<p><strong>Elegance lies in simplicity</strong>. A thin line across the instep. An <strong>adjustable heel</strong>. Our finest materials. Nothing more needed.</p><p><strong>Early access price from</strong>: 95 EUR</p>",
         "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/aura",
         "layout": "right",
@@ -356,7 +356,7 @@
         "image_width": 500,
         "title": "Hava Sparkle Barefoot Sandals",
         "subtitle": "A touch of starlight",
-        "text": "<p>You’ve grown to love the Hava sandals – so we added a subtle sparkle. Who says you can’t <strong>feel like a star</strong> on an ordinary day?</p>",
+        "text": "<p>You’ve grown to love the Hava sandals – so we added a subtle sparkle. Who says you can’t <strong>feel like a star</strong> on an ordinary day?</p><p><strong>Early access price from</strong>: 111 EUR</p>",
         "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/sparkle",
         "layout": "left",
@@ -391,7 +391,7 @@
     "e_book_image_text3_6rL9jQ": {
       "type": "e-book-image-text3",
       "custom_css": [
-        "div {background-color: #f6f5ee;}"
+        "div {background-color: #f6f5ee; margin: 25px 0;}"
       ],
       "settings": {
         "image": "shopify://shop_images/comfort3.0.final.png",
