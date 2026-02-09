@@ -391,7 +391,7 @@
     "e_book_image_text3_6rL9jQ": {
       "type": "e-book-image-text3",
       "custom_css": [
-        "div {background-color: #f6f5ee; margin: 25px;}"
+        "div {background-color: #f6f5ee;}"
       ],
       "settings": {
         "image": "shopify://shop_images/comfort3.0.final.png",
