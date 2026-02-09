@@ -15,7 +15,7 @@
         "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1": {
           "type": "image",
           "settings": {
-            "top_subheading": "You’ve found it - enjoy 20% off your new Ahinsa shoes.",
+            "top_subheading": "",
             "title": "Fresh Ahinsa Collection: \nLightness For Every Day",
             "title_size": 60,
             "subheading": "<br><b>Shoes for the whole day</b> – and every day? Absolutely.\n<br>\n\n<br>Meet the spring and summer Ahinsa shoes: <b>light</b> as a thought and <b>comfortable by design</b>. Created by physiotherapists to <b>support natural movement</b> and <b>all-day comfort</b>.",
@@ -86,19 +86,6 @@
       ],
       "custom_css": [
         "{margin-top: 20px;}"
-      ],
-      "settings": {}
-    },
-    "1770632383bab759be": {
-      "type": "apps",
-      "blocks": {
-        "trusted_shops_reviews_and_more_review_carousel_Afem4B": {
-          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/review-carousel/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "trusted_shops_reviews_and_more_review_carousel_Afem4B"
       ],
       "settings": {}
     },
@@ -205,6 +192,19 @@
         "layout": "right",
         "divider": false
       }
+    },
+    "1770632383bab759be": {
+      "type": "apps",
+      "blocks": {
+        "trusted_shops_reviews_and_more_review_carousel_Afem4B": {
+          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/review-carousel/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trusted_shops_reviews_and_more_review_carousel_Afem4B"
+      ],
+      "settings": {}
     },
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa": {
       "type": "lp_text_and_image_gallery",
