@@ -73,7 +73,7 @@
         "rich_text_n3WG3L": {
           "type": "rich-text",
           "settings": {
-            "title": "20% discount just for you (if you can see this page)",
+            "title": "20% discount just for you",
             "text": "<p>For spring, we’ve lightened not only the shoes – but the price too. Choose your new Ahinsa shoes <strong>in pre-sale </strong>and enjoy <strong>20% off</strong>.</p><p>Use the code: <strong>COMFYSPRING</strong> at checkout </p><p>We’re already making your shoes and will ship them <strong>by the end of March</strong>.</p><p><strong>P.S.</strong> Only our fans who’ve found this page know about the new collection so far. Enjoy early access. 😉</p>",
             "align_text": "center",
             "narrow_column": true,
@@ -88,58 +88,6 @@
         "{margin-top: 20px;}"
       ],
       "settings": {}
-    },
-    "afadba8b-f130-41fc-8a37-2cc6ce89906e": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "f366022b-15fb-48b1-b5d0-2149cee9c220": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_105.jpg"
-          }
-        },
-        "html_VYaYqw": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC0313.jpg"
-          }
-        },
-        "html_RjdyxT": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_092.jpg"
-          }
-        },
-        "1cfab0be-5b16-4269-a8f2-79479431caa0": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_106.jpg"
-          }
-        },
-        "html_dLmNjR": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC0411.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "f366022b-15fb-48b1-b5d0-2149cee9c220",
-        "html_VYaYqw",
-        "html_RjdyxT",
-        "1cfab0be-5b16-4269-a8f2-79479431caa0",
-        "html_dLmNjR"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Knit Sneakers Softy",
-        "subtitle": "Gently wrap your feet",
-        "text": "<p>Imagine sneakers that fit as if they were <strong>made just for you</strong> – only we didn’t sew them, we knitted them.</p><p>The ultra-light Softy <strong>knit sneakers</strong> are made from elastic fibers that naturally adapt to your foot, delivering a soft, comfortable fit from the very first step.</p><p><strong>Early access price from</strong>: 111 EUR</p>",
-        "button_label": "Get Them First",
-        "button_link": "https://ahinsashoes.com/collections/news/softy+sneakers",
-        "layout": "left",
-        "divider": false
-      }
     },
     "629e967d-2ba6-445e-ac1d-37425cf62106": {
       "type": "lp_text_and_image_gallery",
@@ -189,6 +137,58 @@
         "text": "<p>Dress shoes you can wear from morning to evening? </p><p>Exactly. These <strong>knit ballet flats</strong> gently wrap your foot in elastic, breathable knit and stay comfortable all day – at work, on a walk, or in meetings.</p><p><strong>Early access price from</strong>: 95 EUR</p>",
         "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/softy+dress-shoes",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "afadba8b-f130-41fc-8a37-2cc6ce89906e": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "f366022b-15fb-48b1-b5d0-2149cee9c220": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_105.jpg"
+          }
+        },
+        "html_VYaYqw": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0313.jpg"
+          }
+        },
+        "html_RjdyxT": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_092.jpg"
+          }
+        },
+        "1cfab0be-5b16-4269-a8f2-79479431caa0": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_106.jpg"
+          }
+        },
+        "html_dLmNjR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0411.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f366022b-15fb-48b1-b5d0-2149cee9c220",
+        "html_VYaYqw",
+        "html_RjdyxT",
+        "1cfab0be-5b16-4269-a8f2-79479431caa0",
+        "html_dLmNjR"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Knit Sneakers Softy",
+        "subtitle": "Gently wrap your feet",
+        "text": "<p>Imagine sneakers that fit as if they were <strong>made just for you</strong> – only we didn’t sew them, we knitted them.</p><p>The ultra-light Softy <strong>knit sneakers</strong> are made from elastic fibers that naturally adapt to your foot, delivering a soft, comfortable fit from the very first step.</p><p><strong>Early access price from</strong>: 111 EUR</p>",
+        "button_label": "Get Them First",
+        "button_link": "https://ahinsashoes.com/collections/news/softy+sneakers",
         "layout": "right",
         "divider": false
       }
@@ -435,8 +435,8 @@
     "lp_image_reviews_iUy3ac",
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
-    "afadba8b-f130-41fc-8a37-2cc6ce89906e",
     "629e967d-2ba6-445e-ac1d-37425cf62106",
+    "afadba8b-f130-41fc-8a37-2cc6ce89906e",
     "1770632383bab759be",
     "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
     "78f72821-6c02-4943-8234-82d8128e2acd",
