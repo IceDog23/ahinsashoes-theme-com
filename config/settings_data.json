@@ -6354,6 +6354,11 @@
         "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
         "disabled": false,
         "settings": {}
+      },
+      "9498845458295061716": {
+        "type": "shopify://apps/getsale/blocks/banner-embed-v3/dae9396b-6892-475e-8260-9c39c0a67574",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
