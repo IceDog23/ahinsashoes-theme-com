@@ -175,4 +175,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // 	})		
     // })
 
+
+
+    //  POP UP FOR ARTICLE AND NON AFFILIATE CUSTOMERS
+    const searchParams = new URLSearchParams(window.location.search)
+    const affiliate = searchParams.has('utm_medium=affiliate')
+
+    const path = window.location.pathname
+    const isArticle = path.includes('blogs/news/')
+
+    if (isArticle && !affiliate) {
+        (function (w,d,s,o,f,js,fjs) {
+            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+            js.id = '16-008646c414ce6adc8637fedebcbf087a'; js.dataset.a = 'ahinsashoescom'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+    } else {
+        (function (w,d,s,o,f,js,fjs) {
+          w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+          js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+          js.id = '4-f67e22c6c3dacfc9b77b6b40399abc16'; js.dataset.a = 'ahinsashoescom'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+      }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
+    }
 });
+
