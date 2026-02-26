@@ -74,7 +74,7 @@
           "type": "rich-text",
           "settings": {
             "title": "20% discount just for you",
-            "text": "<p>For spring, we’ve lightened not only the shoes – but the price too. Choose your new Ahinsa shoes <strong>in pre-sale </strong>and enjoy <strong>20% off</strong>.</p><p>Use the code: <strong>COMFYSPRING</strong> at checkout </p><p>We’re already making your shoes and will ship them <strong>by the end of March</strong>.</p><p><strong>P.S.</strong> Only our fans who’ve found this page know about the new collection so far. Enjoy early access. 😉</p>",
+            "text": "<p>For spring, we’ve lightened not only the shoes – but the price too. Choose your new Ahinsa shoes <strong>in pre-sale </strong>and enjoy <strong>20% off</strong>.</p><p>We’re already making your shoes and will ship them <strong>by the end of March.</strong></p>",
             "align_text": "center",
             "narrow_column": true,
             "enlarge_text": false
