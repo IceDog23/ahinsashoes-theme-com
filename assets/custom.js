@@ -177,20 +177,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    //  POP UP FOR ARTICLE AND LANDING PAGE AND NON AFFILIATE CUSTOMERS
+    //  POP UP FOR ARTICLE AND NON AFFILIATE CUSTOMERS
     const searchParams = new URLSearchParams(window.location.search)
     const affiliate = searchParams.has('utm_medium')
 
     const path = window.location.pathname
     const isArticle = path.includes('blogs/news/')
 
-    const isLandingPage = window.landingPage
-
-    if ((isArticle || isLandingPage) && !affiliate) {
+    if (isArticle && !affiliate) {
         (function (w,d,s,o,f,js,fjs) {
             w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
             js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
-            js.id = '22-b6cffcc9a5bfa7e25701b93290a48d80'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+            js.id = '16-008646c414ce6adc8637fedebcbf087a'; js.dataset.a = 'ahinsashoescom'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
         }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
     }
 });
