@@ -238,6 +238,7 @@
     },
     "lp_image_reviews_mJ6bGU": {
       "type": "lp_image_reviews",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/testimonials_en_1_f4c94da3-2a0d-409a-bbd1-b1d01b565543.png",
         "image_m": "shopify://shop_images/testimonials_en_mobile_1_4db2e9dd-a0a6-4e87-84d7-3e5b11ab3b42.png",
