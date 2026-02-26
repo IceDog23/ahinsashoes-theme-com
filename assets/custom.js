@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //  POP UP FOR ARTICLE AND NON AFFILIATE CUSTOMERS
     const searchParams = new URLSearchParams(window.location.search)
-    const affiliate = searchParams.has('utm_medium')
+    const affiliate = searchParams.has('utm_medium=affiliate')
 
     const path = window.location.pathname
     const isArticle = path.includes('blogs/news/')
