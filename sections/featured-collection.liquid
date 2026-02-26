@@ -14,6 +14,9 @@
         <h2 class="section-header__title">
           {{ section.settings.title }}
         </h2>
+					<div class="size-filtering-wrapper">       
+            {%   render 'size-filtering' %}
+          </div>
         {%- if section.settings.view_all and section.settings.rows == 1 -%}
           <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
         {%- endif -%}

@@ -136,18 +136,17 @@
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce": {
             "type": "announcement",
             "settings": {
-              "text": "Step by step to healthy walking 👣",
-              "link_text": "Download E-book from physiotherapist for FREE",
-              "link": "shopify://pages/step-by-step-to-healthy-walking"
+              "text": "Get 20% off our fresh spring styles",
+              "link_text": "– EXCLUSIVELY IN PRESALE NOW 💚",
+              "link": "shopify://pages/spring-2026"
             }
           },
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Black Friday sale is here! 🔥",
-              "link_text": "Get up to 40 % off your favorite shoes. Experience the freedom of natural movement!",
-              "link": "shopify://collections/sale"
+              "text": "Worldwide Shipping: Europe, UK, USA, Canada, Australia & NZ",
+              "link_text": "🇪🇺🇬🇧🇺🇸🇨🇦🇦🇺",
+              "link": ""
             }
           },
           "cae1281a-8737-47b9-96f0-e29e176b747b": {
@@ -476,7 +475,7 @@
               "color_background": "#f9f9f9",
               "color_text": "#1c1d1d",
               "icon_1": "5-stars",
-              "testimonial_1": "<p>Ahinsa shoes allow the feet natural movement because they provide plenty of place for the toes. The thin and flexible outsole gives the feet a chance to optimally perceive the ground. We must mention the ethical and ecolgical production  in the Czech Republic. All this makes the Ahinsa shoes an ideal choice for anyone who wants more than just the shoes and wants to enjoy a real walk.</p><p></p>",
+              "testimonial_1": "<p>Ahinsa shoes allow the feet natural movement because they provide plenty of place for the toes. The thin and flexible outsole gives the feet a chance to optimally perceive the ground. We must mention the ethical and ecological production  in the Czech Republic. All this makes the Ahinsa shoes an ideal choice for anyone who wants more than just the shoes and wants to enjoy a real walk.</p><p></p>",
               "image_1": "shopify://shop_images/ludmila-ditetova2.jpg",
               "author_1": "Mgr. Ludmila Dítětová",
               "author_info_1": "physiotherapist",
@@ -564,6 +563,7 @@
         "blocks": {
           "1524769873765-0": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "Handmade. Ethical. And oh, so comfortable!",
               "title": "Shoes designed by physiotherapists",
@@ -3244,7 +3244,6 @@
           },
           "dbf85ff7-bd6b-49f8-9b4c-d1a6ede4c26e": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>Your shoes are simply divine!!! That comfort... well, a balm for my feet. I have the Sundara Ankle Barefoot Boots and have been wearing them all winter and I'm absolutely satisfied! I also bought the Ananda barefoot ballet flats and they are great too, I can't wait to wear them with fashionable summer outfits! Really excellent work, super quality, leather is soft, pliable and fits beautifully. Thank you and I look forward to more great stuff!</p>",
               "customer": "Veronika Brenkusová"
@@ -3345,7 +3344,6 @@
           },
           "7be33dc0-3dae-4cc7-ba1f-5a435cc1cbdf": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>The shoes (Chitra Trek&Trail x wide) are really good, best toe box and feel I’ve got out of any minimalist shoes I’ve worn over the years and feel really good in the trail. The ebook was very helpful in filling a couple of gaps in my own knowledge and they turned up in just a couple of days after ordering. I had to pay a hefty bit of import tax as I live in the UK but overall I’m extremely happy with the shoes. I absolutely love the shoes and I would have replaced my road running shoes with a pair as well.</p>",
               "customer": "Amanda Brown"
@@ -3453,7 +3451,6 @@
           },
           "1041b183-9709-4b30-a865-b68400e50fca": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>Put simply, I love my Ahinsa Bindu! They’ve started making a big difference to my daily health & overall return to enjoying life. I’d been experiencing plantar fasciitis on & off for the last 3-4 years. I’m over 60, still work a 5 day week & never enjoyed sport or exercise, but do love to walk my dogs. It was becoming increasingly painful & difficult to get through the day. Needless to say I wore my Bindus as soon as they arrived & were the only pair of shoes i took with me on a 3 day trip to Paris! Walked miles, barely a twinge in my feet! My feet have changed shape, wider spread toes, ankle stability has improved. I love that I now feel the terrain under my feet through the flexi soles, such a joy.</p>",
               "customer": "Jules"
@@ -3602,7 +3599,6 @@
           },
           "block_UYBzRM": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "text": "<p>I recently bought the Chitra Trek&Trail and I’m impressed! I love the Vibram sole and the lacing system. I have relatively narrow feet with sloped toes and while I could do with less fabric, the design allows me to tighten the fabric around the mid-foot to my liking. Thank you so much for designing these shoes! Please never stop making them.</p>",
               "customer": "Amy"
@@ -3614,6 +3610,14 @@
             "settings": {
               "text": "<p>I purchased a pair of xwide Hikers in January of this year. I have been adapting to the barefoot shoe type since then. These have worked very well. Recently, I traveled to Sedona, AZ. The shoes were great on the hard stone, gravel and rocky trails. </p>",
               "customer": "Rick Shields"
+            }
+          },
+          "block_TEhQYP": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "text": "<p>I really love the womens comfort flow shoes! Ive been wearing barefoot shoes for 2 years now and I appreciate how these supply a bit more cushioning while still supporting healthy walking. I LOVE them! Thank you!</p>",
+              "customer": "Nancy Roane"
             }
           }
         },
@@ -3678,7 +3682,8 @@
           "block_TjwGrV",
           "block_pciXnn",
           "block_UYBzRM",
-          "block_VxWjNW"
+          "block_VxWjNW",
+          "block_TEhQYP"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
@@ -3746,9 +3751,9 @@
             "type": "block",
             "settings": {
               "text": "<p>Sundara Ankle Barefoot Trekking Boots</p>",
-              "author": "blootsvoetsgeschoeid.nl",
+              "author": "barefootwereld.nl",
               "image": "shopify://shop_images/sundara_black.jpg",
-              "link": "https://www.blootsvoetsgeschoeid.nl/reviews/ahinsa-bare-trek"
+              "link": "https://barefootwereld.nl/recensies/ahinsa-bare-trek/"
             }
           },
           "b0e8a149-f299-4d60-bbc7-617224a9ff42": {
@@ -5402,10 +5407,10 @@
           "url": "https://ahinsashoes.com/pages/tips-for-those-who-care-about-their-health",
           "startDate": "2025-01-01",
           "endDate": "2025-12-31",
-          "name2": "",
-          "url2": "",
-          "startDate2": "",
-          "endDate2": "",
+          "name2": "New spring styles –⁠⁠⁠⁠⁠⁠ in presale 20 % off 🔥",
+          "url2": "https://ahinsashoes.com/pages/spring-2026",
+          "startDate2": "2026-02-10",
+          "endDate2": "2026-02-28",
           "name3": "",
           "url3": "",
           "startDate3": "",
@@ -6150,33 +6155,31 @@
           "image_CFnqQx": {
             "type": "image",
             "settings": {
-              "top_subheading": "Shoes designed by physiotherapists, so comfortable!",
-              "title": "<p style=\"color: white;\">Love at first step\n</p>",
+              "top_subheading": "",
+              "title": "<p style=\"color: white;\">Get the new spring styles <br><b>20% OFF</b> in presale</p>",
               "title_size": 80,
               "subheading": "",
               "text_color": "#ffffff",
-              "link": "shopify://collections/women",
-              "link_text": "Women's",
-              "link_icon_1": "shopify://shop_images/woman_162d7f1a-73eb-48dc-a4c1-d61c486880b9.png",
+              "link": "https://ahinsashoes.com/pages/spring-2026",
+              "link_text": "👟 new collection",
               "icon_h_1": 40,
               "arrow_1": true,
               "promotion_click_id_1": "promotion_click_001",
-              "promotion_click_name_1": "Hero promotion Podzimni - Damy",
-              "link_2": "shopify://collections/men",
-              "link_text_2": "Men's",
-              "link_icon_2": "shopify://shop_images/man_87b83bd7-6f58-4dba-9ddd-94ca1ec190df.png",
+              "promotion_click_name_1": "Hero promotion zimní výprodej",
+              "link_2": "https://ahinsashoes.com/collections/sale",
+              "link_text_2": "❄️ Winter sale",
               "icon_h_2": 40,
               "arrow_2": true,
               "promotion_click_id_2": "promotion_click_002",
-              "promotion_click_name_2": "Hero promotion podzimni - Panove",
+              "promotion_click_name_2": "",
               "color_accent": "rgba(0,0,0,0)",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify://shop_images/Hero_banner_autumn_old_web.jpg",
-              "image_mobile": "shopify://shop_images/hero_banner_autumn_old_web_mobil_268c71f5-0441-4476-881d-8b277ffc7595.jpg",
+              "image": "shopify://shop_images/hero_banner_summer_old_web_1.jpg",
+              "image_mobile": "shopify://shop_images/herro_banner_jaro_26_mobile_2.png",
               "overlay_opacity": 0,
               "focal_point": "80% 100%",
               "promotion_id": "promotion_001",
-              "promotion_name": "Hero promotion Podzimni",
+              "promotion_name": "Hero promotion Jaro",
               "creative_name": "Hero banner",
               "location_id": "homepage",
               "type": "select_promotion"
@@ -6304,7 +6307,7 @@
       "cart-cart-message": {
         "type": "cart-cart-message",
         "settings": {
-          "hide_message": false,
+          "hide_message": true,
           "cart_message": "<p><em>Do you have multiple items in your order, including pre-order shoes? We usually wait until all products are in stock and ship them together in one package. </em><em><strong>If you prefer to receive them separately, please place a separate order for the pre-order shoes.</strong></em></p>"
         }
       }
@@ -6345,6 +6348,16 @@
       },
       "1173261918193615741": {
         "type": "shopify://apps/geo-pro-geolocation-redirects/blocks/geopro/16fc5313-7aee-4e90-ac95-f50fc7c8b657",
+        "disabled": false,
+        "settings": {}
+      },
+      "15351435345818755577": {
+        "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {}
+      },
+      "9498845458295061716": {
+        "type": "shopify://apps/getsale/blocks/banner-embed-v3/dae9396b-6892-475e-8260-9c39c0a67574",
         "disabled": false,
         "settings": {}
       }

@@ -1,0 +1,448 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "26396f05-6969-47e0-aa8d-0fb2471ab88e": {
+      "type": "lp-slideshow_svatba",
+      "blocks": {
+        "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Fresh Ahinsa Collection: \nLightness For Every Day",
+            "title_size": 60,
+            "subheading": "<br><b>Shoes for the whole day</b> – and every day? Absolutely.\n<br>\n\n<br>Meet the spring and summer Ahinsa shoes: <b>light</b> as a thought and <b>comfortable by design</b>. Created by physiotherapists to <b>support natural movement</b> and <b>all-day comfort</b>.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Ahinsa_089.jpg",
+            "overlay_opacity": 6,
+            "focal_point": "bottom center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "500px",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "lp_image_reviews_iUy3ac": {
+      "type": "lp_image_reviews",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/recenze_jaro_24_web.png",
+        "divider": false,
+        "m_bot": 10
+      }
+    },
+    "lp_text_on_image_qGHnHh": {
+      "type": "lp_text_on_image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/svatba_mobil_lp.jpg",
+        "title": "Vylepšená řada Comfort",
+        "subtitle": "Nekompromisní pohodlí",
+        "text": "<p>Jaké by asi bylo <strong>chodit po oblacích</strong>? Brzy to zjistíte.<br/>Řadu Ahinsa Comfort jsme vylepšili o Technogel, který<strong>změkčí a odpruží vaše došlapy</strong>. Výlet po městě nikdy nebyl pohodlnější.</p>",
+        "button_label": "UŽIJTE SI POHODLÍ",
+        "button_link": "",
+        "layout": "right",
+        "divider": false,
+        "quote": false
+      }
+    },
+    "product_story_sections_gXBitH": {
+      "type": "product-story-sections",
+      "blocks": {
+        "rich_text_n3WG3L": {
+          "type": "rich-text",
+          "settings": {
+            "title": "20% discount just for you",
+            "text": "<p>For spring, we’ve lightened not only the shoes – but the price too. Choose your new Ahinsa shoes <strong>in pre-sale </strong>and enjoy <strong>20% off</strong>.</p><p>We’re already making your shoes and will ship them <strong>by the end of March.</strong></p>",
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_n3WG3L"
+      ],
+      "custom_css": [
+        "{margin-top: 20px;}"
+      ],
+      "settings": {}
+    },
+    "629e967d-2ba6-445e-ac1d-37425cf62106": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_9x9DcP": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_059.jpg"
+          }
+        },
+        "html_nwMQ7H": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_081.jpg"
+          }
+        },
+        "html_4D9nEe": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_069.jpg"
+          }
+        },
+        "html_xzFDrR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_074.jpg"
+          }
+        },
+        "html_TWANRF": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_084.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_9x9DcP",
+        "html_nwMQ7H",
+        "html_4D9nEe",
+        "html_xzFDrR",
+        "html_TWANRF"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Knit Ballet Flats Softy",
+        "subtitle": "Light steps, all day long",
+        "text": "<p>Dress shoes you can wear from morning to evening? </p><p>Exactly. These <strong>knit ballet flats</strong> gently wrap your foot in elastic, breathable knit and stay comfortable all day – at work, on a walk, or in meetings.</p><p><strong>Early access price from</strong>: 95 EUR</p>",
+        "button_label": "Get Them First",
+        "button_link": "https://ahinsashoes.com/collections/news/softy+dress-shoes",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "afadba8b-f130-41fc-8a37-2cc6ce89906e": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "f366022b-15fb-48b1-b5d0-2149cee9c220": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_105.jpg"
+          }
+        },
+        "html_VYaYqw": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0313.jpg"
+          }
+        },
+        "html_RjdyxT": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_092.jpg"
+          }
+        },
+        "1cfab0be-5b16-4269-a8f2-79479431caa0": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_106.jpg"
+          }
+        },
+        "html_dLmNjR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0411.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f366022b-15fb-48b1-b5d0-2149cee9c220",
+        "html_VYaYqw",
+        "html_RjdyxT",
+        "1cfab0be-5b16-4269-a8f2-79479431caa0",
+        "html_dLmNjR"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Knit Sneakers Softy",
+        "subtitle": "Gently wrap your feet",
+        "text": "<p>Imagine sneakers that fit as if they were <strong>made just for you</strong> – only we didn’t sew them, we knitted them.</p><p>The ultra-light Softy <strong>knit sneakers</strong> are made from elastic fibers that naturally adapt to your foot, delivering a soft, comfortable fit from the very first step.</p><p><strong>Early access price from</strong>: 111 EUR</p>",
+        "button_label": "Get Them First",
+        "button_link": "https://ahinsashoes.com/collections/news/softy+sneakers",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1770632383bab759be": {
+      "type": "apps",
+      "blocks": {
+        "trusted_shops_reviews_and_more_review_carousel_Afem4B": {
+          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/review-carousel/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trusted_shops_reviews_and_more_review_carousel_Afem4B"
+      ],
+      "settings": {}
+    },
+    "25133cf6-5f4c-475f-97a0-62278cf1d0aa": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_93zeBN": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC9707.jpg"
+          }
+        },
+        "html_4Abtch": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC9213.jpg"
+          }
+        },
+        "html_tiTGqN": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC9304.jpg"
+          }
+        },
+        "html_7dwhJj": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_031.jpg"
+          }
+        },
+        "html_3YNcdW": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_017.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_93zeBN",
+        "html_4Abtch",
+        "html_tiTGqN",
+        "html_7dwhJj",
+        "html_3YNcdW"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Yuva Barefoot Sneakers",
+        "subtitle": "So soft, you forget to take them off",
+        "text": "<p>Honest craftsmanship under your feet. <strong>Comfort designed by physiotherapists</strong>, precision from skilled shoemakers – and a timeless style that’s easy to wear.</p><p><strong>Early access price from</strong>: 143 EUR</p>",
+        "button_label": "Get Them First",
+        "button_link": "https://ahinsashoes.com/collections/news/yuva",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "78f72821-6c02-4943-8234-82d8128e2acd": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_KFgieJ": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_045.jpg"
+          }
+        },
+        "html_cht9bC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_044.jpg"
+          }
+        },
+        "html_ytc3yA": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0133.jpg"
+          }
+        },
+        "html_U6UAKq": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_036.jpg"
+          }
+        },
+        "html_3ezqX4": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_055.jpg"
+          }
+        },
+        "html_HEVWjR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_033.jpg"
+          }
+        },
+        "html_4R4hGE": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_046.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_KFgieJ",
+        "html_cht9bC",
+        "html_ytc3yA",
+        "html_U6UAKq",
+        "html_3ezqX4",
+        "html_HEVWjR",
+        "html_4R4hGE"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Aura Barefoot Sandals",
+        "subtitle": "Minimalist lightness",
+        "text": "<p><strong>Elegance lies in simplicity</strong>. A thin line across the instep. An <strong>adjustable heel</strong>. Our finest materials. Nothing more needed.</p><p><strong>Early access price from</strong>: 95 EUR</p>",
+        "button_label": "Get Them First",
+        "button_link": "https://ahinsashoes.com/collections/news/aura",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "lp_text_and_image_gallery_4QD9Qa": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_cQEcBF": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_112.jpg"
+          }
+        },
+        "html_GMgnaK": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_119.jpg"
+          }
+        },
+        "html_EKT78K": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0878.jpg"
+          }
+        },
+        "html_A7PxEb": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_123.jpg"
+          }
+        },
+        "html_6eiMgC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC1106.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_cQEcBF",
+        "html_GMgnaK",
+        "html_EKT78K",
+        "html_A7PxEb",
+        "html_6eiMgC"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Hava Sparkle Barefoot Sandals",
+        "subtitle": "A touch of starlight",
+        "text": "<p>You’ve grown to love the Hava sandals – so we added a subtle sparkle. Who says you can’t <strong>feel like a star</strong> on an ordinary day?</p><p><strong>Early access price from</strong>: 111 EUR</p>",
+        "button_label": "Get Them First",
+        "button_link": "https://ahinsashoes.com/collections/news/sparkle",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "lp_text_and_image_gallery_J4gFYa": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_TQaTpF": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2588-kopie_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_TQaTpF"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_width": 500,
+        "title": "Preciosa sandals and dress shoes",
+        "subtitle": "Glitter designed by the masters of dazzle",
+        "text": "<p>You can never shine too brightly. Wouldn’t you agree? If so, you'll be thrilled with our dazzling <strong>collaboration with the masters of glitter at Preciosa</strong>. Warning: These crystals attract compliments!</p>",
+        "button_label": "Get Them First",
+        "button_link": "https://ahinsashoes.com/collections/news/preciosa",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "e_book_image_text3_6rL9jQ": {
+      "type": "e-book-image-text3",
+      "custom_css": [
+        "div {background-color: #f6f5ee;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/comfort3.0.final.png",
+        "image_width": 500,
+        "subtitle": "Discover a New Dimension of Comfort",
+        "title": "➡️ With Triple Cushioning",
+        "text": "<p>Sometimes you don’t want to feel every pebble under your feet. You want to <strong>step onto a cloud</strong>.<br/><br/>That’s why we <strong>enhanced the Ahinsa Comfort line</strong>.</p><p>It cares for your steps with a <strong>triple-cushioned insole</strong>:</p><ul><li>The first layer <strong>wicks away moisture</strong><br/></li><li>The second layer <strong>absorbs impact</strong><br/></li><li>The third and fourth layers <strong>cushion</strong> even the finest vibrations</li></ul>",
+        "button_label": "👉🏼 Wear comfort",
+        "button_link": "https://ahinsashoes.com/pages/ahinsa-comfort",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "0f03e679-9781-41a4-b033-4a9bc5d23e8b": {
+      "type": "lp-podzim-text-and-image7-text",
+      "disabled": true,
+      "settings": {
+        "title": "Your feedback on our last collection touched us. Thank you!",
+        "text": "<p>We’ve been collecting your experiences, and we’ve used them to improve your favorite models and come up with new ones that are still missing in your shoe collection.</p>",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "26396f05-6969-47e0-aa8d-0fb2471ab88e",
+    "lp_image_reviews_iUy3ac",
+    "lp_text_on_image_qGHnHh",
+    "product_story_sections_gXBitH",
+    "629e967d-2ba6-445e-ac1d-37425cf62106",
+    "afadba8b-f130-41fc-8a37-2cc6ce89906e",
+    "1770632383bab759be",
+    "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
+    "78f72821-6c02-4943-8234-82d8128e2acd",
+    "lp_text_and_image_gallery_4QD9Qa",
+    "lp_text_and_image_gallery_J4gFYa",
+    "e_book_image_text3_6rL9jQ",
+    "0f03e679-9781-41a4-b033-4a9bc5d23e8b"
+  ]
+}

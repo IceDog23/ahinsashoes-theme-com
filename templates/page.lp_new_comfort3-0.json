@@ -1,0 +1,340 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "26396f05-6969-47e0-aa8d-0fb2471ab88e": {
+      "type": "lp-slideshow_svatba",
+      "blocks": {
+        "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Ahinsa Comfort\nComfort that looks great on you",
+            "title_size": 60,
+            "subheading": "<p>Would you prefer <b>comfortable shoes, or more stylish ones</b>?</p> \n<p>Why not have the best of both worlds? Don’t make compromises. Fall in love with <b>Ahinsa Comfort, designed by physiotherapists</b>.</p>\nYou’re looking your best when you’re comfortable.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/DSC_2924.jpg",
+            "overlay_opacity": 30,
+            "focal_point": "bottom center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20483110469963__26396f05-6969-47e0-aa8d-0fb2471ab88e-image-1"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "lp_image_reviews_iUy3ac": {
+      "type": "lp_image_reviews",
+      "settings": {
+        "image": "shopify://shop_images/COM_verze_Comfort_3.0-2.png",
+        "divider": false,
+        "m_bot": 10
+      }
+    },
+    "product_story_sections_gXBitH": {
+      "type": "product-story-sections",
+      "blocks": {
+        "testimonials_AW96hp": {
+          "type": "testimonials",
+          "settings": {
+            "title": "Shoes designed by physiotherapists = comfort without compromises",
+            "align_text": "center",
+            "round_images": false,
+            "color_background": "#f9f9f9",
+            "color_text": "#1c1d1d",
+            "icon_1": "5-stars",
+            "testimonial_1": "<p>There are some diagnoses and situations where classic barefoot shoes are not ideal. <strong>Our Comfort shoes with a triple-cushioned insole are perfect and safe for those cases.</strong></p>",
+            "author_1": "Lukas Klimpera",
+            "author_info_1": "physiotherapist",
+            "icon_2": "5-stars",
+            "testimonial_2": "<p>Ahinsa shoes <strong>provide generous space in the front of the foot.</strong> This is essential for correct and natural alignment of all toes and with it also <strong>determines the proper position of the whole body</strong>. </p>",
+            "author_2": "MUDr. Hana Borecka",
+            "author_info_2": "doctor"
+          }
+        }
+      },
+      "block_order": [
+        "testimonials_AW96hp"
+      ],
+      "settings": {}
+    },
+    "featured_content_kDJEzL": {
+      "type": "featured-content",
+      "settings": {
+        "title": "Experience comfort on your own two feet",
+        "text": "",
+        "link": "",
+        "link_text": "",
+        "bot_spacing_heading": false,
+        "section_spacing": 50,
+        "align_text": "center",
+        "narrow_column": true,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
+    "promo_grid_Pb7EnP": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_JNiffN": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "COMFORT FOR WOMEN →",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify://collections/womens-comfort-shoes",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/DSC7012-kopie.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_4hBiEg": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "COMFORT FOR MEN →",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify://collections/mens-comfort-shoes",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/DSC6909-kopie.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_JNiffN",
+        "advanced_4hBiEg"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "e809c555-6577-4219-9b81-be00aed9aa5c": {
+      "type": "lp_text_on_image",
+      "disabled": true,
+      "settings": {
+        "title": "Psssst, neprozraďte nás!",
+        "subtitle": "Improved",
+        "text": "<p>O jarní kolekci Ahinsa shoes ještě skoro nikdo neví. Zatím jsme ji ukázali <strong>jen vám, našim zákazníkům</strong>.<br/>Vyberte si jako první se slevou 25 %.<br/>Boty už pro vás vyrábíme a odešleme je nejpozději v pondělí XX. března.</p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false,
+        "quote": false
+      }
+    },
+    "e_book_image_text3_qFQxtJ": {
+      "type": "e-book-image-text3",
+      "settings": {
+        "image": "shopify://shop_images/comfort3.0.final.png",
+        "image_width": 500,
+        "subtitle": "Triple cushioning",
+        "title": "Cloud-soft comfort for city walking",
+        "text": "<p>With our special insole, walking through the city feels soft and natural — almost like stepping on moss.</p><ul><li>The first layer <strong>wicks away moisture</strong><br/></li><li>The second layer <strong>absorbs impact<br/></strong></li><li>The third and fourth layers<strong> cushion even the finest vibrations</strong></li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "e_book_image_text3_3FAGpq": {
+      "type": "e-book-image-text3",
+      "settings": {
+        "image": "shopify://shop_images/foot_sideview_cz.png",
+        "image_width": 500,
+        "subtitle": "A spacious toe box:",
+        "title": "Because feet aren’t pointed",
+        "text": "<p>Have you ever noticed this? People’s feet aren’t pointed – so why are their shoes? Toes are cramped into shoe tips, preventing them from functioning properly. </p><p>That’s why we make <strong>Ahinsa shoes with a spacious toe box. </strong>They’ll liberate your toes and fit perfectly the very first time you put them on. Such comfort!</p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "e_book_image_text3_CqnRFC": {
+      "type": "e-book-image-text3",
+      "settings": {
+        "image": "shopify://shop_images/zero_drop_3.png",
+        "image_width": 500,
+        "subtitle": "Zero-drop heel",
+        "title": "100% health",
+        "text": "<p>Did you know that even the slightest heel on a shoe will change your posture? It tilts the body and causes harm. </p><p>Ahinsa shoes <strong>don’t have a heel</strong>. Find out what it’s like to stand with your feet straight on the ground. Straighten up your posture with a flat sole. </p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "e_book_image_text3_AJQhJm": {
+      "type": "e-book-image-text3",
+      "settings": {
+        "image": "shopify://shop_images/dsc_9916_2.png",
+        "image_width": 500,
+        "subtitle": "Flexible and bendable:",
+        "title": "Shoes that copy your movement",
+        "text": "<p><strong>Healthy shoes will adapt to you </strong>– not vice versa. That’s why we manufacture Ahinsa shoes <strong>from flexible materials</strong>. </p><p>The sole and the whole shoe copy your movement. They won’t constrict you – they’re ready for your every move. </p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "lp_image_text_middle_B4DRHP": {
+      "type": "lp_image_text_middle",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/testimonials_en.png",
+        "image_m": "shopify://shop_images/testimonials_en_mobile.png",
+        "heading": "",
+        "text": "",
+        "text_position": "10%",
+        "icon": "shopify://shop_images/u2771.png",
+        "icon_position": "right",
+        "divider": false
+      }
+    },
+    "lp_image_reviews_mJ6bGU": {
+      "type": "lp_image_reviews",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/testimonials_en_1_f4c94da3-2a0d-409a-bbd1-b1d01b565543.png",
+        "image_m": "shopify://shop_images/testimonials_en_mobile_1_4db2e9dd-a0a6-4e87-84d7-3e5b11ab3b42.png",
+        "divider": false,
+        "m_bot": 0
+      }
+    },
+    "featured_content_iwKamQ": {
+      "type": "featured-content",
+      "settings": {
+        "title": "Experience comfort on your own two feet",
+        "text": "",
+        "link": "",
+        "link_text": "",
+        "bot_spacing_heading": false,
+        "section_spacing": 50,
+        "align_text": "center",
+        "narrow_column": true,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
+    "promo_grid_EpWMVF": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_TYt7Bt": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "COMFORT FOR WOMEN →",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify://collections/womens-comfort-shoes",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/DSC7012-kopie.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_LgCn8U": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "COMFORT FOR MEN →",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify://collections/mens-comfort-shoes",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/DSC6909-kopie.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_TYt7Bt",
+        "advanced_LgCn8U"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    }
+  },
+  "order": [
+    "26396f05-6969-47e0-aa8d-0fb2471ab88e",
+    "lp_image_reviews_iUy3ac",
+    "product_story_sections_gXBitH",
+    "featured_content_kDJEzL",
+    "promo_grid_Pb7EnP",
+    "e809c555-6577-4219-9b81-be00aed9aa5c",
+    "e_book_image_text3_qFQxtJ",
+    "e_book_image_text3_3FAGpq",
+    "e_book_image_text3_CqnRFC",
+    "e_book_image_text3_AJQhJm",
+    "lp_image_text_middle_B4DRHP",
+    "lp_image_reviews_mJ6bGU",
+    "featured_content_iwKamQ",
+    "promo_grid_EpWMVF"
+  ]
+}

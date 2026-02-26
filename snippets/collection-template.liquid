@@ -1,3 +1,4 @@
+<!-- snippets/collection-template.liquid -->
 {%- liquid
   assign per_row = 4
   assign paginate_by = per_row | times: 7
@@ -48,7 +49,7 @@
         {%- endif -%}
     {%- when 'product_grid' -%}
       <div class="collection-filter">
-        {%- liquid
+        {%- liquid 
           assign current_filter_size = 0
 
           for filter in collection.filters
@@ -67,6 +68,8 @@
             {%- endif -%}
           </button>
         </div>
+
+
 
         <div class="collection-filter__item collection-filter__item--count small--hide">
           {%- if block.settings.enable_collection_count -%}
@@ -87,6 +90,11 @@
           </div>
         </div>
       </div>
+
+			<div class="size-filtering-wrapper">
+        {% render 'size-filtering' %}
+      </div>
+
 
       {%- if block.settings.enable_collection_count -%}
         <p class="medium-up--hide text-center" data-scroll-to>{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</p>

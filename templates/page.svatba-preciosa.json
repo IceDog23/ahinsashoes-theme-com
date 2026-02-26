@@ -25,7 +25,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/IMG_9303.jpg",
+            "image": "shopify://shop_images/DSC1053.jpg",
             "overlay_opacity": 28,
             "focal_point": "bottom center"
           }
@@ -80,6 +80,58 @@
       "disabled": true,
       "settings": {}
     },
+    "78f72821-6c02-4943-8234-82d8128e2acd": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_KFgieJ": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0791.jpg"
+          }
+        },
+        "html_ytc3yA": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0733.jpg"
+          }
+        },
+        "html_cht9bC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0878.jpg"
+          }
+        },
+        "html_U6UAKq": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC1106.jpg"
+          }
+        },
+        "html_3ezqX4": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0886.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_KFgieJ",
+        "html_ytc3yA",
+        "html_cht9bC",
+        "html_U6UAKq",
+        "html_3ezqX4"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Hava Sparkle Barefoot Sandals",
+        "subtitle": "A touch of starlight",
+        "text": "<p>You’ve grown to love the Hava sandals – so <strong>we added a subtle sparkle</strong>. Who says you can’t <strong>feel like a star </strong>on an ordinary day?</p>",
+        "button_label": "Sparkle on",
+        "button_link": "https://ahinsashoes.com/collections/women/sparkle?filter.p.m.custom.color=white",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "afadba8b-f130-41fc-8a37-2cc6ce89906e": {
       "type": "lp_text_and_image_gallery",
       "blocks": {
@@ -132,34 +184,34 @@
         "divider": false
       }
     },
-    "78f72821-6c02-4943-8234-82d8128e2acd": {
+    "lp_text_and_image_gallery_Ecd9dd": {
       "type": "lp_text_and_image_gallery",
       "blocks": {
-        "html_KFgieJ": {
+        "html_LGngbQ": {
           "type": "html",
           "settings": {
             "image": "shopify://shop_images/DSC2706-kopie.jpg"
           }
         },
-        "html_ytc3yA": {
+        "html_cm34Ty": {
           "type": "html",
           "settings": {
             "image": "shopify://shop_images/IMG_2550_sirka.jpg"
           }
         },
-        "html_cht9bC": {
+        "html_FbJNjK": {
           "type": "html",
           "settings": {
             "image": "shopify://shop_images/DSC7012-kopie.jpg"
           }
         },
-        "html_U6UAKq": {
+        "html_MpeNKg": {
           "type": "html",
           "settings": {
             "image": "shopify://shop_images/IMG_2568_sirka.jpg"
           }
         },
-        "html_3ezqX4": {
+        "html_RKkBRi": {
           "type": "html",
           "settings": {
             "image": "shopify://shop_images/IMG_2330_sirka.jpg"
@@ -167,11 +219,11 @@
         }
       },
       "block_order": [
-        "html_KFgieJ",
-        "html_ytc3yA",
-        "html_cht9bC",
-        "html_U6UAKq",
-        "html_3ezqX4"
+        "html_LGngbQ",
+        "html_cm34Ty",
+        "html_FbJNjK",
+        "html_MpeNKg",
+        "html_RKkBRi"
       ],
       "settings": {
         "image_width": 500,
@@ -384,8 +436,9 @@
     "lp_image_reviews_iUy3ac",
     "lp_text_on_image_qGHnHh",
     "product_story_sections_gXBitH",
-    "afadba8b-f130-41fc-8a37-2cc6ce89906e",
     "78f72821-6c02-4943-8234-82d8128e2acd",
+    "afadba8b-f130-41fc-8a37-2cc6ce89906e",
+    "lp_text_and_image_gallery_Ecd9dd",
     "lp_text_and_image_gallery_4QD9Qa",
     "629e967d-2ba6-445e-ac1d-37425cf62106",
     "background_image_text_C9KreF",
