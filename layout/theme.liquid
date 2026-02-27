@@ -98,114 +98,6 @@
         {%- assign canonical_replace_with = request.host | append: request.path | append: final_params -%}
       {%- endif -%}
     {% endif %}
-  {% endif %}
-
-  {%- if request.path == "/collections/vendors" and collection.all_products_count == 0 -%}
-    <meta name="robots" content="noindex">
-  {%- endif -%}
-
-  {%- if request.path == "/pages/ebooky-ke-stazeni" -%}
-    <meta name="robots" content="noindex">
-  {%- endif -%}
-
-
-  {% comment %} LOAD PAGE METAFIELDS - LANDING PAGE WORKS FOR NON AFFILIATE CUSTOMERS POP UP{% endcomment %}
-  {% if template contains 'page' %}
-    <script>
-      window.landingPage = {{ page.metafields.custom.landing_page }};
-    </script>
-  {% endif %}
-
-  {%- render 'font-face' -%}
-  {{ 'theme.css' | asset_url | stylesheet_tag }}
-  {{ 'custom.css' | asset_url | stylesheet_tag }}
-  {%- render 'css-variables' -%}
-  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
-
-  <script>
-    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-
-    window.theme = window.theme || {};
-    theme.routes = {
-      home: "{{ routes.root_url }}",
-      cart: "{{ routes.cart_url | append: '.js' }}",
-      cartAdd: "{{ routes.cart_add_url | append: '.js' }}",
-      cartChange: "{{ routes.cart_change_url | append: '.js' }}"
-    };
-    theme.strings = {
-      soldOut: {{ 'products.product.sold_out' | t | json }},
-      unavailable: {{ 'products.product.unavailable' | t | json }},
-      stockLabel: {{ 'products.product.stock_label' | t: count: '[count]' | json }},
-      stockLabelToday: {{ 'products.product.stock_label_today' | t: count: '[count]' | json }},
-      stockLabelTomorow: {{ 'products.product.stock_label_tomorow' | t: count: '[count]' | json }},
-      stockLabelCustom: {{ 'products.product.stock_label_3_days' | t: count: '[count]' | json }},
-      stockLabelMonday: {{ 'products.product.stock_label_monday' | t: count: '[count]' | json }},
-      willNotShipUntil: {{ 'products.product.will_not_ship_until' | t: date: '[date]' | json }},
-      willBeInStockAfter: {{ 'products.product.will_be_in_stock_after' | t: date: '[date]' | json }},
-      waitingForStock: {{ 'products.product.waiting_for_stock' | t | json }},
-      savePrice: {{ 'products.general.save_html' | t: saved_amount: '[saved_amount]' | json }},
-      cartEmpty: {{ 'cart.general.empty' | t | json }},
-      cartTermsConfirmation: {{ 'cart.general.terms_confirm' | t | json }}
-    };
-    theme.settings = {
-      dynamicVariantsEnable: true,
-      dynamicVariantType: {{ settings.variant_type | json }},
-      cartType: {{ settings.cart_type | json }},
-      isCustomerTemplate: {% if request.page_type contains 'customers/' %}true{% else %}false{% endif %},
-      moneyFormat: {{ shop.money_format | json }},
-      saveType: {{ settings.product_save_type | json }},
-      recentlyViewedEnabled: false,
-      predictiveSearch: {{ settings.predictive_search_enabled }},
-      predictiveSearchType: {{ settings.search_type | json }},
-      inventoryThreshold: {{ settings.inventory_threshold }},
-      quickView: {{ settings.quick_shop_enable }},
-      themeName: 'Impulse',
-      themeVersion: "4.0.0"
-    };
-  </script>
-
-  {% comment %}{{ content_for_header }}{% endcomment %}
- {{ content_for_header | replace: '779803106', '581245772' }}
-
-  <!-- CookieBot bar snippet script -->
-  {% render 'cookie-consent' %}
-
-
-  <script src="{{ 'vendor-scripts-v8.js' | asset_url | split: '?' | first }}" defer="defer"></script>
-
-  {%- if shop.enabled_currencies.size > 1 -%}
-    <link rel="preload" as="style" href="{{ 'currency-flags.css' | asset_url | split: '?' | first }}" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="stylesheet" href="{{ 'currency-flags.css' | asset_url | split: '?' | first }}">
-  {%- endif -%}
-
-  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
-
-  {%- if request.page_type contains 'customers/' -%}
-    <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
-  {%- endif -%}
-  
-  <!-- Glami piXel for AhinsaShoes.cz -->
- {% if request.page_type == 'collection' %}
-    <script>
-    (function(f, a, s, h, i, o, n) {f['GlamiTrackerObject'] = i;
-    f[i]=f[i]||function(){(f[i].q=f[i].q||[]).push(arguments)};o=a.createElement(s),
-    n=a.getElementsByTagName(s)[0];o.async=1;o.src=h;n.parentNode.insertBefore(o,n)
-    })(window, document, 'script', '//www.glami.cz/js/compiled/pt.js', 'glami');
-
-    glami('create', '981D9B4E8D34513AC79AEEFA74C6FACB', 'cz');
-    glami('track', 'PageView');
-
-      glami('track', 'ViewContent', {
-        content_type: 'category',
-        item_ids: [{% for product in collection.products %}'{{ product.selected_or_first_available_variant.id }}',{% endfor %}], 
-        product_names: [{% for product in collection.products %}'{{ product.title }}',{% endfor %}] 
-        category_text: '{{ collection.metafields.glami["Glami-CategoryText"] }}' 
-      });
 
     <link rel="canonical" href="{{ canonical_url | replace: canonical_replace_this, canonical_replace_with }}">
     <link rel="preconnect" href="https://cdn.shopify.com">
@@ -579,19 +471,83 @@
       </button>
     </div>
 
-<!-- Ecomail -->
-{% if shop.url contains "ahinsashoes.cz" %}
-    <script>
-      (function (w,d,s,o,f,js,fjs) {
-          w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
-          js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
-          js.id = '1-43c2cd496486bcc27217c3e790fb4088'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
-      }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));
-    </script>
-{% endif %}
+    {%- if settings.predictive_search_enabled -%}
+      {%- render 'predictive-template' -%}
+    {%- endif -%}
 
-<script src="https://apis.google.com/js/platform.js" async defer></script>  
-  
+    {%- render 'video-modal' -%}
+    {%- render 'photoswipe-template' -%}
+    {%- if template contains 'product' -%}
+      {%- render 'recently-viewed-product-template' -%}
+      {%- render 'product-description-photoswipe' -%}
+    {%- endif -%}
+    {%- if template contains 'e-book' -%}
+      {%- render 'ebook-photoswipe' -%}
+    {%- endif -%}
+    {%- if template contains 'jaro23' -%}
+      {%- render 'lp-jaro23-photoswipe' -%}
+    {%- endif -%}
+
+
+    <!-- Begin eTrusted widget tag -->
+    {% comment %} <etrusted-widget data-etrusted-widget-id="wdg-d8a88fa8-a81d-4a5e-8f24-ecd8a7b8d507"></etrusted-widget> {% endcomment %}
+    <!-- End eTrusted widget tag -->
+
+    <!-- Google Reviews Badge -->
+    <script>
+      window.renderBadge = function () {
+        var ratingBadgeContainer = document.createElement('div');
+        document.body.appendChild(ratingBadgeContainer);
+        window.gapi.load('ratingbadge', function () {
+          window.gapi.ratingbadge.render(ratingBadgeContainer, {
+            merchant_id: 256061170,
+          });
+        });
+      };
+      window.___gcfg = {
+        lang: 'cs',
+      };
+    </script>
+    <!-- End Google Reviews Badge -->
+
+    <!-- Ecomail -->
+    {% if shop.url contains 'ahinsashoes.cz' %}
+      <script>
+        (function (w, d, s, o, f, js, fjs) {
+          w['ecm-widget'] = o;
+          w[o] =
+            w[o] ||
+            function () {
+              (w[o].q = w[o].q || []).push(arguments);
+            };
+          (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+          js.id = '1-43c2cd496486bcc27217c3e790fb4088';
+          js.dataset.a = 'ahinsashoes';
+          js.src = f;
+          js.async = 1;
+          fjs.parentNode.insertBefore(js, fjs);
+        })(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js');
+      </script>
+    {% elsif shop.url contains 'ahinsashoes.com' %}
+      <script>
+        (function (w, d, s, o, f, js, fjs) {
+          w['ecm-widget'] = o;
+          w[o] =
+            w[o] ||
+            function () {
+              (w[o].q = w[o].q || []).push(arguments);
+            };
+          (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+          js.id = '4-f67e22c6c3dacfc9b77b6b40399abc16';
+          js.dataset.a = 'ahinsashoescom';
+          js.src = f;
+          js.async = 1;
+          fjs.parentNode.insertBefore(js, fjs);
+        })(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js');
+      </script>
+    {% endif %}
+
+    <!-- END Ecomail -->
 
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
@@ -609,9 +565,6 @@
     <!-- Back in Stock helper snippet -->
     {% render 'back-in-stock-helper' %}
     <!-- End Back in Stock helper snippet -->
-
-    <!-- CookieBot Styles -->
-    {{ 'cookie-consent.css' | asset_url | stylesheet_tag }}
   </body>
 </html>
 
