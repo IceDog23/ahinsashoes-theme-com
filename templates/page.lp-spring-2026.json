@@ -18,7 +18,7 @@
             "top_subheading": "",
             "title": "Fresh Ahinsa Collection: \nLightness For Every Day",
             "title_size": 60,
-            "subheading": "<br><b>Shoes for the whole day</b> – and every day? Absolutely.\n<br>\n\n<br>Meet the spring and summer Ahinsa shoes: <b>light</b> as a thought and <b>comfortable by design</b>. Created by physiotherapists to <b>support natural movement</b> and <b>all-day comfort</b>.",
+            "subheading": "<br><b>Shoes for the whole day</b> – and every day? Absolutely.\n<br>\n\n<br>Discover the spring and summer Ahinsa shoes. <b>Light, comfortable</b>, and designed by physiotherapists.",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -72,6 +72,7 @@
       "blocks": {
         "rich_text_n3WG3L": {
           "type": "rich-text",
+          "disabled": true,
           "settings": {
             "title": "20% discount just for you",
             "text": "<p>For spring, we’ve lightened not only the shoes – but the price too. Choose your new Ahinsa shoes <strong>in pre-sale </strong>and enjoy <strong>20% off</strong>.</p><p>We’re already making your shoes and will ship them <strong>by the end of March.</strong></p>",
