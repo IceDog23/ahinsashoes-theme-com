@@ -1489,7 +1489,7 @@
             "type": "promotion",
             "settings": {
               "title": "100% vegan and ethical.",
-              "text": "<p><a href=\"/pages/our-materials\" title=\"What are Ahinsa shoes made of?\">Handmade</a> in the Czech Republic and Croatia.</p>",
+              "text": "<p><a href=\"/pages/our-materials\" title=\"What are Ahinsa shoes made of?\">Handmade</a> in the EU.</p>",
               "button_link": "shopify://pages/our-materials",
               "image": "shopify://shop_images/ico-eco.png"
             }
@@ -1510,7 +1510,6 @@
           "eda2374d-8b01-4ff9-8986-08530d16184e",
           "a9bda7f8-f0f5-4f02-8c3f-3cd1125e0d92"
         ],
-        "disabled": true,
         "settings": {}
       },
       "lp-slideshow": {
