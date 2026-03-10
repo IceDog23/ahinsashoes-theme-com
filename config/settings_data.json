@@ -1470,9 +1470,9 @@
           "da4a9977-5d59-4dda-a82e-4e170712ae38": {
             "type": "promotion",
             "settings": {
-              "title": "The best shoes in the world.",
-              "text": "<p><a href=\"/pages/best-barefoot-buy-guarantee\" title=\"You won’t find better shoes. Guaranteed!\">Guaranteed!</a></p>",
-              "button_link": "shopify://pages/best-barefoot-buy-guarantee",
+              "title": "The Comfort Line",
+              "text": "<p>Triple cushioning with the benefits of barefoot shoes.</p>",
+              "button_link": "shopify://pages/ahinsa-comfort",
               "image": "shopify://shop_images/ico-best.png"
             }
           },
@@ -6261,7 +6261,7 @@
         "settings": {
           "section_height": "550px",
           "mobile_height": "auto",
-          "benefits": "<p><strong>HEALTHY – UNIVERSITY-TESTED | HANDMADE IN THE EU | THEY'LL LAST MILLIONS OF STEPS | QUICK AND EASY SIZE EXCHANGES AND RETURNS | 100% VEGAN</strong></p>",
+          "benefits": "",
           "benefits_color": "#ffffff",
           "parallax": false,
           "style": "bars",
