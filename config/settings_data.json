@@ -1467,15 +1467,6 @@
       "1643378217365c689a": {
         "type": "homepage-promotions",
         "blocks": {
-          "da4a9977-5d59-4dda-a82e-4e170712ae38": {
-            "type": "promotion",
-            "settings": {
-              "title": "The Comfort Line",
-              "text": "<p>Triple cushioning with the benefits of barefoot shoes.</p>",
-              "button_link": "shopify://pages/ahinsa-comfort",
-              "image": "shopify://shop_images/ico-best.png"
-            }
-          },
           "2f95a4af-09ec-4704-9934-a90add019f02": {
             "type": "promotion",
             "settings": {
@@ -1498,17 +1489,26 @@
             "type": "promotion",
             "settings": {
               "title": "Fast&easy exchanges",
-              "text": "<p>Shipping to EU, UK, Switzerland, USA, Canada, Australia, New Zealand.</p>",
+              "text": "<p>Shipping to EU, UK, Switzerland, USA, Canada, Australia, NZ.</p>",
               "button_link": "shopify://policies/refund-policy",
               "image": "shopify://shop_images/ico-replace.png"
+            }
+          },
+          "da4a9977-5d59-4dda-a82e-4e170712ae38": {
+            "type": "promotion",
+            "settings": {
+              "title": "The Comfort Line",
+              "text": "<p>Triple cushioning with the benefits of barefoot shoes.</p>",
+              "button_link": "shopify://pages/ahinsa-comfort",
+              "image": "shopify://shop_images/ico-best.png"
             }
           }
         },
         "block_order": [
-          "da4a9977-5d59-4dda-a82e-4e170712ae38",
           "2f95a4af-09ec-4704-9934-a90add019f02",
           "eda2374d-8b01-4ff9-8986-08530d16184e",
-          "a9bda7f8-f0f5-4f02-8c3f-3cd1125e0d92"
+          "a9bda7f8-f0f5-4f02-8c3f-3cd1125e0d92",
+          "da4a9977-5d59-4dda-a82e-4e170712ae38"
         ],
         "settings": {}
       },
