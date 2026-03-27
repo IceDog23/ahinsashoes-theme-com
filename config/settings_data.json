@@ -1096,7 +1096,7 @@
             "type": "promotion",
             "settings": {
               "title": "100% vegan and ethical.",
-              "text": "<p><a href=\"https://ahinsashoes.com/pages/our-materials\" title=\"What are Ahinsa shoes made of?\">Handmade</a> in the Czech Republic and Croatia.</p>",
+              "text": "<p><a href=\"https://ahinsashoes.com/pages/our-materials\" title=\"What are Ahinsa shoes made of?\">Handmade</a> in the EU.</p>",
               "button_link": "shopify://pages/our-materials",
               "image": "shopify://shop_images/ico-eco.png"
             }
