@@ -196,9 +196,7 @@
     },
     "trusted_shop_widget_3CjFKt": {
       "type": "trusted-shop-widget",
-      "custom_css": [
-        "div {max-width: 1500px;}"
-      ],
+      "custom_css": [],
       "name": "Trusted shop widget",
       "settings": {}
     },
