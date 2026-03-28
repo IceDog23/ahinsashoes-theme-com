@@ -6311,7 +6311,6 @@
       },
       "trusted_shop_widget_7Cq9Ue": {
         "type": "trusted-shop-widget",
-        "disabled": true,
         "name": "Trusted shop widget",
         "settings": {}
       }
