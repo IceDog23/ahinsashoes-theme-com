@@ -5134,49 +5134,25 @@
         "blocks": {
           "3a77632e-7051-4678-8817-cda1ceab6e16": {
             "type": "html",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/adela_1.jpg",
               "jmeno": "Adéla"
             }
-          },
-          "html_BjkGCV": {
-            "type": "html",
-            "settings": {
-              "image": "shopify://shop_images/nikola.jpg",
-              "jmeno": "Nikola"
-            }
-          },
-          "html_j3xFFP": {
-            "type": "html",
-            "settings": {
-              "image": "shopify://shop_images/zaneta.jpg",
-              "jmeno": "Žaneta"
-            }
-          },
-          "html_yk643C": {
-            "type": "html",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/sarka.jpg",
-              "jmeno": "Šárka"
-            }
           }
         },
         "block_order": [
-          "3a77632e-7051-4678-8817-cda1ceab6e16",
-          "html_BjkGCV",
-          "html_j3xFFP",
-          "html_yk643C"
+          "3a77632e-7051-4678-8817-cda1ceab6e16"
         ],
         "settings": {
           "title": "Customer service",
           "rich_text": "<p>How can we help you?</p>\n<div class=\"ml-1\">\n   •  Questions about an order<br>\n   •  Help with <a href=\"/pages/how-to-choose-your-size\"> selecting a product</a><br>\n   •  <a href=\"/policies/refund-policy%20\">Exchanges or returns</a><br>\n   •  ... anything else concerning your purchase\n</div>",
-          "phone": "+420 739 120 222",
-          "phone_url": "+420739120222",
-          "prov_doba": "(Monday–Friday 10am–5pm, GMT +1)",
+          "phone": "",
+          "phone_url": "",
+          "prov_doba": "",
           "mail": "info@ahinsashoes.com",
           "mail_url": "info@ahinsashoes.com",
-          "postaraji_se": "We will take care of you:"
+          "postaraji_se": "Kristýna will take care of you."
         }
       },
       "kontakt-prodejna_v_praze": {
