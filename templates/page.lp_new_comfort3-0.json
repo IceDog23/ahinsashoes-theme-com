@@ -319,6 +319,11 @@
         "space_above": false,
         "space_below": false
       }
+    },
+    "trusted_shop_widget_UYicdp": {
+      "type": "trusted-shop-widget",
+      "name": "Trusted shop widget",
+      "settings": {}
     }
   },
   "order": [
@@ -335,6 +340,7 @@
     "lp_image_text_middle_B4DRHP",
     "lp_image_reviews_mJ6bGU",
     "featured_content_iwKamQ",
-    "promo_grid_EpWMVF"
+    "promo_grid_EpWMVF",
+    "trusted_shop_widget_UYicdp"
   ]
 }

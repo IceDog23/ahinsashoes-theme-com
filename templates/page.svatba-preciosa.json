@@ -408,6 +408,11 @@
         "divider": false
       }
     },
+    "trusted_shop_widget_Tx9yzT": {
+      "type": "trusted-shop-widget",
+      "name": "Trusted shop widget",
+      "settings": {}
+    },
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b": {
       "type": "lp-podzim-text-and-image7-text",
       "disabled": true,
@@ -438,6 +443,7 @@
     "product_story_sections_gXBitH",
     "78f72821-6c02-4943-8234-82d8128e2acd",
     "afadba8b-f130-41fc-8a37-2cc6ce89906e",
+    "trusted_shop_widget_Tx9yzT",
     "lp_text_and_image_gallery_Ecd9dd",
     "lp_text_and_image_gallery_4QD9Qa",
     "629e967d-2ba6-445e-ac1d-37425cf62106",
