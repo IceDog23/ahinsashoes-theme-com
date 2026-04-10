@@ -11,6 +11,7 @@
   "sections": {
     "collection-header": {
       "type": "collection-header",
+      "disabled": true,
       "settings": {
         "enable": true,
         "collection_image_enable": true,
@@ -20,6 +21,74 @@
         "subtitle": "<p>Get ready for the chilly season ahead with our <strong>Early Bird offer</strong>– enjoy <strong>20% off </strong>autumn & winter bestsellers <strong>plus </strong>a pair of barefoot socks <strong>FREE</strong>. 🎁 Simply choose your favourite shoes from our selection, add <a href=\"https://ahinsashoes.com/collections/accessories/socks\" target=\"_blank\" title=\"https://ahinsashoes.com/collections/accessories/socks\">barefoot socks</a> to your cart, and enter the code <strong>COMFYFEET </strong>at checkout – the sock price will be automatically deducted.</p>",
         "text_color": "#ffffff"
       }
+    },
+    "17758138263d279eab": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5072638_NNeG67": {
+          "type": "ai_gen_block_5072638",
+          "settings": {
+            "desktop_width_percent": 100,
+            "min_height": 600,
+            "content_padding": 60,
+            "background_color": "#F5F1EB",
+            "show_badge": true,
+            "badge_text": "EARLY ACCESS",
+            "badge_bg_color": "#c2b288",
+            "badge_text_color": "#FFFFFF",
+            "badge_font_size": 16,
+            "badge_border_radius": 20,
+            "heading": "Ahinsa Days SALE is here!",
+            "heading_size": 48,
+            "heading_color": "#2C2C2C",
+            "subheading": "Shoes designed by physiotherapists, now <b>up to 40% off</b>.<p>\nChoose from Barefoot and Comfort styles for every occasion.</p>",
+            "subheading_size": 20,
+            "text_color": "#6B6B6B",
+            "image": "shopify://shop_images/DSC8973.png",
+            "placeholder_bg": "#E8E3DB",
+            "show_countdown": false,
+            "countdown_end_date": "",
+            "countdown_bg_color": "#FFFFFF",
+            "countdown_number_size": 32,
+            "countdown_number_color": "#2C2C2C",
+            "countdown_label_size": 11,
+            "countdown_label_color": "#999999",
+            "countdown_border_radius": 8,
+            "primary_button_label": "Shop Women's",
+            "primary_button_link": "shopify://collections/women",
+            "primary_button_bg": "#2C2C2C",
+            "primary_button_color": "#FFFFFF",
+            "primary_button_hover_bg": "#1A1A1A",
+            "secondary_button_label": "Shop Men's",
+            "secondary_button_link": "shopify://collections/men",
+            "secondary_button_bg": "#F5F1EB",
+            "secondary_button_color": "#2C2C2C",
+            "secondary_button_border": "#2C2C2C",
+            "secondary_button_hover_bg": "#FFFFFF",
+            "secondary_button_hover_border": "#1A1A1A",
+            "button_font_size": 15,
+            "button_border_radius": 4,
+            "show_features": true,
+            "features_columns": 4,
+            "features_padding": 40,
+            "features_bg_color": "#FFFFFF",
+            "features_border_color": "#E8E3DB",
+            "feature_1_text": "Designed by Physiotherapists",
+            "feature_2_text": "Quick and Easy Size Exchange",
+            "feature_3_text": "100% Vegan Materials",
+            "feature_4_text": "Fast Delivery",
+            "feature_icon_size": 24,
+            "feature_icon_color": "#D4A574",
+            "feature_text_size": 15,
+            "feature_text_color": "#2C2C2C"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5072638_NNeG67"
+      ],
+      "settings": {}
     },
     "main-collection": {
       "type": "main-collection",
@@ -44,17 +113,17 @@
           "settings": {
             "promo_collection": "",
             "subheading": "",
-            "heading": "Use code <b>COMFYFEET</b> for free socks",
-            "textarea": "Choose from our barefoot socks, enter the code <b>COMFYFEET</b> at checkout, and the price of the socks will be automatically deducted.",
+            "heading": "Use code <b>EXTRA5</b> for additional 5 % OFF",
+            "textarea": "Only untill Sunday midnight!",
             "cta_text1": "",
-            "cta_link1": "https://ahinsashoes.com/collections/accessories/socks",
+            "cta_link1": "shopify://collections/sale",
             "cta_text2": "",
             "cta_link2": "",
             "image": "shopify://shop_images/collection_black_podzim.jpg",
             "video_url": "",
             "width": "100",
             "height": 100,
-            "text_size": 115,
+            "text_size": 120,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
             "color_accent": "rgba(0,0,0,0)",
@@ -279,6 +348,7 @@
   },
   "order": [
     "collection-header",
+    "17758138263d279eab",
     "main-collection"
   ]
 }
