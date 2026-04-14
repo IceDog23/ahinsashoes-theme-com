@@ -33,7 +33,7 @@
             "content_padding": 60,
             "background_color": "#f5f1eb",
             "show_badge": true,
-            "badge_text": "EARLY ACCESS",
+            "badge_text": "LIMITED OFFER",
             "badge_bg_color": "#c2b288",
             "badge_text_color": "#ffffff",
             "badge_font_size": 16,
@@ -110,6 +110,7 @@
         },
         "advanced_CDGGKT": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "promo_collection": "",
             "subheading": "",
