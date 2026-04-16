@@ -3621,6 +3621,13 @@
               "text": "<p>I really love the womens comfort flow shoes! Ive been wearing barefoot shoes for 2 years now and I appreciate how these supply a bit more cushioning while still supporting healthy walking. I LOVE them! Thank you!</p>",
               "customer": "Nancy Roane"
             }
+          },
+          "block_eqrbWj": {
+            "type": "block",
+            "settings": {
+              "text": "<p>I have just received a pair of Hava 2 sandals and a pair of Sweatpants. I am very happy with both the style and quality of both. They fit well thanks to your size guides!</p>",
+              "customer": "Jacqueline Middleton"
+            }
           }
         },
         "block_order": [
@@ -3685,7 +3692,8 @@
           "block_pciXnn",
           "block_UYBzRM",
           "block_VxWjNW",
-          "block_TEhQYP"
+          "block_TEhQYP",
+          "block_eqrbWj"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
