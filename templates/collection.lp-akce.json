@@ -38,7 +38,7 @@
             "badge_text_color": "#ffffff",
             "badge_font_size": 16,
             "badge_border_radius": 20,
-            "heading": "Ahinsa Days SALE is here!",
+            "heading": "Ahinsa Days – EXTENDED!",
             "heading_size": 48,
             "heading_color": "#2c2c2c",
             "subheading": "Shoes designed by physiotherapists, now <b>up to 40% off</b>. Choose from Barefoot and Comfort styles for every occasion. For a limited time only!",
@@ -46,7 +46,7 @@
             "text_color": "#6b6b6b",
             "image": "shopify://shop_images/DSC8973.jpg",
             "placeholder_bg": "#e8e3db",
-            "show_countdown": true,
+            "show_countdown": false,
             "countdown_end_date": "2026-04-20 23:59:59",
             "countdown_bg_color": "#ffffff",
             "countdown_number_size": 32,
@@ -88,6 +88,7 @@
       "block_order": [
         "ai_gen_block_5072638_NNeG67"
       ],
+      "name": "Custom Hero",
       "settings": {}
     },
     "main-collection": {
