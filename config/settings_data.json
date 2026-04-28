@@ -6147,11 +6147,11 @@
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": "<p style=\"color: white;\">Ahinsa Days:<br>Enjoy up to 40 % OFF</p>",
+              "title": "<p style=\"color: white;\">New spring styles designed by physiotherapists\n</p>",
               "title_size": 80,
               "subheading": "",
               "text_color": "#ffffff",
-              "link": "shopify://collections/ahinsa-days-sale",
+              "link": "shopify://pages/spring-2026",
               "link_text": "👟 Choose Comfort",
               "icon_h_1": 40,
               "arrow_1": true,
