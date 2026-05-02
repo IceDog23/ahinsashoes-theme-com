@@ -2516,7 +2516,7 @@
           "image": "shopify://shop_images/nohy-u-zdi.png",
           "layout": "left",
           "title": "How do I correctly measure my feet?",
-          "rich_text": "<p><a href=\"https://youtube.com/shorts/9wGBmeWwgmI?si=Zp8hs7b-rlG9_yzx\" target=\"_blank\" style=\"color: black;text-decoration: none;\n\">You can watch our video tutorial.</a> You’ll need a <b> measuring tape/yardstick </b> and a <b> box</b>  (or another flat object).</p><ol>\n<li>Stand with your heel completely against the wall.</li>\n<li>Place the box (or another object with a straight edge) in front of your foot so that it’s touching your big toe.</li>\n<li>Put your full weight on your foot.</li>\n<li>Hold the box and lift the foot so that the box does not move.\n</li>\n<li>Measure the distance <b>from the box to the edge of the paper</b>. Please note, measure perpendicular to the short side of the paper!</li>\n</ol>\n<p>Don’t forget to add an \n<b> additional 0.5 - 1 cm (0.2 - 0.39 in) </b> to give your feet the natural space they need. In healthy shoes, the foot works naturally and dynamically. Don't be afraid if your shoe is about 1 cm \"bigger\" - that's alright.</p>"
+          "rich_text": "<p><a href=\"https://youtube.com/shorts/9wGBmeWwgmI?si=Zp8hs7b-rlG9_yzx\" target=\"_blank\" style=\"color: black;text-decoration: none;\n\">You can watch our video tutorial.</a> You’ll need a <b> measuring tape/yardstick </b> and a <b> box</b>  (or another flat object).</p><ol>\n<li>Stand with your heel completely against the wall.</li>\n<li>Place the box (or another object with a straight edge) in front of your foot so that it’s touching your big toe.</li>\n<li>Put your full weight on your foot.</li>\n<li>Hold the box and lift the foot so that the box does not move.\n</li>\n<li>Measure the distance <b>from the box to the edge of the paper</b>. Please note, measure perpendicular to the short side of the paper!</li>\n</ol>\n<p>The foot needs a little more space for natural movement, so don't be afraid if your shoes are about 1 cm \"bigger\".</p>"
         }
       },
       "section-not_sure__help": {
@@ -2845,7 +2845,7 @@
           "first_desc": "Most shoes are loose for you",
           "first_img": "shopify://shop_images/Uzke_nohy.png",
           "first_collections_tag": "uzke",
-          "first_advice": "The following models will work best for you. When measuring, please add an <b>extra 0.5 - 1 cm</b> (0.2 - 0.39 in).\n<p>The foot needs a little more space for natural movement, so don't be afraid if your shoes are about 1 cm \"bigger\".</p>",
+          "first_advice": "The following models will work best for you. \n<p>The foot needs a little more space for natural movement, so don't be afraid if your shoes are about 1 cm \"bigger\".</p>",
           "second_title": "Average",
           "second_desc": "Not wide or narrow",
           "second_img": "shopify://shop_images/Normalni_nohy.png",
