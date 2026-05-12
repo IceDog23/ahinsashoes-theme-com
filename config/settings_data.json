@@ -6135,7 +6135,7 @@
       "text-block-info-cart": {
         "type": "text-block-info-cart",
         "settings": {
-          "shipping-txt": "",
+          "shipping-txt": "ℹ️ All shipments to UK and US require customs clearance and may be subject to import charges.",
           "payment-txt": "",
           "replacement-txt": ""
         }
