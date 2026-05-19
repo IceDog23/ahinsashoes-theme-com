@@ -194,6 +194,31 @@
         "divider": false
       }
     },
+    "lp_text_and_image_gallery_J4gFYa": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_TQaTpF": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC2588-kopie_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_TQaTpF"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_width": 500,
+        "title": "Preciosa sandals and dress shoes",
+        "subtitle": "Glitter designed by the masters of dazzle",
+        "text": "<p>You can never shine too brightly. Wouldn’t you agree? If so, you'll be thrilled with our dazzling <strong>collaboration with the masters of glitter at Preciosa</strong>. Warning: These crystals attract compliments!</p>",
+        "button_label": "Get Them First",
+        "button_link": "https://ahinsashoes.com/collections/news/preciosa",
+        "layout": "right",
+        "divider": false
+      }
+    },
     "trusted_shop_widget_3CjFKt": {
       "type": "trusted-shop-widget",
       "custom_css": [],
@@ -370,31 +395,6 @@
         "divider": false
       }
     },
-    "lp_text_and_image_gallery_J4gFYa": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_TQaTpF": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC2588-kopie_1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_TQaTpF"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_width": 500,
-        "title": "Preciosa sandals and dress shoes",
-        "subtitle": "Glitter designed by the masters of dazzle",
-        "text": "<p>You can never shine too brightly. Wouldn’t you agree? If so, you'll be thrilled with our dazzling <strong>collaboration with the masters of glitter at Preciosa</strong>. Warning: These crystals attract compliments!</p>",
-        "button_label": "Get Them First",
-        "button_link": "https://ahinsashoes.com/collections/news/preciosa",
-        "layout": "right",
-        "divider": false
-      }
-    },
     "e_book_image_text3_6rL9jQ": {
       "type": "e-book-image-text3",
       "custom_css": [
@@ -432,10 +432,10 @@
     "629e967d-2ba6-445e-ac1d-37425cf62106",
     "afadba8b-f130-41fc-8a37-2cc6ce89906e",
     "trusted_shop_widget_3CjFKt",
-    "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
-    "78f72821-6c02-4943-8234-82d8128e2acd",
     "lp_text_and_image_gallery_4QD9Qa",
     "lp_text_and_image_gallery_J4gFYa",
+    "78f72821-6c02-4943-8234-82d8128e2acd",
+    "25133cf6-5f4c-475f-97a0-62278cf1d0aa",
     "e_book_image_text3_6rL9jQ",
     "0f03e679-9781-41a4-b033-4a9bc5d23e8b"
   ]
