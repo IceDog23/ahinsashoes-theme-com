@@ -138,7 +138,7 @@
             "feature_3_text": "100% Vegan Materials",
             "feature_4_text": "Fast Delivery",
             "feature_icon_size": 24,
-            "feature_icon_color": "#d4a574",
+            "feature_icon_color": "#73a205",
             "feature_text_size": 15,
             "feature_text_color": "#2c2c2c"
           },
@@ -150,6 +150,37 @@
         "ai_gen_block_5072638_PHFhVz"
       ],
       "name": "Custom Hero",
+      "settings": {}
+    },
+    "17803403812e5d0fea": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_f137014_CkFRHD": {
+          "type": "ai_gen_block_f137014",
+          "settings": {
+            "custom_html": "<div id=\"full-offer\"></div>",
+            "desktop_width_percent": 100,
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_horizontal": 0,
+            "border_radius": 0,
+            "background_color": "#ffffff",
+            "text_color": "#000000",
+            "heading_color": "#000000",
+            "link_color": "#111111",
+            "link_hover_color": "#666666",
+            "border_color": "#e8e8e1",
+            "table_header_bg": "#f9f9f9",
+            "font_size": 16,
+            "line_height": 1.5,
+            "text_align": "left"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_f137014_CkFRHD"
+      ],
       "settings": {}
     },
     "main-collection": {
@@ -412,6 +443,7 @@
   "order": [
     "collection-header",
     "17758138263d279eab",
+    "17803403812e5d0fea",
     "main-collection"
   ]
 }
