@@ -89,7 +89,7 @@
           "type": "ai_gen_block_5072638",
           "settings": {
             "desktop_width_percent": 100,
-            "min_height": 600,
+            "min_height": 700,
             "content_padding": 60,
             "background_color": "#f5f1eb",
             "show_badge": true,
