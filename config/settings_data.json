@@ -135,6 +135,7 @@
           },
           "bcb93393-7fd5-498f-b2fe-b57a7a141dce": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Summer sale is here! 🔥",
               "link_text": "Get up to 30 % off Ahinsa shoes and walk through summer in comfortable shoes that’ll free your feet. 👉🏼",
@@ -6147,7 +6148,7 @@
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": "<p style=\"color: white;\"><b>Summer bestseller</b> \nnow 10 % OFF\n</p>",
+              "title": "<p style=\"color: white;\"><b>Summer bestseller</b> \nnow 10% OFF\n</p>",
               "title_size": 80,
               "subheading": "",
               "text_color": "#ffffff",
