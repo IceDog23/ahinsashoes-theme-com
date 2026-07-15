@@ -6136,7 +6136,7 @@
       "text-block-info-cart": {
         "type": "text-block-info-cart",
         "settings": {
-          "shipping-txt": "ℹ️ All shipments to UK and US require customs clearance and may be subject to import charges.",
+          "shipping-txt": "ℹ️ All shipments to the <a href=\"https://ahinsashoes.com/pages/shipping-customs-to-uk\">UK</a> and the <a href=\"https://ahinsashoes.com/pages/shipping-customs-to-us\">US</a> require customs clearance and may be subject to import charges.",
           "payment-txt": "",
           "replacement-txt": ""
         }
