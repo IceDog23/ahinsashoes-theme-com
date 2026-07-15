@@ -6136,7 +6136,7 @@
       "text-block-info-cart": {
         "type": "text-block-info-cart",
         "settings": {
-          "shipping-txt": "ℹ️ All shipments to the <a href=\"https://ahinsashoes.com/pages/shipping-customs-to-uk\">UK</a> and the <a href=\"https://ahinsashoes.com/pages/shipping-customs-to-us\">US</a> require customs clearance and may be subject to import charges.",
+          "shipping-txt": "<strong>ℹ️ All shipments to the <a href=\"https://ahinsashoes.com/pages/shipping-customs-to-uk\" target=\"_blank\" rel=\"noopener noreferrer\">UK</a> and the <a href=\"https://ahinsashoes.com/pages/shipping-customs-to-us\" target=\"_blank\" rel=\"noopener noreferrer\">US</a> require customs clearance and may be subject to import charges.</strong>",
           "payment-txt": "",
           "replacement-txt": ""
         }
