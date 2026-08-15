@@ -6148,11 +6148,11 @@
             "type": "image",
             "settings": {
               "top_subheading": "",
-              "title": "<p style=\"color: white;\"><b>Summer bestseller</b> \nnow 10% OFF\n</p>",
+              "title": "<p style=\"color: white;\"><b>Summer sale</b> \nnow up to 35% OFF\n</p>",
               "title_size": 80,
               "subheading": "",
               "text_color": "#ffffff",
-              "link": "shopify://collections/airnet-sneakers",
+              "link": "shopify://collections/sale",
               "link_text": "👟 Pick Yours",
               "icon_h_1": 40,
               "arrow_1": true,
