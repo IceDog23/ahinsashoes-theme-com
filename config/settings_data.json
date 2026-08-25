@@ -145,8 +145,8 @@
           "aeefe181-c8ba-49d3-91d2-a122c47160ce": {
             "type": "announcement",
             "settings": {
-              "text": "Worldwide Shipping: Europe, UK, USA, Canada, Australia & NZ",
-              "link_text": "🇪🇺🇬🇧🇺🇸🇨🇦🇦🇺",
+              "text": "Worldwide Shipping:",
+              "link_text": "We ship all around the world❗️ You can order from anywhere.",
               "link": ""
             }
           },
@@ -1489,8 +1489,8 @@
           "a9bda7f8-f0f5-4f02-8c3f-3cd1125e0d92": {
             "type": "promotion",
             "settings": {
-              "title": "Fast&easy exchanges",
-              "text": "<p>Shipping to EU, UK, Switzerland, USA, Canada, Australia, NZ.</p>",
+              "title": "Fast & easy exchanges",
+              "text": "<p>We ship worldwide.</p>",
               "button_link": "shopify://policies/refund-policy",
               "image": "shopify://shop_images/ico-replace.png"
             }
