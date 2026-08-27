@@ -1468,10 +1468,19 @@
       "1643378217365c689a": {
         "type": "homepage-promotions",
         "blocks": {
+          "a9bda7f8-f0f5-4f02-8c3f-3cd1125e0d92": {
+            "type": "promotion",
+            "settings": {
+              "title": "Worldwide shipping",
+              "text": "<p>Fast delivery. <br/>Quick & easy exchanges.</p>",
+              "button_link": "shopify://policies/refund-policy",
+              "image": "shopify://shop_images/ico-replace.png"
+            }
+          },
           "2f95a4af-09ec-4704-9934-a90add019f02": {
             "type": "promotion",
             "settings": {
-              "title": "For healthy walking.",
+              "title": "For healthy walking",
               "text": "<p><a href=\"/pages/barefoot-shoes\" title=\"Barefoot shoes\">Verified by studies</a> from Masaryk University.</p>",
               "button_link": "shopify://pages/barefoot-shoes",
               "image": "shopify://shop_images/ico-barefoot.png"
@@ -1480,19 +1489,10 @@
           "eda2374d-8b01-4ff9-8986-08530d16184e": {
             "type": "promotion",
             "settings": {
-              "title": "100% vegan and ethical.",
+              "title": "100% vegan and ethical",
               "text": "<p><a href=\"/pages/our-materials\" title=\"What are Ahinsa shoes made of?\">Handmade</a> in the EU.</p>",
               "button_link": "shopify://pages/our-materials",
               "image": "shopify://shop_images/ico-eco.png"
-            }
-          },
-          "a9bda7f8-f0f5-4f02-8c3f-3cd1125e0d92": {
-            "type": "promotion",
-            "settings": {
-              "title": "Fast & easy exchanges",
-              "text": "<p>We ship worldwide.</p>",
-              "button_link": "shopify://policies/refund-policy",
-              "image": "shopify://shop_images/ico-replace.png"
             }
           },
           "da4a9977-5d59-4dda-a82e-4e170712ae38": {
@@ -1506,9 +1506,9 @@
           }
         },
         "block_order": [
+          "a9bda7f8-f0f5-4f02-8c3f-3cd1125e0d92",
           "2f95a4af-09ec-4704-9934-a90add019f02",
           "eda2374d-8b01-4ff9-8986-08530d16184e",
-          "a9bda7f8-f0f5-4f02-8c3f-3cd1125e0d92",
           "da4a9977-5d59-4dda-a82e-4e170712ae38"
         ],
         "settings": {}
