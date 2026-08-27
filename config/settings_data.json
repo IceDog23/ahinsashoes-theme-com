@@ -1075,10 +1075,19 @@
       "footer-promotions": {
         "type": "footer-promotions",
         "blocks": {
+          "089447de-46d9-4ec0-96b3-3319be7196b4": {
+            "type": "promotion",
+            "settings": {
+              "title": "Worldwide shipping",
+              "text": "<p>Fast delivery. <br/>Quick & easy exchanges.</p>",
+              "button_link": "shopify://policies/shipping-policy",
+              "image": "shopify://shop_images/ico-replace.png"
+            }
+          },
           "footer-promotions-0": {
             "type": "promotion",
             "settings": {
-              "title": "The best shoes in the world.",
+              "title": "The best shoes in the world",
               "text": "<p><a href=\"https://ahinsashoes.com/pages/best-barefoot-buy-guarantee\" title=\"You won’t find better shoes. Guaranteed!\">Guaranteed!</a></p>",
               "button_link": "shopify://pages/best-barefoot-buy-guarantee",
               "image": "shopify://shop_images/ico-best.png"
@@ -1087,7 +1096,7 @@
           "footer-promotions-1": {
             "type": "promotion",
             "settings": {
-              "title": "For healthy walking.",
+              "title": "For healthy walking",
               "text": "<p><a href=\"https://ahinsashoes.com/pages/barefoot-shoes\" target=\"_blank\" title=\"Barefoot shoes\">Verified by studies</a> from Masaryk University.</p>",
               "button_link": "shopify://pages/barefoot-shoes",
               "image": "shopify://shop_images/ico-barefoot.png"
@@ -1096,27 +1105,18 @@
           "footer-promotions-2": {
             "type": "promotion",
             "settings": {
-              "title": "100% vegan and ethical.",
+              "title": "100% vegan and ethical",
               "text": "<p><a href=\"https://ahinsashoes.com/pages/our-materials\" title=\"What are Ahinsa shoes made of?\">Handmade</a> in the EU.</p>",
               "button_link": "shopify://pages/our-materials",
               "image": "shopify://shop_images/ico-eco.png"
             }
-          },
-          "089447de-46d9-4ec0-96b3-3319be7196b4": {
-            "type": "promotion",
-            "settings": {
-              "title": "Fast&easy exchanges",
-              "text": "<p><a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Shipping</a> to EU, UK, Switzerland, USA, Canada, Australia, New Zealand.</p>",
-              "button_link": "shopify://policies/shipping-policy",
-              "image": "shopify://shop_images/ico-replace.png"
-            }
           }
         },
         "block_order": [
+          "089447de-46d9-4ec0-96b3-3319be7196b4",
           "footer-promotions-0",
           "footer-promotions-1",
-          "footer-promotions-2",
-          "089447de-46d9-4ec0-96b3-3319be7196b4"
+          "footer-promotions-2"
         ],
         "settings": {
           "hide_homepage": true
