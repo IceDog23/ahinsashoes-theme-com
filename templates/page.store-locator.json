@@ -101,7 +101,6 @@
       ],
       "settings": {
         "layout": "t4s-container-wrap",
-        "access_token": "",
         "enable_searchbox": true,
         "style_map": "satellite_streets",
         "zoom": 12,
