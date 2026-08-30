@@ -1,0 +1,86 @@
+<!-- snippet/contact_customer_service.liquid -->
+<div class="contact-box-container">
+  <div>
+    {% if bk_stts.title != blank %}
+      <h2>{{ bk_stts.title | escape }}</h2>
+    {% endif %}
+  </div>
+
+  <div class="contact-customer_serv-flex">
+    {% if bk_stts.rich_text != blank %}
+      <div>
+        <div class="ml-1 mb-1">{{ bk_stts.rich_text }}</div>
+      </div>
+    {% endif %}
+    {% if bk_stts.phone != blank or bk_stts.mail != blank %}
+      <div>
+        {% if bk_stts.phone != blank %}
+          <div class="contact-telephone h3 mb-1">
+            {% if bk_stts.phone_url != blank %}<a href="tel:{{bk_stts.phone_url}}">{% endif %}
+            {%- comment -%}<div class="phone-icon">{% render 'icon-phone' %}</div>{%- endcomment -%}
+            {{ bk_stts.phone }}
+            {% if bk_stts.phone_url != blank %}</a>{% endif %}
+            {% if bk_stts.operation_time != blank %}
+              <div class="contact-operation-time mt-1 ml-1">
+                {{ bk_stts.operation_time }}
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+        {% if bk_stts.mail != blank %}
+          <div class="contact-mail h3">
+            {% if bk_stts.mail_url != blank %}<a href="mailto:{{bk_stts.mail_url}}">{% endif %}
+            {%- comment -%}<div class="mail-icon">{% render 'icon-mail' %}</div>{%- endcomment -%}
+            {{ bk_stts.mail }}
+            {% if bk_stts.mail_url != blank %}</a>{% endif %}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+  <div class="contact-care_display-flex mt-2">
+    <div class="mt-1">
+      {% if bk_stts.customer_care != blank %}
+        <div>
+          <div class="ml-1">{{ bk_stts.customer_care }}</div>
+        </div>
+      {% endif %}
+    </div>
+    <div class="contact-care mt-1">
+      {% for i in (0..3) %}
+        {% assign img = "image_" | append: i %}
+        {% assign nm = "name_" | append: i %}
+        {% assign image = bk_stts[img] %}
+        {% assign name = bk_stts[nm] %}
+        <div class="contact-emploee">
+          <div>
+            {% if image != blank %}
+              <div>
+                {% comment %} <img
+                  class="feature-row__image lazyload"
+                  src="{{ image | img_url: 'master' }}"
+                  data-src="{{ img_url }}"
+                  data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                  data-aspectratio="{{ image.aspect_ratio }}"
+                  data-sizes="auto"
+                  alt="{{ image.alt | escape }}"
+                > {% endcomment %}
+                {{ image | image_url: width: 150 | image_tag }}
+              </div>
+              <noscript>
+                {{ image | img_url: '600x600', scale: 2 | img_tag: image.alt, 'feature-row__image' }}
+              </noscript>
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </div>
+          {% if name != blank %}
+            <div class="contact-emploee-name">
+              {{ name }}
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

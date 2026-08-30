@@ -1,0 +1,13 @@
+.fix-height-35 {
+    height: 35px;
+}
+
+.t4s-heading.link3 {
+  font-size: 16px;
+  text-decoration: underline;
+  border-bottom: unset;
+}
+
+.t4s-menu-item.link3 a {
+  text-decoration: underline;
+}

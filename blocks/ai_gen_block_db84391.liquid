@@ -1,0 +1,1479 @@
+{% doc %}
+  @prompt
+    Create a new premium comparison section for a Shopify landing page, visually consistent with the Ahinsa campaign style.
+    
+    Section purpose
+    
+    Help users choose between Barefoot and Comfort shoes.
+    
+    Content structure
+    
+    At the top of the section:
+    
+    Main heading: “Barefoot nebo Comfort?”
+    Subheading: “Vyberte si boty podle toho, jak chcete chodit.”
+    Supporting text:
+    “Obě řady spojuje to nejdůležitější: anatomicky prostorná špička, nulový podpatek a návrh od fyzioterapeutů. Rozdíl je hlavně v tom, jak moc chcete cítit zem pod sebou.”
+    
+    Below this intro, create 2 side-by-side comparison cards:
+    
+    left card = Barefoot
+    right card = Comfort
+    Important design requirement
+    
+    The labels BAREFOOT and COMFORT must be visually emphasized as a real badge / pill / label, not plain text.
+    
+    Each badge should:
+    
+    sit at the top of each card
+    have rounded corners
+    include a small icon or dot on the left
+    use stronger contrast than the body text
+    feel premium and editorial
+    
+    Suggested styling:
+    
+    Barefoot badge: warm beige / sand / muted orange accent
+    Comfort badge: soft green accent
+    uppercase label text
+    medium letter spacing
+    compact horizontal badge shape
+    Card layout
+    
+    Each card should contain:
+    
+    top badge label
+    headline
+    descriptive paragraph
+    product image
+    bullet list with 3 main benefits
+    short italic/helper line: “Vhodné pro: …”
+    CTA button at bottom
+    Left card content
+    
+    Badge: BAREFOOT
+    Headline: “Přirozená chůze”
+    Text: “Tenká a flexibilní podrážka vám nechá vnímat terén a aktivně zapojit chodidlo. Pro ty, kdo chtějí co nejbližší pocit chůze naboso.”
+    Benefits:
+    
+    tenká podrážka 2–5 mm
+    maximální ohebnost
+    výrazný kontakt se zemí
+    Helper text:
+    “Vhodné pro: milovníky přirozeného pohybu a zkušenější barefoot chodce.”
+    Button:
+    “Barefoot boty →”
+    Right card content
+    
+    Badge: COMFORT
+    Headline: “Měkčí došlap, stejné principy”
+    Text: “Naše specialita: všechny výhody barefootu, ale s trojnásobně změkčeným došlapem. Ideální na město, beton i pro ty, kdo chtějí větší pohodlí.”
+    Benefits:
+    
+    anatomická špička a zero drop
+    měkčí dopad při chůzi
+    pohodlí na tvrdém povrchu
+    Helper text:
+    “Vhodné pro: chůzi po městě, celodenní nošení a začátky s barefoot principy.”
+    Button:
+    “Comfort boty →”
+    Bottom note
+    
+    Below the cards, add a centered supporting sentence:
+    
+    “Nejste si jistí? Začněte Comfort řadou. Chcete-li maximum přirozeného vjemu, zvolte Barefoot.”
+    Design direction
+    premium
+    minimal
+    elegant
+    soft editorial layout
+    beige neutral background
+    subtle contrast between both cards
+    rounded corners
+    clean spacing
+    visually stronger category distinction through badge design
+    Styling requirements
+    Each card should have its own soft-tinted background:
+    Barefoot: warm beige / peach-tinted neutral
+    Comfort: very light sage / green-tinted neutral
+    CTA buttons should match each card accent color
+    Use subtle shadows or borders
+    Product images should sit in a soft framed image container
+    Responsive requirements
+    Desktop: 2 columns
+    Mobile: stack cards vertically
+    Badges must remain visually prominent on mobile
+    Maintain strong hierarchy for headings and buttons
+    Add separate mobile typography controls in Shopify schema
+    Shopify requirements
+    
+    Build this as a fully editable Shopify section using Liquid, HTML, CSS, and minimal JavaScript if needed.
+    
+    Add theme editor settings for:
+    
+    all texts
+    both product images
+    both button labels and links
+    badge text
+    badge colors
+    card background colors
+    desktop/mobile typography
+    spacing
+    
+    The badge design for BAREFOOT and COMFORT is especially important: make it feel like a real UI label/pill element, not just a small line of text. Make the Barefoot and Comfort labels look like premium category tags with a filled or lightly tinted badge background, instead of plain typography.Visually redesign the “BAREFOOT” and “COMFORT” labels as prominent rounded badges/pills with tinted background, accent color, small dot/icon, and uppercase text. Do not render them as plain text. All visual colors must be exposed as editable color settings in the Shopify schema, with sensible default values but no hardcoded final styling.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-barefoot-comfort-comparison-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ block.settings.section_bg_color }};
+    padding: {{ block.settings.section_padding_top }}px 20px {{ block.settings.section_padding_bottom }}px;
+  }
+
+  .ai-comparison-container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.container_max_width }}px;
+    margin: 0 auto;
+  }
+
+  .ai-comparison-intro-{{ ai_gen_id }} {
+    text-align: center;
+    margin-bottom: {{ block.settings.intro_spacing }}px;
+  }
+
+  .ai-comparison-main-heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.main_heading_size }}px;
+    font-weight: {{ block.settings.main_heading_weight }};
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 {{ block.settings.heading_spacing }}px;
+    line-height: 1.2;
+  }
+
+  .ai-comparison-subheading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subheading_size }}px;
+    font-weight: {{ block.settings.subheading_weight }};
+    color: {{ block.settings.subheading_color }};
+    margin: 0 0 {{ block.settings.subheading_spacing }}px;
+    line-height: 1.4;
+  }
+
+  .ai-comparison-supporting-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.supporting_text_size }}px;
+    color: {{ block.settings.text_color }};
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .ai-comparison-cards-wrapper-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: {{ block.settings.cards_gap }}px;
+    margin-bottom: {{ block.settings.bottom_note_spacing }}px;
+  }
+
+  .ai-comparison-card-{{ ai_gen_id }} {
+    background-color: var(--card-bg);
+    border-radius: {{ block.settings.card_border_radius }}px;
+    padding: {{ block.settings.card_padding }}px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: {{ block.settings.card_shadow }};
+    border: {{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }};
+  }
+
+  .ai-comparison-badge-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: {{ block.settings.badge_padding_vertical }}px {{ block.settings.badge_padding_horizontal }}px;
+    border-radius: {{ block.settings.badge_border_radius }}px;
+    background-color: var(--badge-bg);
+    color: var(--badge-color);
+    font-size: {{ block.settings.badge_font_size }}px;
+    font-weight: {{ block.settings.badge_font_weight }};
+    text-transform: uppercase;
+    letter-spacing: {{ block.settings.badge_letter_spacing }}px;
+    margin-bottom: {{ block.settings.badge_spacing }}px;
+    width: fit-content;
+  }
+
+  .ai-comparison-badge-dot-{{ ai_gen_id }} {
+    width: {{ block.settings.badge_dot_size }}px;
+    height: {{ block.settings.badge_dot_size }}px;
+    border-radius: 50%;
+    background-color: var(--badge-color);
+  }
+
+  .ai-comparison-card-headline-{{ ai_gen_id }} {
+    font-size: {{ block.settings.card_headline_size }}px;
+    font-weight: {{ block.settings.card_headline_weight }};
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 {{ block.settings.card_headline_spacing }}px;
+    line-height: 1.3;
+  }
+
+  .ai-comparison-card-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.card_text_size }}px;
+    color: {{ block.settings.text_color }};
+    line-height: 1.6;
+    margin-bottom: {{ block.settings.card_text_spacing }}px;
+  }
+
+  .ai-comparison-image-container-{{ ai_gen_id }} {
+    width: 100%;
+    margin-bottom: {{ block.settings.image_spacing }}px;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    overflow: hidden;
+    background-color: {{ block.settings.image_bg_color }};
+  }
+
+  .ai-comparison-image-container-{{ ai_gen_id }} img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .ai-comparison-image-link-{{ ai_gen_id }} {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .ai-comparison-benefits-{{ ai_gen_id }} {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 {{ block.settings.benefits_spacing }}px;
+  }
+
+  .ai-comparison-benefit-item-{{ ai_gen_id }} {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: {{ block.settings.benefit_item_spacing }}px;
+    font-size: {{ block.settings.benefit_text_size }}px;
+    color: {{ block.settings.text_color }};
+    line-height: 1.5;
+  }
+
+  .ai-comparison-benefit-item-{{ ai_gen_id }}:last-child {
+    margin-bottom: 0;
+  }
+
+  .ai-comparison-benefit-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.benefit_icon_size }}px;
+    height: {{ block.settings.benefit_icon_size }}px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .ai-comparison-benefit-icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--badge-bg);
+  }
+
+  .ai-comparison-helper-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.helper_text_size }}px;
+    font-style: italic;
+    color: {{ block.settings.helper_text_color }};
+    margin-bottom: {{ block.settings.helper_text_spacing }}px;
+    line-height: 1.5;
+  }
+
+  .ai-comparison-cta-button-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
+    background-color: var(--button-bg);
+    color: var(--button-color);
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: {{ block.settings.button_font_size }}px;
+    font-weight: {{ block.settings.button_font_weight }};
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: auto;
+  }
+
+  .ai-comparison-cta-button-{{ ai_gen_id }}:hover {
+    background-color: var(--button-hover-bg);
+    color: var(--button-hover-color);
+    transform: translateY(-2px);
+  }
+
+  .ai-comparison-bottom-note-{{ ai_gen_id }} {
+    text-align: center;
+    font-size: {{ block.settings.bottom_note_size }}px;
+    color: {{ block.settings.text_color }};
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .ai-comparison-card-barefoot-{{ ai_gen_id }} {
+    --card-bg: {{ block.settings.barefoot_card_bg }};
+    --badge-bg: {{ block.settings.barefoot_badge_bg }};
+    --badge-color: {{ block.settings.barefoot_badge_color }};
+    --button-bg: {{ block.settings.barefoot_button_bg }};
+    --button-color: {{ block.settings.barefoot_button_color }};
+    --button-hover-bg: {{ block.settings.barefoot_button_hover_bg }};
+    --button-hover-color: {{ block.settings.barefoot_button_hover_color }};
+  }
+
+  .ai-comparison-card-comfort-{{ ai_gen_id }} {
+    --card-bg: {{ block.settings.comfort_card_bg }};
+    --badge-bg: {{ block.settings.comfort_badge_bg }};
+    --badge-color: {{ block.settings.comfort_badge_color }};
+    --button-bg: {{ block.settings.comfort_button_bg }};
+    --button-color: {{ block.settings.comfort_button_color }};
+    --button-hover-bg: {{ block.settings.comfort_button_hover_bg }};
+    --button-hover-color: {{ block.settings.comfort_button_hover_color }};
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-comparison-main-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.main_heading_size_mobile }}px;
+    }
+
+    .ai-comparison-subheading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subheading_size_mobile }}px;
+    }
+
+    .ai-comparison-supporting-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.supporting_text_size_mobile }}px;
+    }
+
+    .ai-comparison-cards-wrapper-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.cards_gap_mobile }}px;
+    }
+
+    .ai-comparison-card-{{ ai_gen_id }} {
+      padding: {{ block.settings.card_padding_mobile }}px;
+    }
+
+    .ai-comparison-card-headline-{{ ai_gen_id }} {
+      font-size: {{ block.settings.card_headline_size_mobile }}px;
+    }
+
+    .ai-comparison-card-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.card_text_size_mobile }}px;
+    }
+
+    .ai-comparison-benefit-item-{{ ai_gen_id }} {
+      font-size: {{ block.settings.benefit_text_size_mobile }}px;
+    }
+
+    .ai-comparison-bottom-note-{{ ai_gen_id }} {
+      font-size: {{ block.settings.bottom_note_size_mobile }}px;
+    }
+
+    .ai-comparison-badge-{{ ai_gen_id }} {
+      font-size: {{ block.settings.badge_font_size_mobile }}px;
+    }
+
+    .ai-comparison-button-{{ ai_gen_id }} {
+      font-size: {{ block.settings.button_font_size_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-barefoot-comfort-comparison-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-comparison-container-{{ ai_gen_id }}">
+    <div class="ai-comparison-intro-{{ ai_gen_id }}">
+      {% if block.settings.main_heading != blank %}
+        <h2 class="ai-comparison-main-heading-{{ ai_gen_id }}">{{ block.settings.main_heading }}</h2>
+      {% endif %}
+
+      {% if block.settings.subheading != blank %}
+        <div class="ai-comparison-subheading-{{ ai_gen_id }}">{{ block.settings.subheading }}</div>
+      {% endif %}
+
+      {% if block.settings.supporting_text != blank %}
+        <div class="ai-comparison-supporting-text-{{ ai_gen_id }}">{{ block.settings.supporting_text }}</div>
+      {% endif %}
+    </div>
+
+    <div class="ai-comparison-cards-wrapper-{{ ai_gen_id }}">
+      <div class="ai-comparison-card-{{ ai_gen_id }} ai-comparison-card-barefoot-{{ ai_gen_id }}">
+        <div class="ai-comparison-badge-{{ ai_gen_id }}">
+          <span class="ai-comparison-badge-dot-{{ ai_gen_id }}"></span>
+          <span>{{ block.settings.barefoot_badge_text }}</span>
+        </div>
+
+        {% if block.settings.barefoot_headline != blank %}
+          <h3 class="ai-comparison-card-headline-{{ ai_gen_id }}">{{ block.settings.barefoot_headline }}</h3>
+        {% endif %}
+
+        {% if block.settings.barefoot_text != blank %}
+          <div class="ai-comparison-card-text-{{ ai_gen_id }}">{{ block.settings.barefoot_text }}</div>
+        {% endif %}
+
+         {% if block.settings.barefoot_image_link != blank %}
+          <a href="{{ block.settings.barefoot_image_link }}" class="ai-comparison-image-link-{{ ai_gen_id }}">
+        {% endif %}
+        {% if block.settings.barefoot_image %}
+          <div class="ai-comparison-image-container-{{ ai_gen_id }}">
+            <img
+              src="{{ block.settings.barefoot_image | image_url: width: 800 }}"
+              alt="{{ block.settings.barefoot_image.alt | escape }}"
+              loading="lazy"
+              width="{{ block.settings.barefoot_image.width }}"
+              height="{{ block.settings.barefoot_image.height }}"
+            >
+          </div>
+        {% else %}
+          <div class="ai-comparison-image-container-{{ ai_gen_id }}">
+            {{ 'product-1' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+        {% if block.settings.barefoot_image_link != blank %}
+          </a>
+        {% endif %}
+
+        <ul class="ai-comparison-benefits-{{ ai_gen_id }}">
+          {% if block.settings.barefoot_benefit_1 != blank %}
+            <li class="ai-comparison-benefit-item-{{ ai_gen_id }}">
+              <span class="ai-comparison-benefit-icon-{{ ai_gen_id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+              </span>
+              <span>{{ block.settings.barefoot_benefit_1 }}</span>
+            </li>
+          {% endif %}
+
+          {% if block.settings.barefoot_benefit_2 != blank %}
+            <li class="ai-comparison-benefit-item-{{ ai_gen_id }}">
+              <span class="ai-comparison-benefit-icon-{{ ai_gen_id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+              </span>
+              <span>{{ block.settings.barefoot_benefit_2 }}</span>
+            </li>
+          {% endif %}
+
+          {% if block.settings.barefoot_benefit_3 != blank %}
+            <li class="ai-comparison-benefit-item-{{ ai_gen_id }}">
+              <span class="ai-comparison-benefit-icon-{{ ai_gen_id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+              </span>
+              <span>{{ block.settings.barefoot_benefit_3 }}</span>
+            </li>
+          {% endif %}
+        </ul>
+
+        {% if block.settings.barefoot_helper_text != blank %}
+          <div class="ai-comparison-helper-text-{{ ai_gen_id }}">{{ block.settings.barefoot_helper_text }}</div>
+        {% endif %}
+
+        {% if block.settings.barefoot_button_text != blank %}
+          <a
+            href="{{ block.settings.barefoot_button_link }}"
+            class="ai-comparison-cta-button-{{ ai_gen_id }}"
+          >
+            {{ block.settings.barefoot_button_text }}
+          </a>
+        {% endif %}
+      </div>
+
+      <div class="ai-comparison-card-{{ ai_gen_id }} ai-comparison-card-comfort-{{ ai_gen_id }}">
+        <div class="ai-comparison-badge-{{ ai_gen_id }}">
+          <span class="ai-comparison-badge-dot-{{ ai_gen_id }}"></span>
+          <span>{{ block.settings.comfort_badge_text }}</span>
+        </div>
+
+        {% if block.settings.comfort_headline != blank %}
+          <h3 class="ai-comparison-card-headline-{{ ai_gen_id }}">{{ block.settings.comfort_headline }}</h3>
+        {% endif %}
+
+        {% if block.settings.comfort_text != blank %}
+          <div class="ai-comparison-card-text-{{ ai_gen_id }}">{{ block.settings.comfort_text }}</div>
+        {% endif %}
+
+        {% if block.settings.comfort_image_link != blank %}
+          <a href="{{ block.settings.comfort_image_link }}" class="ai-comparison-image-link-{{ ai_gen_id }}">
+        {% endif %}
+        {% if block.settings.comfort_image %}
+          <div class="ai-comparison-image-container-{{ ai_gen_id }}">
+            <img
+              src="{{ block.settings.comfort_image | image_url: width: 800 }}"
+              alt="{{ block.settings.comfort_image.alt | escape }}"
+              loading="lazy"
+              width="{{ block.settings.comfort_image.width }}"
+              height="{{ block.settings.comfort_image.height }}"
+            >
+          </div>
+        {% else %}
+          <div class="ai-comparison-image-container-{{ ai_gen_id }}">
+            {{ 'product-1' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+        {% if block.settings.comfort_image_link != blank %}
+          </a>
+        {% endif %}
+
+        <ul class="ai-comparison-benefits-{{ ai_gen_id }}">
+          {% if block.settings.comfort_benefit_1 != blank %}
+            <li class="ai-comparison-benefit-item-{{ ai_gen_id }}">
+              <span class="ai-comparison-benefit-icon-{{ ai_gen_id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+              </span>
+              <span>{{ block.settings.comfort_benefit_1 }}</span>
+            </li>
+          {% endif %}
+
+          {% if block.settings.comfort_benefit_2 != blank %}
+            <li class="ai-comparison-benefit-item-{{ ai_gen_id }}">
+              <span class="ai-comparison-benefit-icon-{{ ai_gen_id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+              </span>
+              <span>{{ block.settings.comfort_benefit_2 }}</span>
+            </li>
+          {% endif %}
+
+          {% if block.settings.comfort_benefit_3 != blank %}
+            <li class="ai-comparison-benefit-item-{{ ai_gen_id }}">
+              <span class="ai-comparison-benefit-icon-{{ ai_gen_id }}">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+              </span>
+              <span>{{ block.settings.comfort_benefit_3 }}</span>
+            </li>
+          {% endif %}
+        </ul>
+
+        {% if block.settings.comfort_helper_text != blank %}
+          <div class="ai-comparison-helper-text-{{ ai_gen_id }}">{{ block.settings.comfort_helper_text }}</div>
+        {% endif %}
+
+        {% if block.settings.comfort_button_text != blank %}
+          <a
+            href="{{ block.settings.comfort_button_link }}"
+            class="ai-comparison-cta-button-{{ ai_gen_id }}"
+          >
+            {{ block.settings.comfort_button_text }}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if block.settings.bottom_note != blank %}
+      <div class="ai-comparison-bottom-note-{{ ai_gen_id }}">{{ block.settings.bottom_note }}</div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Barefoot vs Comfort",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section intro"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "main_heading",
+      "label": "Main heading",
+      "default": "Barefoot nebo Comfort?"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Vyberte si boty podle toho, jak chcete chodit."
+    },
+    {
+      "type": "richtext",
+      "id": "supporting_text",
+      "label": "Supporting text",
+      "default": "<p>Obě řady spojuje to nejdůležitější: anatomicky prostorná špička, nulový podpatek a návrh od fyzioterapeutů. Rozdíl je hlavně v tom, jak moc chcete cítit zem pod sebou.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Barefoot card"
+    },
+    {
+      "type": "text",
+      "id": "barefoot_badge_text",
+      "label": "Badge text",
+      "default": "BAREFOOT"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "barefoot_headline",
+      "label": "Headline",
+      "default": "Přirozená chůze"
+    },
+    {
+      "type": "richtext",
+      "id": "barefoot_text",
+      "label": "Description",
+      "default": "<p>Tenká a flexibilní podrážka vám nechá vnímat terén a aktivně zapojit chodidlo. Pro ty, kdo chtějí co nejbližší pocit chůze naboso.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "barefoot_image",
+      "label": "Product image"
+    },
+     {
+      "type": "url",
+      "id": "barefoot_image_link",
+      "label": "Image link"
+    },
+    {
+      "type": "text",
+      "id": "barefoot_benefit_1",
+      "label": "Benefit 1",
+      "default": "tenká podrážka 2–5 mm"
+    },
+    {
+      "type": "text",
+      "id": "barefoot_benefit_2",
+      "label": "Benefit 2",
+      "default": "maximální ohebnost"
+    },
+    {
+      "type": "text",
+      "id": "barefoot_benefit_3",
+      "label": "Benefit 3",
+      "default": "výrazný kontakt se zemí"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "barefoot_helper_text",
+      "label": "Helper text",
+      "default": "Vhodné pro: milovníky přirozeného pohybu a zkušenější barefoot chodce."
+    },
+    {
+      "type": "text",
+      "id": "barefoot_button_text",
+      "label": "Button text",
+      "default": "Barefoot boty →"
+    },
+    {
+      "type": "url",
+      "id": "barefoot_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Comfort card"
+    },
+    {
+      "type": "text",
+      "id": "comfort_badge_text",
+      "label": "Badge text",
+      "default": "COMFORT"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "comfort_headline",
+      "label": "Headline",
+      "default": "Měkčí došlap, stejné principy"
+    },
+    {
+      "type": "richtext",
+      "id": "comfort_text",
+      "label": "Description",
+      "default": "<p>Naše specialita: všechny výhody barefootu, ale s trojnásobně změkčeným došlapem. Ideální na město, beton i pro ty, kdo chtějí větší pohodlí.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "comfort_image",
+      "label": "Product image"
+    },
+     {
+      "type": "url",
+      "id": "comfort_image_link",
+      "label": "Image link"
+    },
+    {
+      "type": "text",
+      "id": "comfort_benefit_1",
+      "label": "Benefit 1",
+      "default": "anatomická špička a zero drop"
+    },
+    {
+      "type": "text",
+      "id": "comfort_benefit_2",
+      "label": "Benefit 2",
+      "default": "měkčí dopad při chůzi"
+    },
+    {
+      "type": "text",
+      "id": "comfort_benefit_3",
+      "label": "Benefit 3",
+      "default": "pohodlí na tvrdém povrchu"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "comfort_helper_text",
+      "label": "Helper text",
+      "default": "Vhodné pro: chůzi po městě, celodenní nošení a začátky s barefoot principy."
+    },
+    {
+      "type": "text",
+      "id": "comfort_button_text",
+      "label": "Button text",
+      "default": "Comfort boty →"
+    },
+    {
+      "type": "url",
+      "id": "comfort_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Bottom note"
+    },
+    {
+      "type": "richtext",
+      "id": "bottom_note",
+      "label": "Bottom note text",
+      "default": "<p>Nejste si jistí? Začněte Comfort řadou. Chcete-li maximum přirozeného vjemu, zvolte Barefoot.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "container_max_width",
+      "label": "Container max width",
+      "min": 1000,
+      "max": 1600,
+      "step": 50,
+      "unit": "px",
+      "default": 1400
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "label": "Section padding top",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "label": "Section padding bottom",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "intro_spacing",
+      "label": "Intro bottom spacing",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "cards_gap",
+      "label": "Cards gap (desktop)",
+      "min": 10,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "cards_gap_mobile",
+      "label": "Cards gap (mobile)",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "bottom_note_spacing",
+      "label": "Bottom note top spacing",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section background",
+      "default": "#f9f7f4"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Headings",
+      "default": "#202020"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading",
+      "default": "#5e5230"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Body text",
+      "default": "#202020"
+    },
+    {
+      "type": "color",
+      "id": "helper_text_color",
+      "label": "Helper text",
+      "default": "#5e5230"
+    },
+    {
+      "type": "header",
+      "content": "Barefoot card colors"
+    },
+    {
+      "type": "color",
+      "id": "barefoot_card_bg",
+      "label": "Card background",
+      "default": "#faf5ed"
+    },
+    {
+      "type": "color",
+      "id": "barefoot_badge_bg",
+      "label": "Badge background",
+      "default": "#d4a574"
+    },
+    {
+      "type": "color",
+      "id": "barefoot_badge_color",
+      "label": "Badge text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "barefoot_button_bg",
+      "label": "Button background",
+      "default": "#d4a574"
+    },
+    {
+      "type": "color",
+      "id": "barefoot_button_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "barefoot_button_hover_bg",
+      "label": "Button hover background",
+      "default": "#c49563"
+    },
+    {
+      "type": "color",
+      "id": "barefoot_button_hover_color",
+      "label": "Button hover text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Comfort card colors"
+    },
+    {
+      "type": "color",
+      "id": "comfort_card_bg",
+      "label": "Card background",
+      "default": "#f0f5ed"
+    },
+    {
+      "type": "color",
+      "id": "comfort_badge_bg",
+      "label": "Badge background",
+      "default": "#7fa05f"
+    },
+    {
+      "type": "color",
+      "id": "comfort_badge_color",
+      "label": "Badge text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "comfort_button_bg",
+      "label": "Button background",
+      "default": "#587d00"
+    },
+    {
+      "type": "color",
+      "id": "comfort_button_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "comfort_button_hover_bg",
+      "label": "Button hover background",
+      "default": "#73a205"
+    },
+    {
+      "type": "color",
+      "id": "comfort_button_hover_color",
+      "label": "Button hover text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Card style"
+    },
+    {
+      "type": "range",
+      "id": "card_padding",
+      "label": "Card padding (desktop)",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "card_padding_mobile",
+      "label": "Card padding (mobile)",
+      "min": 15,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 25
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "label": "Card border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "card_border_width",
+      "label": "Card border width",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Card border color",
+      "default": "#e0e0e0"
+    },
+    {
+      "type": "select",
+      "id": "card_shadow",
+      "label": "Card shadow",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "0 2px 8px rgba(0,0,0,0.06)",
+          "label": "Subtle"
+        },
+        {
+          "value": "0 4px 16px rgba(0,0,0,0.08)",
+          "label": "Medium"
+        },
+        {
+          "value": "0 8px 24px rgba(0,0,0,0.12)",
+          "label": "Strong"
+        }
+      ],
+      "default": "0 2px 8px rgba(0,0,0,0.06)"
+    },
+    {
+      "type": "header",
+      "content": "Badge style"
+    },
+    {
+      "type": "range",
+      "id": "badge_padding_vertical",
+      "label": "Badge vertical padding",
+      "min": 4,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "badge_padding_horizontal",
+      "label": "Badge horizontal padding",
+      "min": 8,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "badge_border_radius",
+      "label": "Badge border radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "badge_font_size",
+      "label": "Badge font size (desktop)",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "badge_font_size_mobile",
+      "label": "Badge font size (mobile)",
+      "min": 9,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "default": 11
+    },
+    {
+      "type": "range",
+      "id": "badge_font_weight",
+      "label": "Badge font weight",
+      "min": 400,
+      "max": 800,
+      "step": 100,
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "badge_letter_spacing",
+      "label": "Badge letter spacing",
+      "min": 0,
+      "max": 3,
+      "step": 0.5,
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "badge_dot_size",
+      "label": "Badge dot size",
+      "min": 4,
+      "max": 12,
+      "step": 1,
+      "unit": "px",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "badge_spacing",
+      "label": "Badge bottom spacing",
+      "min": 10,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Image style"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "label": "Image border radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "color",
+      "id": "image_bg_color",
+      "label": "Image background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "image_spacing",
+      "label": "Image bottom spacing",
+      "min": 15,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 25
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "label": "Button vertical padding",
+      "min": 8,
+      "max": 25,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "label": "Button horizontal padding",
+      "min": 15,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Button border radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "label": "Button font size (desktop)",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "button_font_size_mobile",
+      "label": "Button font size (mobile)",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "button_font_weight",
+      "label": "Button font weight",
+      "min": 400,
+      "max": 800,
+      "step": 100,
+      "default": 600
+    },
+    {
+      "type": "header",
+      "content": "Typography desktop"
+    },
+    {
+      "type": "range",
+      "id": "main_heading_size",
+      "label": "Main heading size",
+      "min": 24,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "main_heading_weight",
+      "label": "Main heading weight",
+      "min": 400,
+      "max": 800,
+      "step": 100,
+      "default": 700
+    },
+    {
+      "type": "range",
+      "id": "heading_spacing",
+      "label": "Main heading spacing",
+      "min": 5,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "subheading_size",
+      "label": "Subheading size",
+      "min": 14,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "subheading_weight",
+      "label": "Subheading weight",
+      "min": 400,
+      "max": 700,
+      "step": 100,
+      "default": 500
+    },
+    {
+      "type": "range",
+      "id": "subheading_spacing",
+      "label": "Subheading spacing",
+      "min": 5,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "supporting_text_size",
+      "label": "Supporting text size",
+      "min": 13,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "card_headline_size",
+      "label": "Card headline size",
+      "min": 16,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "card_headline_weight",
+      "label": "Card headline weight",
+      "min": 400,
+      "max": 800,
+      "step": 100,
+      "default": 700
+    },
+    {
+      "type": "range",
+      "id": "card_headline_spacing",
+      "label": "Card headline spacing",
+      "min": 5,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "card_text_size",
+      "label": "Card text size",
+      "min": 13,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "card_text_spacing",
+      "label": "Card text spacing",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "benefit_text_size",
+      "label": "Benefit text size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "benefit_icon_size",
+      "label": "Benefit icon size",
+      "min": 12,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "benefit_item_spacing",
+      "label": "Benefit item spacing",
+      "min": 5,
+      "max": 25,
+      "step": 5,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "benefits_spacing",
+      "label": "Benefits bottom spacing",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "helper_text_size",
+      "label": "Helper text size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "helper_text_spacing",
+      "label": "Helper text spacing",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "bottom_note_size",
+      "label": "Bottom note size",
+      "min": 13,
+      "max": 22,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Typography mobile"
+    },
+    {
+      "type": "range",
+      "id": "main_heading_size_mobile",
+      "label": "Main heading size",
+      "min": 20,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "subheading_size_mobile",
+      "label": "Subheading size",
+      "min": 14,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "supporting_text_size_mobile",
+      "label": "Supporting text size",
+      "min": 13,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "card_headline_size_mobile",
+      "label": "Card headline size",
+      "min": 16,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "card_text_size_mobile",
+      "label": "Card text size",
+      "min": 13,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "benefit_text_size_mobile",
+      "label": "Benefit text size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "bottom_note_size_mobile",
+      "label": "Bottom note size",
+      "min": 13,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    }
+  ],
+  "presets": [
+    {
+      "name": "Barefoot vs Comfort"
+    }
+  ]
+}
+{% endschema %}

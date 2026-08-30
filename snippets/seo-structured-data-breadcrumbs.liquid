@@ -1,0 +1,112 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement":
+      [
+      {%- unless template.name == 'index' or template.name == 'cart' -%}
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item":
+        {
+        "@id": "{{ shop.url }}{{ routes.root_url }}",
+        "name": "{{ 'general.breadcrumb.home' | t }}"
+        }
+      },
+      {%- if template.name == 'product' -%}
+        {% if collection %}
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item":
+            {
+              "@id": "{{ shop.url }}{{ routes.collections_url }}/{{ collection.handle }}",
+              "name": "{{ collection.title }}"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item":
+            {
+              "@id": "{{ shop.url }}{{ product.url }}",
+              "name": "{{ product.title }}"
+            }
+          }
+        {% else %}
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item":
+            {
+              "@id": "{{ shop.url }}{{ product.url }}",
+              "name": "{{ product.title }}"
+            }
+          }
+        {% endif %}
+      {%- elsif template.name == 'collection' and collection.handle -%}
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item":
+            {
+              "@id": "{{ shop.url }}{{ collection.url }}",
+              "name": "{{ collection.title }}"
+            }
+        }
+      {%- elsif template.name == 'blog' -%}
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item":
+          {
+            "@id": "{{ shop.url }}{{ blog.url }}",
+            "name": "{{ blog.title }}"
+          }
+      }
+      {%- elsif template.name == 'article' -%}
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item":
+          {
+            "@id": "{{ shop.url }}{{ blog.url }}",
+            "name": "{{ blog.title }}"
+          }
+      }
+      {%- elsif template.name == 'page' -%}
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item":
+          {
+            "@id": "{{ shop.url }}{{ page.url }}",
+            "name": "{{ page.title }}"
+          }
+      }
+      {%- elsif template.name == 'search' -%}
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item":
+          {
+            "@id": "{{ shop.url }}{{ page.url }}",
+            "name": "{{ page_title | replace: '*', '' }}"
+          }
+      }
+      {%- else -%}
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item":
+          {
+            "@id": "{{ shop.url }}{{ page.url }}",
+            "name": "{{ page_title }}"
+          }
+      }
+      {%- endif -%}
+  {%- endunless -%}
+  ]
+  }
+  </script>

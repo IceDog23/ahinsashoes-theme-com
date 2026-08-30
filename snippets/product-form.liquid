@@ -1,659 +1,736 @@
-{%- capture form_id -%}AddToCartForm-{{ section_id }}{%- endcapture -%}
-{%- form 'product', product, id: form_id, class: 'product-single__form' -%}
+{%- assign product_form_id = 'product-form-' | append: pr_se_id -%}
+{%- liquid
+  assign pr_variants = product.variants
+  assign PR_buy_pr = false
+  if bk_stts.show_dynamic_checkout and isExternal == false and isProductAvailable
+    assign PR_buy_pr = true
+  endif
+  assign choose_an_option = 'products.product.choose_an_option' | t
+  assign date_in = settings.date_in
+  assign class_frm = 't4s-form__product has--form__swatch'
+  if isProductDefault
+    assign class_frm = 't4s-form__product'
+  endif
+  if arr_properties.size > 0 and isProductAvailable
+    assign class_frm = class_frm | append: ' has--properties'
+  endif
+  if settings.sticky_atc and type == 'main'
+    assign class_frm = class_frm | append: ' is--main-sticky'
+  else
+    assign class_frm = class_frm | append: ' is--atc-sticky'
+  endif
 
-  {% assign color_tag_prefix = "color-" %}
-  {% if shop.url contains "ahinsashoes.cz" %}
-    {% assign color_tag_prefix = "barva-" %}
-  {% endif %}
+  assign color_swatch = 'disabled-'
+  assign color_mode = bk_stts.color_mode
+  assign selector_mode = bk_stts.selector_mode
+  assign stt_color_ck = settings.color_ck | default: ';'
+  assign color_ck = stt_color_ck | append: ',color,colors,couleur,colour' | remove: ';,'
+  assign get_color = color_ck | downcase | replace: ' ,', ',' | replace: ', ', ',' | split: ',' | uniq
+  assign color_mode_list = 'color, color is-sw-cl__round, variant_image, variant_image is-sw-cl__round' | split: ', '
+  if color_mode_list contains color_mode
+    assign color_swatch = 'is-sw__color '
+  endif
+  assign current_variant_available = current_variant.available
+  assign use_incoming_mess = settings.use_incoming_mess
+  assign current_variant_incoming = false
+  assign current_inventory_quantity = current_variant.inventory_quantity
+  if current_inventory_quantity <= 0 and current_variant.inventory_management == 'shopify' and current_variant.incoming
+    assign current_variant_incoming = true
+  endif
+  if pos_sizeg == '1'
+    assign html_sizeg = ''
+  endif
+  if current_variant.inventory_management != null and current_inventory_quantity > 0 and current_variant.inventory_policy != 'continue'
+    assign max_qty = current_inventory_quantity
+  else
+    assign max_qty = 9999
+  endif
+  if current_variant.quantity_rule.max and max_qty > current_variant.quantity_rule.max
+    assign max_qty = current_variant.quantity_rule.max
+  endif
+  if color_mode contains 'color' or color_mode contains 'variant'
+    assign show_tooltip = ''
+  else
+    assign show_tooltip = '-off'
+  endif
 
-{% if product.metafields.global.product_group.value != blank %}
-  {% assign product_group = product.metafields.global.product_group.value %}
-  {%- comment -%}e.g. bindu-2-barefoot-damske-polobotky{%- endcomment -%}
-  {% assign color_collection = collections[product_group] %}
-  {% assign is_dropdown = false %}
-  {% if color_collection.products.size > 4 %}
-    {% assign is_dropdown = true %}
-  {% endif %}
+  assign ab_test = ab_test
+-%}
+{%- liquid
+  assign gift_card_recipient_feature_active = false
+  if bk_stts.show_gift_card_recipient and product.gift_card?
+    assign gift_card_recipient_feature_active = true
+    assign PR_buy_pr = false
+  endif
+-%}
 
-    <div class="color-variants-options{% if is_dropdown %} dropdown{% endif %} ">
+{%- if color_mode == 'dropdown' or selector_mode == 'dropdown' -%}
+  <link rel="stylesheet" href="{{ 'base_drop.min.css' | asset_url }}" media="all">
+{%- endif -%}
 
-      <label class="variant__label">{{ "products.product.color_variants" | t}}</label>
-      {% if is_dropdown == false %}
-        <div class="variant-options">
-            {% for item in color_collection.products %}
-              {% assign item_color_name = "" %}
-              {% for tag in item.tags %}
-                {% if tag contains color_tag_prefix %}
-                  {% assign item_color_name = tag | remove: color_tag_prefix %}
-                {% endif %}
-              {% endfor %}
-              {% assign is_currentColor = false %}
-              {% if item.id == product.id %}
-                {% assign is_currentColor = true %}
-              {% endif %}
-              <a
-                href="{{item.url}}"
-                class="color-option {% if is_currentColor %}current{% endif %}"
-                >
-                <img src="{{item.featured_media.src | img_url: "60x60"}}" alt="{{item_color_name}}" />
-              </a>
-            {% endfor %}
-          </div>
-        {% else %}
-
-          {% assign current_item_color_name = "" %}
-          {% for tag in product.tags %}
-            {% if tag contains color_tag_prefix %}
-              {% assign current_item_color_name = tag | remove: color_tag_prefix %}
-            {% endif %}
-          {% endfor %}
-          <a href="#" class="dropdown-current">
-            <span>{{ "products.product.color_variants_current" | t}}:</span>
-              <img
-              src="{{product.featured_media.src | img_url: "60x60"}}"
-              alt="{{current_item_color_name}}"
-              >
-              <strong>{{current_item_color_name}}</strong>
-          </a>
-          <div class="variant-dropdown-options hide">
-            {% for item in color_collection.products %}
-              {% assign item_color_name = "" %}
-              {% for tag in item.tags %}
-                {% if tag contains color_tag_prefix %}
-                  {% assign item_color_name = tag | remove: color_tag_prefix %}
-                {% endif %}
-              {% endfor %}
-              {% assign is_currentColor = false %}
-              {% if item.id == product.id %}
-                {% assign is_currentColor = true %}
-              {% endif %}
-              <a
-                href="{{item.url}}"
-                class="color-option {% if is_currentColor %}current{% endif %}"
-                >
-                <img src="{{item.featured_media.src | img_url: "60x60"}}" alt="{{item_color_name}}" />
-              </a>
-            {% endfor %}
-          </div>
-        {% endif %}
-      
-    </div>
-  {% else %}
-
-{% if shop.url contains "ahinsashoes.com" %}
-  {% assign main_collections = "womens-barefoot-shoes,womens-comfort-shoes,mens-barefoot-shoes,mens-comfort-shoes" | split: ',' %}
-{% else %}
-  {% assign main_collections = "damske-barefoot,damske-komfortni-boty,panske-barefoot,panska-komfortni-obuv" | split: ',' %}
-{% endif %}
-{% for col in product.collections %}
-  {% for m_col in main_collections %}
-    {% if col.handle == m_col %}
-      {% assign current_group = m_col | append: "/" %}
-      {% for group in collections[m_col].metafields.global.product_groups.value %}
-      
-        {% assign group_tags = group | split: '+' %}
-        {% for gt in group_tags %}
-          {% assign has_gt = false %}
-          {% for t in product.tags %}
-            {% assign t_handleized = t | handleize %}
-            {% if t_handleized == gt %}
-              {% assign has_gt = true %}
-            {% endif %}
-          {% endfor %}
-          {% if has_gt %}
-            {% if forloop.index == group_tags.size %}
-              {% assign current_group = m_col | append: "/" | append: group %}
-            {% endif %}
-          {% else %}
-            {% break %}
-          {% endif %}
-        {% endfor %}
-      
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-
-{% if current_group != blank %}
-  {% assign product_group = current_group | split: '/' | first %}
-  {% assign group_tags = current_group | split: '/' | last | split: '+' %}
-
-  {% assign color_collection = collections[product_group] %}
-  {% assign is_dropdown = false %}
-
-  {% assign items_in_cc = 0 %}
-  {% paginate color_collection.products by 1000 %}
-
-  {% for item in color_collection.products %}
-    {% assign show_variant = false %}
-    {% for gt in group_tags %}
-      {% assign has_gt = false %}
-      {% for t in item.tags %}
-        {% assign t_handleized = t | handleize %}
-        {% if t_handleized == gt %}
-          {% assign has_gt = true %}
-        {% endif %}
-      {% endfor %}
-      {% if has_gt %}
-        {% if forloop.index == group_tags.size %}
-          {% assign items_in_cc = items_in_cc | plus: 1 %}
-        {% endif %}
-      {% else %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-  {% endpaginate %}
-
-  {% if items_in_cc > 4 %}
-    {% assign is_dropdown = true %}
-  {% endif %}
-
-    {% if items_in_cc > 1 %}
-      <div class="color-variants-options{% if is_dropdown %} dropdown{% endif %} ">
-
-        <label class="variant__label">{{ "products.product.color_variants" | t}}</label>
-        {% if is_dropdown == false %}
-          <div class="variant-options">
-            {% paginate color_collection.products by 1000 %}
-              {% for item in color_collection.products %}
-                {% assign show_variant = false %}
-                {% for gt in group_tags %}
-                  {% assign has_gt = false %}
-                  {% for t in item.tags %}
-                    {% assign t_handleized = t | handleize %}
-                    {% if t_handleized == gt %}
-                      {% assign has_gt = true %}
-                    {% endif %}
-                  {% endfor %}
-                  {% if has_gt %}
-                    {% if forloop.index == group_tags.size %}
-                      {% assign show_variant = true %}
-                    {% endif %}
-                  {% else %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
-
-                {% assign item_color_name = "" %}
-                {% for tag in item.tags %}
-                  {% if tag contains color_tag_prefix %}
-                    {% assign item_color_name = tag | remove: color_tag_prefix %}
-                  {% endif %}
-                {% endfor %}
-                {% assign is_currentColor = false %}
-                {% if item.id == product.id %}
-                  {% assign is_currentColor = true %}
-                {% endif %}
-                {% if show_variant %}
-                  <a
-                  href="{{item.url}}"
-                  class="color-option {% if is_currentColor %}current{% endif %}"
-                  >
-                  <img src="{{item.featured_media.src | img_url: "60x60"}}" alt="{{item_color_name}}" />
-                </a>
-                {% endif %}
-              {% endfor %}
-              {% endpaginate %}
-            </div>
-          {% else %}
-
-            {% assign current_item_color_name = "" %}
-            {% for tag in product.tags %}
-              {% if tag contains color_tag_prefix %}
-                {% assign current_item_color_name = tag | remove: color_tag_prefix %}
-              {% endif %}
-            {% endfor %}
-            <a href="#" class="dropdown-current">
-              <span>{{ "products.product.color_variants_current" | t}}:</span>
-                <img
-                src="{{product.featured_media.src | img_url: "60x60"}}"
-                alt="{{current_item_color_name}}"
-                >
-                <strong>{{current_item_color_name}}</strong>
-            </a>
-            <div class="variant-dropdown-options hide">
-              {% paginate color_collection.products by 1000 %}
-
-              {% for item in color_collection.products %}
-                {% assign show_variant = false %}
-
-                {% for gt in group_tags %}
-                  {% assign has_gt = false %}
-                  {% for t in item.tags %}
-                    {% assign t_handleized = t | handleize %}
-                    {% if t_handleized == gt %}
-                      {% assign has_gt = true %}
-                    {% endif %}
-                  {% endfor %}
-                  {% if has_gt %}
-                    {% if forloop.index == group_tags.size %}
-                      {% assign show_variant = true %}
-                    {% endif %}
-                  {% else %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
-
-                {% assign item_color_name = "" %}
-                {% for tag in item.tags %}
-                  {% if tag contains color_tag_prefix %}
-                    {% assign item_color_name = tag | remove: color_tag_prefix %}
-                  {% endif %}
-                {% endfor %}
-                {% assign is_currentColor = false %}
-                {% if item.id == product.id %}
-                  {% assign is_currentColor = true %}
-                {% endif %}
-                {% if show_variant == true %}
-                  <a
-                  href="{{item.url}}"
-                  class="color-option {% if is_currentColor %}current{% endif %}"
-                  >
-                  <img src="{{item.featured_media.src | img_url: "60x60"}}" alt="{{item_color_name}}" />
-                </a>
-                {% endif %}
-              {% endfor %}
-              {% endpaginate %}
-            </div>
-          {% endif %}
-        
-      </div>
-    {% endif %}
-{% endif %}
-
-{% endif %}
-
-  {%- unless product.has_only_default_variant -%}
-    {%- for option in product.options_with_values -%}
-      {%- liquid
-        if settings.product_color_swatches
-          assign is_color = false
-          assign color_option_index = 0
-          assign swatch_trigger = 'products.general.color_swatch_trigger' | t | downcase
-          assign color_option_index = forloop.index0
-          assign downcased_option = option.name | downcase
-          if downcased_option contains swatch_trigger
-            assign is_color = true
-          elsif swatch_trigger == 'color' and downcased_option contains 'colour'
-            assign is_color = true
-          endif
-        endif
+<div
+  class="t4s-product-form__variants is-no-pick__{{ PR_no_pick }}{% if PR_buy_pr %} is-payment-btn-true t4s-payment-button t4s-btn-color-{{ bk_stts.button_color_payment }}{% endif %}  is-remove-soldout-{{ remove_soldout }} is-btn-full-width__{{ bk_stts.btn_atc_full }} is-btn-atc-txt-{{ bk_stts.btn_txt }} is-btn-ck-txt-{{ bk_stts.btn_txt2 }} is--fist-ratio-{{ is_fit_ratio_img }}"
+  style="{% if is_fit_ratio_img %};--fit-ratio-img:{{ first_ratio_img }};{% endif %} --wishlist-color: {{ bk_stts.wishlist_color }};--wishlist-hover-color: {{ bk_stts.wishlist_color_hover }};--wishlist-active-color: {{ bk_stts.wishlist_color_active }};--compare-color: {{ bk_stts.compare_color }};--compare-hover-color: {{ bk_stts.compare_color_hover }};--compare-active-color: {{ bk_stts.compare_color_active }};"
+  {{ shopify_attributes }}
+>
+  <!-- template info -->
+  <div id="ProductForm" data-template="{{ template.suffix }}">
+    <div data-callBackVariant id="t4s-callBackVariant{{ product_form_id }}">
+      {%- form 'product',
+        product,
+        id: product_form_id,
+        data-productid: product.id,
+        class: class_frm,
+        novalidate: 'novalidate',
+        data-type: 'add-to-cart-form',
+        data-disable-swatch: isProductDefault,
+        data-current-variant: current_variant
       -%}
+        {{- form | payment_terms -}}
 
-      {%- if settings.variant_type == 'button' -%}
-        {%- render 'variant-button',
-          section_id: section_id,
-          option: option,
-          forloop: forloop,
-          is_color: is_color,
-          color_option_index: color_option_index
-        -%}
-      {%- else -%}
-        {%- render 'variant-dropdown',
-          section_id: section_id,
-          option: option,
-          forloop: forloop
-        -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endunless -%}
+        {%- if isProductDefault -%}
+          <input name="id" value="{{ pr_variants.first.id }}" type="hidden">
+          {%- if advance_pr_type != blank -%}
+            {%- render 'choose_style',
+              advance_pr_type: advance_pr_type,
+              title: advance_label,
+              lbl_font: bk_stts.fnt_df_pr_adv_lbl,
+              mgb: bk_stts.advance_pr_mgb,
+              pid: product.id
+            -%}
+          {%- endif -%}
 
-      {% render "jak-spravne-vybrat-velikost" %}
+        {%- else -%}
+          {{ 'swatch.css' | asset_url | stylesheet_tag }}
+          <select name="id" id="product-select-{{ pr_se_id }}" class="t4s-product__select t4s-d-none">
+            {%- for variant in pr_variants -%}
+              {%- if variant.available -%}
+                <option
+                  value="{{ variant.id }}"
+                  data-sku="{{ variant.sku }}"
+                  data-mdid="{{ variant.featured_media.id | json }}"
+                  data-incoming="{{ variant.incoming }}"
+                  data-inventoryQuantity="{{ variant.inventory_quantity | json }}"
+                  data-inventoryPolicy="{{ variant.inventory_policy }}"
+                  data-nextIncomingDate="{{ variant.next_incoming_date | date: date_in }}"
+                  data-preorderLimit="{{ variant.metafields.preorder.limit }}"
+                  {% for option in variant.options %}
+                    data-option="{{ option.name }}"
+                  {% endfor %}
+                  {% comment %}
+                    {% if variant.id == current_variant.id %}
+                      selected="selected"
+                    {% endif %}
+                  {% endcomment %}
+                >
+                  {{ variant.title | escape }}
+                </option>
+              {%- else -%}
+                <option
+                  value="{{ variant.id }}"
+                  data-sku="{{ variant.sku }}"
+                  data-mdid="{{ variant.featured_media.id | json }}"
+                  data-incoming="{{ variant.incoming }}"
+                  data-inventoryQuantity="{{ variant.inventory_quantity | json }}"
+                  data-inventoryPolicy="{{ variant.inventory_policy }}"
+                  data-nextIncomingDate="{{ variant.next_incoming_date | date: date_in }}"
+                  data-preorderLimit="{{ variant.metafields.preorder.limit }}"
+                  {% for option in variant.options %}
+                    data-option="{{ option.name }}"
+                  {% endfor %}
+                  {% if remove_soldout %}
+                    disabled="disabled"
+                  {% endif %}
+                  class="is--sold-out"
+                >
+                  {{ variant.title | escape }}
+                </option>
+              {%- endif -%}
+            {%- endfor -%}
+          </select>
 
-  <select name="id" id="ProductSelect-{{ section_id }}" class="product-single__variants no-js">
-    {%- for variant in product.variants -%}
-      {%- if variant.available -%}
-        <option {% if variant == product.selected_or_first_available_variant %}
-          selected="selected"{% endif %}
-          value="{{ variant.id }}">
-          {{ variant.title }} - {{ variant.price | money_with_currency }}
-        </option>
-      {%- else -%}
-        <option disabled="disabled">
-          {{ variant.title }} - {{ 'products.product.sold_out' | t }}
-        </option>
-      {%- endif -%}
-    {%- endfor -%}
-  </select>
+          <div class="t4s-swatch t4s-color-mode__{{ color_mode }} t4s-color-size__{{ bk_stts.color_size }} t4s-selector-mode__{{ selector_mode }}">
+            {%- if advance_pr_type != blank -%}
+              {%- render 'choose_style',
+                advance_pr_type: advance_pr_type,
+                title: advance_label,
+                lbl_font: bk_stts.fnt_df_pr_adv_lbl,
+                mgb: bk_stts.advance_pr_mgb,
+                pid: product.id
+              -%}
+            {%- endif -%}
 
-
-  {%- if settings.inventory_enable or settings.inventory_transfers_enable -%}
-              {%- assign variants_with_inventory_tracking = product.variants | where: 'inventory_management', 'shopify' -%}
-
-              <script>
-                // Store inventory quantities in JS because they're no longer
-                // available directly in JS when a variant changes.
-                // Have an object that holds all potential products so it works
-                // with quick view or with multiple featured products.
-                window.inventories = window.inventories || {};
-                window.inventories['{{ section_id }}'] = {};
-                 {% for variant in variants_with_inventory_tracking %}
-                  window.inventories['{{ section_id }}'][{{ variant.id }}] = {
-                    'quantity': {{ variant.inventory_quantity | default: 0 }},
-                    'incoming': {{ variant.incoming | default: false | json }},
-                    'next_incoming_date': {{ variant.next_incoming_date | date: format: 'date' | json }}
-                  };
-                 {% endfor %}
-              </script>
+            {%- for option in product.options_with_values -%}
+              {%- liquid
+                assign option_name = option.name
+                assign name_downcase = option_name | downcase
+              -%}
 
               {% comment %}
-                If loaded in quick view, it might be from a JS-loaded function
-                that loads recommended products. If that's the case, the above
-                JS will not set the variant inventory. Add it to an accessible
-                data div to read later instead.
+                if option.values.size == 1
+                  assign selected_value = option.values.first
+                else
+                  assign option_index = 'option' | append: forloop.index
+                  assign selected_value = current_variant[option_index]
+                endif
               {% endcomment %}
-              {%- if isModal -%}
+
+              {%- if get_color contains name_downcase -%}
                 <div
-                  data-section-id="{{ section_id }}"
-                  class="hide js-product-inventory-data"
-                  aria-hidden="true"
-                  >
-                  {%- for variant in variants_with_inventory_tracking -%}
-                    <div
-                      class="js-variant-inventory-data"
-                      data-id="{{ variant.id }}"
-                      data-quantity="{{ variant.inventory_quantity | default: 0 }}"
-                      data-incoming="{{ variant.incoming | default: false | json }}"
-                      data-date="{{ variant.next_incoming_date | date: format: 'date' | json }}"
+                  data-swatch-option
+                  data-id="{{ forloop.index0 }}"
+                  class="t4s-swatch__option is-t4s-style__color is-t4s-name__{{ option_name | handle }} {% cycle 'is--first-color', '', '' %}"
+                >
+                  <h4 class="t4s-swatch__title">
+                    <span>
+                      {{- option_name }}:
+                      <span data-current-value class="t4s-dib t4s-swatch__current">
+                        {{- selected_value | default: choose_an_option -}}
+                      </span></span
                     >
-                    </div>
-                  {%- endfor -%}
+                    {%- if name_sizeg == name_downcase %}{{ html_sizeg }}{% endif %}
+                  </h4>
+                  <div data-swatch-list class="t4s-swatch__list">
+                    {%- if color_mode != 'dropdown' -%}
+                      {%- for value in option.values -%}
+                        <div
+                          data-swatch-item
+                          data-tooltip{{ show_tooltip }}="top"
+                          title="{{ value | escape }}"
+                          class="t4s-swatch__item {{ color_swatch }}bg_color_{{ value | handle }} lazyloadt4s{% if selected_value == value %} is--selected{% endif %}"
+                          data-value="{{ value | escape }}"
+                        >
+                          {{ value }}
+                        </div>
+                      {%- endfor -%}
+
+                    {%- else -%}
+                      <button
+                        type="button"
+                        data-dropdown-open
+                        data-position="bottom-end"
+                        data-id="t4s_nt_{{ pr_se_id }}{{ forloop.index }}"
+                      >
+                        {{- option_name }}:
+                        <span data-current-value>{{ selected_value | default: choose_an_option }}</span>
+                        <svg class="t4s-icon-select-arrow" role="presentation" viewBox="0 0 19 12">
+                          <use xlink:href="#t4s-select-arrow"></use>
+                        </svg>
+                      </button>
+                      <div
+                        data-dropdown-wrapper
+                        class="t4s-dropdown__wrapper t4s-current-scrollbar"
+                        id="t4s_nt_{{ pr_se_id }}{{ forloop.index }}"
+                      >
+                        <div class="t4s-drop-arrow"></div>
+                        <div class="t4s-dropdown__header">
+                          <span class="t4s-dropdown__title">
+                            {{- option_name }}:
+                            <span data-current-value>{{ selected_value | default: choose_an_option }}</span></span
+                          >
+                          <button type="button" data-dropdown-close aria-label="{{ 'general.aria.close' | t }}">
+                            <svg role="presentation" class="t4s-iconsvg-close" viewBox="0 0 16 14">
+                              <path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path>
+                            </svg>
+                          </button>
+                        </div>
+                        <div class="t4s-dropdown__content">
+                          {%- for value in option.values -%}
+                            <div
+                              data-swatch-item
+                              data-dropdown-off
+                              class="t4s-swatch__item t4s-truncate {{ color_swatch }}bg_color_{{ value | handle }} lazyloadt4s{% if selected_value == value %} is--selected{% endif %}"
+                              data-value="{{ value | escape }}"
+                            >
+                              {{ value }}
+                            </div>
+                          {%- endfor -%}
+                        </div>
+                      </div>
+                    {%- endif -%}
+                  </div>
+                </div>
+
+              {%- else -%}
+                <div
+                  data-swatch-option
+                  data-id="{{ forloop.index0 }}"
+                  class="t4s-swatch__option is-t4s-name__{{ option_name | handle }}"
+                >
+                  <h4 id="SizeOptionTitle" class="custom t4s-swatch__title">
+                    {{ option_name }}
+
+                    {% comment %} Footprint script {% endcomment %}
+                    <div
+                      id="footprinttech-button"
+                      data-api-key="xxx"
+                      data-article-number="{{ product.first_available_variant.sku }}"
+                      data-article-name="{{ product.title }}"
+                      data-article-image="{{ product.featured_image }}"
+                      data-article-price="{{ product.price }}"
+                    ></div>
+                    <script src="https://cdn.myfootprint.app/driver/prod/index.js"></script>
+                    {% comment %} Footprint script end {% endcomment %}
+                    {% comment %}
+                      <span data-current-value>
+                      <span data-current-value class="t4s-dib t4s-swatch__current">{{ selected_value | default: choose_an_option }}</span>
+                      </span>
+                    {% endcomment %}
+                    {% if name_sizeg == name_downcase %}
+                      {{ html_sizeg }}
+                    {% endif %}
+                  </h4>
+                  {% comment %} THIS IS A CURRENT LIST {% endcomment %}
+                  <div class="custom t4s-swatch__list">
+                    {%- if selector_mode != 'dropdown' -%}
+                      {%- for value in option.values -%}
+                        {% comment %} A/B TESTING 001, subtitle text {% endcomment %}
+                        <div
+                          data-swatch-item
+                          {% unless template.suffix == 'gift-card' %}
+                            class="custom t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}"
+                          {% endunless %}
+                          class="custom t4s-swatch__item"
+                          data-value="{{ value | escape }}"
+                          data-preorderLimit="{{ product.variants[forloop.index0].metafields.preorder.limit }}"
+                        >
+                          {% if template.suffix == 'gift-card' %}
+                            {{ value }} Kč
+                          {% else %}
+                            {{ value }}
+                          {% endif %}
+                        </div>
+                      {%- endfor -%}
+
+                    {%- else -%}
+                      <button
+                        type="button"
+                        data-dropdown-open
+                        data-position="bottom-end"
+                        data-id="t4s_nt_{{ pr_se_id }}{{ forloop.index }}"
+                      >
+                        <span data-current-value>{{ selected_value | default: choose_an_option }}</span>
+                        <svg class="t4s-icon-select-arrow" role="presentation" viewBox="0 0 19 12">
+                          <use xlink:href="#t4s-select-arrow"></use>
+                        </svg>
+                      </button>
+                      <div
+                        data-dropdown-wrapper
+                        class="t4s-dropdown__wrapper t4s-current-scrollbar"
+                        id="t4s_nt_{{ pr_se_id }}{{ forloop.index }}"
+                      >
+                        <div class="t4s-drop-arrow"></div>
+                        <div class="t4s-dropdown__header">
+                          <span class="t4s-dropdown__title">
+                            {{- option_name }}
+                            {% comment %} DEJV EDITS HIDE SELECTED VALUE {% endcomment %}
+                            {% comment %} <span data-current-value>{{ selected_value | default: choose_an_option }}</span> {% endcomment %}
+                          </span>
+                          <button type="button" data-dropdown-close aria-label="{{ 'general.aria.close' | t }}">
+                            <svg role="presentation" class="t4s-iconsvg-close" viewBox="0 0 16 14">
+                              <path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path>
+                            </svg>
+                          </button>
+                        </div>
+                        <div class="t4s-dropdown__content">
+                          {%- for value in option.values -%}
+                            <div
+                              data-swatch-item
+                              data-dropdown-off
+                              class="t4s-swatch__item t4s-truncate{% if selected_value == value %} is--selected{% endif %}"
+                              data-value="{{ value | escape }}"
+                            >
+                              {{ option_name }}
+                              {{ value }}
+                            </div>
+                          {%- endfor -%}
+                        </div>
+                      </div>
+                    {%- endif -%}
+                  </div>
                 </div>
               {%- endif -%}
-            {%- endif -%}
-            
-
-
-            
-  {%- assign inventory_visible = false -%}
-  {%- if settings.inventory_enable and current_variant.inventory_management == 'shopify' -%}
-    {%- if current_variant.inventory_quantity <= settings.inventory_threshold and current_variant.inventory_quantity >= 0 -%}
-      {%- assign inventory_visible = true -%}
-    {%- endif -%}
-  {%- endif -%}
-  {%- liquid
-    if current_variant.inventory_quantity < 1
-      assign inventory_visible = false
-    endif
-
-    assign show_incoming = false
-    if current_variant.incoming and inventory_visible == false and current_variant.inventory_quantity <= settings.inventory_threshold
-      assign show_incoming = true
-    endif
-  -%}
-  {%- if settings.inventory_enable -%}
-    <div
-      id="XProductInventory-{{ section_id }}"
-      class="product__inventory"
-      >
-      {%- if current_variant.inventory_policy == 'continue' and current_variant.next_incoming_date != blank -%}
-        {%- assign date = current_variant.next_incoming_date | date: format: 'date' -%}
-        <strong>
-          {{ 'products.product.preorder2' | t: date: date }}
-        </strong>
-        {%- comment -%}
-        <input type="text" class="hide" name="properties[next_incoming_date]" value="{{current_variant.next_incoming_date | date: '%s' }}"/>
-        {%- elsif current_variant.available -%}
-        {{ 'products.product.stock_label' | t: count: current_variant.inventory_quantity }}
-        {%- endcomment -%}
-
-      {%- endif -%}
-    </div>
-  {%- endif -%}
-
-  {%- if settings.inventory_transfers_enable -%}
-    <div
-      id="ProductIncomingInventory-{{ section_id }}"
-      class="product__inventory{% unless inventory_visible %} hide{% endunless %}">
-      {%- if show_incoming == true -%}
-        {%- if current_variant.next_incoming_date -%}
-          {%- assign date = current_variant.next_incoming_date | date: format: 'date' -%}
-          {%- if current_variant.available -%}
-            {{ 'products.product.will_not_ship_until' | t: date: date }}
-          {%- else -%}
-            {{ 'products.product.will_be_in_stock_after' | t: date: date }}
-          {%- endif -%}
-        {%- else -%}
-          {{ 'products.product.waiting_for_stock' | t }}
+            {%- endfor -%}
+          </div>
         {%- endif -%}
+
+        {%- liquid
+          if arr_properties.size > 0 and isProductAvailable
+            render 'frm_properties', arr_properties: arr_properties, product: product
+          endif
+        -%}
+
+        {%- if use_incoming_mess
+          and current_variant_incoming
+          and pr_variants.size == 1
+          and current_variant.next_incoming_date != blank
+        -%}
+          {%- assign format_date = current_variant.next_incoming_date | date: date_in -%}
+          <div class="t4s-incoming__mess">
+            {% if current_variant_available -%}
+              {{- 'products.product_single.will_not_ship_until_html' | t: date: format_date -}}
+            {%- else -%}
+              {{- 'products.product_single.will_be_in_stock_after_html' | t: date: format_date -}}
+            {%- endif %}
+          </div>
+        {%- elsif use_incoming_mess and pr_variants.size > 1 -%}
+          {%- liquid
+            assign format_date = current_variant.next_incoming_date | date: date_in
+            unless format_date
+              assign format_date = '19041994'
+            endunless
+          -%}
+          <div
+            data-incoming__mess
+            class="t4s-incoming__mess"
+            {% unless current_variant_incoming %}
+              hidden
+            {% endunless %}
+          >
+            <span
+              data-incoming-available
+              {% if current_variant_available == false or current_variant == blank %}
+                style="display:none"
+              {% endif %}
+            >
+              {{- 'products.product_single.will_not_ship_until_html' | t: date: format_date -}}</span
+            ><span
+              data-incoming-soldout
+              {% if current_variant_available or current_variant == blank %}
+                style="display: none"
+              {% endif %}
+            >
+              {{- 'products.product_single.will_be_in_stock_after_html' | t: date: format_date -}}
+            </span>
+          </div>
+        {%- endif -%}
+        {{ 'button-style.css' | asset_url | stylesheet_tag }}
+        <link href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+
+        {% comment %} DEJV EDITS {% endcomment %}
+        {% comment %} {{- html_price -}} {% endcomment %}
+        {% comment %} DEJV EDITS END {% endcomment %}
+
+        {%- if gift_card_recipient_feature_active -%}
+          <div class="t4s-d-flex t4s-flex-wrap">
+            {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
+          </div>
+        {%- endif -%}
+        <div class="t4s-price-wrapper">
+          {{- html_price -}}
+        </div>
+
+        {% comment %} DEJV EDITS {% endcomment %}
+        {% comment %} In the future here I should add state when in pre-sale and when available in the physical store {% endcomment %}
+        {% if pr_availibility %}
+          <div data-product-available class="custom t4s-available-wrapper">
+            <span class="t4s-availibility-icon">
+              <img
+                data-stock="preOrder"
+                data-limit="{{ preorder_limit }}"
+                src="{{ 'ok-16.png' | file_img_url: "pico" }}"
+                style="{% if isPreorder %}display:inline{% else %}display:none{% endif %}"
+                width="16"
+                height="16"
+                alt="{{ 'products.product.pre_order_alt' | t }}"
+              >
+              <img
+                data-stock="outOfStock"
+                src="{{ 'x-mark-3-16.png' | file_img_url: "pico" }}"
+                style="{% if current_variant_available == false or isProductAvailable == false or preorder_limit == current_variant.inventory_quantity %}display:inline{% else %}display:none{% endif %}"
+                width="16"
+                height="16"
+                alt="{{ 'products.product.pre_order_alt' | t }}"
+              >
+              <img
+                data-stock="lowStock"
+                src="{{ 'ok-16.png' | file_img_url: "pico" }}"
+                style="{% if isProductAvailable == true and current_variant.inventory_quantity < 5 and current_variant.inventory_quantity > 0 %}display:inline{% else %}display:none{% endif %}"
+                width="16"
+                height="16"
+                alt="{{ 'products.product.pre_order_alt' | t }}"
+              >
+              <img
+                data-stock="inStock"
+                src="{{ 'ok-16-green.png' | file_img_url: "pico" }}"
+                style="{% if isProductAvailable == true and current_variant.inventory_quantity >= 5 %}display:inline{% else %}display:none{% endif %}"
+                width="16"
+                height="16"
+                alt="{{ 'products.product.pre_order_alt' | t }}"
+              >
+            </span>
+            <span class="t4s-productMeta__value t4s-available-value">
+              <span
+                data-available-status
+                class="t4s-available-status t4s-csecondary t4s-dib {% unless pr_availibility %} t4s-dn{% endunless %}"
+                style="display: inline"
+              >
+                <span
+                  data-stock="preOrder"
+                  data-limit="{{ preorder_limit }}"
+                  class="{{ classdn2 }}"
+                  style="{% if isPreorder %}display:inline{% else %}display:none{% endif %}"
+                >
+                  {{- 'products.product.pre_oder_status' | t -}}
+                </span>
+                <span
+                  data-stock="outOfStock"
+                  data-outofstock=" {{- 'products.product.sold_out_status' | t -}}"
+                  class="t4s-soldout-status t4s-csecondary t4s-dib{% if pr_availibility %} t4s-dn{% endif %}"
+                  style="{% if current_variant_available == false or isProductAvailable == false or preorder_limit == current_variant.inventory_quantity %}display:inline{% else %}display:none{% endif %}"
+                >
+                  {{- 'products.product.sold_out_status' | t -}}
+                </span>
+                <span
+                  data-stock="lowStock"
+                  class="{{ classdn1 }}"
+                  style="{% if isProductAvailable == true and current_variant.inventory_quantity < 5 and current_variant.inventory_quantity > 0 %}display:inline{% else %}display:none{% endif %}"
+                >
+                  {{- 'products.product.last_items_status' | t -}}
+                </span>
+                <span
+                  data-stock="inStock"
+                  class="{{ classdn1 }}"
+                  style="{% if isProductAvailable == true and current_variant.inventory_quantity >= 5 %}display:inline{% else %}display:none{% endif %}"
+                >
+                  {{- 'products.product.in_stock_status' | t -}}
+                </span>
+                <span
+                  data-stock="inStore"
+                  class="{{ classdn1 }} t4s-in-store-status"
+                  style="display:none"
+                >
+                  {{ 'products.product.in_store_html' | t }}
+                </span>
+              </span>
+            </span>
+            <br>
+            {% if next_available_date %}
+              <span
+                data-stock="preOrder"
+                class="{{ classdn2 }}"
+                style="{% if isPreorder %}display:inline{% else %}display:none{% endif %}"
+              >
+                {{- 'products.product.available_date' | t -}}
+                {% render 'date-translate', dateString: next_available_date, language: 'Czech' %}
+              </span>
+              <span
+                data-stock="outOfStock"
+                class="{{ classdn2 }}"
+                style="{% if current_variant_available == false or isProductAvailable == false or preorder_limit == current_variant.inventory_quantity %}display:inline{% else %}display:none{% endif %}"
+              >
+                {{- 'products.product.available_date' | t -}}
+                {% render 'date-translate', dateString: next_available_date, language: 'Czech' %}
+              </span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% comment %} ADD TO CART BUTTON AND SIMILAR FUNCS {% endcomment %}
+        <div
+          class="t4s-product-form__buttons  {% if pdp %}pdp-btn{% endif %}"
+          style="--pr-btn-round:{{ bk_stts.pr_btn_round }}px;"
+        >
+          <div class="t4s-d-flex t4s-flex-wrap">
+            {%- if isExternal -%}
+              <a
+                href="{{ external_link }}"
+                rel="nofollow"
+                target="_blank"
+                class="t4s-product-form__submit t4s-truncate is--btn-external t4s-btn t4s-btn-base t4s-btn-style-{{ bk_stts.button_style }} t4s-btn-color-{{ bk_stts.button_color }} t4s-w-100 t4s-justify-content-center{% if bk_stts.button_style == 'default' or bk_stts.button_style == 'outline' %} t4s-btn-effect-{{ bk_stts.button_effect }}{% endif %} t4s-btn-loading__svg"
+              >
+                {%- if bk_stts.btn_icon -%}
+                  <svg class="t4s-btn-icon" viewBox="0 0 24 24">
+                    <use xlink:href="#t4s-icon-atc"></use>
+                  </svg>
+                {%- endif -%}
+                <span class="t4s-btn-atc_text">{{ external_title }}</span>
+                <span class="t4s-loading__spinner" hidden>
+                  <svg
+                    width="16"
+                    height="16"
+                    hidden
+                    class="t4s-svg-spinner"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 66 66"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle class="t4s-path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                  </svg>
+                </span>
+              </a>
+              {%- if bk_stts.enable_wishlist or bk_stts.enable_compare -%}
+                <!-- render t4s_wis_cp.liquid -->
+                {%- render 't4s_wis_cp', product: product, bk_stts: bk_stts -%}
+              {%- endif -%}
+
+            {%- else -%}
+              {%- if bk_stts.show_qty and isProductAvailable -%}
+                <div data-quantity-wrapper class="t4s-quantity-wrapper t4s-product-form__qty">
+                  <button
+                    data-quantity-selector
+                    data-decrease-qty
+                    type="button"
+                    class="t4s-quantity-selector is--minus"
+                  >
+                    <svg focusable="false" class="icon icon--minus" viewBox="0 0 10 2" role="presentation">
+                      <path d="M10 0v2H0V0z" fill="currentColor"></path>
+                    </svg>
+                  </button>
+                  <input
+                    data-quantity-value
+                    type="number"
+                    class="t4s-quantity-input"
+                    step="{{ current_variant.quantity_rule.increment | default: 1 }}"
+                    min="{{ cus_qty }}"
+                    max="{{ max_qty }}"
+                    name="quantity"
+                    value="{{ cus_qty }}"
+                    size="4"
+                    pattern="[0-9]*"
+                    inputmode="numeric"
+                  >
+                  <button data-quantity-selector data-increase-qty type="button" class="t4s-quantity-selector is--plus">
+                    <svg focusable="false" class="icon icon--plus" viewBox="0 0 10 10" role="presentation">
+                      <path d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                </div>
+              {%- else -%}
+                <input type="hidden" name="quantity" value="1">
+              {%- endif -%}
+
+              {%- if bk_stts.enable_wishlist or bk_stts.enable_compare -%}
+                <!-- render t4s_wis_cp.liquid -->
+                {%- render 't4s_wis_cp', product: product, bk_stts: bk_stts -%}
+              {%- endif -%}
+
+              <button
+                id="AddToCart"
+                data-animation-atc='{ "ani":"{{ bk_stts.ani }}","time":{{ bk_stts.time }}000 }'
+                type="submit"
+                name="add"
+                data-atc-form
+                class="t4s-product-form__submit t4s-btn t4s-btn-base t4s-btn-style-{{ bk_stts.button_style }} t4s-btn-color-{{ bk_stts.button_color }} t4s-w-100 t4s-justify-content-center {% if bk_stts.button_style == 'default' or bk_stts.button_style == 'outline' %} t4s-btn-effect-{{ bk_stts.button_effect }}{% endif %} t4s-btn-loading__svg"
+                {% if product.has_only_default_variant %}
+                  {% unless current_variant_available %}
+                    aria-disabled="true"
+                  {% endunless -%}
+                  {% unless isProductAvailable %}
+                    disabled="disabled"
+                    data-inventory="0"
+                  {% endunless %}
+                {% endif %}
+                data-outOfStock="{{- 'products.product.sold_out' | t -}}"
+                data-preOrder="{{- 'products.product.pre_order' | t -}}"
+                data-inStock="{{- 'products.product.add_to_cart' | t -}}"
+              >
+                {%- if bk_stts.btn_icon -%}
+                  <svg class="t4s-btn-icon" viewBox="0 0 24 24">
+                    <use xlink:href="#t4s-icon-atc"></use>
+                  </svg>
+                {%- endif -%}
+                <span class="t4s-btn-atc_text">
+                  {%- if current_variant_available == false
+                    or isProductAvailable == false
+                    or preorder_limit == current_variant.inventory_quantity
+                  -%}
+                    {{- 'products.product.sold_out' | t -}}
+                  {%- elsif isPreorder -%}
+                    {{- 'products.product.pre_order' | t }}
+                  {%- else -%}
+                    {{ 'products.product.add_to_cart' | t }}
+                  {%- endif -%}
+                </span>
+                <span class="t4s-loading__spinner" hidden>
+                  <svg
+                    width="16"
+                    height="16"
+                    hidden
+                    class="t4s-svg-spinner"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 66 66"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle class="t4s-path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                  </svg>
+                </span>
+              </button>
+              {% comment %} Delay payment pop up {% endcomment %}
+              {% unless template.suffix == 'gift-card' %}
+                {% comment %} A/B TESTING 001, delay payment pop up {% endcomment %}
+                {% unless ab_test %}
+                <span
+                  class="twisto-popup-open"
+                >
+                  <a href="#" onclick="openpopup()">Zaplatit až po vyzkoušení</a>
+                </span>
+                {% endunless %}
+              {% endunless %}
+              {% comment %} DEJVEDITS END {% endcomment %}
+            {%- endif -%}
+          </div>
+
+          {%- if PR_buy_pr and type != 'main_sticky' %}{{- form | payment_button -}}{% endif -%}
+          {%- if settings.use_notify_me -%}
+            <button
+              data-class="t4s-mfp-btn-close-inline"
+              data-id="t4s-pr-popup__notify-stock"
+              data-storageid="notify-stock{{ current_variant.id }}"
+              data-mfp-src
+              data-open-mfp-ajax
+              class="t4s-pr__notify-stock"
+              type="button"
+              data-notify-stock-btn
+              data-variant-id="{{ current_variant.id }}"
+              data-root-url="{{ routes.root_url }}"
+              {% if current_variant_available or current_variant == blank %}
+                style="display: none"
+              {% endif %}
+            >
+              {{ 'products.notify_stock.trigger' | t }}
+            </button>
+          {%- endif -%}
+        </div>
+      {%- endform -%}
+
+      {%- unless isProductDefault or type == 'main_sticky' -%}
+        <script type="application/json" class="pr_variants_json">
+          {{ product.variants | json }}
+        </script>
+        <script type="application/json" class="pr_options_json">
+          {{ product.options_with_values | json }}
+        </script>
+      {%- endunless -%}
+
+      {%- if bk_stts.ani != 'none' -%}
+        <link href="{{ 'ani-atc.min.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
       {%- endif -%}
     </div>
-  {%- endif -%}
-
-  <!--  Product availability  -->
-
-  {% capture inventory %}
-  {% for variant in product.variants %}
-    {{ variant.inventory_management }}
-  {% endfor %}
-{% endcapture %}
-
-
-{% if inventory contains "shopify" and product.selected_or_first_available_variant.next_incoming_date == blank %}
-  <div
-    id="ProductInventory-{{ section_id }}"
-    class="product__inventory hide product__inventory_in_stock {% if current_variant.inventory_policy != 'continue' %}hide{% endif %}"
-    {% if product.metafields.detail.stock_text.value %}
-      data-text="stock_label_3_days"
-    {% else %}
-      {%- comment -%}add 28 days:{%- endcomment -%}
-      {% if product.metafields.custom.next_incoming_date.value %}
-        {% capture date %}{{ product.metafields.custom.next_incoming_date.value | date: "%d.%m.%Y" }}{% endcapture %}
-      {% else %}
-        {% assign seconds = 28 | times: 24 | times: 60 | times: 60 %}
-        {% capture date %}{{ 'now' | date: "%s" | plus: seconds | date: "%d.%m.%Y" }}{% endcapture %}
-      {% endif %}
-
-        data-preorder-text="{{ 'products.product.preorder3' | t: date: date }}"
-      {% if product.tags contains "always in stock" or current_variant.inventory_policy == 'continue' %}
-        data-always-in-stock="true"
-      {% endif %}
-    {% endif %}
-    data-storeinstock="{{ 'products.product.store_in_stock_html' | t }}"
-    >
   </div>
-{% endif %}
-
-{% if inventory contains "shopify" and product.selected_or_first_available_variant.next_incoming_date == blank %}
-  <div
-    id="ProductInventory-{{ section_id }}"
-    class="product__inventory hide {% if current_variant.inventory_policy != 'continue' %}hide{% endif %}"
-    >
-  </div>
-{% endif %}
-
-  {%- liquid
-    assign enable_dynamic_buttons = false
-    if settings.enable_payment_button and template != 'product.preorder'
-      assign enable_dynamic_buttons = true
-    endif
-  -%}
-
-  {%- if enable_dynamic_buttons -%}
-    <div class="payment-buttons">
-  {%- endif -%}
-
-    {%- liquid
-      assign default_text = 'products.product.add_to_cart' | t
-      assign button_text = 'products.product.add_to_cart' | t
-      if template == 'product.preorder'
-        assign default_text = 'products.product.preorder' | t
-        assign button_text = 'products.product.preorder' | t
-      endif
-      unless current_variant.available
-        assign button_text = 'products.product.sold_out' | t
-      endunless
-    -%}
-
-    <button
-      {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
-      name="add"
-      id="AddToCart-{{ section_id }}"
-      class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %}"
-      {% unless current_variant.available %} disabled="disabled"{% endunless %}>
-      <span id="AddToCartText-{{ section_id }}" data-default-text="{{ default_text }}">
-        {{ button_text }}
-      </span>
-    </button>
-
-    {%- if enable_dynamic_buttons -%}
-      {{ form | payment_button }}
-    {%- endif -%}
-
-  {%- if enable_dynamic_buttons -%}
-    </div>
-  {%- endif -%}
-
-  <textarea id="VariantsJson-{{ section_id }}" class="hide" aria-hidden="true" aria-label="Product JSON">
-    {{ product.variants | json }}
-  </textarea>
-  {%- if product.options.size > 1 -%}
-    <textarea id="CurrentVariantJson-{{ section_id }}" class="hide" aria-hidden="true" aria-label="Variant JSON">
-      {{ current_variant | json }}
-    </textarea>
-  {%- endif -%}
-{%- endform -%}
-
-<div class="product-benefits">
-  {% for col in product.collections %}
-    {% for i in (1..6) %}
-      {% assign meta_key = "benefit" | append: i %}
-      {% assign benefit_val = col.metafields.global[meta_key].value %}
-
-      {% if benefit_val != blank %}
-        <div class="product-benefit">
-          {% if benefit_val contains "<p>" %}
-            {{ benefit_val }}
-          {% else %}
-            <p>
-              {{ benefit_val }}
-            </p>
-          {% endif %}
-        </div>
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
 </div>
+<div class="back-in-stock" style="margin: 10px 0;">
+  <button id="BIS_trigger" type="button" style="display: none;">Upozorněte mě</button>
+</div>
+{%- if PR_buy_pr and current_variant_available != true and type != 'main_sticky' -%}
+  <style>
+    #t4s-callBackVariant{{ product_form_id }} .shopify-payment-button { display: none;}
+  </style>
+{% endif -%}
 
-
-
-
-<!-- hanka - product label -->  
-{% assign product_tag_01 = settings.pr_label_01_tag %}
-{%- if product.tags contains product_tag_01 -%}
-  {%- if settings.pr_label_01_desc != blank -%}
-  <div class="pr-label">
-    {{ settings.pr_label_01_desc }}
-  </div>
-  {% endif %}
-{% endif %}
-
-{% assign product_tag_02 = settings.pr_label_02_tag %}
-{%- if product.tags contains product_tag_02 -%}
-  {%- if settings.pr_label_02_desc != blank -%}
-  <div class="pr-label">
-    {{ settings.pr_label_02_desc }}
-  </div>
-  {% endif %}
-{% endif %}
-
-{% assign product_tag_03 = settings.pr_label_03_tag %}
-{%- if product.tags contains product_tag_03 -%}
-  {%- if settings.pr_label_03_desc != blank -%}
-  <div class="pr-label">
-    {{ settings.pr_label_03_desc }}
-  </div>
-  {% endif %}
-{% endif %}
-
-{% assign product_tag_04 = settings.pr_label_04_tag %}
-{%- if product.tags contains product_tag_04 -%}
-  {%- if settings.pr_label_04_desc != blank -%}
-  <div class="pr-label">
-    {{ settings.pr_label_04_desc }}
-  </div>
-  {% endif %}
-{% endif %}
-
-{% assign product_tag_05 = settings.pr_label_05_tag %}
-{%- if product.tags contains product_tag_05 -%}
-  {%- if settings.pr_label_05_desc != blank -%}
-  <div class="pr-label">
-    {{ settings.pr_label_05_desc }}
-  </div>
-  {% endif %}
-{% endif %}
-<!-- endhanka -->
-
-
-<style>
-  .pr-label {
-    border-left: black 3px solid;
-    padding: 0.5rem;
-    font-size: 0.9rem;
-    line-height: normal;
-    margin: 5px 0;
+{% comment %} A/B TESTING 001, delay payment pop up {% endcomment %}
+ {% if ab_test %}
+  <style> 
+  @media (max-width: 768px) {
+    .custom.t4s-swatch__list {
+      gap: 16px;
+    }
+    .custom.t4s-swatch__item {
+      padding: 8px; 
+      border: 1px solid #000;
+    }
   }
-</style>
-
-
-<script>
-  // Uncheck default variant
-  document.querySelector("input[checked]").removeAttribute("checked");
-
-
-
-
-
-</script>
-
-<script>
-  //colors:
-  if (document.getElementsByClassName("dropdown-current")) {
-    var variantDropdown = document.getElementsByClassName("dropdown-current")[0]
-    var variantDropdownOptions = document.getElementsByClassName("variant-dropdown-options")[0]
-    
-    variantDropdown.addEventListener("click", (e)=>{
-      e.preventDefault()
-      if (variantDropdown.classList.contains("open")) {
-        variantDropdown.classList.remove("open")
-        variantDropdownOptions.classList.add("hide")
-      } else {
-        variantDropdown.classList.add("open")
-        variantDropdownOptions.classList.remove("hide")
-      }
-    })
-    
-  }
-</script>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    // Select all div elements with class 'variant-input'
-    const variantInputs = document.querySelectorAll('.variant-input');
-
-    // For each div, find the input and add a click event listener
-    variantInputs.forEach((div) => {
-      const input = div.querySelector('input');
-      if (input) {
-        input.addEventListener('click', () => {
-          console.log('clicked')
-          const bisTrigger = document.getElementById('BIS_trigger');
-          if (bisTrigger) {
-          console.log('btn back to stock')
-            setTimeout(() => {
-              
-            if (input.classList.contains('disabled')) {
-              bisTrigger.style.setProperty('display', 'block', 'important'); // Ensure !important is set
-            } else {
-              bisTrigger.style.setProperty('display', 'none', 'important'); // Ensure !important is set
-            }
-             console.log("second",bisTrigger)
-            }, 100)            
-          }
-        });
-      }
-    });
-  });
-</script>
+</style> 
+{% endif %}

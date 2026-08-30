@@ -1,0 +1,61 @@
+<!-- snippets/product-label.liquid -->
+{% assign labels = product.tags | where: 'lbl_' %}
+{% if labels.size > 0 %}
+  <div class="product-labels">
+    {% for label in labels %}
+      {% assign label_color = '' %}
+      {% assign lbl = label | remove: 'lbl_' %}
+
+      {% case lbl %}
+        {% when 'new' %}
+          {% assign label_color = settings.lbl_color_new %}
+        {% when 'sell_out' %}
+          {% assign label_color = settings.lbl_color_sell_out %}
+        {% when 'sale' %}
+          {% assign label_color = settings.lbl_color_sale %}
+          {% when 'preorder' %}
+            {% assign label_color = settings.lbl_color_preorder %}
+        {% when 'comming_soon' %}
+          {% assign label_color = settings.lbl_color_comming_soon%}
+        {% when 'limited' %}
+          {% assign label_color = settings.lbl_color_limited %}
+        {% when 'custom_1' %}
+          {% assign label_color = settings.lbl_color_custom_1 %}
+        {% when 'custom_2' %}
+          {% assign label_color = settings.lbl_color_custom_2 %}
+        {% else %}
+          {% assign label_color = settings.lbl_color_default %}
+      {% endcase %}
+
+      {% assign label_text = 'products.product_card.labels.' | append: label %}
+
+      <span class="product-label" style="background-color: {{ label_color }};">{{ label_text | t }}</span>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<style>
+  .t4s-product-wrapper {
+    position: relative;
+  }
+  .product-labels {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+  }
+  .product-label {
+    color: white;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  @media (max-width: 767px){
+    .product-labels {
+      top: 5px;
+      left: 5px;
+    }
+  }
+</style>

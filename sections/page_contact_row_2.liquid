@@ -1,0 +1,102 @@
+<!-- sections/page_contact_1_row.liquid -->
+<div class="t4s-container contact-flex">
+  <div class="contact-box contact-addresses contact-box-container">
+    {% render 'contact_address', blocks: section.blocks %}
+  </div>
+  <div class="contact-box contact-improvements contact-box-container">
+    {% render 'contact_improvemens' %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Contact page top row",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "legal_text",
+      "label": "Malý text",
+      "default": "Společnost je zapsána v obchodním rejstříku u Městského soudu v Praze oddíl C, vložka 204350."
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Nadpis",
+      "default": "Máte nápad na zlepšení? Pište zakladateli"
+    },
+    {
+      "type": "textarea",
+      "id": "rich_text",
+      "label": "Text",
+      "default": "Ozvěte se zakladateli Ahinsa shoes Lukáši Klimperovi."
+    },
+    {
+      "type": "text",
+      "id": "mail",
+      "label": "E-mail",
+      "default": "info@ahinsashoes.com"
+    },
+    {
+      "type": "text",
+      "id": "mail_url",
+      "label": "E-mail do odkazu",
+      "default": "info@ahinsashoes.com"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "obrázek"
+    },
+    {
+      "type": "textarea",
+      "id": "rich_text2",
+      "label": "Text 2",
+      "default": "S čím se obracet na Lukáše?"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "Nadpis 2",
+      "default": "Máte chuť spolupracovat?"
+    },
+    {
+      "type": "textarea",
+      "id": "rich_text3",
+      "label": "Text 3",
+      "default": "Chcete prodávat Ahinsa shoes nebo máte jiný nápad na spolupráci? Pojďme to probrat."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "custom_content",
+      "name": "Custom content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Nadpis",
+          "default": "Adresa pro výměnu a vrácení"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Podnadpis",
+          "default": "Sem nám posílejte všechno, co chcete vyměnit, vrátit nebo reklamovat."
+        },
+        {
+          "type": "textarea",
+          "id": "address",
+          "label": "Text",
+          "default": "Walk free, s. r. o.<br>IČO: 04724470<br>DIČ: CZ04724470"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Contact page second row"
+    }
+  ]
+}
+{% endschema %}

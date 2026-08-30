@@ -1,0 +1,1264 @@
+{% doc %}
+  @prompt
+    Create a premium two-column hero banner for Shopify with:
+    
+    countdown timer
+    discount badge
+    CTA buttons
+    bottom feature bar – 4 features with customizable icons
+    neutral beige minimal design
+    full editability in Shopify theme editor
+    
+    Important responsive requirements:
+    
+    The section must be fully optimized for both desktop and mobile.
+    On mobile, the layout must stack vertically.
+    The main heading must remain a true prominent hero heading on mobile, not render like normal body text.
+    Add separate typography controls in the Shopify theme editor for desktop and mobile, especially for:
+    heading font size
+    subheading/text size
+    button text size
+    countdown number size
+    feature bar text size
+    Include separate controls for desktop and mobile spacing:
+    top/bottom padding
+    gap between columns
+    gap between heading lines
+    button spacing
+    Ensure proper line-height and letter-spacing settings for the hero heading on mobile.
+    Make sure text scales responsively without breaking layout or reducing visual hierarchy.
+    
+    Technical requirements:
+    
+    Build as a Shopify section using Liquid, HTML, CSS, and minimal JavaScript.
+    All key content must be editable in the Shopify theme editor:
+    heading
+    highlighted word in heading
+    paragraph text
+    countdown end date/time
+    button labels and links
+    discount badge text
+    product image
+    feature bar items
+    colors
+    Add separate range settings for desktop and mobile font sizes.
+    Use semantic H1/H2 structure correctly.
+    Do not rely only on automatic CSS scaling; expose manual mobile controls in schema settings.
+    
+    Design direction:
+    
+    premium
+    elegant
+    minimal
+    soft beige palette
+    strong typography
+    clean whitespace
+    refined rounded buttons
+    
+    Goal:
+    The hero must look bold and editorial on desktop, and still feel like a real hero section on mobile, with large readable heading text and fully adjustable mobile typography in the theme editor.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-hero-banner-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.padding_top_desktop }}px 0 {{ block.settings.padding_bottom_desktop }}px;
+  }
+
+  .ai-hero-banner__container-{{ ai_gen_id }} {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+  .ai-hero-banner__grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: {{ block.settings.column_gap_desktop }}px;
+    align-items: center;
+  }
+
+  .ai-hero-banner__content-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.content_gap_desktop }}px;
+  }
+
+  .ai-hero-banner__heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.heading_size_desktop }}px;
+    font-weight: {{ block.settings.heading_weight }};
+    line-height: {{ block.settings.heading_line_height_desktop }};
+    letter-spacing: {{ block.settings.heading_letter_spacing }}px;
+    color: {{ block.settings.heading_color }};
+    margin: 0;
+  }
+
+  .ai-hero-banner__heading-highlight-{{ ai_gen_id }} {
+    color: {{ block.settings.highlight_color }};
+  }
+
+  .ai-hero-banner__text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.text_size_desktop }}px;
+    line-height: {{ block.settings.text_line_height }};
+    color: {{ block.settings.text_color }};
+    margin: 0;
+  }
+
+  .ai-hero-banner__countdown-{{ ai_gen_id }} {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .ai-hero-banner__countdown-item-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .ai-hero-banner__countdown-number-{{ ai_gen_id }} {
+    font-size: {{ block.settings.countdown_number_size_desktop }}px;
+    font-weight: 700;
+    color: {{ block.settings.countdown_number_color }};
+    background-color: {{ block.settings.countdown_bg_color }};
+    padding: 16px 20px;
+    border-radius: {{ block.settings.countdown_border_radius }}px;
+    min-width: 80px;
+    text-align: center;
+  }
+
+  .ai-hero-banner__countdown-label-{{ ai_gen_id }} {
+    font-size: {{ block.settings.countdown_label_size_desktop }}px;
+    color: {{ block.settings.countdown_label_color }};
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .ai-hero-banner__badge-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: {{ block.settings.badge_bg_color }};
+    color: {{ block.settings.badge_text_color }};
+    padding: 12px 24px;
+    border-radius: {{ block.settings.badge_border_radius }}px;
+    font-size: {{ block.settings.badge_text_size }}px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    align-self: flex-start;
+  }
+
+  .ai-hero-banner__buttons-{{ ai_gen_id }} {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .ai-hero-banner__button-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    font-size: {{ block.settings.button_text_size_desktop }}px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+
+  .ai-hero-banner__button--primary-{{ ai_gen_id }} {
+    background-color: {{ block.settings.button_primary_bg }};
+    color: {{ block.settings.button_primary_color }};
+    border-color: {{ block.settings.button_primary_bg }};
+  }
+
+  .ai-hero-banner__button--primary-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_primary_hover_bg }};
+    border-color: {{ block.settings.button_primary_hover_bg }};
+    transform: translateY(-2px);
+  }
+
+  .ai-hero-banner__button--secondary-{{ ai_gen_id }} {
+    background-color: {{ block.settings.button_secondary_bg }};
+    color: {{ block.settings.button_secondary_color }};
+    border-color: {{ block.settings.button_secondary_border }};
+  }
+
+  .ai-hero-banner__button--secondary-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_secondary_hover_bg }};
+    color: {{ block.settings.button_secondary_hover_color }};
+    border-color: {{ block.settings.button_secondary_hover_border }};
+    transform: translateY(-2px);
+  }
+
+  .ai-hero-banner__image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    overflow: hidden;
+  }
+
+  .ai-hero-banner__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: {{ block.settings.image_border_radius }}px;
+  }
+
+  .ai-hero-banner__image-placeholder-{{ ai_gen_id }} {
+    background-color: #f5f5f0;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: {{ block.settings.image_border_radius }}px;
+  }
+
+  .ai-hero-banner__image-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    opacity: 0.3;
+  }
+
+  .ai-hero-banner__features-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: {{ block.settings.features_margin_top }}px;
+    padding: {{ block.settings.features_padding }}px;
+    background-color: {{ block.settings.features_bg_color }};
+    border-radius: {{ block.settings.features_border_radius }}px;
+  }
+
+  .ai-hero-banner__feature-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .ai-hero-banner__feature-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.feature_icon_size }}px;
+    height: {{ block.settings.feature_icon_size }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: {{ block.settings.feature_icon_color }};
+  }
+
+  .ai-hero-banner__feature-icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ai-hero-banner__feature-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.feature_text_size_desktop }}px;
+    color: {{ block.settings.feature_text_color }};
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-hero-banner-{{ ai_gen_id }} {
+      padding: {{ block.settings.padding_top_mobile }}px 0 {{ block.settings.padding_bottom_mobile }}px;
+    }
+
+    .ai-hero-banner__container-{{ ai_gen_id }} {
+      padding: 0 20px;
+    }
+
+    .ai-hero-banner__grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.column_gap_mobile }}px;
+    }
+
+    .ai-hero-banner__content-{{ ai_gen_id }} {
+      gap: {{ block.settings.content_gap_mobile }}px;
+      order: {% if block.settings.mobile_image_first %}2{% else %}1{% endif %};
+    }
+
+    .ai-hero-banner__image-wrapper-{{ ai_gen_id }} {
+      order: {% if block.settings.mobile_image_first %}1{% else %}2{% endif %};
+    }
+
+    .ai-hero-banner__heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size_mobile }}px;
+      line-height: {{ block.settings.heading_line_height_mobile }};
+      letter-spacing: {{ block.settings.heading_letter_spacing_mobile }}px;
+    }
+
+    .ai-hero-banner__text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size_mobile }}px;
+    }
+
+    .ai-hero-banner__countdown-{{ ai_gen_id }} {
+      gap: 12px;
+    }
+
+    .ai-hero-banner__countdown-number-{{ ai_gen_id }} {
+      font-size: {{ block.settings.countdown_number_size_mobile }}px;
+      padding: 12px 16px;
+      min-width: 60px;
+    }
+
+    .ai-hero-banner__countdown-label-{{ ai_gen_id }} {
+      font-size: {{ block.settings.countdown_label_size_mobile }}px;
+    }
+
+    .ai-hero-banner__button-{{ ai_gen_id }} {
+      font-size: {{ block.settings.button_text_size_mobile }}px;
+      padding: 14px 28px;
+    }
+
+    .ai-hero-banner__buttons-{{ ai_gen_id }} {
+      flex-direction: {% if block.settings.mobile_buttons_stack %}column{% else %}row{% endif %};
+    }
+
+    .ai-hero-banner__features-{{ ai_gen_id }} {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: {{ block.settings.features_padding_mobile }}px;
+    }
+
+    .ai-hero-banner__feature-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.feature_text_size_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<hero-banner-{{ ai_gen_id }} class="ai-hero-banner-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-hero-banner__container-{{ ai_gen_id }}">
+    <div class="ai-hero-banner__grid-{{ ai_gen_id }}">
+      <div class="ai-hero-banner__content-{{ ai_gen_id }}">
+        {% if block.settings.show_badge and block.settings.badge_text != blank %}
+          <div class="ai-hero-banner__badge-{{ ai_gen_id }}">
+            {{ block.settings.badge_text }}
+          </div>
+        {% endif %}
+
+        {% if block.settings.heading != blank %}
+          <h1 class="ai-hero-banner__heading-{{ ai_gen_id }}">
+            {% if block.settings.heading_highlight != blank %}
+              {% assign heading_parts = block.settings.heading | split: block.settings.heading_highlight %}
+              {{ heading_parts[0] }}<span class="ai-hero-banner__heading-highlight-{{ ai_gen_id }}">{{ block.settings.heading_highlight }}</span>{{ heading_parts[1] }}
+            {% else %}
+              {{ block.settings.heading }}
+            {% endif %}
+          </h1>
+        {% endif %}
+
+        {% if block.settings.text != blank %}
+          <div class="ai-hero-banner__text-{{ ai_gen_id }}">
+            {{ block.settings.text }}
+          </div>
+        {% endif %}
+
+        {% if block.settings.show_countdown and block.settings.countdown_date != blank and block.settings.countdown_time != blank %}
+          <div class="ai-hero-banner__countdown-{{ ai_gen_id }}" data-countdown-end="{{ block.settings.countdown_date }} {{ block.settings.countdown_time }}">
+            <div class="ai-hero-banner__countdown-item-{{ ai_gen_id }}">
+              <div class="ai-hero-banner__countdown-number-{{ ai_gen_id }}" data-days>00</div>
+              <div class="ai-hero-banner__countdown-label-{{ ai_gen_id }}">Days</div>
+            </div>
+            <div class="ai-hero-banner__countdown-item-{{ ai_gen_id }}">
+              <div class="ai-hero-banner__countdown-number-{{ ai_gen_id }}" data-hours>00</div>
+              <div class="ai-hero-banner__countdown-label-{{ ai_gen_id }}">Hours</div>
+            </div>
+            <div class="ai-hero-banner__countdown-item-{{ ai_gen_id }}">
+              <div class="ai-hero-banner__countdown-number-{{ ai_gen_id }}" data-minutes>00</div>
+              <div class="ai-hero-banner__countdown-label-{{ ai_gen_id }}">Mins</div>
+            </div>
+            <div class="ai-hero-banner__countdown-item-{{ ai_gen_id }}">
+              <div class="ai-hero-banner__countdown-number-{{ ai_gen_id }}" data-seconds>00</div>
+              <div class="ai-hero-banner__countdown-label-{{ ai_gen_id }}">Secs</div>
+            </div>
+          </div>
+        {% endif %}
+
+        <div class="ai-hero-banner__buttons-{{ ai_gen_id }}">
+          {% if block.settings.button_primary_label != blank %}
+            <a href="{{ block.settings.button_primary_link }}" class="ai-hero-banner__button-{{ ai_gen_id }} ai-hero-banner__button--primary-{{ ai_gen_id }}">
+              {{ block.settings.button_primary_label }}
+            </a>
+          {% endif %}
+
+          {% if block.settings.button_secondary_label != blank %}
+            <a href="{{ block.settings.button_secondary_link }}" class="ai-hero-banner__button-{{ ai_gen_id }} ai-hero-banner__button--secondary-{{ ai_gen_id }}">
+              {{ block.settings.button_secondary_label }}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="ai-hero-banner__image-wrapper-{{ ai_gen_id }}">
+        {% if block.settings.image %}
+          <img
+            src="{{ block.settings.image | image_url: width: 1200 }}"
+            alt="{{ block.settings.image.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.image.width }}"
+            height="{{ block.settings.image.height }}"
+            class="ai-hero-banner__image-{{ ai_gen_id }}"
+          >
+        {% else %}
+          <div class="ai-hero-banner__image-placeholder-{{ ai_gen_id }}">
+            {{ 'product-1' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if block.settings.show_features %}
+      <div class="ai-hero-banner__features-{{ ai_gen_id }}">
+        {% for i in (1..4) %}
+          {% assign feature_text_key = 'feature_' | append: i | append: '_text' %}
+          {% assign feature_icon_key = 'feature_' | append: i | append: '_icon' %}
+          {% assign feature_text = block.settings[feature_text_key] %}
+          {% assign feature_icon = block.settings[feature_icon_key] %}
+
+          {% if feature_text != blank %}
+            <div class="ai-hero-banner__feature-{{ ai_gen_id }}">
+              <div class="ai-hero-banner__feature-icon-{{ ai_gen_id }}">
+                {% if feature_icon == 'shipping' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
+                  </svg>
+                {% elsif feature_icon == 'returns' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                  </svg>
+                {% elsif feature_icon == 'quality' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                {% elsif feature_icon == 'support' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>
+                {% elsif feature_icon == 'secure' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
+                {% elsif feature_icon == 'eco' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                {% elsif feature_icon == 'gift' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+                  </svg>
+                {% else %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                {% endif %}
+              </div>
+              <div class="ai-hero-banner__feature-text-{{ ai_gen_id }}">
+                {{ feature_text }}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</hero-banner-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class HeroBanner{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.countdownElement = this.querySelector('[data-countdown-end]');
+      }
+
+      connectedCallback() {
+        if (this.countdownElement) {
+          this.initCountdown();
+        }
+      }
+
+      initCountdown() {
+        const endDateStr = this.countdownElement.getAttribute('data-countdown-end');
+        const endDate = new Date(endDateStr).getTime();
+
+        const updateCountdown = () => {
+          const now = new Date().getTime();
+          const distance = endDate - now;
+
+          if (distance < 0) {
+            this.countdownElement.style.display = 'none';
+            return;
+          }
+
+          const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          const daysEl = this.countdownElement.querySelector('[data-days]');
+          const hoursEl = this.countdownElement.querySelector('[data-hours]');
+          const minutesEl = this.countdownElement.querySelector('[data-minutes]');
+          const secondsEl = this.countdownElement.querySelector('[data-seconds]');
+
+          if (daysEl) daysEl.textContent = String(days).padStart(2, '0');
+          if (hoursEl) hoursEl.textContent = String(hours).padStart(2, '0');
+          if (minutesEl) minutesEl.textContent = String(minutes).padStart(2, '0');
+          if (secondsEl) secondsEl.textContent = String(seconds).padStart(2, '0');
+        };
+
+        updateCountdown();
+        this.countdownInterval = setInterval(updateCountdown, 1000);
+      }
+
+      disconnectedCallback() {
+        if (this.countdownInterval) {
+          clearInterval(this.countdownInterval);
+        }
+      }
+    }
+
+    customElements.define('hero-banner-{{ ai_gen_id }}', HeroBanner{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Premium hero banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#f5f5f0"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "label": "Top padding (desktop)",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "label": "Bottom padding (desktop)",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Top padding (mobile)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Bottom padding (mobile)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "column_gap_desktop",
+      "label": "Column gap (desktop)",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "column_gap_mobile",
+      "label": "Column gap (mobile)",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "content_gap_desktop",
+      "label": "Content gap (desktop)",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "content_gap_mobile",
+      "label": "Content gap (mobile)",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_image_first",
+      "label": "Show image first on mobile",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Premium Comfort Meets Timeless Style"
+    },
+    {
+      "type": "text",
+      "id": "heading_highlight",
+      "label": "Highlighted word"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Color",
+      "default": "#202020"
+    },
+    {
+      "type": "color",
+      "id": "highlight_color",
+      "label": "Highlight color",
+      "default": "#587d00"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "label": "Font size (desktop)",
+      "min": 24,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Font size (mobile)",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "heading_weight",
+      "label": "Font weight",
+      "min": 300,
+      "max": 900,
+      "step": 100,
+      "default": 700
+    },
+    {
+      "type": "range",
+      "id": "heading_line_height_desktop",
+      "label": "Line height (desktop)",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.2
+    },
+    {
+      "type": "range",
+      "id": "heading_line_height_mobile",
+      "label": "Line height (mobile)",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.3
+    },
+    {
+      "type": "range",
+      "id": "heading_letter_spacing",
+      "label": "Letter spacing (desktop)",
+      "min": -2,
+      "max": 5,
+      "step": 0.5,
+      "unit": "px",
+      "default": -1
+    },
+    {
+      "type": "range",
+      "id": "heading_letter_spacing_mobile",
+      "label": "Letter spacing (mobile)",
+      "min": -2,
+      "max": 5,
+      "step": 0.5,
+      "unit": "px",
+      "default": -0.5
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Description",
+      "default": "<p>Discover our new collection of handcrafted barefoot shoes designed for ultimate comfort and sustainable living.</p>"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Color",
+      "default": "#5e5230"
+    },
+    {
+      "type": "range",
+      "id": "text_size_desktop",
+      "label": "Font size (desktop)",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "text_size_mobile",
+      "label": "Font size (mobile)",
+      "min": 12,
+      "max": 22,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "text_line_height",
+      "label": "Line height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.6
+    },
+    {
+      "type": "header",
+      "content": "Discount badge"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_badge",
+      "label": "Show badge",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "badge_text",
+      "label": "Badge text",
+      "default": "Limited Time: 25% Off"
+    },
+    {
+      "type": "color",
+      "id": "badge_bg_color",
+      "label": "Background",
+      "default": "#923a3a"
+    },
+    {
+      "type": "color",
+      "id": "badge_text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "badge_text_size",
+      "label": "Text size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "badge_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Countdown timer"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_countdown",
+      "label": "Show countdown",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "countdown_date",
+      "label": "End date",
+      "info": "Format: YYYY-MM-DD (e.g., 2026-12-31)",
+      "default": "2026-12-31"
+    },
+    {
+      "type": "text",
+      "id": "countdown_time",
+      "label": "End time",
+      "info": "Format: HH:MM:SS (e.g., 23:59:59)",
+      "default": "23:59:59"
+    },
+    {
+      "type": "color",
+      "id": "countdown_number_color",
+      "label": "Number color",
+      "default": "#202020"
+    },
+    {
+      "type": "color",
+      "id": "countdown_bg_color",
+      "label": "Number background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "countdown_label_color",
+      "label": "Label color",
+      "default": "#5e5230"
+    },
+    {
+      "type": "range",
+      "id": "countdown_number_size_desktop",
+      "label": "Number size (desktop)",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "countdown_number_size_mobile",
+      "label": "Number size (mobile)",
+      "min": 16,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "countdown_label_size_desktop",
+      "label": "Label size (desktop)",
+      "min": 8,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "countdown_label_size_mobile",
+      "label": "Label size (mobile)",
+      "min": 8,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "countdown_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Primary button"
+    },
+    {
+      "type": "text",
+      "id": "button_primary_label",
+      "label": "Text",
+      "default": "Shop Collection"
+    },
+    {
+      "type": "url",
+      "id": "button_primary_link",
+      "label": "Link"
+    },
+    {
+      "type": "color",
+      "id": "button_primary_bg",
+      "label": "Background",
+      "default": "#587d00"
+    },
+    {
+      "type": "color",
+      "id": "button_primary_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_primary_hover_bg",
+      "label": "Hover background",
+      "default": "#73a205"
+    },
+    {
+      "type": "header",
+      "content": "Secondary button"
+    },
+    {
+      "type": "text",
+      "id": "button_secondary_label",
+      "label": "Text",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "button_secondary_link",
+      "label": "Link"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_bg",
+      "label": "Background",
+      "default": "transparent"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_color",
+      "label": "Text color",
+      "default": "#202020"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_border",
+      "label": "Border color",
+      "default": "#202020"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_hover_bg",
+      "label": "Hover background",
+      "default": "#202020"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_hover_color",
+      "label": "Hover text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_hover_border",
+      "label": "Hover border color",
+      "default": "#202020"
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "range",
+      "id": "button_text_size_desktop",
+      "label": "Text size (desktop)",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_text_size_mobile",
+      "label": "Text size (mobile)",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_buttons_stack",
+      "label": "Stack buttons on mobile",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Product image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Feature bar"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_features",
+      "label": "Show features",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "features_bg_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "features_margin_top",
+      "label": "Top margin",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "features_padding",
+      "label": "Padding (desktop)",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "features_padding_mobile",
+      "label": "Padding (mobile)",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "features_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "feature_icon_size",
+      "label": "Icon size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "color",
+      "id": "feature_icon_color",
+      "label": "Icon color",
+      "default": "#587d00"
+    },
+    {
+      "type": "color",
+      "id": "feature_text_color",
+      "label": "Text color",
+      "default": "#202020"
+    },
+    {
+      "type": "range",
+      "id": "feature_text_size_desktop",
+      "label": "Text size (desktop)",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "feature_text_size_mobile",
+      "label": "Text size (mobile)",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Feature 1"
+    },
+    {
+      "type": "select",
+      "id": "feature_1_icon",
+      "label": "Icon",
+      "options": [
+        { "value": "shipping", "label": "Free shipping" },
+        { "value": "returns", "label": "Easy returns" },
+        { "value": "quality", "label": "Quality guarantee" },
+        { "value": "support", "label": "24/7 support" },
+        { "value": "secure", "label": "Secure payment" },
+        { "value": "eco", "label": "Eco-friendly" },
+        { "value": "gift", "label": "Gift wrapping" },
+        { "value": "check", "label": "Checkmark" }
+      ],
+      "default": "shipping"
+    },
+    {
+      "type": "text",
+      "id": "feature_1_text",
+      "label": "Text",
+      "default": "Free Shipping"
+    },
+    {
+      "type": "header",
+      "content": "Feature 2"
+    },
+    {
+      "type": "select",
+      "id": "feature_2_icon",
+      "label": "Icon",
+      "options": [
+        { "value": "shipping", "label": "Free shipping" },
+        { "value": "returns", "label": "Easy returns" },
+        { "value": "quality", "label": "Quality guarantee" },
+        { "value": "support", "label": "24/7 support" },
+        { "value": "secure", "label": "Secure payment" },
+        { "value": "eco", "label": "Eco-friendly" },
+        { "value": "gift", "label": "Gift wrapping" },
+        { "value": "check", "label": "Checkmark" }
+      ],
+      "default": "eco"
+    },
+    {
+      "type": "text",
+      "id": "feature_2_text",
+      "label": "Text",
+      "default": "Sustainable Materials"
+    },
+    {
+      "type": "header",
+      "content": "Feature 3"
+    },
+    {
+      "type": "select",
+      "id": "feature_3_icon",
+      "label": "Icon",
+      "options": [
+        { "value": "shipping", "label": "Free shipping" },
+        { "value": "returns", "label": "Easy returns" },
+        { "value": "quality", "label": "Quality guarantee" },
+        { "value": "support", "label": "24/7 support" },
+        { "value": "secure", "label": "Secure payment" },
+        { "value": "eco", "label": "Eco-friendly" },
+        { "value": "gift", "label": "Gift wrapping" },
+        { "value": "check", "label": "Checkmark" }
+      ],
+      "default": "quality"
+    },
+    {
+      "type": "text",
+      "id": "feature_3_text",
+      "label": "Text",
+      "default": "Premium Quality"
+    },
+    {
+      "type": "header",
+      "content": "Feature 4"
+    },
+    {
+      "type": "select",
+      "id": "feature_4_icon",
+      "label": "Icon",
+      "options": [
+        { "value": "shipping", "label": "Free shipping" },
+        { "value": "returns", "label": "Easy returns" },
+        { "value": "quality", "label": "Quality guarantee" },
+        { "value": "support", "label": "24/7 support" },
+        { "value": "secure", "label": "Secure payment" },
+        { "value": "eco", "label": "Eco-friendly" },
+        { "value": "gift", "label": "Gift wrapping" },
+        { "value": "check", "label": "Checkmark" }
+      ],
+      "default": "returns"
+    },
+    {
+      "type": "text",
+      "id": "feature_4_text",
+      "label": "Text",
+      "default": "30-Day Returns"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Premium hero banner"
+    }
+  ]
+}
+{% endschema %}

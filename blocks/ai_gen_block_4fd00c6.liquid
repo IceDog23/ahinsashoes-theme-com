@@ -1,0 +1,416 @@
+{% doc %}
+  @prompt
+    Create a new customizable announcement bar / countdown section for Shopify theme.
+    
+    Design according to the attached reference:
+    - Full-width horizontal bar at the top of the page
+    - Very light green background
+    - Centered content
+    - Small green sun/sale icon on the left
+    - Text in Czech: "Letní výprodej — slevy až 30 %. Výprodej končí za:"
+    - Text color: medium green
+    - Countdown boxes on the right
+    - Countdown format: HH : MM : SS
+    - Each number should be inside a rounded dark green box with white bold text
+    - Colons between boxes should be dark green
+    - Height approx. 50–60 px
+    - Clean modern style, responsive for mobile
+    
+    Functionality:
+    - Add editable section settings in Shopify customizer:
+      1. Enable/disable section
+      2. Announcement text
+      3. End date and time
+      4. Background color
+      5. Text color
+      6. Countdown box color
+      7. Countdown number color
+      8. Icon enable/disable
+      9. Link URL for the whole bar
+    - Countdown must update live every second
+    - After the countdown reaches zero, either hide the section or show custom expired text
+    - Make sure it works without external libraries
+    - Use Liquid, CSS and vanilla JavaScript only
+    - The section should be reusable and easy to edit in Shopify theme editor
+    
+    Please create the full Shopify section code including schema.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-announcement-countdown-{{ ai_gen_id }} {
+    display: {% if block.settings.enable_section %}block{% else %}none{% endif %};
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    padding: 15px 20px;
+    position: relative;
+    z-index: 100;
+  }
+
+  .ai-announcement-countdown-{{ ai_gen_id }}.ai-hidden {
+    display: none;
+  }
+
+  .ai-announcement-countdown__wrapper-{{ ai_gen_id }} {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .ai-announcement-countdown__icon-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-announcement-countdown__icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    fill: {{ block.settings.text_color }};
+  }
+
+  .ai-announcement-countdown__text-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+  }
+
+  .ai-announcement-countdown__timer-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .ai-announcement-countdown__time-box-{{ ai_gen_id }} {
+    background-color: {{ block.settings.countdown_box_color }};
+    color: {{ block.settings.countdown_number_color }};
+    padding: 8px 12px;
+    border-radius: {{ block.settings.box_border_radius }}px;
+    min-width: 45px;
+    text-align: center;
+    font-weight: 700;
+    font-size: {{ block.settings.countdown_size }}px;
+    line-height: 1;
+  }
+
+  .ai-announcement-countdown__separator-{{ ai_gen_id }} {
+    color: {{ block.settings.countdown_box_color }};
+    font-weight: 700;
+    font-size: {{ block.settings.countdown_size }}px;
+    line-height: 1;
+  }
+
+  .ai-announcement-countdown__expired-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .ai-announcement-countdown__link-{{ ai_gen_id }} {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-announcement-countdown-{{ ai_gen_id }} {
+      padding: 12px 15px;
+    }
+
+    .ai-announcement-countdown__wrapper-{{ ai_gen_id }} {
+      gap: 10px;
+    }
+
+    .ai-announcement-countdown__text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size | times: 0.9 }}px;
+    }
+
+    .ai-announcement-countdown__time-box-{{ ai_gen_id }} {
+      padding: 6px 10px;
+      min-width: 38px;
+      font-size: {{ block.settings.countdown_size | times: 0.9 }}px;
+    }
+
+    .ai-announcement-countdown__separator-{{ ai_gen_id }} {
+      font-size: {{ block.settings.countdown_size | times: 0.9 }}px;
+    }
+
+    .ai-announcement-countdown__icon-{{ ai_gen_id }} {
+      width: 20px;
+      height: 20px;
+    }
+  }
+{% endstyle %}
+
+<announcement-countdown-{{ ai_gen_id }}
+  class="ai-announcement-countdown-{{ ai_gen_id }}"
+  data-end-date="{{ block.settings.end_date }}"
+  data-end-time="{{ block.settings.end_time }}"
+  data-hide-on-expire="{{ block.settings.hide_on_expire }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.link_url != blank %}
+    <a href="{{ block.settings.link_url }}" class="ai-announcement-countdown__link-{{ ai_gen_id }}">
+  {% endif %}
+
+  <div class="ai-announcement-countdown__wrapper-{{ ai_gen_id }}">
+    {% if block.settings.show_icon %}
+      <div class="ai-announcement-countdown__icon-{{ ai_gen_id }}">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="5"/>
+          <path d="M12 1v6m0 6v6m8.66-15L15 8.66M8.66 15 3 20.66m17.66 0L15 15.34M8.66 8.66 3 3.34"/>
+        </svg>
+      </div>
+    {% endif %}
+
+    <div class="ai-announcement-countdown__text-{{ ai_gen_id }}">
+      {{ block.settings.announcement_text }}
+    </div>
+
+    <div class="ai-announcement-countdown__timer-{{ ai_gen_id }}" data-countdown-timer>
+      <div class="ai-announcement-countdown__time-box-{{ ai_gen_id }}" data-hours>00</div>
+      <div class="ai-announcement-countdown__separator-{{ ai_gen_id }}">:</div>
+      <div class="ai-announcement-countdown__time-box-{{ ai_gen_id }}" data-minutes>00</div>
+      <div class="ai-announcement-countdown__separator-{{ ai_gen_id }}">:</div>
+      <div class="ai-announcement-countdown__time-box-{{ ai_gen_id }}" data-seconds>00</div>
+    </div>
+
+    <div class="ai-announcement-countdown__expired-{{ ai_gen_id }}" data-expired-message style="display: none;">
+      {{ block.settings.expired_text }}
+    </div>
+  </div>
+
+  {% if block.settings.link_url != blank %}
+    </a>
+  {% endif %}
+</announcement-countdown-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class AnnouncementCountdown{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.endDate = this.dataset.endDate;
+        this.endTime = this.dataset.endTime;
+        this.hideOnExpire = this.dataset.hideOnExpire === 'true';
+        this.timerElement = this.querySelector('[data-countdown-timer]');
+        this.hoursElement = this.querySelector('[data-hours]');
+        this.minutesElement = this.querySelector('[data-minutes]');
+        this.secondsElement = this.querySelector('[data-seconds]');
+        this.expiredElement = this.querySelector('[data-expired-message]');
+        this.interval = null;
+      }
+
+      connectedCallback() {
+        if (!this.endDate || !this.endTime) {
+          return;
+        }
+
+        this.startCountdown();
+      }
+
+      disconnectedCallback() {
+        if (this.interval) {
+          clearInterval(this.interval);
+        }
+      }
+
+      startCountdown() {
+        this.updateCountdown();
+        this.interval = setInterval(() => {
+          this.updateCountdown();
+        }, 1000);
+      }
+
+      updateCountdown() {
+        const endDateTime = new Date(this.endDate + 'T' + this.endTime).getTime();
+        const now = new Date().getTime();
+        const distance = endDateTime - now;
+
+        if (distance < 0) {
+          this.handleExpired();
+          return;
+        }
+
+        const hours = Math.floor(distance / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        this.hoursElement.textContent = this.padZero(hours);
+        this.minutesElement.textContent = this.padZero(minutes);
+        this.secondsElement.textContent = this.padZero(seconds);
+      }
+
+      handleExpired() {
+        if (this.interval) {
+          clearInterval(this.interval);
+        }
+
+        if (this.hideOnExpire) {
+          this.classList.add('ai-hidden');
+        } else {
+          this.timerElement.style.display = 'none';
+          this.expiredElement.style.display = 'block';
+        }
+      }
+
+      padZero(num) {
+        return num.toString().padStart(2, '0');
+      }
+    }
+
+    customElements.define('announcement-countdown-{{ ai_gen_id }}', AnnouncementCountdown{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Announcement countdown",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "General"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_section",
+      "label": "Enable section",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": "Announcement text",
+      "default": "Letní výprodej — slevy až 30 %. Výprodej končí za:"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },
+    {
+      "type": "header",
+      "content": "Countdown"
+    },
+    {
+      "type": "text",
+      "id": "end_date",
+      "label": "End date",
+      "info": "Format: YYYY-MM-DD (e.g., 2026-06-15)",
+      "default": "2026-06-15"
+    },
+    {
+      "type": "text",
+      "id": "end_time",
+      "label": "End time",
+      "info": "Format: HH:MM:SS (e.g., 23:59:59)",
+      "default": "23:59:59"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_on_expire",
+      "label": "Hide section when expired",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "expired_text",
+      "label": "Expired message",
+      "default": "Výprodej skončil"
+    },
+    {
+      "type": "header",
+      "content": "Icon"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Show icon",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#e8f5e9"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#2e7d32"
+    },
+    {
+      "type": "color",
+      "id": "countdown_box_color",
+      "label": "Countdown box color",
+      "default": "#1b5e20"
+    },
+    {
+      "type": "color",
+      "id": "countdown_number_color",
+      "label": "Countdown number color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Text size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "countdown_size",
+      "label": "Countdown size",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "box_border_radius",
+      "label": "Box border radius",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 6
+    }
+  ],
+  "presets": [
+    {
+      "name": "Announcement countdown"
+    }
+  ]
+}
+{% endschema %}

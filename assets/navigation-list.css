@@ -1,0 +1,14 @@
+.t4s-nav-links .t4s-title {
+    margin-bottom: 20px
+}
+
+.t4s-nav-links .t4s-row {
+    justify-content: center;
+}
+
+.t4s-col-item.t4s-text-center.t4s-menu-item.link3 a
+{
+    color: var( --h-text-color);
+    font-weight: 400;
+}
+

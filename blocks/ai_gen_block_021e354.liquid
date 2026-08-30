@@ -1,0 +1,674 @@
+{% doc %}
+  @prompt
+    Create a Shopify theme section for a fully editable countdown announcement bar inspired by the attached design.
+    
+    The section should include:
+    
+    Countdown timer with days, hours, minutes, and seconds
+    Each time value displayed as a number
+    Label displayed below each number:
+    Days
+    Hours
+    Minutes
+    Seconds
+    All content must be fully editable in Shopify theme editor:
+    Main text
+    Countdown end date and time
+    Background color
+    Text color
+    Timer box color
+    Timer number color
+    Timer label color
+    Icon visibility and icon color
+    Font size
+    Spacing
+    Padding
+    Border color
+    Section height
+    Mobile layout settings
+    
+    Design requirements:
+    
+    Horizontal announcement bar layout
+    Light green background
+    Green text
+    Small decorative sun/sale icon on the left
+    Main text example:
+    Letní výprodej — slevy až 30 %. Výprodej končí za:
+    Countdown boxes placed to the right of the text
+    Timer boxes should be rounded rectangles
+    Numbers should be bold and clearly visible
+    Labels should appear directly underneath each number
+    Layout must be responsive:
+    Desktop: text and timer in one horizontal row
+    Mobile: text above timer, centered
+    Section must support dynamic countdown based on selected end date and time
+    After countdown ends, allow editable settings for:
+    Hide section
+    Show custom expired message
+    
+    Technical requirements:
+    
+    Build as a Shopify OS 2.0 section
+    Use Liquid, HTML, CSS, and vanilla JavaScript
+    No external libraries
+    Countdown must update every second
+    Use Shopify schema settings for all editable options
+    Code must be clean, commented, and easy to customize
+    Section should be compatible with modern Shopify themes like Dawn
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-countdown-bar-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    color: {{ block.settings.text_color }};
+    padding: {{ block.settings.padding_vertical }}px {{ block.settings.padding_horizontal }}px;
+    border-top: {{ block.settings.border_width }}px solid {{ block.settings.border_color }};
+    border-bottom: {{ block.settings.border_width }}px solid {{ block.settings.border_color }};
+    min-height: {{ block.settings.section_height }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-countdown-bar__container-{{ ai_gen_id }} {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: {{ block.settings.spacing }}px;
+    flex-wrap: wrap;
+  }
+
+  .ai-countdown-bar__content-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: {{ block.settings.spacing }}px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ai-countdown-bar__icon-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-countdown-bar__icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    fill: {{ block.settings.icon_color }};
+  }
+
+  .ai-countdown-bar__text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.text_font_size }}px;
+    font-weight: {{ block.settings.text_font_weight }};
+    color: {{ block.settings.text_color }};
+    margin: 0;
+  }
+
+  .ai-countdown-bar__timer-{{ ai_gen_id }} {
+    display: flex;
+    gap: {{ block.settings.timer_spacing }}px;
+    align-items: center;
+  }
+
+  .ai-countdown-bar__timer-box-{{ ai_gen_id }} {
+    background-color: {{ block.settings.timer_box_color }};
+    border-radius: {{ block.settings.timer_border_radius }}px;
+    padding: {{ block.settings.timer_padding_vertical }}px {{ block.settings.timer_padding_horizontal }}px;
+    min-width: {{ block.settings.timer_min_width }}px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-countdown-bar__timer-number-{{ ai_gen_id }} {
+    font-size: {{ block.settings.timer_number_size }}px;
+    font-weight: {{ block.settings.timer_number_weight }};
+    color: {{ block.settings.timer_number_color }};
+    line-height: 1;
+    margin: 0;
+  }
+
+  .ai-countdown-bar__timer-label-{{ ai_gen_id }} {
+    font-size: {{ block.settings.timer_label_size }}px;
+    font-weight: {{ block.settings.timer_label_weight }};
+    color: {{ block.settings.timer_label_color }};
+    margin-top: 4px;
+    line-height: 1;
+  }
+
+  .ai-countdown-bar__expired-{{ ai_gen_id }} {
+    font-size: {{ block.settings.text_font_size }}px;
+    font-weight: {{ block.settings.text_font_weight }};
+    color: {{ block.settings.text_color }};
+    text-align: center;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-countdown-bar__container-{{ ai_gen_id }} {
+      flex-direction: {{ block.settings.mobile_layout }};
+      text-align: center;
+    }
+
+    .ai-countdown-bar__content-{{ ai_gen_id }} {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .ai-countdown-bar__timer-{{ ai_gen_id }} {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .ai-countdown-bar__text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_font_size | times: 0.9 }}px;
+    }
+
+    .ai-countdown-bar__timer-number-{{ ai_gen_id }} {
+      font-size: {{ block.settings.timer_number_size | times: 0.85 }}px;
+    }
+
+    .ai-countdown-bar__timer-label-{{ ai_gen_id }} {
+      font-size: {{ block.settings.timer_label_size | times: 0.85 }}px;
+    }
+
+    .ai-countdown-bar__timer-box-{{ ai_gen_id }} {
+      min-width: {{ block.settings.timer_min_width | times: 0.8 }}px;
+      padding: {{ block.settings.timer_padding_vertical | times: 0.8 }}px {{ block.settings.timer_padding_horizontal | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<countdown-timer-{{ ai_gen_id }}
+  class="ai-countdown-bar-{{ ai_gen_id }}"
+  data-end-date="{{ block.settings.countdown_end_date }}"
+  data-end-time="{{ block.settings.countdown_end_time }}"
+  data-timezone="{{ block.settings.countdown_timezone }}"
+  data-hide-on-expire="{{ block.settings.hide_on_expire }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-countdown-bar__container-{{ ai_gen_id }}">
+    <div class="ai-countdown-bar__content-{{ ai_gen_id }}">
+      {% if block.settings.show_icon %}
+        <div class="ai-countdown-bar__icon-{{ ai_gen_id }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+          </svg>
+        </div>
+      {% endif %}
+
+      {% if block.settings.announcement_text != blank %}
+        <div class="ai-countdown-bar__text-{{ ai_gen_id }}">
+          {{ block.settings.announcement_text }}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="ai-countdown-bar__timer-{{ ai_gen_id }}" data-timer>
+      <div class="ai-countdown-bar__timer-box-{{ ai_gen_id }}">
+        <div class="ai-countdown-bar__timer-number-{{ ai_gen_id }}" data-days>00</div>
+        <div class="ai-countdown-bar__timer-label-{{ ai_gen_id }}">{{ block.settings.label_days }}</div>
+      </div>
+
+      <div class="ai-countdown-bar__timer-box-{{ ai_gen_id }}">
+        <div class="ai-countdown-bar__timer-number-{{ ai_gen_id }}" data-hours>00</div>
+        <div class="ai-countdown-bar__timer-label-{{ ai_gen_id }}">{{ block.settings.label_hours }}</div>
+      </div>
+
+      <div class="ai-countdown-bar__timer-box-{{ ai_gen_id }}">
+        <div class="ai-countdown-bar__timer-number-{{ ai_gen_id }}" data-minutes>00</div>
+        <div class="ai-countdown-bar__timer-label-{{ ai_gen_id }}">{{ block.settings.label_minutes }}</div>
+      </div>
+
+      <div class="ai-countdown-bar__timer-box-{{ ai_gen_id }}">
+        <div class="ai-countdown-bar__timer-number-{{ ai_gen_id }}" data-seconds>00</div>
+        <div class="ai-countdown-bar__timer-label-{{ ai_gen_id }}">{{ block.settings.label_seconds }}</div>
+      </div>
+    </div>
+
+    <div class="ai-countdown-bar__expired-{{ ai_gen_id }}" data-expired style="display: none;">
+      {{ block.settings.expired_message }}
+    </div>
+  </div>
+</countdown-timer-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class CountdownTimer{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.endDate = this.dataset.endDate;
+        this.endTime = this.dataset.endTime;
+        this.timezone = this.dataset.timezone;
+        this.hideOnExpire = this.dataset.hideOnExpire === 'true';
+        this.timerElement = this.querySelector('[data-timer]');
+        this.expiredElement = this.querySelector('[data-expired]');
+        this.daysElement = this.querySelector('[data-days]');
+        this.hoursElement = this.querySelector('[data-hours]');
+        this.minutesElement = this.querySelector('[data-minutes]');
+        this.secondsElement = this.querySelector('[data-seconds]');
+      }
+
+      connectedCallback() {
+        if (!this.endDate || !this.endTime) {
+          return;
+        }
+
+        this.startCountdown();
+      }
+
+      startCountdown() {
+        this.updateCountdown();
+        this.interval = setInterval(() => {
+          this.updateCountdown();
+        }, 1000);
+      }
+
+      updateCountdown() {
+        const endDateTime = new Date(this.endDate + 'T' + this.endTime).getTime();
+        const now = new Date().getTime();
+        const distance = endDateTime - now;
+
+        if (distance < 0) {
+          clearInterval(this.interval);
+          this.handleExpired();
+          return;
+        }
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        this.daysElement.textContent = this.padZero(days);
+        this.hoursElement.textContent = this.padZero(hours);
+        this.minutesElement.textContent = this.padZero(minutes);
+        this.secondsElement.textContent = this.padZero(seconds);
+      }
+
+      handleExpired() {
+        if (this.hideOnExpire) {
+          this.style.display = 'none';
+        } else {
+          this.timerElement.style.display = 'none';
+          this.expiredElement.style.display = 'block';
+        }
+      }
+
+      padZero(num) {
+        return num < 10 ? '0' + num : num;
+      }
+
+      disconnectedCallback() {
+        if (this.interval) {
+          clearInterval(this.interval);
+        }
+      }
+    }
+
+    customElements.define('countdown-timer-{{ ai_gen_id }}', CountdownTimer{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Countdown bar",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": "Announcement text",
+      "default": "Letní výprodej — slevy až 30 %. Výprodej končí za:"
+    },
+    {
+      "type": "header",
+      "content": "Countdown settings"
+    },
+    {
+      "type": "text",
+      "id": "countdown_end_date",
+      "label": "End date",
+      "info": "Format: YYYY-MM-DD (e.g., 2026-12-31)",
+      "default": "2026-12-31"
+    },
+    {
+      "type": "text",
+      "id": "countdown_end_time",
+      "label": "End time",
+      "info": "Format: HH:MM (24-hour, e.g., 23:59)",
+      "default": "23:59"
+    },
+    {
+      "type": "text",
+      "id": "countdown_timezone",
+      "label": "Timezone",
+      "info": "e.g., Europe/Prague, America/New_York",
+      "default": "Europe/Prague"
+    },
+    {
+      "type": "header",
+      "content": "Timer labels"
+    },
+    {
+      "type": "text",
+      "id": "label_days",
+      "label": "Days label",
+      "default": "Days"
+    },
+    {
+      "type": "text",
+      "id": "label_hours",
+      "label": "Hours label",
+      "default": "Hours"
+    },
+    {
+      "type": "text",
+      "id": "label_minutes",
+      "label": "Minutes label",
+      "default": "Minutes"
+    },
+    {
+      "type": "text",
+      "id": "label_seconds",
+      "label": "Seconds label",
+      "default": "Seconds"
+    },
+    {
+      "type": "header",
+      "content": "Expired settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_on_expire",
+      "label": "Hide section when expired",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "expired_message",
+      "label": "Expired message",
+      "default": "Sale has ended"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#d4e8c1"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#2d5016"
+    },
+    {
+      "type": "color",
+      "id": "timer_box_color",
+      "label": "Timer box background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "timer_number_color",
+      "label": "Timer number",
+      "default": "#2d5016"
+    },
+    {
+      "type": "color",
+      "id": "timer_label_color",
+      "label": "Timer label",
+      "default": "#2d5016"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border",
+      "default": "#a8c98a"
+    },
+    {
+      "type": "header",
+      "content": "Icon"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Show icon",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon color",
+      "default": "#2d5016"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Icon size",
+      "min": 16,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "text_font_size",
+      "label": "Text size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "text_font_weight",
+      "label": "Text weight",
+      "min": 300,
+      "max": 700,
+      "step": 100,
+      "default": 400
+    },
+    {
+      "type": "range",
+      "id": "timer_number_size",
+      "label": "Timer number size",
+      "min": 16,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "timer_number_weight",
+      "label": "Timer number weight",
+      "min": 400,
+      "max": 900,
+      "step": 100,
+      "default": 700
+    },
+    {
+      "type": "range",
+      "id": "timer_label_size",
+      "label": "Timer label size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "timer_label_weight",
+      "label": "Timer label weight",
+      "min": 300,
+      "max": 700,
+      "step": 100,
+      "default": 400
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "spacing",
+      "label": "Content spacing",
+      "min": 8,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "timer_spacing",
+      "label": "Timer box spacing",
+      "min": 4,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "label": "Vertical padding",
+      "min": 8,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 8,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Timer box style"
+    },
+    {
+      "type": "range",
+      "id": "timer_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "timer_padding_vertical",
+      "label": "Vertical padding",
+      "min": 4,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "timer_padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 6,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "timer_min_width",
+      "label": "Minimum width",
+      "min": 40,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "header",
+      "content": "Section style"
+    },
+    {
+      "type": "range",
+      "id": "section_height",
+      "label": "Minimum height",
+      "min": 40,
+      "max": 120,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "label": "Border width",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Mobile layout"
+    },
+    {
+      "type": "select",
+      "id": "mobile_layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "row",
+          "label": "Horizontal"
+        },
+        {
+          "value": "column",
+          "label": "Vertical (stacked)"
+        }
+      ],
+      "default": "column"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Countdown bar"
+    }
+  ]
+}
+{% endschema %}

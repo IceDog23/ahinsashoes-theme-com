@@ -1,0 +1,1195 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "3_KyNY6F": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
+        },
+        "1_kiPXGQ": {
+          "type": "1",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "fontf": "1",
+            "text_cl": "#ffffff",
+            "text_fs": 39,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 31,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "2_QpeXnY": {
+          "type": "2",
+          "settings": {
+            "fontf": "2",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_fullwidth": true,
+        "image": "{{ page.metafields.social_sharing.image.value }}",
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "hero_image_DGmykV": {
+      "type": "hero_image",
+      "blocks": {
+        "custom_text_Ay7RPh": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Ahinsa + Preciosa = ✨",
+            "remove_br_tag": false,
+            "tag": "h4",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 25,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 1,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_D6azRU": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Blýskněte se ve střevíčkách od mistrů třpytu",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "1",
+            "text_cl": "#ffffff",
+            "text_fs": 39,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 31,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_QAgVJ3": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Když se řekne <b>Ahinsa</b>, znamená to <b>zdraví a pohodlí</b>.\n<br>\nKdyž se řekne <b>Preciosa</b>, znamená to <b>lesk a třpyt</b>.\n<br>\nA co když se to <b>spojí</b>?",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "custom_text_Ay7RPh",
+        "custom_text_D6azRU",
+        "custom_text_QAgVJ3"
+      ],
+      "settings": {
+        "se_height": "t4s_ratio_cuspx",
+        "custom_dk": true,
+        "height_dk": 550,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 400,
+        "image": "shopify://shop_images/1000x700_lp_preciosa.jpg",
+        "parallax": true,
+        "image_position": "9",
+        "link_img1": "",
+        "open_link": "_blank",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "container",
+        "cv_pos": 50,
+        "ch_pos": 50,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000000",
+        "bg_opacity": 50,
+        "bg_content_cl": "#ffffff",
+        "bg_content_op": 0,
+        "content_pd_tb": 15,
+        "content_pd_lr": 15,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 10,
+        "border_bl": false,
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 20,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "shipping_nj3nkg": {
+      "type": "shipping",
+      "blocks": {
+        "shipping_HDMKMa": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "icon": "las la-shipping-fast",
+            "title": "ŠETŘÍME PLANETU",
+            "text": "",
+            "html": ""
+          }
+        },
+        "shipping_KfzhP7": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "icon": "las la-shipping-fast",
+            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
+            "text": "",
+            "html": ""
+          }
+        },
+        "shipping_mmNH6x": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "icon": "las la-shipping-fast",
+            "title": "RUČNĚ VYROBENÉ V ČR A CHORVATSKU",
+            "text": "",
+            "html": ""
+          }
+        }
+      },
+      "block_order": [
+        "shipping_HDMKMa",
+        "shipping_KfzhP7",
+        "shipping_mmNH6x"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "content_align": "text-start",
+        "align_vertical": false,
+        "design_padding": "1",
+        "source": "get_image",
+        "icon_des": "default",
+        "icon_size": "medium",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "2",
+        "border": false,
+        "cl_bd": "#dddddd",
+        "cl_ic": "#9e9e9e",
+        "cl_hd": "#222222",
+        "cl_cot": "#202020",
+        "bg_item": "#ffffff",
+        "hd_fs": 16,
+        "hd_fw": 600,
+        "txt_fs": 14,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "carousel_mobile": true,
+        "dots_cl": "dark",
+        "dots_round": true,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": ",,20px,",
+        "pd_tb": "",
+        "mg_mb": ",,10,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "feature_columns_ftk7q7": {
+      "type": "feature_columns",
+      "blocks": {
+        "text_block_6nXPLA": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/preciosa_designer_teperova_1.png",
+            "title": "„Chtěli jsme krásné a elegantní boty do společnosti.“",
+            "text": "<p>Lidé si stále myslí, že co je pohodlné, nemůže být krásné. My jsme se rozhodli dokázat, že to není pravda. </p><p>Spojili jsme naše poznatky o <strong>anatomii chodidel</strong> a překrásné <strong>křišťály od Preciosy</strong>.</p><p><em>Lukáš Klimpera, fyzioterapeut a zakladatel Ahinsa shoes</em></p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_UeeVUU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/preciosa_designer_teperova.png",
+            "title": "„Vybrali jsme kameny, které připomínají listy jasanu.“",
+            "text": "<p>\"Křišťálové zdobení opakuje čisté linie a vizuálně navazuje na použité materiály.\" </p><p>Abychom měli jistotu, že křišťály vydrží stejně dlouho jako Ahinsa shoes, <strong>upevňujeme je přímo u nás v Preciose</strong> v Jablonci nad Nisou.</p><p><em>Kateřina Teperová, designérka, Preciosa</em></p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_6nXPLA",
+        "text_block_UeeVUU"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "text_align": "center",
+        "pos_text": "alt",
+        "fs_title": 22,
+        "fs_text": 16,
+        "fs_title_mb": 22,
+        "fs_text_mb": 14,
+        "image_ratio": "ratio2_1",
+        "image_size": "contain",
+        "image_position": "9",
+        "img_effect": "none",
+        "b_effect": "none",
+        "layout_des": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "2",
+        "col_tb": "2",
+        "col_mb": "1",
+        "loop": false,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_jPnaeL": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_rTNYCk": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/lukas-klimpera-prodejna.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "contain",
+            "image_position": "5",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_QRqwAQ": {
+          "type": "bl_text",
+          "settings": {
+            "quote": true,
+            "smaller_text": true,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p>„Chtěli jsme krásné a elegantní boty do společnosti.<br/>Lidé si stále myslí, že co je pohodlné, nemůže být krásné. My jsme se rozhodli dokázat, že to není pravda. Spojili jsme naše poznatky o anatomii chodidel a překrásné krystaly od Preciosy.\"</p><h6>Lukáš Klimpera, fyzioterapeut a zakladatel Ahinsa shoes</h6>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_rTNYCk",
+        "bl_text_QRqwAQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#f1f1f1",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_f4gtKp": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_QFR6Gw": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>Sandálky Hava Preciosa:</h3><h4>Třpyt letního večera</h4><p></p><p>Vyrazte tančit. Nebo jen na procházku tepajícím městem. Ale pozor: I hvězdy zblednou, až uvidí <strong>třpyt vašich sandálků</strong>. A to netuší, jak nesmírně jsou <strong>pohodlné</strong>.</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Zatřpyťte se",
+            "button_link": "https://ahinsashoes.cz/collections/damy/hava2+preciosa",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_maapLQ": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/IMG_9132.jpg",
+            "image2": "shopify://shop_images/DSC2673-kopie.jpg",
+            "image3": "shopify://shop_images/IMG_9418.jpg",
+            "image4": "shopify://shop_images/DSC6780-kopie.jpg",
+            "image5": "shopify://shop_images/IMG_9520.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratio4_3",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_QFR6Gw",
+        "bl_image_maapLQ"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_q84raF": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_AfxDDc": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/DSC2706-kopie.jpg",
+            "image2": "shopify://shop_images/DSC7012-kopie.jpg",
+            "image3": "shopify://shop_images/IMG_2550_sirka.jpg",
+            "image4": "shopify://shop_images/IMG_2330_sirka.jpg",
+            "image5": "shopify://shop_images/IMG_2568.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratio4_3",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_QM7mQC": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>Balerínky Chic Preciosa rosegold</h3><h4>Střevíčky jako ze zlata</h4><p></p><p>Večer v opeře. První schůzka. Nebo rande po letech. Jsou příležitosti, které si zaslouží <strong>střevíčky jako ze zlata</strong>. A ještě špetku lesku navíc.</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Rozzařte se",
+            "button_link": "https://ahinsashoes.cz/collections/novinky-damske/preciosa+chic?filter.p.m.custom.barva=zlat%C3%A1",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_AfxDDc",
+        "bl_text_QM7mQC"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_8fieMe": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_pbiyyh": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>Balerínky Chic Preciosa černé</h3><h4>Lesklá elegance</h4><p></p><p>Stačí málo, aby se <strong>z elegantního outfitu stal výjimečný</strong>. Jemný lesk kamínků na minimalistických černých balerínkách.</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Blýskněte se",
+            "button_link": "https://ahinsashoes.cz/collections/novinky-damske/preciosa+chic?filter.p.m.custom.barva=%C4%8Dern%C3%A1",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_xiTHBH": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/IMG_2972.jpg",
+            "image2": "shopify://shop_images/IMG_2074.jpg",
+            "image3": "shopify://shop_images/IMG_9830.jpg",
+            "image4": "shopify://shop_images/IMG_2722.jpg",
+            "image5": "shopify://shop_images/IMG_9755_1.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratio4_3",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_pbiyyh",
+        "bl_image_xiTHBH"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "counter_79zUgB": {
+      "type": "counter",
+      "blocks": {
+        "counter_item_YiGtPf": {
+          "type": "counter_item",
+          "settings": {
+            "icon_themes": "none",
+            "icon": "las la-user",
+            "heading": "Hava bílé",
+            "number": 48,
+            "unit": "",
+            "des": "<a href=\"https://ahinsashoes.cz/products/damske-barefoot-sandaly-hava-2-preciosa-bile\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">párů</h3></a>",
+            "content_align": "center",
+            "item_bg": "shopify://shop_images/lp_preciosa_filtr5.jpg"
+          }
+        },
+        "counter_item_faDbXi": {
+          "type": "counter_item",
+          "settings": {
+            "icon_themes": "car",
+            "icon": "las la-user",
+            "heading": "Hava černé",
+            "number": 48,
+            "unit": "",
+            "des": "<a href=\"https://ahinsashoes.cz/products/damske-barefoot-sandaly-hava-2-preciosa-cerne\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">párů</h3></a>",
+            "content_align": "center",
+            "item_bg": "shopify://shop_images/lp_preciosa_filtr.jpg"
+          }
+        },
+        "counter_item_4TPpUr": {
+          "type": "counter_item",
+          "settings": {
+            "icon_themes": "car",
+            "icon": "las la-user",
+            "heading": "Chic zlaté",
+            "number": 45,
+            "unit": "",
+            "des": "<a href=\"https://ahinsashoes.cz/products/barefoot-balerinky-chic-preciosa-rosegold\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">párů</h3></a>",
+            "content_align": "center",
+            "item_bg": "shopify://shop_images/lp_preciosa_filtr4.jpg"
+          }
+        },
+        "counter_item_7q7xG9": {
+          "type": "counter_item",
+          "settings": {
+            "icon_themes": "car",
+            "icon": "las la-user",
+            "heading": "Chic černé",
+            "number": 57,
+            "unit": "",
+            "des": "<a href=\"https://ahinsashoes.cz/products/barefoot-balerinky-chic-preciosa-cerne\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">párů</h3></a>",
+            "content_align": "center",
+            "item_bg": "shopify://shop_images/lp_preciosa_filtr_3.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "counter_item_YiGtPf",
+        "counter_item_faDbXi",
+        "counter_item_4TPpUr",
+        "counter_item_7q7xG9"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Limitovaná kolekce",
+        "icon_heading": "las la-gem",
+        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Sandálky Hava a balerínky Chic jsme ve spolupráci s Preciosou vyrobili jen v omezeném množství párů. Tak s nákupem neváhejte, ať vám je někdo nevyfoukne před nosem.</p>",
+        "tophead_mb": 30,
+        "source_icon": "none",
+        "icon_effect": "none",
+        "counter_size": "large",
+        "use_border": false,
+        "icon_cl": "#222222",
+        "heading_cl": "#ffffff",
+        "number_cl": "#ffffff",
+        "des_cl": "#878787",
+        "bd_cl": "#dddddd",
+        "bg_cl": "",
+        "col_dk": "4",
+        "col_tb": "3",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_mETQkq": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_aVwdcL": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/DSC2588-kopie.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratio4_3",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_MJaMPU": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>Kdo je Preciosa? Česká legenda lesku a luxusu</h3><p></p><p>Preciosa navazuje na <strong>staletou tradici českého sklářství</strong>. Vyrábí křišťálové šperky i lustry, které získaly Česku ohlas po celém světě.</p><p>Jejich krystaly jsou poklad – a vy ho teď můžete nosit na nohách.</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "",
+            "button_link": "shopify://collections/paskove-sandaly-hava",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_aVwdcL",
+        "bl_text_MJaMPU"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "@OldrichKejik k tomu asi budu potřebovat přístupy k věcem co nám spravuje Upster.",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_gallery_bU6yRr": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_item_4cVWUh": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/MG_8193.jpg",
+            "link": ""
+          }
+        },
+        "image_item_fbAHEG": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2568_e7a0c5c9-a38b-4f6b-968f-dc02eb210a59.jpg",
+            "link": ""
+          }
+        },
+        "image_item_3mXAfk": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/MG_7793.jpg",
+            "link": ""
+          }
+        },
+        "image_item_Ym4wMm": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Crystal_Net_rgb.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_item_4cVWUh",
+        "image_item_fbAHEG",
+        "image_item_3mXAfk",
+        "image_item_Ym4wMm"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Kdo je Preciosa? Česká legenda lesku a luxusu",
+        "icon_heading": "las la-gem",
+        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Preciosa navazuje na staletou tradici českého sklářství.\nVyrábí křišťálové šperky i lustry, které získaly Česku ohlas po celém světě.\n<br>Jejich křišťálové kameny jsou poklad – a vy ho teď můžete nosit na nohách.</p>",
+        "tophead_mb": 30,
+        "layout_des": "1",
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "shipping_HLBRw3": {
+      "type": "shipping",
+      "blocks": {
+        "shipping_WUVMVi": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "icon": "las la-shipping-fast",
+            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
+            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.</p>",
+            "html": ""
+          }
+        },
+        "shipping_JbAxfr": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "icon": "las la-shipping-fast",
+            "title": "VYDRŽÍ MILIONY KROKŮ",
+            "text": "<p>Protože šijeme ručně z odolných materiálů.</p>",
+            "html": ""
+          }
+        },
+        "shipping_HQFeA6": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "icon": "las la-shipping-fast",
+            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
+            "text": "<p>Poštovné platíme my.</p>",
+            "html": ""
+          }
+        },
+        "shipping_RnhAgG": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "icon": "las la-shipping-fast",
+            "title": "VYRÁBÍME RUČNĚ A ETICKY",
+            "text": "<p>Přátelské k přírodě, zvířatům i lidem.</p>",
+            "html": ""
+          }
+        }
+      },
+      "block_order": [
+        "shipping_WUVMVi",
+        "shipping_JbAxfr",
+        "shipping_HQFeA6",
+        "shipping_RnhAgG"
+      ],
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "content_align": "text-start",
+        "align_vertical": false,
+        "design_padding": "1",
+        "source": "get_image",
+        "icon_des": "default",
+        "icon_size": "medium",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "border": false,
+        "cl_bd": "#dddddd",
+        "cl_ic": "#9e9e9e",
+        "cl_hd": "#222222",
+        "cl_cot": "#202020",
+        "bg_item": "#ffffff",
+        "hd_fs": 16,
+        "hd_fw": 600,
+        "txt_fs": 14,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "carousel_mobile": false,
+        "dots_cl": "dark",
+        "dots_round": true,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": ",,20px,",
+        "pd_tb": "",
+        "mg_mb": ",,10,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "hero_image_DGmykV",
+    "shipping_nj3nkg",
+    "main",
+    "sidebar-page",
+    "feature_columns_ftk7q7",
+    "image_text_jPnaeL",
+    "image_text_f4gtKp",
+    "image_text_q84raF",
+    "image_text_8fieMe",
+    "counter_79zUgB",
+    "image_text_mETQkq",
+    "image_gallery_bU6yRr",
+    "shipping_HLBRw3"
+  ]
+}

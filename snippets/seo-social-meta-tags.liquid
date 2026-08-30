@@ -1,0 +1,207 @@
+{%- liquid
+  assign og_title = page_title
+  assign og_url = canonical_url
+  assign og_type = 'website'
+  assign og_description = page_description | default: shop.description | default: shop.name
+-%}
+
+{%- if request.page_type == 'product' -%}
+  {%- assign og_title = seo_title | strip -%}
+  {%- assign og_type = 'product' -%}
+{%- elsif request.page_type == 'collection' -%}
+  {%- assign og_title = seo_title | strip -%}
+{%- elsif request.page_type == 'article' -%}
+  {%- assign og_title = article.title | strip_html -%}
+  {%- assign og_type = 'article' -%}
+  {%- assign og_description = article.excerpt_or_content | strip_html -%}
+{%- elsif request.page_type == 'password' -%}
+  {%- liquid
+    assign og_title = shop.name
+    assign og_url = shop.url
+    assign og_description = shop.description | default: shop.name
+  -%}
+{%- endif -%}
+
+  <meta property="og:site_name" content="{{ shop.name }}">
+  <meta property="og:url" content="{{ og_url }}">
+
+  {%- if template == 'blog' -%}
+    {% if request.path == '/blogs/news' %}
+      <title>Blog o chůzi ve zdravých botách</title>
+      <meta name="description" content="Proč se vyplatí nošení obuvi, ve které jsou vaše prsty svobodné? Budete se divit, co všechno zdravá obuv ovlivňuje. Čtěte a zjišťujte.">
+      <meta property="og:title" content="Blog o chůzi ve zdravých botách">
+      <meta property="og:description" content="Proč se vyplatí nošení obuvi, ve které jsou vaše prsty svobodné? Budete se divit, co všechno zdravá obuv ovlivňuje. Čtěte a zjišťujte.">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/beh' %}
+      <title>Sportujte ve zdravých botách</title>
+      <meta name="description" content="Sportujte svobodně a s lehkostí. Obujte barefoot boty a vydejte ze sebe maximum. Ahinsa shoes pro vás navrhli odborníci na pohybový aparát.">
+      <meta property="og:title" content="Sportujte ve zdravých botách">
+      <meta property="og:description" content="Sportujte svobodně a s lehkostí. Obujte barefoot boty a vydejte ze sebe maximum. Ahinsa shoes pro vás navrhli odborníci na pohybový aparát.">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/cviky' %}
+      <title>Cviky a rady podle fyzioterapeutů</title>
+      <meta name="description" content="Naučte se správné chůzi a vyřešte problémy nejen s bolavými zády a chodidly. Barefoot a komfortní boty vám s tím pomohou.">
+      <meta property="og:title" content="Cviky a rady podle fyzioterapeutů">
+      <meta property="og:description" content="Naučte se správné chůzi a vyřešte problémy nejen s bolavými zády a chodidly. Barefoot a komfortní boty vám s tím pomohou.">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/panevni-dno' %}
+      <title>Zapomeňte na problémy s pánevním dnem</title>
+      <meta name="description" content="Máte problémy, které pramení od pánevního dna? Zkuste vyměnit boty. Obujte Ahinsa shoes a aktivujte znovu své pánevní dno.">
+      <meta property="og:title" content="Zapomeňte na problémy s pánevním dnem">
+      <meta property="og:description" content="Máte problémy, které pramení od pánevního dna? Zkuste vyměnit boty. Obujte Ahinsa shoes a aktivujte znovu své pánevní dno.">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/tehotenstvi' %}
+      <title>Do čeho se obout v těhotenství?</title>
+      <meta name="description" content="Ulevte bolavým zádům a dopřejte svým nohám pohodlné obutí. V Ahinsa shoes ulevíte svému tělu, které dostává během těhotenství zabrat.">
+      <meta property="og:title" content="Do čeho se obout v těhotenství?">
+      <meta property="og:description" content="Ulevte bolavým zádům a dopřejte svým nohám pohodlné obutí. V Ahinsa shoes ulevíte svému tělu, které dostává během těhotenství zabrat.">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/veganstvi' %}
+      <title>Veganský přístup Ahinsa shoes</title>
+      <meta name="description" content="Vyrábíme boty, ve kterých nachodíte miliony kroků. Dbáme na udržitelnost a pro výrobu zdravých bot používáme veganské materiály. Které to jsou?">
+      <meta property="og:title" content="Veganský přístup Ahinsa shoes">
+      <meta property="og:description" content="Vyrábíme boty, ve kterých nachodíte miliony kroků. Dbáme na udržitelnost a pro výrobu zdravých bot používáme veganské materiály. Které to jsou?">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/materialy' %}
+      <title>Z jakých materiálů vyrábíme Ahinsa shoes?</title>
+      <meta name="description" content="Choďte v botách z veganských materiálů. Při jejich získávání netrpí zvířata ani planeta. Užijte si chůzi ve zdravých a šetrných botách.">
+      <meta property="og:title" content="Z jakých materiálů vyrábíme Ahinsa shoes?">
+      <meta property="og:description" content="Choďte v botách z veganských materiálů. Při jejich získávání netrpí zvířata ani planeta. Užijte si chůzi ve zdravých a šetrných botách.">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/rozhovor' %}
+      <title>Rozhovory o tom, proč je zdravá obuv důležitá</title>
+      <meta name="description" content="Jak se na téma zdraví člověka a jeho obutí dívají odborníci? Proč se vyplatí investovat do zdravé obuvi? Odpovídají ti nejpovolanější.">
+      <meta property="og:title" content="Rozhovory o tom, proč je zdravá obuv důležitá">
+      <meta property="og:description" content="Jak se na téma zdraví člověka a jeho obutí dívají odborníci? Proč se vyplatí investovat do zdravé obuvi? Odpovídají ti nejpovolanější.">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/tipy' %}
+      <title>Rady a tipy pro vaše spokojené nohy</title>
+      <meta name="description" content="Chcete pro svoje zdraví udělat to nejlepší? Poradíme vám jak na to. Všechno začíná u obuvi. Proč se nošení Ahinsa shoes vyplatí?">
+      <meta property="og:title" content="Rady a tipy pro vaše spokojené nohy">
+      <meta property="og:description" content="Chcete pro svoje zdraví udělat to nejlepší? Poradíme vám jak na to. Všechno začíná u obuvi. Proč se nošení Ahinsa shoes vyplatí?">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/zdrava-chuze' %}
+      <title>Co všechno ovlivňuje zdravá chůze?</title>
+      <meta name="description" content="Věděli jste, že vám zdravé boty mohou pomoci od problémů s pohybovým aparátem? Naučte se chodit zdravě v Ahinsa shoes.">
+      <meta property="og:title" content="Co všechno ovlivňuje zdravá chůze?">
+      <meta property="og:description" content="Věděli jste, že vám zdravé boty mohou pomoci od problémů s pohybovým aparátem? Naučte se chodit zdravě v Ahinsa shoes.">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/zdravi' %}
+      <title>Správná obuv podpoří vaše zdraví</title>
+      <meta name="description" content="Věděli jste, že za spoustou zdravotních problémů stojí nevhodná obuv? Poradíme vám, jak vyberete takové boty, které si vaše tělo zamiluje.">
+      <meta property="og:title" content="Správná obuv podpoří vaše zdraví">
+      <meta property="og:description" content="Věděli jste, že za spoustou zdravotních problémů stojí nevhodná obuv? Poradíme vám, jak vyberete takové boty, které si vaše tělo zamiluje.">
+    {% endif %}
+
+    {% if request.path == '/blogs/news/tagged/psychika' %}
+      <title>Ahinsa shoes podporují psychickou pohodu</title>
+      <meta name="description" content="Věděli jste, že napětí v těle vyvolává i nevhodná obuv? Uvolněte se. Obujte Ahinsa shoes a buďte zkrátka v pohodě.">
+      <meta property="og:title" content="Ahinsa shoes podporují psychickou pohodu">
+      <meta property="og:description" content="Věděli jste, že napětí v těle vyvolává i nevhodná obuv? Uvolněte se. Obujte Ahinsa shoes a buďte zkrátka v pohodě.">
+    {% endif %}
+
+  {%- else -%}
+    <meta property="og:title" content="{{ og_title | escape }}">
+  {% endif %}
+  <meta property="og:type" content="{{ og_type }}">
+
+  <meta property="og:description" content="{{ og_description | strip_html }}">
+  {%- if template_base == 'product' -%}
+    <meta property="og:price:amount" content="{{ product.price | money_without_currency | strip_html }}">
+    <meta property="og:price:currency" content="{{ cart.currency.iso_code }}">
+  {%- endif -%}
+  {%- if page_image -%}
+    {% if page.metafields.social_sharing.image != blank %}
+      {% assign custom_image = page.metafields.social_sharing.image | img_url: "1200x" %}
+      <meta property="og:image" content="https:{{ custom_image }}" />
+      <meta property="og:image:secure_url" content="https:{{ custom_image }}">
+    {%- else -%}
+      <meta property="og:image" content="http:{{ page_image | img_url: 'master' }}">
+      <meta property="og:image:secure_url" content="https:{{ page_image | img_url: 'master' }}">
+    {% endif %}
+    <meta property="og:image:width" content="{{ page_image.width }}">
+    <meta property="og:image:height" content="{{ page_image.height }}">
+  {%- endif -%}
+  <meta name="twitter:site" content="{{ settings.social_twitter_link | split: 'twitter.com/' | last | prepend: '@' }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title | escape }}">
+  <meta name="twitter:description" content="{{ og_description | strip_html }}">
+
+
+
+
+
+
+{% comment %} THEME META TAGS {% endcomment %}
+{% comment %} {%- liquid
+  assign shop_name = shop.name
+  assign shop_name_escape = shop_name | escape
+  assign shop_domain = shop.domain
+  assign og_title = page_title | default: shop_name
+  assign og_url = canonical_url | default: request.origin
+  assign og_type = 'website'
+  assign og_description = page_description | default: shop.description | default: shop_name
+  assign page_image = page_image | default: settings.share_image | default: settings.logo
+  
+ if t_name == 'product'
+    assign og_type = 'product'
+  elsif t_name == 'article'
+    assign og_type = 'article'
+  elsif t_name == 'password'
+    assign og_url = request.origin
+  endif
+ -%}
+
+{%- case t_name -%}
+  {%- when 'index' -%}
+      {%- if settings.home_keywords != blank -%}<meta name="keywords" content="{{ settings.home_keywords }}"/>{%- else -%}<meta name="keywords" content="{{ shop_name_escape }}, {{ shop_domain }}"/>{%- endif -%}
+    {%- when 'product' -%}
+      <meta name="keywords" content="{{ product.title | escape }}, {{ shop_name_escape }}, {{ shop_domain }}"/>
+    {%- when 'collection' -%}
+      <meta name="keywords" content="{{ collection.title | escape }}, {{ shop_name_escape }}, {{ shop_domain }}"/>
+    {%- when 'blog' -%}
+      <meta name="keywords" content="{{ blog.title | escape }}, {{ shop_name_escape }}, {{ shop_domain }}"/>
+    {%- when 'article' -%}
+      <meta name="keywords" content="{{ article.title | escape }}, {{ blog.title | escape }}, {{ shop_name_escape }}, {{ shop_domain }}"/>
+    {%- when 'search' -%}{%- assign search_name = 'search ' | append:shop_name -%}
+      {%- if template == 'search.wish' %}{% assign og_title = 'wishlist_page.meta' | t %}{%- elsif template == 'search.compe' %}{% assign og_title = 'compare_page.meta' | t %}{%- endif -%}
+      <meta name="keywords" content="{{ title_term | default: search.terms | default: search_name| escape }}, {{ shop_name_escape }}, {{ shop_domain }}"/>  
+    {%- else -%}
+      <meta name="keywords" content="{{ page_title | escape }}, {{ shop_name_escape }}, {{ shop_domain }}"/>
+{%- endcase -%}
+<meta name="author" content="{{ settings.shop_author | default: 'The4' | escape }}">
+
+<meta property="og:site_name" content="{{ shop_name_escape }}">
+<meta property="og:url" content="{{ og_url }}">
+<meta property="og:title" content="{{ og_title | escape }}">
+<meta property="og:type" content="{{ og_type }}">
+<meta property="og:description" content="{{ og_description | escape }}">
+
+{%- if page_image -%}
+  <meta property="og:image" content="http:{{ page_image | image_url }}">
+  <meta property="og:image:secure_url" content="https:{{ page_image | image_url }}">
+  <meta property="og:image:width" content="{{ page_image.width }}">
+  <meta property="og:image:height" content="{{ page_image.height }}">
+{%- endif -%}
+
+{%- if t_name == 'product' -%}
+  <meta property="og:price:amount" content="{{ product.selected_or_first_available_variant.price | money_without_currency | strip_html }}">
+  <meta property="og:price:currency" content="{{ cart.currency.iso_code }}">
+{%- endif -%}
+
+{%- if settings.social_twitter_link != blank -%}
+  <meta name="twitter:site" content="{{ settings.social_twitter_link | split: 'twitter.com/' | last | prepend: '@' }}">
+{%- endif -%}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ og_title | escape }}">
+<meta name="twitter:description" content="{{ og_description | escape }}"> {% endcomment %}

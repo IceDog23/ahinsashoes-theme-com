@@ -1,0 +1,196 @@
+.contact-flex {
+    display: flex;
+    gap: 20px 1%;
+    margin-bottom: 20px;
+}
+
+.contact-box {
+    border: 1px solid black;
+}
+
+.contact-zakaznicky_servis {
+    width: 66%;
+}
+
+.contact-prodejna_v_praze {
+    width: 34%;
+}
+
+.contact-box-container {
+    padding: 2rem;
+}
+
+.contact-box-container a {
+    text-decoration: underline;
+}
+
+.contact-box-container>div>h2 {
+    margin: 0 0 15px;
+}
+
+.contact-customer_serv-flex {
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-customer_serv-flex>div {
+    width: 48%;
+}
+
+.contact-customer_serv-flex a {
+    text-decoration: underline;
+}
+
+.contact-operation-time {
+    margin-top: 10px;
+    margin-left: 1rem;
+    font-size: initial;
+}
+
+.contact-telephone::before {
+    background: url(//ahinsashoes.cz/cdn/shop/t/107/assets/icon-phone_small.png?v=1285874…);
+}
+
+.contact-mail::before {
+    background: url(//ahinsashoes.cz/cdn/shop/t/107/assets/icon-email_small.png?v=1137853…);
+}
+
+.contact-telephone::before,
+.contact-mail::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    background-size: contain !important;
+    margin-right: 10px;
+}
+
+.contact-care_display-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-care {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.contact-emploee {
+    max-width: calc(25% - 9px);
+}
+
+.contact-emploee-name {
+    text-align: center;
+}
+
+.contact-addresses,
+.contact-improvements
+ {
+    width: 50%;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.contact-improvemets-row {
+    display: flex;
+    gap: 10px
+}
+
+.contact-improvemets-row_item {
+    width: 66%;
+}
+
+.contact-improvemets-row_item_img {
+    width: 34%;
+}
+
+.contact-improvement-mail {
+    font-size: 25px;
+}
+
+.h3 {
+    font-size: 25px;
+}
+
+.mb-05 {
+    margin-bottom: 7px;
+}
+
+.ml-1 {
+    margin-left: 15px;
+}
+
+.mb-1 {
+    margin-bottom: 15px;
+}
+
+.mt-1 {
+    margin-top: 15px;
+}
+
+.mt-2 {
+    margin-top: 30px;
+}
+
+.ml-2 {
+    margin-left: 30px;
+}
+
+.mb-2 {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-flex {
+        flex-wrap: wrap;
+    }
+    .contact-box {
+        flex-wrap: wrap;
+    }
+
+    .contact-zakaznicky_servis {
+        width: unset;
+    }
+    
+    .contact-prodejna_v_praze {
+        width: unset;
+    }
+
+    .contact-addresses,
+    .contact-improvements
+     {
+        width: unset;
+    }
+
+    .contact-care_display-flex {
+        flex-wrap: wrap;
+    }
+
+    .contact-customer_serv-flex div {
+        width: unset;
+    }
+
+    .ml-1 {
+        margin-left: unset;
+    }
+
+    .contact-emploee {
+        max-width: calc(50% - 12px);
+    }
+
+    .contact-improvemets-row {
+        flex-direction: column-reverse;
+    }
+
+    .contact-improvemets-row_item, 
+    .contact-improvemets-row_item_img {
+        width: unset;
+    }
+}

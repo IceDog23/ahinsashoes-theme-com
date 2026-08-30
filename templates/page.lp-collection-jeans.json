@@ -1,0 +1,1348 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "3_KyNY6F": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
+        },
+        "1_kiPXGQ": {
+          "type": "1",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "fontf": "1",
+            "text_cl": "#ffffff",
+            "text_fs": 39,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 31,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "2_QpeXnY": {
+          "type": "2",
+          "settings": {
+            "fontf": "2",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_fullwidth": true,
+        "image": "{{ page.metafields.social_sharing.image.value }}",
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "hero_image_DGmykV": {
+      "type": "hero_image",
+      "blocks": {
+        "custom_text_Ay7RPh": {
+          "type": "custom_text",
+          "settings": {
+            "text": "DEJTE SVÝM MILOVANÝM DŽÍNŮM NOVOU DUŠI",
+            "remove_br_tag": false,
+            "tag": "h4",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 25,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 1,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_D6azRU": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Ahinsa Jeans",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "1",
+            "text_cl": "#ffffff",
+            "text_fs": 39,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 31,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_QAgVJ3": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Zažily s vámi první rande, povýšení v práci i nejkrásnější výlety. A teď byste se měli rozloučit?<br>\nPočkejte chvíli! Pošlete své milované džíny nám.<br>\n<b>Vyrobíme z nich boty, které nebudete chtít zout.</b>",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "custom_text_Ay7RPh",
+        "custom_text_D6azRU",
+        "custom_text_QAgVJ3"
+      ],
+      "settings": {
+        "se_height": "t4s_ratio_cuspx",
+        "custom_dk": true,
+        "height_dk": 550,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 400,
+        "image": "shopify://shop_images/Untitled_500_x_560_px_af053834-1ffc-4b0f-9e1a-f8cd827fd2f4.png",
+        "parallax": false,
+        "image_position": "0",
+        "link_img1": "",
+        "open_link": "_blank",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "container",
+        "cv_pos": 50,
+        "ch_pos": 50,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000000",
+        "bg_opacity": 60,
+        "bg_content_cl": "#ffffff",
+        "bg_content_op": 0,
+        "content_pd_tb": 0,
+        "content_pd_lr": 15,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 10,
+        "border_bl": false,
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 0,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "shipping_nj3nkg": {
+      "type": "shipping",
+      "blocks": {
+        "shipping_HDMKMa": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "icon": "las la-shipping-fast",
+            "title": "",
+            "text": "",
+            "html": "<h6 style=\"margin-top:15px\">Šetříme planetu</h6>"
+          }
+        },
+        "shipping_KfzhP7": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/ico-replace.png",
+            "icon": "las la-shipping-fast",
+            "title": "",
+            "text": "",
+            "html": "<h6 style=\"margin-top:15px\">Vdechneme džínům novou duši</h6>"
+          }
+        },
+        "shipping_mmNH6x": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "none",
+            "image_icon": "shopify://shop_images/2_5f8579d2-d766-466d-996c-6496b18b43ff.png",
+            "icon": "las la-shipping-fast",
+            "title": "",
+            "text": "",
+            "html": "<h6 style=\"margin-top:15px\">Ručně ušijeme boty, které si zamilujete</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "shipping_HDMKMa",
+        "shipping_KfzhP7",
+        "shipping_mmNH6x"
+      ],
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "content_align": "text-start",
+        "align_vertical": false,
+        "design_padding": "1",
+        "source": "get_image",
+        "icon_des": "default",
+        "icon_size": "medium",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "border": false,
+        "cl_bd": "#dddddd",
+        "cl_ic": "#9e9e9e",
+        "cl_hd": "#222222",
+        "cl_cot": "#202020",
+        "bg_item": "#ffffff",
+        "hd_fs": 16,
+        "hd_fw": 600,
+        "txt_fs": 14,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "carousel_mobile": false,
+        "dots_cl": "dark",
+        "dots_round": true,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": ",,20px,",
+        "pd_tb": "",
+        "mg_mb": ",,20px,",
+        "pd_mb": ",,30px",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "image_text_f4gtKp": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_QFR6Gw": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>1. Vyberte si velikost</h3><p></p><p>Už máte Ahinsa shoes? Výborně. Vaše džínové boty budou mít stejnou velikost.<br/><br/>Nemáte? Nevadí. Pečlivě si změřte nohy a mrkněte se na velikostní tabulky jednotlivých modelů.</p><p><a href=\"/pages/jak-spravne-vybrat-velikost\" title=\"Jak vybrat velikost?\"><strong>Jdu měřit</strong></a></p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "extra-large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_maapLQ": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/pravitko.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratio4_3",
+            "image_size": "contain",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "outline",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_QFR6Gw",
+        "bl_image_maapLQ"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Od džínů k botám. Jak to funguje?",
+        "icon_heading": "las la-gem",
+        "top_subheading": "Nenechte milované džíny ležet na dně skříně. Už brzy je znovu oblečete – tedy obujete.",
+        "tophead_mb": 50,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_q84raF": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_AfxDDc": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/3_4a954b28-9621-4ead-86f7-207f25b6f0d2.png",
+            "image2": "shopify://shop_images/2_543f6c87-03cd-451e-994e-ee5beec79f2c.png",
+            "image3": "shopify://shop_images/1_c233ce42-5b95-42bb-b7e2-8d544218ea47.png",
+            "image4": "shopify://shop_images/4_a1c1c952-f20e-40c3-a79b-67d1691950fe.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratio4_3",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_QM7mQC": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3><strong>2. Zvolte model svého ♥</strong></h3><p></p><p>Sandály? Balerínky? <strong>Je jen na vás, v co vaše džíny proměníme.</strong> Na sandály nebo polobotky nám vystačí jakékoliv džíny, na složitější modely raději pošlete dvoje.<br/></p><p>Jednáme na rovinu: Vyrobit boty z vašich džín chce čas, proto <strong>stojí o 20 % víc</strong> než naše klasické modely.</p><p><a href=\"/collections\" title=\"All collections\"><strong>Objevte naše modely</strong></a></p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "extra-large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_AfxDDc",
+        "bl_text_QM7mQC"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_8fieMe": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_pbiyyh": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>3. Pošlete džíny za námi</h3><p></p><p><strong>Pošlete nám je spolu s lístečkem</strong>, ze kterého se dozvíme:</p><p>• vybranou velikost a model</p><p>• váš e-mail, jméno a adresu</p><p>Posílejte na adresu:<br/>Ahinsa shoes<br/>Londýnská 309/81<br/>120 00 Praha 2<br/>Česká republika</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "extra-large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_xiTHBH": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/balik.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratio4_3",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "outline",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_pbiyyh",
+        "bl_image_xiTHBH"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_mETQkq": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_aVwdcL": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/dziny.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratio4_3",
+            "image_size": "contain",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "outline",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_MJaMPU": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3><strong>4. Počkejte na zprávu, že džíny využijeme</strong></h3><p></p><p>Jakmile k nám džíny dorazí, prohlédneme je a napíšeme vám, jestli je můžeme využít. </p><p><strong>Čím méně jsou džíny elastické, tím líp. </strong>Nejlépe se nám šije z pevné džínoviny, klasické skiny jeans na boty nejsou vhodné.</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "extra-large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_aVwdcL",
+        "bl_text_MJaMPU"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_KFNrf7": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_TV3FGy": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>5. Za 40 dní se těšte na nové boty</h3><p></p><p>Džíny změříme, nastříháme, sešijeme, slepíme. A voilà, boty jsou na světě! </p><p>Použijeme střihy, které <strong>navrhli fyzioterapeuti</strong>, a naši ověřenou pružnou podrážku. Tyto boty s vámi ujdou miliony kroků.</p><p></p><p>Také už se nemůžete dočkat, až vaše milované džíny dostanou druhou šanci?<br/>Pošlete nám je ještě dnes.</p><p><strong>Placením se teď netrapte. </strong>Informace k platbě vám pošleme, až budou boty hotové.</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "extra-large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_QRD8Aa": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Copy_of_Untitled_500_x_560_px.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratio4_3",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "outline",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_TV3FGy",
+        "bl_image_QRD8Aa"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "shipping_HLBRw3": {
+      "type": "shipping",
+      "blocks": {
+        "shipping_WUVMVi": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "icon": "las la-shipping-fast",
+            "title": "",
+            "text": "<p>Používáme střihy navržené fyzioterapeuty</p>",
+            "html": ""
+          }
+        },
+        "shipping_JbAxfr": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "icon": "las la-shipping-fast",
+            "title": "",
+            "text": "<p>Nejpohodlnější boty na světě, <a href=\"/pages/nejlepsi-boty\" title=\"Lepší boty nenajdete. To garantujeme!\">to garantujeme</a>.</p>",
+            "html": ""
+          }
+        },
+        "shipping_RnhAgG": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/2_5f8579d2-d766-466d-996c-6496b18b43ff.png",
+            "icon": "las la-shipping-fast",
+            "title": "",
+            "text": "<p>Ručně vyrábíme v Česku a v Chorvatsku</p>",
+            "html": ""
+          }
+        }
+      },
+      "block_order": [
+        "shipping_WUVMVi",
+        "shipping_JbAxfr",
+        "shipping_RnhAgG"
+      ],
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "content_align": "text-start",
+        "align_vertical": false,
+        "design_padding": "1",
+        "source": "get_image",
+        "icon_des": "default",
+        "icon_size": "medium",
+        "col_dk": "3",
+        "col_tb": "3",
+        "col_mb": "1",
+        "border": false,
+        "cl_bd": "#dddddd",
+        "cl_ic": "#9e9e9e",
+        "cl_hd": "#222222",
+        "cl_cot": "#202020",
+        "bg_item": "#ffffff",
+        "hd_fs": 16,
+        "hd_fw": 600,
+        "txt_fs": 14,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "carousel_mobile": false,
+        "dots_cl": "dark",
+        "dots_round": true,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": ",,20px,",
+        "pd_tb": "",
+        "mg_mb": ",,10,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_FJLPaT": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_Etpef9": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Které Ahinsa shoes jsou vašemu ♥ nejblíž?</h2><p><strong>Vyberte si, který model vám z džín ušijeme. </strong></p><p>Níž vidíte ceny běžných Ahinsa shoes. Ty džínové potřebují víc péče ve výrobě, proto stojí o 20 % více. </p><p>Vy ale máte jistotu, že druhé takové po světě nechodí. :) </p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_Etpef9"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "collection_products_deal_tGYQki": {
+      "type": "collection-products-deal",
+      "blocks": {
+        "product_CknVnK": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/damske-vegan-barefoot-bindu-cerna",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_iak8VT": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/panske-cerna-spolecenska-ananda",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_4Vqfjz": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/ahinsa-comfort-sandaly-cerne",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_VwqzYB": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/damske-cerna-barefoot-balerinka-cf",
+            "total": 100,
+            "available": 75
+          }
+        }
+      },
+      "block_order": [
+        "product_CknVnK",
+        "product_iak8VT",
+        "product_4Vqfjz",
+        "product_VwqzYB"
+      ],
+      "custom_css": [
+        ".t4s-product-sizes {color: black;}"
+      ],
+      "settings": {
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "cd_txt": "",
+        "date": "",
+        "cl_text": "#ffffff",
+        "bg_cdt": "#e4573d",
+        "tophead_mb": 30,
+        "section_layout": "1",
+        "layout_border": true,
+        "box_border_r": 5,
+        "box_border_cl": "#4e97fd",
+        "product_des": "3",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "rationt",
+        "image_size": "contain",
+        "image_position": "8",
+        "content_align": "default",
+        "pr_limit": 8,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "show_stock_bar": false,
+        "txt_sold": "Sold:",
+        "txt_avai": "Available:",
+        "cl_stock_1": "#4e97fd",
+        "cl_stock_2": "#77ccfd",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "custom1",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "custom2",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "accordion_k9TGhK": {
+      "type": "accordion",
+      "blocks": {
+        "accor_item_e4PRt6": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Z jakých džín můžete boty ušít?",
+            "content": "<p><strong>Čím pevnější látka, tím líp</strong>. Elastické džíny se na boty bohužel nehodí, bota by se deformovala a nevydržela by. Džíny klidně můžou být trochu potrhané nebo onošené.</p><p>Vybrali jste si šněrovací boty <a href=\"https://ahinsashoes.myshopify.com/products/damske-jaya-barefoot-vegan\" target=\"_blank\" title=\"Dámské (pod)zimní barefoot boty Jaya černé\">Jaya</a>, <a href=\"https://ahinsashoes.myshopify.com/products/kozacky-barefoot-cerne\" target=\"_blank\" title=\"Dámské barefoot kozačky černé\">kozačky</a>, kotníkové boty <a href=\"https://ahinsashoes.myshopify.com/products/damske-barefoot-trekking-bota-cerna\" target=\"_blank\" title=\"Dámské kotníkové barefoot boty Sundara Ankle černé\">Sundara</a> nebo <a href=\"https://ahinsashoes.myshopify.com/products/damske-barefoot-polokozacky-cerne\" target=\"_blank\" title=\"Dámské barefoot polokozačky černé\">polokozačky</a>? Radši nám pošlete velkou džínovou bundu nebo dvoje džíny, ať máme dost materiálu.</p>"
+          }
+        },
+        "accor_item_4jADxR": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Jaké boty mi dokážete ušít?",
+            "content": "<p>Jakékoliv, které najdete v naší <a href=\"https://ahinsashoes.cz/collections/all\" target=\"_blank\" title=\"Celá nabídka Ahinsa shoes\">nabídce</a>. <a href=\"https://ahinsashoes.myshopify.com/products/ahinsa-comfort-sandaly-cerne\" target=\"_blank\" title=\"Dámské sandály černé\">Sandály</a>, <a href=\"https://ahinsashoes.myshopify.com/products/damske-vegan-barefoot-bindu-2-cerna\" target=\"_blank\" title=\"Bindu 2 Barefoot dámské polobotky černé\">polobotky</a>, <a href=\"https://ahinsashoes.myshopify.com/products/damske-vegan-barefoot-cerna-konopna-bindu\" target=\"_blank\" title=\"Dámské konopné barefoot tenisky Bindu 2 černé\">tenisky</a>, <a href=\"https://ahinsashoes.myshopify.com/products/ahinsa-bare-balerinka-cerna\" target=\"_blank\" title=\"Barefoot balerínky Ananda pro úzké nohy\">balerínky</a>,… <strong>Je to na vás.</strong> </p><p>Jen na složitější modely, jako jsou <a href=\"https://ahinsashoes.myshopify.com/products/kozacky-barefoot-cerne\" target=\"_blank\" title=\"Dámské barefoot kozačky černé\">kozačky</a> nebo <a href=\"https://ahinsashoes.myshopify.com/products/damske-jaya-barefoot-vegan\" target=\"_blank\" title=\"Dámské (pod)zimní barefoot boty Jaya černé\">kotníčkové boty</a>, potřebujeme víc materiálu. <strong>Pošlete raději dvoje džíny.</strong></p>"
+          }
+        },
+        "accor_item_KfxmBG": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Co se stane, když moje džíny nebudete moct využít?",
+            "content": "<p><strong>Dáme vám vědět e-mailem</strong> a domluvíme se na dalším postupu. Buď vám džíny vrátíme, nebo se postaráme o ekologickou likvidaci. </p><p>Ale nesmutněte, rádi vám vyrobíme jiné boty, ze kterých má příroda radost. Mrkněte na naši <a href=\"https://ahinsashoes.myshopify.com/pages/recyklovana-edice\" target=\"_blank\" title=\"Recyklovaná edice\">recyklovanou kolekci Ahinsa In Love with Life</a>.</p>"
+          }
+        },
+        "accor_item_VptqVn": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Kolik za boty zaplatím?",
+            "content": "<p>Záleží na tom, jaký si vyberete model. Džínové boty potřebují víc péče ve výrobě, proto <strong>stojí o 20 % víc než naše klasické modely</strong>. Ale vy s nimi víte, že je nemá nikdo jiný.</p><p>Pro srovnání můžete mrknout na naše ostatní <a href=\"https://ahinsashoes.cz/collections/panove\"><span style=\"text-decoration:underline\">pánské</span></a> a <a href=\"https://ahinsashoes.cz/collections/damy\"><span style=\"text-decoration:underline\">dámské</span></a> boty.</p>"
+          }
+        },
+        "accor_item_YfjV8y": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Kdy boty zaplatím?",
+            "content": "<p>Až vaše boty vyrobíme, pošleme vám informace k platbě. Zatím se placením netrapte.</p>"
+          }
+        },
+        "accor_item_xCnyrx": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Proč trvá 40 dní, než mi boty vyrobíte?",
+            "content": "<p>Protože je vyrábíme ručně.<strong>Ručně měříme, stříháme, lepíme, šijeme.</strong>Kvalita chce čas a my botám věnujeme takovou péči, jakou si zaslouží.</p>"
+          }
+        },
+        "accor_item_pifBRM": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Jakou záruku mi na boty dáte?",
+            "content": "<p><strong>2 roky ručíme za veškerou svou práci.</strong>Pokud se vám bota rozlepí, cokoliv se pokazí na podrážce nebo jiné části, kterou jsme zajišťovali my, postaráme se o opravu nebo výměnu.<strong>Nemůžeme ale ručit za vaši džínovinu</strong>, proto se na ni záruka nevztahuje.</p>"
+          }
+        },
+        "accor_item_BG4Aac": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Nevím si rady s výběrem velikosti. Pomůžete?",
+            "content": "<p>Samozřejmě, rádi! </p><p>1.<strong> Obkreslete obě nohy na papír.</strong> Při obkreslování držte tužku kolmo, nezajíždějte pod nohu.</p><p>2. Připište do obrázku rozměry.</p><p>3. Obrázek nám <strong>pošlete spolu s džíny</strong>.</p><p>4. Připojte fotku svých nohou (můžete ji poslat na info@ahinsashoes.com).</p><p>Ozveme se vám a poradíme, jaká velikost vám sedne.</p>"
+          }
+        },
+        "accor_item_xqURqR": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Co když mi boty nesednou. Můžu je vrátit?",
+            "content": "<p>Džínové boty jsme ušili přímo pro vás, proto je bohužel <strong>nemůžete vrátit</strong>. </p><p>Doporučujeme při výběru věnovat pozornost správné velikosti. Jestli si nevíte rady, rádi pomůžeme, napište nám na <a href=\"mailto:info@ahinsashoes.com\" title=\"mailto:info@ahinsashoes.com\">info@ahinsashoes.com</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_e4PRt6",
+        "accor_item_4jADxR",
+        "accor_item_KfxmBG",
+        "accor_item_VptqVn",
+        "accor_item_YfjV8y",
+        "accor_item_xCnyrx",
+        "accor_item_pifBRM",
+        "accor_item_BG4Aac",
+        "accor_item_xqURqR"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Ptáte se nás",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222222",
+        "bg_title_cl": "#f1f1f1",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#202020",
+        "bg_content_cl": "#ffffff",
+        "content_align": "t4s-text-start",
+        "auto_active": true,
+        "layout": "t4s-cus-width",
+        "custom_width": 800,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "logo_list_EREAbx": {
+      "type": "logo_list",
+      "blocks": {
+        "logo_item_6wj4NJ": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/forbes_063611d7-29ee-48c4-91da-df18f29f2fc8.png",
+            "url": ""
+          }
+        },
+        "logo_item_bKzKh7": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/czechcrunch_52403237-b571-4134-a444-184a164d6895.png",
+            "url": ""
+          }
+        },
+        "logo_item_pLM9ih": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/bazaar.png",
+            "url": ""
+          }
+        },
+        "logo_item_BGfd8A": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/seznamzpravy.png",
+            "url": ""
+          }
+        },
+        "logo_item_K9Yi6q": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "url": ""
+          }
+        },
+        "logo_item_DkVWqL": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/marianne.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_6wj4NJ",
+        "logo_item_bKzKh7",
+        "logo_item_pLM9ih",
+        "logo_item_BGfd8A",
+        "logo_item_K9Yi6q",
+        "logo_item_DkVWqL"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Už jste o nás slyšeli?",
+        "icon_heading": "las la-gem",
+        "top_subheading": "Ahinsa shoes jste mohli vidět v těchto médiích",
+        "tophead_mb": 30,
+        "img_effect": "none",
+        "b_effect": "none",
+        "open_link": "_blank",
+        "layout_des": "1",
+        "click_image": "data-goto",
+        "nav_thumbs": true,
+        "col_dk": "6",
+        "col_tb": "3",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "30",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "blog_post_xtB6ig": {
+      "type": "blog-post",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Magazín o zdravé chůzi",
+        "bt_lb": "ZOBRAZIT DALŠÍ ČLÁNKY",
+        "icon_heading": "las la-gem",
+        "top_subheading": "Píšeme ve spolupráci s fyzioterapeuty",
+        "tophead_mb": 30,
+        "blog": "news",
+        "post_des": "1",
+        "show_cate": false,
+        "show_tags": false,
+        "show_cnt": false,
+        "show_au": true,
+        "show_dt": true,
+        "show_cm": false,
+        "show_rm": false,
+        "show_irm": false,
+        "date": "abbreviated_date",
+        "content_align": "t4s-text-start",
+        "limit": 8,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio3_2",
+        "image_size": "cover",
+        "image_position": "8",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "use_pagination": "load-more",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "outline",
+        "btns_size": "large",
+        "btns_cl": "dark",
+        "button_effect": "default",
+        "btn_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "hero_image_DGmykV",
+    "shipping_nj3nkg",
+    "main",
+    "sidebar-page",
+    "image_text_f4gtKp",
+    "image_text_q84raF",
+    "image_text_8fieMe",
+    "image_text_mETQkq",
+    "image_text_KFNrf7",
+    "shipping_HLBRw3",
+    "image_text_FJLPaT",
+    "collection_products_deal_tGYQki",
+    "accordion_k9TGhK",
+    "logo_list_EREAbx",
+    "blog_post_xtB6ig"
+  ]
+}

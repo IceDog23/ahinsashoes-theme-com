@@ -1,0 +1,185 @@
+/*-----------------------------------------------------------------------------/
+/ Custom Theme CSS
+/-----------------------------------------------------------------------------*/
+/*---------------- Global Custom CSS -------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
+.twisto-popup-open a {
+  padding: 0;
+  background-color: transparent !important;
+  color: var(--secondary-color);
+  margin: 0 5px;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+/* .ec-v-form-column {
+  background-color: #F1F1F1;
+} */
+
+/* SPLIT ORDER */
+.t4s-split-order-container {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.t4s-split-order-container .break {
+  flex-basis: 100%;
+}
+
+.t4s-split-order-container input {
+  width: 16px;
+  height: 16px;
+}
+.t4s-split-order-container label {
+  font-weight: 600;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.t4s-split-order-container p {
+  margin-top: 10px;
+  margin-left: 25px;
+  max-width: 50%;
+}
+
+/* END OF SPLIT ORDER */
+
+/* PRODUCT PAGE CODE DISCOUNT PRICE */
+.t4s-product-price__discount-label {
+  font-size: 16px;
+}
+
+.t4s-product-price.t4s-product-price--discount.pdp-style {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.2!important;
+}
+
+.t4s-product-price--discount span:first-child {
+  flex-basis: 100%;
+  font-size: 20px;
+}
+
+/* SIZE CHART MODAL BUTTON */
+
+.ks-chart-modal-button {
+  border-radius: 5px;
+}
+
+._ks_text {
+  font-size: 14px;
+}
+
+/* CART CUPON */
+.t4s-cart-cuponecode_container > p {
+  margin-top: 10px;
+}
+
+/* WATCH DOG */
+.back-in-stock {
+  margin: 0 10px;
+}
+
+.t4s-in-store-status a {
+  text-decoration: underline;
+}
+
+/*---------------- Custom CSS for only desktop -------------------*/
+@media (min-width: 1025px) {
+  #shopify-section-top-bar {
+    display: block;
+  }
+}
+
+/*---------------- Custom CSS for tablet, mobile -------------------*/
+@media (max-width: 1024px) {
+  h1 {
+    font-weight: 600;
+    font-size: 39px;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 31px;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-weight: 25px;
+  }
+
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  body,
+  span,
+  p,
+  a {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+
+  .t4s-section-title.t4s-title span {
+    font-weight: 600;
+    font-size: 31px;
+  }
+
+  .twisto-popup-open {
+    margin: 0 auto;
+  }
+
+  .twisto-popup-open a {
+    margin-top: 20px;
+    margin-left: unset;
+  }
+}
+
+/*---------------- Custom CSS for only tablet -------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  #shopify-section-top-bar {
+    display: block;
+  }
+}
+
+/*---------------- Custom CSS for only mobile -------------------*/
+@media (max-width: 768px) {
+    .t4s-split-order-container p {
+    max-width: 100%;
+  }
+}
+
+/*-----------------------------------------------------------------------------/
+/ Custom Theme CSS FROM ADMIN CSS FIELD
+/-----------------------------------------------------------------------------*/
+/*---------------- Global Custom CSS -------------------*/
+{{ settings.global_css }}
+
+/*---------------- Custom CSS for only desktop -------------------*/
+@media (min-width: 1025px) {
+{{ settings.desktop_css }}
+}
+
+/*---------------- Custom CSS for tablet, mobile -------------------*/
+@media (max-width: 1024px) {
+{{ settings.tablet_mobile_css }}
+}
+
+/*---------------- Custom CSS for only tablet -------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+{{ settings.tablet_css }}
+}
+
+/*---------------- Custom CSS for only mobile -------------------*/
+@media (max-width: 767px) {
+{{ settings.mobile_css }}
+}

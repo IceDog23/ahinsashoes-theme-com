@@ -1,0 +1,33 @@
+{% comment %}
+  Product page: discount price (20% off displayed price).
+  Matches theme product price styles. Renders below main price on PDP.
+  Accepts:
+  - variant: {Object} Current variant (optional)
+  - product: {Object} Product Liquid object
+  Usage:
+  {% render 'product-page-code-discount-price', variant: current_variant, product: product %}
+{% endcomment %}
+
+{%- liquid
+  if variant != blank
+    assign price = variant.price
+  else
+    assign price = product.price
+  endif
+  assign discount_percent = discount_percent
+  comment
+    Price is in cents. 20% off = pay 80% of price.
+  endcomment
+  assign discount_price = price | times: 80 | divided_by: 100
+  if settings.currency_code_enabled
+    assign money_discount_price = discount_price | money_with_currency
+  else
+    assign money_discount_price = discount_price | money
+  endif
+-%}
+
+<div class="t4s-product-price t4s-product-price--discount pdp-style" data-product-discount-price>
+  <span>{{ money_discount_price }}</span>
+  <span class="t4s-product-price__discount-label">{{ discount_percent }}% s kódem: {{ code_discount }}</span>
+</div>
+

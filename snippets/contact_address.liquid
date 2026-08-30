@@ -1,0 +1,20 @@
+<!-- snippet/contact_address.liquid -->
+  {% for block in blocks %}
+    <div class="mb-2">
+      {% if block.settings.title != blank %}
+        <h3 class="mb-05">{{ block.settings.title | escape }}</h3>
+      {% endif %}
+
+      {% if block.settings.subtitle != blank %}
+        <div class="mb-05">{{ block.settings.subtitle }}</div>
+      {% endif %}
+
+      {% if block.settings.address != blank %}
+        <div class="ml-2 mt-2">{{ block.settings.address }}</div>
+      {% endif %}
+    </div>
+  {% endfor %}
+
+  {% if section.settings.rich_text != blank %}
+    <p class="small-text">{{ section.settings.legal_text | escape }}</p>
+  {% endif %}

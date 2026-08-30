@@ -1,0 +1,1010 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "disabled": true,
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "hero_image_xwdyXH": {
+      "type": "hero_image",
+      "blocks": {
+        "custom_text_rrtnHh": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Fyzioterapeuty navržené, terénem prověřené",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 22,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 1,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_8jirkY": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Objevte trekové boty Ahinsa shoes",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 39,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 31,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_QGhAUL": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Hledáte maximálně pohodlné boty do každého terénu? Vyrobili jsme je pro vás! <br><br>\n\nObujte trekové modely Ahinsa shoes, které jsou voděodolné, s neklouzavou Vibram podrážkou a prostorem pro přirozený pohyb prstů. Komfort na dlouhé výlety zaručen!",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_button_B99p8c": {
+          "type": "custom_button",
+          "settings": {
+            "button_text": "Button label",
+            "button_link": "",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#222222",
+            "second_cl": "#ffffff",
+            "pri_cl_hover": "#56cfe1",
+            "second_cl_hover": "#ffffff",
+            "fsbutton": 14,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 0,
+            "button_pd_lr": 20,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 10,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "custom_text_rrtnHh",
+        "custom_text_8jirkY",
+        "custom_text_QGhAUL",
+        "custom_button_B99p8c"
+      ],
+      "settings": {
+        "se_height": "t4s_ratio_cuspx",
+        "custom_dk": true,
+        "height_dk": 550,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 400,
+        "image": "shopify://shop_images/DSC02009-min.jpg",
+        "parallax": false,
+        "image_position": "9",
+        "link_img1": "",
+        "open_link": "_blank",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "container",
+        "cv_pos": 50,
+        "ch_pos": 50,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000000",
+        "bg_opacity": 30,
+        "bg_content_cl": "#ffffff",
+        "bg_content_op": 0,
+        "content_pd_tb": 15,
+        "content_pd_lr": 15,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 10,
+        "border_bl": false,
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 20,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "top_heading_HAJg8Q": {
+      "type": "top_heading",
+      "blocks": {
+        "bl_heading_N9ptxG": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Psssst, neprozraďte nás!"
+          }
+        },
+        "bl_subheading_UAUF4b": {
+          "type": "bl_subheading",
+          "settings": {
+            "top_subheading": "<body>\n<br>\n<p style=\"font-style: normal; color: #202020;\">\nO jarní kolekci Ahinsa shoes ještě skoro nikdo neví.\n<br>\n<br>Vyberte si jako první se <b>slevou 20 % na předobjednávku</b>. Stačí, když v posledním kroku objednávky vložíte kód <b>JAROVESTYLU</b> a sleva se vám automaticky odečte. \n<br>\n<br>Novinky pro vás právě teď vyrábíme a odešleme je <b>během března</b>.</p>\n</body>"
+          }
+        }
+      },
+      "block_order": [
+        "bl_heading_N9ptxG",
+        "bl_subheading_UAUF4b"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_heading": "11",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_HmWn8H": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_ArVYpd": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Ahinsa_web_9KC7731.jpg",
+            "image2": "shopify://shop_images/Ahinsa_web_9KC7122.jpg",
+            "image3": "shopify://shop_images/DSC02078.jpg",
+            "image4": "shopify://shop_images/Ahinsa_web_9KC7655_1.jpg",
+            "image5": "shopify://shop_images/AhinsaStudio_23of26_f9f3a670-31c3-4f36-b0fd-86796682649b.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_AWrGB4": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Trekové boty Chitra Trek&Trail",
+            "text": "<p>Spolehněte se. Na své nohy a na<strong> trekové boty</strong>, které vás podrží na jakékoliv cestě. I mimo ni. </p><p>Ověřená <strong>podrážka Vibram</strong> zabere v terénu a drží. A podšívka CoolMax <strong>odvede pot od nohy</strong>. </p><p>Vyrazte do přírody v trekových teniskách, které <strong>respektují vaše nohy</strong>. Užijte si každý krok cestou necestou.</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Vyběhněte do přírody",
+            "button_link": "https://ahinsashoes.cz/collections/do-prirody/chitra",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_ArVYpd",
+        "bl_text_AWrGB4"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_YG8MYD": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_XwQt7F": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Barefoot sandály Adventure",
+            "text": "<p>V přírodě jste svobodní. Proto jsme navrhli <strong>barefoot trekové sandály</strong>, se kterými jsou <strong>svobodné</strong> i vaše nohy. </p><p>Pásky si <strong>utáhnete podle sebe</strong> – a přebytečný kousek ustřihnete. Vyrobili jsme je z <strong>příjemného mikrovlákna</strong>, které netlačí a nedře. Široká špička osvobodí vaše prsty. A podrážka <strong>Vibram s nulovým dropem</strong> zabere i v náročném terénu.</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Užijte si volnost",
+            "button_link": "https://ahinsashoes.cz/collections/do-prirody/sandaly",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_mLPDF6": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/AhinsaBotanickaGram_19_of_41.jpg",
+            "image2": "shopify://shop_images/ahinsabotanickagram-26-of-41-1.jpg",
+            "image3": "shopify://shop_images/AhinsaBotanickaGram_20of41.jpg",
+            "image4": "shopify://shop_images/AhinsaBotanickaGram_24_of_41.jpg",
+            "image5": "shopify://shop_images/AhinsaBotanickaGram_25_of_41.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_XwQt7F",
+        "bl_image_mLPDF6"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_z8qNTp": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_TkjVpP": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/DSC01895.jpg",
+            "image2": "shopify://shop_images/DSC02009-min.jpg",
+            "image3": "shopify://shop_images/DSC02036-2-Enhanced-NR.jpg",
+            "image4": "shopify://shop_images/DSC01855.jpg",
+            "image5": "shopify://shop_images/DSC02053.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratioadapt",
+            "image_size": "contain",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_FrTKiJ": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Kotníkové trekové boty Hiker",
+            "text": "<p><strong>Nepromokavé.</strong> Neokopatelné. A taaak pohodlné! </p><p>Protiskluzová <strong>podrážka Vibram</strong> vás podrží v jakémkoliv terénu. A díky ochrannému pruhu proti okopání vydrží boty dlouho <strong>jako nové</strong>. </p><p>Tak je obujte a zjistěte, co všechno zvládnete v pohodlných botách od fyzioterapeutů.</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Vyrazte ven",
+            "button_link": "https://ahinsashoes.cz/collections/do-prirody/hiker",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_TkjVpP",
+        "bl_text_FrTKiJ"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "rgba(0,0,0,0)",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_eUki4E": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_BF8bQq": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Kotníkové boty Shuma Nature",
+            "text": "<p>Do lesa, do skal, do města? Obujte je, kam chcete, boty Shuma to vydrží. </p><p>Veganskou kůži nezničíte, ani kdybyste chtěli. <strong>Ověřená podrážka Vibram</strong> vydrží roky. A speciální membrána nepropustí ani kapku.</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Dejte jim zabrat",
+            "button_link": "https://ahinsashoes.cz/collections/do-prirody/shuma-nature",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_mbPPKC": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/DSC_9845_20240508.jpg",
+            "image2": "shopify://shop_images/DSC_9983_20240508.jpg",
+            "image3": "shopify://shop_images/IMG_0862.jpg",
+            "image4": "shopify://shop_images/DSC_9685_20240508.jpg",
+            "image5": "shopify://shop_images/IMG_0654-2.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_BF8bQq",
+        "bl_image_mbPPKC"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_4YXLNx": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_rkxdWA": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/DSC_9533_20240508.jpg",
+            "image2": "shopify://shop_images/DSC_9363_20240508.jpg",
+            "image3": "shopify://shop_images/AhinsaFinal_38_of_51.jpg",
+            "image4": "shopify://shop_images/DSC_9321_20240508.jpg",
+            "image5": "shopify://shop_images/IMG_1851.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_PdRAXi": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Zimní trekové boty Shuma Winter",
+            "text": "<p>Trekové boty na zimu? Vezměte <strong>anatomický střih</strong>, <strong>veganský kožíšek</strong>, nezničitelné mikrovlákno a <strong>podrážku Vibram</strong>. </p><p>Získáte pohodlné barefoot boty na zimu, které vám vydrží roky. A <strong>nepromoknou</strong>. </p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Pojďte si pro ně",
+            "button_link": "https://ahinsashoes.cz/collections/do-prirody/shuma-winter",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_rkxdWA",
+        "bl_text_PdRAXi"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_TmKTKx": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_pmbhxF": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "Třpyt od mistrů lesku",
+            "heading": "Sandály a balerínky Preciosa",
+            "text": "<p>Třpytu není nikdy dost. Souhlasíte? Pak budete nadšená z naší nablýskané <strong>spolupráce s mistry lesku z Preciosy</strong>. Varování: Kamínky přitahují komplimenty!</p>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Zatřpyťte se",
+            "button_link": "https://ahinsashoes.cz/collections/novinky/preciosa",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_pmbhxF"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_gallery_packery_RFez7J": {
+      "type": "image-gallery-packery",
+      "blocks": {
+        "image_item_KAEXhC": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/DSC2588-kopie.jpg",
+            "link": "",
+            "col_dk": "4",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        },
+        "image_item_wP43EE": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9132.jpg",
+            "link": "",
+            "col_dk": "4",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        },
+        "image_item_Xfdare": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2614.jpg",
+            "link": "",
+            "col_dk": "4",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        },
+        "image_item_yqk3mi": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9755_1.jpg",
+            "link": "",
+            "col_dk": "4",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        },
+        "image_item_h7pXJ7": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/DSC2673-kopie.jpg",
+            "link": "",
+            "col_dk": "4",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        },
+        "image_item_qhCWxm": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2972.jpg",
+            "link": "",
+            "col_dk": "4",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "image_item_KAEXhC",
+        "image_item_wP43EE",
+        "image_item_Xfdare",
+        "image_item_yqk3mi",
+        "image_item_h7pXJ7",
+        "image_item_qhCWxm"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": false,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_UVkxqX": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_K6FLUw": {
+          "type": "bl_text",
+          "disabled": true,
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Praho, pozor❗️",
+            "text": "<h4><strong>Nakupte 2. jakost se slevou až 70 %</strong></h4><p></p><p>Než spustíme prodej jarních kousků i na naší <a href=\"https://ahinsashoes.cz/pages/prodejna\" target=\"_blank\">pražské prodejně</a>, musíme jim nachystat místo ve skladu. A vy nám můžete pomoct! 🤩 <strong>Od 10. do 15. 3. u nás bude probíhat výprodej bot s malou chybkou.</strong></p><p>➡️ Flíček na podrážce. Šmouha od lepidla. Starší modely vyřazené z výroby... <strong>Máme jich jen omezené množství</strong>, proto lze v akci zakoupit max 4 páry na osobu. Budeme se těšit na návštěvu!</p><ul><li>velikosti <strong>35-40</strong> ➡️ v prodeji 10. 3. - 12. 3.</li><li>velikosti <strong>41-47</strong> ➡️ v prodeji 13. 3. - 15. 3.</li></ul>",
+            "subhd_color": "#202020",
+            "hd_color": "#202020",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Tudy na prodejnu",
+            "button_link": "https://maps.app.goo.gl/t3b8io7TjLScufEK9",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_QMmtRy": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/dsc_3243-hdr-1.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_K6FLUw",
+        "bl_image_QMmtRy"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#efebe2",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "20px,,40px,",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "custom_liquid_L3amWe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<h1><p style=\"text-align: center;\">Pomůžete nám uvolnit místo pro novinky?</h1></p>\n\n<h4><p style=\"text-align: center;\">Sdílejte radost s akcí 2 + 1 pár zdarma</h4></p>\n<p style=\"text-align: center;\"><br>Než spustíme prodej jarních kousků, musíme jim nachystat místo ve skladu. A vy nám můžete pomoct!<br><br> Vyberte si <b>2 páry Ahinsa shoes</b> ze současné nabídky a <b>3. dostanete zdarma</b>.<br><br>Sdílejte radost ze zdravé chůze s lidmi, na kterých vám záleží. Vyberte boty od fyzioterapeutů <b>pro sebe i pro ně</b>.</p>\n\n<p style=\"text-align: center;\"><!DOCTYPE html>\n<html lang=\"cs\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Center-Aligned Button</title>\n    <style>\n        /* Center content using a container with text-align */\n        body {\n            margin: 0;\n            padding: 0;\n            height: 100vh; /* Full viewport height */\n            display: flex;\n            justify-content: center; /* Horizontal centering */\n            align-items: center; /* Vertical centering */\n            background-color: #f4f4f4; /* Optional: Light gray background */\n        }\n\n        .button {\n            background-color: #000; /* Black background */\n            color: #fff; /* White text */\n            font-family: Arial, sans-serif; /* Arial font */\n            padding: 12px 20px;\n            text-align: center;\n            text-decoration: none;\n            display: inline-block;\n            font-size: 16px;\n            cursor: pointer;\n            border: none;\n            border-radius: 5px;\n        }\n\n        .button:hover {\n            background-color: #333; /* Slightly lighter black on hover */\n        }\n    </style>\n</head>\n<body>\n    <!-- Centered button -->\n    <a href=\"https://ahinsashoes.cz/collections/vyprodej\" class=\"button\">Pojďte si vybrat</a>\n</body>\n</html>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "hero_image_xwdyXH",
+    "main",
+    "sidebar-page",
+    "top_heading_HAJg8Q",
+    "image_text_HmWn8H",
+    "image_text_YG8MYD",
+    "image_text_z8qNTp",
+    "image_text_eUki4E",
+    "image_text_4YXLNx",
+    "image_text_TmKTKx",
+    "image_gallery_packery_RFez7J",
+    "image_text_UVkxqX",
+    "custom_liquid_L3amWe"
+  ]
+}

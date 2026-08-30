@@ -1,0 +1,45 @@
+<!-- META TAGS FOR FILTERING IN COLLECTIONS -->
+{% if template == 'collection' and collection.handle == 'z-kancelare-do-divadla-v-pohodli' %}
+  <meta name="robots" content="noindex">
+{% elsif template == 'collection' and collection.handle == 'hrejive-zimni-boty-s-koziskem' %}
+  <meta name="robots" content="noindex">
+{% elsif template == 'collection' and collection.handle == 'tenisky-na-sport-i-do-prace' %}
+  <meta name="robots" content="noindex">
+{% elsif template == 'collection' and collection.handle == 'do-prirody-prirozene' %}
+  <meta name="robots" content="noindex">
+{% else %}
+  {% if collection and collection.filters %}
+    {%- assign active_filters_count = 0 -%}
+    {%- assign params = '?' -%}
+    {%- for filter in collection.filters -%}
+      {%- for filter_value in filter.values -%}
+        {% if filter_value.active %}
+          {%- if filter.label != 'Dostupnost' and filter.label != 'Availability' -%}
+            {%- assign active_filters_count = active_filters_count | plus: 1 -%}
+          {%- endif -%}
+        {% endif %}
+      {%- endfor -%}
+    {%- endfor -%}
+    {%- if active_filters_count < 2 and collection.products_count > 0 -%}
+      <meta name="robots" content="index, follow">
+    {%- elsif active_filters_count > 1 or collection.products_count == 0 -%}
+      <meta name="robots" content="noindex, nofollow">
+    {%- endif -%}
+
+    {%- if params.size > 2 and active_filters_count == 1 -%}
+      {%- assign final_params = params | replace: '?&', '?' -%}
+      {%- assign canonical_replace_with = request.host | append: request.path | append: final_params -%}
+    {%- endif -%}
+  {% endif %}
+{% endif %}
+
+<!-- SETTINGS FOR VARIOUS PAGES -->
+{%- if request.path == '/collections/vendors' and collection.all_products_count == 0 -%}
+  <meta name="robots" content="noindex">
+{%- endif -%}
+
+{%- if request.path == '/pages/ebooky-ke-stazeni' -%}
+  <meta name="robots" content="noindex">
+{%- endif -%}
+
+<!-- END -->

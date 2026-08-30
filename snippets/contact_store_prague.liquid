@@ -1,0 +1,47 @@
+<div>
+  <div class="feature-row__item">
+    {% if bk_stts.image != blank %}
+      {%- assign img_url = bk_stts.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+      <div class="feature-row__image-wrapper js">
+        {%- comment -%}<div style="padding-top:{{ 1 | divided_by: bk_stts.image.aspect_ratio | times: 100}}%;" class="off-image">{%- endcomment -%}
+        <img
+          class="feature-row__image lazyload"
+          src="{{ bk_stts.image | img_url: 'master' }}"
+          data-src="{{ img_url }}"
+          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+          data-aspectratio="{{ bk_stts.image.aspect_ratio }}"
+          data-sizes="auto"
+          alt="{{ bk_stts.image.alt | escape }}"
+        >
+        {%- comment -%}</div>{%- endcomment -%}
+      </div>
+      <noscript>
+        {{ bk_stts.image | img_url: '600x600', scale: 2 | img_tag: bk_stts.image.alt, 'feature-row__image' }}
+      </noscript>
+    {% else %}
+      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+    {% endif %}
+  </div>
+  <div class="contact-box-container">
+    <div class="feature-row__item feature-row__text feature-row__text--{{ bk_stts.layout }}">
+      {% if bk_stts.title != blank %}
+        <h3>{{ bk_stts.title | escape }}</h3>
+      {% endif %}
+      {% if bk_stts.rich_text != blank %}
+        <div class="rte rte-setting featured-row__subtext">{{ bk_stts.rich_text }}</div>
+      {% endif %}
+      {% if bk_stts.btn_url != blank and bk_stts.btn_text != blank %}
+        <div class="flex-grid mt-1">
+          <a class="btn margin-auto " href="{{ bk_stts.btn_url }}">{{ bk_stts.btn_text }}</a>
+        </div>
+      {% endif %}
+      {%- if bk_stts.url != blank and bk_stts.url_text != blank -%}
+        <div class="flex-grid mt-1">
+          <a href="{{ bk_stts.url }}" class="link_underline">
+            {{ bk_stts.url_text }}
+          </a>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

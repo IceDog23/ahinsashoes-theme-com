@@ -1,0 +1,220 @@
+<!-- navigation-list.liquid -->
+{{ 'section.css' | asset_url | stylesheet_tag }}
+{{ 'banner.css' | asset_url | stylesheet_tag }}
+{{ 'banner-nav.css' | asset_url | stylesheet_tag }}
+{{ 'content-position.css' | asset_url | stylesheet_tag }}
+{{ 'general-block.css' | asset_url | stylesheet_tag }}
+{{ 'navigation-list.css' | asset_url | stylesheet_tag }}
+<link href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="{{ 't4s-animation.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+{%- liquid 
+    assign sid = section.id
+    assign se_stts = section.settings
+    assign stt_layout = se_stts.layout
+    assign stt_image_bg = se_stts.image_bg
+    if stt_layout == 't4s-se-container' 
+        assign html_layout = '<div class="t4s-container">__</div></div>' | split: '__'
+    elsif stt_layout == 't4s-container-wrap'
+        assign html_layout = '<div class="t4s-container">__</div>' | split: '__'
+    else
+        assign html_layout = '__' | split: '__'
+    endif  
+    assign pd_item = se_stts.padding_inner | remove: ' ' | split: ','  
+    assign pd_item_mb = se_stts.padding_inner_mb | remove: ' ' | split: ',' 
+ -%}
+<div class="t4s-section-inner {{ t4s_se_class }} t4s_nt_se_{{ sid }} {{ stt_layout }}{% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2"{% endif %} {% render 'section_style', se_stts: se_stts -%} >
+    {{- html_layout[0] -}}
+    {%- if stt_layout == 't4s-se-container' -%}
+    <div class="t4s-container-inner{% if stt_image_bg != blank %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2"{% endif %}>{% endif -%}
+        {%- render 'section_tophead', se_stts: se_stts -%}
+        <div class="t4s-row t4s-banner-nav__wrap t4s-g-0 t4s-banner-nav__border-{{ se_stts.enable_border }}">
+            <div class="t4s-banner-nav__list t4s-col-item t4s-col t4s-col-inner t4s-text-center " style="--pd: {{ pd_item[0] | default: 0 }} {{ pd_item[1] | default: 0 }} {{ pd_item[2] | default: 0 }} {{ pd_item[3] | default: 0 }};--pd-mb: {{ pd_item_mb[0] | default: 0 }} {{ pd_item_mb[1] | default: 0 }} {{ pd_item_mb[2] | default: 0 }} {{ pd_item_mb[3] | default: 0 }};">
+                <div class="heading-testimonials-star">
+                    <h3 class="t4s-section-title t4s-title"><span>{{ se_stts.header }}</span></h3>
+                </div>
+                <div class="t4s-row t4s-row-cols-lg-4">
+                    {%- if se_stts.menu != blank -%}
+                        {%- for link in linklists[se_stts.menu].links -%}
+                            {%- assign arrlt = link.title | split: '[' -%}
+                            <div class="t4s-col-item t4s-text-center t4s-menu-item link3">
+                                <a href="{{ link.url }}" class="t4s-banner-nav__heading t4s-d-block t4s-pr">{%- render 'lb_inc_mb', arrlt: arrlt -%}</a>
+                                {%- if link.links != blank -%}
+                                    <ul class="t4s-banner-nav__links">
+                                        {%- for child_link in link.links -%}
+                                            {%- assign arrlt = child_link.title | split: '[' -%}
+                                            <li class='t4s-menu-item link3'>
+                                                <a href="{{ child_link.url }}" class="t4s-banner-nav__link t4s-pr {% if child_link.current %}is--current{% endif %}">
+                                                    {%- assign arrlt = child_link.title | split: '[' -%}{%- render 'lb_inc_mb', arrlt: arrlt -%}
+                                                </a>
+                                            </li>
+                                        {%- endfor -%}
+                                    </ul>
+                                {%- endif -%}
+                            </div>
+                        {%- endfor -%}
+                    {%- else -%}
+                        {%- for i in (1..6) -%}
+                            <div class="t4s-col-item t4s-text-start">
+                                <a href="{{ routes.root_url }}" class="t4s-banner-nav__heading t4s-d-block t4s-pr">Heading</a>
+                                <ul class="t4s-banner-nav__links">
+                                    {%- for j in (1..5) -%}
+                                    <li><a href="{{ routes.root_url }}">Menu item {{ j }}</a></li>
+                                    {%- endfor -%}
+                                </ul>
+                            </div>
+                        {%- endfor -%}     
+                    {%- endif -%}
+                </div>
+            </div>
+        </div>
+    {{- html_layout[1] -}}
+</div>
+
+{% schema %}
+{
+    "name": "Navigation list",
+    "tag": "section",
+    "class": "t4s-section t4s-section-all t4s_tp_cdt t4s_tp_cd t4s_tp_istope t4s-banner-nav t4s-nav-links",
+    "settings":[
+
+        {
+            "type":"checkbox",
+            "id":"enable_border",
+            "label":"Enable border",
+            "default":true
+        },
+        {
+            "type":"header",
+            "content":"+ Section header"
+        },
+        {
+            "type": "text", 
+            "id": "header", 
+            "label": "Section header", 
+            "default": "V nabídce máme také"
+        },
+        {
+            "type":"header",
+            "content":"+ Navigation list"
+        },
+        {
+            "type": "select",
+            "id": "col_nav",
+            "label": "Navigation item width",
+            "default": "4",
+            "options": [
+                {
+                    "value": "4",
+                    "label": "25%"
+                },
+                {
+                    "value": "2",
+                    "label": "16.66%"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "padding_inner",
+            "label": "Padding inner",
+            "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank",
+            "placeholder": "30px,,30px,",
+            "default":"1px,30px,10px,30px"
+        },
+        {
+            "type": "text",
+            "id": "padding_inner_mb",
+            "label": "Padding inner (Mobile)",
+            "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank",
+            "placeholder": "30px,,30px,",
+            "default":"10px,30px,10px,30px"
+        }, 
+        {
+            "type": "link_list",
+            "id": "menu",
+            "label": "Menu"
+        },
+        {
+            "type": "header",
+            "content": "3. Design options"
+        },
+        {
+            "type": "select","id": "layout","default": "t4s-container-wrap","label": "Layout",
+            "options": [
+                { "value": "t4s-se-container", "label": "Container"},
+                { "value": "t4s-container-wrap", "label": "Wrapped container"},
+                { "value": "t4s-container-fluid", "label": "Full width"}
+            ]
+        },
+        {
+            "type": "color",
+            "id": "cl_bg",
+            "label": "Background"
+        },
+        {
+            "type": "color_background",
+            "id": "cl_bg_gradient",
+            "label": "Background gradient"
+        },
+        {
+            "type": "image_picker",
+            "id": "image_bg",
+            "label": "Background image"
+        },
+        {
+            "type": "text",
+            "id": "mg",
+            "label": "Margin",
+            "info":"Margin top, margin right, margin bottom, margin left. If you not use to blank",
+            "default": ",,50px,",
+            "placeholder": ",,50px,"
+        },
+        {
+            "type": "text",
+            "id": "pd",
+            "label": "Padding",
+            "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank",
+            "placeholder": "50px,,50px,"
+        },
+        {
+            "type": "header",
+            "content": "+ Design Tablet Options"
+        },
+        {
+            "type": "text",
+            "id": "mg_tb",
+            "label": "Margin",
+            "placeholder": ",,50px,"
+        },
+        {
+            "type": "text",
+            "id": "pd_tb",
+            "label": "Padding",
+            "placeholder": ",,50px,"
+        }, 
+        {
+            "type": "header",
+            "content": "+ Design mobile options"
+        },
+        {
+            "type": "text",
+            "id": "mg_mb",
+            "label": "Margin",
+            "default": ",,30px,",
+            "placeholder": ",,50px,"
+        },
+        {
+            "type": "text",
+            "id": "pd_mb",
+            "label": "Padding",
+            "placeholder": ",,50px,"
+        },
+    ],
+    "presets": [
+        {
+            "name": "Navigation w list links",
+            "category": "homepage",
+        }
+    ]
+}
+{% endschema %}

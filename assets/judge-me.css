@@ -1,0 +1,54 @@
+.shopify-section #shopify-block-judge_me_reviews_review_widget_KJH6KD {
+    width: 100%;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+}
+
+.jdgm-review-widget--small .jdgm-rev-widg {
+    padding: 0 15px!important;
+}
+
+.jdgm-widget-actions-wrapper{
+    width: 60%;
+    margin: 5px auto!important;
+    margin-top: unset;
+}
+
+.jdgm-row-rating {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 5px!important;
+}
+
+.jdgm-rev__icon {
+    display: none!important;
+}
+
+@media (min-width: 1025px) {
+    .shopify-section #shopify-block-judge_me_reviews_review_widget_KJH6KD {
+        max-width: 1600px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .shopify-section #shopify-block-judge_me_reviews_review_widget_KJH6KD {
+        width: 90%;
+        margin: 0 auto; 
+    }
+
+    .jdgm-row-rating {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px; 
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 5px!important;
+    }
+
+    .jdgm-rev-widg {
+        padding: 0 20px!important;
+    }
+}

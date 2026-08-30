@@ -1,0 +1,612 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "3_KyNY6F": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#202020",
+            "brc_mgb": 30
+          }
+        },
+        "1_kiPXGQ": {
+          "type": "1",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "fontf": "1",
+            "text_cl": "#202020",
+            "text_fs": 39,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 31,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "2_QpeXnY": {
+          "type": "2",
+          "settings": {
+            "content": "<p>od fyzioterapeuta Lukáše Klimpery</p>",
+            "fontf": "2",
+            "text_cl": "#202020",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
+      "settings": {
+        "heading_fullwidth": true,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#ffffff",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "image_text_8fieMe": {
+      "type": "image_text",
+      "blocks": {
+        "bl_liquid_UNREJe": {
+          "type": "bl_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"lukas-section\">\n  <p>\n    Náš první e-book <em>Krok za krokem ke zdravé chůzi</em> jsme s kolegy odeslali <strong>už tisícům z vás</strong>.\n  </p>\n  <p>\n    Po takovém úspěchu jsem věděl, že má smysl pokračovat. A tak jsem pro vás připravil další dva e-booky plné\n    <strong>jednoduchých cvičení</strong>.\n  </p>\n  <p>\n    Naučte se, jak mít <strong>radost z každého kroku</strong>. <br>\n    <br>\n    <em\n      >Lukáš Klimpera<br>\n      Fyzioterapeut, zakladatel Ahinsa shoes a autor e-booku</em\n    >\n  </p>\n  <div\n    class=\"black-box\"\n  >\n    <h3 style=\"margin-bottom: 15px; color: white\">185 stránek pro šťastné tělo</h3>\n    <p style=\"margin-bottom: 15px\">Pošleme vám všechny 3 e-booky.</p>\n    <p style=\"margin-bottonm: 15px\">Také se 2× měsíčně ozveme s tipy a akcemi.</p>\n\n<script>\n        (function (w,d,s,o,f,js,fjs) {\n            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };\n            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];\n            js.id = '2-2bb287d15897fe2f9d89c882af9a3a8b'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n        }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));\n    </script>\n            <div id=\"f-2-2bb287d15897fe2f9d89c882af9a3a8b\"></div>\n\t\t\t\n  </div>\n</div>",
+            "col_dk": "8",
+            "col_tb": "6"
+          }
+        },
+        "bl_image_Ynnnkf": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/DSC_2965.jpg",
+            "col_dk": "4",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "rationt",
+            "image_size": "contain",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_liquid_UNREJe",
+        "bl_image_Ynnnkf"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": ".lukas-section {\n    text-align: left;\n  }\n  p {\n    margin-bottom: 25px;\n  }\n  .black-box {\n    margin-top: 50px;\n    background-color: black;\n    text-align: center;\n    width: 100%;\n    color: white;\n    padding: 40px 20px;\n  }"
+      }
+    },
+    "image_text_q84raF": {
+      "type": "image_text",
+      "blocks": {
+        "bl_liquid_pBT8ER": {
+          "type": "bl_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte\" style=\"text-align: left\">\n  <h3>Krok za krokem ke zdravé chůzi</h3>\n  <p></p>\n  <p>Víte, že většina dospělých zapomněla, jak chodit zdravě?</p>\n  <ul style='margin-left: 25px'>\n    <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>Zjistěte, jak jste na tom vy.</li>\n    <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>Probuďte své nohy krok za krokem.</li>\n    <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>Naučte se&nbsp;<strong>jednoduchá cvičení pro každý den</strong>.</li>\n  </ul>\n</div>",
+            "col_dk": "6",
+            "col_tb": "6"
+          }
+        },
+        "bl_image_AfxDDc": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/mockup_ahinsa_ebook_202301_1_2.png",
+            "image2": "shopify://shop_images/ukazka_1_1.jpg",
+            "image3": "shopify://shop_images/ukazka_1_2.jpg",
+            "image4": "shopify://shop_images/ukazka_1_c1d9dc1e-2462-4a2c-a85e-280af2458735.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratio4_3",
+            "image_size": "contain",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "outline",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_liquid_pBT8ER",
+        "bl_image_AfxDDc"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "3× čtení pro spokojené tělo a duši",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_cBMNbM": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_WDQTdX": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/mockup_ahinsa_ebook_202212_1.png",
+            "image2": "shopify://shop_images/ukazka_1.jpg",
+            "image3": "shopify://shop_images/ukazka_2.jpg",
+            "image4": "shopify://shop_images/ukazka_3.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratio4_3",
+            "image_size": "contain",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "outline",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_liquid_en9Wkg": {
+          "type": "bl_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte\" style=\"text-align: left\">\n  <h3>Nejčastější potíže nohou: Příčiny & cvičení</h3>\n  <p></p>\n  <p>Propadlá klenba, patní ostruha, vbočené palce? Většinu potíží vyřeší správné cvičení.</p>\n  <ul style=\"margin-left: 25px\">\n    <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>\n      Zjistěte, jak vznikají nejčastější potíže nohou.\n    </li>\n    <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>\n      Naučte se jim předcházet.\n    </li>\n    <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>\n      Uzdravte své nohy pomocí snadných cvičení.\n    </li>\n  </ul>\n</div>",
+            "col_dk": "6",
+            "col_tb": "6"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_WDQTdX",
+        "bl_liquid_en9Wkg"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_KFNrf7": {
+      "type": "image_text",
+      "blocks": {
+        "bl_liquid_AHxFiE": {
+          "type": "bl_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte\" style=\"text-align: left\">\n    <h3>Pánevní dno: Probuďte ho od nohou</h3>\n    <p></p>\n    <p>Inkontinence, bolest zad, méně radosti ze sexu. Proč to zažívat? <strong>I vy můžete mít pánevní dno v pohodě.</strong></p>\n    <ul style=\"margin-left: 25px\">\n      <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>\n        Seznamte se s tím, jak pánevní dno funguje.\n      </li>\n      <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>\n        Odhalte, proč právě vás zlobí.\n      </li>\n      <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>\n        Jednoduchými cvičeními mu vraťte pohodu.\n      </li>\n    </ul>\n  </div>",
+            "col_dk": "6",
+            "col_tb": "6"
+          }
+        },
+        "bl_image_QRD8Aa": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/mockup_ahinsa_ebook_202301_1_1.png",
+            "image2": "shopify://shop_images/panevni_dno.jpg",
+            "image3": "shopify://shop_images/panevni_dno_1.jpg",
+            "image4": "shopify://shop_images/panevni_dno_2.jpg",
+            "image5": "shopify://shop_images/panevni_dno_3.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratio4_3",
+            "image_size": "contain",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "outline",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_liquid_AHxFiE",
+        "bl_image_QRD8Aa"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "custom_liquid_qVyqzy": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id='BlackBox' class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte\" style=\"text-align: left\">\n    <div style=\"background-color: black; text-align: center; width: 100%; color: white; padding: 40px 20px; margin-top: 20px;\">\n      <h3 style=\"margin-bottom: 15px; color: white\">185 stránek pro šťastné tělo</h3>\n      <p style=\"margin-bottom: 15px\">Pošleme vám všechny 3 e-booky.</p>\n      <p style=\"margin-bottonm: 15px\">Také se 2× měsíčně ozveme s tipy a akcemi.</p>  \n  \n  <script>\n        (function (w,d,s,o,f,js,fjs) {\n            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };\n            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];\n            js.id = '3-b6fcc542fb021c84fdaff536dd0a74a1'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n        }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));\n    </script>\n            <div id=\"f-3-b6fcc542fb021c84fdaff536dd0a74a1\"></div>\n\t\t\t\n    </div>\n  </div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "image_text_aCXFGa": {
+      "type": "image_text",
+      "blocks": {
+        "bl_liquid_yeByen": {
+          "type": "bl_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte ebook-bottom-content\">\n  <h3 style=\"text-align: left;margin-bottom: 15px\">Spolu s e-booky získáte 2x měsíčně naše tipy a slevy na Ahinsa shoes</h3>\n  <div style=\"text-align: left;\">\n    <p style='margin-bottom: 25px'>Naše pravidelné e-maily čte už <strong>15000 z&nbsp;vás</strong>.</p>\n    <ul class=\"ebook-page-list\" style='margin-left: 25px'>\n      <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>\n        Tipy pro zdravé nohy a tělo\n      </li>\n      <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>Akce a slevy na Ahinsa shoes</li>\n      <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>Nové modely uvidíte jako první</li>\n    </ul>\n  </div>\n  <a\n    href=\"#BlackBox\"\n    class=\"t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-size-extra-medium t4s-btn-color-dark t4s-btn-effect-fade\"\n    style=\"margin: 15px auto!important;\"\n  >\n    CHCI O NICH VĚDĚT\n  </a>\n</div>",
+            "col_dk": "6",
+            "col_tb": "12"
+          }
+        },
+        "bl_image_tLqHrf": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/ukazka_email.jpg",
+            "col_dk": "5",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratio4_3",
+            "image_size": "contain",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": true,
+            "btn_vi": "always",
+            "btn_owl": "outline",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": false,
+            "nav_dot": true,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_liquid_yeByen",
+        "bl_image_tLqHrf"
+      ],
+      "custom_css": [],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "0",
+        "space_v_item": "0",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": true,
+        "code_cus_css": ".ebook-bottom-content {\nmargin-left: 60px;\n}\n\n@media (max-width: 767px) {\n.ebook-bottom-content {\nmargin-left: unset;\n\n}\n}"
+      }
+    },
+    "shipping_HLBRw3": {
+      "type": "shipping",
+      "blocks": {
+        "shipping_WUVMVi": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "icon": "las la-shipping-fast",
+            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
+            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.</p>",
+            "html": ""
+          }
+        },
+        "shipping_JbAxfr": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "icon": "las la-shipping-fast",
+            "title": "VYDRŽÍ MILIONY KROKŮ",
+            "text": "<p>Protože šijeme ručně z odolných materiálů.</p>",
+            "html": ""
+          }
+        },
+        "shipping_HQFeA6": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "icon": "las la-shipping-fast",
+            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
+            "text": "<p>Poštovné platíme my.</p>",
+            "html": ""
+          }
+        },
+        "shipping_RnhAgG": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "icon": "las la-shipping-fast",
+            "title": "VYRÁBÍME RUČNĚ A ETICKY",
+            "text": "<p>Přátelské k přírodě, zvířatům i lidem.</p>",
+            "html": ""
+          }
+        }
+      },
+      "block_order": [
+        "shipping_WUVMVi",
+        "shipping_JbAxfr",
+        "shipping_HQFeA6",
+        "shipping_RnhAgG"
+      ],
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "content_align": "text-start",
+        "align_vertical": false,
+        "design_padding": "1",
+        "source": "get_image",
+        "icon_des": "default",
+        "icon_size": "medium",
+        "col_dk": "4",
+        "col_tb": "1",
+        "col_mb": "1",
+        "border": false,
+        "cl_bd": "#dddddd",
+        "cl_ic": "#9e9e9e",
+        "cl_hd": "#222222",
+        "cl_cot": "#202020",
+        "bg_item": "#ffffff",
+        "hd_fs": 16,
+        "hd_fw": 600,
+        "txt_fs": 14,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "carousel_mobile": false,
+        "dots_cl": "dark",
+        "dots_round": true,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": ",,20px,",
+        "pd_tb": "",
+        "mg_mb": ",,10,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "sidebar-page",
+    "image_text_8fieMe",
+    "image_text_q84raF",
+    "image_text_cBMNbM",
+    "image_text_KFNrf7",
+    "custom_liquid_qVyqzy",
+    "image_text_aCXFGa",
+    "shipping_HLBRw3"
+  ]
+}

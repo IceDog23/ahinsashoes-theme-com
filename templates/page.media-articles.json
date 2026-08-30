@@ -1,0 +1,745 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_image_zMxFCK": {
+      "type": "hero_image",
+      "blocks": {
+        "custom_text_xtmwPG": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Napsali o nás",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "1",
+            "text_cl": "#ffffff",
+            "text_fs": 70,
+            "text_lh": 70,
+            "text_fw": 300,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 39,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "custom_text_xtmwPG"
+      ],
+      "settings": {
+        "se_height": "t4s_ratio_cuspx",
+        "custom_dk": true,
+        "height_dk": 550,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "image": "shopify://shop_images/napsali_o_nas_header.jpg",
+        "parallax": false,
+        "image_position": "0",
+        "link_img1": "",
+        "open_link": "_blank",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "auto",
+        "cv_pos": 50,
+        "ch_pos": 50,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000000",
+        "bg_opacity": 50,
+        "bg_content_cl": "#ffffff",
+        "bg_content_op": 0,
+        "content_pd_tb": 15,
+        "content_pd_lr": 15,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 10,
+        "border_bl": false,
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 20,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "3_KyNY6F": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#202020",
+            "brc_mgb": 5
+          }
+        },
+        "1_kiPXGQ": {
+          "type": "1",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "fontf": "1",
+            "text_cl": "#202020",
+            "text_fs": 39,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 31,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "2_QpeXnY": {
+          "type": "2",
+          "settings": {
+            "fontf": "2",
+            "text_cl": "#202020",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_fullwidth": false,
+        "image": "{{ page.metafields.social_sharing.image.value }}",
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#ffffff",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "feature_columns_MzhAYT": {
+      "type": "feature_columns",
+      "blocks": {
+        "text_block_zLHEJi": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_9867.jpg",
+            "title": "",
+            "text": "<p>FORBES</p><h5>Národ bosonožek. Jak se z Česka stala barefootová velmoc?</h5>",
+            "button_label": "",
+            "button_link": "https://forbes.cz/narod-bosonozek-jak-se-z-ceska-stala-barefootova-velmoc/",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_FrXDJN": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/img_0198a_97fdc44e-52b4-4a21-b185-9beae742e0c7.jpg",
+            "title": "",
+            "text": "<p>Vlasta.cz</p><h5>Obutá neobutá i v zimě</h5>",
+            "button_label": "",
+            "button_link": "https://cdn.shopify.com/s/files/1/0522/3428/9312/files/vlasta_2024-11-27_obuta-neobuta-i-v-zime.pdf?v=1733749510",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_DKgq9C": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/20240923_170009.jpg",
+            "title": "",
+            "text": "<p>Český Rozhlas Dvojka</p><h5>[ROZHOVOR] Zdravé návyky při dlouhém sezení nebo stání</h5>",
+            "button_label": "",
+            "button_link": "https://www.youtube.com/watch?v=GRb033XkM6Y",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_bPBrMn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/kopie-souboru-img_8647-mensi.jpg",
+            "title": "",
+            "text": "<p>kondice.cz</p><h5>Vložky do bot ploché nohy nevyřeší, říká fyzioterapeut</h5>",
+            "button_label": "",
+            "button_link": "https://www.kondice.cz/fyzicke-zdravi/ploche-nohy-vlozky-do-bot/",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_R3aEeV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/dsc_3710_2_989bfced-1bfb-4510-b3be-13ada7299fe8.jpg",
+            "title": "",
+            "text": "<p>Moda.cz</p><h5>Móda vs. zdraví: oblečení má chránit, ne nám ubližovat</h5>",
+            "button_label": "",
+            "button_link": "https://www.moda.cz/moda-vs-zdravi-obleceni-ma-chranit-ne-nam-ublizovat",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_LKdTLD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC02009-min_087b3df7-dab6-404f-ad3f-b8418d74f048.jpg",
+            "title": "",
+            "text": "<p>svetoutdooru.cz</p><h5>Ahinsa shoes Hiker Comfort – Poctivé barefoot pohorky</h5><p></p>",
+            "button_label": "",
+            "button_link": "https://www.svetoutdooru.cz/vybaveni/ahinsa-shoes-hiker-comfort-poctive-barefoot-pohorky/",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_bytQm9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_0290.jpg",
+            "title": "",
+            "text": "<p>Seznam Zprávy</p><h5>Zní to šíleně, ale na krizi se těším. Vždy nás posunula, říká výrobce bot</h5><p></p>",
+            "button_label": "",
+            "button_link": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-rozhovory-zni-to-silene-ale-na-krizi-se-tesim-vzdy-nas-posunula-rika-vyrobce-bot-213567",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_cDEELP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_3183.jpg",
+            "title": "",
+            "text": "<p>TÝDEN.CZ</p><h5>Český výrobce barefoot obuvi navržené fyzioterapeuty otevírá v Praze první kamennou prodejnu</h5><p></p>",
+            "button_label": "",
+            "button_link": "https://www.tyden.cz/rubriky/byznys/cesky-vyrobce-barefoot-obuvi-navrzene-fyzioterapeuty-otevira-v-praze-prvni-kamennou-prodejnu_558747.html",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_XBMCFP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_2789.jpg",
+            "title": "",
+            "text": "<p>CzechCrunch</p><h5>Z ajťáka fyzioterapeutem a nakonec obuvníkem. Většina lidí chodí špatně, říká zakladatel bot Ahinsa Lukáš Klimpera</h5><p></p>",
+            "button_label": "",
+            "button_link": "https://cc.cz/z-ajtaka-fyzioterapeutem-a-nakonec-obuvnikem-vetsina-lidi-chodi-spatne-rika-zakladatel-bot-ahinsa-lukas-klimpera/",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_EJ9jq4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_3240.jpg",
+            "title": "",
+            "text": "<p>denik.cz</p><h5>Jak se správně obout? Zkuste bosé boty, radí odborníci. Kolena přestanou bolet</h5>",
+            "button_label": "",
+            "button_link": "https://www.denik.cz/zdravi/jak-se-spravne-obout-zkuste-bose-boty-radi-odbornici-kolena-prestanou-bolet-2022.html",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_zPjjU9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_9143.jpg",
+            "title": "",
+            "text": "<p>REFLEX</p><h5>Bolestí zad a hlavy vás může zbavit i změna chůze. České boty navržené fyzioterapeutem pomáhají už po roce</h5><p></p>",
+            "button_label": "",
+            "button_link": "https://www.reflex.cz/clanek/zajimavosti/115956/bolesti-zad-a-hlavy-vas-muze-zbavit-i-zmena-chuze-ceske-boty-navrzene-fyzioterapeutem-pomahaji-uz-po-roce.html",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_6yTj4q": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_2447_1.jpg",
+            "title": "",
+            "text": "<p>FORBES</p><h5>Boty vyrábí z pytlů od kávy, pneumatik či kokosu. Teď i na 3D tiskárnách</h5><p></p>",
+            "button_label": "",
+            "button_link": "https://forbes.cz/boty-vyrabi-z-pytlu-od-kavy-pneumatik-ci-kokosu-ted-i-na-3d-tiskarnach/",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_tQg8aY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_9636.jpg",
+            "title": "",
+            "text": "<p>ŽENA-IN</p><h5>Špatná chůze je příčinou mnoha neduhů. Naučte se chodit zdravě</h5><p></p>",
+            "button_label": "",
+            "button_link": "https://zena-in.cz/clanek/spatna-chuze-je-pricinou-mnoha-neduhu-naucte-se-chodit-zdrave",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_NDUygg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_2861.jpg",
+            "title": "",
+            "text": "<p>CzechCrunch</p><h5>Česká značka bosých bot Ahinsa roste. Otevírá kamenný obchod a plánuje tisknout obuv na 3D tiskárně</h5><p></p>",
+            "button_label": "",
+            "button_link": "https://cc.cz/ceska-znacka-bosych-bot-ahinsa-roste-otevira-kamenny-obchod-a-planuje-tisknout-obuv-na-3d-tiskarne",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_f8cGhc": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ahinsa_shoes_polobotky_sede_0001_1.jpg",
+            "title": "",
+            "text": "<p>Babinet.cz</p><h5>Ustoupení bolesti zad či hlavy a zlepšení funkce pánevního dna. Průzkum potvrzuje, že boom barefoot obuvi je opodstatněný</h5>",
+            "button_label": "",
+            "button_link": "https://babinet.cz/clanek-30501-ustoupeni-bolesti-zad-ci-hlavy-a-zlepseni-funkce-panevniho-dna-pruzkum-potvrzuje-ze-boom-barefoot-obuvi-je-opodstatneny.html",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_Pt6gAG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_3115.jpg",
+            "title": "",
+            "text": "<p>VOGUE.CZ</p><h5>Lukáš Klimpera: Postoj je základ</h5><p></p>",
+            "button_label": "",
+            "button_link": "https://www.vogue.cz/clanek/vogue-leaders/michaela-dombrovska/lukas-klimpera-postoj-je-zaklad",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_JxPwAY": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DSC_2958_1.jpg",
+            "title": "",
+            "text": "<p>TÝDEN.CZ</p><h5>Proč je zdravá chůze důležitá? Jak špatné boty ovlivňují naše tělo? Podle čeho se řídit při výběru barefoot obuvi?</h5><p></p>",
+            "button_label": "",
+            "button_link": "https://www.tyden.cz/chat-s-osobnosti/proc-je-zdrava-chuze-dulezita-jak-spatne-boty-ovlivnuji-nase-telo-podle-ceho-se-ridit-pri-vyberu-barefoot-obuvi-odpovidal-lukas-klimpera-ve-ctvrtek-10-11-2022-od-11-00_1451/",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "link",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_zLHEJi",
+        "text_block_FrXDJN",
+        "text_block_DKgq9C",
+        "text_block_bPBrMn",
+        "text_block_R3aEeV",
+        "text_block_LKdTLD",
+        "text_block_bytQm9",
+        "text_block_cDEELP",
+        "text_block_XBMCFP",
+        "text_block_EJ9jq4",
+        "text_block_zPjjU9",
+        "text_block_6yTj4q",
+        "text_block_tQg8aY",
+        "text_block_NDUygg",
+        "text_block_f8cGhc",
+        "text_block_Pt6gAG",
+        "text_block_JxPwAY"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "text_align": "center",
+        "pos_text": "default",
+        "fs_title": 22,
+        "fs_text": 14,
+        "fs_title_mb": 22,
+        "fs_text_mb": 12,
+        "image_ratio": "ratio16_9",
+        "image_size": "cover",
+        "image_position": "8",
+        "img_effect": "none",
+        "b_effect": "none",
+        "layout_des": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_DBVJEE": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_nC9waW": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "Máte zájem o rozhovor",
+            "text": "<p>Fyzioterapeut a zakladatel Ahinsa shoes Lukáš Klimpera se s vámi rád sejde a probere všechno, co vás zajímá.</p><p>Napište mu na e-mail <a href=\"mailto:cooperation@ahinsashoes.com\" title=\"mailto:cooperation@ahinsashoes.com\">cooperation@ahinsashoes.com</a>.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#202020",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_nC9waW"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "shipping_nj3nkg": {
+      "type": "shipping",
+      "blocks": {
+        "shipping_KfzhP7": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "icon": "las la-shipping-fast",
+            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
+            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.</p>",
+            "html": ""
+          }
+        },
+        "shipping_mmNH6x": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "icon": "las la-shipping-fast",
+            "title": "VYDRŽÍ MILIONY KROKŮ",
+            "text": "<p>Protože šijeme ručně z odolných materiálů.</p>",
+            "html": ""
+          }
+        },
+        "shipping_tzp7mB": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "icon": "las la-shipping-fast",
+            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
+            "text": "<p>Poštovné platíme my.</p>",
+            "html": ""
+          }
+        },
+        "shipping_HDMKMa": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "icon": "las la-shipping-fast",
+            "title": "VYRÁBÍME RUČNĚ A ETICKY",
+            "text": "<p>Přátelské k přírodě, zvířatům i lidem.</p>",
+            "html": ""
+          }
+        }
+      },
+      "block_order": [
+        "shipping_KfzhP7",
+        "shipping_mmNH6x",
+        "shipping_tzp7mB",
+        "shipping_HDMKMa"
+      ],
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "content_align": "text-start",
+        "align_vertical": false,
+        "design_padding": "1",
+        "source": "get_image",
+        "icon_des": "default",
+        "icon_size": "medium",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "border": false,
+        "cl_bd": "#dddddd",
+        "cl_ic": "#9e9e9e",
+        "cl_hd": "#222222",
+        "cl_cot": "#202020",
+        "bg_item": "#ffffff",
+        "hd_fs": 16,
+        "hd_fw": 600,
+        "txt_fs": 14,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "carousel_mobile": true,
+        "dots_cl": "dark",
+        "dots_round": true,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": ",,20px,",
+        "pd_tb": "",
+        "mg_mb": ",,10,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "hero_image_zMxFCK",
+    "heading",
+    "main",
+    "sidebar-page",
+    "feature_columns_MzhAYT",
+    "image_text_DBVJEE",
+    "shipping_nj3nkg"
+  ]
+}

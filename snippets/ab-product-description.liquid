@@ -1,0 +1,22 @@
+{% if product.metafields.global.description_intro.value != blank %}
+    {%- assign pr_des = product.metafields.global.description_intro.value -%}
+  {% else %}
+    {%- assign pr_des = product.description -%}
+  {% endif %}
+
+<div class='ab-product-desciption'>
+    {{pr_des}}
+</div>
+
+<style>
+.ab-product-desciption {
+    display: none;
+}
+@media (max-width: 767px) {
+.ab-product-desciption {
+    display: block;
+    text-align: left;
+    padding: 16px 0;
+    }
+}
+</style>

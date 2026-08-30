@@ -1,0 +1,1150 @@
+{% doc %}
+  @prompt
+    Create a premium two-column hero banner for Shopify with:
+    
+    countdown timer
+    discount badge
+    CTA buttons
+    bottom feature bar
+    neutral beige minimal design
+    full editability in Shopify theme editor
+    
+    Important responsive requirements:
+    
+    The section must be fully optimized for both desktop and mobile.
+    On mobile, the layout must stack vertically.
+    The main heading must remain a true prominent hero heading on mobile, not render like normal body text.
+    Add separate typography controls in the Shopify theme editor for desktop and mobile, especially for:
+    heading font size
+    subheading/text size
+    button text size
+    countdown number size
+    feature bar text size
+    Include separate controls for desktop and mobile spacing:
+    top/bottom padding
+    gap between columns
+    gap between heading lines
+    button spacing
+    Ensure proper line-height and letter-spacing settings for the hero heading on mobile.
+    Make sure text scales responsively without breaking layout or reducing visual hierarchy.
+    
+    Technical requirements:
+    
+    Build as a Shopify section using Liquid, HTML, CSS, and minimal JavaScript.
+    All key content must be editable in the Shopify theme editor:
+    heading
+    highlighted word in heading
+    paragraph text
+    countdown end date/time
+    button labels and links
+    discount badge text
+    product image
+    feature bar items
+    colors
+    Add separate range settings for desktop and mobile font sizes.
+    Use semantic H1/H2 structure correctly.
+    Do not rely only on automatic CSS scaling; expose manual mobile controls in schema settings.
+    
+    Design direction:
+    
+    premium
+    elegant
+    minimal
+    soft beige palette
+    strong typography
+    clean whitespace
+    refined rounded buttons
+    
+    Goal:
+    The hero must look bold and editorial on desktop, and still feel like a real hero section on mobile, with large readable heading text and fully adjustable mobile typography in the theme editor. Add dedicated Shopify schema settings for mobile heading size, mobile paragraph size, and mobile countdown size, so the merchant can manually control mobile appearance in the editor.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-hero-banner-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.padding_top_desktop }}px 0 {{ block.settings.padding_bottom_desktop }}px;
+  }
+
+  .ai-hero-banner__container-{{ ai_gen_id }} {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+  .ai-hero-banner__grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: {{ block.settings.column_gap_desktop }}px;
+    align-items: center;
+  }
+
+  .ai-hero-banner__content-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.content_gap_desktop }}px;
+  }
+
+  .ai-hero-banner__heading-{{ ai_gen_id }} {
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-weight: {{ block.settings.heading_font.weight }};
+    font-size: {{ block.settings.heading_size_desktop }}px;
+    line-height: {{ block.settings.heading_line_height_desktop }};
+    letter-spacing: {{ block.settings.heading_letter_spacing }}px;
+    color: {{ block.settings.heading_color }};
+    margin: 0;
+  }
+
+  .ai-hero-banner__heading-highlight-{{ ai_gen_id }} {
+    color: {{ block.settings.highlight_color }};
+  }
+
+  .ai-hero-banner__text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.text_size_desktop }}px;
+    line-height: {{ block.settings.text_line_height }};
+    color: {{ block.settings.text_color }};
+    margin: 0;
+  }
+
+  .ai-hero-banner__countdown-{{ ai_gen_id }} {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .ai-hero-banner__countdown-item-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .ai-hero-banner__countdown-number-{{ ai_gen_id }} {
+    font-size: {{ block.settings.countdown_size_desktop }}px;
+    font-weight: 700;
+    color: {{ block.settings.countdown_number_color }};
+    line-height: 1;
+  }
+
+  .ai-hero-banner__countdown-label-{{ ai_gen_id }} {
+    font-size: {{ block.settings.countdown_label_size_desktop }}px;
+    color: {{ block.settings.countdown_label_color }};
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .ai-hero-banner__badge-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background-color: {{ block.settings.badge_bg_color }};
+    color: {{ block.settings.badge_text_color }};
+    font-size: {{ block.settings.badge_text_size }}px;
+    font-weight: 600;
+    border-radius: {{ block.settings.badge_border_radius }}px;
+    align-self: flex-start;
+  }
+
+  .ai-hero-banner__buttons-{{ ai_gen_id }} {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .ai-hero-banner__button-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
+    font-size: {{ block.settings.button_text_size_desktop }}px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+
+  .ai-hero-banner__button--primary-{{ ai_gen_id }} {
+    background-color: {{ block.settings.button_primary_bg }};
+    color: {{ block.settings.button_primary_text_color }};
+    border-color: {{ block.settings.button_primary_bg }};
+  }
+
+  .ai-hero-banner__button--primary-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_primary_hover_bg }};
+    border-color: {{ block.settings.button_primary_hover_bg }};
+  }
+
+  .ai-hero-banner__button--secondary-{{ ai_gen_id }} {
+    background-color: transparent;
+    color: {{ block.settings.button_secondary_text_color }};
+    border-color: {{ block.settings.button_secondary_border }};
+  }
+
+  .ai-hero-banner__button--secondary-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_secondary_hover_bg }};
+    color: {{ block.settings.button_secondary_hover_text }};
+    border-color: {{ block.settings.button_secondary_hover_bg }};
+  }
+
+  .ai-hero-banner__image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    overflow: hidden;
+  }
+
+  .ai-hero-banner__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .ai-hero-banner__feature-bar-{{ ai_gen_id }} {
+    margin-top: {{ block.settings.feature_bar_spacing }}px;
+    padding: {{ block.settings.feature_bar_padding }}px 40px;
+    background-color: {{ block.settings.feature_bar_bg }};
+    border-radius: {{ block.settings.feature_bar_border_radius }}px;
+  }
+
+  .ai-hero-banner__features-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 32px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .ai-hero-banner__feature-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ai-hero-banner__feature-icon-{{ ai_gen_id }} {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: {{ block.settings.feature_icon_color }};
+  }
+
+  .ai-hero-banner__feature-icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ai-hero-banner__feature-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.feature_text_size_desktop }}px;
+    color: {{ block.settings.feature_text_color }};
+    line-height: 1.4;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-hero-banner-{{ ai_gen_id }} {
+      padding: {{ block.settings.padding_top_mobile }}px 0 {{ block.settings.padding_bottom_mobile }}px;
+    }
+
+    .ai-hero-banner__container-{{ ai_gen_id }} {
+      padding: 0 20px;
+    }
+
+    .ai-hero-banner__grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.column_gap_mobile }}px;
+    }
+
+    .ai-hero-banner__content-{{ ai_gen_id }} {
+      gap: {{ block.settings.content_gap_mobile }}px;
+      order: {{ block.settings.mobile_content_order }};
+    }
+
+    .ai-hero-banner__image-wrapper-{{ ai_gen_id }} {
+      order: {{ block.settings.mobile_image_order }};
+    }
+
+    .ai-hero-banner__heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size_mobile }}px;
+      line-height: {{ block.settings.heading_line_height_mobile }};
+    }
+
+    .ai-hero-banner__text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size_mobile }}px;
+    }
+
+    .ai-hero-banner__countdown-number-{{ ai_gen_id }} {
+      font-size: {{ block.settings.countdown_size_mobile }}px;
+    }
+
+    .ai-hero-banner__countdown-label-{{ ai_gen_id }} {
+      font-size: {{ block.settings.countdown_label_size_mobile }}px;
+    }
+
+    .ai-hero-banner__button-{{ ai_gen_id }} {
+      font-size: {{ block.settings.button_text_size_mobile }}px;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .ai-hero-banner__buttons-{{ ai_gen_id }} {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .ai-hero-banner__feature-bar-{{ ai_gen_id }} {
+      padding: {{ block.settings.feature_bar_padding }}px 20px;
+    }
+
+    .ai-hero-banner__features-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .ai-hero-banner__feature-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.feature_text_size_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<hero-banner-{{ ai_gen_id }} class="ai-hero-banner-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-hero-banner__container-{{ ai_gen_id }}">
+    <div class="ai-hero-banner__grid-{{ ai_gen_id }}">
+      <div class="ai-hero-banner__content-{{ ai_gen_id }}">
+        {% if block.settings.badge_text != blank %}
+          <div class="ai-hero-banner__badge-{{ ai_gen_id }}">
+            {{ block.settings.badge_text }}
+          </div>
+        {% endif %}
+
+        {% if block.settings.heading != blank %}
+          <h1 class="ai-hero-banner__heading-{{ ai_gen_id }}">
+            {% assign heading_parts = block.settings.heading | split: block.settings.highlight_word %}
+            {% if heading_parts.size > 1 %}
+              {{ heading_parts[0] }}<span class="ai-hero-banner__heading-highlight-{{ ai_gen_id }}">{{ block.settings.highlight_word }}</span>{{ heading_parts[1] }}
+            {% else %}
+              {{ block.settings.heading }}
+            {% endif %}
+          </h1>
+        {% endif %}
+
+        {% if block.settings.text != blank %}
+          <p class="ai-hero-banner__text-{{ ai_gen_id }}">
+            {{ block.settings.text }}
+          </p>
+        {% endif %}
+
+        {% if block.settings.show_countdown %}
+          <div class="ai-hero-banner__countdown-{{ ai_gen_id }}" data-countdown-end="{{ block.settings.countdown_end }}">
+            <div class="ai-hero-banner__countdown-item-{{ ai_gen_id }}">
+              <div class="ai-hero-banner__countdown-number-{{ ai_gen_id }}" data-days>00</div>
+              <div class="ai-hero-banner__countdown-label-{{ ai_gen_id }}">Days</div>
+            </div>
+            <div class="ai-hero-banner__countdown-item-{{ ai_gen_id }}">
+              <div class="ai-hero-banner__countdown-number-{{ ai_gen_id }}" data-hours>00</div>
+              <div class="ai-hero-banner__countdown-label-{{ ai_gen_id }}">Hours</div>
+            </div>
+            <div class="ai-hero-banner__countdown-item-{{ ai_gen_id }}">
+              <div class="ai-hero-banner__countdown-number-{{ ai_gen_id }}" data-minutes>00</div>
+              <div class="ai-hero-banner__countdown-label-{{ ai_gen_id }}">Mins</div>
+            </div>
+            <div class="ai-hero-banner__countdown-item-{{ ai_gen_id }}">
+              <div class="ai-hero-banner__countdown-number-{{ ai_gen_id }}" data-seconds>00</div>
+              <div class="ai-hero-banner__countdown-label-{{ ai_gen_id }}">Secs</div>
+            </div>
+          </div>
+        {% endif %}
+
+        <div class="ai-hero-banner__buttons-{{ ai_gen_id }}">
+          {% if block.settings.button_primary_label != blank %}
+            <a href="{{ block.settings.button_primary_link }}" class="ai-hero-banner__button-{{ ai_gen_id }} ai-hero-banner__button--primary-{{ ai_gen_id }}">
+              {{ block.settings.button_primary_label }}
+            </a>
+          {% endif %}
+
+          {% if block.settings.button_secondary_label != blank %}
+            <a href="{{ block.settings.button_secondary_link }}" class="ai-hero-banner__button-{{ ai_gen_id }} ai-hero-banner__button--secondary-{{ ai_gen_id }}">
+              {{ block.settings.button_secondary_label }}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="ai-hero-banner__image-wrapper-{{ ai_gen_id }}">
+        {% if block.settings.product_image %}
+          <img
+            src="{{ block.settings.product_image | image_url: width: 1200 }}"
+            alt="{{ block.settings.product_image.alt | escape }}"
+            class="ai-hero-banner__image-{{ ai_gen_id }}"
+            loading="eager"
+            width="{{ block.settings.product_image.width }}"
+            height="{{ block.settings.product_image.height }}"
+          >
+        {% else %}
+          <div class="ai-hero-banner__image-placeholder-{{ ai_gen_id }}">
+            {{ 'product-1' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  {% if block.settings.show_feature_bar %}
+    <div class="ai-hero-banner__feature-bar-{{ ai_gen_id }}">
+      <div class="ai-hero-banner__features-{{ ai_gen_id }}">
+        {% if block.settings.feature_1_text != blank %}
+          <div class="ai-hero-banner__feature-{{ ai_gen_id }}">
+            <div class="ai-hero-banner__feature-icon-{{ ai_gen_id }}">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 7h-9"></path>
+                <path d="M14 17H5"></path>
+                <circle cx="17" cy="17" r="3"></circle>
+                <circle cx="7" cy="7" r="3"></circle>
+              </svg>
+            </div>
+            <div class="ai-hero-banner__feature-text-{{ ai_gen_id }}">
+              {{ block.settings.feature_1_text }}
+            </div>
+          </div>
+        {% endif %}
+
+        {% if block.settings.feature_2_text != blank %}
+          <div class="ai-hero-banner__feature-{{ ai_gen_id }}">
+            <div class="ai-hero-banner__feature-icon-{{ ai_gen_id }}">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="ai-hero-banner__feature-text-{{ ai_gen_id }}">
+              {{ block.settings.feature_2_text }}
+            </div>
+          </div>
+        {% endif %}
+
+        {% if block.settings.feature_3_text != blank %}
+          <div class="ai-hero-banner__feature-{{ ai_gen_id }}">
+            <div class="ai-hero-banner__feature-icon-{{ ai_gen_id }}">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="ai-hero-banner__feature-text-{{ ai_gen_id }}">
+              {{ block.settings.feature_3_text }}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+</hero-banner-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class HeroBanner{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.countdownElement = this.querySelector('[data-countdown-end]');
+        if (this.countdownElement) {
+          this.initCountdown();
+        }
+      }
+
+      initCountdown() {
+        const endDate = this.countdownElement.getAttribute('data-countdown-end');
+        if (!endDate) return;
+
+        const countdownEnd = new Date(endDate).getTime();
+        const daysEl = this.countdownElement.querySelector('[data-days]');
+        const hoursEl = this.countdownElement.querySelector('[data-hours]');
+        const minutesEl = this.countdownElement.querySelector('[data-minutes]');
+        const secondsEl = this.countdownElement.querySelector('[data-seconds]');
+
+        const updateCountdown = () => {
+          const now = new Date().getTime();
+          const distance = countdownEnd - now;
+
+          if (distance < 0) {
+            clearInterval(this.countdownInterval);
+            daysEl.textContent = '00';
+            hoursEl.textContent = '00';
+            minutesEl.textContent = '00';
+            secondsEl.textContent = '00';
+            return;
+          }
+
+          const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          daysEl.textContent = String(days).padStart(2, '0');
+          hoursEl.textContent = String(hours).padStart(2, '0');
+          minutesEl.textContent = String(minutes).padStart(2, '0');
+          secondsEl.textContent = String(seconds).padStart(2, '0');
+        };
+
+        updateCountdown();
+        this.countdownInterval = setInterval(updateCountdown, 1000);
+      }
+
+      disconnectedCallback() {
+        if (this.countdownInterval) {
+          clearInterval(this.countdownInterval);
+        }
+      }
+    }
+
+    customElements.define('hero-banner-{{ ai_gen_id }}', HeroBanner{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Premium hero banner",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Discover Premium Comfort"
+    },
+    {
+      "type": "text",
+      "id": "highlight_word",
+      "label": "Highlighted word in heading",
+      "default": "Premium"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Paragraph text",
+      "default": "Experience the perfect blend of style and comfort with our exclusive collection."
+    },
+    {
+      "type": "image_picker",
+      "id": "product_image",
+      "label": "Product image"
+    },
+    {
+      "type": "header",
+      "content": "Discount badge"
+    },
+    {
+      "type": "text",
+      "id": "badge_text",
+      "label": "Badge text",
+      "default": "Save 30%"
+    },
+    {
+      "type": "range",
+      "id": "badge_text_size",
+      "label": "Badge text size",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "badge_border_radius",
+      "label": "Badge border radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Countdown timer"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_countdown",
+      "label": "Show countdown",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "countdown_end",
+      "label": "Countdown end date",
+      "info": "Format: YYYY-MM-DD HH:MM:SS (e.g., 2026-12-31 23:59:59)",
+      "default": "2026-12-31 23:59:59"
+    },
+    {
+      "type": "header",
+      "content": "Primary button"
+    },
+    {
+      "type": "text",
+      "id": "button_primary_label",
+      "label": "Button label",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "button_primary_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Secondary button"
+    },
+    {
+      "type": "text",
+      "id": "button_secondary_label",
+      "label": "Button label",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "button_secondary_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Feature bar"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_feature_bar",
+      "label": "Show feature bar",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "feature_1_text",
+      "label": "Feature 1 text",
+      "default": "Free Shipping Worldwide"
+    },
+    {
+      "type": "text",
+      "id": "feature_2_text",
+      "label": "Feature 2 text",
+      "default": "Handcrafted Quality"
+    },
+    {
+      "type": "text",
+      "id": "feature_3_text",
+      "label": "Feature 3 text",
+      "default": "30-Day Returns"
+    },
+    {
+      "type": "header",
+      "content": "Desktop typography"
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Heading font",
+      "default": "optima_nova_n7"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "label": "Heading size",
+      "min": 24,
+      "max": 120,
+      "step": 2,
+      "unit": "px",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "heading_line_height_desktop",
+      "label": "Heading line height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.1
+    },
+    {
+      "type": "range",
+      "id": "heading_letter_spacing",
+      "label": "Heading letter spacing",
+      "min": -2,
+      "max": 4,
+      "step": 0.5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "text_size_desktop",
+      "label": "Paragraph size",
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "text_line_height",
+      "label": "Paragraph line height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.6
+    },
+    {
+      "type": "range",
+      "id": "countdown_size_desktop",
+      "label": "Countdown number size",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "countdown_label_size_desktop",
+      "label": "Countdown label size",
+      "min": 8,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "button_text_size_desktop",
+      "label": "Button text size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "feature_text_size_desktop",
+      "label": "Feature bar text size",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Mobile typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Heading size",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "heading_line_height_mobile",
+      "label": "Heading line height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.2
+    },
+    {
+      "type": "range",
+      "id": "text_size_mobile",
+      "label": "Paragraph size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "countdown_size_mobile",
+      "label": "Countdown number size",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "countdown_label_size_mobile",
+      "label": "Countdown label size",
+      "min": 8,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "button_text_size_mobile",
+      "label": "Button text size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "feature_text_size_mobile",
+      "label": "Feature bar text size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "header",
+      "content": "Desktop spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "label": "Top padding",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "column_gap_desktop",
+      "label": "Column gap",
+      "min": 20,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "content_gap_desktop",
+      "label": "Content gap",
+      "min": 12,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "header",
+      "content": "Mobile spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Top padding",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "column_gap_mobile",
+      "label": "Column gap",
+      "min": 16,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "content_gap_mobile",
+      "label": "Content gap",
+      "min": 12,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Mobile layout"
+    },
+    {
+      "type": "select",
+      "id": "mobile_content_order",
+      "label": "Content position",
+      "options": [
+        {
+          "value": "1",
+          "label": "Above image"
+        },
+        {
+          "value": "2",
+          "label": "Below image"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "select",
+      "id": "mobile_image_order",
+      "label": "Image position",
+      "options": [
+        {
+          "value": "1",
+          "label": "Above content"
+        },
+        {
+          "value": "2",
+          "label": "Below content"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#f5f1eb"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading",
+      "default": "#2c2c2c"
+    },
+    {
+      "type": "color",
+      "id": "highlight_color",
+      "label": "Heading highlight",
+      "default": "#8b7355"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#5a5a5a"
+    },
+    {
+      "type": "color",
+      "id": "badge_bg_color",
+      "label": "Badge background",
+      "default": "#d4a574"
+    },
+    {
+      "type": "color",
+      "id": "badge_text_color",
+      "label": "Badge text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "countdown_number_color",
+      "label": "Countdown number",
+      "default": "#2c2c2c"
+    },
+    {
+      "type": "color",
+      "id": "countdown_label_color",
+      "label": "Countdown label",
+      "default": "#8b7355"
+    },
+    {
+      "type": "color",
+      "id": "button_primary_bg",
+      "label": "Primary button background",
+      "default": "#2c2c2c"
+    },
+    {
+      "type": "color",
+      "id": "button_primary_text_color",
+      "label": "Primary button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_primary_hover_bg",
+      "label": "Primary button hover",
+      "default": "#8b7355"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_text_color",
+      "label": "Secondary button text",
+      "default": "#2c2c2c"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_border",
+      "label": "Secondary button border",
+      "default": "#2c2c2c"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_hover_bg",
+      "label": "Secondary button hover background",
+      "default": "#2c2c2c"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_hover_text",
+      "label": "Secondary button hover text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "feature_bar_bg",
+      "label": "Feature bar background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "feature_icon_color",
+      "label": "Feature icon",
+      "default": "#8b7355"
+    },
+    {
+      "type": "color",
+      "id": "feature_text_color",
+      "label": "Feature text",
+      "default": "#2c2c2c"
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "label": "Vertical padding",
+      "min": 8,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 16,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Image style"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Feature bar style"
+    },
+    {
+      "type": "range",
+      "id": "feature_bar_spacing",
+      "label": "Top spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "feature_bar_padding",
+      "label": "Padding",
+      "min": 12,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "feature_bar_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Premium hero banner"
+    }
+  ]
+}
+{% endschema %}
