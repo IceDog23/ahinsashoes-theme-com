@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "purchase_code": "20c9919f-e0bd-4cc0-88b9-982f555d7c52",
+    "purchase_code": "b00fc998-44d5-4dd6-8a8c-40056d979036",
     "general_layout": "wide",
     "cus_w_bd": 1600,
     "home_keywords": "Ahinsa shoes, barefoot boty, komfortní boty",
@@ -301,7 +301,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Naše boty",
-              "menu": "nase-boty-footer",
+              "menu": "",
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "2",
@@ -339,7 +339,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Užitečné odkazy",
-              "menu": "footer-menu-01",
+              "menu": "",
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "2",
@@ -599,7 +599,7 @@
           "menu_4GUrwE": {
             "type": "menu",
             "settings": {
-              "menu": "top-bar-menu-new",
+              "menu": "",
               "hide": false,
               "text_align": "end",
               "col": "6"
@@ -703,7 +703,7 @@
               "cus_cl": false,
               "cl": "#000000",
               "lb": "Nové",
-              "lb_cl": "#923A3A"
+              "lb_cl": "#923a3a"
             }
           },
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
@@ -1267,7 +1267,6 @@
               "collection": "vyprodej",
               "collection_title": "Výprodej",
               "collection_subtitle": "Products",
-              "image": "shopify://shop_images/DSC_3813.png",
               "collection_des": "14",
               "title_cl": "#222222",
               "title_cl_hover": "#222222",
@@ -1296,7 +1295,6 @@
               "collection": "",
               "collection_title": "Ahinsa + Preciosa",
               "collection_subtitle": "",
-              "image": "shopify://shop_images/dsc2588-kopie-zmensene.jpg",
               "collection_des": "14",
               "title_cl": "#202020",
               "title_cl_hover": "#222222",
@@ -1334,7 +1332,7 @@
               "tt_icon_width": 30,
               "url": "shopify://collections/damske-barefoot",
               "open_link": "_self",
-              "menu": "damy-barefoot-n",
+              "menu": "",
               "col": "4"
             }
           },
@@ -1348,7 +1346,7 @@
               "tt_icon_width": 30,
               "url": "shopify://collections/damske-komfortni-boty",
               "open_link": "_self",
-              "menu": "damy-komfortni-boty-n",
+              "menu": "",
               "col": "4"
             }
           },
@@ -1394,7 +1392,7 @@
               "tt_icon_width": 30,
               "url": "shopify://collections/panske-barefoot",
               "open_link": "_self",
-              "menu": "pani-barefoot-n",
+              "menu": "",
               "col": "4"
             }
           },
@@ -1408,7 +1406,7 @@
               "tt_icon_width": 30,
               "url": "shopify://collections/panska-komfortni-obuv",
               "open_link": "_self",
-              "menu": "pani-komfort-boty-n",
+              "menu": "",
               "col": "4"
             }
           },
@@ -1453,7 +1451,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 500,
-              "image": "shopify://shop_images/DSC02667.jpg",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "",
@@ -1481,7 +1478,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 200,
-              "image": "shopify://shop_images/DSC02667.jpg",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "shopify://collections/aktivni-stelky",
@@ -1503,7 +1499,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 200,
-              "image": "shopify://shop_images/poukaz_500_email_size.jpg",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "shopify://products/darkovy-poukaz",
@@ -1547,7 +1542,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 200,
-              "image": "shopify://shop_images/ponozky_1800x1800_16f68045-9258-4213-b220-2c0f4fef5217.webp",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "shopify://collections/barefoot-ponozky",
@@ -1613,7 +1607,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 200,
-              "image": "shopify://shop_images/DSC_3662_aae83f1f-d6d6-4419-a9b1-f9e3fefafb36.jpg",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "https://ahinsashoes.cz/collections/doplnky/fashion",
@@ -1635,7 +1628,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 200,
-              "image": "shopify://shop_images/DSC_3252.jpg",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "https://ahinsashoes.cz/collections/doplnky/dalsi-doplnky",
@@ -1666,7 +1658,7 @@
               "tt_icon_width": 10,
               "url": "",
               "open_link": "_self",
-              "menu": "blog-new",
+              "menu": "",
               "col": "3"
             }
           },
@@ -1677,7 +1669,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 300,
-              "image": "shopify://shop_images/mockup_ahinsa_ebook_202301_1_2.png",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "shopify://pages/zdrave-nohy-zdrave-telo",
@@ -1699,7 +1690,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 300,
-              "image": "shopify://shop_images/Kopie_souboru_IMG_8669.jpg",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "shopify://pages/footscan",
@@ -1752,7 +1742,7 @@
               "tt_icon_width": 30,
               "url": "",
               "open_link": "_self",
-              "menu": "o-ahinse-new",
+              "menu": "",
               "col": "3"
             }
           },
@@ -1766,7 +1756,7 @@
               "tt_icon_width": 30,
               "url": "",
               "open_link": "_self",
-              "menu": "o-prodejne-new",
+              "menu": "",
               "col": "3"
             }
           },
@@ -1780,7 +1770,7 @@
               "tt_icon_width": 30,
               "url": "",
               "open_link": "_self",
-              "menu": "o-nakupu-new",
+              "menu": "",
               "col": "3"
             }
           },
@@ -1791,7 +1781,6 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 300,
-              "image": "shopify://shop_images/prodejna-ahinsa.jpg",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "shopify://pages/prodejna",
@@ -1818,7 +1807,6 @@
               "collection": "",
               "collection_title": "Výprodej – DÁMY",
               "collection_subtitle": "",
-              "image": "shopify://shop_images/dsc_3785_f7699555-4828-46dc-8b4b-2e9dae2d113b.png",
               "collection_des": "14",
               "title_cl": "#222222",
               "title_cl_hover": "#222222",
@@ -1846,7 +1834,6 @@
               "collection": "",
               "collection_title": "Výprodej – PÁNI",
               "collection_subtitle": "",
-              "image": "shopify://shop_images/img_9374_6d76fa92-677b-4e62-a01d-4e2c12b0667b.png",
               "collection_des": "14",
               "title_cl": "#222222",
               "title_cl_hover": "#222222",
@@ -1923,7 +1910,6 @@
               "lb": "",
               "lb_cl": "",
               "icons_op": "1",
-              "image": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
               "icon": "las la-user",
               "cat1": "novinky-damske",
               "url1": "",
@@ -1933,7 +1919,6 @@
               "url3": "",
               "cat4": "",
               "url4": "https://ahinsashoes.cz/pages/preciosa",
-              "image4": "shopify://shop_images/preciosa-mobil.png",
               "cat5": "",
               "url5": "",
               "cat6": "",
@@ -1984,11 +1969,10 @@
               "title": "Dámy",
               "url": "shopify://collections/damy",
               "open_link": "_self",
-              "menu": "damske-boty-new-mob",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "1",
-              "image": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
               "icon": ""
             }
           },
@@ -1998,11 +1982,10 @@
               "title": "Pánové",
               "url": "shopify://collections/panove",
               "open_link": "_self",
-              "menu": "panske-boty-new-mob",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "1",
-              "image": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
               "icon": ""
             }
           },
@@ -2012,11 +1995,10 @@
               "title": "Doplňky",
               "url": "",
               "open_link": "_self",
-              "menu": "dopl-ky-mob-new",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "1",
-              "image": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
               "icon": "las la-chair"
             }
           },
@@ -2026,11 +2008,10 @@
               "title": "O zdravé chůzi",
               "url": "#",
               "open_link": "_self",
-              "menu": "o-zdravechuzi-new-mob",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "1",
-              "image": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
               "icon": ""
             }
           },
@@ -2040,11 +2021,10 @@
               "title": "O nás",
               "url": "#",
               "open_link": "_self",
-              "menu": "o-nas-new-mob",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "1",
-              "image": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
               "icon": ""
             }
           },
@@ -2052,7 +2032,7 @@
             "type": "menu_2",
             "settings": {
               "open_link": "_self",
-              "menu": "ostatni-new-mob",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -2115,7 +2095,6 @@
           "mini_cart-5": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/visa-mc-qr-twisto_71e46832-4aae-4471-97a7-68e4bd6437b9.png",
               "svg": "",
               "height": 30
             }
@@ -3114,18 +3093,8 @@
         "disabled": false,
         "settings": {}
       },
-      "4918592460924562117": {
-        "type": "shopify://apps/optimonk-popup-cro-a-b-test/blocks/app-embed/0b488be1-fc0a-4fe6-8793-f2bef383dba8",
-        "disabled": false,
-        "settings": {}
-      },
       "12526071353035850722": {
         "type": "shopify://apps/amp-back-in-stock/blocks/app-embed/bfa6a8c4-24e2-411a-9396-e35031b33f34",
-        "disabled": false,
-        "settings": {}
-      },
-      "1877152918344802950": {
-        "type": "shopify://apps/intelligems-a-b-testing/blocks/intelligems-script/fa83b64c-0c77-4c0c-b4b2-b94b42f5ef19",
         "disabled": false,
         "settings": {}
       }
