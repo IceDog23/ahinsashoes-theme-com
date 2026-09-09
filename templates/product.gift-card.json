@@ -37,8 +37,7 @@
         "judge_me_reviews_preview_badge_gmc93H": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "description_R9cKb3": {
           "type": "description",
@@ -87,9 +86,7 @@
             "btn_txt2": "3",
             "button_color_payment": "dark",
             "show_gift_card_recipient": true,
-            "product_list": [
-
-            ],
+            "product_list": [],
             "show_product_current": true,
             "qty_val": "0",
             "advance_label": "BAREVNÉ VARIANTY",
@@ -232,9 +229,7 @@
         "tabs_layout_fix": "full",
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
-        "product_list": [
-
-        ],
+        "product_list": [],
         "sticky_mode": "2",
         "sticky_show": "2",
         "sticky_layout_mb": "minimal",
@@ -363,9 +358,7 @@
         "link_GTGza9",
         "link_arTmBH"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title_cl": "#ffffff",
         "title_cl_hover": "#a1b66f",
@@ -578,10 +571,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_TwqCWf",
-        "bl_text_bVjcP6"
-      ],
+      "block_order": ["bl_image_TwqCWf", "bl_text_bVjcP6"],
       "settings": {
         "section_key": "product_series",
         "design_heading": "1",
@@ -666,10 +656,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_x98jEc",
-        "bl_image_gMY3G6"
-      ],
+      "block_order": ["bl_text_x98jEc", "bl_image_gMY3G6"],
       "disabled": true,
       "settings": {
         "section_key": "product_material",
@@ -755,10 +742,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_ppQdWQ",
-        "bl_text_GhjXQh"
-      ],
+      "block_order": ["bl_image_ppQdWQ", "bl_text_GhjXQh"],
       "disabled": true,
       "settings": {
         "section_key": "product_lining",
@@ -844,10 +828,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_PzHhaJ",
-        "bl_image_NAjYQJ"
-      ],
+      "block_order": ["bl_text_PzHhaJ", "bl_image_NAjYQJ"],
       "disabled": true,
       "settings": {
         "section_key": "product_sole",
@@ -933,10 +914,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_NpCEU6",
-        "bl_text_DF3h7R"
-      ],
+      "block_order": ["bl_image_NpCEU6", "bl_text_DF3h7R"],
       "disabled": true,
       "settings": {
         "section_key": "product_maintenance",
@@ -1024,10 +1002,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_mgLMcz",
-        "bl_image_E8LaHR"
-      ],
+      "block_order": ["bl_text_mgLMcz", "bl_image_E8LaHR"],
       "disabled": true,
       "settings": {
         "design_heading": "1",
@@ -1182,10 +1157,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_TDpq6K",
-        "bl_text_TT8LGq"
-      ],
+      "block_order": ["bl_text_TDpq6K", "bl_text_TT8LGq"],
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -1282,15 +1254,11 @@
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         }
       },
-      "block_order": [
-        "judge_me_reviews_review_widget_KJH6KD"
-      ],
-      "settings": {
-      }
+      "block_order": ["judge_me_reviews_review_widget_KJH6KD"],
+      "settings": {}
     },
     "testimonials_RcfzUR": {
       "type": "testimonials",
@@ -1442,10 +1410,7 @@
           }
         }
       },
-      "block_order": [
-        "quote_gPWkUg",
-        "quote_qHUxHE"
-      ],
+      "block_order": ["quote_gPWkUg", "quote_qHUxHE"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1499,9 +1464,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "custom_css": [
-        ".t4s-product-sizes {color: black;}"
-      ],
+      "custom_css": [".t4s-product-sizes {color: black;}"],
       "settings": {
         "show": true,
         "design_heading": "1",

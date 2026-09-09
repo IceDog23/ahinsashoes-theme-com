@@ -561,10 +561,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_TwqCWf",
-        "bl_text_bVjcP6"
-      ],
+      "block_order": ["bl_image_TwqCWf", "bl_text_bVjcP6"],
       "settings": {
         "section_key": "product_series",
         "design_heading": "1",
@@ -649,10 +646,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_x98jEc",
-        "bl_image_gMY3G6"
-      ],
+      "block_order": ["bl_text_x98jEc", "bl_image_gMY3G6"],
       "settings": {
         "section_key": "product_material",
         "design_heading": "1",
@@ -737,10 +731,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_ppQdWQ",
-        "bl_text_GhjXQh"
-      ],
+      "block_order": ["bl_image_ppQdWQ", "bl_text_GhjXQh"],
       "settings": {
         "section_key": "product_lining",
         "design_heading": "1",
@@ -825,10 +816,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_rLwDBJ",
-        "bl_image_t8Uzr4"
-      ],
+      "block_order": ["bl_text_rLwDBJ", "bl_image_t8Uzr4"],
       "settings": {
         "section_key": "product_special",
         "design_heading": "1",
@@ -913,10 +901,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_NAjYQJ",
-        "bl_text_PzHhaJ"
-      ],
+      "block_order": ["bl_image_NAjYQJ", "bl_text_PzHhaJ"],
       "settings": {
         "section_key": "product_sole",
         "design_heading": "1",
@@ -1003,10 +988,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_NpCEU6",
-        "bl_text_DF3h7R"
-      ],
+      "block_order": ["bl_image_NpCEU6", "bl_text_DF3h7R"],
       "disabled": true,
       "settings": {
         "section_key": "product_maintenance",
@@ -1094,10 +1076,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_mgLMcz",
-        "bl_image_E8LaHR"
-      ],
+      "block_order": ["bl_text_mgLMcz", "bl_image_E8LaHR"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1251,10 +1230,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_TDpq6K",
-        "bl_text_TT8LGq"
-      ],
+      "block_order": ["bl_text_TDpq6K", "bl_text_TT8LGq"],
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -1357,9 +1333,7 @@
           }
         }
       },
-      "block_order": [
-        "judge_me_reviews_review_widget_KJH6KD"
-      ],
+      "block_order": ["judge_me_reviews_review_widget_KJH6KD"],
       "settings": {}
     },
     "testimonials_7g94XF": {
@@ -1388,10 +1362,7 @@
           }
         }
       },
-      "block_order": [
-        "quote_pJ3UdY",
-        "quote_DwgiG7"
-      ],
+      "block_order": ["quote_pJ3UdY", "quote_DwgiG7"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1445,9 +1416,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "custom_css": [
-        ".t4s-product-sizes {color: black;}"
-      ],
+      "custom_css": [".t4s-product-sizes {color: black;}"],
       "settings": {
         "show": true,
         "design_heading": "1",

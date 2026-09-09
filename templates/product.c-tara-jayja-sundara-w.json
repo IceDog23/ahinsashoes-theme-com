@@ -568,10 +568,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_eHDK7i",
-        "bl_text_D4tFXF"
-      ],
+      "block_order": ["bl_image_eHDK7i", "bl_text_D4tFXF"],
       "settings": {
         "section_key": "product_material",
         "design_heading": "1",
@@ -656,10 +653,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_x98jEc",
-        "bl_image_gMY3G6"
-      ],
+      "block_order": ["bl_text_x98jEc", "bl_image_gMY3G6"],
       "settings": {
         "section_key": "product_material",
         "design_heading": "1",
@@ -744,10 +738,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_ppQdWQ",
-        "bl_text_GhjXQh"
-      ],
+      "block_order": ["bl_image_ppQdWQ", "bl_text_GhjXQh"],
       "settings": {
         "section_key": "product_material",
         "design_heading": "1",
@@ -834,10 +825,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_mgLMcz",
-        "bl_image_E8LaHR"
-      ],
+      "block_order": ["bl_text_mgLMcz", "bl_image_E8LaHR"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -991,10 +979,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_TDpq6K",
-        "bl_text_TT8LGq"
-      ],
+      "block_order": ["bl_text_TDpq6K", "bl_text_TT8LGq"],
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -1095,9 +1080,7 @@
           }
         }
       },
-      "block_order": [
-        "judge_me_reviews_review_widget_KJH6KD"
-      ],
+      "block_order": ["judge_me_reviews_review_widget_KJH6KD"],
       "settings": {}
     },
     "testimonials_nY999a": {
@@ -1126,10 +1109,7 @@
           }
         }
       },
-      "block_order": [
-        "quote_4NgXAm",
-        "quote_DFr3Qh"
-      ],
+      "block_order": ["quote_4NgXAm", "quote_DFr3Qh"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1183,9 +1163,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "custom_css": [
-        ".t4s-product-sizes {color: black;}"
-      ],
+      "custom_css": [".t4s-product-sizes {color: black;}"],
       "settings": {
         "show": true,
         "design_heading": "1",
