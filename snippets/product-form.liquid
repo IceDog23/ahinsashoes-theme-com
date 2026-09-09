@@ -665,7 +665,7 @@
                 <span
                   class="twisto-popup-open"
                 >
-                  <a href="#" onclick="openpopup()">Zaplatit až po vyzkoušení</a>
+                  <a href="#" onclick="openpopup()">{{ 'products.product.pay_after_trying' | t }}</a>
                 </span>
                 {% endunless %}
               {% endunless %}
@@ -712,7 +712,7 @@
   </div>
 </div>
 <div class="back-in-stock" style="margin: 10px 0;">
-  <button id="BIS_trigger" type="button" style="display: none;">Upozorněte mě</button>
+  <button id="BIS_trigger" type="button" style="display: none;">{{ 'products.product.notify_me' | t }}</button>
 </div>
 {%- if PR_buy_pr and current_variant_available != true and type != 'main_sticky' -%}
   <style>

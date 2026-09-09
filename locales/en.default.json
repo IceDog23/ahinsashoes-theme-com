@@ -255,7 +255,9 @@
       "available_date": "Available in ", 
       "alt": "Product photo of barefoot shoes from Ahinsa",
       "pre_order_alt": "Product stock",
-      "delay_payment_alt": "Twisto"
+      "delay_payment_alt": "Twisto",
+      "pay_after_trying": "Pay after trying them on",
+      "notify_me": "Notify me"
     },
     "product_card": {
       "read_more": "Read more",
@@ -286,7 +288,7 @@
         "lbl_sale": "Sale",
         "lbl_preorder": "Preorder",
         "lbl_comming_soon": "Coming soon",
-        "lbl_limited": "Limtovaná edice",
+        "lbl_limited": "Limited edition",
         "lbl_custom_1": "Editable 1",
         "lbl_custom_2": "Editable 2"
       }
@@ -462,8 +464,8 @@
       "subtotal": "Subtotal:",
       "checkout": "Check Out",
       "update": "Update Cart",
-      "split_order_label": "Rozdělte mi objednávku do více balíčků",
-      "split_order_text": "Některé z bot, které jste si vybrali, nemáme skladem. Běžně čekáme, až budeme mít všechny položky z objednávky, a posíláme jen 1 balíček. Jestli se ale nemůžete dočkat, balíček vám rozdělíme."      
+      "split_order_label": "Split my order into more than one package",
+      "split_order_text": "Some of the shoes you chose are out of stock. We usually wait until we have every item in the order and send just 1 package. If you can’t wait, we’ll split the shipment for you."      
     }
   },
   "templates": {

@@ -256,7 +256,9 @@
       "in_store": "\"<span>dostupné i na <a href=\"https://ahinsashoes.cz/pages/prodejna\">prodejně.<\\/a></span>\"",
       "alt": "Ilustrační foto barefoot bot od Ahinsa",
       "pre_order_alt": "Skladovost",
-      "delay_payment_alt": "Twisto"
+      "delay_payment_alt": "Twisto",
+      "pay_after_trying": "Zaplatit až po vyzkoušení",
+      "notify_me": "Upozorněte mě"
     },
     "product_card": {
       "read_more": "Přečtěte si více",
