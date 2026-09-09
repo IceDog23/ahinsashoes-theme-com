@@ -47,7 +47,7 @@
             "text": "",
             "length": 18,
             "readm": false,
-            "readm_txt": "Více informací"
+            "readm_txt": "Read more"
           }
         },
         "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4": {
@@ -91,7 +91,7 @@
             "product_list": [],
             "show_product_current": true,
             "qty_val": "0",
-            "advance_label": "BAREVNÉ VARIANTY",
+            "advance_label": "Color variants",
             "fnt_df_pr_adv_lbl": "2",
             "advance_pr_mgb": 50,
             "advance_pr_list": "{{ product.metafields.variants.product_variants.value }}"
@@ -100,7 +100,7 @@
         "back_in_stock_customer_alerts_app_block_ycP8iz": {
           "type": "shopify://apps/amp-back-in-stock/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "settings": {
-            "caption": "Upozorněte mě",
+            "caption": "Notify me",
             "font_size": 16,
             "color": "#ffffff",
             "background_color": "#a1b66f",
@@ -131,7 +131,7 @@
             "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Doprava po ČR na Zásilkovnu <strong>zdarma</strong>.</p>",
+            "text": "<p>Free shipping within the Czech Republic to <strong>Zásilkovna</strong>.</p>",
             "m_bot": 10
           }
         },
@@ -141,7 +141,7 @@
             "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Výměna</strong> velikosti <strong>zdarma</strong>.</p>",
+            "text": "<p><strong>Free</strong> size exchange.</p>",
             "m_bot": 10
           }
         },
@@ -151,7 +151,7 @@
             "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Navrženo <strong>fyzioterapeuty</strong>.</p>",
+            "text": "<p>Designed <strong>by physiotherapists</strong>.</p>",
             "m_bot": 10
           }
         },
@@ -171,7 +171,7 @@
             "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Eticky</strong> vyrobené v ČR a Chorvatsku.</p>",
+            "text": "<p><strong>Ethically</strong> made in the Czech Republic and Croatia.</p>",
             "m_bot": 10
           }
         }
@@ -244,9 +244,9 @@
         "price_color": "#923a3a",
         "price_sale_color": "#afafaf",
         "logo": "shopify://shop_images/Twisto-logo.png",
-        "popup_header": "Dobré boty vám musí sedět.",
-        "popup_content": "<h2>Proto Ahinsa shoes můžete zaplatit až po vyzkoušení.</h2><p>Platbu si u nás <strong>odložíte až o 30 dní</strong>. Nebo si ji rozložíte na třetiny. </p><h3>Jak to funguje?</h3><ol><li>Vyberte si ty pravé Ahinsa shoes.</li><li>V košíku zvolte platbu kartou. </li><li>Klikněte na <strong>Odložená platba</strong> nebo <strong>Platba na třetiny</strong>.</li><li>Doma si boty v klidu vyzkoušejte. </li></ol><p>Na e-mail vám přijdou údaje k platbě. <strong>Na zaplacení máte až 30 dní.</strong></p><p>Boty nesedí? <a href=\"https://ahinsashoes.cz/pages/refund-portal\" target=\"_blank\" title=\"Refund Portal\">Pošlete nám je do 14 dní zpět</a> – na naše náklady vám je vyměníme za jinou velikost.</p>",
-        "popup_button": "Chápu, díky!"
+        "popup_header": "Good shoes have to fit.",
+        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.</h2><p>Defer payment by up to <strong>30 days</strong>. Or split it into thirds.</p><h3>How it works?</h3><ol><li>Pick your pair of Ahinsa shoes.</li><li>Choose card payment in the cart.</li><li>Click <strong>Deferred payment</strong> or <strong>Pay in thirds</strong>.</li><li>Try the shoes on at home.</li></ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.</strong></p><p>Don't fit? <a href=\"https://ahinsashoes.cz/pages/refund-portal\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days</a> — we'll exchange the size at our cost.</p>",
+        "popup_button": "Got it, thanks!"
       }
     },
     "sidebar": {
@@ -324,28 +324,28 @@
         "link_bWGtDd": {
           "type": "link",
           "settings": {
-            "tab_title": "Popis",
+            "tab_title": "Description",
             "hook": "shopify-section-template--23026112233803__image_text_metafields_pCPVJy"
           }
         },
         "link_t7BFNM": {
           "type": "link",
           "settings": {
-            "tab_title": "Parametry",
+            "tab_title": "Parameters",
             "hook": "shopify-section-template--23026112233803__iconbox_metaobjects_jKtEwF"
           }
         },
         "link_GTGza9": {
           "type": "link",
           "settings": {
-            "tab_title": "Recenze",
+            "tab_title": "Reviews",
             "hook": "shopify-section-template--23026112233803__17190050663df79af6"
           }
         },
         "link_arTmBH": {
           "type": "link",
           "settings": {
-            "tab_title": "Podobné zboží",
+            "tab_title": "Similar products",
             "hook": "shopify-section-template--23026112233803__product-recommendations"
           }
         }
@@ -391,7 +391,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Nulový drop"
+            "des": "Zero drop"
           }
         },
         "item_XBBYxH": {
@@ -408,7 +408,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Prostorná špička"
+            "des": "Spacious toe box"
           }
         },
         "item_AN4yb3": {
@@ -425,7 +425,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Váží jen XXX g"
+            "des": "Weighs only XXX g"
           }
         },
         "item_HM6yhm": {
@@ -442,7 +442,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Kopírují váš pohyb"
+            "des": "Mimic your movement"
           }
         }
       },
@@ -455,9 +455,9 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Comfort tenisky",
+        "top_heading": "Comfort sneakers",
         "icon_heading": "",
-        "top_subheading": "Comfort tenisky\nod fyzioterapeutů",
+        "top_subheading": "Comfort sneakers\nby physiotherapists",
         "tophead_mb": 30,
         "source": "get_image",
         "b_radius": 50,
@@ -550,9 +550,9 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Pohodlí of fyoterapeutů vám sluší",
-            "heading": "ŘADA COMFORT",
-            "text": "<ul><li>Dostatek prostoru pro prsty</li><li>Ultralehká, pružná a ohebná bota</li><li>Změkčí dopady na patu</li><li>Odpruží váš krok</li></ul><p>Spodní text</p>",
+            "sub_heading": "Comfort that looks good on you, designed by physiotherapists",
+            "heading": "COMFORT LINE",
+            "text": "<ul><li>Plenty of room for the toes</li><li>Ultra-light, springy, flexible shoe</li><li>Softens heel impact</li><li>Cushions your step</li></ul><p>Bottom text</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -606,9 +606,9 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Silné, pevné a ekologické",
-            "heading": "KONOPÍ",
-            "text": "<ul><li>Pevné a odolné</li><li>Vypěstované a zpracované v EU</li><li>Ekologické</li><li>Vysoká gramáž 800 g/m2</li></ul>",
+            "sub_heading": "Strong, tough, and ecological",
+            "heading": "HEMP",
+            "text": "<ul><li>Sturdy and durable</li><li>Grown and processed in the EU</li><li>Ecological</li><li>Heavy fabric weight 800 g/m2</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -720,9 +720,9 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Extra ohebná podrážka, která vydrží roky",
-            "heading": "PODRÁŽKA LIFO+",
-            "text": "<ul><li>Tenká a lehká podrážka</li><li>Spolehlivá i na mokrém povrchu</li><li>Maximálně ohebná</li><li>Odolná podrážka se hnedtak neprošlape</li></ul>",
+            "sub_heading": "Extra flexible sole that lasts for years",
+            "heading": "LIFO+ OUTSOLE",
+            "text": "<ul><li>Thin and lightweight sole</li><li>Reliable even on wet surfaces</li><li>Maximum flexibility</li><li>Durable sole that won’t wear through easily</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -780,7 +780,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Lidská noha potřebuje prostor, aby mohla fungovat zdravě. Na to myslíme při návrhu Ahinsa shoes.</p><p><br/>fyzioterapeut a zakladatel Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p>",
+            "text": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.</p><p><br/>physiotherapist and founder of Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -860,7 +860,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "content_quote": "<p>Lidská noha potřebuje prostor, aby mohla fungovat zdravě. Na to myslíme při návrhu Ahinsa shoes.</p><p><br/>fyzioterapeut a zakladatel Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p><p></p><p></p>",
+        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.</p><p><br/>physiotherapist and founder of Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p><p></p><p></p>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f1f1f1",
         "cl_bg_gradient": "",
@@ -938,8 +938,8 @@
             "text_size": "40,15",
             "txt_align": "center",
             "sub_heading": "",
-            "heading": "Jako chůze bosky",
-            "text": "<p>V Ahinsa shoes kráčíte stejně přirozeně jako bosky.</p>",
+            "heading": "As healthy as walking barefoot",
+            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.</p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -963,7 +963,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Udělejte něco pro své zdraví ještě dnes.</p>",
+            "text": "<p>Do something for your health, today.</p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -1012,7 +1012,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Technické parametry",
+        "top_heading": "Technical parameters",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -1091,9 +1091,9 @@
           "settings": {
             "image_avata": "shopify://shop_images/ludmila-ditetova2.jpg",
             "heading": "",
-            "content": "<p>Boty Ahinsa dovolují vaší noze přirozený pohyb díky dostatečnému prostoru pro prstce. Tenká a flexibilní podrážka zase umožní optimální vnímání podložky chodidlem a tím kvalitní nastavení celého těla. Navíc etická a ekologická produkce made in ČR. Ideální volba pro ty, kteří chtějí od své obuvi víc a chtějí zažít pocit z opravdové chůze.<br/></p>",
+            "content": "<p>Ahinsa shoes allow the foot natural movement because they provide plenty of space for the toes. The thin and flexible outsole lets the foot perceive the ground. We must mention the ethical and ecological production in the Czech Republic. An ideal choice for anyone who wants more from their shoes and wants to enjoy a real walk.<br/></p>",
             "title": "Mgr. Ludmila Dítětová",
-            "pos": "fyzioterapeutka",
+            "pos": "physiotherapist",
             "rating": 5
           }
         },
@@ -1102,9 +1102,9 @@
           "settings": {
             "image_avata": "shopify://shop_images/hana-borecka.jpg",
             "heading": "",
-            "content": "<p>Ahinsa shoes je pro mě krásná, originální česká barefoot obuv, která vyniká pečlivým řemeslným zpracováním a použitím kvalitních materiálů, ať už přírodních či formou recyklovaných. Přední části chodidla poskytují velkorysý prostor, který je nezbytný pro správné nastavení prstů a od kterého se zároveň odvíjí i postavení celého těla.<br/></p>",
+            "content": "<p>Ahinsa shoes are beautiful, original Czech barefoot shoes, with careful craftsmanship and high-quality materials — natural or recycled. They provide generous space in the front of the foot, which is necessary for correct toe posture and influences the posture of the whole body.<br/></p>",
             "title": "MUDr. Hana Bořecká",
-            "pos": "lékařka",
+            "pos": "doctor",
             "rating": 5
           }
         }
@@ -1113,7 +1113,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Co říkají lékaři a fyzioterapeutové",
+        "top_heading": "Physiotherapists about Ahinsa shoes",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -1168,7 +1168,7 @@
         "show": true,
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Podobné boty",
+        "top_heading": "You might also like",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,

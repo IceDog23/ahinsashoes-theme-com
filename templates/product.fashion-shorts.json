@@ -38,7 +38,7 @@
             "text": "",
             "length": 18,
             "readm": false,
-            "readm_txt": "Více informací"
+            "readm_txt": "Read more"
           }
         },
         "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4": {
@@ -82,7 +82,7 @@
             "product_list": [],
             "show_product_current": true,
             "qty_val": "0",
-            "advance_label": "BAREVNÉ VARIANTY",
+            "advance_label": "Color variants",
             "fnt_df_pr_adv_lbl": "2",
             "advance_pr_mgb": 50,
             "advance_pr_list": "{{ product.metafields.variants.product_variants.value }}"
@@ -95,7 +95,7 @@
             "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Doprava do ČR a SR <strong>zdarma<\/strong>.<\/p>",
+            "text": "<p>Free shipping to the Czech Republic and Slovakia.<\/p>",
             "m_bot": 10
           }
         },
@@ -105,7 +105,7 @@
             "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Výměna velikosti zdarma (poštovné platíme my).<\/p>",
+            "text": "<p>Free size exchange (we cover postage).<\/p>",
             "m_bot": 10
           }
         },
@@ -115,7 +115,7 @@
             "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Navrženo <strong>fyzioterapeuty<\/strong>.<\/p>",
+            "text": "<p>Designed <strong>by physiotherapists<\/strong>.<\/p>",
             "m_bot": 10
           }
         },
@@ -135,7 +135,7 @@
             "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Materiál s přísnou <strong>eko certifikací.<\/strong><\/p>",
+            "text": "<p>A material with strict <strong>eco certification.<\/strong><\/p>",
             "m_bot": 10
           }
         }
@@ -206,9 +206,9 @@
         "price_color": "#923a3a",
         "price_sale_color": "#afafaf",
         "logo": "shopify:\/\/shop_images\/Twisto-logo.png",
-        "popup_header": "Dobré boty vám musí sedět.",
-        "popup_content": "<h2>Proto Ahinsa shoes můžete zaplatit až po vyzkoušení.<\/h2><p>Platbu si u nás <strong>odložíte až o 30 dní<\/strong>. Nebo si ji rozložíte na třetiny. <\/p><h3>Jak to funguje?<\/h3><ol><li>Vyberte si ty pravé Ahinsa shoes.<\/li><li>V košíku zvolte platbu kartou. <\/li><li>Klikněte na <strong>Odložená platba<\/strong> nebo <strong>Platba na třetiny<\/strong>.<\/li><li>Doma si boty v klidu vyzkoušejte. <\/li><\/ol><p>Na e-mail vám přijdou údaje k platbě. <strong>Na zaplacení máte až 30 dní.<\/strong><\/p><p>Boty nesedí? <a href=\"https:\/\/ahinsashoes.cz\/pages\/refund-portal\" target=\"_blank\" title=\"Refund Portal\">Pošlete nám je do 14 dní zpět<\/a> – na naše náklady vám je vyměníme za jinou velikost.<\/p>",
-        "popup_button": "Chápu, díky!",
+        "popup_header": "Good shoes have to fit.",
+        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.<\/h2><p>Defer payment by up to <strong>30 days<\/strong>. Or split it into thirds.<\/p><h3>How it works?<\/h3><ol><li>Pick your pair of Ahinsa shoes.<\/li><li>Choose card payment in the cart.<\/li><li>Click <strong>Deferred payment<\/strong> or <strong>Pay in thirds<\/strong>.<\/li><li>Try the shoes on at home.<\/li><\/ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.<\/strong><\/p><p>Don't fit? <a href=\"https:\/\/ahinsashoes.cz\/pages\/refund-portal\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days<\/a> — we'll exchange the size at our cost.<\/p>",
+        "popup_button": "Got it, thanks!",
         "enable_code_discount": true,
         "code_discount": "JARNIPOHODLI",
         "discount_percent": 20,
@@ -290,7 +290,7 @@
         "link_bWGtDd": {
           "type": "link",
           "settings": {
-            "tab_title": "Popis",
+            "tab_title": "Description",
             "hook": "shopify-section-template--23202879766859__image_text_metafields_HqVnCh"
           }
         },
@@ -298,22 +298,22 @@
           "type": "link",
           "disabled": true,
           "settings": {
-            "tab_title": "Parametry",
-            "hook": "Parametry"
+            "tab_title": "Parameters",
+            "hook": "Parameters"
           }
         },
         "link_GTGza9": {
           "type": "link",
           "disabled": true,
           "settings": {
-            "tab_title": "Recenze",
-            "hook": "Recenze"
+            "tab_title": "Reviews",
+            "hook": "Reviews"
           }
         },
         "link_arTmBH": {
           "type": "link",
           "settings": {
-            "tab_title": "Podobné zboží",
+            "tab_title": "Similar products",
             "hook": "shopify-section-template--23202879766859__product-recommendations"
           }
         }
@@ -376,7 +376,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Pro volný pohyb"
+            "des": "For free movement"
           }
         },
         "item_AN4yb3": {
@@ -427,7 +427,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Prostorná špička"
+            "des": "Spacious toe box"
           }
         }
       },
@@ -440,9 +440,9 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Trenýrky Ahinsa fashion",
+        "top_heading": "Ahinsa fashion boxers",
         "icon_heading": "",
-        "top_subheading": "od fyzioterapeutů",
+        "top_subheading": "by physiotherapists",
         "tophead_mb": 30,
         "source": "get_image",
         "b_radius": 50,
@@ -535,9 +535,9 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Nejlepší spodní prádlo? Podle lékařů je volné a prodyšné. Předchází infekcím – tak si ho dopřejte minimálně na spaní.",
-            "heading": "Svobodný pohyb ve dne v noci",
-            "text": "<ul><li><strong>Volný střih <\/strong>pro svobodný pohyb v kyčlích.<\/li><li>Umožňuje <strong>přirozenou cirkulaci krve<\/strong>.<\/li><li>Mezi látkou a pokožkou <strong>proudí vzduch<\/strong>.<\/li><li>Vhodné na spaní, na cvičení i na každodenní pohodu.<\/li><\/ul>",
+            "sub_heading": "The best underwear? According to doctors, it’s loose and breathable. It helps prevent infections — treat yourself to it at least for sleep.",
+            "heading": "Free movement day and night",
+            "text": "<ul><li><strong>A loose cut <\/strong>for free movement in the hips.<\/li><li>Allows <strong>natural blood circulation<\/strong>.<\/li><li><strong>Air flows<\/strong> between the fabric and the skin.<\/li><li>Suitable for sleep, exercise, and everyday ease.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -591,9 +591,9 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Víte, že guma klasických kalhotek tlačí na břicho a ovlivňuje zažívání? Proto jsme dlouho testovali citlivou, ale spolehlivou gumu.",
-            "heading": "Guma drží, ale netlačí",
-            "text": "<ul><li><strong>Guma drží<\/strong>, ale netlačí břicho.<\/li><li><strong>Zažívání a krevní oběh<\/strong> fungují přirozeně.<\/li><\/ul>",
+            "sub_heading": "Did you know the elastic on ordinary briefs presses on the belly and affects digestion? That’s why we spent a long time testing a sensitive but reliable waistband.",
+            "heading": "The waistband holds, but doesn’t squeeze",
+            "text": "<ul><li><strong>The waistband holds<\/strong>, but doesn’t press on the belly.<\/li><li><strong>Digestion and blood circulation<\/strong> work naturally.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -705,9 +705,9 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Trenýrky šijeme z bavlny, která splňuje velmi přísnou certifikaci. Ta sleduje výrobu od pěstování po export.",
-            "heading": "Bio bavlna: Férová a udržitelná",
-            "text": "<ul><li><strong>Férové podmínky<\/strong> v celém výrobním procesu.<\/li><li><strong>Přírodní bio bavlna<\/strong> bez chemie.<\/li><li><strong>Nebarvená<\/strong>, a proto něžná k pokožce.<\/li><\/ul>",
+            "sub_heading": "We sew the boxers from cotton that meets a very strict certification. It tracks production from growing to export.",
+            "heading": "Organic cotton: fair and sustainable",
+            "text": "<ul><li><strong>Fair conditions<\/strong> throughout the production process.<\/li><li><strong>Natural organic cotton<\/strong> without chemicals.<\/li><li><strong>Undyed<\/strong>, and therefore gentle on the skin.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -762,9 +762,9 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Dámy, vy víte, jaký zázrak je hluboká kapsa. Tak jsme vám je našily rovnou dvě. Se zipem.",
-            "heading": "…a mají pořádné kapsy!",
-            "text": "<ul><li><strong>Hluboké kapsy<\/strong>, do kterých se vejde i telefon.<\/li><li><strong>Zapínání na zip <\/strong>– např. na klíče, když jdete běhat.<\/li><li>Pro muže i ženy férově <strong>stejně hluboké<\/strong>.<\/li><\/ul>",
+            "sub_heading": "Ladies, you know what a miracle a deep pocket is. So we sewed you two of them. With a zip.",
+            "heading": "…and they have proper pockets!",
+            "text": "<ul><li><strong>Deep pockets<\/strong> that even fit a phone.<\/li><li><strong>Zip closure <\/strong>— e.g. for keys when you go running.<\/li><li>Fairly <strong>just as deep<\/strong> for men and women.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -853,7 +853,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Upnuté spodní prádlo podle studií ovlivňuje plodnost a také intenzitu intimních prožitků. Proto jsme ušili trenýrky, které dovolí tělu se uvolnit a fungovat přirozeně.<\/p><p><br\/>fyzioterapeut a zakladatel Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p>",
+            "text": "<p>Tight underwear affects fertility and the intensity of intimate sensation, studies suggest. That’s why we sewed boxers that let the body relax and function naturally.<\/p><p><br\/>physiotherapist and founder of Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -933,7 +933,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "content_quote": "<p>Lidská noha potřebuje prostor, aby mohla fungovat zdravě. Na to myslíme při návrhu Ahinsa shoes.<\/p><p><br\/>fyzioterapeut a zakladatel Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p><p><\/p><p><\/p>",
+        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.<\/p><p><br\/>physiotherapist and founder of Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p><p><\/p><p><\/p>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f1f1f1",
         "cl_bg_gradient": "",
@@ -1011,8 +1011,8 @@
             "text_size": "40,15",
             "txt_align": "center",
             "sub_heading": "",
-            "heading": "Jako chůze bosky",
-            "text": "<p>V Ahinsa shoes kráčíte stejně přirozeně jako bosky.<\/p>",
+            "heading": "As healthy as walking barefoot",
+            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.<\/p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -1036,7 +1036,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Udělejte něco pro své zdraví ještě dnes.<\/p>",
+            "text": "<p>Do something for your health, today.<\/p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -1085,7 +1085,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Technické parametry",
+        "top_heading": "Technical parameters",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -1167,9 +1167,9 @@
           "settings": {
             "image_avata": "shopify:\/\/shop_images\/ludmila-ditetova2.jpg",
             "heading": "",
-            "content": "<p>Boty Ahinsa dovolují vaší noze přirozený pohyb díky dostatečnému prostoru pro prstce. Tenká a flexibilní podrážka zase umožní optimální vnímání podložky chodidlem a tím kvalitní nastavení celého těla. Navíc etická a ekologická produkce made in ČR. Ideální volba pro ty, kteří chtějí od své obuvi víc a chtějí zažít pocit z opravdové chůze.<br\/><\/p>",
+            "content": "<p>Ahinsa shoes allow the foot natural movement because they provide plenty of space for the toes. The thin and flexible outsole lets the foot perceive the ground. We must mention the ethical and ecological production in the Czech Republic. An ideal choice for anyone who wants more from their shoes and wants to enjoy a real walk.<br\/><\/p>",
             "title": "Mgr. Ludmila Dítětová",
-            "pos": "fyzioterapeutka",
+            "pos": "physiotherapist",
             "rating": 5
           }
         },
@@ -1178,9 +1178,9 @@
           "settings": {
             "image_avata": "shopify:\/\/shop_images\/hana-borecka.jpg",
             "heading": "",
-            "content": "<p>Ahinsa shoes je pro mě krásná, originální česká barefoot obuv, která vyniká pečlivým řemeslným zpracováním a použitím kvalitních materiálů, ať už přírodních či formou recyklovaných. Přední části chodidla poskytují velkorysý prostor, který je nezbytný pro správné nastavení prstů a od kterého se zároveň odvíjí i postavení celého těla.<br\/><\/p>",
+            "content": "<p>Ahinsa shoes are beautiful, original Czech barefoot shoes, with careful craftsmanship and high-quality materials — natural or recycled. They provide generous space in the front of the foot, which is necessary for correct toe posture and influences the posture of the whole body.<br\/><\/p>",
             "title": "MUDr. Hana BořeckáMUDr. Hana Bořecká",
-            "pos": "lékařkalékařka",
+            "pos": "doctor",
             "rating": 5
           }
         }
@@ -1189,7 +1189,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Co říkají lékaři a fyzioterapeutové",
+        "top_heading": "Physiotherapists about Ahinsa shoes",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -1244,7 +1244,7 @@
         "show": true,
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Podobné zboží",
+        "top_heading": "Similar products",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,

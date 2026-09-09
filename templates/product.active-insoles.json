@@ -47,7 +47,7 @@
             "text": "",
             "length": 18,
             "readm": false,
-            "readm_txt": "Více informací"
+            "readm_txt": "Read more"
           }
         },
         "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4": {
@@ -91,7 +91,7 @@
             "product_list": [],
             "show_product_current": true,
             "qty_val": "0",
-            "advance_label": "BAREVNÉ VARIANTY",
+            "advance_label": "Color variants",
             "fnt_df_pr_adv_lbl": "2",
             "advance_pr_mgb": 50,
             "advance_pr_list": "{{ product.metafields.variants.product_variants.value }}"
@@ -103,7 +103,7 @@
             "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Doprava po ČR na Zásilkovnu <strong>zdarma</strong>.</p>",
+            "text": "<p>Free shipping within the Czech Republic to <strong>Zásilkovna</strong>.</p>",
             "m_bot": 10
           }
         },
@@ -113,7 +113,7 @@
             "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Výměna</strong> velikosti <strong>zdarma</strong>.</p>",
+            "text": "<p><strong>Free</strong> size exchange.</p>",
             "m_bot": 10
           }
         },
@@ -123,7 +123,7 @@
             "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Navrženo <strong>fyzioterapeuty</strong>.</p>",
+            "text": "<p>Designed <strong>by physiotherapists</strong>.</p>",
             "m_bot": 10
           }
         },
@@ -143,7 +143,7 @@
             "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Eticky</strong> vyrobené v ČR a Chorvatsku.</p>",
+            "text": "<p><strong>Ethically</strong> made in the Czech Republic and Croatia.</p>",
             "m_bot": 10
           }
         }
@@ -214,9 +214,9 @@
         "price_color": "#923a3a",
         "price_sale_color": "#afafaf",
         "logo": "shopify://shop_images/Twisto-logo.png",
-        "popup_header": "Dobré boty vám musí sedět.",
-        "popup_content": "<h2>Proto Ahinsa shoes můžete zaplatit až po vyzkoušení.</h2><p>Platbu si u nás <strong>odložíte až o 30 dní</strong>. Nebo si ji rozložíte na třetiny. </p><h3>Jak to funguje?</h3><ol><li>Vyberte si ty pravé Ahinsa shoes.</li><li>V košíku zvolte platbu kartou. </li><li>Klikněte na <strong>Odložená platba</strong> nebo <strong>Platba na třetiny</strong>.</li><li>Doma si boty v klidu vyzkoušejte. </li></ol><p>Na e-mail vám přijdou údaje k platbě. <strong>Na zaplacení máte až 30 dní.</strong></p><p>Boty nesedí? <a href=\"https://ahinsashoes.cz/pages/refund-portal\" target=\"_blank\" title=\"Refund Portal\">Pošlete nám je do 14 dní zpět</a> – na naše náklady vám je vyměníme za jinou velikost.</p>",
-        "popup_button": "Chápu, díky!",
+        "popup_header": "Good shoes have to fit.",
+        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.</h2><p>Defer payment by up to <strong>30 days</strong>. Or split it into thirds.</p><h3>How it works?</h3><ol><li>Pick your pair of Ahinsa shoes.</li><li>Choose card payment in the cart.</li><li>Click <strong>Deferred payment</strong> or <strong>Pay in thirds</strong>.</li><li>Try the shoes on at home.</li></ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.</strong></p><p>Don't fit? <a href=\"https://ahinsashoes.cz/pages/refund-portal\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days</a> — we'll exchange the size at our cost.</p>",
+        "popup_button": "Got it, thanks!",
         "enable_code_discount": true,
         "code_discount": "JARNIPOHODLI",
         "discount_percent": 20,
@@ -298,7 +298,7 @@
         "link_bWGtDd": {
           "type": "link",
           "settings": {
-            "tab_title": "Popis",
+            "tab_title": "Description",
             "hook": "popis"
           }
         },
@@ -312,14 +312,14 @@
         "link_GTGza9": {
           "type": "link",
           "settings": {
-            "tab_title": "Recenze",
+            "tab_title": "Reviews",
             "hook": "shopify-section-template--23179698831691__17190050663df79af6"
           }
         },
         "link_arTmBH": {
           "type": "link",
           "settings": {
-            "tab_title": "Podobné zboží",
+            "tab_title": "Similar products",
             "hook": "shopify-section-template--23179698831691__product-recommendations"
           }
         }
@@ -382,7 +382,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Aktivní práce chodidla"
+            "des": "Active work for the foot"
           }
         },
         "item_AN4yb3": {
@@ -399,7 +399,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Navržené fyzioterapeuty"
+            "des": "Designed by physiotherapists"
           }
         },
         "item_jEK87X": {
@@ -416,7 +416,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Pro radost z chůze"
+            "des": "For the joy of walking"
           }
         },
         "item_HM6yhm": {
@@ -433,7 +433,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Lepší vnímání chodidel"
+            "des": "Better awareness of your feet"
           }
         }
       },
@@ -446,9 +446,9 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Aktivní stélky",
+        "top_heading": "Active insoles",
         "icon_heading": "",
-        "top_subheading": "od fyzioterapeutů",
+        "top_subheading": "by physiotherapists",
         "tophead_mb": 30,
         "source": "get_image",
         "b_radius": 50,
@@ -557,9 +557,9 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Probuďte svá chodidla",
-            "heading": "Aktivní stélky",
-            "text": "<p>Naše nohy do mozku přenášejí spoustu informací – neustále vnímají kontakt se zemí a pomáhá tak tělu reagovat na oporu, rovnováhu i pohyb.</p><ul><li>Jemně stimulují receptory na chodidle</li><li>Podporují aktivní zapojení nohy</li><li>Umožní lepší vnímání při chůzi, stání i sezení</li><li>Bez tvrdé korekce a pasivní fixace</li></ul>",
+            "sub_heading": "Wake up your feet",
+            "heading": "Active insoles",
+            "text": "<p>Our feet send a lot of information to the brain — they constantly sense contact with the ground and help the body respond to support, balance, and movement.</p><ul><li>Gently stimulate receptors on the sole</li><li>Support active engagement of the foot</li><li>Allow better awareness when walking, standing, and sitting</li><li>Without hard correction or passive fixing</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -614,8 +614,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Pro koho jsou aktivní stélky vhodné?",
-            "text": "<p>Ať už jste v pohybu celý den, nebo “jen” chcete svým nohám dopřát něco navíc, aktivní stélky vám pomohou vnímat každý krok o něco lépe.</p><ul><li>Zajímáte se o zdravou chůzi a přirozený pohyb</li><li>Chcete lépe vnímat svá chodidla</li><li>Hodně času trávíte chůzí nebo stáním</li><li>Nosíte barefoot nebo anatomickou obuv</li></ul>",
+            "heading": "Who are active insoles for?",
+            "text": "<p>Whether you’re on your feet all day, or you simply want to give your feet something extra, active insoles help you feel every step a little better.</p><ul><li>You’re interested in healthy walking and natural movement</li><li>You want to sense your feet more clearly</li><li>You spend a lot of time walking or standing</li><li>You wear barefoot or anatomical shoes</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -728,8 +728,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Jak aktivní stélky používat?",
-            "text": "<p>Dejte svým chodidlům čas zvyknout si na nový pocit. Díky postupné adaptaci si používání aktivních stélek užijete naplno.</p><ul><li>Začínejte pomalu – nejprve zkuste krátkou procházku </li><li>Dobu nošení postupně prodlužujte podle toho, jak se cítíte</li><li>Pokud je nošení příjemné, můžete je používat každý den</li><li>V případě potřeby lze stélky zastřihnout podle tvaru obuvi</li></ul><p>Stélky jsou navržené pro použití na bosou nohu. Intenzitu stimulace ale můžete snadno regulovat ponožkou – tenká ponožka ji jemně ztlumí, silnější ponožka ji ztlumí více.</p>",
+            "heading": "How to use active insoles?",
+            "text": "<p>Give your feet time to get used to the new feeling. With a gradual start, you’ll enjoy using active insoles fully.</p><ul><li>Start slowly — try a short walk first</li><li>Gradually extend wearing time based on how you feel</li><li>If it feels comfortable, you can use them every day</li><li>If needed, trim the insoles to the shape of your shoes</li></ul><p>The insoles are designed to be worn on a bare foot. You can easily adjust the intensity with a sock — a thin sock softens it slightly, a thicker sock softens it more.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -796,48 +796,48 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Můžou se stélky nosit s ponožkama?",
-            "content": "<p>Stélky jsou primárně navrženy pro použití na bosou nohu. <strong>Intenzitu ale můžete snadno regulovat ponožkou </strong>– tenká ponožka stimulaci jemně ztlumí, silnější ponožka ji ztlumí více.</p><p>Vnímání má být jasné, ale příjemné. Ne bolestivé.</p>"
+            "title": "Can I wear the insoles with socks?",
+            "content": "<p>The insoles are primarily designed to be worn on a bare foot. <strong>You can easily adjust the intensity with a sock </strong>— a thin sock softens the stimulation slightly, a thicker sock softens it more.</p><p>The sensation should be clear, but pleasant. Not painful.</p>"
           }
         },
         "accor_item_pNtHeV": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Pro koho aktivní stélky nejsou? Kdy si dát pozor?",
-            "content": "<p>Ve většině případů si aktivní stélky můžete užívat bez obav. Pokud ale řešíte zdravotní potíže, <strong>doporučujeme se před jejich používáním poradit s fyzioterapeutem nebo lékařem</strong>. Obzvlášť v těchto případech:</p><ul><li>máte výrazné nebo dlouhodobé bolesti chodidel</li><li>jste čerstvě po úrazu nebo po operaci</li><li>zažíváte neurologické obtíže nebo ztrátu citlivosti chodidel</li><li>jiné závažnější zdravotní potíže</li></ul>"
+            "title": "Who should not use active insoles? When to be careful?",
+            "content": "<p>In most cases you can use active insoles without worry. If you have health issues, <strong>we recommend talking to a physiotherapist or doctor before using them</strong>. Especially if:</p><ul><li>you have significant or long-term foot pain</li><li>you’re recovering from an injury or surgery</li><li>you have neurological issues or loss of feeling in the feet</li><li>other more serious health conditions</li></ul>"
           }
         },
         "accor_item_4FWKn3": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Jsou aktivní stélky zdravotnický prostředek?",
-            "content": "<p>Ne. Aktivní stélky nejsou zdravotnický prostředek a nejsou náhradou odborné diagnostiky, fyzioterapie ani lékařské péče. Jsou navržené tak, aby podpořily vnímání chodidel a jejich aktivnější zapojení při chůzi i stání.</p><p><strong>Před použitím doporučujeme konzultaci s lékařem nebo fyzioterapeutem zejména v případě:</strong></p><ul><li>cukrovky, především při snížené citlivosti chodidel nebo neuropatii,</li><li>poruch čití,</li><li>otevřených ran, otlaků nebo kožních potíží,</li><li>akutního úrazu nebo bolesti,</li><li>výrazných neurologických potíží,</li><li>závažných poruch rovnováhy nebo koordinace,</li><li>nejistoty, zda jsou stélky pro vás vhodné.</li></ul><p>Při bolesti, zhoršení obtíží nebo nepříjemné reakci používání přerušte a poraďte se s odborníkem.</p>"
+            "title": "Are active insoles a medical device?",
+            "content": "<p>No. Active insoles are not a medical device and are not a substitute for professional diagnosis, physiotherapy, or medical care. They are designed to support awareness of the feet and more active engagement when walking and standing.</p><p><strong>Before use, we recommend consulting a doctor or physiotherapist especially if you have:</strong></p><ul><li>diabetes, especially reduced feeling in the feet or neuropathy,</li><li>sensory disorders,</li><li>open wounds, sores, or skin problems,</li><li>an acute injury or pain,</li><li>significant neurological issues,</li><li>serious balance or coordination disorders,</li><li>uncertainty about whether the insoles are right for you.</li></ul><p>If you feel pain, worsening symptoms, or an unpleasant reaction, stop using them and talk to a specialist.</p>"
           }
         },
         "accor_item_UWBXGQ": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Do jaké obuvi jsou aktivní stélky vhodné?",
-            "content": "<p>Nejlépe fungují v barefoot a anatomicky tvarované obuvi, kde mají chodidla dostatek prostoru pro přirozený pohyb. Používat je ale můžete i v běžné obuvi, pokud není příliš úzká nebo těsná.</p>"
+            "title": "Which shoes are active insoles suitable for?",
+            "content": "<p>They work best in barefoot and anatomically shaped shoes, where the feet have enough space for natural movement. You can also use them in ordinary shoes, as long as they are not too narrow or tight.</p>"
           }
         },
         "accor_item_ACkHqK": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Můžu si stélky zastřihnout podle tvaru boty?",
-            "content": "<p>Ano. Stélky si můžete jednoduše upravit podle tvaru své obuvi. Doporučujeme zastřihávat je postupně po menších částech. Po zastřižení už je nelze vrátit jako nepoužité zboží, záruka na ně ale samozřejmě zůstává.</p>"
+            "title": "Can I trim the insoles to the shape of my shoe?",
+            "content": "<p>Yes. You can easily adjust the insoles to the shape of your shoes. We recommend trimming them gradually, a little at a time. After trimming they can no longer be returned as unused goods, but the warranty still applies.</p>"
           }
         },
         "accor_item_REYhiD": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Kdy poznám první rozdíl?",
-            "content": "<p>Každý to má trochu jinak. Někdo změnu vnímá už po prvním obutí, jinému chvíli trvá, než si chodidla na nový podnět zvyknou. Proto doporučujeme začít pozvolna a dobu nošení postupně prodlužovat.</p>"
+            "title": "When will I notice the first difference?",
+            "content": "<p>Everyone is a little different. Some people notice a change the first time they put them on; for others it takes a while for the feet to get used to the new stimulus. That’s why we recommend starting slowly and gradually extending wearing time.</p>"
           }
         },
         "accor_item_ewTAwy": {
@@ -845,47 +845,47 @@
           "settings": {
             "icon": "none",
             "title": "Pomohou mi od bolesti nohou, kolen nebo zad?",
-            "content": "<p>To bohužel nemůžeme slíbit. Chodidla ale ovlivňují pohyb celého těla, a proto může jejich lepší zapojení přispět k příjemnějšímu pohybu. Pokud vás trápí bolesti nebo jiné zdravotní obtíže, doporučujeme poradit se s fyzioterapeutem nebo lékařem.</p>"
+            "content": "<p>We unfortunately can’t promise that. But the feet affect movement of the whole body, so better engagement can contribute to more comfortable movement. If you have pain or other health issues, we recommend talking to a physiotherapist or doctor.</p>"
           }
         },
         "accor_item_DUwxtx": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Mohou aktivní stélky používat i děti?",
-            "content": "<p>V tuto chvíli jsou aktivní stélky navržené pro dospělé ve velikostech 37–46. Dětskou variantu zatím nepřipravujeme.</p>"
+            "title": "Can children use active insoles?",
+            "content": "<p>Active insoles are currently designed for adults in sizes 37–46. We are not preparing a kids’ version at this time.</p>"
           }
         },
         "accor_item_WKKT47": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Jak se správně starat o vložky do bot?",
-            "content": "<p>Stačí je pravidelně větrat a podle potřeby otřít vlhkým hadříkem. Nedoporučujeme je prát v pračce ani sušit na přímém zdroji tepla.</p>"
+            "title": "How should I care for shoe insoles?",
+            "content": "<p>Air them out regularly and wipe with a damp cloth as needed. We don’t recommend machine washing or drying them on a direct heat source.</p>"
           }
         },
         "accor_item_8x8X6F": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Jak je to s vrácením nebo reklamací?",
-            "content": "<p>Na aktivní stélky se vztahuje standardní zákonná záruka. Nepoužité a nepoškozené stélky můžete vrátit do 14 dnů. Pozor, pokud si je zastřihnete nebo jakkoliv jinak upravíte, už je není možné vrátit jako nepoužité zboží.</p>"
+            "title": "What about returns and warranty claims?",
+            "content": "<p>Active insoles are covered by the standard statutory warranty. Unused and undamaged insoles can be returned within 14 days. Note: if you trim them or otherwise modify them, they can no longer be returned as unused goods.</p>"
           }
         },
         "accor_item_eejHJ7": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Můžu akupresurní vložky do bot používat i při cvičení a běhání?",
-            "content": "<p>Ano. Aktivní stélky můžete používat při silovém tréninku, běhání i dalších pohybových aktivitách. Jemná stimulace chodidel pomáhá lépe vnímat oporu a zapojení celého těla při cvičení. Při běhu může podpořit aktivnější odraz i lepší vnímání kontaktu se zemí. Doporučujeme ale začínat postupně a dopřát chodidlům čas na adaptaci.</p>"
+            "title": "Can I use acupressure shoe insoles for exercise and running?",
+            "content": "<p>Yes. You can use active insoles for strength training, running, and other movement. Gentle stimulation of the feet helps you better sense support and engage the whole body during exercise. When running, it can support a more active push-off and better ground feel. We recommend starting gradually and giving the feet time to adapt.</p>"
           }
         },
         "accor_item_ceYh8H": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Hledáte individuální řešení a stélky na míru?",
-            "content": "<p><strong>Každé chodidlo je jedinečné</strong>. Aktivní stélky jsme navrhli tak, aby byly co nejuniverzálnější. Přesto se může stát, že nebudou sedět úplně každému. Někdo může stimulaci vnímat intenzivněji, jiný naopak jemněji. Pro někoho může být podpora v oblasti klenby ideální, jiní budou potřebovat upravené řešení.</p><p>Pokud chcete stélky přizpůsobené přesně svým chodidlům, nabízíme také<a href=\"http://www.lukasklimpera.cz/\" target=\"_blank\" title=\"http://www.lukasklimpera.cz/\"> individuální řešení ve spolupráci s fyzioterapeutem</a>.</p>"
+            "title": "Looking for a custom solution and made-to-measure insoles?",
+            "content": "<p><strong>Every foot is unique</strong>. We designed active insoles to be as universal as possible. Still, they may not fit everyone perfectly. Some people may feel the stimulation more intensely, others more gently. For some, the arch support may be ideal; others will need a tailored solution.</p><p>If you want insoles adapted exactly to your feet, we also offer<a href=\"http://www.lukasklimpera.cz/\" target=\"_blank\" title=\"http://www.lukasklimpera.cz/\"> a custom solution in cooperation with a physiotherapist</a>.</p>"
           }
         }
       },
@@ -908,7 +908,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Nejčastější dotazy a odpovědi",
+        "top_heading": "Frequently asked questions",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -992,9 +992,9 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Nohy v suchu a v pohodě",
-            "heading": "Podšívka UltraDry",
-            "text": "<ul><li><strong>Odsává pot.</strong> Nasaje až 8násobek své váhy.</li><li><strong>Dýchá.</strong> Přivádí čerstvý vzduch k nohám.</li><li><strong>Šetří přírodu.</strong> 60 % tvoří kukuřice.</li></ul>",
+            "sub_heading": "Dry feet, all day",
+            "heading": "UltraDry lining",
+            "text": "<ul><li><strong>Wicks away sweat.</strong> Absorbs up to 8 times its weight.</li><li><strong>Breathes.</strong> Brings fresh air to your feet.</li><li><strong>Kinder to nature.</strong> 60% corn.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1080,9 +1080,9 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Jeden tah hadříkem, to je vše",
-            "heading": "Snadná údržba",
-            "text": "<p>Žádné krémy. Žádná impregnace. Žádné drhnutí kartáčkem.</p><p>Jednou za čas <strong>setřete vlhkým hadříkem</strong>. A jsou jako nové.</p>",
+            "sub_heading": "One wipe with a cloth, that’s it",
+            "heading": "Easy care",
+            "text": "<p>No creams. No waterproofing. No brushing.</p><p>Every now and then <strong>wipe with a damp cloth</strong>. And they’re as good as new.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1141,7 +1141,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Klíčem je vnímání.</p><p>Tělo se mění nejlépe tehdy, když samo začne lépe vnímat, co dělá. Aktivní stélky dávají chodidlům jasnější podněty, díky kterým mohou tělu předávat více informací a přirozeněji se zapojit do pohybu.</p><p><br/>fyzioterapeutka</p><p><strong>Clara Lewitová</strong></p>",
+            "text": "<p>Awareness is the key.</p><p>The body changes best when it starts to better sense what it is doing. Active insoles give the feet clearer stimuli, so they can pass more information to the body and engage more naturally in movement.</p><p><br/>physiotherapist</p><p><strong>Clara Lewitová</strong></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1221,7 +1221,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "content_quote": "<p>Lidská noha potřebuje prostor, aby mohla fungovat zdravě. Na to myslíme při návrhu Ahinsa shoes.</p><p><br/>fyzioterapeut a zakladatel Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p><p></p><p></p>",
+        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.</p><p><br/>physiotherapist and founder of Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p><p></p><p></p>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f1f1f1",
         "cl_bg_gradient": "",
@@ -1299,8 +1299,8 @@
             "text_size": "40,15",
             "txt_align": "center",
             "sub_heading": "",
-            "heading": "Jako chůze bosky",
-            "text": "<p>V Ahinsa shoes kráčíte stejně přirozeně jako bosky.</p>",
+            "heading": "As healthy as walking barefoot",
+            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.</p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -1324,7 +1324,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Udělejte něco pro své zdraví ještě dnes.</p>",
+            "text": "<p>Do something for your health, today.</p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -1375,7 +1375,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Technické parametry",
+        "top_heading": "Technical parameters",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -1457,9 +1457,9 @@
           "settings": {
             "image_avata": "shopify://shop_images/ludmila-ditetova2.jpg",
             "heading": "",
-            "content": "<p>Boty Ahinsa dovolují vaší noze přirozený pohyb díky dostatečnému prostoru pro prstce. Tenká a flexibilní podrážka zase umožní optimální vnímání podložky chodidlem a tím kvalitní nastavení celého těla. Navíc etická a ekologická produkce made in ČR. Ideální volba pro ty, kteří chtějí od své obuvi víc a chtějí zažít pocit z opravdové chůze.<br/></p>",
+            "content": "<p>Ahinsa shoes allow the foot natural movement because they provide plenty of space for the toes. The thin and flexible outsole lets the foot perceive the ground. We must mention the ethical and ecological production in the Czech Republic. An ideal choice for anyone who wants more from their shoes and wants to enjoy a real walk.<br/></p>",
             "title": "Mgr. Ludmila Dítětová",
-            "pos": "fyzioterapeutka",
+            "pos": "physiotherapist",
             "rating": 5
           }
         },
@@ -1468,9 +1468,9 @@
           "settings": {
             "image_avata": "shopify://shop_images/hana-borecka.jpg",
             "heading": "",
-            "content": "<p>Ahinsa shoes je pro mě krásná, originální česká barefoot obuv, která vyniká pečlivým řemeslným zpracováním a použitím kvalitních materiálů, ať už přírodních či formou recyklovaných. Přední části chodidla poskytují velkorysý prostor, který je nezbytný pro správné nastavení prstů a od kterého se zároveň odvíjí i postavení celého těla.<br/></p>",
+            "content": "<p>Ahinsa shoes are beautiful, original Czech barefoot shoes, with careful craftsmanship and high-quality materials — natural or recycled. They provide generous space in the front of the foot, which is necessary for correct toe posture and influences the posture of the whole body.<br/></p>",
             "title": "MUDr. Hana Bořecká",
-            "pos": "lékařkalékařka",
+            "pos": "doctor",
             "rating": 5
           }
         }
@@ -1479,7 +1479,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Co říkají lékaři a fyzioterapeutové",
+        "top_heading": "Physiotherapists about Ahinsa shoes",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -1534,7 +1534,7 @@
         "show": true,
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Podobné boty",
+        "top_heading": "You might also like",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
