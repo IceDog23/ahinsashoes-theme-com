@@ -14,10 +14,7 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#202020",
-            "brc_mgb": 5
-          }
+          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 5 }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -61,11 +58,7 @@
           }
         }
       },
-      "block_order": [
-        "3_KyNY6F",
-        "1_kiPXGQ",
-        "2_QpeXnY"
-      ],
+      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
       "settings": {
         "heading_fullwidth": false,
         "image": "shopify:\/\/shop_images\/DSC_2488_9494e4d9-0fca-4e02-97fc-4e3769018d31.jpg",
@@ -113,8 +106,8 @@
             "text_size": "40,15",
             "txt_align": "center",
             "sub_heading": "",
-            "heading": "A za to si zasloužíte odměnu!",
-            "text": "<h2><\/h2><p>Díky vám víme, že šít zdravé etické boty má smysl. Proto jsme vymysleli<strong> způsob, jak vám za to poděkovat<\/strong>.<\/p><h2><\/h2>",
+            "heading": "And for that, you deserve a reward!",
+            "text": "<h2><\/h2><p>Thanks to you, we know that sewing healthy, ethical shoes makes sense. That’s why we came up with<strong> a way to thank you for it<\/strong>.<\/p><h2><\/h2>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -130,9 +123,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_LLfcz8"
-      ],
+      "block_order": ["bl_text_LLfcz8"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -171,7 +162,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Pochlubte se svými novými Ahinsa shoes na <a href=\"https:\/\/www.instagram.com\/ahinsashoes.cz\/\">Instagramu<\/a>. Každý měsíc vybereme jednu fotku, za kterou získáte <strong>500 Kč na nové boty<\/strong>.<\/p><p>Poprosíme vás jen o jednu věc: Abychom vaši krásnou fotku mohli dál používat.<\/p><p><strong>Nezapomeňte nás označit.<\/strong> Děkujeme! :)<\/p><p>@ahinsashoes.cz<\/p><p>#loveahinsa #ahinsashoes<\/p>",
+            "text": "<p>Show off your new Ahinsa shoes on <a href=\"https:\/\/www.instagram.com\/ahinsashoes.cz\/\">Instagram<\/a>. Every month we pick one photo, and you get <strong>500 Kč towards new shoes<\/strong>.<\/p><p>We’ll only ask you for one thing: that we can keep using your beautiful photo.<\/p><p><strong>Don’t forget to tag us.<\/strong> Thank you! :)<\/p><p>@ahinsashoes.cz<\/p><p>#loveahinsa #ahinsashoes<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -216,14 +207,11 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_wLtKyx",
-        "bl_image_wrQVkr"
-      ],
+      "block_order": ["bl_text_wLtKyx", "bl_image_wrQVkr"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Ukažte světu, že se obouváte eticky a získejte 500 Kč na Ahinsa shoes",
+        "top_heading": "Show the world you wear ethical shoes and get 500 Kč off Ahinsa shoes",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -252,7 +240,7 @@
           "settings": {
             "collection": "damy",
             "icon": "las la-gem",
-            "collection_title": "Dámská obuv",
+            "collection_title": "Women’s shoes",
             "collection_text": "",
             "collection_link": "shopify:\/\/collections\/damy"
           }
@@ -262,20 +250,17 @@
           "settings": {
             "collection": "panove",
             "icon": "las la-gem",
-            "collection_title": "Pánská obuv",
+            "collection_title": "Men’s shoes",
             "collection_text": "",
             "collection_link": "shopify:\/\/collections\/panove"
           }
         }
       },
-      "block_order": [
-        "collection_item_mN9MbM",
-        "collection_item_zRxeUw"
-      ],
+      "block_order": ["collection_item_mN9MbM", "collection_item_zRxeUw"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Přidejte se k Ahinsa community. Vyberte si své zdravé boty",
+        "top_heading": "Join the Ahinsa community. Choose your healthy shoes",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -293,7 +278,7 @@
         "subtitle_cl": "#878787",
         "count_cl": "#222222",
         "border_cl": "#e5e5e5",
-        "collection_subtitle": "modelů",
+        "collection_subtitle": "models",
         "open_link": "_self",
         "source": "image",
         "space_bottom": 20,
@@ -359,7 +344,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Podrobná pravidla a podmínky soutěže najdete <a href=\"https:\/\/ahinsashoes.cz\/pages\/pravidla-souteze\" target=\"_blank\">zde<\/a>.<\/p><h2><\/h2>",
+            "text": "<p>You can find the detailed contest rules and terms <a href=\"https:\/\/ahinsashoes.cz\/pages\/pravidla-souteze\" target=\"_blank\">here<\/a>.<\/p><h2><\/h2>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -375,9 +360,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_F7qfWK"
-      ],
+      "block_order": ["bl_text_F7qfWK"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -414,9 +397,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -437,8 +418,8 @@
             "icon_themes": "car",
             "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
-            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
-            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.<\/p>",
+            "title": "DESIGNED BY PHYSIOTHERAPISTS",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
             "html": ""
           }
         },
@@ -448,8 +429,8 @@
             "icon_themes": "car",
             "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "VYDRŽÍ MILIONY KROKŮ",
-            "text": "<p>Protože šijeme ručně z odolných materiálů.<\/p>",
+            "title": "LAST FOR MILLIONS OF STEPS",
+            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
             "html": ""
           }
         },
@@ -459,8 +440,8 @@
             "icon_themes": "car",
             "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
-            "text": "<p>Poštovné platíme my.<\/p>",
+            "title": "LIGHTNING-FAST FREE EXCHANGE",
+            "text": "<p>We cover postage.<\/p>",
             "html": ""
           }
         },
@@ -470,8 +451,8 @@
             "icon_themes": "car",
             "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
-            "title": "VYRÁBÍME RUČNĚ A ETICKY",
-            "text": "<p>Přátelské k přírodě, zvířatům i lidem.<\/p>",
+            "title": "HANDMADE AND ETHICAL",
+            "text": "<p>Friendly to nature, animals, and people.<\/p>",
             "html": ""
           }
         }

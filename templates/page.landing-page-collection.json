@@ -36,7 +36,7 @@
         "custom_text_rrtnHh": {
           "type": "custom_text",
           "settings": {
-            "text": "Nová kolekce podzimních a zimních Ahinsa shoes",
+            "text": "New autumn and winter Ahinsa shoes collection",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -59,7 +59,7 @@
         "custom_text_8jirkY": {
           "type": "custom_text",
           "settings": {
-            "text": "Boty, jaké jste si přáli. Doslova",
+            "text": "The shoes you wished for. Literally",
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "inherit",
@@ -82,7 +82,7 @@
         "custom_text_QGhAUL": {
           "type": "custom_text",
           "settings": {
-            "text": "Víte, jak se jmenují <b>naši nejlepší návrháři<\/b>? Jana, Tereza, Pavel, Zdeněk... <br><br>\nJsou to <b>naši zákazníci<\/b>, kteří nám píšou nápady na nové modely.<br><br>\nČerstvá kolekce je proto jen o vás. Vyslyšeli jsme vaše přání a vyrobili jsme <b>zdravé boty podle vašeho gusta.<\/b>",
+            "text": "Do you know the names of <b>our best designers<\/b>? Jana, Tereza, Pavel, Zdeněk... <br><br>\nThey’re <b>our customers<\/b>, who send us ideas for new models.<br><br>\nThat’s why the latest collection is all about you. We listened to your wishes and made <b>healthy shoes to your taste.<\/b>",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -217,9 +217,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -277,13 +275,13 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Kotníčkové Shuma nepromoknou",
-            "text": "<p>Oblíbené boty Shuma dostaly <strong>nepromokavou membránu<\/strong>. A také <strong>ověřenou podrážku Vibram<\/strong>, která drží i na ledu. <\/p>",
+            "heading": "Shuma ankle boots won’t let water in",
+            "text": "<p>Your favorite Shuma shoes got a <strong>waterproof membrane<\/strong>. And a <strong>proven Vibram outsole<\/strong> that grips even on ice. <\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Vyrazte do deště",
+            "button_label": "Head out into the rain",
             "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky\/shuma-nature",
             "open_link": "_blank",
             "btn_icon": false,
@@ -294,10 +292,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_ArVYpd",
-        "bl_text_AWrGB4"
-      ],
+      "block_order": ["bl_image_ArVYpd", "bl_text_AWrGB4"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -335,13 +330,13 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Nadčasové krásky s novou zimní podrážkou",
-            "text": "<p>Boty Chelsea jsou tak oblíbené, že si zaslouží vylepšení. Nově je u nás najdete i ve <strong>stylové pískové barvě<\/strong>. A všechny dostaly <strong>neklouzavou zimní podrážku<\/strong>.<\/p>",
+            "heading": "Timeless beauties with a new winter sole",
+            "text": "<p>Chelsea boots are so popular they deserve an upgrade. You’ll now find them in a <strong>stylish sand color<\/strong> as well. And all of them got a <strong>non-slip winter outsole<\/strong>.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Udělejte si radost",
+            "button_label": "Treat yourself",
             "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky\/chelsea",
             "open_link": "_blank",
             "btn_icon": false,
@@ -385,10 +380,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_XwQt7F",
-        "bl_image_mLPDF6"
-      ],
+      "block_order": ["bl_text_XwQt7F", "bl_image_mLPDF6"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -459,13 +451,13 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Limitovaný model: Šedé tenisky Pura",
-            "text": "<p>Taky milujete boty, které nemá každý? Šedé tenisky Pura jsme vyrobili jako limitku v počtu 100 párů a je možné, že žádné další už nikdy nevzniknou. Ulovíte ty své?<\/p>",
+            "heading": "Limited model: Grey Pura sneakers",
+            "text": "<p>Do you also love shoes that not everyone has? We made the grey Pura sneakers as a limited edition of 100 pairs, and there may never be any more. Will you catch yours?<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Ulovte je včas",
+            "button_label": "Grab them in time",
             "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky\/pura",
             "open_link": "_blank",
             "btn_icon": false,
@@ -476,10 +468,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_TkjVpP",
-        "bl_text_FrTKiJ"
-      ],
+      "block_order": ["bl_image_TkjVpP", "bl_text_FrTKiJ"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -517,13 +506,13 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Kozačky až ke koleni? Stačí říct!",
-            "text": "<p>Prý nám v nabídce chybí <strong>vysoké kozačky<\/strong>. Už ne! Kozačky Jaya Tall díky šněrování <strong>sednou každému lýtku<\/strong>. Díky zipu je ale šněrovat nemusíte.<\/p>",
+            "heading": "Boots up to the knee? Just say the word!",
+            "text": "<p>You said we were missing <strong>tall boots<\/strong>. Not anymore! Thanks to the lacing, Jaya Tall boots <strong>fit every calf<\/strong>. But thanks to the zipper, you don’t have to lace them at all.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Žijte na vysoké noze",
+            "button_label": "Live the high life",
             "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky\/jaya",
             "open_link": "_blank",
             "btn_icon": false,
@@ -567,10 +556,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_BF8bQq",
-        "bl_image_mbPPKC"
-      ],
+      "block_order": ["bl_text_BF8bQq", "bl_image_mbPPKC"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -641,13 +627,13 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Teplíčko v botách Shuma Winter",
-            "text": "<p>Podzimní boty Shuma jste si tak oblíbili, že jste je na zimu nechtěli zout. Proto jsme vyrobili <strong>zimní variantu s chundelatým kožíškem<\/strong>. To teplo!<\/p>",
+            "heading": "Toasty warmth in Shuma Winter shoes",
+            "text": "<p>You loved the autumn Shuma shoes so much you didn’t want to take them off for winter. So we made a <strong>winter version with fluffy fur<\/strong>. So warm!<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Zahřejte se",
+            "button_label": "Warm up",
             "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky\/shuma-winter",
             "open_link": "_blank",
             "btn_icon": false,
@@ -658,10 +644,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_rkxdWA",
-        "bl_text_PdRAXi"
-      ],
+      "block_order": ["bl_image_rkxdWA", "bl_text_PdRAXi"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -699,13 +682,13 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Bzzzzt! Zimní tenisky Tara dostaly zip",
-            "text": "<p>Kdo říká, že nemůžete nosit tenisky v zimě? Kdo říká, že je musíte zavazovat? Zimním teniskám Tara jsme na vaše přání přidali <strong>praktický zip<\/strong>.<\/p>",
+            "heading": "Bzzzzt! Tara winter sneakers got a zipper",
+            "text": "<p>Who says you can’t wear sneakers in winter? Who says you have to lace them? At your request, we added a <strong>practical zipper<\/strong> to the Tara winter sneakers.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Zzzzapněte zip",
+            "button_label": "Zzzzip it up",
             "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky\/tara",
             "open_link": "_blank",
             "btn_icon": false,
@@ -749,10 +732,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_JfLDjb",
-        "bl_image_BTPNPd"
-      ],
+      "block_order": ["bl_text_JfLDjb", "bl_image_BTPNPd"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -823,13 +803,13 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Do černé boty černý kožíšek",
-            "text": "<p>Zimní boty Sundara jsou naše stálice. Kdo je má, tomu vydrží roky. Psali jste nám ale, že by jim <strong>slušel černý kožíšek<\/strong>. A vaše přání je nám rozkazem.<\/p>",
+            "heading": "Black fur lining in a black shoe",
+            "text": "<p>Sundara winter boots are our staple. Those who have them keep them for years. But you wrote that they’d look great with <strong>black fur<\/strong>. Your wish is our command.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Splňte si přání",
+            "button_label": "Make a wish come true",
             "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky\/sundara-winter",
             "open_link": "_blank",
             "btn_icon": false,
@@ -840,10 +820,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_XRdNqH",
-        "bl_text_drDhhb"
-      ],
+      "block_order": ["bl_image_XRdNqH", "bl_text_drDhhb"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -881,13 +858,13 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Ve sněhulích Irbis neuklouznete",
-            "text": "<p>Loňskou novinku, sněhule Irbis, jste vzali útokem. Přáli jste si ale jinou podrážku, a tak jsme vybrali <strong>ověřenou od Vibramu<\/strong>. Drží a neklouže.<\/p>",
+            "heading": "You won’t slip in Irbis snow boots",
+            "text": "<p>Last year’s new Irbis snow boots were a hit. But you wanted a different outsole, so we chose a <strong>proven one from Vibram<\/strong>. It grips and doesn’t slip.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Neuklouzněte",
+            "button_label": "Don’t slip",
             "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky\/irbis",
             "open_link": "_blank",
             "btn_icon": false,
@@ -931,10 +908,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_dmCPjw",
-        "bl_image_xj7Nj4"
-      ],
+      "block_order": ["bl_text_dmCPjw", "bl_image_xj7Nj4"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1005,13 +979,13 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Široké nohy se můžou těšit",
-            "text": "<p>Psali jste si o více <strong>extra širokých modelů<\/strong>. Tak tady jsou! Brzy se vaše nohy uvelebí v širokých kotníčkových botách Shuma a Sundara Winter.<\/p>",
+            "heading": "Wide feet can look forward to this",
+            "text": "<p>You asked for more <strong>extra-wide models<\/strong>. Here they are! Soon your feet will settle into the wide Shuma and Sundara Winter ankle boots.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Užijte si extra prostor",
+            "button_label": "Enjoy the extra space",
             "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky\/extra-siroke",
             "open_link": "_blank",
             "btn_icon": false,
@@ -1022,10 +996,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_KcaeXA",
-        "bl_text_XwXcP9"
-      ],
+      "block_order": ["bl_image_KcaeXA", "bl_text_XwXcP9"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1063,13 +1034,13 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Ještě větší Comfort",
-            "text": "<p>Někdy nechcete cítit každý kamínek na cestě. Chcete <strong>došlapovat do obláčku<\/strong>.<\/p><p>Proto jsme pro vás <strong>vylepšili řadu Ahinsa Comfort<\/strong>. Pečuje o vaše došlapy pružným Technogelem a pěnovou vložkou. Mmmm, to pohodlí!<\/p>",
+            "heading": "Even more Comfort",
+            "text": "<p>Sometimes you don’t want to feel every little stone on the path. You want to <strong>land on a cloud<\/strong>.<\/p><p>That’s why we’ve <strong>improved the Ahinsa Comfort line<\/strong>. It looks after every step with springy Technogel and a foam insole. Mmmm, that comfort!<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Obujte pohodlí",
+            "button_label": "Step into comfort",
             "button_link": "shopify:\/\/pages\/ahinsa-comfort",
             "open_link": "_blank",
             "btn_icon": false,
@@ -1109,10 +1080,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_K6FLUw",
-        "bl_image_QMmtRy"
-      ],
+      "block_order": ["bl_text_K6FLUw", "bl_image_QMmtRy"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",

@@ -1,1 +1,565 @@
-{"sections":{"heading":{"type":"heading-template","blocks":{"3_KyNY6F":{"type":"3","settings":{"breadcrumb_color":"#202020","brc_mgb":5}},"1_kiPXGQ":{"type":"1","settings":{"heading":"{{ page.title }}","fontf":"1","text_cl":"#202020","text_fs":39,"text_lh":0,"text_fw":600,"text_ls":0,"font_italic":false,"font_uppercase":false,"text_shadow":false,"text_mgb":20,"hidden_mobile":false,"text_fs_mb":31,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10}},"2_QpeXnY":{"type":"2","settings":{"content":"","fontf":"2","text_cl":"#202020","text_fs":16,"text_lh":0,"text_fw":400,"text_ls":0,"font_italic":false,"font_uppercase":false,"text_shadow":false,"text_mgb":0,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":0}}},"block_order":["3_KyNY6F","1_kiPXGQ","2_QpeXnY"],"settings":{"heading_fullwidth":false,"image":"{{ page.metafields.social_sharing.image.value }}","use_specify_image":true,"parallax":false,"color":"#ffffff","overlay":54,"padding":50,"paddingmb":50,"mg_b":50,"mg_bmb":50,"content_align":"t4s-text-center","bg_pos":"center center","bg_repeat":"no-repeat","bg_size":"cover","use_cus_css":false,"code_cus_css":".SectionID {\nbackground-color:red\n}"}},"main":{"type":"main-page","settings":{"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":"60px,,60px,","pd":",100px,,100px","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":",0px,,0px,"}},"sidebar-page":{"type":"sidebar-page","blocks":{"f69681ed-b75e-42de-be58-fdf73b3b7e08":{"type":"blog_cate","settings":{"title":"Blog categories","cat_link_list":"","count":true}}},"block_order":["f69681ed-b75e-42de-be58-fdf73b3b7e08"],"disabled":true,"settings":{"enable_drawer":false,"space":50,"size":"medium","br_style":"none","brcolor":"#222222","sidebar_bdr":5,"sidebar_pd":10}},"pdp_tab_navigation_6JyeYF":{"type":"pdp_tab-navigation","blocks":{"link_YhXEAb":{"type":"link","settings":{"tab_title":"Praha a Jižní Čechy","hook":"shopify-section-template--23015085015371__testimonials_adnrna"}},"link_3rDeqq":{"type":"link","settings":{"tab_title":"Morava","hook":"shopify-section-template--23015085015371__testimonials_g6eejD"}},"link_gppfBa":{"type":"link","settings":{"tab_title":"Východní Čechy","hook":"shopify-section-template--23015085015371__testimonials_7VxJNB"}}},"block_order":["link_YhXEAb","link_3rDeqq","link_gppfBa"],"settings":{"title_cl":"#202020","title_cl_hover":"#a1b66f","space_item_dk":70,"space_item_tb":35,"space_item_mb":25,"layout":"t4s-container-wrap","cl_bg":"#f1f1f1","cl_bg_gradient":"","mg":",,50px,","pd":",,20px,","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":",,10px,"}},"testimonials_adnrna":{"type":"testimonials","blocks":{"quote_3tNRjC":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/lukas-klimpera-prodejna_430fb6c9-c701-4e44-8574-bed5c82e51c7.png","heading":"Lukáš Klimpera","content":"<p>Dům Radost<br\/>Náměstí Winstona Churchilla 1800\/2, Praha<\/p><p><a href=\"https:\/\/www.lukasklimpera.cz\/\" target=\"_blank\" title=\"https:\/\/www.lukasklimpera.cz\/\">https:\/\/www.lukasklimpera.cz\/<\/a><\/p>","title":"","pos":"","rating":0}},"quote_TF6Jxw":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/podpis_jitka_1.png","heading":"Mgr. Jitka Holubcová","content":"<p>Centrum komplexní péče Sámova s.r.o.<\/p><p>Sámova 410\/28 – Praha 10<\/p><p><a href=\"https:\/\/www.ckpsamova.cz\/kontakt\/\" target=\"_blank\" title=\"https:\/\/www.ckpsamova.cz\/kontakt\/\">www.ckpsamova.cz\/kontakt\/<\/a><\/p>","title":"","pos":"","rating":0}},"quote_M9gJ4G":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/haviarova.jpg","heading":"Mgr. Petra Haviarová","content":"<p>Masarykova 300, Klatovy<br\/><br\/><a href=\"mailto:petra@fyzio-haviarova.cz\" target=\"_blank\">petra@fyzio-haviarova.cz<br\/><br\/><\/a><a href=\"http:\/\/www.fyzio-haviarova.cz\/\" target=\"_blank\">www.fyzio-haviarova.cz<\/a><\/p>","title":"","pos":"","rating":0}},"quote_WP8paL":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/bozkova.jpg","heading":"PhDr. Helena Božková","content":"<p>Purkyňova 2961, 390 02 Tábor<br\/><br\/><a href=\"mailto:helehele@seznam.cz\" title=\"mailto:helehele@seznam.cz\">helehele@seznam.cz<\/a><br\/><br\/><a href=\"https:\/\/helena-bozkova.cz\/\" target=\"_blank\" title=\"https:\/\/helena-bozkova.cz\/\">helena-bozkova.cz<\/a><\/p>","title":"","pos":"","rating":0}},"quote_LLHRtF":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/tlapova.jpg","heading":"Mgr. et Mgr. Jitka Tlapová, DiS.","content":"<p>Sokolovská 77, 323 00 Plzeň<br\/><br\/><a href=\"mailto:jitka.mgr@seznam.cz\" title=\"mailto:jitka.mgr@seznam.cz\">jitka.mgr@seznam.cz<br\/><br\/><\/a><a href=\"https:\/\/www.rehabilitace-plzen.cz\/kontakt\" target=\"_blank\" title=\"https:\/\/www.rehabilitace-plzen.cz\/kontakt\">www.rehabilitace-plzen.cz\/kontakt<\/a><\/p>","title":"","pos":"","rating":0}},"quote_R4n4e6":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/monika_weberova.jpg","heading":"Bc. Monika Weberová","content":"<p>Rubeška 393\/7, Praha 9 - Vysočany<br\/><br\/><a href=\"mailto:monikaweberova@seznam.cz\" title=\"mailto:monikaweberova@seznam.cz\">monikaweberova@seznam.cz<br\/><br\/><\/a><a href=\"http:\/\/www.fyzioterapie-rovnovaha.cz\/\" target=\"_blank\" title=\"http:\/\/www.fyzioterapie-rovnovaha.cz\/\">www.fyzioterapie-rovnovaha.cz<\/a><\/p>","title":"","pos":"","rating":0}}},"block_order":["quote_3tNRjC","quote_TF6Jxw","quote_M9gJ4G","quote_WP8paL","quote_LLHRtF","quote_R4n4e6"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"Praha a Jižní Čechy","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"ter_des":"5","cl_name":"#202020","cl_content":"#202020","cl_bd":"","cl_bg_item":"","bdr":0,"content_align":"text-center","col_dk":"2","col_tb":"2","col_mb":"1","space_h_item":"15","space_v_item":"0","space_h_item_mb":"10","space_v_item_mb":"10","layout_des":"1","loop":true,"au_time":0,"au_hover":true,"nav_btn":false,"btn_vi":"hover","btn_owl":"default","btn_shape":"none","btn_cl":"dark","btn_size":"small","btn_hidden_mobile":true,"nav_dot":false,"dot_owl":"default","dots_cl":"dark","dots_round":true,"dots_space":10,"dots_hidden_mobile":false,"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"testimonials_g6eejD":{"type":"testimonials","blocks":{"quote_hatwCt":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/jitka_stehlikova.jpg","heading":"Mgr. Jitka Stehlíková","content":"<p>Štursova 2858, 767 01 Kroměříž<br\/><br\/><a href=\"mailto:stehlikovajit@seznam.cz\" title=\"mailto:stehlikovajit@seznam.cz\">stehlikovajit@seznam.cz<br\/><br\/><\/a><a href=\"https:\/\/jitkastehlikova.cz\/\" target=\"_blank\" title=\"https:\/\/jitkastehlikova.cz\/\">jitkastehlikova.cz<\/a><\/p>","title":"","pos":"","rating":0}},"quote_ddeKaA":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/jaubickova.jpg","heading":"Mgr. Lenka Jakubíčková","content":"<p>Červený kopec 887\/2a, 639 00 Brno - Štýřice<br\/><br\/><a href=\"mailto:jakubickova@thephysio.eu\" title=\"mailto:jakubickova@thephysio.eu\">jakubickova@thephysio.eu<br\/><br\/><\/a><a href=\"https:\/\/thephysio.eu\/\" target=\"_blank\" title=\"https:\/\/thephysio.eu\/\">thephysio.eu<\/a><\/p>","title":"","pos":"","rating":0}},"quote_Ngft87":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/vokurek.jpg","heading":"Mgr. Ondřej Vokurek","content":"<p>Letkovská 2, 664 12 Oslavany<br\/><br\/><a href=\"mailto:info@fyzioprozivot.cz\" title=\"mailto:info@fyzioprozivot.cz\">info@fyzioprozivot.cz<br\/><br\/><\/a><a href=\"https:\/\/www.fyzioprozivot.cz\/\" target=\"_blank\" title=\"https:\/\/www.fyzioprozivot.cz\/\">www.fyzioprozivot.cz<\/a><\/p>","title":"","pos":"","rating":0}},"quote_tCNALP":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/jana_sopikova.jpg","heading":"Mgr. Jana Šopíková, Ph.D.","content":"<p>Údolní 393\/18, Brno 602 00<br\/><br\/><a href=\"mailto:fyzioterapie@janasopikova.cz\" title=\"mailto:fyzioterapie@janasopikova.cz\">fyzioterapie@janasopikova.cz<\/a><br\/><br\/><a href=\"https:\/\/janasopikova.cz\/\" target=\"_blank\" title=\"https:\/\/janasopikova.cz\/\">janasopikova.cz<\/a><\/p>","title":"","pos":"","rating":0}}},"block_order":["quote_hatwCt","quote_ddeKaA","quote_Ngft87","quote_tCNALP"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"Morava","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"ter_des":"5","cl_name":"#202020","cl_content":"#202020","cl_bd":"","cl_bg_item":"","bdr":0,"content_align":"text-center","col_dk":"2","col_tb":"2","col_mb":"1","space_h_item":"30","space_v_item":"0","space_h_item_mb":"10","space_v_item_mb":"10","layout_des":"1","loop":true,"au_time":0,"au_hover":true,"nav_btn":false,"btn_vi":"hover","btn_owl":"default","btn_shape":"none","btn_cl":"dark","btn_size":"small","btn_hidden_mobile":true,"nav_dot":false,"dot_owl":"default","dots_cl":"dark","dots_round":true,"dots_space":10,"dots_hidden_mobile":false,"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"testimonials_7VxJNB":{"type":"testimonials","blocks":{"quote_c9JnwA":{"type":"quote","settings":{"image_avata":"shopify:\/\/shop_images\/suchomel.jpg","heading":"Mgr. Tomáš Suchomel","content":"<p>Č.S.Armády 284, 562 01 Ústí nad Orlicí<br\/><br\/><a href=\"mailto:tomassuchomel@seznam.cz\" title=\"mailto:tomassuchomel@seznam.cz\">tomassuchomel@seznam.cz<br\/><br\/><\/a><a href=\"https:\/\/fyzioterapieuo.cz\" target=\"_blank\" title=\"https:\/\/fyzioterapieuo.cz\">fyzioterapieuo.cz<\/a><\/p>","title":"","pos":"","rating":0}}},"block_order":["quote_c9JnwA"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"Východní Čechy","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"ter_des":"5","cl_name":"#202020","cl_content":"#202020","cl_bd":"","cl_bg_item":"","bdr":0,"content_align":"text-center","col_dk":"2","col_tb":"2","col_mb":"1","space_h_item":"30","space_v_item":"0","space_h_item_mb":"10","space_v_item_mb":"10","layout_des":"1","loop":true,"au_time":0,"au_hover":true,"nav_btn":false,"btn_vi":"hover","btn_owl":"default","btn_shape":"none","btn_cl":"dark","btn_size":"small","btn_hidden_mobile":true,"nav_dot":false,"dot_owl":"default","dots_cl":"dark","dots_round":true,"dots_space":10,"dots_hidden_mobile":false,"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"shipping_nj3nkg":{"type":"shipping","blocks":{"shipping_KfzhP7":{"type":"shipping","settings":{"icon_themes":"car","image_icon":"shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png","icon":"las la-shipping-fast","title":"NAVRŽENÉ FYZIOTERAPEUTY","text":"<p>Respektují chodidla, proto jsou tak pohodlné.<\/p>","html":""}},"shipping_mmNH6x":{"type":"shipping","settings":{"icon_themes":"car","image_icon":"shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png","icon":"las la-shipping-fast","title":"VYDRŽÍ MILIONY KROKŮ","text":"<p>Protože šijeme ručně z odolných materiálů.<\/p>","html":""}},"shipping_tzp7mB":{"type":"shipping","settings":{"icon_themes":"car","image_icon":"shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png","icon":"las la-shipping-fast","title":"BLESKOVÁ VÝMĚNA ZDARMA","text":"<p>Poštovné platíme my.<\/p>","html":""}},"shipping_HDMKMa":{"type":"shipping","settings":{"icon_themes":"car","image_icon":"shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png","icon":"las la-shipping-fast","title":"VYRÁBÍME RUČNĚ A ETICKY","text":"<p>Přátelské k přírodě, zvířatům i lidem.<\/p>","html":""}}},"block_order":["shipping_KfzhP7","shipping_mmNH6x","shipping_tzp7mB","shipping_HDMKMa"],"settings":{"design_heading":"2","heading_align":"t4s-text-center","top_heading":"","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"content_align":"text-start","align_vertical":false,"design_padding":"1","source":"get_image","icon_des":"default","icon_size":"medium","col_dk":"4","col_tb":"2","col_mb":"1","border":false,"cl_bd":"#dddddd","cl_ic":"#9e9e9e","cl_hd":"#222222","cl_cot":"#202020","bg_item":"#ffffff","hd_fs":16,"hd_fw":600,"txt_fs":14,"space_h_item":"30","space_v_item":"30","space_h_item_mb":"10","space_v_item_mb":"10","carousel_mobile":false,"dots_cl":"dark","dots_round":true,"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,20px,","pd":"","mg_tb":",,20px,","pd_tb":"","mg_mb":",,10,","pd_mb":"","use_cus_css":false,"code_cus_css":""}}},"order":["heading","main","sidebar-page","pdp_tab_navigation_6JyeYF","testimonials_adnrna","testimonials_g6eejD","testimonials_7VxJNB","shipping_nj3nkg"]}
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "3_KyNY6F": {
+          "type": "3",
+          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 5 }
+        },
+        "1_kiPXGQ": {
+          "type": "1",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "fontf": "1",
+            "text_cl": "#202020",
+            "text_fs": 39,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 31,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "2_QpeXnY": {
+          "type": "2",
+          "settings": {
+            "content": "",
+            "fontf": "2",
+            "text_cl": "#202020",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
+      "settings": {
+        "heading_fullwidth": false,
+        "image": "{{ page.metafields.social_sharing.image.value }}",
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#ffffff",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": ",100px,,100px",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ",0px,,0px,"
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "pdp_tab_navigation_6JyeYF": {
+      "type": "pdp_tab-navigation",
+      "blocks": {
+        "link_YhXEAb": {
+          "type": "link",
+          "settings": {
+            "tab_title": "Prague and South Bohemia",
+            "hook": "shopify-section-template--23015085015371__testimonials_adnrna"
+          }
+        },
+        "link_3rDeqq": {
+          "type": "link",
+          "settings": {
+            "tab_title": "Morava",
+            "hook": "shopify-section-template--23015085015371__testimonials_g6eejD"
+          }
+        },
+        "link_gppfBa": {
+          "type": "link",
+          "settings": {
+            "tab_title": "East Bohemia",
+            "hook": "shopify-section-template--23015085015371__testimonials_7VxJNB"
+          }
+        }
+      },
+      "block_order": ["link_YhXEAb", "link_3rDeqq", "link_gppfBa"],
+      "settings": {
+        "title_cl": "#202020",
+        "title_cl_hover": "#a1b66f",
+        "space_item_dk": 70,
+        "space_item_tb": 35,
+        "space_item_mb": 25,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#f1f1f1",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": ",,20px,",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ",,10px,"
+      }
+    },
+    "testimonials_adnrna": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_3tNRjC": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/lukas-klimpera-prodejna_430fb6c9-c701-4e44-8574-bed5c82e51c7.png",
+            "heading": "Lukáš Klimpera",
+            "content": "<p>Dům Radost<br\/>Náměstí Winstona Churchilla 1800\/2, Prague<\/p><p><a href=\"https:\/\/www.lukasklimpera.cz\/\" target=\"_blank\" title=\"https:\/\/www.lukasklimpera.cz\/\">https:\/\/www.lukasklimpera.cz\/<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "quote_TF6Jxw": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/podpis_jitka_1.png",
+            "heading": "Mgr. Jitka Holubcová",
+            "content": "<p>Centrum komplexní péče Sámova s.r.o.<\/p><p>Sámova 410\/28 – Prague 10<\/p><p><a href=\"https:\/\/www.ckpsamova.cz\/kontakt\/\" target=\"_blank\" title=\"https:\/\/www.ckpsamova.cz\/kontakt\/\">www.ckpsamova.cz\/kontakt\/<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "quote_M9gJ4G": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/haviarova.jpg",
+            "heading": "Mgr. Petra Haviarová",
+            "content": "<p>Masarykova 300, Klatovy<br\/><br\/><a href=\"mailto:petra@fyzio-haviarova.cz\" target=\"_blank\">petra@fyzio-haviarova.cz<br\/><br\/><\/a><a href=\"http:\/\/www.fyzio-haviarova.cz\/\" target=\"_blank\">www.fyzio-haviarova.cz<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "quote_WP8paL": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/bozkova.jpg",
+            "heading": "PhDr. Helena Božková",
+            "content": "<p>Purkyňova 2961, 390 02 Tábor<br\/><br\/><a href=\"mailto:helehele@seznam.cz\" title=\"mailto:helehele@seznam.cz\">helehele@seznam.cz<\/a><br\/><br\/><a href=\"https:\/\/helena-bozkova.cz\/\" target=\"_blank\" title=\"https:\/\/helena-bozkova.cz\/\">helena-bozkova.cz<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "quote_LLHRtF": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/tlapova.jpg",
+            "heading": "Mgr. et Mgr. Jitka Tlapová, DiS.",
+            "content": "<p>Sokolovská 77, 323 00 Plzeň<br\/><br\/><a href=\"mailto:jitka.mgr@seznam.cz\" title=\"mailto:jitka.mgr@seznam.cz\">jitka.mgr@seznam.cz<br\/><br\/><\/a><a href=\"https:\/\/www.rehabilitace-plzen.cz\/kontakt\" target=\"_blank\" title=\"https:\/\/www.rehabilitace-plzen.cz\/kontakt\">www.rehabilitace-plzen.cz\/kontakt<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "quote_R4n4e6": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/monika_weberova.jpg",
+            "heading": "Bc. Monika Weberová",
+            "content": "<p>Rubeška 393\/7, Praha 9 - Vysočany<br\/><br\/><a href=\"mailto:monikaweberova@seznam.cz\" title=\"mailto:monikaweberova@seznam.cz\">monikaweberova@seznam.cz<br\/><br\/><\/a><a href=\"http:\/\/www.fyzioterapie-rovnovaha.cz\/\" target=\"_blank\" title=\"http:\/\/www.fyzioterapie-rovnovaha.cz\/\">www.fyzioterapie-rovnovaha.cz<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        }
+      },
+      "block_order": [
+        "quote_3tNRjC",
+        "quote_TF6Jxw",
+        "quote_M9gJ4G",
+        "quote_WP8paL",
+        "quote_LLHRtF",
+        "quote_R4n4e6"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Prague and South Bohemia",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "ter_des": "5",
+        "cl_name": "#202020",
+        "cl_content": "#202020",
+        "cl_bd": "",
+        "cl_bg_item": "",
+        "bdr": 0,
+        "content_align": "text-center",
+        "col_dk": "2",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "15",
+        "space_v_item": "0",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "testimonials_g6eejD": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_hatwCt": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/jitka_stehlikova.jpg",
+            "heading": "Mgr. Jitka Stehlíková",
+            "content": "<p>Štursova 2858, 767 01 Kroměříž<br\/><br\/><a href=\"mailto:stehlikovajit@seznam.cz\" title=\"mailto:stehlikovajit@seznam.cz\">stehlikovajit@seznam.cz<br\/><br\/><\/a><a href=\"https:\/\/jitkastehlikova.cz\/\" target=\"_blank\" title=\"https:\/\/jitkastehlikova.cz\/\">jitkastehlikova.cz<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "quote_ddeKaA": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/jaubickova.jpg",
+            "heading": "Mgr. Lenka Jakubíčková",
+            "content": "<p>Červený kopec 887\/2a, 639 00 Brno - Štýřice<br\/><br\/><a href=\"mailto:jakubickova@thephysio.eu\" title=\"mailto:jakubickova@thephysio.eu\">jakubickova@thephysio.eu<br\/><br\/><\/a><a href=\"https:\/\/thephysio.eu\/\" target=\"_blank\" title=\"https:\/\/thephysio.eu\/\">thephysio.eu<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "quote_Ngft87": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/vokurek.jpg",
+            "heading": "Mgr. Ondřej Vokurek",
+            "content": "<p>Letkovská 2, 664 12 Oslavany<br\/><br\/><a href=\"mailto:info@fyzioprozivot.cz\" title=\"mailto:info@fyzioprozivot.cz\">info@fyzioprozivot.cz<br\/><br\/><\/a><a href=\"https:\/\/www.fyzioprozivot.cz\/\" target=\"_blank\" title=\"https:\/\/www.fyzioprozivot.cz\/\">www.fyzioprozivot.cz<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        },
+        "quote_tCNALP": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/jana_sopikova.jpg",
+            "heading": "Mgr. Jana Šopíková, Ph.D.",
+            "content": "<p>Údolní 393\/18, Brno 602 00<br\/><br\/><a href=\"mailto:fyzioterapie@janasopikova.cz\" title=\"mailto:fyzioterapie@janasopikova.cz\">fyzioterapie@janasopikova.cz<\/a><br\/><br\/><a href=\"https:\/\/janasopikova.cz\/\" target=\"_blank\" title=\"https:\/\/janasopikova.cz\/\">janasopikova.cz<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        }
+      },
+      "block_order": [
+        "quote_hatwCt",
+        "quote_ddeKaA",
+        "quote_Ngft87",
+        "quote_tCNALP"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Morava",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "ter_des": "5",
+        "cl_name": "#202020",
+        "cl_content": "#202020",
+        "cl_bd": "",
+        "cl_bg_item": "",
+        "bdr": 0,
+        "content_align": "text-center",
+        "col_dk": "2",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "0",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "testimonials_7VxJNB": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_c9JnwA": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify:\/\/shop_images\/suchomel.jpg",
+            "heading": "Mgr. Tomáš Suchomel",
+            "content": "<p>Č.S.Armády 284, 562 01 Ústí nad Orlicí<br\/><br\/><a href=\"mailto:tomassuchomel@seznam.cz\" title=\"mailto:tomassuchomel@seznam.cz\">tomassuchomel@seznam.cz<br\/><br\/><\/a><a href=\"https:\/\/fyzioterapieuo.cz\" target=\"_blank\" title=\"https:\/\/fyzioterapieuo.cz\">fyzioterapieuo.cz<\/a><\/p>",
+            "title": "",
+            "pos": "",
+            "rating": 0
+          }
+        }
+      },
+      "block_order": ["quote_c9JnwA"],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "East Bohemia",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "ter_des": "5",
+        "cl_name": "#202020",
+        "cl_content": "#202020",
+        "cl_bd": "",
+        "cl_bg_item": "",
+        "bdr": 0,
+        "content_align": "text-center",
+        "col_dk": "2",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "0",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "shipping_nj3nkg": {
+      "type": "shipping",
+      "blocks": {
+        "shipping_KfzhP7": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "icon": "las la-shipping-fast",
+            "title": "DESIGNED BY PHYSIOTHERAPISTS",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "html": ""
+          }
+        },
+        "shipping_mmNH6x": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "icon": "las la-shipping-fast",
+            "title": "LAST FOR MILLIONS OF STEPS",
+            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "html": ""
+          }
+        },
+        "shipping_tzp7mB": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "icon": "las la-shipping-fast",
+            "title": "LIGHTNING-FAST FREE EXCHANGE",
+            "text": "<p>We cover postage.<\/p>",
+            "html": ""
+          }
+        },
+        "shipping_HDMKMa": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "car",
+            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "icon": "las la-shipping-fast",
+            "title": "HANDMADE AND ETHICAL",
+            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "html": ""
+          }
+        }
+      },
+      "block_order": [
+        "shipping_KfzhP7",
+        "shipping_mmNH6x",
+        "shipping_tzp7mB",
+        "shipping_HDMKMa"
+      ],
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "content_align": "text-start",
+        "align_vertical": false,
+        "design_padding": "1",
+        "source": "get_image",
+        "icon_des": "default",
+        "icon_size": "medium",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "border": false,
+        "cl_bd": "#dddddd",
+        "cl_ic": "#9e9e9e",
+        "cl_hd": "#222222",
+        "cl_cot": "#202020",
+        "bg_item": "#ffffff",
+        "hd_fs": 16,
+        "hd_fw": 600,
+        "txt_fs": 14,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "carousel_mobile": false,
+        "dots_cl": "dark",
+        "dots_round": true,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": ",,20px,",
+        "pd_tb": "",
+        "mg_mb": ",,10,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "sidebar-page",
+    "pdp_tab_navigation_6JyeYF",
+    "testimonials_adnrna",
+    "testimonials_g6eejD",
+    "testimonials_7VxJNB",
+    "shipping_nj3nkg"
+  ]
+}

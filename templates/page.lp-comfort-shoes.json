@@ -14,10 +14,7 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#f2f2f2",
-            "brc_mgb": 5
-          }
+          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -61,11 +58,7 @@
           }
         }
       },
-      "block_order": [
-        "3_KyNY6F",
-        "1_kiPXGQ",
-        "2_QpeXnY"
-      ],
+      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
       "disabled": true,
       "settings": {
         "heading_fullwidth": true,
@@ -92,7 +85,7 @@
         "custom_text_D6azRU": {
           "type": "custom_text",
           "settings": {
-            "text": "Ahinsa Comfort<br>\nPohodlí vám sluší",
+            "text": "Ahinsa Comfort<br>\nComfort looks good on you",
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "1",
@@ -115,7 +108,7 @@
         "custom_text_QAgVJ3": {
           "type": "custom_text",
           "settings": {
-            "text": "Obujete radši <b>pohodlné boty, nebo stylové?</b><br>\n\nA proč ne oboje zároveň? Nedělejte kompromisy. Zamilujte si <b>Ahinsa Comfort od fyzioterapeutů.</b><br>\n\nNejvíc vám to sluší, když jste v pohodlí.",
+            "text": "Would you prefer <b>comfortable shoes, or stylish ones?<\/b><br>\n\nWhy not have the best of both worlds? Don’t make compromises. Fall in love with <b>Ahinsa Comfort, designed by physiotherapists.<\/b><br>\n\nYou’re looking your best when you’re comfortable.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -136,10 +129,7 @@
           }
         }
       },
-      "block_order": [
-        "custom_text_D6azRU",
-        "custom_text_QAgVJ3"
-      ],
+      "block_order": ["custom_text_D6azRU", "custom_text_QAgVJ3"],
       "settings": {
         "se_height": "t4s_ratio_cuspx",
         "custom_dk": true,
@@ -148,7 +138,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 400,
-        "image": "shopify://shop_images/DSC_2924_1.jpg",
+        "image": "shopify:\/\/shop_images\/DSC_2924_1.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -197,41 +187,37 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "",
             "text": "",
-            "html": "<h6 style=\"margin-top:15px\">ŠETŘÍME PLANETU</h6>"
+            "html": "<h6 style=\"margin-top:15px\">WE CARE FOR THE PLANET<\/h6>"
           }
         },
         "shipping_KfzhP7": {
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "",
             "text": "",
-            "html": "<h6 style=\"margin-top:15px\">NAVRŽENÉ FYZIOTERAPEUTY</h6>"
+            "html": "<h6 style=\"margin-top:15px\">DESIGNED BY PHYSIOTHERAPISTS<\/h6>"
           }
         },
         "shipping_mmNH6x": {
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "RUČNĚ VYROBENÉ V ČR A CHORVATSKU",
+            "title": "HANDMADE IN THE CZECH REPUBLIC AND CROATIA",
             "text": "",
             "html": ""
           }
         }
       },
-      "block_order": [
-        "shipping_HDMKMa",
-        "shipping_KfzhP7",
-        "shipping_mmNH6x"
-      ],
+      "block_order": ["shipping_HDMKMa", "shipping_KfzhP7", "shipping_mmNH6x"],
       "disabled": true,
       "settings": {
         "design_heading": "2",
@@ -305,9 +291,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -325,7 +309,7 @@
         "bl_image_maapLQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/rozebrana_bota_ahinsa.png",
+            "image1": "shopify:\/\/shop_images\/rozebrana_bota_ahinsa.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -352,9 +336,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_maapLQ"
-      ],
+      "block_order": ["bl_image_maapLQ"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -385,34 +367,31 @@
         "quote_Fb4RYf": {
           "type": "quote",
           "settings": {
-            "image_avata": "shopify://shop_images/lukas-klimpera.png",
+            "image_avata": "shopify:\/\/shop_images\/lukas-klimpera.png",
             "heading": "",
-            "content": "<p>Jsou diagnózy a situace, kdy klasické barefoot boty nejsou ideální. <strong>Pro ně jsou perfektní a bezpečné naše boty Comfort s pěnovou stélkou a speciální pružnou vrstvou.</strong></p>",
+            "content": "<p>There are some diagnoses and situations where classic barefoot shoes are not ideal. <strong>Our Comfort shoes with a foam insole and a special flexible layer are perfect and safe for those cases.<\/strong><\/p>",
             "title": "Lukáš Klimpera",
-            "pos": "fyzioterapeut",
+            "pos": "physiotherapist",
             "rating": 5
           }
         },
         "quote_yLhk36": {
           "type": "quote",
           "settings": {
-            "image_avata": "shopify://shop_images/hana-borecka.jpg",
+            "image_avata": "shopify:\/\/shop_images\/hana-borecka.jpg",
             "heading": "",
-            "content": "<p>Ahinsa shoes v přední části chodidla <strong>poskytují velkorysý prostor, který je nezbytný pro správné nastavení prstů </strong>a od kterého se zároveň odvíjí i <strong>postavení celého těla.</strong></p>",
+            "content": "<p>Ahinsa shoes <strong>provide generous space in the front of the foot, which is essential for the correct alignment of the toes <\/strong>and which also determines the <strong>position of the whole body.<\/strong><\/p>",
             "title": "MUDr. Hana Bořecká",
-            "pos": "lékařka",
+            "pos": "physician",
             "rating": 5
           }
         }
       },
-      "block_order": [
-        "quote_Fb4RYf",
-        "quote_yLhk36"
-      ],
+      "block_order": ["quote_Fb4RYf", "quote_yLhk36"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Boty od fyzioterapeutů = pohodlí bez kompromisů",
+        "top_heading": "Shoes by physiotherapists = comfort without compromise",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -467,9 +446,9 @@
           "type": "collection_item",
           "settings": {
             "collection": "damske-komfortni-boty",
-            "image": "shopify://shop_images/dsc7012-kopie_f6331f06-279b-4170-ab9f-433a1eccca62.jpg",
+            "image": "shopify:\/\/shop_images\/dsc7012-kopie_f6331f06-279b-4170-ab9f-433a1eccca62.jpg",
             "icon": "las la-gem",
-            "collection_title": "POHODLÍ PRO DÁMY",
+            "collection_title": "COMFORT FOR WOMEN",
             "collection_text": "",
             "collection_link": "",
             "promotion_id": "",
@@ -483,9 +462,9 @@
           "type": "collection_item",
           "settings": {
             "collection": "panska-komfortni-obuv",
-            "image": "shopify://shop_images/DSC6909-kopie.jpg",
+            "image": "shopify:\/\/shop_images\/DSC6909-kopie.jpg",
             "icon": "las la-gem",
-            "collection_title": "POHODLÍ PRO PÁNY",
+            "collection_title": "COMFORT FOR MEN",
             "collection_text": "",
             "collection_link": "",
             "promotion_id": "",
@@ -496,14 +475,11 @@
           }
         }
       },
-      "block_order": [
-        "collection_item_pHAX89",
-        "collection_item_7tnaNU"
-      ],
+      "block_order": ["collection_item_pHAX89", "collection_item_7tnaNU"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Zažijte pohodlí na vlastní nohy",
+        "top_heading": "Experience comfort on your own feet",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -521,7 +497,7 @@
         "subtitle_cl": "#878787",
         "count_cl": "#222222",
         "border_cl": "#e5e5e5",
-        "collection_subtitle": "modelů",
+        "collection_subtitle": "models",
         "open_link": "_self",
         "source": "image",
         "space_bottom": 20,
@@ -587,7 +563,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong>Měkký došlap<br/></strong></h3><h4>Městem jako na obláčku</h4><p></p><p>Město je tvrdé. Betonové. Proto potřebujete boty, které <strong>pečují o vaše chodidla</strong>.</p><p>Boty Ahinsa shoes <strong>změkčí každý váš krok</strong>. Speciální pružná vrstva odpruží došlapy a uleví kloubům. Cesta městem nikdy nebyla příjemnější.</p>",
+            "text": "<h3><strong>Soft landing<br\/><\/strong><\/h3><h4>Through the city as if on a cloud<\/h4><p><\/p><p>The city is hard. Concrete. That’s why you need shoes that <strong>look after your feet<\/strong>.<\/p><p>Ahinsa shoes <strong>soften every step you take<\/strong>. A special flexible layer cushions the landing and eases the load on your joints. A walk through the city has never been more pleasant.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -605,7 +581,7 @@
         "bl_image_xiTHBH": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/bota_s_vlozkou.png",
+            "image1": "shopify:\/\/shop_images\/bota_s_vlozkou.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -632,10 +608,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_pbiyyh",
-        "bl_image_xiTHBH"
-      ],
+      "block_order": ["bl_text_pbiyyh", "bl_image_xiTHBH"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -666,7 +639,7 @@
         "bl_image_AfxDDc": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/foot_sideview_cz.png",
+            "image1": "shopify:\/\/shop_images\/foot_sideview_cz.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -703,7 +676,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong>Prostorná špička</strong></h3><h4>Protože nohy nejsou špičaté</h4><p></p><p>Všimli jste si toho někdy? Nohy nejsou špičaté – tak proč jsou takové boty? Ve špičce se prsty tísní a nemůžou pracovat.</p><p>Proto vyrábíme <strong>Ahinsa shoes s prostornou špičkou</strong>. Osvobodí vaše prsty a sednou vám na první dobrou. To pohodlí!</p>",
+            "text": "<h3><strong>Spacious toe box<\/strong><\/h3><h4>Because feet aren’t pointed<\/h4><p><\/p><p>Have you ever noticed? Feet aren’t pointed — so why are shoes? In a pointed toe, the toes are cramped and can’t do their work.<\/p><p>That’s why we make <strong>Ahinsa shoes with a spacious toe box<\/strong>. They free your toes and fit you the first time you put them on. That comfort!<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -719,10 +692,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_AfxDDc",
-        "bl_text_QM7mQC"
-      ],
+      "block_order": ["bl_image_AfxDDc", "bl_text_QM7mQC"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -761,7 +731,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong>Nulový podpatek</strong></h3><h4>100% zdraví</h4><p></p><p>Věděli jste, že sebemenší podpatek mění váš postoj? Naklání tělo a škodí mu.</p><p>Ahinsa shoes <strong>podpatek nemají</strong>. Poznejte, jaké to je, postavit se na zem rovnýma nohama. Narovnejte se díky rovné podrážce.</p>",
+            "text": "<h3><strong>Zero drop<\/strong><\/h3><h4>100% health<\/h4><p><\/p><p>Did you know that even the slightest heel changes your posture? It tilts the body and harms it.<\/p><p>Ahinsa shoes <strong>have no heel<\/strong>. Find out what it feels like to stand on the ground with level feet. Straighten up thanks to a flat outsole.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -779,7 +749,7 @@
         "bl_image_QRD8Aa": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/zero_drop_3.png",
+            "image1": "shopify:\/\/shop_images\/zero_drop_3.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -806,10 +776,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_TV3FGy",
-        "bl_image_QRD8Aa"
-      ],
+      "block_order": ["bl_text_TV3FGy", "bl_image_QRD8Aa"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -840,7 +807,7 @@
         "bl_image_aVwdcL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/dsc_9916_2.png",
+            "image1": "shopify:\/\/shop_images\/dsc_9916_2.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -877,7 +844,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong>Pružné a ohebné</strong></h3><h4>Boty kopírují váš pohyb</h4><p></p><p><strong>Zdravé boty se přizpůsobí vám</strong> – ne naopak. Proto Ahinsa shoes vyrábíme z <strong>pružných materiálů</strong>.</p><p>Podrážka a celá bota kopíruje váš krok. Neomezuje, čeká na vaše pohyby.</p>",
+            "text": "<h3><strong>Springy and flexible<\/strong><\/h3><h4>The shoes follow your movement<\/h4><p><\/p><p><strong>Healthy shoes adapt to you<\/strong> – not the other way around. That’s why we make Ahinsa shoes from <strong>flexible materials<\/strong>.<\/p><p>The outsole and the whole shoe follow your stride. They don’t restrict you — they wait for your movement.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -893,10 +860,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_aVwdcL",
-        "bl_text_MJaMPU"
-      ],
+      "block_order": ["bl_image_aVwdcL", "bl_text_MJaMPU"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -927,7 +891,7 @@
         "bl_image_thUfQg": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/testimonials_cz_1_b36c653c-c68d-4cd8-8fd9-6789e73abaf2.png",
+            "image1": "shopify:\/\/shop_images\/testimonials_cz_1_b36c653c-c68d-4cd8-8fd9-6789e73abaf2.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -954,9 +918,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_thUfQg"
-      ],
+      "block_order": ["bl_image_thUfQg"],
       "disabled": true,
       "settings": {
         "design_heading": "1",
@@ -989,9 +951,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/krouzek_produkt_na_LP_yuva_c671f3a1-b06d-425b-ba06-538d9b5ba485.jpg",
+            "image": "shopify:\/\/shop_images\/krouzek_produkt_na_LP_yuva_c671f3a1-b06d-425b-ba06-538d9b5ba485.jpg",
             "title": "",
-            "text": "<p>Moje Ahinsa botky jsou víc než pohodlné, jiné už nenosím. Předtím, než jsem začala nosit Ahinsa shoes mě vždy v noci bolely nohy. Nyní, když mají moje chodidla prostor, bolest odezněla.</p><p><strong>Lilith</strong> – Tenisky Yuva Comfort</p>",
+            "text": "<p>My Ahinsa shoes are more than comfortable — I don’t wear anything else. Before I started wearing Ahinsa shoes, my feet always hurt at night. Now that my feet have room, the pain is gone.<\/p><p><strong>Lilith<\/strong> – Yuva Comfort sneakers<\/p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -1006,9 +968,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/krouzek_produkt_na_LP_chitra.png",
+            "image": "shopify:\/\/shop_images\/krouzek_produkt_na_LP_chitra.png",
             "title": "",
-            "text": "<p>Tak pohodlné boty jsem ještě neměla. Jak jsem do nich vklouzla, věděla jsem, že už nechci jiné! Chodí se mi velmi dobře, přirozeně, nemusím o tom nijak přemýšlet.</p><p><strong>Janina</strong> – Chitra Trek&Trail</p>",
+            "text": "<p>I’ve never had such comfortable shoes. The moment I slipped into them I knew I didn’t want any others! I walk very well in them, naturally, without having to think about it.<\/p><p><strong>Janina<\/strong> – Chitra Trek&Trail<\/p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -1023,9 +985,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/krouzek_produkt_na_LP_vida.png",
+            "image": "shopify:\/\/shop_images\/krouzek_produkt_na_LP_vida.png",
             "title": "",
-            "text": "<p>Neuvěřitelně pohodlné a úžasné botky, které se rázem staly mými nejoblíbenějšími. Lepší jsem za svůj život neobula. Nejenže vypadají skvěle, ale zároveň jsou lehoučké a pohodlné jako bačkory. </p><p><strong>Monika</strong> – Vida Comfort</p>",
+            "text": "<p>Incredibly comfortable, wonderful shoes that instantly became my favourites. I’ve never worn anything better. They not only look great, they’re also light as a feather and as comfortable as slippers. <\/p><p><strong>Monika<\/strong> – Vida Comfort<\/p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -1040,9 +1002,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/krouzek_produkt_na_LP_bindu.png",
+            "image": "shopify:\/\/shop_images\/krouzek_produkt_na_LP_bindu.png",
             "title": "",
-            "text": "<p>Po pěti měsících co nosím svoje polobotky Bindu skoro každý den můžu s radostí říct, že jsou to ty nejpohodlnější boty co jsem kdy měla. jako chodit v bačkůrkách.</p><p><strong>Gabriela</strong> – Bindu 2 Comfort</p>",
+            "text": "<p>After five months of wearing my Bindu casual shoes almost every day I can happily say they’re the most comfortable shoes I’ve ever had. Like walking in slippers.<\/p><p><strong>Gabriela<\/strong> – Bindu 2 Comfort<\/p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -1057,9 +1019,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/krouzek_produkt_na_LP_hiker.png",
+            "image": "shopify:\/\/shop_images\/krouzek_produkt_na_LP_hiker.png",
             "title": "",
-            "text": "<p>Chůze v botách od vás je jako na obláčku. Cítím se v nich velmi dobře. Skoro každý den ujdu kolem 5 km. Vzala jsem si je i na delší procházku po Šumavě, ušli jsme 12 km a moje problémy s otlaky na prstech se vůbec neobjevily. Děkuji za pohodové výlety.</p><p><strong>Jana</strong> – Hiker Comfort</p>",
+            "text": "<p>Walking in your shoes is like walking on a cloud. I feel really good in them. I walk about 5 km almost every day. I even took them on a longer walk in the Šumava mountains — we covered 12 km and my problems with pressure spots on my toes didn’t appear at all. Thank you for the easy-going trips.<\/p><p><strong>Jana<\/strong> – Hiker Comfort<\/p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -1081,9 +1043,9 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Ministerstvo šťastných nohou varuje: Pohodlí je návykové",
+        "top_heading": "The Ministry of Happy Feet warns: Comfort is addictive",
         "icon_heading": "las la-gem",
-        "top_subheading": "<body>\n<br>\n<p style=\"font-style: normal; color: #202020;\">Kdo jednou obuje Ahinsa shoes, ten už nechce nic jiného. \n<br>To vám dosvědčí naši zákazníci.</p>\n</body>",
+        "top_subheading": "<body>\n<br>\n<p style=\"font-style: normal; color: #202020;\">Anyone who once puts on Ahinsa shoes never wants anything else. \n<br>Our customers will tell you so.<\/p>\n<\/body>",
         "tophead_mb": 30,
         "text_align": "center",
         "pos_text": "default",
@@ -1140,9 +1102,9 @@
           "type": "collection_item",
           "settings": {
             "collection": "damske-komfortni-boty",
-            "image": "shopify://shop_images/dsc7012-kopie_f6331f06-279b-4170-ab9f-433a1eccca62.jpg",
+            "image": "shopify:\/\/shop_images\/dsc7012-kopie_f6331f06-279b-4170-ab9f-433a1eccca62.jpg",
             "icon": "las la-gem",
-            "collection_title": "POHODLÍ PRO DÁMY",
+            "collection_title": "COMFORT FOR WOMEN",
             "collection_text": "",
             "collection_link": "",
             "promotion_id": "",
@@ -1156,9 +1118,9 @@
           "type": "collection_item",
           "settings": {
             "collection": "panska-komfortni-obuv",
-            "image": "shopify://shop_images/DSC6909-kopie.jpg",
+            "image": "shopify:\/\/shop_images\/DSC6909-kopie.jpg",
             "icon": "las la-gem",
-            "collection_title": "POHODLÍ PRO PÁNY",
+            "collection_title": "COMFORT FOR MEN",
             "collection_text": "",
             "collection_link": "",
             "promotion_id": "",
@@ -1169,10 +1131,7 @@
           }
         }
       },
-      "block_order": [
-        "collection_item_6MVYrm",
-        "collection_item_VtibCq"
-      ],
+      "block_order": ["collection_item_6MVYrm", "collection_item_VtibCq"],
       "settings": {
         "design_heading": "9",
         "heading_align": "t4s-text-center",
@@ -1194,7 +1153,7 @@
         "subtitle_cl": "#878787",
         "count_cl": "#222222",
         "border_cl": "#e5e5e5",
-        "collection_subtitle": "modelů",
+        "collection_subtitle": "models",
         "open_link": "_self",
         "source": "image",
         "space_bottom": 20,
@@ -1253,10 +1212,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
-            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
-            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.</p>",
+            "title": "DESIGNED BY PHYSIOTHERAPISTS",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
             "html": ""
           }
         },
@@ -1264,10 +1223,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "VYDRŽÍ MILIONY KROKŮ",
-            "text": "<p>Protože šijeme ručně z odolných materiálů.</p>",
+            "title": "LAST FOR MILLIONS OF STEPS",
+            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
             "html": ""
           }
         },
@@ -1275,10 +1234,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
-            "text": "<p>Poštovné platíme my.</p>",
+            "title": "LIGHTNING-FAST FREE EXCHANGE",
+            "text": "<p>We cover postage.<\/p>",
             "html": ""
           }
         },
@@ -1286,10 +1245,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
-            "title": "VYRÁBÍME RUČNĚ A ETICKY",
-            "text": "<p>Přátelské k přírodě, zvířatům i lidem.</p>",
+            "title": "HANDMADE AND ETHICAL",
+            "text": "<p>Friendly to nature, animals, and people.<\/p>",
             "html": ""
           }
         }

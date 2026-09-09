@@ -14,15 +14,10 @@
       "blocks": {
         "3_aHrzEy": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#f2f2f2",
-            "brc_mgb": 5
-          }
+          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
         }
       },
-      "block_order": [
-        "3_aHrzEy"
-      ],
+      "block_order": ["3_aHrzEy"],
       "settings": {
         "heading_fullwidth": true,
         "use_specify_image": true,
@@ -67,9 +62,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -177,10 +170,5 @@
       }
     }
   },
-  "order": [
-    "heading",
-    "main",
-    "sidebar-page",
-    "shipping_RqkKFA"
-  ]
+  "order": ["heading", "main", "sidebar-page", "shipping_RqkKFA"]
 }

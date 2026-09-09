@@ -14,10 +14,7 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#202020",
-            "brc_mgb": 30
-          }
+          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 30 }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -43,7 +40,7 @@
         "2_QpeXnY": {
           "type": "2",
           "settings": {
-            "content": "<p><strong>E-book od fyzioterapeuta ZDARMA</strong></p>",
+            "content": "<p><strong>FREE e-book from a physiotherapist<\/strong><\/p>",
             "fontf": "2",
             "text_cl": "#202020",
             "text_fs": 16,
@@ -62,11 +59,7 @@
           }
         }
       },
-      "block_order": [
-        "3_KyNY6F",
-        "1_kiPXGQ",
-        "2_QpeXnY"
-      ],
+      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
       "settings": {
         "heading_fullwidth": true,
         "use_specify_image": true,
@@ -112,9 +105,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -140,7 +131,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>V e-booku si shrneme, <strong>co všechno vám zdravá chůze přinese</strong>. Ukážeme vám nejčastější chyby a na jednoduchých cvičeních si sami vyzkoušíte, <strong>jak se pohybovat přirozeně a příjemně</strong>.</p><p>Stačí trocha cviku a brzy i vy přepnete v mozku<br/>program „chůze\" do nového, <strong>zdravého a radostného módu</strong>.</p><h3>Proč se zajímat o zdravou chůzi?</h3><ul><li>Ulevíte svým kloubům</li><li>Vaše svaly jsou připravené kdykoliv reagovat</li><li>Vydáte ze sebe maximální výkon</li><li>Můžete konečně využít plnou kapacitu plic</li><li>Aktivujete pánevní dno</li><li>Vaše tělo se přirozeně narovná a odlehčí</li></ul><p><strong>A hlavně</strong>: Zdravá chůze vám <strong>udělá radost</strong> a přispěje k vaší psychické pohodě.</p><p><em>Lukáš Klimpera - Fyzioterapeut, zakladatel Ahinsa shoes a autor e-booku</em></p>",
+            "text": "<p>In the e-book we'll summarize <strong>everything healthy walking will bring you<\/strong>. We'll show you the most common mistakes and, with simple exercises, you'll try for yourself <strong>how to move naturally and pleasantly<\/strong>.<\/p><p>Just a little practice and soon you too will switch the<br\/>“walking” program in your brain into a new, <strong>healthy and joyful mode<\/strong>.<\/p><h3>Why take an interest in healthy walking?<\/h3><ul><li>You'll ease the strain on your joints<\/li><li>Your muscles are ready to react at any time<\/li><li>You'll give your maximum performance<\/li><li>You can finally use your lungs' full capacity<\/li><li>You'll activate the pelvic floor<\/li><li>Your body will naturally straighten and lighten<\/li><\/ul><p><strong>And above all<\/strong>: Healthy walking will <strong>bring you joy<\/strong> and contribute to your mental well-being.<\/p><p><em>Lukáš Klimpera - Physiotherapist, founder of Ahinsa shoes and author of the e-book<\/em><\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -158,7 +149,7 @@
         "bl_image_AfxDDc": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/mockup_ahinsa_ebook_202301_1_2.png",
+            "image1": "shopify:\/\/shop_images\/mockup_ahinsa_ebook_202301_1_2.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -185,10 +176,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_HHHXfW",
-        "bl_image_AfxDDc"
-      ],
+      "block_order": ["bl_text_HHHXfW", "bl_image_AfxDDc"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -216,7 +204,7 @@
     "custom_liquid_qVyqzy": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id='BlackBox' class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte\" style=\"text-align: left\">\n    <div style=\"background-color: black; text-align: center; width: 100%; color: white; padding: 40px 20px; margin-top: 20px;\">\n      <h3 style=\"margin-bottom: 15px; color: white\">Spolu s e-bookem získáte 2× měsíčně tipy pro šťastné nohy\n</h3>\n      <p style=\"margin-bottom: 15px\">Na tento e-mail vám pošleme e-book ke stažení zdarma.</p>\n      <p style=\"margin-bottonm: 15px\">Také se 2× měsíčně ozveme s tipy a akcemi.</p>  \n  \n<script>\n        (function (w,d,s,o,f,js,fjs) {\n            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };\n            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];\n            js.id = '2-2bb287d15897fe2f9d89c882af9a3a8b'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n        }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));\n    </script>\n            <div id=\"f-2-2bb287d15897fe2f9d89c882af9a3a8b\"></div>\n\t\t\t\n    </div>\n  </div>",
+        "custom_liquid": "<div id='BlackBox' class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte\" style=\"text-align: left\">\n    <div style=\"background-color: black; text-align: center; width: 100%; color: white; padding: 40px 20px; margin-top: 20px;\">\n      <h3 style=\"margin-bottom: 15px; color: white\">Together with the e-book, you’ll get tips for happy feet twice a month\n<\/h3>\n      <p style=\"margin-bottom: 15px\">We will send you a free e-book for download to this e-mail address.<\/p>\n      <p style=\"margin-bottonm: 15px\">We’ll also get in touch 2 times a month with tips and special offers.<\/p>  \n  \n<script>\n        (function (w,d,s,o,f,js,fjs) {\n            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };\n            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];\n            js.id = '2-2bb287d15897fe2f9d89c882af9a3a8b'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n        }(window, document, 'script', 'ecmwidget', 'https:\/\/d70shl7vidtft.cloudfront.net\/widget.js'));\n    <\/script>\n            <div id=\"f-2-2bb287d15897fe2f9d89c882af9a3a8b\"><\/div>\n\t\t\t\n    <\/div>\n  <\/div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -234,21 +222,21 @@
         "image_item_BcMFYF": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/ukazka_1_c1d9dc1e-2462-4a2c-a85e-280af2458735.jpg",
+            "image": "shopify:\/\/shop_images\/ukazka_1_c1d9dc1e-2462-4a2c-a85e-280af2458735.jpg",
             "link": ""
           }
         },
         "image_item_MYnQbq": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/ukazka_1_1.jpg",
+            "image": "shopify:\/\/shop_images\/ukazka_1_1.jpg",
             "link": ""
           }
         },
         "image_item_YYCNRp": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/ukazka_1_2.jpg",
+            "image": "shopify:\/\/shop_images\/ukazka_1_2.jpg",
             "link": ""
           }
         }
@@ -261,9 +249,9 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Praktické tipy a jednoduchá cvičení",
+        "top_heading": "Practical tips and simple exercises",
         "icon_heading": "las la-gem",
-        "top_subheading": "Všechna cvičení zvládnete doma nebo v kanceláři. Naučíte se je během chvilky.",
+        "top_subheading": "You’ll manage all the exercises at home or in the office. You’ll learn them in no time.",
         "tophead_mb": 30,
         "layout_des": "1",
         "click_image": "data-t4s-gallery",
@@ -314,7 +302,7 @@
         "bl_liquid_yeByen": {
           "type": "bl_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte ebook-bottom-content\">\n  <h3 style=\"text-align: left;margin-bottom: 15px\">Spolu s e-bookem získáte 2x měsíčně naše tipy a slevy na Ahinsa shoes</h3>\n  <div style=\"text-align: left;\">\n    <p style='margin-bottom: 25px'>Naše pravidelné e-maily čte už <strong>15000 z&nbsp;vás</strong>.</p>\n    <ul class=\"ebook-page-list\" style='margin-left: 25px'>\n      <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>\n        Tipy pro zdravé nohy a tělo\n      </li>\n      <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>Akce a slevy na Ahinsa shoes</li>\n      <li style='list-style-image: url(\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>Nové modely uvidíte jako první</li>\n    </ul>\n  </div>\n  <a\n    href=\"#BlackBox\"\n    class=\"t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-size-extra-medium t4s-btn-color-dark t4s-btn-effect-fade\"\n    style=\"margin: 15px auto!important;\"\n  >\n    CHCI O NICH VĚDĚT\n  </a>\n</div>",
+            "custom_liquid": "<div class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte ebook-bottom-content\">\n  <h3 style=\"text-align: left;margin-bottom: 15px\">Together with the e-book, you’ll get our tips and discounts on Ahinsa shoes twice a month<\/h3>\n  <div style=\"text-align: left;\">\n    <p style='margin-bottom: 25px'>Our regular emails are already read by <strong>15,000 of&nbsp;you<\/strong>.<\/p>\n    <ul class=\"ebook-page-list\" style='margin-left: 25px'>\n      <li style='list-style-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0522\/3428\/9312\/files\/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>\n        Tips for healthy feet and body\n      <\/li>\n      <li style='list-style-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0522\/3428\/9312\/files\/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>Special offers and discounts on Ahinsa shoes<\/li>\n      <li style='list-style-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0522\/3428\/9312\/files\/check-mark_f256020c-d93b-4454-81b3-b0c741a29eb2.svg?v=1722981119\");'>See the new models first<\/li>\n    <\/ul>\n  <\/div>\n  <a\n    href=\"#BlackBox\"\n    class=\"t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-size-extra-medium t4s-btn-color-dark t4s-btn-effect-fade\"\n    style=\"margin: 15px auto!important;\"\n  >\n    I WANT TO KNOW ABOUT THEM\n  <\/a>\n<\/div>",
             "col_dk": "6",
             "col_tb": "12"
           }
@@ -322,7 +310,7 @@
         "bl_image_tLqHrf": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/ukazka_email.jpg",
+            "image1": "shopify:\/\/shop_images\/ukazka_email.jpg",
             "col_dk": "5",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -349,10 +337,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_liquid_yeByen",
-        "bl_image_tLqHrf"
-      ],
+      "block_order": ["bl_liquid_yeByen", "bl_image_tLqHrf"],
       "custom_css": [],
       "settings": {
         "design_heading": "1",
@@ -384,7 +369,7 @@
         "bl_image_QRD8Aa": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/lukas-klimpera-prodejna.png",
+            "image1": "shopify:\/\/shop_images\/lukas-klimpera-prodejna.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -420,8 +405,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "E-book pro vás napsal fyzioterapeut Lukáš Klimpera",
-            "text": "<p>Lukáš Klimpera vystudoval fyzioterapii na Univerzitě Karlově, kde se setkal s <strong>Clarou Lewitovou</strong>. Významná česká fyzioterapeutka Lukáše nadchla svou vizí <strong>zdravých a přirozených bot</strong>.</p><p>Po škole působil Lukáš na <strong>brněnské klinice LOGO</strong>. A právě tady zjistil, co potřebují jeho pacienti. Cvičení<br/>často nestačí – je nutné <strong>osvobodit jejich nohy</strong>.</p><p>Tak vznikly Ahinsa shoes. Ručně vyráběné veganské boty, které respektují tvar vašeho chodidla.</p>",
+            "heading": "The e-book was written for you by physiotherapist Lukáš Klimpera",
+            "text": "<p>Lukáš Klimpera studied physiotherapy at Charles University, where he met <strong>Clara Lewitová<\/strong>. This prominent Czech physiotherapist inspired Lukáš with her vision of <strong>healthy and natural shoes<\/strong>.<\/p><p>After graduation, Lukáš worked at the <strong>LOGO clinic in Brno<\/strong>. And it was here that he found out what his patients needed. Exercise<br\/>often isn't enough – their feet need to be <strong>set free<\/strong>.<\/p><p>That's how Ahinsa shoes were created. Handmade vegan shoes that respect the shape of your feet.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -437,10 +422,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_QRD8Aa",
-        "bl_text_TAjGFA"
-      ],
+      "block_order": ["bl_image_QRD8Aa", "bl_text_TAjGFA"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -472,10 +454,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
-            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
-            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.</p>",
+            "title": "DESIGNED BY PHYSIOTHERAPISTS",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
             "html": ""
           }
         },
@@ -483,10 +465,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "VYDRŽÍ MILIONY KROKŮ",
-            "text": "<p>Protože šijeme ručně z odolných materiálů.</p>",
+            "title": "LAST FOR MILLIONS OF STEPS",
+            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
             "html": ""
           }
         },
@@ -494,10 +476,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
-            "text": "<p>Poštovné platíme my.</p>",
+            "title": "LIGHTNING-FAST FREE EXCHANGE",
+            "text": "<p>We cover postage.<\/p>",
             "html": ""
           }
         },
@@ -505,10 +487,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
-            "title": "VYRÁBÍME RUČNĚ A ETICKY",
-            "text": "<p>Přátelské k přírodě, zvířatům i lidem.</p>",
+            "title": "HANDMADE AND ETHICAL",
+            "text": "<p>Friendly to nature, animals, and people.<\/p>",
             "html": ""
           }
         }

@@ -14,10 +14,7 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#f2f2f2",
-            "brc_mgb": 5
-          }
+          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -61,11 +58,7 @@
           }
         }
       },
-      "block_order": [
-        "3_KyNY6F",
-        "1_kiPXGQ",
-        "2_QpeXnY"
-      ],
+      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
       "disabled": true,
       "settings": {
         "heading_fullwidth": true,
@@ -92,7 +85,7 @@
         "custom_text_QGjzY3": {
           "type": "custom_text",
           "settings": {
-            "text": "Jen do vyprodání zásob: 2 + 1 pár zdarma",
+            "text": "While stocks last: 2 + 1 pair free",
             "remove_br_tag": false,
             "tag": "h4",
             "fontf": "1",
@@ -115,7 +108,7 @@
         "custom_text_D6azRU": {
           "type": "custom_text",
           "settings": {
-            "text": "Sdílejte radost. Sdílejte Ahinsa shoes.",
+            "text": "Share the joy. Share Ahinsa shoes.",
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "1",
@@ -138,7 +131,7 @@
         "custom_text_QAgVJ3": {
           "type": "custom_text",
           "settings": {
-            "text": "Jak se cítíte, když <b>konečně najdete pohodlné boty</b>? A co kdyby ten pocit díky vám zažili i lidé, které máte rádi?\n<br>Udělejte radost sobě i svým drahým. Vyberte si troje Ahinsa shoes a <b>nejlevnější pár získáte zdarma</b>.\nStačí v košíku vložit kód <b>RADOST</b>.",
+            "text": "How does it feel when you <b>finally find comfortable shoes<\/b>? And what if, thanks to you, the people you love could feel that too?\n<br>Make yourself and your loved ones happy. Choose three pairs of Ahinsa shoes and <b>get the least expensive pair free<\/b>.\nJust enter the code <b>RADOST<\/b> at checkout.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -161,7 +154,7 @@
         "custom_button_bVdA7Q": {
           "type": "custom_button",
           "settings": {
-            "button_text": "Jdu sdílet RADOST ↓",
+            "button_text": "I’m going to share RADOST ↓",
             "button_link": "#products",
             "target_link": "_self",
             "fontf": "inherit",
@@ -204,7 +197,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 500,
-        "image": "shopify://shop_images/DSC_2472.jpg",
+        "image": "shopify:\/\/shop_images\/DSC_2472.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -273,9 +266,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -300,14 +291,14 @@
             "text_size": "40,15",
             "txt_align": "center",
             "sub_heading": "",
-            "heading": "Zdravá chůze dělá dobrou náladu",
-            "text": "<h4>…a tu my šíříme ze všeho nejradši</h4><p>Víte, že <strong>chůze ve zdravých botách</strong> funguje jako masáž nohou? Přes chodila stimuluje mozková centra, a tím spouští radost. </p><p>Ten pocit chceme šířit. Proto teď <strong>posíláme do světa Ahinsa shoes zdarma</strong>. Pro vás, vaše přátele, rodinu. </p><p>Je jen na vás, komu radost pošlete.</p>",
+            "heading": "Healthy walking makes a good mood",
+            "text": "<h4>…and that’s the one we love spreading most of all<\/h4><p>Did you know that <strong>walking in healthy shoes<\/strong> works like a foot massage? Through the feet it stimulates brain centres, and that sparks joy.{NB}<\/p><p>That’s the feeling we want to spread. That’s why we’re now <strong>sending Ahinsa shoes out into the world for free<\/strong>. For you, your friends, your family.{NB}<\/p><p>It’s up to you whom you send the joy to.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "",
-            "button_link": "shopify://collections/vyprodej",
+            "button_link": "shopify:\/\/collections\/vyprodej",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -317,9 +308,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_8zWYYR"
-      ],
+      "block_order": ["bl_text_8zWYYR"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -351,9 +340,9 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
-            "title": "Zdravé boty od fyzioterapeutů",
+            "title": "Healthy shoes by physiotherapists",
             "text": "",
             "html": ""
           }
@@ -362,9 +351,9 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/Sport.png",
+            "image_icon": "shopify:\/\/shop_images\/Sport.png",
             "icon": "las la-shipping-fast",
-            "title": "Vydrží miliony kroků",
+            "title": "They last for millions of steps",
             "text": "",
             "html": ""
           }
@@ -373,9 +362,9 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "Přizpůsobí se nohám – ne naopak",
+            "title": "They adapt to your feet — not the other way around",
             "text": "",
             "html": ""
           }
@@ -384,9 +373,9 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "Vrácení a výměna zdarma",
+            "title": "Free returns and exchanges",
             "text": "",
             "html": ""
           }
@@ -457,7 +446,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<h4>Pozor: Platí jen do vyprodání zásob. A jak vás známe, bude to rychlé.</h4>",
+            "text": "<h4>Attention: Valid only while stocks last. And knowing you, it’ll go fast.<\/h4>",
             "subhd_color": "#222222",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -476,7 +465,7 @@
           "type": "bl_image",
           "disabled": true,
           "settings": {
-            "image1": "shopify://shop_images/rozebrana_bota_ahinsa.png",
+            "image1": "shopify:\/\/shop_images\/rozebrana_bota_ahinsa.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -503,10 +492,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_PD4RNG",
-        "bl_image_DEmhaF"
-      ],
+      "block_order": ["bl_text_PD4RNG", "bl_image_DEmhaF"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -534,7 +520,7 @@
     "custom_liquid_BBRMqU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"products\"></div>",
+        "custom_liquid": "<div id=\"products\"><\/div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -552,7 +538,7 @@
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
-        "top_heading": "Pozor: Platí jen do vyprodání zásob. A jak vás známe, bude to rychlé.",
+        "top_heading": "Attention: Valid only while stocks last. And knowing you, it’ll go fast.",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -602,15 +588,13 @@
     },
     "featured_collection_Eq7CHD": {
       "type": "featured-collection",
-      "custom_css": [
-        ".t4s-product-sizes {color: black;}"
-      ],
+      "custom_css": [".t4s-product-sizes { color: black; }"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Hřejivé zimní boty s kožíškem",
+        "top_heading": "Cozy winter shoes with fur lining",
         "icon_heading": "las la-gem",
-        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Jaro se tu ještě chvíli neohřeje. Tak se zahřejte zdravou chůzí! Zimní boty jsme zateplili kožíškem, který se <b>osvědčil i ve finských mrazech</b>.</p>",
+        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Spring won’t warm up here just yet. So warm up with healthy walking! We’ve insulated our winter shoes with fur that has <b>proven itself even in Finnish frosts<\/b>.<\/p>",
         "tophead_mb": 30,
         "head_btn_label": "View All",
         "head_btn_url": "",
@@ -681,9 +665,9 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Z kanceláře do divadla v pohodlí",
+        "top_heading": "From the office to the theatre in comfort",
         "icon_heading": "las la-gem",
-        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Už se nemusíte na večer přezouvat do tvrdých polobotek a tísnivých lodiček. Teď se do společnosti nosí <b>pohodlí</b>. Večerní program si užijete dvakrát víc v botách, které <b>respektují vaše chodidla</b>. </p>",
+        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">You no longer have to change into hard casual shoes and pinching pumps for the evening. These days, <b>comfort<\/b> is what you wear out. You’ll enjoy the evening twice as much in shoes that <b>respect your feet<\/b>. <\/p>",
         "tophead_mb": 30,
         "head_btn_label": "View All",
         "head_btn_url": "",
@@ -751,15 +735,13 @@
     },
     "featured_collection_RH7CxT": {
       "type": "featured-collection",
-      "custom_css": [
-        ".t4s-product-sizes {color: black;}"
-      ],
+      "custom_css": [".t4s-product-sizes { color: black; }"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Tenisky na sport i do práce",
+        "top_heading": "Sneakers for sport and work",
         "icon_heading": "las la-gem",
-        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Představte si tenisky, o kterých <b>celý den nevíte</b>. Nebo si je nepředstavujte a rovnou je obujte! Tenisky <b>od fyzioterapeutů</b> vynesete na sport i do kanceláře.</p>",
+        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Imagine sneakers you <b>forget about all day<\/b>. Or don’t imagine them — just put them on! Sneakers <b>designed by physiotherapists<\/b> you’ll wear for sport and to the office.<\/p>",
         "tophead_mb": 30,
         "head_btn_label": "View All",
         "head_btn_url": "",
@@ -827,15 +809,13 @@
     },
     "featured_collection_PHVjaF": {
       "type": "featured-collection",
-      "custom_css": [
-        ".t4s-product-sizes {color: black;}"
-      ],
+      "custom_css": [".t4s-product-sizes { color: black; }"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Do přírody přirozeně",
+        "top_heading": "Into nature, naturally",
         "icon_heading": "las la-gem",
-        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Každá cesta do lesa může být malá masáž nohou. Ahinsa shoes do přírody vás <b>podrží, nekloužou a vydrží.</b></p>",
+        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Every walk in the woods can be a little foot massage. Ahinsa shoes for the outdoors will <b>support you, won’t slip, and last.<\/b><\/p>",
         "tophead_mb": 30,
         "head_btn_label": "View All",
         "head_btn_url": "",
@@ -908,9 +888,9 @@
           "type": "collection_item",
           "settings": {
             "collection": "damy",
-            "image": "shopify://shop_images/dsc_2651_e6794f7f-51f2-420f-828d-14c5630a9774.jpg",
+            "image": "shopify:\/\/shop_images\/dsc_2651_e6794f7f-51f2-420f-828d-14c5630a9774.jpg",
             "icon": "las la-gem",
-            "collection_title": "DÁMSKÉ",
+            "collection_title": "WOMEN’S",
             "collection_text": "",
             "collection_link": "",
             "promotion_id": "",
@@ -924,9 +904,9 @@
           "type": "collection_item",
           "settings": {
             "collection": "panove",
-            "image": "shopify://shop_images/img_1535-2_b17c70f5-992e-4719-9e9f-301bfeca1fb5.jpg",
+            "image": "shopify:\/\/shop_images\/img_1535-2_b17c70f5-992e-4719-9e9f-301bfeca1fb5.jpg",
             "icon": "las la-gem",
-            "collection_title": "PÁNSKÉ",
+            "collection_title": "MEN’S",
             "collection_text": "",
             "collection_link": "",
             "promotion_id": "",
@@ -937,17 +917,14 @@
           }
         }
       },
-      "block_order": [
-        "collection_item_pHAX89",
-        "collection_item_7tnaNU"
-      ],
+      "block_order": ["collection_item_pHAX89", "collection_item_7tnaNU"],
       "custom_css": [],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Nebo obujete něco jiného?",
+        "top_heading": "Or will you wear something else?",
         "icon_heading": "las la-gem",
-        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Akce platí na všechny Ahinsa shoes. Najděte ty své a sdílejte radost.</p>",
+        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">The offer applies to all Ahinsa shoes. Find yours and share the joy.<\/p>",
         "tophead_mb": 30,
         "head_btn_label": "View All",
         "head_btn_url": "",
@@ -963,7 +940,7 @@
         "subtitle_cl": "#878787",
         "count_cl": "#222222",
         "border_cl": "#e5e5e5",
-        "collection_subtitle": "modelů",
+        "collection_subtitle": "models",
         "open_link": "_self",
         "source": "image",
         "space_bottom": 20,
@@ -1028,14 +1005,14 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Jak to funguje?",
-            "text": "<p>Jednoduše: Přidejte do košíku troje Ahinsa shoes a <strong>vložte kód RADOST.</strong></p><p>Cenu nejlevnějšího páru vám <strong>automaticky odečteme</strong>.</p><p>Měli byste vědět ještě pár věcí:</p><ul><li>Akce platí na <strong>všechny Ahinsa shoes</strong>. I na ty zlevněné.</li><li>Boty vám rádi <strong>zdarma vyměníme</strong>. </li><li><strong>Vracíte jeden z párů?</strong> Nárok na pár zdarma bohužel zaniká.</li></ul>",
+            "heading": "How does it work?",
+            "text": "<p>It’s simple: Add three pairs of Ahinsa shoes to your cart and <strong>enter the code RADOST.<\/strong><\/p><p>We’ll <strong>automatically deduct<\/strong> the price of the least expensive pair.<\/p><p>A few more things you should know:<\/p><ul><li>The offer applies to <strong>all Ahinsa shoes<\/strong>. Even sale pairs.<\/li><li>We’ll gladly <strong>exchange the shoes free of charge<\/strong>. <\/li><li><strong>Returning one of the pairs?<\/strong> Unfortunately the free pair no longer applies.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "Jdu si vybrat",
-            "button_link": "https://ahinsashoes.cz/collections/all",
+            "button_link": "https:\/\/ahinsashoes.cz\/collections\/all",
             "open_link": "_blank",
             "btn_icon": true,
             "button_style": "outline",
@@ -1047,7 +1024,7 @@
         "bl_image_xiTHBH": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/dsc_9983_20240508_1c244717-5e05-4b2d-a32b-60beca4c08ac.jpg",
+            "image1": "shopify:\/\/shop_images\/dsc_9983_20240508_1c244717-5e05-4b2d-a32b-60beca4c08ac.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1074,10 +1051,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_pbiyyh",
-        "bl_image_xiTHBH"
-      ],
+      "block_order": ["bl_text_pbiyyh", "bl_image_xiTHBH"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1108,7 +1082,7 @@
         "bl_image_AfxDDc": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/DSC_3250-HDR.jpg",
+            "image1": "shopify:\/\/shop_images\/DSC_3250-HDR.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1144,14 +1118,14 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Sdílejte radost i na prodejně",
-            "text": "<p>Akce 2 + 1 pár zdarma <strong>běží i na naší pražské prodejně</strong>. Zastavte se a zažijte radost z Ahinsa shoes na vlastní nohy.</p>",
+            "heading": "Share the joy at the store, too",
+            "text": "<p>The 2 + 1 pair free offer <strong>is also running at our Prague store<\/strong>. Stop by and experience the joy of Ahinsa shoes on your own feet.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Kde je prodejna?",
-            "button_link": "shopify://pages/prodejna",
+            "button_label": "Where is the store?",
+            "button_link": "shopify:\/\/pages\/prodejna",
             "open_link": "_blank",
             "btn_icon": true,
             "button_style": "outline",
@@ -1161,10 +1135,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_AfxDDc",
-        "bl_text_QM7mQC"
-      ],
+      "block_order": ["bl_image_AfxDDc", "bl_text_QM7mQC"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1202,14 +1173,14 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Pomůžete nám uvolnit místo pro novinky?",
-            "text": "<p>Jarní stylovky už jsou skoro na cestě na sklad, musíme jim ale uvolnit místo. </p><p>A vy nám můžete pomoct! Sdílejte radost ze zdravé chůze s lidmi, na kterých vám záleží. Vyberte boty <strong>pro sebe i pro ně</strong>. Pořiďte 2 páry ze současné nabídky a třetí dostanete zdarma s kódem <strong>RADOST</strong>.</p><p>A na jaké novinky se můžete těšit?</p>",
+            "heading": "Will you help us make room for new arrivals?",
+            "text": "<p>Spring styles are almost on their way to the warehouse, but we need to make room for them. <\/p><p>And you can help! Share the joy of healthy walking with the people you care about. Choose shoes <strong>for yourself and for them<\/strong>. Get 2 pairs from the current range and the third is free with the code <strong>RADOST<\/strong>.<\/p><p>And which new styles can you look forward to?<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Chci vidět, co se chystá",
-            "button_link": "shopify://pages/jaro-2025",
+            "button_label": "I want to see what’s coming",
+            "button_link": "shopify:\/\/pages\/jaro-2025",
             "open_link": "_blank",
             "btn_icon": true,
             "button_style": "outline",
@@ -1221,7 +1192,7 @@
         "bl_image_eeVbwd": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/IMG_7931_ccbe100c-8080-4d0a-9354-da9a16532298.jpg",
+            "image1": "shopify:\/\/shop_images\/IMG_7931_ccbe100c-8080-4d0a-9354-da9a16532298.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1248,10 +1219,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_E8KFVQ",
-        "bl_image_eeVbwd"
-      ],
+      "block_order": ["bl_text_E8KFVQ", "bl_image_eeVbwd"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1283,10 +1251,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
-            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
-            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.</p>",
+            "title": "DESIGNED BY PHYSIOTHERAPISTS",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
             "html": ""
           }
         },
@@ -1294,10 +1262,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "VYDRŽÍ MILIONY KROKŮ",
-            "text": "<p>Protože šijeme ručně z odolných materiálů.</p>",
+            "title": "LAST FOR MILLIONS OF STEPS",
+            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
             "html": ""
           }
         },
@@ -1305,10 +1273,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
-            "text": "<p>Poštovné platíme my.</p>",
+            "title": "LIGHTNING-FAST FREE EXCHANGE",
+            "text": "<p>We cover postage.<\/p>",
             "html": ""
           }
         },
@@ -1316,10 +1284,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
-            "title": "VYRÁBÍME RUČNĚ A ETICKY",
-            "text": "<p>Přátelské k přírodě, zvířatům i lidem.</p>",
+            "title": "HANDMADE AND ETHICAL",
+            "text": "<p>Friendly to nature, animals, and people.<\/p>",
             "html": ""
           }
         }

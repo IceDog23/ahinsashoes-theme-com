@@ -15,7 +15,7 @@
         "custom_text_xtmwPG": {
           "type": "custom_text",
           "settings": {
-            "text": "Napsali o nás",
+            "text": "They wrote about us",
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "1",
@@ -36,9 +36,7 @@
           }
         }
       },
-      "block_order": [
-        "custom_text_xtmwPG"
-      ],
+      "block_order": ["custom_text_xtmwPG"],
       "settings": {
         "se_height": "t4s_ratio_cuspx",
         "custom_dk": true,
@@ -47,7 +45,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify://shop_images/napsali_o_nas_header.jpg",
+        "image": "shopify:\/\/shop_images\/napsali_o_nas_header.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -94,10 +92,7 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#202020",
-            "brc_mgb": 5
-          }
+          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 5 }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -141,11 +136,7 @@
           }
         }
       },
-      "block_order": [
-        "3_KyNY6F",
-        "1_kiPXGQ",
-        "2_QpeXnY"
-      ],
+      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
       "disabled": true,
       "settings": {
         "heading_fullwidth": false,
@@ -193,9 +184,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -214,11 +203,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_9867.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_9867.jpg",
             "title": "",
-            "text": "<p>FORBES</p><h5>Národ bosonožek. Jak se z Česka stala barefootová velmoc?</h5>",
+            "text": "<p>FORBES<\/p><h5>A nation of barefooters. How did Czechia become a barefoot superpower?<\/h5>",
             "button_label": "",
-            "button_link": "https://forbes.cz/narod-bosonozek-jak-se-z-ceska-stala-barefootova-velmoc/",
+            "button_link": "https:\/\/forbes.cz\/narod-bosonozek-jak-se-z-ceska-stala-barefootova-velmoc\/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -231,11 +220,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/img_0198a_97fdc44e-52b4-4a21-b185-9beae742e0c7.jpg",
+            "image": "shopify:\/\/shop_images\/img_0198a_97fdc44e-52b4-4a21-b185-9beae742e0c7.jpg",
             "title": "",
-            "text": "<p>Vlasta.cz</p><h5>Obutá neobutá i v zimě</h5>",
+            "text": "<p>Vlasta.cz<\/p><h5>Shod or unshod, even in winter<\/h5>",
             "button_label": "",
-            "button_link": "https://cdn.shopify.com/s/files/1/0522/3428/9312/files/vlasta_2024-11-27_obuta-neobuta-i-v-zime.pdf?v=1733749510",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0522\/3428\/9312\/files\/vlasta_2024-11-27_obuta-neobuta-i-v-zime.pdf?v=1733749510",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -248,11 +237,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/20240923_170009.jpg",
+            "image": "shopify:\/\/shop_images\/20240923_170009.jpg",
             "title": "",
-            "text": "<p>Český Rozhlas Dvojka</p><h5>[ROZHOVOR] Zdravé návyky při dlouhém sezení nebo stání</h5>",
+            "text": "<p>Český Rozhlas Dvojka<\/p><h5>[INTERVIEW] Healthy habits for long sitting or standing<\/h5>",
             "button_label": "",
-            "button_link": "https://www.youtube.com/watch?v=GRb033XkM6Y",
+            "button_link": "https:\/\/www.youtube.com\/watch?v=GRb033XkM6Y",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -265,11 +254,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/kopie-souboru-img_8647-mensi.jpg",
+            "image": "shopify:\/\/shop_images\/kopie-souboru-img_8647-mensi.jpg",
             "title": "",
-            "text": "<p>kondice.cz</p><h5>Vložky do bot ploché nohy nevyřeší, říká fyzioterapeut</h5>",
+            "text": "<p>kondice.cz<\/p><h5>Shoe insoles won’t fix flat feet, says a physiotherapist<\/h5>",
             "button_label": "",
-            "button_link": "https://www.kondice.cz/fyzicke-zdravi/ploche-nohy-vlozky-do-bot/",
+            "button_link": "https:\/\/www.kondice.cz\/fyzicke-zdravi\/ploche-nohy-vlozky-do-bot\/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -282,11 +271,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/dsc_3710_2_989bfced-1bfb-4510-b3be-13ada7299fe8.jpg",
+            "image": "shopify:\/\/shop_images\/dsc_3710_2_989bfced-1bfb-4510-b3be-13ada7299fe8.jpg",
             "title": "",
-            "text": "<p>Moda.cz</p><h5>Móda vs. zdraví: oblečení má chránit, ne nám ubližovat</h5>",
+            "text": "<p>Moda.cz<\/p><h5>Fashion vs. health: clothing should protect, not harm us<\/h5>",
             "button_label": "",
-            "button_link": "https://www.moda.cz/moda-vs-zdravi-obleceni-ma-chranit-ne-nam-ublizovat",
+            "button_link": "https:\/\/www.moda.cz\/moda-vs-zdravi-obleceni-ma-chranit-ne-nam-ublizovat",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -299,11 +288,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC02009-min_087b3df7-dab6-404f-ad3f-b8418d74f048.jpg",
+            "image": "shopify:\/\/shop_images\/DSC02009-min_087b3df7-dab6-404f-ad3f-b8418d74f048.jpg",
             "title": "",
-            "text": "<p>svetoutdooru.cz</p><h5>Ahinsa shoes Hiker Comfort – Poctivé barefoot pohorky</h5><p></p>",
+            "text": "<p>svetoutdooru.cz<\/p><h5>Ahinsa shoes Hiker Comfort – Honest barefoot hiking boots<\/h5><p><\/p>",
             "button_label": "",
-            "button_link": "https://www.svetoutdooru.cz/vybaveni/ahinsa-shoes-hiker-comfort-poctive-barefoot-pohorky/",
+            "button_link": "https:\/\/www.svetoutdooru.cz\/vybaveni\/ahinsa-shoes-hiker-comfort-poctive-barefoot-pohorky\/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -316,11 +305,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_0290.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_0290.jpg",
             "title": "",
-            "text": "<p>Seznam Zprávy</p><h5>Zní to šíleně, ale na krizi se těším. Vždy nás posunula, říká výrobce bot</h5><p></p>",
+            "text": "<p>Seznam Zprávy<\/p><h5>It sounds crazy, but I look forward to a crisis. It has always moved us forward, says the shoe manufacturer<\/h5><p><\/p>",
             "button_label": "",
-            "button_link": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-rozhovory-zni-to-silene-ale-na-krizi-se-tesim-vzdy-nas-posunula-rika-vyrobce-bot-213567",
+            "button_link": "https:\/\/www.seznamzpravy.cz\/clanek\/ekonomika-byznys-rozhovory-zni-to-silene-ale-na-krizi-se-tesim-vzdy-nas-posunula-rika-vyrobce-bot-213567",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -333,11 +322,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_3183.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_3183.jpg",
             "title": "",
-            "text": "<p>TÝDEN.CZ</p><h5>Český výrobce barefoot obuvi navržené fyzioterapeuty otevírá v Praze první kamennou prodejnu</h5><p></p>",
+            "text": "<p>TÝDEN.CZ<\/p><h5>Czech manufacturer of barefoot shoes designed by physiotherapists opens its first brick-and-mortar store in Prague<\/h5><p><\/p>",
             "button_label": "",
-            "button_link": "https://www.tyden.cz/rubriky/byznys/cesky-vyrobce-barefoot-obuvi-navrzene-fyzioterapeuty-otevira-v-praze-prvni-kamennou-prodejnu_558747.html",
+            "button_link": "https:\/\/www.tyden.cz\/rubriky\/byznys\/cesky-vyrobce-barefoot-obuvi-navrzene-fyzioterapeuty-otevira-v-praze-prvni-kamennou-prodejnu_558747.html",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -350,11 +339,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_2789.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_2789.jpg",
             "title": "",
-            "text": "<p>CzechCrunch</p><h5>Z ajťáka fyzioterapeutem a nakonec obuvníkem. Většina lidí chodí špatně, říká zakladatel bot Ahinsa Lukáš Klimpera</h5><p></p>",
+            "text": "<p>CzechCrunch<\/p><h5>From IT specialist to physiotherapist and finally shoemaker. Most people walk incorrectly, says Ahinsa shoes founder Lukáš Klimpera<\/h5><p><\/p>",
             "button_label": "",
-            "button_link": "https://cc.cz/z-ajtaka-fyzioterapeutem-a-nakonec-obuvnikem-vetsina-lidi-chodi-spatne-rika-zakladatel-bot-ahinsa-lukas-klimpera/",
+            "button_link": "https:\/\/cc.cz\/z-ajtaka-fyzioterapeutem-a-nakonec-obuvnikem-vetsina-lidi-chodi-spatne-rika-zakladatel-bot-ahinsa-lukas-klimpera\/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -367,11 +356,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_3240.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_3240.jpg",
             "title": "",
-            "text": "<p>denik.cz</p><h5>Jak se správně obout? Zkuste bosé boty, radí odborníci. Kolena přestanou bolet</h5>",
+            "text": "<p>denik.cz<\/p><h5>How do you put on shoes the right way? Try barefoot shoes, experts say. Your knees will stop hurting<\/h5>",
             "button_label": "",
-            "button_link": "https://www.denik.cz/zdravi/jak-se-spravne-obout-zkuste-bose-boty-radi-odbornici-kolena-prestanou-bolet-2022.html",
+            "button_link": "https:\/\/www.denik.cz\/zdravi\/jak-se-spravne-obout-zkuste-bose-boty-radi-odbornici-kolena-prestanou-bolet-2022.html",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -384,11 +373,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_9143.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_9143.jpg",
             "title": "",
-            "text": "<p>REFLEX</p><h5>Bolestí zad a hlavy vás může zbavit i změna chůze. České boty navržené fyzioterapeutem pomáhají už po roce</h5><p></p>",
+            "text": "<p>REFLEX<\/p><h5>A change in the way you walk can even relieve back and head pain. Czech shoes designed by a physiotherapist already help after a year<\/h5><p><\/p>",
             "button_label": "",
-            "button_link": "https://www.reflex.cz/clanek/zajimavosti/115956/bolesti-zad-a-hlavy-vas-muze-zbavit-i-zmena-chuze-ceske-boty-navrzene-fyzioterapeutem-pomahaji-uz-po-roce.html",
+            "button_link": "https:\/\/www.reflex.cz\/clanek\/zajimavosti\/115956\/bolesti-zad-a-hlavy-vas-muze-zbavit-i-zmena-chuze-ceske-boty-navrzene-fyzioterapeutem-pomahaji-uz-po-roce.html",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -401,11 +390,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_2447_1.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_2447_1.jpg",
             "title": "",
-            "text": "<p>FORBES</p><h5>Boty vyrábí z pytlů od kávy, pneumatik či kokosu. Teď i na 3D tiskárnách</h5><p></p>",
+            "text": "<p>FORBES<\/p><h5>They make shoes from coffee bags, tires or coconut. Now on 3D printers too<\/h5><p><\/p>",
             "button_label": "",
-            "button_link": "https://forbes.cz/boty-vyrabi-z-pytlu-od-kavy-pneumatik-ci-kokosu-ted-i-na-3d-tiskarnach/",
+            "button_link": "https:\/\/forbes.cz\/boty-vyrabi-z-pytlu-od-kavy-pneumatik-ci-kokosu-ted-i-na-3d-tiskarnach\/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -418,11 +407,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_9636.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_9636.jpg",
             "title": "",
-            "text": "<p>ŽENA-IN</p><h5>Špatná chůze je příčinou mnoha neduhů. Naučte se chodit zdravě</h5><p></p>",
+            "text": "<p>ŽENA-IN<\/p><h5>Poor walking is the cause of many ailments. Learn to walk healthily<\/h5><p><\/p>",
             "button_label": "",
-            "button_link": "https://zena-in.cz/clanek/spatna-chuze-je-pricinou-mnoha-neduhu-naucte-se-chodit-zdrave",
+            "button_link": "https:\/\/zena-in.cz\/clanek\/spatna-chuze-je-pricinou-mnoha-neduhu-naucte-se-chodit-zdrave",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -435,11 +424,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_2861.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_2861.jpg",
             "title": "",
-            "text": "<p>CzechCrunch</p><h5>Česká značka bosých bot Ahinsa roste. Otevírá kamenný obchod a plánuje tisknout obuv na 3D tiskárně</h5><p></p>",
+            "text": "<p>CzechCrunch<\/p><h5>The Czech brand of barefoot shoes Ahinsa is growing. It’s opening a brick-and-mortar store and plans to 3D-print footwear<\/h5><p><\/p>",
             "button_label": "",
-            "button_link": "https://cc.cz/ceska-znacka-bosych-bot-ahinsa-roste-otevira-kamenny-obchod-a-planuje-tisknout-obuv-na-3d-tiskarne",
+            "button_link": "https:\/\/cc.cz\/ceska-znacka-bosych-bot-ahinsa-roste-otevira-kamenny-obchod-a-planuje-tisknout-obuv-na-3d-tiskarne",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -453,11 +442,11 @@
           "disabled": true,
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/ahinsa_shoes_polobotky_sede_0001_1.jpg",
+            "image": "shopify:\/\/shop_images\/ahinsa_shoes_polobotky_sede_0001_1.jpg",
             "title": "",
-            "text": "<p>Babinet.cz</p><h5>Ustoupení bolesti zad či hlavy a zlepšení funkce pánevního dna. Průzkum potvrzuje, že boom barefoot obuvi je opodstatněný</h5>",
+            "text": "<p>Babinet.cz<\/p><h5>Relief from back or head pain and improved pelvic-floor function. A survey confirms that the barefoot footwear boom is justified<\/h5>",
             "button_label": "",
-            "button_link": "https://babinet.cz/clanek-30501-ustoupeni-bolesti-zad-ci-hlavy-a-zlepseni-funkce-panevniho-dna-pruzkum-potvrzuje-ze-boom-barefoot-obuvi-je-opodstatneny.html",
+            "button_link": "https:\/\/babinet.cz\/clanek-30501-ustoupeni-bolesti-zad-ci-hlavy-a-zlepseni-funkce-panevniho-dna-pruzkum-potvrzuje-ze-boom-barefoot-obuvi-je-opodstatneny.html",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -470,11 +459,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_3115.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_3115.jpg",
             "title": "",
-            "text": "<p>VOGUE.CZ</p><h5>Lukáš Klimpera: Postoj je základ</h5><p></p>",
+            "text": "<p>VOGUE.CZ<\/p><h5>Lukáš Klimpera: Posture is the foundation<\/h5><p><\/p>",
             "button_label": "",
-            "button_link": "https://www.vogue.cz/clanek/vogue-leaders/michaela-dombrovska/lukas-klimpera-postoj-je-zaklad",
+            "button_link": "https:\/\/www.vogue.cz\/clanek\/vogue-leaders\/michaela-dombrovska\/lukas-klimpera-postoj-je-zaklad",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -488,11 +477,11 @@
           "disabled": true,
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DSC_2958_1.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_2958_1.jpg",
             "title": "",
-            "text": "<p>TÝDEN.CZ</p><h5>Proč je zdravá chůze důležitá? Jak špatné boty ovlivňují naše tělo? Podle čeho se řídit při výběru barefoot obuvi?</h5><p></p>",
+            "text": "<p>TÝDEN.CZ<\/p><h5>Why is healthy walking important? How do poor shoes affect our body? What should you follow when choosing barefoot footwear?<\/h5><p><\/p>",
             "button_label": "",
-            "button_link": "https://www.tyden.cz/chat-s-osobnosti/proc-je-zdrava-chuze-dulezita-jak-spatne-boty-ovlivnuji-nase-telo-podle-ceho-se-ridit-pri-vyberu-barefoot-obuvi-odpovidal-lukas-klimpera-ve-ctvrtek-10-11-2022-od-11-00_1451/",
+            "button_link": "https:\/\/www.tyden.cz\/chat-s-osobnosti\/proc-je-zdrava-chuze-dulezita-jak-spatne-boty-ovlivnuji-nase-telo-podle-ceho-se-ridit-pri-vyberu-barefoot-obuvi-odpovidal-lukas-klimpera-ve-ctvrtek-10-11-2022-od-11-00_1451\/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "link",
@@ -589,8 +578,8 @@
             "text_size": "40,15",
             "txt_align": "center",
             "sub_heading": "",
-            "heading": "Máte zájem o rozhovor",
-            "text": "<p>Fyzioterapeut a zakladatel Ahinsa shoes Lukáš Klimpera se s vámi rád sejde a probere všechno, co vás zajímá.</p><p>Napište mu na e-mail <a href=\"mailto:cooperation@ahinsashoes.com\" title=\"mailto:cooperation@ahinsashoes.com\">cooperation@ahinsashoes.com</a>.</p>",
+            "heading": "Interested in an interview",
+            "text": "<p>Physiotherapist and founder of Ahinsa shoes Lukáš Klimpera would be glad to meet you and talk through everything you’re interested in.<\/p><p>Write to him at <a href=\"mailto:cooperation@ahinsashoes.com\" title=\"mailto:cooperation@ahinsashoes.com\">cooperation@ahinsashoes.com<\/a>.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -606,9 +595,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_nC9waW"
-      ],
+      "block_order": ["bl_text_nC9waW"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -640,10 +627,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
-            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
-            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.</p>",
+            "title": "DESIGNED BY PHYSIOTHERAPISTS",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
             "html": ""
           }
         },
@@ -651,10 +638,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "VYDRŽÍ MILIONY KROKŮ",
-            "text": "<p>Protože šijeme ručně z odolných materiálů.</p>",
+            "title": "LAST FOR MILLIONS OF STEPS",
+            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
             "html": ""
           }
         },
@@ -662,10 +649,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
-            "text": "<p>Poštovné platíme my.</p>",
+            "title": "LIGHTNING-FAST FREE EXCHANGE",
+            "text": "<p>We cover postage.<\/p>",
             "html": ""
           }
         },
@@ -673,10 +660,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
-            "title": "VYRÁBÍME RUČNĚ A ETICKY",
-            "text": "<p>Přátelské k přírodě, zvířatům i lidem.</p>",
+            "title": "HANDMADE AND ETHICAL",
+            "text": "<p>Friendly to nature, animals, and people.<\/p>",
             "html": ""
           }
         }

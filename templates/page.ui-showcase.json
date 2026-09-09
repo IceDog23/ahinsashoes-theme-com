@@ -56,9 +56,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -75,33 +73,23 @@
       "blocks": {
         "image_item_8kq34a": {
           "type": "image_item",
-          "settings": {
-            "link": ""
-          }
+          "settings": { "link": "" }
         },
         "image_item_G9aBRP": {
           "type": "image_item",
-          "settings": {
-            "link": ""
-          }
+          "settings": { "link": "" }
         },
         "image_item_xYhcwJ": {
           "type": "image_item",
-          "settings": {
-            "link": ""
-          }
+          "settings": { "link": "" }
         },
         "image_item_eCBcCp": {
           "type": "image_item",
-          "settings": {
-            "link": ""
-          }
+          "settings": { "link": "" }
         },
         "image_item_BLednC": {
           "type": "image_item",
-          "settings": {
-            "link": ""
-          }
+          "settings": { "link": "" }
         }
       },
       "block_order": [
@@ -166,33 +154,23 @@
       "blocks": {
         "image_item_d3TbQV": {
           "type": "image_item",
-          "settings": {
-            "link": ""
-          }
+          "settings": { "link": "" }
         },
         "image_item_eR43zY": {
           "type": "image_item",
-          "settings": {
-            "link": ""
-          }
+          "settings": { "link": "" }
         },
         "image_item_7CQdV4": {
           "type": "image_item",
-          "settings": {
-            "link": ""
-          }
+          "settings": { "link": "" }
         },
         "image_item_D9RJbR": {
           "type": "image_item",
-          "settings": {
-            "link": ""
-          }
+          "settings": { "link": "" }
         },
         "image_item_jNLKeV": {
           "type": "image_item",
-          "settings": {
-            "link": ""
-          }
+          "settings": { "link": "" }
         }
       },
       "block_order": [
@@ -262,9 +240,7 @@
             "head_btn_label": "View All",
             "head_btn_url": "shopify:\/\/blogs\/kariera",
             "collection": "damske-barefoot",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "content_align": "default",
             "limit": 3,
             "space_v_item": "30",
@@ -278,9 +254,7 @@
             "head_btn_label": "View All",
             "head_btn_url": "shopify:\/\/pages\/affiliate",
             "collection": "",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "content_align": "default",
             "limit": 3,
             "space_v_item": "30",
@@ -294,9 +268,7 @@
             "head_btn_label": "View All",
             "head_btn_url": "",
             "collection": "",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "content_align": "default",
             "limit": 3,
             "space_v_item": "30",
@@ -304,11 +276,7 @@
           }
         }
       },
-      "block_order": [
-        "product_EiLGef",
-        "product_igdpRW",
-        "product_XPAcx6"
-      ],
+      "block_order": ["product_EiLGef", "product_igdpRW", "product_XPAcx6"],
       "settings": {
         "design_heading": "7",
         "heading_align": "t4s-text-center",
@@ -357,9 +325,7 @@
             "head_btn_label": "View All",
             "head_btn_url": "shopify:\/\/pages\/affiliate-program-v-siti-affiliate-port",
             "collection": "",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "content_align": "default",
             "limit": 3,
             "space_v_item": "30",
@@ -373,9 +339,7 @@
             "head_btn_label": "View All",
             "head_btn_url": "shopify:\/\/blogs\/news\/jak-vazat-tkanicky",
             "collection": "",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "content_align": "default",
             "limit": 3,
             "space_v_item": "30",
@@ -389,9 +353,7 @@
             "head_btn_label": "View All",
             "head_btn_url": "shopify:\/\/blogs\/news\/jak-vazat-tkanicky",
             "collection": "",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "content_align": "default",
             "limit": 3,
             "space_v_item": "30",
@@ -399,11 +361,7 @@
           }
         }
       },
-      "block_order": [
-        "product_LMHnMr",
-        "product_bQj9UH",
-        "product_UnrEUb"
-      ],
+      "block_order": ["product_LMHnMr", "product_bQj9UH", "product_UnrEUb"],
       "settings": {
         "design_heading": "8",
         "heading_align": "t4s-text-center",
@@ -452,9 +410,7 @@
             "head_btn_label": "View All",
             "head_btn_url": "shopify:\/\/pages\/affiliate-program-v-siti-affiliate-port",
             "collection": "",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "content_align": "default",
             "limit": 3,
             "space_v_item": "30",
@@ -468,9 +424,7 @@
             "head_btn_label": "View All",
             "head_btn_url": "shopify:\/\/blogs\/news\/jak-vazat-tkanicky",
             "collection": "",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "content_align": "default",
             "limit": 3,
             "space_v_item": "30",
@@ -484,9 +438,7 @@
             "head_btn_label": "View All",
             "head_btn_url": "shopify:\/\/blogs\/news\/jak-vazat-tkanicky",
             "collection": "",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "content_align": "default",
             "limit": 3,
             "space_v_item": "30",
@@ -494,11 +446,7 @@
           }
         }
       },
-      "block_order": [
-        "product_c6Ywwm",
-        "product_FLyWRB",
-        "product_bpwHxq"
-      ],
+      "block_order": ["product_c6Ywwm", "product_FLyWRB", "product_bpwHxq"],
       "settings": {
         "design_heading": "9",
         "heading_align": "t4s-text-center",
@@ -923,11 +871,7 @@
           }
         }
       },
-      "block_order": [
-        "item_xX3BEG",
-        "item_UCYQck",
-        "item_mRXRA9"
-      ],
+      "block_order": ["item_xX3BEG", "item_UCYQck", "item_mRXRA9"],
       "settings": {
         "design_heading": "13",
         "heading_align": "t4s-text-center",
@@ -1039,11 +983,7 @@
           }
         }
       },
-      "block_order": [
-        "item_t3DJzB",
-        "item_azGfqQ",
-        "item_rVayFz"
-      ],
+      "block_order": ["item_t3DJzB", "item_azGfqQ", "item_rVayFz"],
       "settings": {
         "design_heading": "14",
         "heading_align": "t4s-text-center",
@@ -1125,10 +1065,7 @@
           }
         }
       },
-      "block_order": [
-        "product_c7bKhd",
-        "product_gYCE9k"
-      ],
+      "block_order": ["product_c7bKhd", "product_gYCE9k"],
       "settings": {
         "heading_align": "t4s-text-center",
         "top_heading": "Product deals of the day",
@@ -1311,11 +1248,7 @@
           }
         }
       },
-      "block_order": [
-        "member_9jYcDJ",
-        "member_DbM3pp",
-        "member_6VttkX"
-      ],
+      "block_order": ["member_9jYcDJ", "member_DbM3pp", "member_6VttkX"],
       "settings": {
         "design_heading": "16",
         "heading_align": "t4s-text-center",
@@ -1395,11 +1328,7 @@
           }
         }
       },
-      "block_order": [
-        "quote_nY7J4N",
-        "quote_cWicqh",
-        "quote_k76jEt"
-      ],
+      "block_order": ["quote_nY7J4N", "quote_cWicqh", "quote_k76jEt"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1565,9 +1494,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_9ghDNW"
-      ],
+      "block_order": ["bl_text_9ghDNW"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1604,7 +1531,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "Nadpis",
-            "text": "<p><a href=\"\/blogs\/news\/rozhovor-jak-spravne-sedet\" title=\"Rozhovor s Lukášem Klimperou na Českém rozhlasu: Jak správně sedět (nejen) u počítače\">Link 1<\/a><\/p>",
+            "text": "<p><a href=\"\/blogs\/news\/rozhovor-jak-spravne-sedet\" title=\"Interview with Lukáš Klimpera on Czech Radio: How to sit properly (not only) at the computer\">Link 1<\/a><\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1628,7 +1555,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "Nadpis",
-            "text": "<p><a href=\"\/blogs\/news\/rozhovor-jak-spravne-sedet\" title=\"Rozhovor s Lukášem Klimperou na Českém rozhlasu: Jak správně sedět (nejen) u počítače\">Link 1<\/a><\/p>",
+            "text": "<p><a href=\"\/blogs\/news\/rozhovor-jak-spravne-sedet\" title=\"Interview with Lukáš Klimpera on Czech Radio: How to sit properly (not only) at the computer\">Link 1<\/a><\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1652,7 +1579,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "Nadpis",
-            "text": "<p><a href=\"\/blogs\/news\/rozhovor-jak-spravne-sedet\" title=\"Rozhovor s Lukášem Klimperou na Českém rozhlasu: Jak správně sedět (nejen) u počítače\">Link 1<\/a><\/p>",
+            "text": "<p><a href=\"\/blogs\/news\/rozhovor-jak-spravne-sedet\" title=\"Interview with Lukáš Klimpera on Czech Radio: How to sit properly (not only) at the computer\">Link 1<\/a><\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1668,11 +1595,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_YQHThb",
-        "bl_text_npp3Ui",
-        "bl_text_mH8kb3"
-      ],
+      "block_order": ["bl_text_YQHThb", "bl_text_npp3Ui", "bl_text_mH8kb3"],
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -1821,7 +1744,7 @@
         "custom_text_9QQwCE": {
           "type": "custom_text",
           "settings": {
-            "text": "Nejlepsi boty",
+            "text": "Best shoes",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -1842,10 +1765,7 @@
           }
         }
       },
-      "block_order": [
-        "custom_text_rkNePp",
-        "custom_text_9QQwCE"
-      ],
+      "block_order": ["custom_text_rkNePp", "custom_text_9QQwCE"],
       "settings": {
         "se_height": "t4s_ratio16_9",
         "custom_dk": true,

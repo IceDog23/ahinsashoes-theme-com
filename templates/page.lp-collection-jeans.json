@@ -14,10 +14,7 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#f2f2f2",
-            "brc_mgb": 5
-          }
+          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -61,11 +58,7 @@
           }
         }
       },
-      "block_order": [
-        "3_KyNY6F",
-        "1_kiPXGQ",
-        "2_QpeXnY"
-      ],
+      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
       "disabled": true,
       "settings": {
         "heading_fullwidth": true,
@@ -92,7 +85,7 @@
         "custom_text_Ay7RPh": {
           "type": "custom_text",
           "settings": {
-            "text": "DEJTE SVÝM MILOVANÝM DŽÍNŮM NOVOU DUŠI",
+            "text": "GIVE YOUR BELOVED JEANS A NEW SOUL",
             "remove_br_tag": false,
             "tag": "h4",
             "fontf": "inherit",
@@ -138,7 +131,7 @@
         "custom_text_QAgVJ3": {
           "type": "custom_text",
           "settings": {
-            "text": "Zažily s vámi první rande, povýšení v práci i nejkrásnější výlety. A teď byste se měli rozloučit?<br>\nPočkejte chvíli! Pošlete své milované džíny nám.<br>\n<b>Vyrobíme z nich boty, které nebudete chtít zout.</b>",
+            "text": "They’ve been with you through first dates, promotions at work and the most beautiful trips. And now you should say goodbye?<br>\nWait a moment! Send your beloved jeans to us.<br>\n<b>We’ll make shoes from them that you won’t want to take off.<\/b>",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -172,7 +165,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 400,
-        "image": "shopify://shop_images/Untitled_500_x_560_px_af053834-1ffc-4b0f-9e1a-f8cd827fd2f4.png",
+        "image": "shopify:\/\/shop_images\/Untitled_500_x_560_px_af053834-1ffc-4b0f-9e1a-f8cd827fd2f4.png",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -221,41 +214,37 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "",
             "text": "",
-            "html": "<h6 style=\"margin-top:15px\">Šetříme planetu</h6>"
+            "html": "<h6 style=\"margin-top:15px\">We care for the planet<\/h6>"
           }
         },
         "shipping_KfzhP7": {
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/ico-replace.png",
+            "image_icon": "shopify:\/\/shop_images\/ico-replace.png",
             "icon": "las la-shipping-fast",
             "title": "",
             "text": "",
-            "html": "<h6 style=\"margin-top:15px\">Vdechneme džínům novou duši</h6>"
+            "html": "<h6 style=\"margin-top:15px\">We’ll breathe a new soul into jeans<\/h6>"
           }
         },
         "shipping_mmNH6x": {
           "type": "shipping",
           "settings": {
             "icon_themes": "none",
-            "image_icon": "shopify://shop_images/2_5f8579d2-d766-466d-996c-6496b18b43ff.png",
+            "image_icon": "shopify:\/\/shop_images\/2_5f8579d2-d766-466d-996c-6496b18b43ff.png",
             "icon": "las la-shipping-fast",
             "title": "",
             "text": "",
-            "html": "<h6 style=\"margin-top:15px\">Ručně ušijeme boty, které si zamilujete</h6>"
+            "html": "<h6 style=\"margin-top:15px\">We’ll sew you shoes you’ll fall in love with by hand<\/h6>"
           }
         }
       },
-      "block_order": [
-        "shipping_HDMKMa",
-        "shipping_KfzhP7",
-        "shipping_mmNH6x"
-      ],
+      "block_order": ["shipping_HDMKMa", "shipping_KfzhP7", "shipping_mmNH6x"],
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
@@ -328,9 +317,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -356,7 +343,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>1. Vyberte si velikost</h3><p></p><p>Už máte Ahinsa shoes? Výborně. Vaše džínové boty budou mít stejnou velikost.<br/><br/>Nemáte? Nevadí. Pečlivě si změřte nohy a mrkněte se na velikostní tabulky jednotlivých modelů.</p><p><a href=\"/pages/jak-spravne-vybrat-velikost\" title=\"Jak vybrat velikost?\"><strong>Jdu měřit</strong></a></p>",
+            "text": "<h3>1. Choose your size<\/h3><p><\/p><p>Already have Ahinsa shoes? Excellent. Your denim shoes will be the same size.<br\/><br\/>Don’t have a pair yet? No problem. Measure your feet carefully and check the size charts for each model.<\/p><p><a href=\"\/pages\/jak-spravne-vybrat-velikost\" title=\"How to choose your size?\"><strong>I’m going to measure<\/strong><\/a><\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -374,7 +361,7 @@
         "bl_image_maapLQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/pravitko.png",
+            "image1": "shopify:\/\/shop_images\/pravitko.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -401,16 +388,13 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_QFR6Gw",
-        "bl_image_maapLQ"
-      ],
+      "block_order": ["bl_text_QFR6Gw", "bl_image_maapLQ"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Od džínů k botám. Jak to funguje?",
+        "top_heading": "From jeans to shoes. How does it work?",
         "icon_heading": "las la-gem",
-        "top_subheading": "Nenechte milované džíny ležet na dně skříně. Už brzy je znovu oblečete – tedy obujete.",
+        "top_subheading": "Don’t let your beloved jeans sit at the bottom of the wardrobe. Soon you’ll wear them again — on your feet.",
         "tophead_mb": 50,
         "space_h_item": "20",
         "space_v_item": "10",
@@ -435,10 +419,10 @@
         "bl_image_AfxDDc": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/3_4a954b28-9621-4ead-86f7-207f25b6f0d2.png",
-            "image2": "shopify://shop_images/2_543f6c87-03cd-451e-994e-ee5beec79f2c.png",
-            "image3": "shopify://shop_images/1_c233ce42-5b95-42bb-b7e2-8d544218ea47.png",
-            "image4": "shopify://shop_images/4_a1c1c952-f20e-40c3-a79b-67d1691950fe.png",
+            "image1": "shopify:\/\/shop_images\/3_4a954b28-9621-4ead-86f7-207f25b6f0d2.png",
+            "image2": "shopify:\/\/shop_images\/2_543f6c87-03cd-451e-994e-ee5beec79f2c.png",
+            "image3": "shopify:\/\/shop_images\/1_c233ce42-5b95-42bb-b7e2-8d544218ea47.png",
+            "image4": "shopify:\/\/shop_images\/4_a1c1c952-f20e-40c3-a79b-67d1691950fe.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -475,7 +459,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong>2. Zvolte model svého ♥</strong></h3><p></p><p>Sandály? Balerínky? <strong>Je jen na vás, v co vaše džíny proměníme.</strong> Na sandály nebo polobotky nám vystačí jakékoliv džíny, na složitější modely raději pošlete dvoje.<br/></p><p>Jednáme na rovinu: Vyrobit boty z vašich džín chce čas, proto <strong>stojí o 20 % víc</strong> než naše klasické modely.</p><p><a href=\"/collections\" title=\"All collections\"><strong>Objevte naše modely</strong></a></p>",
+            "text": "<h3><strong>2. Choose the model of your ♥<\/strong><\/h3><p><\/p><p>Sandals? Ballet flats? <strong>It's up to you what we turn your jeans into.<\/strong> For sandals or casual shoes, any jeans will do; for more complex models, we'd rather you send two pairs.<br\/><\/p><p>We'll be straight with you: Making shoes from your jeans takes time, so they <strong>cost 20% more<\/strong> than our classic models.<\/p><p><a href=\"\/collections\" title=\"All collections\"><strong>Discover our models<\/strong><\/a><\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -491,10 +475,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_AfxDDc",
-        "bl_text_QM7mQC"
-      ],
+      "block_order": ["bl_image_AfxDDc", "bl_text_QM7mQC"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -533,7 +514,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>3. Pošlete džíny za námi</h3><p></p><p><strong>Pošlete nám je spolu s lístečkem</strong>, ze kterého se dozvíme:</p><p>• vybranou velikost a model</p><p>• váš e-mail, jméno a adresu</p><p>Posílejte na adresu:<br/>Ahinsa shoes<br/>Londýnská 309/81<br/>120 00 Praha 2<br/>Česká republika</p>",
+            "text": "<h3>3. Send the jeans to us<\/h3><p><\/p><p><strong>Send them together with a note<\/strong> telling us:<\/p><p>• the size and model you’ve chosen<\/p><p>• your email, name and address<\/p><p>Send them to:<br\/>Ahinsa shoes<br\/>Londýnská 309\/81<br\/>120 00 Praha 2<br\/>Czech Republic<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -551,7 +532,7 @@
         "bl_image_xiTHBH": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/balik.png",
+            "image1": "shopify:\/\/shop_images\/balik.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -578,10 +559,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_pbiyyh",
-        "bl_image_xiTHBH"
-      ],
+      "block_order": ["bl_text_pbiyyh", "bl_image_xiTHBH"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -612,7 +590,7 @@
         "bl_image_aVwdcL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/dziny.png",
+            "image1": "shopify:\/\/shop_images\/dziny.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -649,7 +627,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong>4. Počkejte na zprávu, že džíny využijeme</strong></h3><p></p><p>Jakmile k nám džíny dorazí, prohlédneme je a napíšeme vám, jestli je můžeme využít. </p><p><strong>Čím méně jsou džíny elastické, tím líp. </strong>Nejlépe se nám šije z pevné džínoviny, klasické skiny jeans na boty nejsou vhodné.</p>",
+            "text": "<h3><strong>4. Wait for a message that we can use the jeans<\/strong><\/h3><p><\/p><p>As soon as the jeans arrive, we’ll inspect them and write to you to say whether we can use them. <\/p><p><strong>The less stretch the jeans have, the better. <\/strong>We sew best from sturdy denim; classic skinny jeans aren’t suitable for shoes.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -665,10 +643,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_aVwdcL",
-        "bl_text_MJaMPU"
-      ],
+      "block_order": ["bl_image_aVwdcL", "bl_text_MJaMPU"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -707,7 +682,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>5. Za 40 dní se těšte na nové boty</h3><p></p><p>Džíny změříme, nastříháme, sešijeme, slepíme. A voilà, boty jsou na světě! </p><p>Použijeme střihy, které <strong>navrhli fyzioterapeuti</strong>, a naši ověřenou pružnou podrážku. Tyto boty s vámi ujdou miliony kroků.</p><p></p><p>Také už se nemůžete dočkat, až vaše milované džíny dostanou druhou šanci?<br/>Pošlete nám je ještě dnes.</p><p><strong>Placením se teď netrapte. </strong>Informace k platbě vám pošleme, až budou boty hotové.</p>",
+            "text": "<h3>5. In 40 days, look forward to your new shoes<\/h3><p><\/p><p>We'll measure the jeans, cut them, sew them, glue them. And voilà, the shoes are born! <\/p><p>We'll use patterns <strong>designed by physiotherapists<\/strong>, and our proven flexible sole. These shoes will take millions of steps with you.<\/p><p><\/p><p>Can't wait for your beloved jeans to get a second chance?<br\/>Send them to us today.<\/p><p><strong>Don't worry about payment now. <\/strong>We'll send you the payment information once the shoes are ready.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -725,7 +700,7 @@
         "bl_image_QRD8Aa": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Copy_of_Untitled_500_x_560_px.png",
+            "image1": "shopify:\/\/shop_images\/Copy_of_Untitled_500_x_560_px.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -752,10 +727,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_TV3FGy",
-        "bl_image_QRD8Aa"
-      ],
+      "block_order": ["bl_text_TV3FGy", "bl_image_QRD8Aa"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -787,10 +759,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "",
-            "text": "<p>Používáme střihy navržené fyzioterapeuty</p>",
+            "text": "<p>We use patterns designed by physiotherapists<\/p>",
             "html": ""
           }
         },
@@ -798,10 +770,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "",
-            "text": "<p>Nejpohodlnější boty na světě, <a href=\"/pages/nejlepsi-boty\" title=\"Lepší boty nenajdete. To garantujeme!\">to garantujeme</a>.</p>",
+            "text": "<p>The most comfortable shoes in the world, <a href=\"\/pages\/nejlepsi-boty\" title=\"You won’t find better shoes. Guaranteed!\">we guarantee it<\/a>.<\/p>",
             "html": ""
           }
         },
@@ -809,19 +781,15 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/2_5f8579d2-d766-466d-996c-6496b18b43ff.png",
+            "image_icon": "shopify:\/\/shop_images\/2_5f8579d2-d766-466d-996c-6496b18b43ff.png",
             "icon": "las la-shipping-fast",
             "title": "",
-            "text": "<p>Ručně vyrábíme v Česku a v Chorvatsku</p>",
+            "text": "<p>We make them by hand in the Czech Republic and Croatia<\/p>",
             "html": ""
           }
         }
       },
-      "block_order": [
-        "shipping_WUVMVi",
-        "shipping_JbAxfr",
-        "shipping_RnhAgG"
-      ],
+      "block_order": ["shipping_WUVMVi", "shipping_JbAxfr", "shipping_RnhAgG"],
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
@@ -881,7 +849,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>Které Ahinsa shoes jsou vašemu ♥ nejblíž?</h2><p><strong>Vyberte si, který model vám z džín ušijeme. </strong></p><p>Níž vidíte ceny běžných Ahinsa shoes. Ty džínové potřebují víc péče ve výrobě, proto stojí o 20 % více. </p><p>Vy ale máte jistotu, že druhé takové po světě nechodí. :) </p>",
+            "text": "<h2>Which Ahinsa shoes are closest to your ♥?<\/h2><p><strong>Choose which model we’ll sew for you from your jeans. <\/strong><\/p><p>Below you can see the prices of regular Ahinsa shoes. The denim ones need more care in production, so they cost 20% more. <\/p><p>But you can be sure that no other pair like them is walking the world. :) <\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -897,9 +865,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_Etpef9"
-      ],
+      "block_order": ["bl_text_Etpef9"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -931,7 +897,7 @@
           "type": "product",
           "settings": {
             "title": "",
-            "link_product": "shopify://products/damske-vegan-barefoot-bindu-cerna",
+            "link_product": "shopify:\/\/products\/damske-vegan-barefoot-bindu-cerna",
             "total": 100,
             "available": 75
           }
@@ -940,7 +906,7 @@
           "type": "product",
           "settings": {
             "title": "",
-            "link_product": "shopify://products/panske-cerna-spolecenska-ananda",
+            "link_product": "shopify:\/\/products\/panske-cerna-spolecenska-ananda",
             "total": 100,
             "available": 75
           }
@@ -949,7 +915,7 @@
           "type": "product",
           "settings": {
             "title": "",
-            "link_product": "shopify://products/ahinsa-comfort-sandaly-cerne",
+            "link_product": "shopify:\/\/products\/ahinsa-comfort-sandaly-cerne",
             "total": 100,
             "available": 75
           }
@@ -958,7 +924,7 @@
           "type": "product",
           "settings": {
             "title": "",
-            "link_product": "shopify://products/damske-cerna-barefoot-balerinka-cf",
+            "link_product": "shopify:\/\/products\/damske-cerna-barefoot-balerinka-cf",
             "total": 100,
             "available": 75
           }
@@ -970,9 +936,7 @@
         "product_4Vqfjz",
         "product_VwqzYB"
       ],
-      "custom_css": [
-        ".t4s-product-sizes {color: black;}"
-      ],
+      "custom_css": [".t4s-product-sizes { color: black; }"],
       "settings": {
         "heading_align": "t4s-text-center",
         "top_heading": "",
@@ -1042,72 +1006,72 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Z jakých džín můžete boty ušít?",
-            "content": "<p><strong>Čím pevnější látka, tím líp</strong>. Elastické džíny se na boty bohužel nehodí, bota by se deformovala a nevydržela by. Džíny klidně můžou být trochu potrhané nebo onošené.</p><p>Vybrali jste si šněrovací boty <a href=\"https://ahinsashoes.myshopify.com/products/damske-jaya-barefoot-vegan\" target=\"_blank\" title=\"Dámské (pod)zimní barefoot boty Jaya černé\">Jaya</a>, <a href=\"https://ahinsashoes.myshopify.com/products/kozacky-barefoot-cerne\" target=\"_blank\" title=\"Dámské barefoot kozačky černé\">kozačky</a>, kotníkové boty <a href=\"https://ahinsashoes.myshopify.com/products/damske-barefoot-trekking-bota-cerna\" target=\"_blank\" title=\"Dámské kotníkové barefoot boty Sundara Ankle černé\">Sundara</a> nebo <a href=\"https://ahinsashoes.myshopify.com/products/damske-barefoot-polokozacky-cerne\" target=\"_blank\" title=\"Dámské barefoot polokozačky černé\">polokozačky</a>? Radši nám pošlete velkou džínovou bundu nebo dvoje džíny, ať máme dost materiálu.</p>"
+            "title": "Which jeans can you sew shoes from?",
+            "content": "<p><strong>The sturdier the fabric, the better<\/strong>. Stretchy jeans unfortunately aren’t suitable for shoes – the shoe would deform and wouldn’t last. The jeans can happily be a little torn or worn.<\/p><p>Have you chosen lace-up <a href=\"https:\/\/ahinsashoes.myshopify.com\/products\/damske-jaya-barefoot-vegan\" target=\"_blank\" title=\"Women’s (late) autumn\/winter Jaya barefoot shoes in black\">Jaya<\/a> shoes, <a href=\"https:\/\/ahinsashoes.myshopify.com\/products\/kozacky-barefoot-cerne\" target=\"_blank\" title=\"Women’s black barefoot boots\">boots<\/a>, ankle boots <a href=\"https:\/\/ahinsashoes.myshopify.com\/products\/damske-barefoot-trekking-bota-cerna\" target=\"_blank\" title=\"Women’s black Sundara Ankle barefoot boots\">Sundara<\/a> or <a href=\"https:\/\/ahinsashoes.myshopify.com\/products\/damske-barefoot-polokozacky-cerne\" target=\"_blank\" title=\"Women’s black barefoot ankle boots\">ankle boots<\/a>? Please send us a large denim jacket or two pairs of jeans so we have enough material.<\/p>"
           }
         },
         "accor_item_4jADxR": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Jaké boty mi dokážete ušít?",
-            "content": "<p>Jakékoliv, které najdete v naší <a href=\"https://ahinsashoes.cz/collections/all\" target=\"_blank\" title=\"Celá nabídka Ahinsa shoes\">nabídce</a>. <a href=\"https://ahinsashoes.myshopify.com/products/ahinsa-comfort-sandaly-cerne\" target=\"_blank\" title=\"Dámské sandály černé\">Sandály</a>, <a href=\"https://ahinsashoes.myshopify.com/products/damske-vegan-barefoot-bindu-2-cerna\" target=\"_blank\" title=\"Bindu 2 Barefoot dámské polobotky černé\">polobotky</a>, <a href=\"https://ahinsashoes.myshopify.com/products/damske-vegan-barefoot-cerna-konopna-bindu\" target=\"_blank\" title=\"Dámské konopné barefoot tenisky Bindu 2 černé\">tenisky</a>, <a href=\"https://ahinsashoes.myshopify.com/products/ahinsa-bare-balerinka-cerna\" target=\"_blank\" title=\"Barefoot balerínky Ananda pro úzké nohy\">balerínky</a>,… <strong>Je to na vás.</strong> </p><p>Jen na složitější modely, jako jsou <a href=\"https://ahinsashoes.myshopify.com/products/kozacky-barefoot-cerne\" target=\"_blank\" title=\"Dámské barefoot kozačky černé\">kozačky</a> nebo <a href=\"https://ahinsashoes.myshopify.com/products/damske-jaya-barefoot-vegan\" target=\"_blank\" title=\"Dámské (pod)zimní barefoot boty Jaya černé\">kotníčkové boty</a>, potřebujeme víc materiálu. <strong>Pošlete raději dvoje džíny.</strong></p>"
+            "title": "What shoes can you sew for me?",
+            "content": "<p>Any of them you find in our <a href=\"https:\/\/ahinsashoes.cz\/collections\/all\" target=\"_blank\" title=\"Full Ahinsa shoes range\">range<\/a>. <a href=\"https:\/\/ahinsashoes.myshopify.com\/products\/ahinsa-comfort-sandaly-cerne\" target=\"_blank\" title=\"Women’s black sandals\">Sandals<\/a>, <a href=\"https:\/\/ahinsashoes.myshopify.com\/products\/damske-vegan-barefoot-bindu-2-cerna\" target=\"_blank\" title=\"Women’s black Bindu 2 Barefoot dress shoes\">dress shoes<\/a>, <a href=\"https:\/\/ahinsashoes.myshopify.com\/products\/damske-vegan-barefoot-cerna-konopna-bindu\" target=\"_blank\" title=\"Women’s black hemp Bindu 2 barefoot sneakers\">sneakers<\/a>, <a href=\"https:\/\/ahinsashoes.myshopify.com\/products\/ahinsa-bare-balerinka-cerna\" target=\"_blank\" title=\"Ananda barefoot ballet flats for narrow feet\">ballet flats<\/a>,… <strong>It’s up to you.<\/strong> <\/p><p>Only for more complex models, such as <a href=\"https:\/\/ahinsashoes.myshopify.com\/products\/kozacky-barefoot-cerne\" target=\"_blank\" title=\"Women’s black barefoot boots\">boots<\/a> or <a href=\"https:\/\/ahinsashoes.myshopify.com\/products\/damske-jaya-barefoot-vegan\" target=\"_blank\" title=\"Women’s (late) autumn\/winter Jaya barefoot shoes in black\">ankle boots<\/a>, we need more material. <strong>Please send two pairs of jeans.<\/strong><\/p>"
           }
         },
         "accor_item_KfxmBG": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Co se stane, když moje džíny nebudete moct využít?",
-            "content": "<p><strong>Dáme vám vědět e-mailem</strong> a domluvíme se na dalším postupu. Buď vám džíny vrátíme, nebo se postaráme o ekologickou likvidaci. </p><p>Ale nesmutněte, rádi vám vyrobíme jiné boty, ze kterých má příroda radost. Mrkněte na naši <a href=\"https://ahinsashoes.myshopify.com/pages/recyklovana-edice\" target=\"_blank\" title=\"Recyklovaná edice\">recyklovanou kolekci Ahinsa In Love with Life</a>.</p>"
+            "title": "What happens if you can’t use my jeans?",
+            "content": "<p><strong>We’ll let you know by email<\/strong> and agree the next steps. We’ll either return the jeans to you, or take care of ecological disposal. <\/p><p>But don’t be sad — we’ll gladly make you other shoes that nature is happy about. Take a look at our <a href=\"https:\/\/ahinsashoes.myshopify.com\/pages\/recyklovana-edice\" target=\"_blank\" title=\"Recycled collection\">recycled Ahinsa In Love with Life collection<\/a>.<\/p>"
           }
         },
         "accor_item_VptqVn": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Kolik za boty zaplatím?",
-            "content": "<p>Záleží na tom, jaký si vyberete model. Džínové boty potřebují víc péče ve výrobě, proto <strong>stojí o 20 % víc než naše klasické modely</strong>. Ale vy s nimi víte, že je nemá nikdo jiný.</p><p>Pro srovnání můžete mrknout na naše ostatní <a href=\"https://ahinsashoes.cz/collections/panove\"><span style=\"text-decoration:underline\">pánské</span></a> a <a href=\"https://ahinsashoes.cz/collections/damy\"><span style=\"text-decoration:underline\">dámské</span></a> boty.</p>"
+            "title": "How much will I pay for the shoes?",
+            "content": "<p>It depends on which model you choose. Denim shoes need more care in production, so they <strong>cost 20% more than our classic models<\/strong>. But with them, you know that no one else has a pair like yours.<\/p><p>For comparison, you can take a look at our other <a href=\"https:\/\/ahinsashoes.cz\/collections\/panove\"><span style=\"text-decoration:underline\">men's<\/span><\/a> and <a href=\"https:\/\/ahinsashoes.cz\/collections\/damy\"><span style=\"text-decoration:underline\">women's<\/span><\/a> shoes.<\/p>"
           }
         },
         "accor_item_YfjV8y": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Kdy boty zaplatím?",
-            "content": "<p>Až vaše boty vyrobíme, pošleme vám informace k platbě. Zatím se placením netrapte.</p>"
+            "title": "When do I pay for the shoes?",
+            "content": "<p>Once we make your shoes, we’ll send you payment details. Don’t worry about paying for now.<\/p>"
           }
         },
         "accor_item_xCnyrx": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Proč trvá 40 dní, než mi boty vyrobíte?",
-            "content": "<p>Protože je vyrábíme ručně.<strong>Ručně měříme, stříháme, lepíme, šijeme.</strong>Kvalita chce čas a my botám věnujeme takovou péči, jakou si zaslouží.</p>"
+            "title": "Why does it take 40 days to make my shoes?",
+            "content": "<p>Because we make them by hand. <strong>We measure, cut, glue and sew by hand.<\/strong> Quality takes time, and we give our shoes the care they deserve.<\/p>"
           }
         },
         "accor_item_pifBRM": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Jakou záruku mi na boty dáte?",
-            "content": "<p><strong>2 roky ručíme za veškerou svou práci.</strong>Pokud se vám bota rozlepí, cokoliv se pokazí na podrážce nebo jiné části, kterou jsme zajišťovali my, postaráme se o opravu nebo výměnu.<strong>Nemůžeme ale ručit za vaši džínovinu</strong>, proto se na ni záruka nevztahuje.</p>"
+            "title": "What warranty do you give on the shoes?",
+            "content": "<p><strong>We stand behind all of our work for 2 years.<\/strong>If a shoe comes unglued, or anything goes wrong with the outsole or another part we made, we’ll take care of a repair or a replacement.<strong>We can’t, however, stand behind your denim<\/strong>, so the warranty doesn’t cover it.<\/p>"
           }
         },
         "accor_item_BG4Aac": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Nevím si rady s výběrem velikosti. Pomůžete?",
-            "content": "<p>Samozřejmě, rádi! </p><p>1.<strong> Obkreslete obě nohy na papír.</strong> Při obkreslování držte tužku kolmo, nezajíždějte pod nohu.</p><p>2. Připište do obrázku rozměry.</p><p>3. Obrázek nám <strong>pošlete spolu s džíny</strong>.</p><p>4. Připojte fotku svých nohou (můžete ji poslat na info@ahinsashoes.com).</p><p>Ozveme se vám a poradíme, jaká velikost vám sedne.</p>"
+            "title": "I don’t know how to choose my size. Can you help?",
+            "content": "<p>Of course, we’d be glad to! <\/p><p>1.<strong> Trace an outline of both feet on a piece of paper.<\/strong> When tracing, keep the pencil upright and don’t draw under the foot.<\/p><p>2. Write the measurements onto the outline.<\/p><p>3. <strong>Send us the outline together with the jeans<\/strong>.<\/p><p>4. Attach a photo of your feet (you can send it to info@ahinsashoes.com).<\/p><p>We’ll get back to you and advise which size will fit.<\/p>"
           }
         },
         "accor_item_xqURqR": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Co když mi boty nesednou. Můžu je vrátit?",
-            "content": "<p>Džínové boty jsme ušili přímo pro vás, proto je bohužel <strong>nemůžete vrátit</strong>. </p><p>Doporučujeme při výběru věnovat pozornost správné velikosti. Jestli si nevíte rady, rádi pomůžeme, napište nám na <a href=\"mailto:info@ahinsashoes.com\" title=\"mailto:info@ahinsashoes.com\">info@ahinsashoes.com</a>.</p>"
+            "title": "What if the shoes don’t fit. Can I return them?",
+            "content": "<p>We sewed the denim shoes especially for you, so unfortunately you <strong>cannot return them<\/strong>. <\/p><p>We recommend paying close attention to the right size when you choose. If you’re unsure, we’re happy to help — write to us at <a href=\"mailto:info@ahinsashoes.com\" title=\"mailto:info@ahinsashoes.com\">info@ahinsashoes.com<\/a>.<\/p>"
           }
         }
       },
@@ -1125,7 +1089,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Ptáte se nás",
+        "top_heading": "You ask us",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -1158,42 +1122,36 @@
         "logo_item_6wj4NJ": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/forbes_063611d7-29ee-48c4-91da-df18f29f2fc8.png",
+            "image": "shopify:\/\/shop_images\/forbes_063611d7-29ee-48c4-91da-df18f29f2fc8.png",
             "url": ""
           }
         },
         "logo_item_bKzKh7": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/czechcrunch_52403237-b571-4134-a444-184a164d6895.png",
+            "image": "shopify:\/\/shop_images\/czechcrunch_52403237-b571-4134-a444-184a164d6895.png",
             "url": ""
           }
         },
         "logo_item_pLM9ih": {
           "type": "logo_item",
-          "settings": {
-            "image": "shopify://shop_images/bazaar.png",
-            "url": ""
-          }
+          "settings": { "image": "shopify:\/\/shop_images\/bazaar.png", "url": "" }
         },
         "logo_item_BGfd8A": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/seznamzpravy.png",
+            "image": "shopify:\/\/shop_images\/seznamzpravy.png",
             "url": ""
           }
         },
         "logo_item_K9Yi6q": {
           "type": "logo_item",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "url": ""
-          }
+          "settings": { "image": "shopify:\/\/shop_images\/vogue.png", "url": "" }
         },
         "logo_item_DkVWqL": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/marianne.png",
+            "image": "shopify:\/\/shop_images\/marianne.png",
             "url": ""
           }
         }
@@ -1209,9 +1167,9 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Už jste o nás slyšeli?",
+        "top_heading": "Heard of us before?",
         "icon_heading": "las la-gem",
-        "top_subheading": "Ahinsa shoes jste mohli vidět v těchto médiích",
+        "top_subheading": "You might have seen Ahinsa shoes in these media",
         "tophead_mb": 30,
         "img_effect": "none",
         "b_effect": "none",
@@ -1258,10 +1216,10 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Magazín o zdravé chůzi",
-        "bt_lb": "ZOBRAZIT DALŠÍ ČLÁNKY",
+        "top_heading": "Magazine on healthy walking",
+        "bt_lb": "SHOW MORE ARTICLES",
         "icon_heading": "las la-gem",
-        "top_subheading": "Píšeme ve spolupráci s fyzioterapeuty",
+        "top_subheading": "Written in collaboration with physiotherapists",
         "tophead_mb": 30,
         "blog": "news",
         "post_des": "1",

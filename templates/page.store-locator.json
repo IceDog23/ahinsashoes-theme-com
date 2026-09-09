@@ -35,10 +35,7 @@
         },
         "7cd255d5-40e9-4da7-8d3d-be1407a27726": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#868686",
-            "brc_mgb": 5
-          }
+          "settings": { "breadcrumb_color": "#868686", "brc_mgb": 5 }
         }
       },
       "block_order": [
@@ -116,8 +113,5 @@
       }
     }
   },
-  "order": [
-    "heading",
-    "main"
-  ]
+  "order": ["heading", "main"]
 }

@@ -1,1 +1,746 @@
-{"sections":{"hero_image_8kAGbR":{"type":"hero_image","blocks":{"custom_text_LM7Wfr":{"type":"custom_text","settings":{"text":"Nejčastěji se ptáte","remove_br_tag":false,"tag":"h2","fontf":"inherit","text_cl":"#ffffff","text_fs":39,"text_lh":70,"text_fw":600,"text_ls":0,"text_mgb":25,"font_italic":false,"text_shadow":false,"hidden_mobile":false,"text_fs_mb":31,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10,"animation":"none"}},"custom_text_dFRRc3":{"type":"custom_text","settings":{"text":"Poradíme vám, které vybrat. A každý krok bude radost.","remove_br_tag":false,"tag":"p","fontf":"inherit","text_cl":"#ffffff","text_fs":16,"text_lh":0,"text_fw":400,"text_ls":1,"text_mgb":15,"font_italic":false,"text_shadow":false,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10,"animation":"none"}},"custom_button_yxmpVF":{"type":"custom_button","settings":{"button_text":"Button label","button_link":"","target_link":"_self","fontf":"inherit","button_icon_w":0,"button_style":"default","button_effect":"default","pri_cl":"#222222","second_cl":"#ffffff","pri_cl_hover":"#56cfe1","second_cl_hover":"#ffffff","fsbutton":14,"fwbutton":400,"button_ls":0,"button_mh":42,"button_bdr":0,"button_pd_lr":20,"button_mgb":0,"hidden_mobile":false,"button_icon_w_mb":0,"fsbutton_mb":10,"button_mh_mb":36,"button_pd_lr_mb":15,"button_ls_mb":0,"button_mgb_mb":0,"animation":"none"}}},"block_order":["custom_text_LM7Wfr","custom_text_dFRRc3","custom_button_yxmpVF"],"settings":{"se_height":"t4s_ratio_cuspx","custom_dk":true,"height_dk":550,"custom_tb":true,"height_tb":400,"custom_mb":true,"height_mb":400,"image":"shopify:\/\/shop_images\/AUM09791.jpg","parallax":false,"image_position":"7","link_img1":"","open_link":"_blank","text_align":"center","text_align_mb":"center","content_width":"container","cv_pos":50,"ch_pos":50,"cv_pos_mb":50,"ch_pos_mb":50,"bg_overlay":"#000000","bg_opacity":50,"bg_content_cl":"#ffffff","bg_content_op":0,"content_pd_tb":15,"content_pd_lr":15,"content_pd_tb_mb":10,"content_pd_lr_mb":10,"border_bl":false,"br_color":"#222222","br_bg":"#ffffff","br_opacity":50,"br_style":"solid","br_pd":20,"br_pd_mb":10,"time_animation":1,"animation_delay":40,"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"heading":{"type":"heading-template","blocks":{"ba0c8e30-c11a-4ab7-97c4-4acc1a053a3e":{"type":"1","settings":{"heading":"FAQ","fontf":"inherit","text_cl":"#ffffff","text_fs":20,"text_lh":20,"text_fw":500,"text_ls":0,"font_italic":false,"font_uppercase":false,"text_shadow":false,"text_mgb":15,"hidden_mobile":false,"text_fs_mb":20,"text_lh_mb":20,"text_ls_mb":0,"text_mgb_mobile":10}},"ceaf2fff-8462-4040-83d5-7f7019d65b8d":{"type":"3","settings":{"breadcrumb_color":"#f2f2f2","brc_mgb":5}}},"block_order":["ba0c8e30-c11a-4ab7-97c4-4acc1a053a3e","ceaf2fff-8462-4040-83d5-7f7019d65b8d"],"disabled":true,"settings":{"heading_fullwidth":false,"use_specify_image":true,"parallax":false,"color":"#000000","overlay":54,"padding":50,"paddingmb":50,"mg_b":70,"mg_bmb":50,"content_align":"t4s-text-center","bg_pos":"center center","bg_repeat":"no-repeat","bg_size":"cover","use_cus_css":false,"code_cus_css":".SectionID {\nbackground-color:red\n}"}},"main":{"type":"main-page","disabled":true,"settings":{"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":"60px,,60px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":""}},"sidebar-page":{"type":"sidebar-page","blocks":{"f69681ed-b75e-42de-be58-fdf73b3b7e08":{"type":"blog_cate","settings":{"title":"Blog categories","cat_link_list":"","count":true}}},"block_order":["f69681ed-b75e-42de-be58-fdf73b3b7e08"],"disabled":true,"settings":{"enable_drawer":false,"space":50,"size":"medium","br_style":"none","brcolor":"#222222","sidebar_bdr":5,"sidebar_pd":10}},"accordion_a3yCa7":{"type":"accordion","blocks":{"accor_item_atpFTK":{"type":"accor_item","settings":{"icon":"none","title":"Jak vyprat boty? Jak prát boty v pračce?","content":"<p>Boty Ahinsa shoes <strong>nedoporučujeme prát v pračce<\/strong>. Vyšší teplota a otáčky jim nesvědčí, mohly by způsobit rozlepení nebo poničení materiálu. U jiných výrobců hledejte návod od výrobce, obecně se ale praní bot v pračce nedoporučuje.<\/p><p>Pokud jste si vybrali boty z <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">mikrovlákna CF+<\/span><\/a>, dokonce ani praní nepotřebují – stačí je přetřít vlhkým hadříkem. <\/p><h6>Jak vyprat boty ze semiše, konopí, plátna a dalších materiálů?<\/h6><p>Boty perte v <strong>citlivě v ruce<\/strong>, aby vydržely co nejdéle. Nám se při praní bot osvědčily tyto tipy, které jsou vhodné i pro citlivé přírodní materiály.<\/p><ul><li>Čistěte <strong>jemně<\/strong> mýdlovou vodou.<\/li><li>Vyzkoušejte <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicka-cistici-sada-obuvi-2go\"><span style=\"text-decoration:underline\">ekologickou čisticí sadu<\/span><\/a>.<\/li><\/ul><p>Pokud boty zapáchají, vysušte je, nechte vyvětrat a použijte <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicky-osvezovac-obuvi-2go-1\"><span style=\"text-decoration:underline\">osvěžovač bot<\/span><\/a>.<\/p><p><strong>Tip:<\/strong> Přečtěte si podrobná doporučení na stránce <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-pecovat-o-boty\"><span style=\"text-decoration:underline\">Jak správně pečovat o boty<\/span><\/a>. Se zápachem poradíme v článku <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">7 + 5 ověřených tipů, jak se zbavit zápachu z bot<\/span><\/a>.<\/p>"}},"accor_item_bacbKm":{"type":"accor_item","settings":{"icon":"none","title":"Na kolik prát boty?","content":"<p>Boty Ahinsa shoes <strong>nemají pračku rády<\/strong>. Proto je v pračce nikdy neperte a <strong>nesušte je na topení<\/strong>. Stejné varování platí pro většinu značek bot. V pračce a na topení se může rozlepit lepidlo, které spojuje jednotlivé díly boty.<\/p><p>V pračce můžete vyprat například <a href=\"https:\/\/ahinsashoes.cz\/collections\/doplnky\/Tkani%C4%8Dky\"><span style=\"text-decoration:underline\">tkaničky<\/span><\/a> nebo <a href=\"https:\/\/ahinsashoes.cz\/collections\/doplnky\/st%C3%A9lky\"><span style=\"text-decoration:underline\">vložky do bot<\/span><\/a>, celé boty však do pračky nepatří. Pokud budete prát tkaničky, doporučujeme je vložit do <strong>sáčku nebo síťky na praní<\/strong>.<\/p><h6>Jak prát boty, když nemůžou do pračky?<\/h6><p>Pokud jste si vybrali boty z <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">mikrovlákna CF+<\/span><\/a>, dokonce ani <strong>praní nepotřebují<\/strong>. Stačí je přetřít vlhkým hadříkem. Pro boty z jiných materiálů, jako je konopí, plátno nebo džínovina, doporučujeme:<\/p><ul><li>Čistěte <strong>jemně<\/strong> mýdlovou vodou.<\/li><li>Vyzkoušejte <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicka-cistici-sada-obuvi-2go\"><span style=\"text-decoration:underline\">ekologickou čisticí sadu<\/span><\/a>.<\/li><li>Pokud boty zapáchají, vysušte je, nechte vyvětrat a použijte <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicky-osvezovac-obuvi-2go-1\"><span style=\"text-decoration:underline\">osvěžovač bot<\/span><\/a>.<\/li><\/ul><p><strong>Tip:<\/strong> Přečtěte si podrobná doporučení na stránce <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-pecovat-o-boty\"><span style=\"text-decoration:underline\">Jak správně pečovat o boty<\/span><\/a>. Se zápachem poradíme v článku <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">7 + 5 ověřených tipů, jak se zbavit zápachu z bot<\/span><\/a>.<\/p>"}},"accor_item_VEQGRn":{"type":"accor_item","settings":{"icon":"none","title":"Jak vyčistit boty?","content":"<p>Většinu modelů bot Ahinsa shoes vyrábíme z <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">mikrovlákna CF+<\/span><\/a>. Nečistoty zůstávají na jeho povrchu, proto ho při zašpinění stačí <strong>setřít vlhkým hadříkem<\/strong>. Čištění je tak velmi, velmi jednoduché.<\/p><p>Boty <strong>nikdy neperte v pračce <\/strong>a <strong>nesušte je na topení<\/strong>. Vysoké teploty a otáčky jim nedělají dobře, mohly by poškodit materiál a boty rozlepit. Proto boty vždy čistěte jemně v ruce.<\/p><h6>Jak vyčistit boty z dalších materiálů?<\/h6><p>Ostatní materiály (semiš, plátno, konopí a další) mohou být citlivější na údržbu. Proto doporučujeme <strong>prát je v ruce, nikdy nedrhnout<\/strong>. Tady jsou tipy, které se nám osvědčily a budou fungovat i u jiných značek bot:<\/p><ul><li>Čistěte <strong>jemně<\/strong> mýdlovou vodou.<\/li><li>Vyzkoušejte <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicka-cistici-sada-obuvi-2go\"><span style=\"text-decoration:underline\">ekologickou čisticí sadu<\/span><\/a>.<\/li><li>Pokud boty zapáchají, vysušte je, nechte vyvětrat a použijte <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicky-osvezovac-obuvi-2go-1\"><span style=\"text-decoration:underline\">osvěžovač bot<\/span><\/a>.<\/li><\/ul><p><strong>Tip:<\/strong> Přečtěte si podrobná doporučení na stránce <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-pecovat-o-boty\"><span style=\"text-decoration:underline\">Jak správně pečovat o boty<\/span><\/a>. Se zápachem poradíme v článku <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">7 + 5 ověřených tipů, jak se zbavit zápachu z bot<\/span><\/a>.<\/p>"}},"accor_item_wYMbRm":{"type":"accor_item","settings":{"icon":"none","title":"Jak odstranit zápach z bot?","content":"<p>Za zápach mohou bakterie, které se množí ve vlhku. Proto <strong>nechte boty nejdřív pořádně vyschnout a vyvětrat<\/strong>. V zimě si můžete pomoct novinami. Ale pozor, nikdy boty nesušte na topení, mohly by se rozlepit. Také je nedoporučujeme prát v pračce, teplá voda a vysoké otáčky jim škodí.<\/p><p>S akutním zápachem vám pomůže <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicky-osvezovac-obuvi-2go-1\"><span style=\"text-decoration:underline\">osvěžovač bot<\/span><\/a>, který zápach likviduje. Případně zkuste <strong>pohlcovače pachů<\/strong>, jako je cedrové dřevo.<\/p><h6>Jak se zbavit zápachu z bot jednou pro vždy?<\/h6><p>Určitě se chcete zápachu zbavit navždy, nemáme pravdu? Jestli ano, <strong>řešte příčinu<\/strong>. Boty nesmrdí samy od sebe – zápach vytváří bakterie, kterým se daří ve vlhkém a uzavřeném prostředí. <\/p><p>Ujistěte se, že máte v botách <strong>dostatek místa<\/strong>. Stísněné nohy se potí víc. Obouvejte jen boty z <strong>prodyšných materiálů<\/strong>, které odvádí vlhkost ven. A do bot obujte <a href=\"https:\/\/ahinsashoes.cz\/collections\/doplnky\/kategorie-pono%C5%BEky\"><span style=\"text-decoration:underline\">ponožky z přírodních materiálů<\/span><\/a>, jako je bambus.<\/p><p><strong>Tip:<\/strong> Více rad najdete v článku <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">7 + 5 ověřených tipů, jak se zbavit zápachu z bot<\/span><\/a>.<\/p>"}},"accor_item_HFFtmT":{"type":"accor_item","settings":{"icon":"none","title":"Jak vyčistit vnitřek barefoot bot?","content":"<p>Barefoot boty Ahinsa shoes nemají rády pračku, proto je <strong>vždy čistěte v ruce<\/strong> a sušte pomalu na vzduchu. Nikdy je nesušte na topení. Vnitřek boty můžete vyčistit <strong>mýdlovou vodou<\/strong> nebo ekologickým čističem. Nám se osvědčila <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicka-cistici-sada-obuvi-2go\"><span style=\"text-decoration:underline\">tato čisticí sada<\/span><\/a>. <\/p><p>Doporučujeme čistit vnitřek bot jemně krouživými pohyby. Dobře bude fungovat hadřík, houbička nebo jemný kartáček na čištění.<\/p><h6>Čistíte boty kvůli zápachu? Tady jsou naše tipy<\/h6><p>Zápach způsobují bakterie, které se množí ve vlhku. Proto <strong>nechte boty nejdřív pořádně vyschnout a vyvětrat<\/strong>. V zimě si můžete pomoct novinami. Ale pozor, nikdy boty nesušte na topení, mohly by se rozlepit. Také je nedoporučujeme prát v pračce, teplá voda a vysoké otáčky jim škodí.<\/p><p>S akutním zápachem vám pomůže <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicky-osvezovac-obuvi-2go-1\"><span style=\"text-decoration:underline\">osvěžovač bot<\/span><\/a>, který zápach likviduje. Případně zkuste <strong>pohlcovače pachů<\/strong>, jako je cedrové dřevo.<\/p><p><strong>Tip:<\/strong> Více rad najdete v článku <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">7 + 5 ověřených tipů, jak se zbavit zápachu z bot<\/span><\/a>.<\/p>"}}},"block_order":["accor_item_atpFTK","accor_item_bacbKm","accor_item_VEQGRn","accor_item_wYMbRm","accor_item_HFFtmT"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"Údržba a čištění bot","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"accor_des":"1","title_cl":"#202020","bg_title_cl":"#f6f6f8","title_active_cl":"#000000","bg_title_active_cl":"#f6f6f8","content_cl":"#202020","bg_content_cl":"#ffffff","content_align":"t4s-text-start","auto_active":true,"layout":"t4s-cus-width","custom_width":1000,"cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"accordion_JYCBFW":{"type":"accordion","blocks":{"accor_item_aeYDtb":{"type":"accor_item","settings":{"icon":"none","title":"Jak změkčit patu boty?","content":"<p>Ahinsa shoes <strong>nemusíte změkčovat<\/strong>. Vyrábíme je především z <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">mikrovlákna CF+<\/span><\/a>, které se noze přizpůsobí. Tužší můžou být boty z přírodních materiálů, jako je konopí nebo len. U nich stačí počkat, <strong>časem se vaší noze přizpůsobí a změknou<\/strong>.<\/p><p>Jestli vás pata i přesto tlačí, <a href=\"https:\/\/ahinsashoes.cz\/pages\/kontakt\"><span style=\"text-decoration:underline\">ozvěte se nám<\/span><\/a>. Podíváme se na to.<\/p><h6>Když pata dře, ukazuje to na problém.<\/h6><p>Pata zdravých bot, které vám sedí, by vás dřít neměla. Je možné, že bude chvíli trvat, než povolí například tužší kožené boty. <strong>Delší dobu by ale pata neměla tlačit<\/strong>, a už vůbec ne dřít a způsobovat puchýře a otlačeniny.<\/p><p>Jestli vás boty dřou, nejspíš jste vybrali <strong>špatnou velikost nebo model<\/strong>. Zaměřte se ve výběru na to, abyste měli v botě dost místa na svobodný pohyb. Bota by neměla mít vyztuženou patu a měla by se přizpůsobit pohybu chodidla. Proto ani Ahinsa shoes nemají na patě výztuhu a sednou vám na první obutí.<\/p>"}},"accor_item_AwkV8U":{"type":"accor_item","settings":{"icon":"none","title":"Jak změřit velikost boty? Jak změřit stélku boty?","content":"<p>Stélka v botách Ahinsa shoes (i v řadě jiných bot) bývá přilepená, aby se v botě nehýbala. Proto ji <strong>nemůžete vyjmout a změřit<\/strong>. Zjistit její délku je ale snadné. Podívejte se na velikost boty a najděte ji v našich tabulkách velikostí.<\/p><h6>Vybírat velikost bot podle starých bot nedoporučujeme. Jak na to jinak?<\/h6><p><\/p><p>Pokud chcete zjistit velikost stélky, <strong>vyjměte ji z boty<\/strong> a změřte její <strong>nejdelší rozměr<\/strong>. Podle tabulek velikosti zjistíte, jaké velikosti délka vložky odpovídá.<\/p><p>Vybírat velikost nových bot podle této informace ale nedoporučujeme, protože je to velmi nepřesné. Radši pečlivě změřte své nohy, abyste měli jistotu, že vám boty opravdu sednou. Jak na to?<\/p><p>Potřebujete <strong>změřit nohu <\/strong>a vybrat velikost? Zkuste to takto:<\/p><ol><li>Stoupněte si <strong>patou úplně ke zdi<\/strong>.<\/li><li>Položte <strong>krabici<\/strong> (nebo jiný předmět s rovnou hranou) před prsty tak, aby se dotýkala nejdelšího prstu.<\/li><li>Zatižte nohu.<\/li><li>Přidržte krabici a zvedněte nohu tak, aby se krabice nepohnula.<\/li><li>Změřte vzdálenost od krabice k okraji papíru. Pozor, měřte kolmo ke krátké straně papíru!<\/li><\/ol><p>Při výběru velikosti nezapomeňte připočítat <strong>nadměrek<\/strong> – to je cca 0,5 cm volného prostoru před prsty, díky kterým se může noha přirozeně natahovat a smršťovat.<\/p><p><strong>Tip: <\/strong>Podrobný návod najdete na stránce <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\">Jak vybrat velikost<\/span><\/a>.<\/p>"}},"accor_item_WDLVi4":{"type":"accor_item","settings":{"icon":"none","title":"Jak vybrat velikost bot?","content":"<p>Nikdy <strong>nevybírejte jen podle velikosti<\/strong>, na kterou jste zvyklí. Každý výrobce čísluje boty trochu jinak, proto vám boty nemusí sedět. Doporučujeme nejdřív <strong>pečlivě změřit délku chodidla<\/strong>. Jak na to popisujeme na stránce <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\">Jak správně vybrat velikost<\/span><\/a>.<\/p><h6>Jak správně změřit délku chodidla a vybrat velikost?<\/h6><p><\/p><p>Budete potřebovat krabici nebo jiný předmět s rovnou hranou a dlouhé pravítko. Postup je jednoduchý:<\/p><ol><li>Stoupněte si <strong>patou úplně ke zdi<\/strong>.<\/li><li>Položte <strong>krabici<\/strong> (nebo jiný předmět s rovnou hranou) před prsty tak, aby se dotýkala nejdelšího prstu.<\/li><li>Zatižte nohu.<\/li><li>Přidržte krabici a zvedněte nohu tak, aby se krabice nepohnula.<\/li><li>Změřte vzdálenost od krabice k okraji papíru. Pozor, měřte kolmo ke krátké straně papíru!<\/li><\/ol><p>Připočítejte <strong>nadměrek<\/strong> – to je cca 0,5 cm volného prostoru před prsty, díky kterým se může noha přirozeně natahovat a smršťovat.<\/p><p>Potom se <strong>podívejte na tabulku velikostí<\/strong> u modelu bot, který jste si vybrali. Podle délky vašeho chodidla s nadměrkem snadno vyberete velikost. Kdybyste váhali mezi dvěma velikostmi, vyberte tu větší. <\/p><p><strong>Tip:<\/strong> Kdyby vám boty nesedly, bleskurychle je vyměníme a zaplatíme poštovné. <a href=\"https:\/\/ahinsashoes.cz\/policies\/refund-policy\"><span style=\"text-decoration:underline\">Jak to funguje?<\/span><\/a><\/p>"}},"accor_item_pUDPJw":{"type":"accor_item","settings":{"icon":"none","title":"Jak roztáhnout sportovní boty?","content":"<p>Sportovní boty Ahinsa shoes <strong>roztahovat nemusíte<\/strong>. Vyrábíme je z materiálů, které jsou poddajné a <strong>přizpůsobí se vám<\/strong> a vašemu stylu chůze a běhu. Jestli vás Ahinsa shoes tlačí, je možné, že jste vybrali špatnou velikost. <a href=\"https:\/\/ahinsashoes.cz\/pages\/kontakt\"><span style=\"text-decoration:underline\">Ozvěte se nám<\/span><\/a>, rádi s výběrem poradíme.<\/p><p>Roztáhnutí mohou potřebovat sportovní boty z tuhé kůže. U nich zpravidla stačí boty chvíli nosit, časem změknou a přizpůsobí se. <\/p><h6>Když vás bota tlačí, ukazuje to na problém.<\/h6><p><\/p><p>Zdravé sportovní boty, které vám sedí, by vás dřít neměly. Je možné, že bude chvíli trvat, než povolí například tužší kožené boty. <strong>Delší dobu by ale neměly tlačit<\/strong>, a už vůbec ne dřít a způsobovat puchýře a otlačeniny.<\/p><p>Jestli vás boty dřou, nejspíš jste vybrali <strong>špatnou velikost nebo model<\/strong>. Zaměřte se ve výběru na to, abyste měli v botě dost místa na svobodný pohyb. Klíčová je široká špička a přizpůsobivé materiály, které kopírují pohyb vaší nohy. <\/p><p><strong>Tip:<\/strong> S výběrem zdravých bot na sport vám pomůže článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-bezecke-boty\"><span style=\"text-decoration:underline\">Jak vybrat běžecké boty? Odpružení vám ubližuje, říkají studie<\/span><\/a>.<\/p>"}},"accor_item_ffXVwQ":{"type":"accor_item","settings":{"icon":"none","title":"K čemu jsou boty se širokou špičkou?","content":"<p>Jsme rádi, že se ptáte. Na široké špičce si zakládáme. Když se podíváte na <strong>lidskou nohu<\/strong>, uvidíte, že <strong>není špičatá<\/strong>. To znamená, že tvar běžných bot neodpovídá tomu, co naše noha potřebuje. <\/p><p>Proto v Ahinsa shoes vyrábíme boty s širokou špičkou. Aby se <strong>prsty netlačily<\/strong> a mohly přirozeně fungovat. Když dáte prstům svobodu, předcházíte vbočenému palci, <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/patni-ostruha\"><span style=\"text-decoration:underline\">patní ostruze<\/span><\/a> a dalším potížím.<\/p><p><strong>Tip:<\/strong> Stáhněte si zdarma e-book <a href=\"https:\/\/ahinsashoes.cz\/pages\/spokojene-nohy\"><span style=\"text-decoration:underline\">Spokojené nohy: Nejčastější potíže nohou a cvičení na ně<\/span><\/a>.<\/p><h6>Proč je široká špička tak důležitá?<\/h6><p><\/p><p>Pro zdravou chůzi jsou velmi důležité <strong>prsty<\/strong>. Od nich se odrážíme a zároveň pomocí nich tlumíme došlapy. Prsty také <strong>aktivují klenbu<\/strong>, která se stará o odpružení kroku, a získáváme díky nim rovnováhu.<\/p><p>A právě prsty stahujeme <strong>v běžných botách do nepřirozené špičky<\/strong>. Výsledky na sebe nenechají dlouho čekat. Prsty se nemohou hýbat, a tak ztrácíme schopnost je používat. Hledáme si jiné, nepřirozené způsoby chůze. Kvůli neaktivním prstům také <strong>ochabují svaly chodidla<\/strong> a <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vylecit-ploche-nohy\"><span style=\"text-decoration:underline\">propadá se klenba<\/span><\/a>. <\/p><p>Široká špička je proto<strong> zásadní pro správné fungování nohy<\/strong>. Prsty v ní mají dostatek prostoru, aby plnily svou funkci. A vy chodíte zdravě a přirozeně.<\/p>"}},"accor_item_GXgjVg":{"type":"accor_item","settings":{"icon":"none","title":"Jak se poznají malé boty?","content":"<p>Jestli si tuto otázku podkládáte, nejspíš už sami cítíte, že vás <strong>boty nějak omezují<\/strong>. To je vždy špatné znamení. Zdravé boty neomezují a neovlivňují vaši chůzi. Naopak vám dávají dostatek prostoru a kopírují váš pohyb. Když vám boty dobře sedí, skoro o nich nevíte.<\/p><h6>Jak tedy poznám malé boty?<\/h6><p><\/p><p>Nemusí vás nutně dřít nebo tvořit puchýře. Malé boty poznáte už podle těchto znamení:<\/p><ul><li>Tlačí vás.<\/li><li>Před prsty nemáte volný prostor.<\/li><li>Vyzouvají se.<\/li><li>Při chůzi narážíte prsty o špičku.<\/li><\/ul><p>Při výběru bot si vždy nejprve dobře změřte nohy. Vybírejte podle <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\">tabulek velikostí<\/span><\/a>, které uvádí výrobce, ne podle velikosti, na kterou jste zvyklí. Doporučujeme vždy přidat k délce vašeho chodidla cca 0,5 cm navíc – tzv. <strong>nadměrek<\/strong>. To je volný prostor před prsty, díky kterému se může noha při chůzi přirozeně natahovat a smršťovat.<\/p><p>Nesedí vám Ahinsa shoes a ještě jste je nevzali ven? <a href=\"https:\/\/ahinsashoes.cz\/policies\/refund-policy\"><span style=\"text-decoration:underline\">Napište nám<\/span><\/a>, bleskurychle vám pošleme nové a zaplatíme poštovné.<\/p>"}},"accor_item_UEFTrD":{"type":"accor_item","settings":{"icon":"none","title":"Jak by měly sedět boty?","content":"<p>O zdravých a dobře sedících botách byste téměř <strong>neměli vědět<\/strong>. Nemají vás tlačit ani na noze plandat. Jestli si při prvním obutí říkáte, že sice něco málo tlačí nebo dře, ale to přece povolí, zpozorněte. Boty povolit nemusí, a pak by vás jen trápily.<\/p><p>Jestli jste si boty právě koupili a dorazily vám domů, <strong>vyzkoušejte si je nejdřív uvnitř<\/strong>. Kdybyste zjistili, že vám nesedí, můžete je zdarma <a href=\"https:\/\/ahinsashoes.cz\/pages\/refund-portal\"><span style=\"text-decoration:underline\">vrátit nebo vyměnit za jinou velikost<\/span><\/a>.<\/p><h6>7 znamení, že vám boty dobře sedí<\/h6><p><\/p><p>Zkuste se v botách <strong>projít po místnosti<\/strong>. Vnímejte, jak se v nich cítíte. Měli byste mít pocit, že:<\/p><ol><li>Bota na noze přirozeně sedí.<\/li><li>Nikde nic neplandá.<\/li><li>Prsty nenaráží do špičky.<\/li><li>Prsty mají dostatek prostoru pro pohyb.<\/li><li>Před prsty zůstává v klidu cca 0,5 cm volného prostoru.<\/li><li>Bota netlačí na nárt.<\/li><li>Bota z nohy nepadá, nezouvá se.<\/li><\/ol><p>Nesedí vám Ahinsa shoes a ještě jste je nevzali ven? <a href=\"https:\/\/ahinsashoes.cz\/policies\/refund-policy\"><span style=\"text-decoration:underline\">Napište nám<\/span><\/a>, bleskurychle vám pošleme nové a zaplatíme poštovné.<\/p>"}},"accor_item_EfkENH":{"type":"accor_item","settings":{"icon":"none","title":"Jaký je rozdíl mezi pánskou a dámskou botou?","content":"<p>Pokud jde o zdravé anatomické boty, <strong>rozdíl není žádný<\/strong>. Pánská a dámská noha vypadají a fungují stejně, proto nepotřebují jiný střih. Rozdíl proto bude jen <strong>estetický<\/strong>. V Ahinsa shoes rozdělujeme boty na pánské a dámské jen proto, aby se vám snáz vybíraly. Můžete si ale koupit boty z kterékoliv kategorie.<\/p><h6>Rozdělení pánská\/dámská bota není důležité. Víc záleží na tvaru nohy<\/h6><p><\/p><p>Důležitější než rozdělení na pánské a dámské boty je<strong> tvar vašeho chodidla a nohy<\/strong>. Pro<strong> širší chodidla <\/strong>jsme vytvořili řadu <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=xwide*\"><span style=\"text-decoration:underline\">xWide<\/span><\/a>, ve které vás konečně nic netlačí a noha funguje přirozeně. Jestli je vám naopak většina bot široká, pravděpodobně máte<strong> úzké chodidlo<\/strong> a sednou vám naše <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=%C3%BAzk%C3%A9+nohy\"><span style=\"text-decoration:underline\">extra úzké modely<\/span><\/a>.<\/p><p>Zaměřte se také na výšku nártu. Jestli vás často boty na nártu tlačí, máte <strong>nárt vyšší<\/strong>. Sedět vám budou především naše šněrovací modely, které můžete na nártu povolit.<\/p><p><strong>Tip: <\/strong>Projděte si stránku<a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\"> Jak vybrat správnou velikost<\/span><\/a>.<\/p>"}},"accor_item_UhLF9p":{"type":"accor_item","settings":{"icon":"none","title":"Jak velké zimní boty koupit?","content":"<p>Pro zdravé zimní boty platí totéž, co pro ostatní: Před prsty byste měli mít <strong>cca 0,5 cm volného prostoru<\/strong>, tzv. nadměrek. Díky němu může noha <strong>přirozeně fungovat<\/strong>. Proto si nejprve <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\">změřte chodidlo<\/span><\/a> a potom vyberte velikost, která odpovídá délce vaší nohy s nadměrkem.<\/p><p><strong>Proč nadměrek? <\/strong>Protože ve zdravých botách se vaše noha <strong>přirozeně smršťuje a natahuje<\/strong>. S nadměrkem pro to má prostor a může přirozeně fungovat. Bez něj je noha jako v dlaze. Nehýbe se, neprokrvuje se a brzy prochladne.<\/p><h6>Dvoje ponožky nejsou dobrý nápad<\/h6><p><\/p><p>Do zimních bot <strong>nedoporučujeme dvoje ponožky<\/strong> nebo extra tlusté ponožky. Můžou nohy škrtit a omezovat jejich pohyb. Zpomalují tak krevní oběh a můžou dokonce nohu ochladit. <\/p><p>Jestli patříte mezi zmrzlíky, doporučujeme přidat <a href=\"https:\/\/ahinsashoes.cz\/products\/zimni-stelky\"><span style=\"text-decoration:underline\">zimní vložku<\/span><\/a> nebo tyto <a href=\"https:\/\/ahinsashoes.cz\/products\/zimni-barefoot-ponozky-bile\"><span style=\"text-decoration:underline\">zimní ponožky<\/span><\/a>.<\/p><p><strong>Tip:<\/strong> Přečtěte si článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-zimni-boty?_pos=5&_sid=e839b2e1e&_ss=r\"><span style=\"text-decoration:underline\">Jak vybrat zimní boty? Zn.: Dvoje ponožky nepotřebujete<\/span><\/a>.<\/p>"}},"accor_item_MXPbpr":{"type":"accor_item","settings":{"icon":"none","title":"Jak roztáhnout boty? Jak roztáhnout boty do šířky?","content":"<p>Boty Ahinsa shoes <strong>roztahovat nemusíte<\/strong>. Vyrábíme je z materiálů, které jsou <strong>poddajné<\/strong> a přizpůsobí se vám a vašemu stylu chůze. Tužší můžou být boty z přírodních materiálů, jako je <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=hemp*\"><span style=\"text-decoration:underline\">konopí<\/span><\/a> nebo len. U nich stačí počkat, <strong>časem se vaší noze přizpůsobí a změknou<\/strong>.<\/p><p>Jestli vás boty tlačí, je možné, že jste <strong>vybrali špatnou velikost<\/strong>. <a href=\"https:\/\/ahinsashoes.cz\/pages\/kontakt\"><span style=\"text-decoration:underline\">Ozvěte se nám<\/span><\/a>, rádi s výběrem poradíme.<\/p><p><strong>Tip: <\/strong>Tlačí vás většina bot? Je možné, že máte jednoduše široké chodidlo a potřebujete extra široké boty. Pro takové případy jsme vytvořili řadu <strong>xWide<\/strong>. Obujte ji a zamilujete se: vaše chodidlo poprvé zažije, jaké to je, když má tolik prostoru, kolik pro zdravou chůzi potřebuje.<\/p><h6>Když vás bota tlačí, ukazuje to na problém.<\/h6><p><\/p><p>Zdravé boty, které vám sedí, by vás dřít neměly. Je možné, že bude chvíli trvat, než povolí například tužší kožené boty. <strong>Delší dobu by ale neměly tlačit<\/strong>, a už vůbec ne dřít a způsobovat puchýře a otlačeniny.<\/p><p>Jestli vás boty dřou, nejspíš jste vybrali <strong>špatnou velikost nebo model<\/strong>. Zaměřte se ve výběru na to, abyste měli v botě dost místa na svobodný pohyb. Klíčová je široká špička a přizpůsobivé materiály, které kopírují pohyb vaší nohy. <\/p><p><strong>Tip:<\/strong> S výběrem zdravých bot vám pomůže článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-zdrave-boty\"><span style=\"text-decoration:underline\">Už žádné puchýře! Jak vybrat zdravé boty?<\/span><\/a><\/p>"}},"accor_item_QCYWpw":{"type":"accor_item","settings":{"icon":"none","title":"Jaké jsou nejlepší boty na chůzi?","content":"<p>Nejlepší jsou boty, které <strong>respektují tvar a funkci vašeho chodidla<\/strong>. Neměly by jakkoliv měnit nebo omezovat váš pohyb. Chůze je přirozená a zdravá jen tehdy, když se můžeme pohybovat stejně <strong>svobodně jako bosky<\/strong>.<\/p><p>Proto pozor na vše, co ovlivňuje vaši chůzi: silnou podrážku, podpatek, tuhé materiály, úzkou špičku nebo obecně neanatomický tvar boty. <\/p><h6>5 znamení, že obouváte zdravé boty<\/h6><p><\/p><p>Jak tedy poznáte nejlepší boty na chůzi?<\/p><ol><li><strong>Široká špička<\/strong> dává prostor prstům.<\/li><li><strong>Flexibilní materiály<\/strong> se přizpůsobí noze.<\/li><li><strong>Pružná podrážka<\/strong> kopíruje váš pohyb.<\/li><li><strong>Nulový podpatek <\/strong>zajistí, že se noha a celé tělo nenaklání.<\/li><li><strong>Boty netlačí<\/strong>, nedělají vám puchýře.<\/li><\/ol><p>Nejlepší boty nemusí být nutně barefoot obuv s tenkou podrážkou. Mnohem důležitější je, aby byla bota <strong>prostorná a přizpůsobivá<\/strong>. Jestli se na barefoot necítíte, doporučujeme řadu Comfort. Splňuje všechny parametry zdravých bot, ale <strong>tlumí vaše došlapy<\/strong>.<\/p><p><strong>Tip:<\/strong> Přečtěte si článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-zdrave-boty?_pos=1&_sid=54793887d&_ss=r\"><span style=\"text-decoration:underline\">Už žádné puchýře! Jak vybrat zdravé boty<\/span><\/a>. <\/p>"}}},"block_order":["accor_item_aeYDtb","accor_item_AwkV8U","accor_item_WDLVi4","accor_item_pUDPJw","accor_item_ffXVwQ","accor_item_GXgjVg","accor_item_UEFTrD","accor_item_EfkENH","accor_item_UhLF9p","accor_item_MXPbpr","accor_item_QCYWpw"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"Velikost a pohodlí","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"accor_des":"1","title_cl":"#202020","bg_title_cl":"#f6f6f8","title_active_cl":"#000000","bg_title_active_cl":"#f6f6f8","content_cl":"#202020","bg_content_cl":"#ffffff","content_align":"t4s-text-start","auto_active":false,"layout":"t4s-cus-width","custom_width":1000,"cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"accordion_KH3mTw":{"type":"accordion","blocks":{"accor_item_X6ecEM":{"type":"accor_item","settings":{"icon":"none","title":"Jak se zbavit puchýře na noze? Co na puchýře z bot?","content":"<p>Jestli hrozí, že puchýř brzy sám praskne, můžete ho <strong>propíchnout<\/strong>. Pozor, jehla musí být <strong>sterilní<\/strong> – například vyvařená. Pokud to není nutné, puchýř <strong>nepropichujte ani nestrhávejte<\/strong>.<\/p><p>Už praskl? <strong>Vydezinfikujte<\/strong> ho a zalepte náplastí. V lékárně seženete speciální <strong>náplasti na puchýře<\/strong>, které urychlí hojení.<\/p><h6>Zdravé boty puchýře nedělají<\/h6><p><\/p><p>Dělají vám vaše boty puchýře? Rychle je vyměňte. <strong>Zdravé boty puchýře nedělají.<\/strong> Puchýř znamená, že se noha tlačí a nemůže přirozeně fungovat. Ahinsa shoes vyrábíme vždy z měkkých a poddajných materiálů, ze kterých se vám puchýř neudělá.<\/p><p>Jestli si už při obutí říkáte, že bota tlačí a dře, ale že povolí, zpozorněte. Je pravděpodobné, že <strong>bota nepovolí — nebo ne tak, jak si přejete<\/strong>. Dobré boty by vám měly sednout na první dobrou. Měly by být prostorné a vyrobené z měkkých, přizpůsobivých materiálů.<\/p><p><strong>Tip:<\/strong> Přečtěte si článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-zdrave-boty?_pos=1&_sid=54793887d&_ss=r\"><span style=\"text-decoration:underline\">Už žádné puchýře! Jak vybrat zdravé boty<\/span><\/a>. <\/p><p>Lékař radí: „Je důležité vybrat si boty, které opravdu sedí. V nich nevznikají sekundární otlaky.“<\/p><p><a href=\"https:\/\/fajnzdravie.sk\/\"><span style=\"text-decoration:underline\">Mudr. Martin Frolo<\/span><\/a><\/p>"}},"accor_item_HmUKjA":{"type":"accor_item","settings":{"icon":"none","title":"Jak narovnat prsty na noze? Jak srovnat křivé prsty?","content":"<p>Ať už jde o <strong>vbočené palce <\/strong>nebo <strong>kladívkové prsty<\/strong>, první krok je stejný: Vyměňte své klasické boty za <strong>zdravou a prostornou obuv<\/strong>. Zaměřte se na to, aby se prsty mohly v botě přirozeně pohybovat. Pomůže vám s tím prostorná špička a pružné materiály.<\/p><p>Právě neanatomické boty totiž často tyto potíže způsobují. Prsty se v nich tísní, nemohou přirozeně fungovat a dochází k deformacím.<\/p><h6>Dobrá zpráva: Prsty zvládnete narovnat<\/h6><p><\/p><p>Dalším krokem bude <strong>cvičení<\/strong>. Dobrá zpráva je, že prsty dokážete ve většině případů srovnat právě cvičením, operace až na výjimky není nutná.<\/p><p>Jak zjistíte, že prsty půjdou narovnat? Pomozte si rukou, <strong>zkuste prsty narovnat<\/strong>. Jde to aspoň trochu? Jestli ano, znamená to, že prsty rozcvičíte. <\/p><p><strong>Tip:<\/strong> Začněte cvičit hned, klidně doma. Cvičení od fyzioterapeuta <a href=\"https:\/\/ahinsashoes.cz\/pages\/lukas-klimpera\"><span style=\"text-decoration:underline\">Lukáše Klimpery<\/span><\/a> najdete v e-booku <a href=\"https:\/\/ahinsashoes.cz\/pages\/spokojene-nohy\"><span style=\"text-decoration:underline\">Spokojené nohy: Nejčastější potíže nohou a cvičení na ně<\/span><\/a>. Je zdarma, stáhněte si ho.<\/p><p>Doporučujeme také <a href=\"https:\/\/ahinsashoes.cz\/pages\/fyzioterapeuti\"><span style=\"text-decoration:underline\">návštěvu fyzioterapeuta<\/span><\/a>. <\/p>"}},"accor_item_cd3qLw":{"type":"accor_item","settings":{"icon":"none","title":"Jak rychle rostou nohy?","content":"<p>Rychlost růstu je u každého jiná. Obecně ale můžete u malých dětí očekávat<strong> cca 1,5 cm za rok<\/strong>, u větších okolo <strong>1 cm<\/strong>. Předškolák vám za rok vyroste i ze 2 velikostí, školák z 1 až 2 velikostí. Nelekejte se, když dítěti vyroste noha skokově, to je běžné.<\/p><p>Ani dospělí by <strong>neměli spoléhat stále na stejnou velikost<\/strong>. Každé nové boty vždy pořádně vyzkoušejte. Když vybíráte online, <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\">pečlivě si nohy změřte<\/span><\/a> a vybírejte podle tabulek výrobce. Jen tak víte, že vám boty opravdu sednou.<\/p><p><strong>Tip:<\/strong> Víte, že Ahinsa shoes můžete<a href=\"https:\/\/ahinsashoes.cz\/pages\/refund-portal\"><span style=\"text-decoration:underline\"> zdarma vyměnit<\/span><\/a>? <\/p><h6>Dětské nohy se vyvíjí. Dejte jim k tomu prostor.<\/h6><p><\/p><p>Dětem se nohy vyvíjí, proto je důležité, <strong>aby je boty neomezovaly<\/strong>. Pravidelně kontrolujte, jestli velikost stále sedí, aby se noha nedeformovala. Nezapomínejte na <strong>nadměrek<\/strong>. To je volný prostor před prsty, díky kterému se může noha přirozeně smršťovat a natahovat.<\/p><p><strong>Tip:<\/strong> Nezapomeňte s rostoucí nohou myslet i na <strong>větší ponožky<\/strong>. Dobrá ponožka by neměla dítě svazovat a tlačit, proto hledejte takové, které neobsahují elastan, neškrtí kolem kotníku a nestahují prsty k sobě. Dítě potřebuje pro svůj vývoj svobodu v pohybu, proto pozor i na jakékoliv oblečení, které jeho pohyb omezuje nebo ovlivňuje.<\/p>"}}},"block_order":["accor_item_X6ecEM","accor_item_HmUKjA","accor_item_cd3qLw"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"Zdraví nohou","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"accor_des":"1","title_cl":"#202020","bg_title_cl":"#f6f6f8","title_active_cl":"#000000","bg_title_active_cl":"#f6f6f8","content_cl":"#202020","bg_content_cl":"#ffffff","content_align":"t4s-text-start","auto_active":false,"layout":"t4s-cus-width","custom_width":1000,"cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"accordion_Yxybhq":{"type":"accordion","blocks":{"accor_item_xHd8Lz":{"type":"accor_item","settings":{"icon":"none","title":"Z čeho se vyrábí veganská kůže CF+?","content":"<p><a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">CF+<\/span><\/a> je materiál, který se nám na boty osvědčil. Je téměř <strong>nezničitelný<\/strong>. Jde o speciální mikrovlákno, které výrobce upravuje tak, aby bylo <strong>prodyšné<\/strong>, a přitom <strong>nepromokavé<\/strong>. Je tak odolné, že se z něj vyrábí i čalounění na jachty. A složení? 90 % polyamidu a 10 % polyuretanu.<\/p><p>Oblíbili jsme si ho z mnoha důvodů. Jedním z nich je <strong>snadná údržba<\/strong>. Mikrovlákno nepropustí nečistotu dovnitř, a tak stačí jeden tah vlhkým hadříkem a boty jsou zase jako nové.<\/p><h6>Proč nepoužíváme kůži? CF+ je etické a vydrží víc<\/h6><p>Proč nepoužíváme zvířecí kůži? V Ahinsa shoes <strong>ctíme zásadu nenásilí<\/strong>, proto pro nás kůže není vhodná cesta. Kůže navíc vyžaduje údržbu, rychle se okope a trvá jí, než se přizpůsobí vaší noze.<\/p><p>Mikrovlákno CF+ se nám tak osvědčilo, že vám u bot z něj vyrobených <a href=\"https:\/\/ahinsashoes.cz\/pages\/nejlepsi-boty\"><span style=\"text-decoration:underline\">garantujeme, že jde o nejlepší boty na světě<\/span><\/a>. Vážně! Pokud najdete boty, které mají lepší vlastnosti, máte u nás 50% slevu na Ahinsa shoes. Detaily najdete na stránce.<\/p><p><strong>Důležité:<\/strong> CF+ není koženka. Vydrží vám roky. Nepoškrábete ho a neokopete. A nemusíte se o něj starat. <\/p>"}},"accor_item_rQA9zA":{"type":"accor_item","settings":{"icon":"none","title":"Je umělá kůže prodyšná?","content":"<p>Záleží na tom, jakou umělou kůži vyberete. Klasická koženka nedýchá, nemá póry, proto se nohy v ní více botí a boty brzy začnou zapáchat. Mimochodem, četli jste naše <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">tipy proti zápachu bot<\/span><\/a>? <\/p><p>My v Ahinsa shoes ale koženku nepoužíváme. Naše boty ručně vyrábíme z <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">mikrovlákna CF+<\/span><\/a>, které <strong>propouští vzduch k noze<\/strong> a odvádí od něj vlhkost. Proto udrží vaše nohy v suchu.<\/p><p>Oblíbili jsme si toto mikrovlákno i z jiných důvodů:<\/p><ul><li><strong>Je etické. <\/strong>Netrpělo kvůli němu žádné zvíře.<\/li><li><strong>Nepromokne.<\/strong> Trocha deště mu nevadí.<\/li><li><strong>Snadno se čistí. <\/strong>Stačí jeden tah vlhkým hadříkem.<\/li><li><strong>Vydrží roky.<\/strong> Nepoškrábete ho, neokopete. Zkoušeli jsme to!<\/li><li><strong>Odvádí vlhkost ven.<\/strong> Zevnitř nasává vlhkost a odvádí ji od nohou.<\/li><\/ul><h6>Nejen prodyšné. Garantujeme nejlepší boty na světě<\/h6><p><\/p><p>Mikrovlákno CF+ se nám tak osvědčilo, že vám u bot z něj vyrobených <a href=\"https:\/\/ahinsashoes.cz\/pages\/nejlepsi-boty\"><span style=\"text-decoration:underline\">garantujeme, že jde o nejlepší boty na světě<\/span><\/a>. Vážně! Pokud najdete boty, které mají lepší vlastnosti, máte u nás 50% slevu na Ahinsa shoes. Detaily najdete na stránce<\/p><p><strong>Důležité:<\/strong> CF+ není koženka. Vydrží vám roky. Nepoškrábete ho a neokopete. A nemusíte se o něj starat. <\/p>"}},"accor_item_UAG96h":{"type":"accor_item","settings":{"icon":"none","title":"Jaký je rozdíl mezi barefoot Ahinsa shoes a řadou Comfort?","content":"<p>Děkujeme, že se ptáte. Je vidět, že vás zajímá zdravá chůze. Tyto dvě řady jsme vytvořili proto, že každý má rád trochu jiný došlap. Rozdíl proto poznáte právě při došlapu.<\/p><p>Naše barefoot boty mají <strong>minimalistickou podrážku<\/strong>. Chůze v nich je podobná bosé chůzi, proto jsou ideální pro vás, kdo rádi cítíte svět pod sebou.<\/p><p>Řada Comfort <strong>změkčuje vaše došlapy<\/strong> díky speciální pružné vrstvě. Do uzavřených bot Comfort jsme navíc vložili měkkou pěnovou vložku. Proto jsou tyto boty vhodné pro vás, kdo chcete zdravé a pohodlné boty, ale na bosou chůzi nejste zvyklí. <\/p><p>Jak barefoot, tak Comfort boty splňují toto:<\/p><ul><li>Navrhli je <strong>fyzioterapeuti<\/strong>.<\/li><li>V <strong>široké špičce<\/strong> máte prostor pro pohyb prstů.<\/li><li><strong>Pružné materiály<\/strong> a <strong>ohebná podrážka<\/strong> kopírují váš pohyb.<\/li><li>Jsou veganské a téměř <strong>nezničitelné<\/strong>.<\/li><\/ul><h6>Jaké tedy vybrat? Comfort, nebo barefoot?<\/h6><p><\/p><p>Záleží na tom, jak moc fandíte bosé chůzi. Máte radši pohodlíčko, nebo chcete cítit svět pod sebou?<\/p><ul><li><strong>Fandíte bosé chůzi? <\/strong>Zvolte barefoot boty. <\/li><li><strong>S barefoot chůzí začínáte? <\/strong>Vyberte boty Comfort. <\/li><li><strong>Chcete pohodlné boty a barefoot vás nezajímá?<\/strong> Vyberte boty Comfort.<\/li><\/ul><p><strong>Tip:<\/strong> Přečtěte si detaily na stránce <a href=\"https:\/\/ahinsashoes.cz\/pages\/barefoot-obuv\"><span style=\"text-decoration:underline\">Barefoot, nebo Comfort?<\/span><\/a><\/p>"}},"accor_item_jPpJ3B":{"type":"accor_item","settings":{"icon":"none","title":"Z čeho je vyrobena podrážka Ahinsa shoes?","content":"<p>Na většinu bot používáme <strong>německé podrážky<\/strong> ze speciální <strong>přilnavé směsi<\/strong>. Díky ní boty nekloužou například na kamení nebo mokré cestě. Jak to víme? Nechali jsme podrážky otestovat v nezávislé laboratoři ve Zlíně.<\/p><p>Nejčastěji jde o <strong>směs Lifoprene<\/strong> z TPU. TPU je termoplastický polyuretan – pružný, a přitom pevný materiál, který hnedtak neprošlapete.<\/p><p>Na vybrané modely, jako jsou <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=adventure\"><span style=\"text-decoration:underline\">trekové sandály<\/span><\/a>, <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=irbis*\"><span style=\"text-decoration:underline\">sněhule<\/span><\/a> nebo <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=trekov%C3%A9*\"><span style=\"text-decoration:underline\">trekové tenisky<\/span><\/a> nebo <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=hiker*\"><span style=\"text-decoration:underline\">kotníkové boty do terénu<\/span><\/a> používáme <strong>ověřené podrážky Vibram<\/strong>.<\/p><h6>Skvělé podrážky dělají nejlepší boty. To garantujeme<\/h6><p><\/p><p>Víte, jak poznáte, že se nám naše podrážky opravdu osvědčily? I díky nim vám <strong>garantujeme, že jsou Ahinsa shoes <\/strong><a href=\"https:\/\/ahinsashoes.cz\/pages\/nejlepsi-boty\"><span style=\"text-decoration:underline\">nejlepší boty na světě<\/span><\/a>. Vážně! Pokud najdete boty, které mají lepší vlastnosti, máte u nás 50% slevu na Ahinsa shoes.<\/p>"}},"accor_item_PzUkhf":{"type":"accor_item","settings":{"icon":"none","title":"Jsou Ahinsa shoes vodotěsné?","content":"<p>Většina modelů bohužel <strong>vodotěsná není<\/strong>. Vyrábíme je sice z voděodolného mikrovlákna, ale voda může zatéct spoji nebo dírkami na tkaničky. Běžný déšť vás nepromočí, ale krok do kaluže už by mohl.<\/p><p>Naše zatím jediné voděodolné boty jsou <a href=\"https:\/\/ahinsashoes.cz\/search?q=shuma+nature\" target=\"_blank\">kotníkové boty Shuma Nature<\/a>, <a href=\"https:\/\/ahinsashoes.cz\/search?q=shuma+winter\" target=\"_blank\">zimní boty Shuma Winter,<\/a> <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=irbis*\" target=\"_blank\"><span style=\"text-decoration:underline\">sněhule Irbis Snow<\/span><\/a> a <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=hiker*\" target=\"_blank\"><span style=\"text-decoration:underline\">trekové boty Hiker<\/span><\/a>. Všitý jazyk a speciální membrána nepropustí dovnitř ani kapku, a přitom odvádí vlhkost od nohou ven.<\/p><h6>Co můžete udělat proto, aby boty nepromokly? <\/h6><p><\/p><p>Doporučujeme boty před první vycházkou <strong>dobře ošetřit<\/strong>. Jestli jste nepořídili boty z mikrovlákna CF+, ale například ze <strong>semiše, nubuku, plátna, konopí, lnu nebo džínoviny<\/strong>, doporučujeme použít impregnaci.<\/p><p>Nám se osvědčila tato <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicka-impregnace-2go\"><span style=\"text-decoration:underline\">ekologická impregnace<\/span><\/a>. Je 100% veganská a biologicky odbouratelná, a přitom stejně účinná jako chemické impregnace. Navíc vám <strong>pomůže s údržbou bot<\/strong>. Odpuzuje vodu a nečistoty, a tak boty stačí jen otřít hadříkem a jsou zase jako nové.<\/p>"}}},"block_order":["accor_item_xHd8Lz","accor_item_rQA9zA","accor_item_UAG96h","accor_item_jPpJ3B","accor_item_PzUkhf"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"O Ahinsa shoes","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"accor_des":"1","title_cl":"#202020","bg_title_cl":"#f6f6f8","title_active_cl":"#000000","bg_title_active_cl":"#f6f6f8","content_cl":"#202020","bg_content_cl":"#ffffff","content_align":"t4s-text-start","auto_active":false,"layout":"t4s-cus-width","custom_width":1000,"cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"accordion_tW9frC":{"type":"accordion","blocks":{"accor_item_hbP3RV":{"type":"accor_item","settings":{"icon":"none","title":"Jak ušít barefoot boty?","content":"<p>Návod nebo kurz pro vás zatím nemáme, ale můžeme vám ukázat, jak to děláme my. Přečtěte si článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-se-sijou-boty-okenko-do-sevcovske-dilny\"><span style=\"text-decoration:underline\">Jak se šijou boty? Okénko do ševcovské dílny<\/span><\/a> nebo se <strong>podívejte na video<\/strong>.<\/p><p>Boty vyrábíme v <strong>rodinné dílně v Chorvatsku<\/strong>. Možná vás překvapí, kolik kroků a umu výroba barefoot bot vyžaduje. A často i fyzické síly! <\/p><h6>Pozor na tvar stélky<\/h6><p><\/p><p>Jestli se do šití vlastních bot přece jenom pustíte, dejte si pozor především na tvar stélky. <strong>Naše boty navrhují fyzioterapeuti <\/strong>tak, aby odpovídaly přirozenému tvaru a funkci chodidla. Jen tak boty neovlivňují vaši chůzi. <\/p><p>A pak poznáte správný tvar boty? Určitě nebude mít úzkou špičku, ale naopak širokou a prostornou. V široké špičce se mohou prsty svobodně pohybovat, zapojují se do odrazu a <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/propadla-klenba\"><span style=\"text-decoration:underline\">tvarují klenbu<\/span><\/a>. <\/p><p><strong>Tip:<\/strong> Další inspiraci načerpáte z článku <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-zdrave-boty\"><span style=\"text-decoration:underline\">Už žádné puchýře! Jak vybrat zdravé boty?<\/span><\/a><\/p>"}},"accor_item_3LgwxL":{"type":"accor_item","settings":{"icon":"none","title":"Kdy dát dítěti barefoot boty?","content":"<p>Víte, v jakých botách se děti narodí? Správně, v žádných. <strong>Bosá chůze je to první, co se učí.<\/strong> Bosé (barefoot) boty proto pro ně nejsou přechod na něco nového, ale jen pokračování toho, co znají. Proto jsou <strong>barefoot boty vhodné už jako první botičky<\/strong>. Dokud to ale půjde, dovolte dítěti chodit a běhat bosky, právě to je pro jeho vývoj nejpřirozenější.<\/p><h6>Nesvazujte dětskou nohu, pohlídejte si zdravé boty<\/h6><p><\/p><p>Pro děti (i pro nás dospělé) je <strong>bosá chůze nejpřirozenější pohyb<\/strong>. Proto dítě určitě nesvazujte do klasických bot. Až přijde čas na první capáčky, pohlídejte si, že v nich dítě může<strong> chodit stejně svobodně jako bosky<\/strong>.<\/p><p>Špička by měla poskytovat <strong>prstům dostatek prostoru <\/strong>pro přirozený pohyb. Celá bota by měla být vyrobená z materiálu, který se <strong>přizpůsobí pohybu chodidla<\/strong>, ne naopak.<\/p><p>Dětské boty jsou často zpevněné, tvrdé a nepoddajné. To je přesný opak toho, co dětská noha ve vývoji potřebuje. Tuhá pevná bota ovlivňuje vývoj boty a chůzi dítěte a zadělává na potíže do budoucna.<\/p><p>Jestli dítě dlouhodobě nosilo klasické boty, přejděte na barefoot boty pomalu. Trénujte zdravou chůzi na trávě a v měkkém, než dítě obuje bosoboty i do města.<\/p><p><strong>Tip:<\/strong> Nechte dítě většinu času běhat bosky. Není nic zdravějšího pro vývoj jeho nohou.<\/p>"}},"accor_item_anhE9h":{"type":"accor_item","settings":{"icon":"none","title":"Existují barefoot boty na běh?","content":"<p>Ano, existují, a dokonce <strong>vám pomohou vydat lepší výkon<\/strong>! Při běhu se odrážíme především od prstů, proto je potřebujeme osvobodit. A právě to dokážou barefoot běžecké boty s širokou špičkou. Také vám pomohou <strong>aktivovat klenbu<\/strong>, která odpruží došlapy. <\/p><h6>Jak vybrat barefoot boty na běh?<\/h6><p><\/p><p>Při výběru <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=b%C4%9B%C5%BEeck%C3%A9%20barefoot*\"><span style=\"text-decoration:underline\">barefoot na běh<\/span><\/a> si pohlídejte, aby nešlo jen o klasické tenisky s tenkou podrážkou. Důležitá je <strong>široká špička<\/strong> a <strong>pružné materiály<\/strong>. Bota by se měla perfektně přizpůsobit pohybu vašeho chodidla a také jeho tvaru.<\/p><p>Pozor na tyto vlastnosti:<\/p><ul><li><strong>Silná nebo tuhá podrážka:<\/strong> Brání přirozenému pohybu a omezuje vás.<\/li><li><strong>Přílišné odpružení:<\/strong> Podle studií právě kvůli odpružení dopadáme na patu silněji a hrozí úraz. Neuvědomujeme si totiž náraz.<\/li><li><strong>Úzká špička: <\/strong>Ve většině bot se prsty tlačí k sobě a nemohou pracovat. <\/li><\/ul><p><strong>Tip:<\/strong> Jestli s barefoot během teprve začínáte, nacvičte zdravý styl běhu. Pomůže vám s tím článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-zacit-behat-barefoot-navod-pro-bezce-i-nebezce?_pos=2&_sid=91184ce72&_ss=r\"><span style=\"text-decoration:underline\">Jak začít běhat barefoot? [Návod pro běžce i neběžce]<\/span><\/a>.<\/p><p>A jaké boty vybrat? Doporučujeme prodyšné barefoot běžecké boty <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=b%C4%9B%C5%BEeck%C3%A9%20barefoot*\"><span style=\"text-decoration:underline\">Chitra<\/span><\/a>. Máme je pro vás i v trekové variantě s podrážkou Vibram.<\/p>"}},"accor_item_cdWGqK":{"type":"accor_item","settings":{"icon":"none","title":"Hodí se barefoot boty do společnosti?","content":"<p><strong>Ano, hodí<\/strong>, stačí vybrat elegantní model. Místo lodiček můžete obout <a href=\"https:\/\/ahinsashoes.cz\/collections\/damske-barefoot\/balerinky\"><span style=\"text-decoration:underline\">barefoot balerínky<\/span><\/a>. Místo úzkých pánských polobotek prostorné <a href=\"https:\/\/ahinsashoes.cz\/collections\/panske-barefoot\/polobotky\"><span style=\"text-decoration:underline\">barefoot polobotky<\/span><\/a>. <\/p><p>Všimněte si, že <strong>barefoot boty jsou ve společnosti stále častější<\/strong>. Uvidíte je v divadle, na večírcích i na svatbách. Pamatujte si: Nejvíc vám to ve společnosti sluší, když jste v pohodlí.<\/p><h6>Podpatky ničí vaše kolena, ukázala studie<\/h6><p><\/p><p>Asi víte, že klasické společenské boty, jako jsou <strong>lodičky<\/strong>, <strong>nejsou pohodlné<\/strong>. Věděli jste ale, že vám zásadně ubližují? Důsledky se bohužel objeví dřív, než byste tušili.<\/p><p>Zajímavá studie nedávno vznikla ve spolupráci Kliniky rehabilitačního lékařství Všeobecné fakultní nemocnice v Praze, 1. LF UK a Hacettepe University v Ankaře. Zkoumala ženy okolo 30 let, které pravidelně nosí boty na vysokém podpatku.<\/p><p>Kromě bolestí zad a deformací chodidel studie prokázala, že <strong>lodičky ničí chrupavku kolene<\/strong>. Změny byly patrné už u velmi mladých žen, u kterých ultrazvuk odhalil vyšší riziko artrózy.<\/p><p>Pro krásu už se dávno nemusí trpět. Vyberte si raději boty, které vám neubližují.<\/p><p><strong>Tip:<\/strong> Vybíráte boty na svatbu? Přečtěte si článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-svatebni-obuv-vyzkousejte-barefoot-boty\"><span style=\"text-decoration:underline\">Jak vybrat boty na svatbu? Zpověď barefoot nevěsty<\/span><\/a>.<\/p>"}},"accor_item_egrEE4":{"type":"accor_item","settings":{"icon":"none","title":"Můžu nosit barefoot boty ve městě?","content":"<p>Ano, můžete. S jednou podmínkou: <strong>Jste<\/strong> <strong>zvyklí na barefoot chůzi<\/strong> a umíte citlivě došlapovat. <\/p><p>Městské ulice jsou pro bosou chůzi výzva. Musíme mnohem více vnímat, jak došlapujeme a jak se odrážíme. Proto doporučujeme nejdřív bosou chůzi<strong> natrénovat na měkčím povrchu<\/strong>, třeba na vycházce v lese.<\/p><p>A co nosit do té doby? Určitě ne klasické stahující boty. Doporučujeme obuv řady Comfort, která je <strong>prostorná a flexibilní<\/strong> jako barefoot obuv, ale <strong>změkčuje vaše došlapy<\/strong>. <\/p><p><strong>Tip:<\/strong> Natrénujte přirozenou chůzi s e-bookem <a href=\"https:\/\/ahinsashoes.cz\/pages\/krok-za-krokem-ke-zdrave-chuzi\"><span style=\"text-decoration:underline\">Krok za krokem ke zdravé chůzi<\/span><\/a>. Je zdarma.<\/p><h6>Potíž městské chůze: Ostré dopady na paty<\/h6><p><\/p><p>Proč je vlastně tvrdý městský povrch problém? Protože nás roky v klasických neanatomických botách naučily chodit nepřirozeně. <strong>Došlapujeme tvrdě na patu<\/strong> a vzniká obrovský <strong>náraz<\/strong>, který se šíří dál do těla a ohrožuje klouby.<\/p><p>V klasických botách ani jinak chodit nemůžete.<strong> Stahují vaše prsty<\/strong>, takže vám nezbývá, než brzdit došlap patou. Proto vyměňte boty za anatomické a zaměřte se právě na došlapy. Měly by být jemné, citlivé. <\/p><p>A jak poznáte, že chodíte zdravě? Poslouchejte. Pokud dupete, znamená to, že došlapujete moc tvrdě.<\/p><p>Tip na čtení: <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/barefoot-a-mesto\"><span style=\"text-decoration:underline\">Barefoot & město: Toto by měl vědět každý, kdo chodí po betonu<\/span><\/a>.<\/p>"}},"accor_item_YzJLyk":{"type":"accor_item","settings":{"icon":"none","title":"Můžu barefoot boty nosit nonstop?","content":"<p>Do postele je doporučujeme zout. :) Ale jinak ano, <strong>můžete nosit jen barefoot obuv<\/strong>. Barefoot boty jsou ty boty, které <strong>vaše nohy neomezují<\/strong> – proto jsou pro vás vhodné po celý den.<\/p><p>Tip na čtení: <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/barefoot-a-mesto\"><span style=\"text-decoration:underline\">Barefoot & město: Toto by měl vědět každý, kdo chodí po betonu<\/span><\/a>.<\/p><h6>Městské ulice jsou vyšší dívčí bosé chůze<\/h6><p><\/p><p>Pozor si dejte jen ve městě na tvrdém povrchu. Než se v bosobotách do města vydáte, <strong>natrénujte zdravou chůzi<\/strong> a citlivé došlapy. <\/p><p>Většina dospělých si odvykla chodit přirozeně. Klasické boty je naučily <strong>došlapovat nepřirozeně na patu<\/strong>. To se těžko přeučuje a může to být problematické právě ve městě na tvrdém povrchu. Když tvrdě došlapujete na patu, vzniká silný náraz, který se šíří tělem a <strong>ohrožuje klouby<\/strong>. <\/p><p>Do města proto doporučujeme:<\/p><ol><li>Zaměřte se na <strong>citlivé došlapy<\/strong>.<\/li><li>Nespěchejte, <strong>vnímejte své kroky<\/strong>.<\/li><li>Pokud si nejste jistí, <strong>obujte boty z<\/strong> řady Comfort. Jsou anatomické jako barefoot boty, ale tlumí došlapy díky speciální pružné vrstvě.<\/li><\/ol><p><strong>Tip:<\/strong> Trénujte přirozenou chůzi s e-bookem <a href=\"https:\/\/ahinsashoes.cz\/pages\/krok-za-krokem-ke-zdrave-chuzi\"><span style=\"text-decoration:underline\">Krok za krokem ke zdravé chůzi<\/span><\/a>. Je zdarma.<\/p>"}},"accor_item_qGjfP3":{"type":"accor_item","settings":{"icon":"none","title":"Pomáhají barefoot boty k růstu svalů?","content":"<p>Mohou pomoci, samy vám ale růst svalů nezařídí.<\/p><p>Barefoot boty jsou především boty, které osvobodí vaše nohy, abyste je mohli používat přirozeně. Zbytek už je na vás. Když se naučíte nohy aktivovat, <strong>zapojíte i svaly, které v běžných botách podřimují<\/strong>. Můžete si tak časem všimnout, že vám posílily především svaly na chodidle. <\/p><p><strong>Tip: <\/strong>Naučte se nohy aktivovat s e-bookem <a href=\"https:\/\/ahinsashoes.cz\/pages\/krok-za-krokem-ke-zdrave-chuzi\"><span style=\"text-decoration:underline\">Krok za krokem ke zdravé chůzi<\/span><\/a>. Je zdarma.<\/p><h6>Jaký vliv mají barefoot boty na váš výkon?<\/h6><p><\/p><p>Víte, jaké boty jsou nejlepší na běh? Žádné. <strong>Lidská noha se vyvinula k běhu<\/strong>, má vlastní mechanismy pro odraz i tlumení dopadu. Proto podává nejlepší výkony, když je svobodná.<\/p><p>Běhat po českých stezkách bosky ale není bezpečné ani pohodlné. Proto se obujte – ale jen tak, aby <strong>noha mohla fungovat stejně přirozeně jako bosky <\/strong>a podávala nejlepší výkony. Obujte barefoot boty s širokou špičkou a poddajnou pružnou podrážkou.<\/p><p><strong>Tip na čtení:<\/strong> <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/bosy-beh-lide-behaji-2-miliony-let-az-posledni-roky-si-kazime-botami?_pos=1&_sid=fa35e7d83&_ss=r\"><span style=\"text-decoration:underline\">Bosý běh: Lidé běhají 2 miliony let. Až poslední roky si kazíme botami<\/span><\/a>.<\/p>"}},"accor_item_DNjDA8":{"type":"accor_item","settings":{"icon":"none","title":"Proč jsou barefoot boty tak drahé?","content":"<p>Hlavní myšlenka barefoot bot je zdravé obouvání. A aby byly boty zdravé, musí být <strong>kvalitně zpracované<\/strong> a z vyrobené <strong>kvalitních materiálů<\/strong>. Proto nemohou mít stejnou cenovku jako laciné boty z velkovýroby. <\/p><h6>Ahinsa shoes šijeme ručně v EU<\/h6><p><\/p><p>Například Ahinsa shoes <strong>vyrábíme ručně<\/strong>. Šijeme je z materiálů, které vám <strong>vydrží roky<\/strong> a ve kterých je vašim nohám dobře. Při výrobě projdou mnoha páry šikovných rukou. A ty si zaslouží férovou mzdu, nemyslíte?<\/p><p>Na oplátku získáte boty, které vám <strong>dělají radost řadu let<\/strong>. Ve výsledku tak zjistíte, že za jedno nošení zaplatíte méně než u laciných nepohodlných bot.<\/p><p>Mimochodem, znáte pojem <strong>cost per wear<\/strong>? Jde o cenu za jedno nošení. Když si koupíte levné boty, brzy vám vypoví službu. Na jedno nošení vás tak stály víc, než kdybyste investovali do (téměř) nezničitelných ručně vyrobených bot.<\/p><p><strong>Tip:<\/strong> Zajímá vás, jak boty vyrábíme? Přečtěte si článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-se-sijou-boty-okenko-do-sevcovske-dilny\"><span style=\"text-decoration:underline\">Jak se šijou boty? Okénko do ševcovské dílny<\/span><\/a> nebo se <strong>podívejte na video<\/strong>.<\/p>"}},"accor_item_kmr4hp":{"type":"accor_item","settings":{"icon":"none","title":"Jak dlouho vydrží podrážka u barefoot bot?","content":"<p>Nemůžeme mluvit za jiné výrobce barefoot bot, ale my v Ahinsa shoes používáme odolné podrážky z <strong>německého materiálu<\/strong>. Jsou tenké, ale hned tak se neprochodí. Záleží na vašem stylu chůze, ale běžně naše boty vydrží <strong>5 a více let<\/strong>.<\/p><h6>Nezničitelné, říkají zákazníci i odborníci<\/h6><p><\/p><p>A jak víme, že naše podrážky vydrží roky? Sami je nosíme – ale především jsme je nechali <strong>otestovat<\/strong>. Odeslali jsme Ahinsa shoes do <strong>nezávislé laboratoře ve Zlíně<\/strong>. Tam podrážky obrušují a simulují kroky. Po broušení, které by už běžné boty zničilo, ale naše podrážky nepovolily ani o fous.<\/p><p>Výsledky z laboratoře potvrzují i naši zákazníci, kterým Ahinsa shoes slouží roky. Popisují je často jako „nezničitelné“.<\/p><p>Díky výsledkům z laboratoře i od zákazníků vám garantujeme, že jsou Ahinsa shoes <strong>nejlepší boty na světě<\/strong>.<\/p>"}},"accor_item_qd9ABp":{"type":"accor_item","settings":{"icon":"none","title":"Jsou barefoot boty vhodné na cyklistiku?","content":"<p><strong>Ano, jsou.<\/strong> Dokonce vám můžou pomoct k lepším výkonům. <strong>Osvobodí vaše prsty<\/strong>, a tak se do nich můžete pořádně opřít. Doporučujeme vybrat takové, které propouští k nohám dostatek vzduchu a odvádí od nich pot. Nám se osvědčily Ahinsa shoes z <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=airnet*\"><span style=\"text-decoration:underline\">odolné síťoviny<\/span><\/a>.<\/p><p><strong>PS: <\/strong>Už pro vás chystáme speciální cyklistické barefoot boty. Těšíte se?<\/p><h6>Tenká podrážka? Máme řešení<\/h6><p><\/p><p>Jedinou potíž s barefoot botami na kole můžete mít u bot s <strong>velmi tenkou podrážkou<\/strong>. Cítíte přes ni šlapky, a to ne každému na delší cestě vyhovuje.<\/p><p>Proto chystáme <strong>cyklistické barefoot boty se speciální podrážkou<\/strong>, kterou jsme upravili právě na dlouhé šlapání. <\/p><p>Potřebujete zdravé boty na kolo už teď? <strong>Podívejte se naši<\/strong> řadu Comfort. Speciální pružná vrstva a naše osvědčená pěnová vložka se postarají, abyste o šlapkách ani nevěděli. Přitom budete stále v pohodlí: široká špička osvobodí vaše prsty a prodyšné materiály udrží nohy v suchu.<\/p>"}},"accor_item_xfjxqF":{"type":"accor_item","settings":{"icon":"none","title":"Kdy nejsou barefoot boty vhodné?","content":"<p>Barefoot boty nejsou vhodné při některých<strong> specifických diagnózách<\/strong>, jako jsou různé úrazové a pooperační stavy, neurologická onemocnění (např. diabetické neuropatie) nebo akutní zranění. Doporučujeme se pobavit s vaším lékařem, který dokáže posoudit, jestli jsou vhodné právě pro vás. <\/p><p>Naopak mohou být <strong>vhodnou součástí léčby<\/strong> při <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/patni-ostruha\"><span style=\"text-decoration:underline\">patní ostruze<\/span><\/a>, vbočených palcích nebo <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vylecit-ploche-nohy\"><span style=\"text-decoration:underline\">plochých nohách<\/span><\/a>. O tom jsme psali v e-booku <a href=\"https:\/\/ahinsashoes.cz\/pages\/spokojene-nohy\"><span style=\"text-decoration:underline\">Spokojené nohy: Nejčastější potíže nohou a cvičení na ně<\/span><\/a>.<\/p><p><strong>Tip: <\/strong>Než barefoot boty poprvé obujete, natrénujte přirozenou chůzi s e-bookem <a href=\"https:\/\/ahinsashoes.cz\/pages\/krok-za-krokem-ke-zdrave-chuzi\"><span style=\"text-decoration:underline\">Krok za krokem ke zdravé chůzi<\/span><\/a>. Je zdarma.<\/p><h6>Jsou barefoot boty vhodné pro ploché nohy?<\/h6><p><\/p><p>Ano, dokonce se<strong> často používají právě při léčbě plochých nohou<\/strong>. Ploché nohy zpravidla znamenají, že nemáte aktivní svaly, které <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/propadla-klenba\"><span style=\"text-decoration:underline\">aktivují klenbu<\/span><\/a>. Tyto svaly v klasických botách nemohou pracovat, proto ochabují. Když dáte chodidlu prostor pro přirozenou chůzi v bosých botách, můžete tyto svaly opět aktivovat a <strong>klenbu přirozeně formovat<\/strong>.<\/p><p>Konkrétní stav a potíže však vždy konzultujte s <a href=\"https:\/\/ahinsashoes.cz\/pages\/fyzioterapeuti\"><span style=\"text-decoration:underline\">fyzioterapeutem<\/span><\/a>.<\/p><p><strong>Tip na čtení: <\/strong>Přečtěte si článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vylecit-ploche-nohy?_pos=2&_sid=a21750f3c&_ss=r\"><span style=\"text-decoration:underline\">Jak vyléčit ploché nohy? Boty pomohou, vložky ne vždy<\/span><\/a>.<\/p>"}},"accor_item_LxHFNg":{"type":"accor_item","settings":{"icon":"none","title":"Jak dlouho vydrží barefoot boty?","content":"<p>Nechceme mluvit za jiné výrobce, ale Ahinsa shoes zákazníkům běžně <strong>slouží i 5 a více let<\/strong>. Nejodolnější jsou modely z <strong>mikrovlákna CF+<\/strong>, které <strong>neokopete a nepoškrábete<\/strong>, ani kdybyste se snažili. Roky a roky vám poslouží i <strong>odolná německá podrážka<\/strong>, kterou hned tak neprochodíte.<\/p><p>Vždy ale záleží i na vašem stylu chůze.<\/p><h6>Z čeho vyrábíme barefoot boty, aby vydržely roky<\/h6><p><\/p><p>Mikrovlákno CF+ už jsme vám představili. Jde o<strong> extrémně odolný materiál<\/strong>, který se původně používal pro čalounění jachet. Proto musí vydržet opravdu cokoliv. Zkoušeli jsme ho škrábat vidličkou i nechat v moři (neptejte se proč), vše vydržel. Přitom je ale prodyšný a udržuje nohy v suchu.<\/p><p>Na podrážky jsme si oblíbili <strong>německou směs Lifo+<\/strong>. Je velmi pružná, proto se přizpůsobí vašim krokům. <strong>Odolává ošoupání<\/strong>, a tak trvá miliony a miliony kroků, než na ní vůbec onošení uvidíte. <\/p><p>Jak to víme? Nechali jsme si podrážky otestovat <strong>nezávislé laboratoři ve Zlíně<\/strong>. I díky ní víme, že jsou Ahinsa shoes <a href=\"https:\/\/ahinsashoes.cz\/pages\/nejlepsi-boty\"><span style=\"text-decoration:underline\">nejlepší boty na světě<\/span><\/a>. Vážně, to garantujeme! <\/p><p><strong>Tip na čtení:<\/strong> Přečtěte si článek <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/eticke-materialy-vegan-kuze?_pos=1&_sid=02208a29d&_ss=r\"><span style=\"text-decoration:underline\">Lepší než kůže. Z čeho se vyrábí nesmrtelné vegan boty?<\/span><\/a><\/p>"}}},"block_order":["accor_item_hbP3RV","accor_item_3LgwxL","accor_item_anhE9h","accor_item_cdWGqK","accor_item_egrEE4","accor_item_YzJLyk","accor_item_qGjfP3","accor_item_DNjDA8","accor_item_kmr4hp","accor_item_qd9ABp","accor_item_xfjxqF","accor_item_LxHFNg"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"O barefoot botách","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"accor_des":"1","title_cl":"#202020","bg_title_cl":"#f6f6f8","title_active_cl":"#000000","bg_title_active_cl":"#f6f6f8","content_cl":"#202020","bg_content_cl":"#ffffff","content_align":"t4s-text-start","auto_active":false,"layout":"t4s-cus-width","custom_width":1000,"cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}}},"order":["hero_image_8kAGbR","heading","main","sidebar-page","accordion_a3yCa7","accordion_JYCBFW","accordion_KH3mTw","accordion_Yxybhq","accordion_tW9frC"]}
+{
+  "sections": {
+    "hero_image_8kAGbR": {
+      "type": "hero_image",
+      "blocks": {
+        "custom_text_LM7Wfr": {
+          "type": "custom_text",
+          "settings": {
+            "text": "You ask most often",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 39,
+            "text_lh": 70,
+            "text_fw": 600,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 31,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_dFRRc3": {
+          "type": "custom_text",
+          "settings": {
+            "text": "We’ll help you choose. And every step will be a joy.",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 1,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_button_yxmpVF": {
+          "type": "custom_button",
+          "settings": {
+            "button_text": "Button label",
+            "button_link": "",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#222222",
+            "second_cl": "#ffffff",
+            "pri_cl_hover": "#56cfe1",
+            "second_cl_hover": "#ffffff",
+            "fsbutton": 14,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 0,
+            "button_pd_lr": 20,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 10,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "custom_text_LM7Wfr",
+        "custom_text_dFRRc3",
+        "custom_button_yxmpVF"
+      ],
+      "settings": {
+        "se_height": "t4s_ratio_cuspx",
+        "custom_dk": true,
+        "height_dk": 550,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 400,
+        "image": "shopify:\/\/shop_images\/AUM09791.jpg",
+        "parallax": false,
+        "image_position": "7",
+        "link_img1": "",
+        "open_link": "_blank",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "container",
+        "cv_pos": 50,
+        "ch_pos": 50,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000000",
+        "bg_opacity": 50,
+        "bg_content_cl": "#ffffff",
+        "bg_content_op": 0,
+        "content_pd_tb": 15,
+        "content_pd_lr": 15,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 10,
+        "border_bl": false,
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 20,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "ba0c8e30-c11a-4ab7-97c4-4acc1a053a3e": {
+          "type": "1",
+          "settings": {
+            "heading": "FAQ",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 20,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 20,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "ceaf2fff-8462-4040-83d5-7f7019d65b8d": {
+          "type": "3",
+          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
+        }
+      },
+      "block_order": [
+        "ba0c8e30-c11a-4ab7-97c4-4acc1a053a3e",
+        "ceaf2fff-8462-4040-83d5-7f7019d65b8d"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 70,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "accordion_a3yCa7": {
+      "type": "accordion",
+      "blocks": {
+        "accor_item_atpFTK": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to wash shoes? How to wash shoes in the washing machine?",
+            "content": "<p>We <strong>don’t recommend washing Ahinsa shoes in the washing machine<\/strong>. Higher temperature and spin speeds don’t agree with them; they could cause the glue to come apart or the material to be damaged. With other manufacturers, look for the maker’s instructions, but in general washing shoes in the washing machine isn’t recommended.<\/p><p>If you’ve chosen shoes made from <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">CF+ microfiber<\/span><\/a>, they don’t even need washing – just wipe them with a damp cloth. <\/p><h6>How to wash shoes made of suede, hemp, canvas and other materials?<\/h6><p>Wash shoes <strong>gently by hand<\/strong> so they last as long as possible. These tips have worked well for us when washing shoes and are also suitable for sensitive natural materials.<\/p><ul><li>Clean <strong>gently<\/strong> with soapy water.<\/li><li>Try the <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicka-cistici-sada-obuvi-2go\"><span style=\"text-decoration:underline\">ecological cleaning kit<\/span><\/a>.<\/li><\/ul><p>If the shoes smell, dry them, let them air out and use a <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicky-osvezovac-obuvi-2go-1\"><span style=\"text-decoration:underline\">shoe freshener<\/span><\/a>.<\/p><p><strong>Tip:<\/strong> Read the detailed recommendations on the page <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-pecovat-o-boty\"><span style=\"text-decoration:underline\">How to care for your shoes<\/span><\/a>. We’ll advise you on odor in the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">7 + 5 proven tips for getting rid of shoe odor<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_bacbKm": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What temperature to wash shoes?",
+            "content": "<p>Ahinsa shoes <strong>don’t like the washing machine<\/strong>. That’s why you should never wash them in the washing machine and <strong>don’t dry them on a radiator<\/strong>. The same warning applies to most shoe brands. In the washing machine and on a radiator the glue that joins the individual parts of the shoe can come apart.<\/p><p>You can wash, for example, <a href=\"https:\/\/ahinsashoes.cz\/collections\/doplnky\/Tkani%C4%8Dky\"><span style=\"text-decoration:underline\">laces<\/span><\/a> or <a href=\"https:\/\/ahinsashoes.cz\/collections\/doplnky\/st%C3%A9lky\"><span style=\"text-decoration:underline\">shoe insoles<\/span><\/a> in the washing machine, but whole shoes don’t belong in it. If you’re washing laces, we recommend putting them in a <strong>laundry bag or mesh wash bag<\/strong>.<\/p><h6>How to wash shoes when they can’t go in the washing machine?<\/h6><p>If you’ve chosen shoes made from <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">CF+ microfiber<\/span><\/a>, they don’t even <strong>need washing<\/strong>. Just wipe them with a damp cloth. For shoes made from other materials such as hemp, canvas or denim, we recommend:<\/p><ul><li>Clean <strong>gently<\/strong> with soapy water.<\/li><li>Try the <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicka-cistici-sada-obuvi-2go\"><span style=\"text-decoration:underline\">ecological cleaning kit<\/span><\/a>.<\/li><li>If the shoes smell, dry them, let them air out and use a <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicky-osvezovac-obuvi-2go-1\"><span style=\"text-decoration:underline\">shoe freshener<\/span><\/a>.<\/li><\/ul><p><strong>Tip:<\/strong> Read the detailed recommendations on the page <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-pecovat-o-boty\"><span style=\"text-decoration:underline\">How to care for your shoes<\/span><\/a>. We’ll advise you on odor in the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">7 + 5 proven tips for getting rid of shoe odor<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_VEQGRn": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to clean shoes?",
+            "content": "<p>We make most Ahinsa shoe models from <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">CF+ microfiber<\/span><\/a>. Dirt stays on its surface, so when it gets dirty you just need to <strong>wipe it with a damp cloth<\/strong>. Cleaning is therefore very, very simple.<\/p><p>Never <strong>wash the shoes in the washing machine <\/strong>and <strong>don’t dry them on a radiator<\/strong>. High temperatures and spin speeds don’t agree with them; they could damage the material and unglue the shoes. So always clean the shoes gently by hand.<\/p><h6>How to clean shoes made from other materials?<\/h6><p>Other materials (suede, canvas, hemp and more) can be more sensitive to care. That’s why we recommend <strong>washing them by hand, never scrubbing<\/strong>. Here are tips that have worked well for us and will also work with other shoe brands:<\/p><ul><li>Clean <strong>gently<\/strong> with soapy water.<\/li><li>Try the <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicka-cistici-sada-obuvi-2go\"><span style=\"text-decoration:underline\">ecological cleaning kit<\/span><\/a>.<\/li><li>If the shoes smell, dry them, let them air out and use a <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicky-osvezovac-obuvi-2go-1\"><span style=\"text-decoration:underline\">shoe freshener<\/span><\/a>.<\/li><\/ul><p><strong>Tip:<\/strong> Read the detailed recommendations on the page <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-pecovat-o-boty\"><span style=\"text-decoration:underline\">How to care for your shoes<\/span><\/a>. We’ll advise you on odor in the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">7 + 5 proven tips for getting rid of shoe odor<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_wYMbRm": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to remove odor from shoes?",
+            "content": "<p>Odor is caused by bacteria that multiply in moisture. So first <strong>let the shoes dry thoroughly and air out<\/strong>. In winter you can help yourself with newspaper. But be careful: never dry shoes on a radiator, they could come unglued. We also don’t recommend washing them in the washing machine; hot water and high spin speeds harm them.<\/p><p>For acute odor, a <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicky-osvezovac-obuvi-2go-1\"><span style=\"text-decoration:underline\">shoe freshener<\/span><\/a> that eliminates the smell will help. Or try <strong>odor absorbers<\/strong> such as cedar wood.<\/p><h6>How to get rid of shoe odor once and for all?<\/h6><p>You want to get rid of the odor forever, don’t you? If so, <strong>deal with the cause<\/strong>. Shoes don’t stink on their own – the odor is created by bacteria that thrive in a damp, enclosed environment. <\/p><p>Make sure you have <strong>enough room<\/strong> in your shoes. Cramped feet sweat more. Wear only shoes made from <strong>breathable materials<\/strong> that wick moisture out. And put on <a href=\"https:\/\/ahinsashoes.cz\/collections\/doplnky\/kategorie-pono%C5%BEky\"><span style=\"text-decoration:underline\">socks made from natural materials<\/span><\/a> such as bamboo.<\/p><p><strong>Tip:<\/strong> You’ll find more advice in the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">7 + 5 proven tips for getting rid of shoe odor<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_HFFtmT": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to clean the inside of barefoot shoes?",
+            "content": "<p>Ahinsa barefoot shoes don’t like the washing machine, so always <strong>clean them by hand<\/strong> and dry them slowly in the air. Never dry them on a radiator. You can clean the inside of the shoe with <strong>soapy water<\/strong> or an ecological cleaner. This <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicka-cistici-sada-obuvi-2go\"><span style=\"text-decoration:underline\">cleaning kit<\/span><\/a> has worked well for us. <\/p><p>We recommend cleaning the inside of the shoes gently with circular movements. A cloth, a sponge or a soft cleaning brush will work well.<\/p><h6>Cleaning shoes because of odor? Here are our tips<\/h6><p>Odor is caused by bacteria that multiply in moisture. So first <strong>let the shoes dry thoroughly and air out<\/strong>. In winter you can help yourself with newspaper. But be careful: never dry shoes on a radiator, they could come unglued. We also don’t recommend washing them in the washing machine; hot water and high spin speeds harm them.<\/p><p>For acute odor, a <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicky-osvezovac-obuvi-2go-1\"><span style=\"text-decoration:underline\">shoe freshener<\/span><\/a> that eliminates the smell will help. Or try <strong>odor absorbers<\/strong> such as cedar wood.<\/p><p><strong>Tip:<\/strong> You’ll find more advice in the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">7 + 5 proven tips for getting rid of shoe odor<\/span><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_atpFTK",
+        "accor_item_bacbKm",
+        "accor_item_VEQGRn",
+        "accor_item_wYMbRm",
+        "accor_item_HFFtmT"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Shoe care and cleaning",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#202020",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#202020",
+        "bg_content_cl": "#ffffff",
+        "content_align": "t4s-text-start",
+        "auto_active": true,
+        "layout": "t4s-cus-width",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "accordion_JYCBFW": {
+      "type": "accordion",
+      "blocks": {
+        "accor_item_aeYDtb": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to soften a shoe heel?",
+            "content": "<p>You <strong>don’t need to soften<\/strong> Ahinsa shoes. We make them primarily from <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">CF+ microfiber<\/span><\/a>, which molds to the foot. Shoes made from natural materials such as hemp or linen can be firmer. With those, you just need to wait – <strong>over time they will mold to your foot and soften<\/strong>.<\/p><p>If your heel still pinches, <a href=\"https:\/\/ahinsashoes.cz\/pages\/kontakt\"><span style=\"text-decoration:underline\">get in touch<\/span><\/a>. We’ll look into it.<\/p><h6>When the heel rubs, it points to a problem.<\/h6><p>The heel of healthy shoes that fit you shouldn’t rub. It may take a while for firmer leather shoes, for example, to ease. <strong>But a heel shouldn’t pinch for long<\/strong>, and it certainly shouldn’t rub and cause blisters and sores.<\/p><p>If your shoes rub, you’ve probably chosen the <strong>wrong size or model<\/strong>. When choosing, make sure you have enough room in the shoe for free movement. The shoe shouldn’t have a reinforced heel counter and should follow the movement of the foot. That’s why Ahinsa shoes don’t have a heel counter either, and they’ll fit you the first time you put them on.<\/p>"
+          }
+        },
+        "accor_item_AwkV8U": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to measure shoe size? How to measure a shoe insole?",
+            "content": "<p>The insole in Ahinsa shoes (and in many other shoes) is usually glued in so it doesn’t shift in the shoe. That’s why you <strong>can’t take it out and measure it<\/strong>. Finding out its length is easy, though. Look at the shoe size and find it in our size charts.<\/p><h6>We don’t recommend choosing shoe size according to old shoes. How else to do it?<\/h6><p><\/p><p>If you want to find out the insole size, <strong>take it out of the shoe<\/strong> and measure its <strong>longest dimension<\/strong>. From the size charts you’ll find out which size the insole length corresponds to.<\/p><p>We don’t recommend choosing the size of new shoes according to this information, though, because it’s very imprecise. Better to measure your feet carefully so you can be sure the shoes will really fit. How to do it?<\/p><p>Need to <strong>measure your foot <\/strong>and choose a size? Try it like this:<\/p><ol><li>Stand with your <strong>heel right against the wall<\/strong>.<\/li><li>Place a <strong>box<\/strong> (or another object with a straight edge) in front of your toes so that it touches the longest toe.<\/li><li>Weight the foot.<\/li><li>Hold the box and lift your foot so that the box doesn’t move.<\/li><li>Measure the distance from the box to the edge of the paper. Careful: measure perpendicular to the short side of the paper!<\/li><\/ol><p>When choosing a size, don’t forget to add the <strong>extra room<\/strong> – that’s about 0.5 cm of free space in front of the toes, thanks to which the foot can stretch and contract naturally.<\/p><p><strong>Tip: <\/strong>You’ll find a detailed guide on the page <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\">How to choose a size<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_WDLVi4": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to choose shoe size?",
+            "content": "<p>Never <strong>choose only according to the size<\/strong> you’re used to. Every manufacturer numbers shoes a little differently, so the shoes may not fit you. We recommend first <strong>carefully measuring the length of your foot<\/strong>. We describe how on the page <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\">How to choose the right size<\/span><\/a>.<\/p><h6>How to measure foot length correctly and choose a size?<\/h6><p><\/p><p>You’ll need a box or another object with a straight edge and a long ruler. The procedure is simple:<\/p><ol><li>Stand with your <strong>heel right against the wall<\/strong>.<\/li><li>Place a <strong>box<\/strong> (or another object with a straight edge) in front of your toes so that it touches the longest toe.<\/li><li>Weight the foot.<\/li><li>Hold the box and lift your foot so that the box doesn’t move.<\/li><li>Measure the distance from the box to the edge of the paper. Careful: measure perpendicular to the short side of the paper!<\/li><\/ol><p>Add the <strong>extra room<\/strong> – that’s about 0.5 cm of free space in front of the toes, thanks to which the foot can stretch and contract naturally.<\/p><p>Then <strong>look at the size chart<\/strong> for the shoe model you’ve chosen. According to the length of your foot plus the extra room you’ll easily choose the size. If you’re hesitating between two sizes, choose the larger one. <\/p><p><strong>Tip:<\/strong> If the shoes don’t fit, we’ll exchange them lightning-fast and pay the postage. <a href=\"https:\/\/ahinsashoes.cz\/policies\/refund-policy\"><span style=\"text-decoration:underline\">How does it work?<\/span><\/a><\/p>"
+          }
+        },
+        "accor_item_pUDPJw": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to stretch sports shoes?",
+            "content": "<p>You <strong>don’t need to stretch<\/strong> Ahinsa sports shoes. We make them from materials that are pliable and <strong>adapt to you<\/strong> and to your walking and running style. If your Ahinsa shoes pinch, you may have chosen the wrong size. <a href=\"https:\/\/ahinsashoes.cz\/pages\/kontakt\"><span style=\"text-decoration:underline\">Get in touch<\/span><\/a> and we’ll be happy to help you choose.<\/p><p>Sports shoes made of stiff leather may need stretching. With those it usually just takes wearing them for a while; over time they soften and adapt. <\/p><h6>When a shoe pinches, it points to a problem.<\/h6><p><\/p><p>Healthy sports shoes that fit you shouldn’t rub. It may take a while for firmer leather shoes, for example, to ease. <strong>But they shouldn’t pinch for long<\/strong>, and they certainly shouldn’t rub and cause blisters and sores.<\/p><p>If your shoes rub, you’ve probably chosen the <strong>wrong size or model<\/strong>. When choosing, make sure you have enough room in the shoe for free movement. A wide toe box and adaptive materials that follow the movement of your foot are key. <\/p><p><strong>Tip:<\/strong> The article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-bezecke-boty\"><span style=\"text-decoration:underline\">How to choose running shoes? Cushioning hurts you, studies say<\/span><\/a> will help you choose healthy sports shoes.<\/p>"
+          }
+        },
+        "accor_item_ffXVwQ": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What are wide-toe-box shoes for?",
+            "content": "<p>We’re glad you’re asking. We stand by the wide toe box. When you look at the <strong>human foot<\/strong>, you’ll see that it <strong>isn’t pointed<\/strong>. That means the shape of ordinary shoes doesn’t correspond to what our foot needs. <\/p><p>That’s why at Ahinsa shoes we make shoes with a wide toe box. So the <strong>toes aren’t squeezed<\/strong> and can function naturally. When you give the toes freedom, you prevent bunions, <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/patni-ostruha\"><span style=\"text-decoration:underline\">heel spur<\/span><\/a> and other problems.<\/p><p><strong>Tip:<\/strong> Download the free e-book <a href=\"https:\/\/ahinsashoes.cz\/pages\/spokojene-nohy\"><span style=\"text-decoration:underline\">Happy Feet: The most common foot problems and exercises for them<\/span><\/a>.<\/p><h6>Why is a wide toe box so important?<\/h6><p><\/p><p>For healthy walking, the <strong>toes<\/strong> are very important. We push off from them and at the same time we use them to cushion our landings. The toes also <strong>activate the arch<\/strong>, which takes care of cushioning the step, and thanks to them we gain balance.<\/p><p>And it’s the toes that we squeeze <strong>in ordinary shoes into an unnatural point<\/strong>. The results don’t take long to show. The toes can’t move, so we lose the ability to use them. We look for other, unnatural ways of walking. Because of inactive toes the <strong>muscles of the sole also weaken<\/strong> and the <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vylecit-ploche-nohy\"><span style=\"text-decoration:underline\">arch falls<\/span><\/a>. <\/p><p>A wide toe box is therefore <strong>essential for the proper functioning of the foot<\/strong>. In it the toes have enough room to fulfill their function. And you walk healthily and naturally.<\/p>"
+          }
+        },
+        "accor_item_GXgjVg": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How can you tell shoes are too small?",
+            "content": "<p>If you’re asking yourself this question, you can probably already feel that your <strong>shoes are restricting you in some way<\/strong>. That’s always a bad sign. Healthy shoes don’t restrict you or affect your gait. On the contrary, they give you enough space and follow your movement. When shoes fit you well, you barely notice them.<\/p><h6>So how do I recognize shoes that are too small?<\/h6><p><\/p><p>They don’t necessarily have to rub or give you blisters. You can already recognize small shoes by these signs:<\/p><ul><li>They pinch.<\/li><li>You don’t have free space in front of your toes.<\/li><li>They slip off.<\/li><li>When you walk, your toes hit the toe box.<\/li><\/ul><p>When choosing shoes, always measure your feet carefully first. Choose according to the manufacturer’s <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\">size charts<\/span><\/a>, not according to the size you’re used to. We recommend always adding about 0.5 cm extra to the length of your foot – the so-called <strong>extra room<\/strong>. That’s the free space in front of the toes that lets the foot stretch and contract naturally as you walk.<\/p><p>Do your Ahinsa shoes not fit, and you haven’t taken them outside yet? <a href=\"https:\/\/ahinsashoes.cz\/policies\/refund-policy\"><span style=\"text-decoration:underline\">Write to us<\/span><\/a> and we’ll send you a new pair lightning-fast and pay the postage.<\/p>"
+          }
+        },
+        "accor_item_UEFTrD": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How should shoes fit?",
+            "content": "<p>In healthy, well-fitting shoes you should almost <strong>not notice them<\/strong>. They shouldn’t pinch you or slop around on your foot. If the first time you put them on you think they pinch or rub a little, but they’ll surely ease, pay attention. The shoes may not ease, and then they’d only torment you.<\/p><p>If you’ve just bought the shoes and they’ve arrived at home, <strong>try them on indoors first<\/strong>. If you find they don’t fit, you can <a href=\"https:\/\/ahinsashoes.cz\/pages\/refund-portal\"><span style=\"text-decoration:underline\">return them or exchange them for a different size<\/span><\/a> free of charge.<\/p><h6>7 signs that your shoes fit well<\/h6><p><\/p><p>Try <strong>walking around the room<\/strong> in the shoes. Notice how you feel in them. You should have the feeling that:<\/p><ol><li>The shoe sits naturally on the foot.<\/li><li>Nothing slops around anywhere.<\/li><li>Your toes don’t hit the toe box.<\/li><li>Your toes have enough room to move.<\/li><li>In front of the toes there remains about 0.5 cm of free space at rest.<\/li><li>The shoe doesn’t pinch the instep.<\/li><li>The shoe doesn’t fall off the foot or slip off.<\/li><\/ol><p>Do your Ahinsa shoes not fit, and you haven’t taken them outside yet? <a href=\"https:\/\/ahinsashoes.cz\/policies\/refund-policy\"><span style=\"text-decoration:underline\">Write to us<\/span><\/a> and we’ll send you a new pair lightning-fast and pay the postage.<\/p>"
+          }
+        },
+        "accor_item_EfkENH": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What’s the difference between a men’s and a women’s shoe?",
+            "content": "<p>When it comes to healthy anatomical shoes, <strong>there’s no difference<\/strong>. A man’s foot and a woman’s foot look and function the same, so they don’t need a different cut. The difference will therefore only be <strong>aesthetic<\/strong>. At Ahinsa shoes we divide shoes into men’s and women’s only to make choosing easier for you. But you can buy shoes from either category.<\/p><h6>The men’s\/women’s split isn’t important. The shape of the foot matters more<\/h6><p><\/p><p>More important than the split into men’s and women’s shoes is the <strong>shape of your foot<\/strong>. For <strong>wider feet <\/strong>we’ve created the <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=xwide*\"><span style=\"text-decoration:underline\">xWide<\/span><\/a> line, in which nothing pinches you at last and the foot functions naturally. If, on the other hand, most shoes feel wide on you, you probably have a <strong>narrow foot<\/strong> and our <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=%C3%BAzk%C3%A9+nohy\"><span style=\"text-decoration:underline\">extra-narrow models<\/span><\/a> will fit you.<\/p><p>Also pay attention to instep height. If shoes often pinch you on the instep, you have a <strong>higher instep<\/strong>. Our lace-up models, which you can loosen over the instep, will fit you best.<\/p><p><strong>Tip: <\/strong>Have a look at the page<a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\"> How to choose the right size<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_UhLF9p": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How big should winter shoes be?",
+            "content": "<p>The same applies to healthy winter shoes as to the others: in front of your toes you should have <strong>about 0.5 cm of free space<\/strong>, the so-called extra room. Thanks to it the foot can <strong>function naturally<\/strong>. So first <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\">measure your foot<\/span><\/a> and then choose the size that corresponds to the length of your foot plus the extra room.<\/p><p><strong>Why the extra room? <\/strong>Because in healthy shoes your foot <strong>naturally contracts and stretches<\/strong>. With the extra room it has space for that and can function naturally. Without it the foot is as if in a cast. It doesn’t move, circulation is reduced, and it soon gets cold.<\/p><h6>Two pairs of socks aren’t a good idea<\/h6><p><\/p><p>We <strong>don’t recommend two pairs of socks<\/strong> or extra-thick socks in winter shoes. They can constrict the feet and restrict their movement. They slow blood circulation and can even make the foot colder. <\/p><p>If you’re someone who always feels cold, we recommend adding a <a href=\"https:\/\/ahinsashoes.cz\/products\/zimni-stelky\"><span style=\"text-decoration:underline\">winter insole<\/span><\/a> or these <a href=\"https:\/\/ahinsashoes.cz\/products\/zimni-barefoot-ponozky-bile\"><span style=\"text-decoration:underline\">winter socks<\/span><\/a>.<\/p><p><strong>Tip:<\/strong> Read the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-zimni-boty?_pos=5&_sid=e839b2e1e&_ss=r\"><span style=\"text-decoration:underline\">How to choose winter shoes? Note: You don’t need two pairs of socks<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_MXPbpr": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to stretch shoes? How to stretch shoes in width?",
+            "content": "<p>You <strong>don’t need to stretch<\/strong> Ahinsa shoes. We make them from materials that are <strong>pliable<\/strong> and adapt to you and to your walking style. Shoes made from natural materials such as <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=hemp*\"><span style=\"text-decoration:underline\">hemp<\/span><\/a> or linen can be firmer. With those, you just need to wait – <strong>over time they will mold to your foot and soften<\/strong>.<\/p><p>If the shoes pinch, you may have <strong>chosen the wrong size<\/strong>. <a href=\"https:\/\/ahinsashoes.cz\/pages\/kontakt\"><span style=\"text-decoration:underline\">Get in touch<\/span><\/a> and we’ll be happy to help you choose.<\/p><p><strong>Tip: <\/strong>Do most shoes pinch you? You may simply have a wide foot and need extra-wide shoes. For cases like that we’ve created the <strong>xWide<\/strong> line. Put it on and you’ll fall in love: your foot will experience for the first time what it’s like to have as much room as it needs for healthy walking.<\/p><h6>When a shoe pinches, it points to a problem.<\/h6><p><\/p><p>Healthy shoes that fit you shouldn’t rub. It may take a while for firmer leather shoes, for example, to ease. <strong>But they shouldn’t pinch for long<\/strong>, and they certainly shouldn’t rub and cause blisters and sores.<\/p><p>If your shoes rub, you’ve probably chosen the <strong>wrong size or model<\/strong>. When choosing, make sure you have enough room in the shoe for free movement. A wide toe box and adaptive materials that follow the movement of your foot are key. <\/p><p><strong>Tip:<\/strong> The article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-zdrave-boty\"><span style=\"text-decoration:underline\">No more blisters! How to choose healthy shoes?<\/span><\/a> will help you choose healthy shoes.<\/p>"
+          }
+        },
+        "accor_item_QCYWpw": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What are the best shoes for walking?",
+            "content": "<p>The best shoes are those that <strong>respect the shape and function of your foot<\/strong>. They shouldn’t change or restrict your movement in any way. Walking is natural and healthy only when we can move as <strong>freely as when barefoot<\/strong>.<\/p><p>That’s why watch out for everything that affects your gait: a thick sole, a heel, stiff materials, a narrow toe box, or a generally non-anatomical shoe shape. <\/p><h6>5 signs that you’re wearing healthy shoes<\/h6><p><\/p><p>So how do you recognize the best shoes for walking?<\/p><ol><li>A <strong>wide toe box<\/strong> gives the toes room.<\/li><li><strong>Flexible materials<\/strong> adapt to the foot.<\/li><li>A <strong>flexible sole<\/strong> follows your movement.<\/li><li>A <strong>zero heel <\/strong>ensures that the foot and the whole body don’t tilt.<\/li><li>The <strong>shoes don’t pinch<\/strong> and don’t give you blisters.<\/li><\/ol><p>The best shoes don’t necessarily have to be barefoot footwear with a thin sole. What’s much more important is that the shoe is <strong>roomy and adaptive<\/strong>. If you don’t feel ready for barefoot, we recommend the Comfort line. It meets all the parameters of healthy shoes, but <strong>cushions your steps<\/strong>.<\/p><p><strong>Tip:<\/strong> Read the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-zdrave-boty?_pos=1&_sid=54793887d&_ss=r\"><span style=\"text-decoration:underline\">No more blisters! How to choose healthy shoes<\/span><\/a>. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_aeYDtb",
+        "accor_item_AwkV8U",
+        "accor_item_WDLVi4",
+        "accor_item_pUDPJw",
+        "accor_item_ffXVwQ",
+        "accor_item_GXgjVg",
+        "accor_item_UEFTrD",
+        "accor_item_EfkENH",
+        "accor_item_UhLF9p",
+        "accor_item_MXPbpr",
+        "accor_item_QCYWpw"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Size and comfort",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#202020",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#202020",
+        "bg_content_cl": "#ffffff",
+        "content_align": "t4s-text-start",
+        "auto_active": false,
+        "layout": "t4s-cus-width",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "accordion_KH3mTw": {
+      "type": "accordion",
+      "blocks": {
+        "accor_item_X6ecEM": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to get rid of a blister on your foot? What helps blisters from shoes?",
+            "content": "<p>If the blister is likely to burst on its own soon, you can <strong>pierce<\/strong> it. Careful: the needle must be <strong>sterile<\/strong> – boiled, for example. If it isn’t necessary, <strong>don’t pierce or peel<\/strong> the blister.<\/p><p>Has it already burst? <strong>Disinfect<\/strong> it and cover it with a plaster. At the pharmacy you’ll find special <strong>blister plasters<\/strong> that speed up healing.<\/p><h6>Healthy shoes don’t cause blisters<\/h6><p><\/p><p>Do your shoes give you blisters? Swap them quickly. <strong>Healthy shoes don’t cause blisters.<\/strong> A blister means the foot is being squeezed and can’t function naturally. We always make Ahinsa shoes from soft, pliable materials that won’t give you a blister.<\/p><p>If already when you put them on you think the shoe pinches and rubs, but that it will ease, pay attention. It’s likely that <strong>the shoe won’t ease — or not in the way you hope<\/strong>. Good shoes should fit you first time. They should be roomy and made from soft, adaptive materials.<\/p><p><strong>Tip:<\/strong> Read the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-zdrave-boty?_pos=1&_sid=54793887d&_ss=r\"><span style=\"text-decoration:underline\">No more blisters! How to choose healthy shoes<\/span><\/a>. <\/p><p>A doctor advises: “It’s important to choose shoes that really fit. In those, secondary pressure sores don’t form.”<\/p><p><a href=\"https:\/\/fajnzdravie.sk\/\"><span style=\"text-decoration:underline\">MUDr. Martin Frolo<\/span><\/a><\/p>"
+          }
+        },
+        "accor_item_HmUKjA": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to straighten toes? How to straighten crooked toes?",
+            "content": "<p>Whether it’s <strong>bunions <\/strong>or <strong>hammer toes<\/strong>, the first step is the same: Swap your classic shoes for <strong>healthy, roomy footwear<\/strong>. Focus on making sure the toes can move naturally in the shoe. A roomy toe box and flexible materials will help you with that.<\/p><p>It’s non-anatomical shoes that often cause these problems. The toes are cramped in them, they can’t function naturally, and deformities occur.<\/p><h6>Good news: You can straighten your toes<\/h6><p><\/p><p>The next step will be <strong>exercise<\/strong>. The good news is that in most cases you can straighten your toes with exercise; surgery isn’t necessary except in exceptions.<\/p><p>How do you find out whether the toes can be straightened? Help yourself with your hand and <strong>try to straighten the toes<\/strong>. Does it work at least a little? If so, it means you can work the toes loose with exercise. <\/p><p><strong>Tip:<\/strong> Start exercising right away, even at home. Exercises from physiotherapist <a href=\"https:\/\/ahinsashoes.cz\/pages\/lukas-klimpera\"><span style=\"text-decoration:underline\">Lukáš Klimpera<\/span><\/a> are in the e-book <a href=\"https:\/\/ahinsashoes.cz\/pages\/spokojene-nohy\"><span style=\"text-decoration:underline\">Happy Feet: The most common foot problems and exercises for them<\/span><\/a>. It’s free – download it.<\/p><p>We also recommend <a href=\"https:\/\/ahinsashoes.cz\/pages\/fyzioterapeuti\"><span style=\"text-decoration:underline\">a visit to a physiotherapist<\/span><\/a>. <\/p>"
+          }
+        },
+        "accor_item_cd3qLw": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How fast do feet grow?",
+            "content": "<p>The speed of growth is different for everyone. In general, though, with small children you can expect <strong>about 1.5 cm per year<\/strong>, with older ones around <strong>1 cm<\/strong>. A preschooler can grow out of as many as 2 sizes in a year, a schoolchild out of 1 to 2 sizes. Don’t be alarmed if a child’s foot grows in a jump; that’s common.<\/p><p>Even adults <strong>shouldn’t rely on always the same size<\/strong>. Always try every new pair of shoes on properly. When you’re choosing online, <a href=\"https:\/\/ahinsashoes.cz\/pages\/jak-spravne-vybrat-velikost\"><span style=\"text-decoration:underline\">measure your feet carefully<\/span><\/a> and choose according to the manufacturer’s charts. That’s the only way you know the shoes will really fit.<\/p><p><strong>Tip:<\/strong> Did you know you can <a href=\"https:\/\/ahinsashoes.cz\/pages\/refund-portal\"><span style=\"text-decoration:underline\">exchange Ahinsa shoes free of charge<\/span><\/a>? <\/p><h6>Children’s feet are developing. Give them room to do it.<\/h6><p><\/p><p>Children’s feet are developing, so it’s important <strong>that shoes don’t restrict them<\/strong>. Check regularly whether the size still fits, so the foot doesn’t deform. Don’t forget the <strong>extra room<\/strong>. That’s the free space in front of the toes that lets the foot contract and stretch naturally.<\/p><p><strong>Tip:<\/strong> As the foot grows, don’t forget <strong>bigger socks<\/strong> too. A good sock shouldn’t constrict or pinch the child, so look for ones that don’t contain elastane, don’t cut in around the ankle and don’t pull the toes together. A child needs freedom of movement for their development, so also watch out for any clothing that restricts or affects their movement.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_X6ecEM",
+        "accor_item_HmUKjA",
+        "accor_item_cd3qLw"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Foot health",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#202020",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#202020",
+        "bg_content_cl": "#ffffff",
+        "content_align": "t4s-text-start",
+        "auto_active": false,
+        "layout": "t4s-cus-width",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "accordion_Yxybhq": {
+      "type": "accordion",
+      "blocks": {
+        "accor_item_xHd8Lz": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What is CF+ vegan leather made of?",
+            "content": "<p><a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">CF+<\/span><\/a> is a material that has proven itself for us in shoes. It’s almost <strong>indestructible<\/strong>. It’s a special microfiber that the manufacturer treats so that it’s <strong>breathable<\/strong> and at the same time <strong>waterproof<\/strong>. It’s so durable that it’s also used to upholster yachts. And the composition? 90% polyamide and 10% polyurethane.<\/p><p>We’ve grown fond of it for many reasons. One of them is <strong>easy care<\/strong>. The microfiber doesn’t let dirt in, so one wipe with a damp cloth and the shoes look like new again.<\/p><h6>Why don’t we use leather? CF+ is ethical and lasts longer<\/h6><p>Why don’t we use animal leather? At Ahinsa shoes we <strong>honor the principle of non-violence<\/strong>, so leather isn’t the right path for us. Leather also requires maintenance, scuffs quickly, and takes time to mold to your foot.<\/p><p>CF+ microfiber has proven itself so well that for shoes made from it we <a href=\"https:\/\/ahinsashoes.cz\/pages\/nejlepsi-boty\"><span style=\"text-decoration:underline\">guarantee they are the best shoes in the world<\/span><\/a>. Really! If you find shoes with better properties, you get a 50% discount on Ahinsa shoes. You’ll find the details on the page.<\/p><p><strong>Important:<\/strong> CF+ is not faux leather. It will last you for years. You won’t scratch it or scuff it. And you don’t have to look after it. <\/p>"
+          }
+        },
+        "accor_item_rQA9zA": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Is artificial leather breathable?",
+            "content": "<p>It depends which faux leather you choose. Classic leatherette doesn’t breathe; it has no pores, so the feet sweat more in it and the shoes soon start to smell. By the way, have you read our <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/overene-tipy-jak-se-zbavit-zapachu-z-bot?_pos=1&_sid=cbbc6cc0c&_ss=r\"><span style=\"text-decoration:underline\">tips against shoe odor<\/span><\/a>? <\/p><p>At Ahinsa shoes, though, we don’t use leatherette. We make our shoes by hand from <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\"><span style=\"text-decoration:underline\">CF+ microfiber<\/span><\/a>, which <strong>lets air through to the foot<\/strong> and wicks moisture away from it. That’s why it keeps your feet dry.<\/p><p>We’ve grown fond of this microfiber for other reasons too:<\/p><ul><li><strong>It’s ethical. <\/strong>No animal suffered for it.<\/li><li><strong>It doesn’t soak through.<\/strong> A little rain doesn’t bother it.<\/li><li><strong>It’s easy to clean. <\/strong>One wipe with a damp cloth is enough.<\/li><li><strong>It lasts for years.<\/strong> You won’t scratch it or scuff it. We’ve tried!<\/li><li><strong>It wicks moisture out.<\/strong> From the inside it absorbs moisture and wicks it away from the feet.<\/li><\/ul><h6>Not only breathable. We guarantee the best shoes in the world<\/h6><p><\/p><p>CF+ microfiber has proven itself so well that for shoes made from it we <a href=\"https:\/\/ahinsashoes.cz\/pages\/nejlepsi-boty\"><span style=\"text-decoration:underline\">guarantee they are the best shoes in the world<\/span><\/a>. Really! If you find shoes with better properties, you get a 50% discount on Ahinsa shoes. You’ll find the details on the page<\/p><p><strong>Important:<\/strong> CF+ is not faux leather. It will last you for years. You won’t scratch it or scuff it. And you don’t have to look after it. <\/p>"
+          }
+        },
+        "accor_item_UAG96h": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What’s the difference between barefoot Ahinsa shoes and the Comfort line?",
+            "content": "<p>We’re glad you’re asking. It shows you care about healthy walking. We created these two lines because everyone likes a slightly different stride. You’ll notice the difference right when you land.<\/p><p>Our Barefoot line has a <strong>minimalist sole<\/strong>. Walking in them is similar to walking barefoot, so they’re ideal for you if you like to feel the world beneath you.<\/p><p>The Comfort line <strong>softens your steps<\/strong> thanks to a special flexible layer. In closed Comfort shoes we’ve also added a soft foam insole. That’s why these shoes are suitable for you if you want healthy, comfortable shoes but aren’t used to barefoot walking. <\/p><p>Both the Barefoot line and Comfort line shoes meet this:<\/p><ul><li>They were designed by <strong>physiotherapists<\/strong>.<\/li><li>In the <strong>wide toe box<\/strong> you have room for your toes to move.<\/li><li><strong>Flexible materials<\/strong> and a <strong>bendable sole<\/strong> follow your movement.<\/li><li>They’re vegan and almost <strong>indestructible<\/strong>.<\/li><\/ul><h6>So which to choose? Comfort line or Barefoot line?<\/h6><p><\/p><p>It depends how much of a fan of barefoot walking you are. Do you prefer extra comfort, or do you want to feel the world beneath you?<\/p><ul><li><strong>A fan of barefoot walking? <\/strong>Choose the Barefoot line. <\/li><li><strong>Just starting with barefoot walking? <\/strong>Choose the Comfort line. <\/li><li><strong>Want comfortable shoes and aren’t interested in barefoot?<\/strong> Choose the Comfort line.<\/li><\/ul><p><strong>Tip:<\/strong> Read the details on the page <a href=\"https:\/\/ahinsashoes.cz\/pages\/barefoot-obuv\"><span style=\"text-decoration:underline\">Barefoot or Comfort?<\/span><\/a><\/p>"
+          }
+        },
+        "accor_item_jPpJ3B": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What is the Ahinsa shoes sole made of?",
+            "content": "<p>On most shoes we use <strong>German soles<\/strong> made from a special <strong>high-grip compound<\/strong>. Thanks to it the shoes don’t slip, for example on rocks or a wet path. How do we know? We had the soles tested at an independent laboratory in Zlín.<\/p><p>Most often it’s the <strong>Lifoprene compound<\/strong> made from TPU. TPU is thermoplastic polyurethane – a flexible yet strong material that you won’t wear through anytime soon.<\/p><p>On selected models such as <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=adventure\"><span style=\"text-decoration:underline\">hiking sandals<\/span><\/a>, <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=irbis*\"><span style=\"text-decoration:underline\">snow boots<\/span><\/a> or <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=trekov%C3%A9*\"><span style=\"text-decoration:underline\">hiking sneakers<\/span><\/a> or <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=hiker*\"><span style=\"text-decoration:underline\">ankle boots for the trail<\/span><\/a> we use <strong>proven Vibram soles<\/strong>.<\/p><h6>Great soles make the best shoes. We guarantee it<\/h6><p><\/p><p>Do you know how you can tell that our soles have really proven themselves? Thanks to them too we <strong>guarantee that Ahinsa shoes are <\/strong><a href=\"https:\/\/ahinsashoes.cz\/pages\/nejlepsi-boty\"><span style=\"text-decoration:underline\">the best shoes in the world<\/span><\/a>. Really! If you find shoes with better properties, you get a 50% discount on Ahinsa shoes.<\/p>"
+          }
+        },
+        "accor_item_PzUkhf": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Are Ahinsa shoes waterproof?",
+            "content": "<p>Most models unfortunately <strong>are not waterproof<\/strong>. We do make them from water-resistant microfiber, but water can seep in through the seams or the lace holes. Ordinary rain won’t soak you through, but a step into a puddle already might.<\/p><p>Our only water-resistant shoes so far are the <a href=\"https:\/\/ahinsashoes.cz\/search?q=shuma+nature\" target=\"_blank\">Shuma Nature ankle boots<\/a>, <a href=\"https:\/\/ahinsashoes.cz\/search?q=shuma+winter\" target=\"_blank\">Shuma Winter boots,<\/a> <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=irbis*\" target=\"_blank\"><span style=\"text-decoration:underline\">Irbis Snow snow boots<\/span><\/a> and <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=hiker*\" target=\"_blank\"><span style=\"text-decoration:underline\">Hiker hiking boots<\/span><\/a>. A gusseted tongue and a special membrane won’t let a single drop in, and at the same time they wick moisture away from the feet.<\/p><h6>What can you do so the shoes don’t soak through? <\/h6><p><\/p><p>We recommend <strong>treating the shoes well<\/strong> before the first outing. If you didn’t get shoes made from CF+ microfiber, but for example from <strong>suede, nubuck, canvas, hemp, linen or denim<\/strong>, we recommend using a waterproofing spray.<\/p><p>This <a href=\"https:\/\/ahinsashoes.cz\/products\/ekologicka-impregnace-2go\"><span style=\"text-decoration:underline\">ecological waterproofing spray<\/span><\/a> has worked well for us. It’s 100% vegan and biodegradable, and yet just as effective as chemical waterproofing sprays. What’s more, it will <strong>help you care for the shoes<\/strong>. It repels water and dirt, so you just wipe the shoes with a cloth and they’re like new again.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_xHd8Lz",
+        "accor_item_rQA9zA",
+        "accor_item_UAG96h",
+        "accor_item_jPpJ3B",
+        "accor_item_PzUkhf"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "O Ahinsa shoes",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#202020",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#202020",
+        "bg_content_cl": "#ffffff",
+        "content_align": "t4s-text-start",
+        "auto_active": false,
+        "layout": "t4s-cus-width",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "accordion_tW9frC": {
+      "type": "accordion",
+      "blocks": {
+        "accor_item_hbP3RV": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How to sew barefoot shoes?",
+            "content": "<p>We don’t have a tutorial or a course for you yet, but we can show you how we do it. Read the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-se-sijou-boty-okenko-do-sevcovske-dilny\"><span style=\"text-decoration:underline\">How are shoes sewn? A glance into a shoemaker’s workshop<\/span><\/a> or <strong>watch the video<\/strong>.<\/p><p>We make the shoes in a <strong>family workshop in Croatia<\/strong>. You may be surprised how many steps and how much skill making barefoot shoes requires. And often physical strength, too! <\/p><h6>Watch the shape of the insole<\/h6><p><\/p><p>If you do set out to sew your own shoes, pay attention above all to the shape of the insole. <strong>Our shoes are designed by physiotherapists <\/strong>so that they correspond to the natural shape and function of the foot. Only then do the shoes not affect your gait. <\/p><p>And how will you recognize the right shoe shape? It certainly won’t have a narrow toe box, but a wide and roomy one. In a wide toe box the toes can move freely, they join in the push-off and <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/propadla-klenba\"><span style=\"text-decoration:underline\">shape the arch<\/span><\/a>. <\/p><p><strong>Tip:<\/strong> You’ll find more inspiration in the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-zdrave-boty\"><span style=\"text-decoration:underline\">No more blisters! How to choose healthy shoes?<\/span><\/a><\/p>"
+          }
+        },
+        "accor_item_3LgwxL": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "When to give a child barefoot shoes?",
+            "content": "<p>Do you know what shoes children are born in? That’s right, none. <strong>Barefoot walking is the first thing they learn.<\/strong> Barefoot shoes therefore aren’t a transition to something new for them, but simply a continuation of what they already know. That’s why <strong>barefoot shoes are suitable even as first little shoes<\/strong>. But for as long as it’s possible, let the child walk and run barefoot – that’s the most natural thing for their development.<\/p><h6>Don’t constrict a child’s foot; make sure the shoes are healthy<\/h6><p><\/p><p>For children (and for us adults too), <strong>barefoot walking is the most natural movement<\/strong>. So definitely don’t lace a child into classic shoes. When the time comes for the first baby shoes, make sure the child can <strong>walk in them as freely as when barefoot<\/strong>.<\/p><p>The toe box should give the <strong>toes enough room <\/strong>for natural movement. The whole shoe should be made from a material that <strong>adapts to the movement of the foot<\/strong>, not the other way around.<\/p><p>Children’s shoes are often reinforced, hard and inflexible. That’s the exact opposite of what a developing child’s foot needs. A stiff, rigid shoe affects the development of the foot and the child’s gait and stores up trouble for the future.<\/p><p>If a child has worn classic shoes for a long time, switch to barefoot shoes slowly. Practice healthy walking on grass and on a soft surface before the child puts on barefoot shoes in the city as well.<\/p><p><strong>Tip:<\/strong> Let the child run barefoot most of the time. There’s nothing healthier for the development of their feet.<\/p>"
+          }
+        },
+        "accor_item_anhE9h": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Are there barefoot shoes for running?",
+            "content": "<p>Yes, they exist, and they will even <strong>help you perform better<\/strong>! When running we push off mainly from the toes, so we need to free them. And that’s exactly what barefoot running shoes with a wide toe box can do. They’ll also help you <strong>activate the arch<\/strong>, which will cushion your landings. <\/p><h6>How to choose barefoot shoes for running?<\/h6><p><\/p><p>When choosing <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=b%C4%9B%C5%BEeck%C3%A9%20barefoot*\"><span style=\"text-decoration:underline\">barefoot shoes for running<\/span><\/a>, make sure they’re not just ordinary sneakers with a thin sole. A <strong>wide toe box<\/strong> and <strong>flexible materials<\/strong> are important. The shoe should adapt perfectly to the movement of your foot and also to its shape.<\/p><p>Watch out for these properties:<\/p><ul><li><strong>A thick or stiff sole:<\/strong> It prevents natural movement and restricts you.<\/li><li><strong>Too much cushioning:<\/strong> According to studies, it’s precisely because of cushioning that we land harder on the heel and injury is a risk. We don’t register the impact.<\/li><li><strong>A narrow toe box: <\/strong>In most shoes the toes are squeezed together and can’t work. <\/li><\/ul><p><strong>Tip:<\/strong> If you’re just starting with barefoot running, practice a healthy running style. The article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-zacit-behat-barefoot-navod-pro-bezce-i-nebezce?_pos=2&_sid=91184ce72&_ss=r\"><span style=\"text-decoration:underline\">[Guide] How to start running barefoot<\/span><\/a> will help you with that.<\/p><p>And which shoes to choose? We recommend the breathable <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=b%C4%9B%C5%BEeck%C3%A9%20barefoot*\"><span style=\"text-decoration:underline\">Chitra<\/span><\/a> barefoot running shoes. We also have them for you in a trail version with a Vibram sole.<\/p>"
+          }
+        },
+        "accor_item_cdWGqK": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Are barefoot shoes suitable for social events?",
+            "content": "<p><strong>Yes, they do<\/strong> – you just need to choose an elegant model. Instead of pumps you can put on <a href=\"https:\/\/ahinsashoes.cz\/collections\/damske-barefoot\/balerinky\"><span style=\"text-decoration:underline\">barefoot ballet flats<\/span><\/a>. Instead of narrow men’s dress shoes, roomy <a href=\"https:\/\/ahinsashoes.cz\/collections\/panske-barefoot\/polobotky\"><span style=\"text-decoration:underline\">barefoot dress shoes<\/span><\/a>. <\/p><p>You’ll notice that <strong>barefoot shoes are more and more common in company<\/strong>. You’ll see them at the theatre, at parties and at weddings. Remember: you look your best in company when you’re comfortable.<\/p><h6>High heels destroy your knees, a study has shown<\/h6><p><\/p><p>You probably know that classic formal shoes such as <strong>pumps<\/strong> <strong>aren’t comfortable<\/strong>. But did you know they seriously harm you? The consequences unfortunately appear sooner than you’d guess.<\/p><p>An interesting study recently came about in cooperation between the Department of Rehabilitation Medicine of the General University Hospital in Prague, the First Faculty of Medicine of Charles University, and Hacettepe University in Ankara. It examined women around 30 who regularly wear high-heeled shoes.<\/p><p>Besides back pain and foot deformities, the study showed that <strong>pumps destroy the cartilage of the knee<\/strong>. The changes were already visible in very young women, in whom ultrasound revealed a higher risk of osteoarthritis.<\/p><p>You no longer have to suffer for beauty. Choose shoes that don’t harm you instead.<\/p><p><strong>Tip:<\/strong> Choosing shoes for a wedding? Read the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vybrat-svatebni-obuv-vyzkousejte-barefoot-boty\"><span style=\"text-decoration:underline\">How to choose wedding shoes? A barefoot bride’s confession<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_egrEE4": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Can I wear barefoot shoes in the city?",
+            "content": "<p>Yes, you can. With one condition: you <strong>are<\/strong> <strong>used to barefoot walking<\/strong> and you know how to land sensitively. <\/p><p>City streets are a challenge for barefoot walking. We have to be much more aware of how we land and how we push off. That’s why we recommend first <strong>practicing barefoot walking on a softer surface<\/strong>, for example on a walk in the woods.<\/p><p>And what to wear until then? Definitely not classic constricting shoes. We recommend the Comfort line, which is as <strong>roomy and flexible<\/strong> as barefoot footwear, but <strong>softens your steps<\/strong>. <\/p><p><strong>Tip:<\/strong> Practice natural walking with the e-book <a href=\"https:\/\/ahinsashoes.cz\/pages\/krok-za-krokem-ke-zdrave-chuzi\"><span style=\"text-decoration:underline\">Step by Step to Healthy Walking<\/span><\/a>. It’s free.<\/p><h6>The trouble with city walking: Hard heel landings<\/h6><p><\/p><p>Why is a hard city surface actually a problem? Because years in classic non-anatomical shoes have taught us to walk unnaturally. We <strong>land hard on the heel<\/strong> and a huge <strong>impact<\/strong> is created that travels on through the body and puts the joints at risk.<\/p><p>In classic shoes you can’t walk any other way. They <strong>constrict your toes<\/strong>, so you’re left with no choice but to brake the landing with the heel. That’s why swap the shoes for anatomical ones and focus on the landing. It should be gentle, sensitive. <\/p><p>And how do you know you’re walking healthily? Listen. If you’re stomping, it means you’re landing too hard.<\/p><p>Reading tip: <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/barefoot-a-mesto\"><span style=\"text-decoration:underline\">Barefoot & the City: What You Need to Know<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_YzJLyk": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Can I wear barefoot shoes nonstop?",
+            "content": "<p>We recommend taking them off for bed. :) But otherwise yes, you <strong>can wear only barefoot footwear<\/strong>. Barefoot shoes are the shoes that <strong>don’t restrict your feet<\/strong> – that’s why they’re suitable for you all day long.<\/p><p>Reading tip: <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/barefoot-a-mesto\"><span style=\"text-decoration:underline\">Barefoot & the City: What You Need to Know<\/span><\/a>.<\/p><h6>City streets are a more advanced challenge for barefoot walking<\/h6><p><\/p><p>Just be careful in the city on a hard surface. Before you head into the city in barefoot shoes, <strong>practice healthy walking<\/strong> and a sensitive stride. <\/p><p>Most adults have unlearned how to walk naturally. Classic shoes have taught them to <strong>land unnaturally on the heel<\/strong>. That’s hard to retrain and can be a problem especially in the city on a hard surface. When you land hard on the heel, a strong impact is created that travels through the body and <strong>puts the joints at risk<\/strong>. <\/p><p>For the city we therefore recommend:<\/p><ol><li>Focus on a <strong>sensitive stride<\/strong>.<\/li><li>Don’t rush; <strong>feel your steps<\/strong>.<\/li><li>If you’re not sure, <strong>put on shoes from<\/strong> the Comfort line. They’re anatomical like barefoot shoes, but they cushion your steps thanks to a special flexible layer.<\/li><\/ol><p><strong>Tip:<\/strong> Practice natural walking with the e-book <a href=\"https:\/\/ahinsashoes.cz\/pages\/krok-za-krokem-ke-zdrave-chuzi\"><span style=\"text-decoration:underline\">Step by Step to Healthy Walking<\/span><\/a>. It’s free.<\/p>"
+          }
+        },
+        "accor_item_qGjfP3": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Do barefoot shoes help muscles grow?",
+            "content": "<p>They can help, but they won’t grow your muscles for you on their own.<\/p><p>Barefoot shoes are first and foremost shoes that free your feet so you can use them naturally. The rest is up to you. When you learn to activate your feet, you’ll <strong>also engage muscles that doze off in ordinary shoes<\/strong>. Over time you may notice that it’s mainly the muscles of the sole that have strengthened. <\/p><p><strong>Tip: <\/strong>Learn to activate your feet with the e-book <a href=\"https:\/\/ahinsashoes.cz\/pages\/krok-za-krokem-ke-zdrave-chuzi\"><span style=\"text-decoration:underline\">Step by Step to Healthy Walking<\/span><\/a>. It’s free.<\/p><h6>What effect do barefoot shoes have on your performance?<\/h6><p><\/p><p>Do you know which shoes are best for running? None. <strong>The human foot evolved for running<\/strong>; it has its own mechanisms for push-off and for cushioning impact. That’s why it performs best when it’s free.<\/p><p>But running barefoot on Czech trails isn’t safe or comfortable. So put shoes on – but only in such a way that the <strong>foot can function as naturally as when barefoot <\/strong>and perform at its best. Put on barefoot shoes with a wide toe box and a pliable, flexible sole.<\/p><p><strong>Reading tip:<\/strong> <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/bosy-beh-lide-behaji-2-miliony-let-az-posledni-roky-si-kazime-botami?_pos=1&_sid=fa35e7d83&_ss=r\"><span style=\"text-decoration:underline\">Barefoot running: People have been running for 2 million years. Only in recent years have we been ruining it with shoes<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_DNjDA8": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Why are barefoot shoes so expensive?",
+            "content": "<p>The main idea of barefoot shoes is healthy footwear. And for shoes to be healthy, they must be <strong>well made<\/strong> and produced from <strong>quality materials<\/strong>. That’s why they can’t have the same price tag as cheap mass-produced shoes. <\/p><h6>Ahinsa shoes: Handmade in the EU<\/h6><p><\/p><p>Ahinsa shoes, for example, we <strong>make by hand<\/strong>. We sew them from materials that will <strong>last you for years<\/strong> and in which your feet feel good. During production they pass through many pairs of skilled hands. And those deserve a fair wage, don’t you think?<\/p><p>In return you get shoes that <strong>bring you joy for years<\/strong>. In the end you’ll find that you pay less per wear than with cheap, uncomfortable shoes.<\/p><p>By the way, do you know the term <strong>cost per wear<\/strong>? It’s the price per wear. When you buy cheap shoes, they soon give up on you. So each wear cost you more than if you’d invested in (almost) indestructible handmade shoes.<\/p><p><strong>Tip:<\/strong> Curious how we make shoes? Read the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-se-sijou-boty-okenko-do-sevcovske-dilny\"><span style=\"text-decoration:underline\">How are shoes sewn? A glance into a shoemaker’s workshop<\/span><\/a> or <strong>watch the video<\/strong>.<\/p>"
+          }
+        },
+        "accor_item_kmr4hp": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How long does a barefoot shoe sole last?",
+            "content": "<p>We can’t speak for other barefoot shoe makers, but at Ahinsa shoes we use durable soles made from <strong>German material<\/strong>. They’re thin, but they won’t wear through anytime soon. It depends on your walking style, but our shoes commonly last <strong>5 years or more<\/strong>.<\/p><h6>Indestructible, say customers and experts alike<\/h6><p><\/p><p>And how do we know our soles last for years? We wear them ourselves – but above all, we had them <strong>tested<\/strong>. We sent Ahinsa shoes to an <strong>independent laboratory in Zlín<\/strong>. There they abrade the soles and simulate steps. After grinding that would already have destroyed ordinary shoes, our soles hadn’t given in one bit.<\/p><p>The lab results are confirmed by our customers, who have been wearing Ahinsa shoes for years. They often describe them as “indestructible”.<\/p><p>Thanks to the results from the lab and from customers, we guarantee that Ahinsa shoes are <strong>the best shoes in the world<\/strong>.<\/p>"
+          }
+        },
+        "accor_item_qd9ABp": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Are barefoot shoes suitable for cycling?",
+            "content": "<p><strong>Yes, they are.<\/strong> They can even help you perform better. They <strong>free your toes<\/strong>, so you can really push off with them. We recommend choosing ones that let enough air through to your feet and wick sweat away. We’ve had good results with Ahinsa shoes made from <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=airnet*\"><span style=\"text-decoration:underline\">durable mesh<\/span><\/a>.<\/p><p><strong>PS: <\/strong>We’re already preparing special cycling barefoot shoes for you. Looking forward to them?<\/p><h6>A thin sole? We have a solution<\/h6><p><\/p><p>The only trouble you might have with barefoot shoes on a bike is with shoes that have a <strong>very thin sole<\/strong>. You feel the pedals through it, and that doesn’t suit everyone on a longer ride.<\/p><p>That’s why we’re preparing <strong>cycling barefoot shoes with a special sole<\/strong> that we’ve adapted specifically for long pedaling. <\/p><p>Need healthy cycling shoes right now? <strong>Have a look at our<\/strong> Comfort line. A special flexible layer and our proven foam insole will make sure you hardly notice the pedals. You’ll still be comfortable: the wide toe box will free your toes and breathable materials will keep your feet dry.<\/p>"
+          }
+        },
+        "accor_item_xfjxqF": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "When are barefoot shoes not suitable?",
+            "content": "<p>Barefoot shoes aren’t suitable with certain <strong>specific diagnoses<\/strong>, such as various injury and post-operative conditions, neurological diseases (e.g. diabetic neuropathies) or acute injuries. We recommend talking it over with your doctor, who can assess whether they’re suitable for you. <\/p><p>On the other hand, they can be a <strong>suitable part of treatment<\/strong> for a <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/patni-ostruha\"><span style=\"text-decoration:underline\">heel spur<\/span><\/a>, bunions or <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vylecit-ploche-nohy\"><span style=\"text-decoration:underline\">flat feet<\/span><\/a>. We wrote about that in the e-book <a href=\"https:\/\/ahinsashoes.cz\/pages\/spokojene-nohy\"><span style=\"text-decoration:underline\">Happy Feet: The most common foot problems and exercises for them<\/span><\/a>.<\/p><p><strong>Tip: <\/strong>Before you put on barefoot shoes for the first time, practice natural walking with the e-book <a href=\"https:\/\/ahinsashoes.cz\/pages\/krok-za-krokem-ke-zdrave-chuzi\"><span style=\"text-decoration:underline\">Step by Step to Healthy Walking<\/span><\/a>. It’s free.<\/p><h6>Are barefoot shoes suitable for flat feet?<\/h6><p><\/p><p>Yes, they are even <strong>often used precisely in the treatment of flat feet<\/strong>. Flat feet generally mean you don’t have active muscles that <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/propadla-klenba\"><span style=\"text-decoration:underline\">activate the arch<\/span><\/a>. These muscles can’t work in classic shoes, so they weaken. When you give the foot room for natural walking in barefoot shoes, you can activate these muscles again and <strong>shape the arch naturally<\/strong>.<\/p><p>Always consult the specific condition and problems with a <a href=\"https:\/\/ahinsashoes.cz\/pages\/fyzioterapeuti\"><span style=\"text-decoration:underline\">physiotherapist<\/span><\/a>, though.<\/p><p><strong>Reading tip: <\/strong>Read the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/jak-vylecit-ploche-nohy?_pos=2&_sid=a21750f3c&_ss=r\"><span style=\"text-decoration:underline\">How can we cure flat feet? Shoes will help, but insoles won’t always do the trick<\/span><\/a>.<\/p>"
+          }
+        },
+        "accor_item_LxHFNg": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How long do barefoot shoes last?",
+            "content": "<p>We don’t want to speak for other makers, but Ahinsa shoes commonly <strong>serve customers for 5 years or more<\/strong>. The most durable are models made from <strong>CF+ microfiber<\/strong>, which you <strong>won’t scuff or scratch<\/strong> even if you try. Years and years of service also come from the <strong>durable German sole<\/strong>, which you won’t wear through anytime soon.<\/p><p>It always also depends on your walking style.<\/p><h6>What we make barefoot shoes from so they last for years<\/h6><p><\/p><p>We’ve already introduced you to CF+ microfiber. It’s an <strong>extremely durable material<\/strong> originally used to upholster yachts. That’s why it has to withstand just about anything. We’ve tried scratching it with a fork and leaving it in the sea (don’t ask why) – it survived everything. And yet it’s breathable and keeps the feet dry.<\/p><p>For soles we’ve grown fond of the <strong>German Lifo+ compound<\/strong>. It’s very flexible, so it adapts to your steps. It <strong>resists abrasion<\/strong>, so it takes millions and millions of steps before you even see any wear on it. <\/p><p>How do we know? We had the soles tested at an <strong>independent laboratory in Zlín<\/strong>. Thanks to it too we know that Ahinsa shoes are <a href=\"https:\/\/ahinsashoes.cz\/pages\/nejlepsi-boty\"><span style=\"text-decoration:underline\">the best shoes in the world<\/span><\/a>. Really, we guarantee it! <\/p><p><strong>Reading tip:<\/strong> Read the article <a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/eticke-materialy-vegan-kuze?_pos=1&_sid=02208a29d&_ss=r\"><span style=\"text-decoration:underline\">Better than leather. What are immortal vegan shoes made of?<\/span><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accor_item_hbP3RV",
+        "accor_item_3LgwxL",
+        "accor_item_anhE9h",
+        "accor_item_cdWGqK",
+        "accor_item_egrEE4",
+        "accor_item_YzJLyk",
+        "accor_item_qGjfP3",
+        "accor_item_DNjDA8",
+        "accor_item_kmr4hp",
+        "accor_item_qd9ABp",
+        "accor_item_xfjxqF",
+        "accor_item_LxHFNg"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "About barefoot shoes",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#202020",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#202020",
+        "bg_content_cl": "#ffffff",
+        "content_align": "t4s-text-start",
+        "auto_active": false,
+        "layout": "t4s-cus-width",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "hero_image_8kAGbR",
+    "heading",
+    "main",
+    "sidebar-page",
+    "accordion_a3yCa7",
+    "accordion_JYCBFW",
+    "accordion_KH3mTw",
+    "accordion_Yxybhq",
+    "accordion_tW9frC"
+  ]
+}

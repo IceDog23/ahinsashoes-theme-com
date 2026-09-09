@@ -14,10 +14,7 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#202020",
-            "brc_mgb": 30
-          }
+          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 30 }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -43,7 +40,7 @@
         "2_CDYPxA": {
           "type": "2",
           "settings": {
-            "content": "<h3>Hotovo, e-book letí za vámi!<\/h3><p>Děkujeme za přihlášení, teď už je to od nás vše. Na váš e-mail <strong>posíláme e-book <\/strong>a přejeme radost z každého krůčku.<\/p>",
+            "content": "<h3>Done — the e-book is on its way!<\/h3><p>Thank you for signing up, that’s all from us. We’re <strong>sending the e-book <\/strong>to your email and we wish you joy in every little step.<\/p>",
             "fontf": "inherit",
             "text_cl": "#202020",
             "text_fs": 16,
@@ -62,11 +59,7 @@
           }
         }
       },
-      "block_order": [
-        "3_KyNY6F",
-        "1_kiPXGQ",
-        "2_CDYPxA"
-      ],
+      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_CDYPxA"],
       "settings": {
         "heading_fullwidth": true,
         "image": "{{ page.metafields.social_sharing.image.value }}",
@@ -139,7 +132,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Mimochodem, už máte své zdravé boty od fyzioterapeutů? Prohlédněte si je:",
+        "top_heading": "By the way, do you already have your healthy shoes from physiotherapists? Take a look:",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -236,9 +229,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -259,8 +250,8 @@
             "icon_themes": "car",
             "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
-            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
-            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.<\/p>",
+            "title": "DESIGNED BY PHYSIOTHERAPISTS",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
             "html": ""
           }
         },
@@ -270,8 +261,8 @@
             "icon_themes": "car",
             "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "VYDRŽÍ MILIONY KROKŮ",
-            "text": "<p>Protože šijeme ručně z odolných materiálů.<\/p>",
+            "title": "LAST FOR MILLIONS OF STEPS",
+            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
             "html": ""
           }
         },
@@ -281,8 +272,8 @@
             "icon_themes": "car",
             "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
-            "text": "<p>Poštovné platíme my.<\/p>",
+            "title": "LIGHTNING-FAST FREE EXCHANGE",
+            "text": "<p>We cover postage.<\/p>",
             "html": ""
           }
         },
@@ -292,8 +283,8 @@
             "icon_themes": "car",
             "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
-            "title": "VYRÁBÍME RUČNĚ A ETICKY",
-            "text": "<p>Přátelské k přírodě, zvířatům i lidem.<\/p>",
+            "title": "HANDMADE AND ETHICAL",
+            "text": "<p>Friendly to nature, animals, and people.<\/p>",
             "html": ""
           }
         }

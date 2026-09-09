@@ -14,10 +14,7 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#f2f2f2",
-            "brc_mgb": 5
-          }
+          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -61,11 +58,7 @@
           }
         }
       },
-      "block_order": [
-        "3_KyNY6F",
-        "1_kiPXGQ",
-        "2_QpeXnY"
-      ],
+      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
       "disabled": true,
       "settings": {
         "heading_fullwidth": true,
@@ -115,7 +108,7 @@
         "custom_text_D6azRU": {
           "type": "custom_text",
           "settings": {
-            "text": "Blýskněte se ve střevíčkách od mistrů třpytu",
+            "text": "Sparkle in shoes from the masters of shine",
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "1",
@@ -138,7 +131,7 @@
         "custom_text_QAgVJ3": {
           "type": "custom_text",
           "settings": {
-            "text": "Když se řekne <b>Ahinsa</b>, znamená to <b>zdraví a pohodlí</b>.\n<br>\nKdyž se řekne <b>Preciosa</b>, znamená to <b>lesk a třpyt</b>.\n<br>\nA co když se to <b>spojí</b>?",
+            "text": "When you say <b>Ahinsa<\/b>, it means <b>health and comfort<\/b>.\n<br>\nWhen you say <b>Preciosa<\/b>, it means <b>shine and sparkle<\/b>.\n<br>\nAnd what if you <b>combine<\/b> them?",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -172,7 +165,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 400,
-        "image": "shopify://shop_images/1000x700_lp_preciosa.jpg",
+        "image": "shopify:\/\/shop_images\/1000x700_lp_preciosa.jpg",
         "parallax": true,
         "image_position": "9",
         "link_img1": "",
@@ -221,9 +214,9 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
-            "title": "ŠETŘÍME PLANETU",
+            "title": "WE CARE FOR THE PLANET",
             "text": "",
             "html": ""
           }
@@ -232,9 +225,9 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
-            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
+            "title": "DESIGNED BY PHYSIOTHERAPISTS",
             "text": "",
             "html": ""
           }
@@ -243,19 +236,15 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "RUČNĚ VYROBENÉ V ČR A CHORVATSKU",
+            "title": "HANDMADE IN THE CZECH REPUBLIC AND CROATIA",
             "text": "",
             "html": ""
           }
         }
       },
-      "block_order": [
-        "shipping_HDMKMa",
-        "shipping_KfzhP7",
-        "shipping_mmNH6x"
-      ],
+      "block_order": ["shipping_HDMKMa", "shipping_KfzhP7", "shipping_mmNH6x"],
       "disabled": true,
       "settings": {
         "design_heading": "2",
@@ -329,9 +318,7 @@
           }
         }
       },
-      "block_order": [
-        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
-      ],
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -350,9 +337,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/preciosa_designer_teperova_1.png",
-            "title": "„Chtěli jsme krásné a elegantní boty do společnosti.“",
-            "text": "<p>Lidé si stále myslí, že co je pohodlné, nemůže být krásné. My jsme se rozhodli dokázat, že to není pravda. </p><p>Spojili jsme naše poznatky o <strong>anatomii chodidel</strong> a překrásné <strong>křišťály od Preciosy</strong>.</p><p><em>Lukáš Klimpera, fyzioterapeut a zakladatel Ahinsa shoes</em></p>",
+            "image": "shopify:\/\/shop_images\/preciosa_designer_teperova_1.png",
+            "title": "“We wanted beautiful, elegant shoes for social events.”",
+            "text": "<p>People still think that what is comfortable cannot be beautiful. We decided to prove that isn’t true. <\/p><p>We combined our knowledge of <strong>foot anatomy<\/strong> with exquisite <strong>Preciosa crystals<\/strong>.<\/p><p><em>Lukáš Klimpera, physiotherapist and founder of Ahinsa shoes<\/em><\/p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -367,9 +354,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/preciosa_designer_teperova.png",
-            "title": "„Vybrali jsme kameny, které připomínají listy jasanu.“",
-            "text": "<p>\"Křišťálové zdobení opakuje čisté linie a vizuálně navazuje na použité materiály.\" </p><p>Abychom měli jistotu, že křišťály vydrží stejně dlouho jako Ahinsa shoes, <strong>upevňujeme je přímo u nás v Preciose</strong> v Jablonci nad Nisou.</p><p><em>Kateřina Teperová, designérka, Preciosa</em></p>",
+            "image": "shopify:\/\/shop_images\/preciosa_designer_teperova.png",
+            "title": "“We chose stones that resemble ash-tree leaves.”",
+            "text": "<p>\"The crystalline decoration repeats pure lines and visually relates to the materials used.\" <\/p><p>To make sure the crystals last as long as Ahinsa shoes, <strong>we fix them on-site at Preciosa<\/strong> in Jablonec nad Nisou.<\/p><p><em>Kateřina Teperová, designer, Preciosa<\/em><\/p>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -381,10 +368,7 @@
           }
         }
       },
-      "block_order": [
-        "text_block_6nXPLA",
-        "text_block_UeeVUU"
-      ],
+      "block_order": ["text_block_6nXPLA", "text_block_UeeVUU"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -446,7 +430,7 @@
         "bl_image_rTNYCk": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/lukas-klimpera-prodejna.png",
+            "image1": "shopify:\/\/shop_images\/lukas-klimpera-prodejna.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -483,7 +467,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>„Chtěli jsme krásné a elegantní boty do společnosti.<br/>Lidé si stále myslí, že co je pohodlné, nemůže být krásné. My jsme se rozhodli dokázat, že to není pravda. Spojili jsme naše poznatky o anatomii chodidel a překrásné krystaly od Preciosy.\"</p><h6>Lukáš Klimpera, fyzioterapeut a zakladatel Ahinsa shoes</h6>",
+            "text": "<p>“We wanted beautiful and elegant shoes for formal occasions.<br\/>People still think that what is comfortable cannot be beautiful. We decided to prove that isn’t true. We combined our knowledge of foot anatomy with exquisite Preciosa crystals.\"<\/p><h6>Lukáš Klimpera, physiotherapist and founder of Ahinsa shoes<\/h6>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -499,10 +483,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_rTNYCk",
-        "bl_text_QRqwAQ"
-      ],
+      "block_order": ["bl_image_rTNYCk", "bl_text_QRqwAQ"],
       "disabled": true,
       "settings": {
         "design_heading": "1",
@@ -542,13 +523,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Sandálky Hava Preciosa:</h3><h4>Třpyt letního večera</h4><p></p><p>Vyrazte tančit. Nebo jen na procházku tepajícím městem. Ale pozor: I hvězdy zblednou, až uvidí <strong>třpyt vašich sandálků</strong>. A to netuší, jak nesmírně jsou <strong>pohodlné</strong>.</p>",
+            "text": "<h3>Hava Preciosa sandals:<\/h3><h4>The sparkle of a summer evening<\/h4><p><\/p><p>Go dancing. Or just take a stroll through the buzzing city. But watch out: even the stars will fade when they see <strong>the sparkle of your sandals<\/strong>. And they have no idea how incredibly <strong>comfortable<\/strong> they are.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Zatřpyťte se",
-            "button_link": "https://ahinsashoes.cz/collections/damy/hava2+preciosa",
+            "button_label": "Sparkle on",
+            "button_link": "https:\/\/ahinsashoes.cz\/collections\/damy\/hava2+preciosa",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -560,11 +541,11 @@
         "bl_image_maapLQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/IMG_9132.jpg",
-            "image2": "shopify://shop_images/DSC2673-kopie.jpg",
-            "image3": "shopify://shop_images/IMG_9418.jpg",
-            "image4": "shopify://shop_images/DSC6780-kopie.jpg",
-            "image5": "shopify://shop_images/IMG_9520.jpg",
+            "image1": "shopify:\/\/shop_images\/IMG_9132.jpg",
+            "image2": "shopify:\/\/shop_images\/DSC2673-kopie.jpg",
+            "image3": "shopify:\/\/shop_images\/IMG_9418.jpg",
+            "image4": "shopify:\/\/shop_images\/DSC6780-kopie.jpg",
+            "image5": "shopify:\/\/shop_images\/IMG_9520.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -591,10 +572,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_QFR6Gw",
-        "bl_image_maapLQ"
-      ],
+      "block_order": ["bl_text_QFR6Gw", "bl_image_maapLQ"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -625,11 +603,11 @@
         "bl_image_AfxDDc": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/DSC2706-kopie.jpg",
-            "image2": "shopify://shop_images/DSC7012-kopie.jpg",
-            "image3": "shopify://shop_images/IMG_2550_sirka.jpg",
-            "image4": "shopify://shop_images/IMG_2330_sirka.jpg",
-            "image5": "shopify://shop_images/IMG_2568.jpg",
+            "image1": "shopify:\/\/shop_images\/DSC2706-kopie.jpg",
+            "image2": "shopify:\/\/shop_images\/DSC7012-kopie.jpg",
+            "image3": "shopify:\/\/shop_images\/IMG_2550_sirka.jpg",
+            "image4": "shopify:\/\/shop_images\/IMG_2330_sirka.jpg",
+            "image5": "shopify:\/\/shop_images\/IMG_2568.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -666,13 +644,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Balerínky Chic Preciosa rosegold</h3><h4>Střevíčky jako ze zlata</h4><p></p><p>Večer v opeře. První schůzka. Nebo rande po letech. Jsou příležitosti, které si zaslouží <strong>střevíčky jako ze zlata</strong>. A ještě špetku lesku navíc.</p>",
+            "text": "<h3>Chic Preciosa rosegold dress shoes<\/h3><h4>Dress shoes as good as gold<\/h4><p><\/p><p>An evening at the opera. A first date. Or a reunion after years apart. Some occasions deserve <strong>dress shoes as good as gold<\/strong>. And a touch of extra sparkle.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Rozzařte se",
-            "button_link": "https://ahinsashoes.cz/collections/novinky-damske/preciosa+chic?filter.p.m.custom.barva=zlat%C3%A1",
+            "button_label": "Light up",
+            "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky-damske\/preciosa+chic?filter.p.m.custom.barva=zlat%C3%A1",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -682,10 +660,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_AfxDDc",
-        "bl_text_QM7mQC"
-      ],
+      "block_order": ["bl_image_AfxDDc", "bl_text_QM7mQC"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -724,13 +699,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Balerínky Chic Preciosa černé</h3><h4>Lesklá elegance</h4><p></p><p>Stačí málo, aby se <strong>z elegantního outfitu stal výjimečný</strong>. Jemný lesk kamínků na minimalistických černých balerínkách.</p>",
+            "text": "<h3>Chic Preciosa dress shoes – black<\/h3><h4>Glossy elegance<\/h4><p><\/p><p>It takes so little for an <strong>elegant outfit to become exceptional<\/strong>. A subtle crystal shimmer on minimalist black dress shoes.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
-            "button_label": "Blýskněte se",
-            "button_link": "https://ahinsashoes.cz/collections/novinky-damske/preciosa+chic?filter.p.m.custom.barva=%C4%8Dern%C3%A1",
+            "button_label": "Sparkle",
+            "button_link": "https:\/\/ahinsashoes.cz\/collections\/novinky-damske\/preciosa+chic?filter.p.m.custom.barva=%C4%8Dern%C3%A1",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -742,11 +717,11 @@
         "bl_image_xiTHBH": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/IMG_2972.jpg",
-            "image2": "shopify://shop_images/IMG_2074.jpg",
-            "image3": "shopify://shop_images/IMG_9830.jpg",
-            "image4": "shopify://shop_images/IMG_2722.jpg",
-            "image5": "shopify://shop_images/IMG_9755_1.jpg",
+            "image1": "shopify:\/\/shop_images\/IMG_2972.jpg",
+            "image2": "shopify:\/\/shop_images\/IMG_2074.jpg",
+            "image3": "shopify:\/\/shop_images\/IMG_9830.jpg",
+            "image4": "shopify:\/\/shop_images\/IMG_2722.jpg",
+            "image5": "shopify:\/\/shop_images\/IMG_9755_1.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -773,10 +748,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_pbiyyh",
-        "bl_image_xiTHBH"
-      ],
+      "block_order": ["bl_text_pbiyyh", "bl_image_xiTHBH"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -809,12 +781,12 @@
           "settings": {
             "icon_themes": "none",
             "icon": "las la-user",
-            "heading": "Hava bílé",
+            "heading": "Hava white",
             "number": 48,
             "unit": "",
-            "des": "<a href=\"https://ahinsashoes.cz/products/damske-barefoot-sandaly-hava-2-preciosa-bile\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">párů</h3></a>",
+            "des": "<a href=\"https:\/\/ahinsashoes.cz\/products\/damske-barefoot-sandaly-hava-2-preciosa-bile\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">pairs<\/h3><\/a>",
             "content_align": "center",
-            "item_bg": "shopify://shop_images/lp_preciosa_filtr5.jpg"
+            "item_bg": "shopify:\/\/shop_images\/lp_preciosa_filtr5.jpg"
           }
         },
         "counter_item_faDbXi": {
@@ -822,12 +794,12 @@
           "settings": {
             "icon_themes": "car",
             "icon": "las la-user",
-            "heading": "Hava černé",
+            "heading": "Hava black",
             "number": 48,
             "unit": "",
-            "des": "<a href=\"https://ahinsashoes.cz/products/damske-barefoot-sandaly-hava-2-preciosa-cerne\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">párů</h3></a>",
+            "des": "<a href=\"https:\/\/ahinsashoes.cz\/products\/damske-barefoot-sandaly-hava-2-preciosa-cerne\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">pairs<\/h3><\/a>",
             "content_align": "center",
-            "item_bg": "shopify://shop_images/lp_preciosa_filtr.jpg"
+            "item_bg": "shopify:\/\/shop_images\/lp_preciosa_filtr.jpg"
           }
         },
         "counter_item_4TPpUr": {
@@ -835,12 +807,12 @@
           "settings": {
             "icon_themes": "car",
             "icon": "las la-user",
-            "heading": "Chic zlaté",
+            "heading": "Chic gold",
             "number": 45,
             "unit": "",
-            "des": "<a href=\"https://ahinsashoes.cz/products/barefoot-balerinky-chic-preciosa-rosegold\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">párů</h3></a>",
+            "des": "<a href=\"https:\/\/ahinsashoes.cz\/products\/barefoot-balerinky-chic-preciosa-rosegold\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">pairs<\/h3><\/a>",
             "content_align": "center",
-            "item_bg": "shopify://shop_images/lp_preciosa_filtr4.jpg"
+            "item_bg": "shopify:\/\/shop_images\/lp_preciosa_filtr4.jpg"
           }
         },
         "counter_item_7q7xG9": {
@@ -848,12 +820,12 @@
           "settings": {
             "icon_themes": "car",
             "icon": "las la-user",
-            "heading": "Chic černé",
+            "heading": "Chic black",
             "number": 57,
             "unit": "",
-            "des": "<a href=\"https://ahinsashoes.cz/products/barefoot-balerinky-chic-preciosa-cerne\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">párů</h3></a>",
+            "des": "<a href=\"https:\/\/ahinsashoes.cz\/products\/barefoot-balerinky-chic-preciosa-cerne\" style=\"color:#FFF; text-decoration: underline;\"><h3 style=\"font-style: normal\">pairs<\/h3><\/a>",
             "content_align": "center",
-            "item_bg": "shopify://shop_images/lp_preciosa_filtr_3.jpg"
+            "item_bg": "shopify:\/\/shop_images\/lp_preciosa_filtr_3.jpg"
           }
         }
       },
@@ -866,9 +838,9 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Limitovaná kolekce",
+        "top_heading": "Limited collection",
         "icon_heading": "las la-gem",
-        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Sandálky Hava a balerínky Chic jsme ve spolupráci s Preciosou vyrobili jen v omezeném množství párů. Tak s nákupem neváhejte, ať vám je někdo nevyfoukne před nosem.</p>",
+        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">We made the Hava sandals and Chic dress shoes in collaboration with Preciosa in a limited number of pairs. So don’t wait to buy them, or someone might snatch them from under your nose.<\/p>",
         "tophead_mb": 30,
         "source_icon": "none",
         "icon_effect": "none",
@@ -906,7 +878,7 @@
         "bl_image_aVwdcL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/DSC2588-kopie.jpg",
+            "image1": "shopify:\/\/shop_images\/DSC2588-kopie.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -943,13 +915,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Kdo je Preciosa? Česká legenda lesku a luxusu</h3><p></p><p>Preciosa navazuje na <strong>staletou tradici českého sklářství</strong>. Vyrábí křišťálové šperky i lustry, které získaly Česku ohlas po celém světě.</p><p>Jejich krystaly jsou poklad – a vy ho teď můžete nosit na nohách.</p>",
+            "text": "<h3>Who is Preciosa? A Czech legend of sparkle and luxury<\/h3><p><\/p><p>Preciosa builds upon the <strong>centuries-old tradition of Czech glassmaking<\/strong>. It makes crystal jewellery and chandeliers that have made the Czech Republic renowned around the world.<\/p><p>Their crystals are a treasure — and now you can wear it on your feet.<\/p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "",
-            "button_link": "shopify://collections/paskove-sandaly-hava",
+            "button_link": "shopify:\/\/collections\/paskove-sandaly-hava",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -959,17 +931,14 @@
           }
         }
       },
-      "block_order": [
-        "bl_image_aVwdcL",
-        "bl_text_MJaMPU"
-      ],
+      "block_order": ["bl_image_aVwdcL", "bl_text_MJaMPU"],
       "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
         "top_heading": "",
         "icon_heading": "las la-gem",
-        "top_subheading": "@OldrichKejik k tomu asi budu potřebovat přístupy k věcem co nám spravuje Upster.",
+        "top_subheading": "@OldrichKejik I’ll probably need access to the things Upster manages for us.",
         "tophead_mb": 30,
         "space_h_item": "20",
         "space_v_item": "10",
@@ -994,28 +963,28 @@
         "image_item_4cVWUh": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/MG_8193.jpg",
+            "image": "shopify:\/\/shop_images\/MG_8193.jpg",
             "link": ""
           }
         },
         "image_item_fbAHEG": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/IMG_2568_e7a0c5c9-a38b-4f6b-968f-dc02eb210a59.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_2568_e7a0c5c9-a38b-4f6b-968f-dc02eb210a59.jpg",
             "link": ""
           }
         },
         "image_item_3mXAfk": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/MG_7793.jpg",
+            "image": "shopify:\/\/shop_images\/MG_7793.jpg",
             "link": ""
           }
         },
         "image_item_Ym4wMm": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Crystal_Net_rgb.jpg",
+            "image": "shopify:\/\/shop_images\/Crystal_Net_rgb.jpg",
             "link": ""
           }
         }
@@ -1029,9 +998,9 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Kdo je Preciosa? Česká legenda lesku a luxusu",
+        "top_heading": "Who is Preciosa? The Czech legend of sparkle and luxury",
         "icon_heading": "las la-gem",
-        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Preciosa navazuje na staletou tradici českého sklářství.\nVyrábí křišťálové šperky i lustry, které získaly Česku ohlas po celém světě.\n<br>Jejich křišťálové kameny jsou poklad – a vy ho teď můžete nosit na nohách.</p>",
+        "top_subheading": "<p style=\"font-style: normal; color: #202020;\">Preciosa builds upon the centuries-old tradition of Czech glassmaking.\nIt makes crystal jewellery and chandeliers that have made the Czech Republic renowned around the world.\n<br>Their crystal stones are a treasure — and now you can wear it on your feet.<\/p>",
         "tophead_mb": 30,
         "layout_des": "1",
         "click_image": "data-t4s-gallery",
@@ -1083,10 +1052,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
-            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
-            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.</p>",
+            "title": "DESIGNED BY PHYSIOTHERAPISTS",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
             "html": ""
           }
         },
@@ -1094,10 +1063,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "VYDRŽÍ MILIONY KROKŮ",
-            "text": "<p>Protože šijeme ručně z odolných materiálů.</p>",
+            "title": "LAST FOR MILLIONS OF STEPS",
+            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
             "html": ""
           }
         },
@@ -1105,10 +1074,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
-            "text": "<p>Poštovné platíme my.</p>",
+            "title": "LIGHTNING-FAST FREE EXCHANGE",
+            "text": "<p>We cover postage.<\/p>",
             "html": ""
           }
         },
@@ -1116,10 +1085,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
-            "title": "VYRÁBÍME RUČNĚ A ETICKY",
-            "text": "<p>Přátelské k přírodě, zvířatům i lidem.</p>",
+            "title": "HANDMADE AND ETHICAL",
+            "text": "<p>Friendly to nature, animals, and people.<\/p>",
             "html": ""
           }
         }

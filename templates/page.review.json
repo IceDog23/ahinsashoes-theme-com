@@ -1,1 +1,1257 @@
-{"sections":{"hero_image_T8mc3z":{"type":"hero_image","blocks":{"custom_text_Ld8aQW":{"type":"custom_text","settings":{"text":"Recenze Ahinsa shoes","remove_br_tag":false,"tag":"p","fontf":"inherit","text_cl":"#ffffff","text_fs":16,"text_lh":0,"text_fw":400,"text_ls":1,"text_mgb":15,"font_italic":false,"text_shadow":false,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10,"animation":"none"}},"custom_text_Deb7Lh":{"type":"custom_text","settings":{"text":"Nám věřit nemusíte.<br>\nZákazníci mluví za nás","remove_br_tag":false,"tag":"h2","fontf":"inherit","text_cl":"#ffffff","text_fs":39,"text_lh":50,"text_fw":600,"text_ls":0,"text_mgb":25,"font_italic":false,"text_shadow":false,"hidden_mobile":false,"text_fs_mb":31,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10,"animation":"none"}},"custom_button_WTdnHX":{"type":"custom_button","settings":{"button_text":"Button label","button_link":"","target_link":"_self","fontf":"inherit","button_icon_w":0,"button_style":"default","button_effect":"default","pri_cl":"#222222","second_cl":"#ffffff","pri_cl_hover":"#56cfe1","second_cl_hover":"#ffffff","fsbutton":14,"fwbutton":400,"button_ls":0,"button_mh":42,"button_bdr":0,"button_pd_lr":20,"button_mgb":0,"hidden_mobile":false,"button_icon_w_mb":0,"fsbutton_mb":10,"button_mh_mb":36,"button_pd_lr_mb":15,"button_ls_mb":0,"button_mgb_mb":0,"animation":"none"}}},"block_order":["custom_text_Ld8aQW","custom_text_Deb7Lh","custom_button_WTdnHX"],"settings":{"se_height":"t4s_ratio_cuspx","custom_dk":true,"height_dk":550,"custom_tb":true,"height_tb":400,"custom_mb":true,"height_mb":400,"image":"shopify:\/\/shop_images\/Ahinsa_046.jpg","parallax":false,"image_position":"0","link_img1":"","open_link":"_blank","text_align":"center","text_align_mb":"center","content_width":"container","cv_pos":50,"ch_pos":50,"cv_pos_mb":50,"ch_pos_mb":50,"bg_overlay":"#000000","bg_opacity":50,"bg_content_cl":"#ffffff","bg_content_op":0,"content_pd_tb":15,"content_pd_lr":15,"content_pd_tb_mb":10,"content_pd_lr_mb":10,"border_bl":false,"br_color":"#222222","br_bg":"#ffffff","br_opacity":50,"br_style":"solid","br_pd":20,"br_pd_mb":10,"time_animation":1,"animation_delay":40,"layout":"t4s-container-fluid","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"heading":{"type":"heading-template","blocks":{"3_m8HHpz":{"type":"3","settings":{"breadcrumb_color":"#f2f2f2","brc_mgb":5}},"1_yMrJc7":{"type":"1","settings":{"heading":"Recenze Ahinsa shoes","fontf":"inherit","text_cl":"#ffffff","text_fs":20,"text_lh":50,"text_fw":400,"text_ls":0,"font_italic":false,"font_uppercase":false,"text_shadow":false,"text_mgb":0,"hidden_mobile":false,"text_fs_mb":20,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":0}},"2_rAikNb":{"type":"2","settings":{"content":"<p>Nám věřit nemusíte. Zákazníci mluví za nás<\/p>","fontf":"inherit","text_cl":"#ffffff","text_fs":16,"text_lh":50,"text_fw":400,"text_ls":0,"font_italic":false,"font_uppercase":false,"text_shadow":false,"text_mgb":0,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":0}}},"block_order":["3_m8HHpz","1_yMrJc7","2_rAikNb"],"disabled":true,"settings":{"heading_fullwidth":false,"use_specify_image":true,"parallax":false,"color":"#000000","overlay":54,"padding":50,"paddingmb":50,"mg_b":50,"mg_bmb":50,"content_align":"t4s-text-center","bg_pos":"center center","bg_repeat":"no-repeat","bg_size":"cover","use_cus_css":false,"code_cus_css":".SectionID {\nbackground-color:red\n}"}},"main":{"type":"main-page","disabled":true,"settings":{"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":"60px,,60px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":""}},"sidebar-page":{"type":"sidebar-page","blocks":{"f69681ed-b75e-42de-be58-fdf73b3b7e08":{"type":"blog_cate","settings":{"title":"Blog categories","cat_link_list":"","count":true}}},"block_order":["f69681ed-b75e-42de-be58-fdf73b3b7e08"],"disabled":true,"settings":{"enable_drawer":false,"space":50,"size":"medium","br_style":"none","brcolor":"#222222","sidebar_bdr":5,"sidebar_pd":10}},"image_text_4f8Yzh":{"type":"image_text","blocks":{"bl_liquid_aj6HAQ":{"type":"bl_liquid","settings":{"custom_liquid":"<div class=\"intro-review-wrapper review-container\">\n  <div>\n    <div class=\"img-wrapper\">\n      <img src=\"\/\/ahinsashoes.cz\/cdn\/shop\/files\/reviews-page-heureka_200x.png?v=1656402927\" alt=\"\">\n    <\/div>\n    <div class=\"heureka-conent\">\n      <h2>4,9<\/h2>\n      <p>\n        <strong> celková spokojenost s obchodem <\/strong>\n      <\/p>\n\n      <p><\/p>\n      <p><strong>99 %<\/strong> zákazníků doporučuje obchod<\/p>\n      <p><strong>2,2<\/strong> průměrná doba dodání ve dnech<\/p>\n      <p><strong>100 %<\/strong> zákazníků zboží dorazilo do 6 dní<\/p>\n      <p><\/p>\n\n      <a href=\"https:\/\/obchody.heureka.cz\/ahinsashoes-cz\/recenze\/\" target=\"blank\" class=\"link link_underline\">\n        Přečíst recenze\n      <\/a>\n    <\/div>\n  <\/div>\n<\/div>","col_dk":"6","col_tb":"6"}},"bl_liquid_4tV8zP":{"type":"bl_liquid","settings":{"custom_liquid":"<div class=\"review-container\">\n  <div class=\"intro-review-wrapper\">\n    <div>\n      <div class=\"img-wrapper\">\n        <img src=\"\/\/ahinsashoes.cz\/cdn\/shop\/files\/reviews-page-zbozi_200x.png?v=1656402927\" alt=\"\">\n      <\/div>\n      <div class=\"review-wrapper-ml\">\n        <h2>95 %<\/h2>\n        <p>\n          <strong> spokojených zákazníků <\/strong>\n        <\/p>\n        <p><\/p>\n        <a href=\"https:\/\/www.zbozi.cz\/znacka\/ahinsa-shoes\/\" target=\"blank\" class=\"link link_underline\"\n          >Přečíst recenze<\/a\n        >\n      <\/div>\n    <\/div>\n  <\/div>\n\n  <div class=\"intro-review-wrapper\">\n    <div>\n      <div class=\"img-wrapper\">\n        <img src=\"\/\/ahinsashoes.cz\/cdn\/shop\/files\/reviews-page-google_200x.png?v=1656402927\" alt=\"\">\n      <\/div>\n      <div class=\"review-wrapper-ml\">\n        <h2>4,9 ⋆⋆⋆⋆⋆<\/h2>\n        <p><\/p>\n        <p><strong>1200+ recenzí<\/strong><\/p>\n        <p><\/p>\n        <a\n          href=\"https:\/\/customerreviews.google.com\/v\/merchant?q=ahinsashoes.cz&c=CZ&v=19\"\n          target=\"blank\"\n          class=\"link link_underline\"\n          >Přečíst recenze<\/a\n        >\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","col_dk":"6","col_tb":"6"}}},"block_order":["bl_liquid_aj6HAQ","bl_liquid_4tV8zP"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"space_h_item":"20","space_v_item":"10","space_h_item_mb":"20","space_v_item_mb":"10","layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,20px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,10px,","pd_mb":",,30px,","use_cus_css":true,"code_cus_css":"<style>\n  h2 {\n    margin-bottom: 5px;\n  }\n\n  p {\n    margin-bottom: 20px;\n  }\n\n  .intro-review-wrapper {\n    border: 1px solid black;\n    display: flex;\n    align-items: center;\n    height: 100%;\n  }\n  .review-container {\n    min-height: 400px;\n    display: flex;\n    justify-content: center;\n    gap: 20px;\n    flex-direction: column;\n  }\n  .intro-review-wrapper > div {\n    display: flex;\n    align-items: start;\n    gap: 20px;\n  }\n\n  .review-wrapper-ml,\n  .heureka-conent {\n    text-align: left;\n    padding-left: 54px;\n  }\n\n  .intro-review-wrapper .img-wrapper {\n    margin-left: 50px;\n  }\n  .review-container > div {\n    padding: 31.5px 0;\n  }\n\n  @media (max-width: 767px) {\n    .review-container > div {\n      padding: unset;\n    }\n    .intro-review-wrapper {\n      padding: 20px!important;\n    }\n    .intro-review-wrapper > div {\n      flex-direction: column;\n      text-align: left;\n      width: 100%;\n    }\n\n    .review-container {\n      gap: 10px;\n    }\n\n    .review-wrapper-ml,\n    .heureka-conent {\n      text-align: left;\n      padding: 20px;\n    }\n\n    .intro-review-wrapper .img-wrapper {\n      margin-left: unset;\n      align-self: center;\n    }\n  }\n<\/style>"}},"testimonials_rHgXXG":{"type":"testimonials","blocks":{"quote_Nw7grb":{"type":"quote","settings":{"heading":"","content":"<p>Zde jsou moje 14tidenní zkušenosti s botami Ananda od Vás: Chodím v nich skoro každý den, píšu si km, protože mě zajímá, kolik vydrží ty tenké podrážky. Za 2 týdny jsem v nich ušla 42 km, většinou po dlažbě, méně už po hlíně a trávě. Chodím v nich i do přírody, dostávají zabrat možná víc než by měly, ale drží se dobře, po očištění jsou jak nové. Chodila jsem schválně i v dešti, a i kalužemi, ale nepromokly. Zpočátku jsem se bála, zda si zvyknu, je mně 63 roků, ale vypadá to, že to bude dobré. Každý den se těším, jak v nich zase vyjdu. Jsem ráda, že nejen prsty, ale i moje paty mají v botách dost prostoru. A jsou opravdu pěkné, už je obdivovala i kamarádka. A pěkně voní.<\/p>","title":"Dana Žáková","pos":"","rating":5}},"quote_6cp3XV":{"type":"quote","settings":{"heading":"","content":"<p>Chci vám moc poděkovat za botičky, které mi sedí úplně perfektně. Od té doby, co je mám, žádné jiné nenosím, je to jako druhá kůže s placičkou dole, ale ta je taky moje :-)! Moc děkuji, že díky vám můžu být zdravá, spokojená a taky zajímavá. Doporučuji vás svým známým i \"barefooťákům\", kteří vaše produkty ještě nezkoušeli.<br\/><\/p>","title":"Jana Kovačičová","pos":"","rating":5}},"quote_qqmXRY":{"type":"quote","settings":{"heading":"","content":"<p>Musím Vám poděkovat za sandály Hava Comfort. Jsem z nich nadšená, nosím je celé léto - jsou elegantní, takže k šatům, ale zároveň jsem v nich ušla túru kolem jezera v Rakousku. Nesmírně pohodlné, možné utáhnout přesně podle nohy, takže i já s nízkým nártem v nich neplavu. Jsou to nejlepší sandály, co jsem kdy měla.<\/p>","title":"Jana Paříková","pos":"","rating":5}},"quote_QYtx9T":{"type":"quote","settings":{"heading":"","content":"<p>Necelý rok chodím ve vašich botách a jsem velice nadšená. Nebolí mě tolik záda co předtím, nechytá mě křeč do lýtek. Jsem většinu roku městský chodec, ale nyní jsme byli v lesním terénu a chodilo se mi dobře. Líbí se mi, jak noha cítí \"na co šlape\". Děkuji za vaši práci a super botky.<\/p>","title":"Jana Blažková","pos":"","rating":5}},"quote_An9Prd":{"type":"quote","settings":{"heading":"","content":"<p>Každý rok chodíme na ples, tančíme a když k ránu vystupuji z auta, mám dojem, že těch posledních 20 metrů už neujdu, jak mám zničené nohy, vlastně chodidla. Ačkoliv, jsem každý rok vybírala ty nejlepší boty na ples, měla jsem k ránu nohy jak ve svěráku a poslední kroky šly ujít jen s velkým sebezapřením a nebo bez bot...letos jsem si řekla, že si vezmu Vaše bílé sandálky s kamínky od Preciosy a je mi úplně jedno, jaké boty bych měla mít. Báječné rozhodnutí, cítila jsem se skvěle, pohodlně, protančila jsem večer a nic - žádná bolest, žádné přemáhání, nemusela jsem nic vydržet a bylo mi fajn. Takže díky. Sandálky s kamínky byl fantastický nápad :-)<\/p>","title":"Štěpánka Svobodová","pos":"","rating":5}},"quote_LG3VJX":{"type":"quote","settings":{"heading":"","content":"<p>Musím říct, že boty jsem si pořídila na doporučení lékaře. Moc jsem tomu nevěřila, ale teď jsem opravdu nadšená. Při chůzi dochází k přirozenému prokrvení nohou, tudíž obava ze zimy se úplně vytratila. I postavení a celkové posílení klenby je znát. <\/p><p>Moc děkuji a určitě si vaše boty pořídím i na jaro a léto. <\/p>","title":"Markéta Šimíčková","pos":"","rating":5}},"quote_pyCXmE":{"type":"quote","disabled":true,"settings":{"heading":"","content":"<p>Včera jsem obdržela boty od vás- dámské podzimní boty Comfort Chelsea a chci vám říct, že lepší boty jsem na noze neměla, jsou super! Mám vbočené palce - haluxy a zborcenou příčnou i podélnou klenbu na nohách a žádné boty mi neseděly, všechny mě tlačily. Tyto boty jsou opravdu komfortní, cítím se jako v bavlnce, jako bych chodila bosa. <\/p>","title":"R. Lohwasserová","pos":"","rating":5}},"quote_6MKkKc":{"type":"quote","disabled":true,"settings":{"heading":"","content":"<p>Loni jsem si u Vás koupila (pod)zimní hnědé kozačky, ani po roce nošení od podzimu do jara na nich není nošení znát. Jsem Vaše chodící\/běhací reklama a doporučuju, kde mohu.<\/p>","title":"Dana Truchlyová","pos":"","rating":5}},"quote_t9qhMy":{"type":"quote","disabled":true,"settings":{"heading":"","content":"<p>Nedá mi to, a musím Vám zaslat odezvu na Vaše boty, které jsou naprosto úžasné! Objednala jsem si nyní již druhé - první trekové, nyní tyto zimní, a lepší obutí jsem v životě nezažila. Cítím se jako v papučkách.<\/p>","title":"Marie Kessnerová","pos":"","rating":5}},"quote_neCYkM":{"type":"quote","settings":{"heading":"","content":"<p>Boty Barefoot Ananda hnědé jedou u mě čtvrtou sezonu a jsou jako nové. Jsem zahradnice, chodím s nimi na pole, do města, do lesa, nešetřím je ani trochu, a nemají jediné odlepené místo, prasklinku, ošoupání. Vložky jsou sešlápnuté na můj tvar nohy, ale nedegradují a nerozedírají se, jen měním tkaničky. To je v dnešní době celkem neuvěřitelné, všude vás chválím.<\/p>","title":"Kateřina Zvelebilová","pos":"","rating":5}},"quote_rPwN4n":{"type":"quote","disabled":true,"settings":{"heading":"","content":"<p>Boty jsou naprosto dokonalé - zpracování, materiály i vzhled, nemluvě o tom, jak perfektně sedí. Barefoot obuv jsem doposud nosila jen v létě a musím říct, že tahle zimní varianta je opravdu bezchybná.  Pobyt venku si v těchto dnech doslova vychutnávám<\/p>","title":"Pavlína Melikyan","pos":"","rating":5}},"quote_3xDaPj":{"type":"quote","settings":{"heading":"","content":"<p>Mám za sebou první zimu v Sundara Winter. Jsou to perfektní a poctivé boty. Maximálně oceňuji jejich bezúdržbovost, která je opravdu taková, jak slibujete na webu - stačí otřít hadrem a je to. Možnost měnit kožíškovou vložku s běžnou je super vychytávka a bota je tak variabilní vzhledem k počasí.<br\/><br\/>Dále jsem si k Vánocům nadělil hnědé nazouvací sandály. Jsou krásně vyvedené. Na vašich botách se mi vůbec líbí, že z nich kouká poctivá práce. Nyní přichází jaro, tak jsem si pořídil Chitra Track&Trail modro černé. Bože to jsou krásné boty! A tak pohodlné. <br\/><br\/>Líbí se mi, že u bot dodržujete anatomické rozšíření i na palcové hraně, aby se měla noha kam rozpínat. A abych nezapomněl. Vaše boty na mokru NEKLOUŽOU! To jsou první boty v životě, kdy se nebojím, že upadnu.<\/p>","title":"Jiří František Barták","pos":"","rating":5}},"quote_eEcXBn":{"type":"quote","disabled":true,"settings":{"heading":"","content":"<p>V zimních botách se mi chodí skvěle. Barefoot boty nosím výhradně již 3 roky a od té doby mě nebolí haluxy, které se mi za předešlých 35 let vytvořily... Zimní boty jsou opravdové bačkůrky.<\/p>","title":"Lenka Vlková","pos":"","rating":5}},"quote_pbYWr3":{"type":"quote","settings":{"heading":"","content":"<p>Jsou to už tři měsíce, co jsem si pořídil barefoot trekové boty Chitra Trek&Trail. Mám rád dokonalost, funkčnost a praktičnost. Nevěřil jsem, že může být něco lepšího než tuhá bota do hor. Mýlil jsem se. Boty skoro nesundávám ani doma. Jsou úžasné 👍👍👍<br\/>Škoda, že jsem je nepoznal dříve. Další projekt, na který se chystám je v srpnu - přechod Vysokých Tater. Velké díky, děláte skvělou práci. Jistě budu propagovat a doporučovat váš produkt.<\/p>","title":"Karel Ševčík","pos":"","rating":5}},"quote_8P7jE7":{"type":"quote","settings":{"heading":"","content":"<p>Jsem nadšená z vašich bot. Chodí se mi úžasně a konečně jsem našla boty, ve kterých mě nebolí nohy po delší chůzi. Určitě si koupím další.<\/p>","title":"Lenka Kalinová","pos":"","rating":5}},"quote_WrAbbA":{"type":"quote","settings":{"heading":"","content":"<p>Boty Ahinsa jsou úplně úžasné, neskutečně lehké a pohodlné. Od té doby, co jsem se naučila chodit v barefootkách, tak mám pocit, že se mi v obyčejných botách škrtí noha. Určitě to nejsou moje poslední barefootky od vás.<\/p>","title":"Lenka","pos":"","rating":5}},"quote_hxWM4q":{"type":"quote","settings":{"heading":"","content":"<p>Tohle jsou moje první barefoot boty a jsem z nich naprosto nadšený. Jsou přesně podle mých představ. Takže rozhodně nejsou poslední a každému je můžu jen doporučit.<\/p>","title":"Miroslav Svoboda","pos":"","rating":5}},"quote_9EDVVT":{"type":"quote","settings":{"heading":"","content":"<p>Vaše boty jsou prostě boží!!! To pohodlí... no balzám pro nohy. Mám kotníkové barefoot boty Sundara Ankle a nosím je celou zimu s merino vložkou a naprostá spokojenost! Využila jsem slevy a koupila si barefoot balerínky Ananda a také jsou skvělé, už se těším až je budu nosit a nadělám s nimi parádu! Opravu skvělá práce, super kvalita, kůže měkká poddajná a krásně sedí. <br\/>Děkuji a budu se těšit na další skvělé kousky! <\/p>","title":"Veronika Brenkusová","pos":"","rating":5}},"quote_78dzB7":{"type":"quote","settings":{"heading":"","content":"<p>V Ahinsa shoes se mi zatím chodí nejlépe z \"bosobotek\" dostupných na našem trhu. Barefoot jsem začala využívat cca před 5 lety na doporučení fyzioterapeutky a vyzkoušela jsem různé výrobce. U vašich výrobků mi vyhovuje materiál, vzhled, rychlost doručení – prostě celkově kvalita výrobků i kvalita vašich služeb. Mám od vaší firmy jarní, letní i zimní boty a jak už jsem zmínila, pro mě jsou nejlepší :)<\/p>","title":"Iva Fröhlichová","pos":"","rating":5}},"quote_h49L4V":{"type":"quote","settings":{"heading":"","content":"<p>Vaše boty jsou úžasné, krásně sedí a chůze v nich je neuvěřitelně příjemná. Jsou to mé první boty tohoto typu. Doteď jsem nosila obyčejné boty s úzkou špičkou, ale po bolestech klenby a při delší chůzi i kyčlí, jsem usoudila, že než nosit ortopedické vložky apod., radši zkusím tyto boty. Po první vycházce s kočárkem jsem nemohla uvěřit, skoro necítím, že nějaké boty mám, chůze je úžasná.<\/p>","title":"Šárka Koutská","pos":"","rating":5}},"quote_yDDfWD":{"type":"quote","settings":{"heading":"","content":"<p>Měla jsem velké problémy s patními ostruhami a plantární fascitidou. Od té doby, co nosím boty od vás, potíže ustoupily a tuhle jsem v nich protančila večer na koncertě, naprosto bez problémů a jakékoli bolesti. Děkuji.<\/p>","title":"Marcela Šlapalová","pos":"","rating":5}},"quote_pYtCkQ":{"type":"quote","settings":{"heading":"","content":"<p>Můžu říct, že lepší obuv jsem v životě na noze neměl, vydržím v nich chodit v práci každý den bez bolesti a bez jakýkoliv problémů. Naopak cítím celkové výraznější posílení dolních končetin. Už mám doma tři páry a nemůžu si je vynachválit, používám je celoročně.<\/p>","title":"Ondřej Malík","pos":"","rating":5}},"quote_tzk4CN":{"type":"quote","settings":{"heading":"","content":"<p>Objednala jsem si balerínky Chic Comfort černé a jsem nadšená. Chci vám poděkovat za vaši práci. Už se těším, až v nich vyrazím. Přeji spoustu prima nápadů.<\/p>","title":"Pavla Urbanová","pos":"","rating":5}},"quote_VR9RxJ":{"type":"quote","settings":{"heading":"","content":"<p>Mám celkem troje různé bosé botky (různých značek). Musím však upřímně napsat, že vaše jsou nejlepší. Kvalitně udělané, podrážka se neochodí a v botách se velmi příjemně chodí. Postupně jsem tak koupila polobotky, baleríny a teď i kotníčkové. Do vašich bot jsem se \"zamilovala\" a vlastně už téměř nechodím v jiných.<\/p>","title":"Petra Potměšilová","pos":"","rating":5}},"quote_6fAdRP":{"type":"quote","settings":{"heading":"","content":"<p>Po celoživotním trápení s pobolívajícími chodidly díky mému nešetrnému zacházení s nimi jsem konečně našla botky, v nichž se moje nohy cítí jak v peřince a už jiné boty nechtějí. Rady pana fyzioterapeuta vřele doporučuji k následování, osobně jsem je prověřila a konstatuji, že u mne fungují na 100 %.<br\/><\/p>","title":"Veronika Vlčková","pos":"","rating":5}},"quote_yRikr6":{"type":"quote","settings":{"heading":"","content":"<p>Necelý rok chodím ve vašich botách a jsem velice nadšená. Nebolí mě tolik záda co předtím, nechytá mě křeč do lýtek. Nedávno jsem si musela obout obyčejné boty a trpěla jsem, jak mě boleli stlačené prsty. Jsem většinu roku městský chodec, ale nyní jsme byli v lesním terénu a chodilo se mi dobře, měla jsem tenisky, ale na pořádné hory si na příští rok pořídím vaše trekové boty, jejichž podrážka si myslím bude výborná. Líbí se mi, jak noha cítí \"na co šlape\". Co se týká letních sandálů, dobře se v nich chodí, podrážka je příjemně měkká. Děkuji za vaši práci a super botky.<\/p>","title":"Jana Blažková","pos":"","rating":5}},"quote_cEtYkr":{"type":"quote","settings":{"heading":"","content":"<p>Nabízíte opravdu nejlepší barefoot boty, které jsou navíc krásné a já osobně jen přezouvám z jednoho modelu do jiného, ale Ahinsa Shoes mám na nohou celý rok ❤️ Ještě jednou MOC DĚKUJU!<\/p>","title":"Terezie Pechová","pos":"","rating":5}},"quote_J6YtGb":{"type":"quote","settings":{"heading":"","content":"<p>Od té doby, co jsem u Vás nakoupila poprvé nenosím jiné boty. Byla to láska na první pohled! Miluji to, že hledíte jak na komfort a zdraví zákazníků, tak i na naší planetu.<\/p>","title":"Tereza Konířová","pos":"","rating":5}},"quote_aK4bPm":{"type":"quote","settings":{"heading":"","content":"<p>Nakoupila jsem si od vás téměř vše, co vyrábíte v řadě Comfort (jelikož s Barefoot botami začínám a již se jich nechci vzdát a ani nemám odvahu si kupovat od jiných výrobců, neboť nikdo nemá řadu Comfort - promyšlené odpružení, aby chůze po městě nebyla problém.) A tak již mám od vás i recyklované tenisky do teplého počasí👍. Jinak zbožňuju vaší veganskou kůží - takhle úžasně se mi snad žádné boty neumývaly, jako tyto veganské 👌. A navíc je pro mě neuvěřitelná vlastnost bot, že nejdou okopat - perfektní 👏👏👏. Všude vaši firmu chválím a doporučuji.<\/p>","title":"Olga Sidimáková","pos":"","rating":5}},"quote_GUe3gV":{"type":"quote","settings":{"heading":"","content":"<p>Jako zpětnou vazbu dodám, že vaše boty jsem si zamilovala, a to jsem do nich šla jako neznalá, bez očekávání, a ony vše předčily! Perfektní na údržba, svoboda pro nohy geniální, trávím v nich celý den v práci, k šatům, k riflím, na výšlap do přírody, dají se použít prostě ke všem příležitostem...taky hodně zaujaly okolí a pojedu v nich třetí zimu a ony nemají zatím jediný šrám, což ani nechápu, se svou nulovou péčí a zátěží bez ohledů jak to s nimi dopadne.<br\/>Jsou to fakt boty do nepohody a jednoznačně si mě získaly a přizpůsobily se mým potřebám. Jen tak dál, ať se daří, díky👏<\/p>","title":"Šárka Pokorná","pos":"","rating":5}},"quote_xLDwcj":{"type":"quote","settings":{"heading":"","content":"<p>Jsem velmi spokojena s turistickými botami, které jsem si před měsícem u Vás koupila. Mám72 let a velké bolesti chodidel: haluxy, zborcenou klenbu a kladívkové prsty. Vaše boty jsem vyzkoušela na 3denni turistice v Beskydech, každý den jsme ušli nejméně 15km a druhý den jsme zvládli i převýšení 1000m v kamenitém terénu. Při každém kroku jsem si libovala, jaké dobré rozhodnutí to bylo, koupit si po 14ti letech trápení v tvrdých a nepoddajných botách, boty nové, zvláště pak s ohledem na můj věk. Vaše boty jsou měkoučké, nikde netlačí, přitom podrázka je natolik pevná a zároveň pružná, že necítíte zrovna každý kámen na cestě. Jsou lehké, to také velmi oceňuji, neboť moje dosavadní turistické boty byly těžké a po delší túře jsem nohy už jen vlekla. Podařilo se Vám vyrobit skvělé obutí, pro mne možná do budoucna každodenní obutí, neboť v této obuvi budu schopna chodit, když už to v žádné jiné nepůjde. Moc Vám děkuji a při každém kroku ve Vašich botách na Vás s vděčností myslím. <\/p>","title":"Danuše Geryková","pos":"","rating":5}},"quote_GNqbtc":{"type":"quote","settings":{"heading":"","content":"<p>Využívám vaše společenské polobotky a po denním nošení (vložky pouze v opravdové zimě) po roce nejeví známky ošoupání či jiných neduhů.<br\/>Když jsem hledal tenisky - a to slovo je velmi důležité - věděl jsem, že budete mezi favority. Hledal jsem ale něco jiného, něco simple a zároveň něco, co nejde popsat slovama a jakmile jsem uviděl YUVA - boty mě očarovaly.<br\/><br\/>Včera přišly, vlastně nečekaně. Krásné balení, až jsem zapomněl, jaké je to mít radost z rozbalování bot a včerejšek mi to opět připomněl. Doslova jsem do nich vplul a až manželka mi připomněla, že chodím po bytě v botech 😀.<br\/><br\/>Na moji nohu, tyto boty - padly nevydaným způsobem a vážně přemýšlím nad objednáním dalšího páru. Co musím nejvíc vychválit: váha - to je úplný nesmysl. Ale co je nejvíc - jazyk. To je tak něco příjemného, jak si tu botu utáhnete a celý nárt vám obejme ten široký naducaný jazyk boty. Skrz tuhle skutečnost je ta bota taková, jaká je a já musím smeknout pomyslný klobouk.<br\/><br\/>A proč jsem vlastně hrdý a pyšný. Miluju kvalitu a miluju prémiovou kvalitu a navíc jsem v nich včera chodil po městě a jsem si jistý, že ještě dlouho budu ve společnosti první člověk, na kterém tento výtvor můžou lidi vidět.<\/p>","title":"Jakub Bolek","pos":"","rating":5}},"quote_MG4J8U":{"type":"quote","settings":{"heading":"","content":"<p>Po pár měsících téměř každodenního nošení mohu konečně napsat upřímnou recenzi. Nazvala bych ji Láska na druhý pohled :) Okamžitě mě zaujala podrážka - mám totiž řadu Comfort, čistě barefoot jsem nechtěla (konkrétně mám model Shuma Nature). A ta slast při došlapu!<br\/><br\/>Jsem máma téměř dvouletého neposedy, takže boty každý den běhají s námi po městě, na hřišti nebo po lese. A jsem jednoduše NADŠENÁ! Nic mě netlačí, bota je měkkoučká, projdu suchou nohou všechny kaluže, je v nich příjemné teplo a hlavně - doma otřu vlhkým hadříkem a zas vypadají jako nové.<br\/><br\/>Kladu si jedinou otázku, proč jsem si je nekoupila dřív?? Na boty pěju ódy kudy chodím a už jsem úspěšně nadchla pro nákup další lidi. Já děkuji Ahinse, že mi ukázala, že dokonalá bota existuje. <\/p>","title":"Kateřina Skoková","pos":"","rating":5}},"quote_R8qkiF":{"type":"quote","settings":{"heading":"","content":"<p>Vaše boty Chitra Trek&Trail jsou perfektní, čistý barefoot mi nevyhovuje, ale Vaše comfort rada je luxusní. Taky mi velmi vyhovuje, že máte vibram podrážku, tohle jsem přesně hledala…barefooty s tlustější podrážkou plus vibram. Moc za to děkuji.<\/p>","title":"Zuzana Kovaříková","pos":"","rating":5}},"quote_QkMxLF":{"type":"quote","settings":{"heading":"","content":"<p>Zítra vyrážím na koncert klasické hudby v super polobotkách Ananda od Ahinsa 👍😊 V jiných botách už prostě chodit nedokážu. Od té doby, co jsem se přezula do barefootek mne přestaly bolet záda a zase můžu skákat přes kaluže 😊 <\/p>","title":"Květa Štefániková","pos":"","rating":5}}},"block_order":["quote_Nw7grb","quote_6cp3XV","quote_qqmXRY","quote_QYtx9T","quote_An9Prd","quote_LG3VJX","quote_pyCXmE","quote_6MKkKc","quote_t9qhMy","quote_neCYkM","quote_rPwN4n","quote_3xDaPj","quote_eEcXBn","quote_pbYWr3","quote_8P7jE7","quote_WrAbbA","quote_hxWM4q","quote_9EDVVT","quote_78dzB7","quote_h49L4V","quote_yDDfWD","quote_pYtCkQ","quote_tzk4CN","quote_VR9RxJ","quote_6fAdRP","quote_yRikr6","quote_cEtYkr","quote_J6YtGb","quote_aK4bPm","quote_GUe3gV","quote_xLDwcj","quote_GNqbtc","quote_MG4J8U","quote_R8qkiF","quote_QkMxLF"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"Po světě chodí 20.000+ párů Ahinsa shoes. Co na ně říkají jejich majitelé?","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"ter_des":"1","cl_name":"#202020","cl_content":"#202020","cl_bd":"","cl_bg_item":"","bdr":0,"content_align":"text-start","col_dk":"3","col_tb":"2","col_mb":"1","space_h_item":"30","space_v_item":"30","space_h_item_mb":"10","space_v_item_mb":"10","layout_des":"1","loop":true,"au_time":0,"au_hover":true,"nav_btn":false,"btn_vi":"hover","btn_owl":"default","btn_shape":"none","btn_cl":"dark","btn_size":"small","btn_hidden_mobile":true,"nav_dot":false,"dot_owl":"default","dots_cl":"dark","dots_round":true,"dots_space":10,"dots_hidden_mobile":false,"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"collections_list_HDEKYi":{"type":"collections-list","blocks":{"collection_item_ETwFeW":{"type":"collection_item","settings":{"collection":"damske-barefoot","icon":"las la-gem","collection_title":"","collection_text":"","collection_link":"","promotion_id":"","promotion_name":"","creative_name":"","location_id":"","type":""}},"collection_item_eRHHfD":{"type":"collection_item","settings":{"collection":"damske-komfortni-boty","icon":"las la-gem","collection_title":"","collection_text":"","collection_link":"","promotion_id":"","promotion_name":"","creative_name":"","location_id":"","type":""}},"collection_item_RyGhcG":{"type":"collection_item","settings":{"collection":"panske-barefoot","icon":"las la-gem","collection_title":"","collection_text":"","collection_link":"","promotion_id":"","promotion_name":"","creative_name":"","location_id":"","type":""}},"collection_item_qWRwin":{"type":"collection_item","settings":{"collection":"panska-komfortni-obuv","icon":"las la-gem","collection_title":"","collection_text":"","collection_link":"","promotion_id":"","promotion_name":"","creative_name":"","location_id":"","type":""}}},"block_order":["collection_item_ETwFeW","collection_item_eRHHfD","collection_item_RyGhcG","collection_item_qWRwin"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"Které boty obujete vy?","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"head_btn_label":"View All","head_btn_url":"","head_btn_icon":false,"head_btn_style":"default","head_btn_size":"medium","head_btn_cl":"dark","head_btn_effect":"default","head_btn_hidden_mb":false,"collection_des":"1","title_cl":"#ffffff","title_cl_hover":"#222222","subtitle_cl":"#878787","count_cl":"#222222","border_cl":"#e5e5e5","collection_subtitle":"Products","open_link":"_self","source":"image","space_bottom":20,"space_bottom_tb":20,"space_bottom_mb":10,"border":false,"item_pd":0,"item_rd":0,"img_effect":"none","b_effect":"none","image_ratio":"ratio1_1","image_size":"cover","image_position":"8","layout_des":"1","col_dk":"4","col_tb":"2","col_mb":"2","space_h_item":"30","space_v_item":"30","space_h_item_mb":"10","space_v_item_mb":"10","loop":true,"au_time":0,"au_hover":true,"nav_btn":false,"btn_pos":"default","btn_vi":"hover","btn_owl":"default","btn_shape":"none","btn_cl":"dark","btn_size":"small","btn_hidden_mobile":false,"nav_dot":false,"dot_owl":"default","dots_cl":"dark","dots_round":true,"dots_space":10,"dots_hidden_mobile":false,"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"image_text_zbQrtD":{"type":"image_text","blocks":{"bl_text_8WRFtf":{"type":"bl_text","settings":{"quote":false,"smaller_text":false,"col_dk":"12","col_tb":"12","text_size":"40,15","txt_align":"center","sub_heading":"","heading":"Nezávislé recenze Ahinsa shoes","text":"<p>Odborníci a barefoot nadšenci o našich botách. Přečtěte si jejich upřímné ohlasy<\/p>","subhd_color":"#222222","hd_color":"#222222","des_color":"#878787","use_shadow":false,"button_label":"Button label","button_link":"","open_link":"_blank","btn_icon":false,"button_style":"default","btn_size":"large","btn_cl":"dark","button_effect":"default"}}},"block_order":["bl_text_8WRFtf"],"settings":{"design_heading":"1","heading_align":"t4s-text-center","top_heading":"","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"space_h_item":"20","space_v_item":"10","space_h_item_mb":"20","space_v_item_mb":"10","layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"banner_TAqL64":{"type":"banner","blocks":{"b_item_UA364n":{"type":"b_item","settings":{"custom_dk":true,"height_dk":600,"custom_tb":true,"height_tb":400,"custom_mb":true,"height_mb":300,"image":"shopify:\/\/shop_images\/AUM05125.jpg","b_link":"https:\/\/www.youtube.com\/watch?v=5CK5-UkmaJI&ab_channel=%C5%A0%C5%A5astn%C3%A9N%C3%B4%C5%BEky","open_link":"_blank","img_effect":"none","b_effect":"none","col_dk":"4","col_tb":"4","col_mb":"12","content_align":"center","content_align_mobile":"center","content_width":"auto","cv_pos":50,"ch_pos":50,"cv_pos_mb":50,"ch_pos_mb":50,"bg_overlay":"#000000","bg_opacity":50,"bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd_tb":20,"content_pd_lr":20,"content_pd_tb_mb":10,"content_pd_lr_mb":10,"border_bl":false,"br_color":"#222222","br_bg":"#ffffff","br_opacity":50,"br_style":"solid","br_pd":20,"br_pd_mb":10,"time_animation":1,"animation_delay":40}},"custom_text_Pm3YCT":{"type":"custom_text","settings":{"text":"VIDEORECENZE: Plátěné tenisky Bindu 2","remove_br_tag":false,"tag":"p","fontf":"inherit","text_cl":"#ffffff","text_fs":24,"text_lh":24,"text_fw":500,"text_ls":0,"font_italic":false,"text_shadow":false,"text_mgb":5,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10,"animation":"none"}},"custom_text_m8TKb4":{"type":"custom_text","settings":{"text":"Šťastné Nôžky","remove_br_tag":false,"tag":"p","fontf":"inherit","text_cl":"#ffffff","text_fs":14,"text_lh":24,"text_fw":400,"text_ls":0,"font_italic":false,"text_shadow":false,"text_mgb":5,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10,"animation":"none"}},"b_item_QQH3P8":{"type":"b_item","settings":{"custom_dk":true,"height_dk":600,"custom_tb":true,"height_tb":400,"custom_mb":true,"height_mb":300,"image":"shopify:\/\/shop_images\/DSC_6592.jpg","b_link":"https:\/\/www.modio.cz\/i\/udrzitelne-tenisky-v-praxi-slip-on-od-ahinsa-vas-dostanou","open_link":"_blank","img_effect":"none","b_effect":"none","col_dk":"4","col_tb":"4","col_mb":"12","content_align":"center","content_align_mobile":"center","content_width":"auto","cv_pos":50,"ch_pos":50,"cv_pos_mb":50,"ch_pos_mb":50,"bg_overlay":"#000000","bg_opacity":50,"bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd_tb":20,"content_pd_lr":20,"content_pd_tb_mb":10,"content_pd_lr_mb":10,"border_bl":false,"br_color":"#222222","br_bg":"#ffffff","br_opacity":50,"br_style":"solid","br_pd":20,"br_pd_mb":10,"time_animation":1,"animation_delay":40}},"custom_text_P8zr9m":{"type":"custom_text","settings":{"text":"Udržitelné tenisky v praxi? Slip on od Ahinsa vás dostanou","remove_br_tag":false,"tag":"p","fontf":"inherit","text_cl":"#ffffff","text_fs":24,"text_lh":24,"text_fw":500,"text_ls":0,"font_italic":false,"text_shadow":false,"text_mgb":5,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10,"animation":"none"}},"custom_text_RkqfFA":{"type":"custom_text","settings":{"text":"modio.cz","remove_br_tag":false,"tag":"p","fontf":"inherit","text_cl":"#ffffff","text_fs":14,"text_lh":24,"text_fw":400,"text_ls":0,"font_italic":false,"text_shadow":false,"text_mgb":5,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10,"animation":"none"}},"b_item_jaGakR":{"type":"b_item","settings":{"custom_dk":true,"height_dk":600,"custom_tb":true,"height_tb":400,"custom_mb":true,"height_mb":300,"image":"shopify:\/\/shop_images\/DSC02009-min_087b3df7-dab6-404f-ad3f-b8418d74f048.jpg","b_link":"https:\/\/www.svetoutdooru.cz\/vybaveni\/ahinsa-shoes-hiker-comfort-poctive-barefoot-pohorky\/","open_link":"_blank","img_effect":"none","b_effect":"none","col_dk":"4","col_tb":"4","col_mb":"12","content_align":"center","content_align_mobile":"center","content_width":"auto","cv_pos":50,"ch_pos":50,"cv_pos_mb":50,"ch_pos_mb":50,"bg_overlay":"#000000","bg_opacity":50,"bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd_tb":20,"content_pd_lr":20,"content_pd_tb_mb":10,"content_pd_lr_mb":10,"border_bl":false,"br_color":"#222222","br_bg":"#ffffff","br_opacity":50,"br_style":"solid","br_pd":20,"br_pd_mb":10,"time_animation":1,"animation_delay":40}},"custom_text_LmiQhe":{"type":"custom_text","settings":{"text":"Hiker Comfort – Poctivé barefoot pohorky","remove_br_tag":false,"tag":"p","fontf":"inherit","text_cl":"#ffffff","text_fs":24,"text_lh":24,"text_fw":500,"text_ls":0,"font_italic":false,"text_shadow":false,"text_mgb":5,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10,"animation":"none"}},"custom_text_UR4Qtw":{"type":"custom_text","settings":{"text":"Martin Slezáček (svetoutdooru.cz)","remove_br_tag":false,"tag":"p","fontf":"inherit","text_cl":"#ffffff","text_fs":14,"text_lh":24,"text_fw":400,"text_ls":0,"font_italic":false,"text_shadow":false,"text_mgb":5,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10,"animation":"none"}}},"block_order":["b_item_UA364n","custom_text_Pm3YCT","custom_text_m8TKb4","b_item_QQH3P8","custom_text_P8zr9m","custom_text_RkqfFA","b_item_jaGakR","custom_text_LmiQhe","custom_text_UR4Qtw"],"settings":{"image_ratio":"ratioadapt","image_size":"cover","image_position":"8","space_h_item":"30","space_v_item":"30","space_h_item_mb":"10","space_v_item_mb":"10","hidden_content_first":false,"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}}},"order":["hero_image_T8mc3z","heading","main","sidebar-page","image_text_4f8Yzh","testimonials_rHgXXG","collections_list_HDEKYi","image_text_zbQrtD","banner_TAqL64"]}
+{
+  "sections": {
+    "hero_image_T8mc3z": {
+      "type": "hero_image",
+      "blocks": {
+        "custom_text_Ld8aQW": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Ahinsa shoes reviews",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 1,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_Deb7Lh": {
+          "type": "custom_text",
+          "settings": {
+            "text": "You don’t have to take our word for it.<br>\nOur customers speak for us",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 39,
+            "text_lh": 50,
+            "text_fw": 600,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 31,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_button_WTdnHX": {
+          "type": "custom_button",
+          "settings": {
+            "button_text": "Button label",
+            "button_link": "",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#222222",
+            "second_cl": "#ffffff",
+            "pri_cl_hover": "#56cfe1",
+            "second_cl_hover": "#ffffff",
+            "fsbutton": 14,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 0,
+            "button_pd_lr": 20,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 10,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "custom_text_Ld8aQW",
+        "custom_text_Deb7Lh",
+        "custom_button_WTdnHX"
+      ],
+      "settings": {
+        "se_height": "t4s_ratio_cuspx",
+        "custom_dk": true,
+        "height_dk": 550,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 400,
+        "image": "shopify:\/\/shop_images\/Ahinsa_046.jpg",
+        "parallax": false,
+        "image_position": "0",
+        "link_img1": "",
+        "open_link": "_blank",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "container",
+        "cv_pos": 50,
+        "ch_pos": 50,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000000",
+        "bg_opacity": 50,
+        "bg_content_cl": "#ffffff",
+        "bg_content_op": 0,
+        "content_pd_tb": 15,
+        "content_pd_lr": 15,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 10,
+        "border_bl": false,
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 20,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "3_m8HHpz": {
+          "type": "3",
+          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
+        },
+        "1_yMrJc7": {
+          "type": "1",
+          "settings": {
+            "heading": "Ahinsa shoes reviews",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 50,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        },
+        "2_rAikNb": {
+          "type": "2",
+          "settings": {
+            "content": "<p>You don’t have to take our word for it. Our customers speak for us<\/p>",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 50,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": ["3_m8HHpz", "1_yMrJc7", "2_rAikNb"],
+      "disabled": true,
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "image_text_4f8Yzh": {
+      "type": "image_text",
+      "blocks": {
+        "bl_liquid_aj6HAQ": {
+          "type": "bl_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"intro-review-wrapper review-container\">\n  <div>\n    <div class=\"img-wrapper\">\n      <img src=\"\/\/ahinsashoes.cz\/cdn\/shop\/files\/reviews-page-heureka_200x.png?v=1656402927\" alt=\"\">\n    <\/div>\n    <div class=\"heureka-conent\">\n      <h2>4,9<\/h2>\n      <p>\n        <strong> overall store satisfaction <\/strong>\n      <\/p>\n\n      <p><\/p>\n      <p><strong>99%<\/strong> of customers recommend the store<\/p>\n      <p><strong>2.2<\/strong> average delivery time in days<\/p>\n      <p><strong>100%<\/strong> of customers received their goods within 6 days<\/p>\n      <p><\/p>\n\n      <a href=\"https:\/\/obchody.heureka.cz\/ahinsashoes-cz\/recenze\/\" target=\"blank\" class=\"link link_underline\">\n        Read reviews\n      <\/a>\n    <\/div>\n  <\/div>\n<\/div>",
+            "col_dk": "6",
+            "col_tb": "6"
+          }
+        },
+        "bl_liquid_4tV8zP": {
+          "type": "bl_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"review-container\">\n  <div class=\"intro-review-wrapper\">\n    <div>\n      <div class=\"img-wrapper\">\n        <img src=\"\/\/ahinsashoes.cz\/cdn\/shop\/files\/reviews-page-zbozi_200x.png?v=1656402927\" alt=\"\">\n      <\/div>\n      <div class=\"review-wrapper-ml\">\n        <h2>95 %<\/h2>\n        <p>\n          <strong> satisfied customers <\/strong>\n        <\/p>\n        <p><\/p>\n        <a href=\"https:\/\/www.zbozi.cz\/znacka\/ahinsa-shoes\/\" target=\"blank\" class=\"link link_underline\"\n          >Read reviews<\/a\n        >\n      <\/div>\n    <\/div>\n  <\/div>\n\n  <div class=\"intro-review-wrapper\">\n    <div>\n      <div class=\"img-wrapper\">\n        <img src=\"\/\/ahinsashoes.cz\/cdn\/shop\/files\/reviews-page-google_200x.png?v=1656402927\" alt=\"\">\n      <\/div>\n      <div class=\"review-wrapper-ml\">\n        <h2>4,9 ⋆⋆⋆⋆⋆<\/h2>\n        <p><\/p>\n        <p><strong>1,200+ reviews<\/strong><\/p>\n        <p><\/p>\n        <a\n          href=\"https:\/\/customerreviews.google.com\/v\/merchant?q=ahinsashoes.cz&c=CZ&v=19\"\n          target=\"blank\"\n          class=\"link link_underline\"\n          >Read reviews<\/a\n        >\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>",
+            "col_dk": "6",
+            "col_tb": "6"
+          }
+        }
+      },
+      "block_order": ["bl_liquid_aj6HAQ", "bl_liquid_4tV8zP"],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,10px,",
+        "pd_mb": ",,30px,",
+        "use_cus_css": true,
+        "code_cus_css": "<style>\n  h2 {\n    margin-bottom: 5px;\n  }\n\n  p {\n    margin-bottom: 20px;\n  }\n\n  .intro-review-wrapper {\n    border: 1px solid black;\n    display: flex;\n    align-items: center;\n    height: 100%;\n  }\n  .review-container {\n    min-height: 400px;\n    display: flex;\n    justify-content: center;\n    gap: 20px;\n    flex-direction: column;\n  }\n  .intro-review-wrapper > div {\n    display: flex;\n    align-items: start;\n    gap: 20px;\n  }\n\n  .review-wrapper-ml,\n  .heureka-conent {\n    text-align: left;\n    padding-left: 54px;\n  }\n\n  .intro-review-wrapper .img-wrapper {\n    margin-left: 50px;\n  }\n  .review-container > div {\n    padding: 31.5px 0;\n  }\n\n  @media (max-width: 767px) {\n    .review-container > div {\n      padding: unset;\n    }\n    .intro-review-wrapper {\n      padding: 20px!important;\n    }\n    .intro-review-wrapper > div {\n      flex-direction: column;\n      text-align: left;\n      width: 100%;\n    }\n\n    .review-container {\n      gap: 10px;\n    }\n\n    .review-wrapper-ml,\n    .heureka-conent {\n      text-align: left;\n      padding: 20px;\n    }\n\n    .intro-review-wrapper .img-wrapper {\n      margin-left: unset;\n      align-self: center;\n    }\n  }\n<\/style>"
+      }
+    },
+    "testimonials_rHgXXG": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_Nw7grb": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>Here's my 14-day experience with the Ananda shoes from you: I walk in them almost every day, I track the km, because I'm interested in how long those thin soles will last. In 2 weeks I walked 42 km in them, mostly on paving, less on dirt and grass. I wear them into nature too, they take a beating maybe more than they should, but they're holding up well; after cleaning they're like new. I even walked in the rain on purpose, and through puddles, but they didn't soak through. At first I was afraid whether I'd get used to them, I'm 63 years old, but it looks like it's going to be good. Every day I look forward to heading out in them again. I'm glad that not only my toes, but also my heels have enough space in the shoes. And they're really nice, a friend has already admired them too. And they smell lovely.<\/p>",
+            "title": "Dana Žáková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_6cp3XV": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I really want to thank you for the shoes that fit me absolutely perfectly. Ever since I’ve had them, I don’t wear anything else — it’s like a second skin with a little pad underneath, but that’s mine too :-)! Thank you so much that thanks to you I can be healthy, content, and interesting too. I recommend you to my friends and to “barefooters” who haven’t tried your products yet.<br\/><\/p>",
+            "title": "Jana Kovačičová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_qqmXRY": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I have to thank you for the Hava Comfort sandals. I’m delighted with them — I’ve worn them all summer. They’re elegant, so they go with a dress, but I also hiked around a lake in Austria in them. Incredibly comfortable, and you can tighten them exactly to the foot, so even I with a low instep don’t swim in them. They’re the best sandals I’ve ever had.<\/p>",
+            "title": "Jana Paříková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_QYtx9T": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I’ve been walking in your shoes for almost a year and I’m thrilled. My back doesn’t hurt as much as before, and I don’t get cramps in my calves. Most of the year I’m a city walker, but we were recently on forest terrain and I walked well. I love how the foot feels “what it’s stepping on”. Thank you for your work and for these super shoes.<\/p>",
+            "title": "Jana Blažková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_An9Prd": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>Every year we go to a ball, we dance, and when I get out of the car towards morning, I have the feeling I won't make those last 20 meters, my feet – actually my soles – are so wrecked. Even though I chose the best ball shoes every year, by morning my feet felt like they were in a vise and the last steps could only be taken with great self-denial, or without shoes... this year I told myself I'd wear your white sandals with Preciosa crystals and I don't care at all what shoes I was supposed to have. A wonderful decision, I felt great, comfortable, I danced the evening away and nothing – no pain, no straining, I didn't have to endure anything and I felt good. So thank you. The sandals with crystals were a fantastic idea :-)<\/p>",
+            "title": "Štěpánka Svobodová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_LG3VJX": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I have to say I bought the shoes on a doctor’s recommendation. I didn’t really believe it, but now I’m genuinely thrilled. Walking brings natural blood flow to the feet, so my fear of the cold completely disappeared. The alignment and overall strengthening of the arch is noticeable too. <\/p><p>Thank you so much, and I’ll definitely get your shoes for spring and summer as well. <\/p>",
+            "title": "Markéta Šimíčková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_pyCXmE": {
+          "type": "quote",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "content": "<p>Yesterday I received shoes from you — women’s autumn Comfort Chelsea boots — and I want to tell you I’ve never had better shoes on my feet, they’re super! I have bunions — hallux valgus — and a collapsed transverse and longitudinal arch, and no shoes fitted me; they all pinched. These shoes are truly comfortable. I feel wrapped in cotton wool, as if I were walking barefoot. <\/p>",
+            "title": "R. Lohwasserová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_6MKkKc": {
+          "type": "quote",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "content": "<p>Last year I bought brown autumn\/winter boots from you, and even after a year of wearing them from autumn to spring you can’t tell. I’m your walking\/running advertisement and I recommend them wherever I can.<\/p>",
+            "title": "Dana Truchlyová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_t9qhMy": {
+          "type": "quote",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "content": "<p>I can’t help it — I have to send you feedback on your shoes, which are absolutely amazing! I’ve now ordered a second pair — first the trekking ones, now these winter ones, and I’ve never had better footwear in my life. I feel like I’m in slippers.<\/p>",
+            "title": "Marie Kessnerová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_neCYkM": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>My brown Barefoot Ananda shoes are in their fourth season with me and they look like new. I’m a gardener — I wear them in the field, in the city, in the forest, I don’t spare them at all, and they haven’t got a single unglued spot, crack or scuff. The insoles have packed down to the shape of my foot, but they don’t break down or wear through — I only change the laces. That’s pretty unbelievable these days. I praise you everywhere.<\/p>",
+            "title": "Kateřina Zvelebilová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_rPwN4n": {
+          "type": "quote",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "content": "<p>The shoes are absolutely perfect — the craftsmanship, the materials and the look, not to mention how perfectly they fit. Until now I’d only worn barefoot shoes in summer, and I have to say this winter version is truly flawless.  These days I’m literally savouring being outdoors<\/p>",
+            "title": "Pavlína Melikyan",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_3xDaPj": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I've got my first winter in Sundara Winter behind me. They're perfect, honestly made shoes. I really appreciate how low-maintenance they are, which is truly just as you promise on the website - just wipe them with a cloth and that's it. The option to swap the fur insole for a regular one is a great feature and the shoe is thus versatile depending on the weather.<br\/><br\/>I also treated myself to brown slip-on sandals for Christmas. They're beautifully made. What I like about your shoes in general is that honest work shows in them. Now spring is coming, so I got the Chitra Track&Trail blue-black ones. God, those are beautiful shoes! And so comfortable. <br\/><br\/>I like that with the shoes you keep the anatomical widening on the big-toe side as well, so the foot has room to spread. And I almost forgot. Your shoes DON'T SLIP on wet surfaces! These are the first shoes in my life where I'm not afraid I'll fall.<\/p>",
+            "title": "Jiří František Barták",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_eEcXBn": {
+          "type": "quote",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "content": "<p>Walking in the winter boots is wonderful. I’ve worn barefoot shoes exclusively for 3 years now, and since then my bunions, which formed over the previous 35 years, no longer hurt... The winter boots are true slippers.<\/p>",
+            "title": "Lenka Vlková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_pbYWr3": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>It's already been three months since I got the Chitra Trek&Trail barefoot hiking boots. I love perfection, functionality and practicality. I didn't believe anything could be better than a stiff mountain boot. I was wrong. I barely take the shoes off even at home. They're amazing 👍👍👍<br\/>It's a shame I didn't discover them sooner. My next project is coming up in August – a crossing of the High Tatras. Many thanks, you're doing great work. I'll certainly be promoting and recommending your product.<\/p>",
+            "title": "Karel Ševčík",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_8P7jE7": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I’m delighted with your shoes. Walking in them is wonderful, and I’ve finally found shoes that don’t make my feet hurt after a longer walk. I’ll definitely buy another pair.<\/p>",
+            "title": "Lenka Kalinová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_WrAbbA": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>Ahinsa shoes are amazing — incredibly light and comfortable. Ever since I learned to walk in barefoot shoes, ordinary shoes feel like they’re squeezing my feet. These definitely won’t be my last pair from you.<\/p>",
+            "title": "Lenka",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_hxWM4q": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>These are my first barefoot shoes and I’m absolutely thrilled. They’re exactly what I imagined. They definitely won’t be the last, and I can only recommend them to everyone.<\/p>",
+            "title": "Miroslav Svoboda",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_9EDVVT": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>Your shoes are simply amazing!!! That comfort... a balm for the feet. I have Sundara Ankle barefoot boots and I’ve worn them all winter with a merino insole — complete satisfaction! I used a discount and bought Ananda barefoot ballet flats and they’re great too. I can’t wait to wear them and show them off! Truly great work, super quality, the leather is soft and supple and they fit beautifully. <br\/>Thank you and I look forward to more great pieces! <\/p>",
+            "title": "Veronika Brenkusová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_78dzB7": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>Of the “barefoot shoes” available on our market, I walk best in Ahinsa shoes so far. I started wearing barefoot about 5 years ago on a physiotherapist’s recommendation and I’ve tried various makers. With your products I like the material, the look, the delivery speed — simply the overall quality of the products and the quality of your service. I have spring, summer and winter shoes from you and, as I mentioned, for me they’re the best :)<\/p>",
+            "title": "Iva Fröhlichová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_h49L4V": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>Your shoes are wonderful — they fit beautifully and walking in them is incredibly pleasant. They’re my first shoes of this kind. Until now I wore ordinary shoes with a narrow toe, but after arch pain and, on longer walks, hip pain too, I decided that rather than orthotic insoles and the like, I’d rather try these shoes. After the first outing with the stroller I couldn’t believe it — I barely feel I have shoes on, walking is wonderful.<\/p>",
+            "title": "Šárka Koutská",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_yDDfWD": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I had major problems with heel spurs and plantar fasciitis. Since I’ve been wearing your shoes, the issues have eased, and the other day I danced the evening away in them at a concert, with no problems and no pain at all. Thank you.<\/p>",
+            "title": "Marcela Šlapalová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_pYtCkQ": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I can say I’ve never had better shoes on my feet. I can walk in them at work every day without pain and without any problems. On the contrary, I feel a noticeably stronger lower body overall. I already have three pairs at home and I can’t praise them enough — I wear them all year round.<\/p>",
+            "title": "Ondřej Malík",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_tzk4CN": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I ordered the black Chic Comfort ballet flats and I’m delighted. I want to thank you for your work. I can’t wait to head out in them. I wish you lots of great ideas.<\/p>",
+            "title": "Pavla Urbanová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_VR9RxJ": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I have three different pairs of barefoot shoes in total (from various brands). I have to write honestly, though, that yours are the best. They’re well made, the outsole doesn’t wear down, and they’re a pleasure to walk in. So I gradually bought casual shoes, ballet flats, and now ankle boots too. I’ve “fallen in love” with your shoes and I hardly walk in anything else anymore.<\/p>",
+            "title": "Petra Potměšilová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_6fAdRP": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>After a lifetime of aching feet thanks to the unkind way I treated them, I finally found shoes in which my feet feel wrapped in a duvet and don’t want any others. I warmly recommend following the physiotherapist’s advice — I’ve tested it myself and I can say it works 100% for me.<br\/><\/p>",
+            "title": "Veronika Vlčková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_yRikr6": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I've been walking in your shoes for almost a year and I'm really delighted. My back doesn't hurt as much as it used to, and I don't get cramps in my calves. Not long ago I had to put on ordinary shoes and I suffered, my squeezed toes hurt so much. I'm a city walker most of the year, but we were recently in forest terrain and walking felt good; I had sneakers on, but for proper mountains I'll get your hiking boots next year, whose sole I think will be excellent. I like how the foot feels “what it's stepping on”. As for the summer sandals, they're good to walk in, the sole is pleasantly soft. Thank you for your work and the super shoes.<\/p>",
+            "title": "Jana Blažková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_cEtYkr": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>You offer truly the best barefoot shoes — they’re beautiful too, and I just switch from one model to another, but I wear Ahinsa Shoes all year round ❤️ Thank you so much again!<\/p>",
+            "title": "Terezie Pechová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_J6YtGb": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>Ever since I first ordered from you, I don’t wear any other shoes. It was love at first sight! I love that you care about both customer comfort and health, and about our planet.<\/p>",
+            "title": "Tereza Konířová",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_aK4bPm": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I've bought almost everything you make in the Comfort line (because I'm just starting out with Barefoot shoes and I already don't want to give them up – and I don't even dare buy from other manufacturers, because nobody else has a Comfort line – thoughtful cushioning so that walking around the city isn't a problem). And so I already have your recycled sneakers for warm weather too 👍. Otherwise I adore your vegan leather – I don't think any shoes have ever been this wonderful to clean, like these vegan ones 👌. And on top of that, the incredible thing about the shoes for me is that they don't scuff – perfect 👏👏👏. I praise and recommend your company everywhere.<\/p>",
+            "title": "Olga Sidimáková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_GUe3gV": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>As feedback I'll add that I've fallen in love with your shoes, and I went into them as a complete novice, with no expectations, and they surpassed everything! They're so easy to care for, the freedom for the feet is genius, I spend the whole day in them at work, with a dress, with jeans, on a hike in nature, they can simply be used for every occasion... they also really caught people's attention around me, and I'll be going into my third winter in them and they still don't have a single scratch, which I don't even understand, given my zero care and the wear I put them through with no thought for how they'll end up.<br\/>They're truly all-weather shoes and they've definitely won me over and adapted to my needs. Keep it up, all the best, thank you 👏<\/p>",
+            "title": "Šárka Pokorná",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_xLDwcj": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I am very happy with the hiking shoes I bought from you a month ago. I am 72 years old and have a lot of pain in my feet: bunions, a collapsed arch and hammer toes. I tried your shoes on a 3-day hike in the Beskids; every day we walked at least 15 km and on the second day we even managed 1,000 m of elevation on rocky terrain. With every step I was glad what a good decision it had been to buy new shoes after 14 years of suffering in hard, inflexible ones, especially given my age. Your shoes are lovely and soft, they don’t pinch anywhere, and yet the sole is firm enough and at the same time springy enough that you don’t feel every single stone on the path. They’re light, which I also really appreciate, because my previous hiking shoes were heavy and after a longer trek I was just dragging my feet. You have succeeded in making wonderful footwear, perhaps everyday footwear for me in the future, because in these shoes I will still be able to walk when it will no longer be possible in any other. Thank you so much, and with every step in your shoes I think of you with gratitude. <\/p>",
+            "title": "Danuše Geryková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_GNqbtc": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I wear your dress shoes, and after a year of daily wear (insoles only in real winter) they show no signs of scuffing or any other trouble.<br\/>When I was looking for sneakers – and that word is very important – I knew you’d be among the favorites. But I was looking for something else, something simple and at the same time something that can’t be put into words, and as soon as I saw YUVA – the shoes enchanted me.<br\/><br\/>They arrived yesterday, actually unexpectedly. Beautiful packaging; I’d forgotten what it’s like to feel joy from unboxing shoes, and yesterday reminded me of it again. I quite literally slipped into them, and it was my wife who pointed out that I was walking around the apartment in shoes 😀.<br\/><br\/>On my foot, these shoes fit in an unprecedented way, and I’m seriously thinking about ordering another pair. What I have to praise most: the weight – it’s completely ridiculous. But the very best thing is the tongue. There’s something so pleasant about how you tighten the shoe and that wide, plump tongue wraps around your whole instep. That’s what makes the shoe what it is, and I have to take my imaginary hat off.<br\/><br\/>And why I’m actually proud. I love quality and I love premium quality, and what’s more I walked around town in them yesterday and I’m sure that for a long time I’ll be the first person in company on whom people can see this creation.<\/p>",
+            "title": "Jakub Bolek",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_MG4J8U": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>After a few months of almost everyday wear I can finally write an honest review. I'd call it Love at second sight :) The sole caught my attention immediately - I have the Comfort line, I didn't want purely barefoot (specifically I have the Shuma Nature model). And that bliss with every step!<br\/><br\/>I'm a mum of an almost two-year-old fidget, so the shoes run with us every day around the city, on the playground or through the forest. And I'm simply DELIGHTED! Nothing pinches, the shoe is lovely and soft, I walk through every puddle with dry feet, they're pleasantly warm, and most of all - at home I wipe them with a damp cloth and they look like new again.<br\/><br\/>I ask myself only one question, why didn't I buy them sooner?? I sing the shoes' praises wherever I go and I've already successfully inspired more people to buy. I thank Ahinsa for showing me that the perfect shoe exists. <\/p>",
+            "title": "Kateřina Skoková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_R8qkiF": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>Your Chitra Trek&Trail shoes are perfect — the Barefoot line doesn’t work for me, but your Comfort line is luxurious. I also love that you have a Vibram outsole; this is exactly what I was looking for… barefoot shoes with a thicker sole plus Vibram. Thank you so much.<\/p>",
+            "title": "Zuzana Kovaříková",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_QkMxLF": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>Tomorrow I’m heading to a classical concert in a fantastic pair of Ananda casual shoes from Ahinsa 👍😊 I simply can’t walk in other shoes anymore. Ever since I switched to barefoot shoes, my back has stopped hurting and I can jump in puddles again 😊 <\/p>",
+            "title": "Květa Štefániková",
+            "pos": "",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_Nw7grb",
+        "quote_6cp3XV",
+        "quote_qqmXRY",
+        "quote_QYtx9T",
+        "quote_An9Prd",
+        "quote_LG3VJX",
+        "quote_pyCXmE",
+        "quote_6MKkKc",
+        "quote_t9qhMy",
+        "quote_neCYkM",
+        "quote_rPwN4n",
+        "quote_3xDaPj",
+        "quote_eEcXBn",
+        "quote_pbYWr3",
+        "quote_8P7jE7",
+        "quote_WrAbbA",
+        "quote_hxWM4q",
+        "quote_9EDVVT",
+        "quote_78dzB7",
+        "quote_h49L4V",
+        "quote_yDDfWD",
+        "quote_pYtCkQ",
+        "quote_tzk4CN",
+        "quote_VR9RxJ",
+        "quote_6fAdRP",
+        "quote_yRikr6",
+        "quote_cEtYkr",
+        "quote_J6YtGb",
+        "quote_aK4bPm",
+        "quote_GUe3gV",
+        "quote_xLDwcj",
+        "quote_GNqbtc",
+        "quote_MG4J8U",
+        "quote_R8qkiF",
+        "quote_QkMxLF"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "20,000+ pairs of Ahinsa shoes walk the world. What do their owners say?",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "ter_des": "1",
+        "cl_name": "#202020",
+        "cl_content": "#202020",
+        "cl_bd": "",
+        "cl_bg_item": "",
+        "bdr": 0,
+        "content_align": "text-start",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "collections_list_HDEKYi": {
+      "type": "collections-list",
+      "blocks": {
+        "collection_item_ETwFeW": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "damske-barefoot",
+            "icon": "las la-gem",
+            "collection_title": "",
+            "collection_text": "",
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
+          }
+        },
+        "collection_item_eRHHfD": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "damske-komfortni-boty",
+            "icon": "las la-gem",
+            "collection_title": "",
+            "collection_text": "",
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
+          }
+        },
+        "collection_item_RyGhcG": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "panske-barefoot",
+            "icon": "las la-gem",
+            "collection_title": "",
+            "collection_text": "",
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
+          }
+        },
+        "collection_item_qWRwin": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "panska-komfortni-obuv",
+            "icon": "las la-gem",
+            "collection_title": "",
+            "collection_text": "",
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_ETwFeW",
+        "collection_item_eRHHfD",
+        "collection_item_RyGhcG",
+        "collection_item_qWRwin"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "What shoes are you wearing?",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "head_btn_label": "View All",
+        "head_btn_url": "",
+        "head_btn_icon": false,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
+        "collection_des": "1",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "Products",
+        "open_link": "_self",
+        "source": "image",
+        "space_bottom": 20,
+        "space_bottom_tb": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_pd": 0,
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "layout_des": "1",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_zbQrtD": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_8WRFtf": {
+          "type": "bl_text",
+          "settings": {
+            "quote": false,
+            "smaller_text": false,
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "Independent reviews of Ahinsa shoes",
+            "text": "<p>Experts and barefoot enthusiasts on our shoes. Read their honest feedback<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": ["bl_text_8WRFtf"],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "banner_TAqL64": {
+      "type": "banner",
+      "blocks": {
+        "b_item_UA364n": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": true,
+            "height_dk": 600,
+            "custom_tb": true,
+            "height_tb": 400,
+            "custom_mb": true,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/AUM05125.jpg",
+            "b_link": "https:\/\/www.youtube.com\/watch?v=5CK5-UkmaJI&ab_channel=%C5%A0%C5%A5astn%C3%A9N%C3%B4%C5%BEky",
+            "open_link": "_blank",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "4",
+            "col_tb": "4",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 50,
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "custom_text_Pm3YCT": {
+          "type": "custom_text",
+          "settings": {
+            "text": "VIDEO REVIEW: Bindu 2 canvas sneakers",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 24,
+            "text_lh": 24,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_m8TKb4": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Šťastné Nôžky",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 14,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "b_item_QQH3P8": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": true,
+            "height_dk": 600,
+            "custom_tb": true,
+            "height_tb": 400,
+            "custom_mb": true,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/DSC_6592.jpg",
+            "b_link": "https:\/\/www.modio.cz\/i\/udrzitelne-tenisky-v-praxi-slip-on-od-ahinsa-vas-dostanou",
+            "open_link": "_blank",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "4",
+            "col_tb": "4",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 50,
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "custom_text_P8zr9m": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Sustainable sneakers in practice? Ahinsa slip-ons will win you over",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 24,
+            "text_lh": 24,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_RkqfFA": {
+          "type": "custom_text",
+          "settings": {
+            "text": "modio.cz",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 14,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "b_item_jaGakR": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": true,
+            "height_dk": 600,
+            "custom_tb": true,
+            "height_tb": 400,
+            "custom_mb": true,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/DSC02009-min_087b3df7-dab6-404f-ad3f-b8418d74f048.jpg",
+            "b_link": "https:\/\/www.svetoutdooru.cz\/vybaveni\/ahinsa-shoes-hiker-comfort-poctive-barefoot-pohorky\/",
+            "open_link": "_blank",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "4",
+            "col_tb": "4",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 50,
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "custom_text_LmiQhe": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Hiker Comfort – Proper barefoot hiking boots",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 24,
+            "text_lh": 24,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_UR4Qtw": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Martin Slezáček (svetoutdooru.cz)",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 14,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "b_item_UA364n",
+        "custom_text_Pm3YCT",
+        "custom_text_m8TKb4",
+        "b_item_QQH3P8",
+        "custom_text_P8zr9m",
+        "custom_text_RkqfFA",
+        "b_item_jaGakR",
+        "custom_text_LmiQhe",
+        "custom_text_UR4Qtw"
+      ],
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "hidden_content_first": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "hero_image_T8mc3z",
+    "heading",
+    "main",
+    "sidebar-page",
+    "image_text_4f8Yzh",
+    "testimonials_rHgXXG",
+    "collections_list_HDEKYi",
+    "image_text_zbQrtD",
+    "banner_TAqL64"
+  ]
+}
