@@ -21,16 +21,10 @@
         },
         "cat_mdGJQ4": {
           "type": "cat",
-          "settings": {
-            "collection": "",
-            "icon": ""
-          }
+          "settings": { "collection": "", "icon": "" }
         }
       },
-      "block_order": [
-        "cat_pCMxTe",
-        "cat_mdGJQ4"
-      ],
+      "block_order": ["cat_pCMxTe", "cat_mdGJQ4"],
       "settings": {
         "show_top_collections": true,
         "source": "2",
@@ -256,19 +250,15 @@
         "filter_id": {
           "type": "filter",
           "disabled": true,
-          "settings": {
-            "style_filters": "sidebar"
-          }
+          "settings": { "style_filters": "sidebar" }
         },
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
           "type": "layout",
-          "settings": {
-          }
+          "settings": {}
         },
         "30594d23-d644-4653-9545-9ff769d2e6ab": {
           "type": "sortby",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -364,11 +354,7 @@
             "bg_cl": "#000000"
           }
         },
-        "filter_g4CVw6": {
-          "type": "filter",
-          "settings": {
-          }
-        }
+        "filter_g4CVw6": { "type": "filter", "settings": {} }
       },
       "block_order": [
         "c7bdf308-8019-4991-b58c-6d3e205a52eb",

@@ -297,18 +297,12 @@
         "link_t7BFNM": {
           "type": "link",
           "disabled": true,
-          "settings": {
-            "tab_title": "Parameters",
-            "hook": "Parameters"
-          }
+          "settings": { "tab_title": "Parameters", "hook": "Parameters" }
         },
         "link_GTGza9": {
           "type": "link",
           "disabled": true,
-          "settings": {
-            "tab_title": "Reviews",
-            "hook": "Reviews"
-          }
+          "settings": { "tab_title": "Reviews", "hook": "Reviews" }
         },
         "link_arTmBH": {
           "type": "link",
@@ -1239,7 +1233,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "custom_css": [".t4s-product-sizes {color: black;}"],
+      "custom_css": [".t4s-product-sizes { color: black; }"],
       "settings": {
         "show": true,
         "design_heading": "1",

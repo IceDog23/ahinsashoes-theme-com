@@ -588,7 +588,7 @@
     },
     "featured_collection_Eq7CHD": {
       "type": "featured-collection",
-      "custom_css": [".t4s-product-sizes { color: black; }"],
+      "custom_css": [".t4s-product-sizes {  color: black;  }"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -735,7 +735,7 @@
     },
     "featured_collection_RH7CxT": {
       "type": "featured-collection",
-      "custom_css": [".t4s-product-sizes { color: black; }"],
+      "custom_css": [".t4s-product-sizes {  color: black;  }"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -809,7 +809,7 @@
     },
     "featured_collection_PHVjaF": {
       "type": "featured-collection",
-      "custom_css": [".t4s-product-sizes { color: black; }"],
+      "custom_css": [".t4s-product-sizes {  color: black;  }"],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",

@@ -1413,7 +1413,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "custom_css": [".t4s-product-sizes {color: black;}"],
+      "custom_css": [".t4s-product-sizes { color: black; }"],
       "settings": {
         "show": true,
         "design_heading": "1",

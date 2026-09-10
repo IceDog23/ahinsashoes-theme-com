@@ -145,9 +145,11 @@
     {%- endfor -%}
       {%- if shop.url contains ".cz" or shop.url contains ".com" -%}
         {% if max_sale == 0 %}
-          {{- collection_title | append: " od EXPERTŮ - výměna zdarma" | append: collection_title_suffix -}} 
+          {%- assign seo_title_collection_experts = "general.seo_title_collection_experts" | t -%}
+          {{- collection_title | append: seo_title_collection_experts | append: collection_title_suffix -}}
         {% else %}
-          {{- collection_title | append: " - výměna zdarma" | append: collection_title_suffix -}} 
+          {%- assign seo_title_collection_exchange = "general.seo_title_collection_exchange" | t -%}
+          {{- collection_title | append: seo_title_collection_exchange | append: collection_title_suffix -}}
         {% endif %}
       {%- else -%}
         {{- collection_title -}}
@@ -190,7 +192,7 @@
 {%- endcapture -%}
 {% if template == 'blog' %}
   {% if request.path == '/blogs/news' %}
-    <title>Blog o chůzi ve zdravých botách | Ahinsa shoes 👣</title>
+    <title>{{ 'general.seo_title_blog' | t }} | Ahinsa shoes 👣</title>
   {% else %}
     <title>{{ article.title }} | Ahinsa shoes 👣</title>
   {% endif %}

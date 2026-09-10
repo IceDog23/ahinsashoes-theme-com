@@ -12,9 +12,7 @@
     "main": {
       "type": "main-404",
       "disabled": true,
-      "settings": {
-        "link": ""
-      }
+      "settings": { "link": "" }
     },
     "hero_image_HtRBYM": {
       "type": "hero_image",
@@ -68,7 +66,7 @@
         "custom_text_HAdJWf": {
           "type": "custom_text",
           "settings": {
-            "text": "Stránku, kterou hledáte, jsme nenašli. Nemáte botu v zadané adrese?",
+            "text": "We couldn’t find the page you’re looking for. Missing a shoe in that address?",
             "remove_br_tag": false,
             "tag": "h4",
             "fontf": "inherit",
@@ -179,7 +177,7 @@
     "custom_html_kHURap": {
       "type": "custom-html",
       "settings": {
-        "code": "<div class=\"t4s-text-center\">Udělejte krok správným směrem. Vykročte k <a href=\"https:\/\/ahinsashoes.cz\/\">hlavní stránce<\/a> nebo se rovnou obujte do pohodlí od fyzioterapeutů.\n<\/div>",
+        "code": "<div class=\"t4s-text-center\">Take a step in the right direction. Head to the <a href=\"https:\/\/ahinsashoes.cz\/\">homepage<\/a> or slip straight into comfort designed by physiotherapists.\n<\/div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -321,10 +319,10 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Magazín o zdravé chůzi",
+        "top_heading": "Magazine on healthy walking",
         "bt_lb": "Button label",
         "icon_heading": "las la-gem",
-        "top_subheading": "Píšeme ve spolupráci s fyzioterapeuty",
+        "top_subheading": "Written with physiotherapists",
         "tophead_mb": 30,
         "blog": "news",
         "post_des": "1",

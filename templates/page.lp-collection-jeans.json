@@ -936,7 +936,7 @@
         "product_4Vqfjz",
         "product_VwqzYB"
       ],
-      "custom_css": [".t4s-product-sizes { color: black; }"],
+      "custom_css": [".t4s-product-sizes {  color: black;  }"],
       "settings": {
         "heading_align": "t4s-text-center",
         "top_heading": "",

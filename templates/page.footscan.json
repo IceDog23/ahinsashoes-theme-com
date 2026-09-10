@@ -76,7 +76,7 @@
     "custom_liquid_AqL7Hi": {
       "type": "custom-liquid",
       "disabled": true,
-      "custom_css": [".t4s-code__liquid { text-align: center; }"],
+      "custom_css": [".t4s-code__liquid {  text-align: center;  }"],
       "settings": {
         "custom_liquid": "<a class=\"t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-size-extra-medium t4s-btn-color-dark t4s-btn-effect-fade t4s-btn-radius-\" href=\"https:\/\/calendly.com\/prodejna-ahinsa\/analyza-chuze-s-fyzioterapeutkou-lenkou-exnerovou?month=2024-09\" target=\"_self\">BOOK YOUR APPOINTMENT<\/a>",
         "layout": "t4s-container-wrap",

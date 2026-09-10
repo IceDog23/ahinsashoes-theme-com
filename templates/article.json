@@ -34,10 +34,7 @@
         },
         "75a761bc-a254-452a-a9c3-944465384562": {
           "type": "2",
-          "settings": {
-            "fontf": "3",
-            "font_italic": false
-          }
+          "settings": { "fontf": "3", "font_italic": false }
         }
       },
       "block_order": [
@@ -75,10 +72,7 @@
         },
         "33e93b80-0f24-44e5-adfa-9e2b066b1473": {
           "type": "tags",
-          "settings": {
-            "title": "Blog tags",
-            "count": true
-          }
+          "settings": { "title": "Blog tags", "count": true }
         },
         "37d3ea69-b6a8-4406-8abd-ae719de8696b": {
           "type": "collection",
@@ -113,13 +107,11 @@
       "blocks": {
         "5908f252-0a66-4bc2-8069-a8f60d79fb18": {
           "type": "content",
-          "settings": {
-          }
+          "settings": {}
         },
         "e8da95d6-7323-4d99-a68c-16088d24fa34": {
           "type": "tags",
-          "settings": {
-          }
+          "settings": {}
         },
         "d905ad63-1b38-496e-8a7e-38751e0ad0b8": {
           "type": "socials",
@@ -139,8 +131,7 @@
         },
         "dec42554-02e5-40e5-89ff-f922277dcb34": {
           "type": "navigation",
-          "settings": {
-          }
+          "settings": {}
         },
         "beea360a-ccb1-42b7-a996-ac5af0663be3": {
           "type": "comments",
@@ -177,7 +168,7 @@
         "custom_text_aGWYQy": {
           "type": "custom_text",
           "settings": {
-            "text": "Novinky a tipy o zdravé chůzi",
+            "text": "News and tips on healthy walking",
             "remove_br_tag": false,
             "tag": "h2",
             "fontf": "1",
@@ -199,7 +190,7 @@
         "custom_text_7FtdR3": {
           "type": "custom_text",
           "settings": {
-            "text": "Každé dva týdny se těšte na tipy pro zdravou chůzi, soutěže, informace o našich akcích, novinkách a slevách.",
+            "text": "Every two weeks, look forward to healthy-walking tips, contests, and news about our offers, new arrivals, and discounts.",
             "remove_br_tag": false,
             "tag": "h3",
             "fontf": "inherit",
@@ -260,7 +251,7 @@
       "settings": {
         "design_heading": "9",
         "heading_align": "t4s-text-center",
-        "top_heading": "Podobné články",
+        "top_heading": "Related articles",
         "bt_lb": "Button label",
         "icon_heading": "las la-gem",
         "top_subheading": "",
@@ -337,8 +328,8 @@
             "icon_themes": "none",
             "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
-            "title": "NAVRŽENÉ FYZIOTERAPEUTY",
-            "text": "<p>Respektují chodidla, proto jsou tak pohodlné.<\/p>",
+            "title": "DESIGNED BY PHYSIOTHERAPISTS",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
             "html": ""
           }
         },
@@ -348,8 +339,8 @@
             "icon_themes": "none",
             "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
-            "title": "VYDRŽÍ MILIONY KROKŮ",
-            "text": "<p>Protože šijeme ručně z odolných materiálů.<\/p>",
+            "title": "LAST FOR MILLIONS OF STEPS",
+            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
             "html": ""
           }
         },
@@ -359,8 +350,8 @@
             "icon_themes": "none",
             "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "BLESKOVÁ VÝMĚNA ZDARMA",
-            "text": "<p>Poštovné platíme my.<\/p>",
+            "title": "LIGHTNING-FAST FREE EXCHANGE",
+            "text": "<p>We cover postage.<\/p>",
             "html": ""
           }
         },
@@ -370,8 +361,8 @@
             "icon_themes": "none",
             "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
-            "title": "VYRÁBÍME RUČNĚ A ETICKY",
-            "text": "<p>Přátelské k přírodě, zvířatům i lidem.<\/p>",
+            "title": "HANDMADE AND ETHICAL",
+            "text": "<p>Friendly to nature, animals, and people.<\/p>",
             "html": ""
           }
         }

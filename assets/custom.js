@@ -256,11 +256,11 @@ jQuery_T4NT(document).ready(function ($) {
 
 	// Extract category from title, there is not category in the data from Shopify
 	const extractCategory = (title) => {
-		const wordsToExtract = ["dámské", "comfort", "pánské", "barefoot"];
+		const wordsToExtract = ["dámské", "comfort", "pánské", "barefoot", "women's", "women’s", "womens", "men's", "men’s", "mens"];
 		return title.toLowerCase()
 			.split(" ")
 			.filter(word => wordsToExtract.includes(word))
-			.join(" ") + " obuv";
+			.join(" ") + " shoes";
 	}
 
 	const getProductListingData = (item, template) => {

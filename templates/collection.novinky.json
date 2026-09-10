@@ -14,73 +14,43 @@
       "blocks": {
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
-          "settings": {
-            "collection": "default-3",
-            "icon": ""
-          }
+          "settings": { "collection": "default-3", "icon": "" }
         },
         "863873b6-012e-4a34-90e3-eead750fa3ce": {
           "type": "cat",
-          "settings": {
-            "collection": "bag",
-            "icon": ""
-          }
+          "settings": { "collection": "bag", "icon": "" }
         },
         "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
           "type": "cat",
-          "settings": {
-            "collection": "decor",
-            "icon": ""
-          }
+          "settings": { "collection": "decor", "icon": "" }
         },
         "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
           "type": "cat",
-          "settings": {
-            "collection": "default-2",
-            "icon": ""
-          }
+          "settings": { "collection": "default-2", "icon": "" }
         },
         "23c84729-8fcb-488c-9541-00e283af6afe": {
           "type": "cat",
-          "settings": {
-            "collection": "dress",
-            "icon": ""
-          }
+          "settings": { "collection": "dress", "icon": "" }
         },
         "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
           "type": "cat",
-          "settings": {
-            "collection": "hats",
-            "icon": ""
-          }
+          "settings": { "collection": "hats", "icon": "" }
         },
         "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
           "type": "cat",
-          "settings": {
-            "collection": "frontpage",
-            "icon": ""
-          }
+          "settings": { "collection": "frontpage", "icon": "" }
         },
         "70189b51-5562-4924-b642-a1deba7741ee": {
           "type": "cat",
-          "settings": {
-            "collection": "sale",
-            "icon": ""
-          }
+          "settings": { "collection": "sale", "icon": "" }
         },
         "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
           "type": "cat",
-          "settings": {
-            "collection": "shoes",
-            "icon": ""
-          }
+          "settings": { "collection": "shoes", "icon": "" }
         },
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
           "type": "cat",
-          "settings": {
-            "collection": "women",
-            "icon": ""
-          }
+          "settings": { "collection": "women", "icon": "" }
         }
       },
       "block_order": [
@@ -130,10 +100,7 @@
       "blocks": {
         "3_qwAU3V": {
           "type": "3",
-          "settings": {
-            "breadcrumb_color": "#f2f2f2",
-            "brc_mgb": 30
-          }
+          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 30 }
         },
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
           "type": "1",
@@ -188,7 +155,7 @@
       ],
       "settings": {
         "heading_fullwidth": false,
-        "image": "shopify://shop_images/IMG_6497.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_6497.jpg",
         "use_specify_image": false,
         "parallax": true,
         "color": "#000000",
@@ -221,14 +188,14 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "20px",
             "padding_inner_mb": "10px,20px,10px,20px",
-            "bg_image": "shopify://shop_images/street_black.jpg",
+            "bg_image": "shopify:\/\/shop_images\/street_black.jpg",
             "bg_cl": "#d2a2a2"
           }
         },
         "custom_text_t7BcDF": {
           "type": "custom_text",
           "settings": {
-            "text": "Extra sleva 10 % na všechny tenisky",
+            "text": "Extra 10% off all sneakers",
             "remove_br_tag": false,
             "tag": "h3",
             "fontf": "inherit",
@@ -250,7 +217,7 @@
         "custom_text_zrQFhK": {
           "type": "custom_text",
           "settings": {
-            "text": "Prožijte léto v pohodlí na každém kroku. S kódem <b>NOSIMTENISKY</b> získáte 10% slevu na všechny tenisky (i ty už zlevněné).",
+            "text": "Spend summer in comfort with every step. With the code <b>NOSIMTENISKY<\/b> you get 10% off all sneakers (even those already on sale).",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -343,7 +310,7 @@
             "collection": "panove",
             "icon": "las la-gem",
             "collection_title": "Collection",
-            "collection_text": "<p>Collection description</p>",
+            "collection_text": "<p>Collection description<\/p>",
             "collection_link": "",
             "promotion_id": "",
             "promotion_name": "",
@@ -358,7 +325,7 @@
             "collection": "damske-barefoot",
             "icon": "las la-gem",
             "collection_title": "Collection",
-            "collection_text": "<p>Collection description</p>",
+            "collection_text": "<p>Collection description<\/p>",
             "collection_link": "",
             "promotion_id": "",
             "promotion_name": "",
@@ -368,10 +335,7 @@
           }
         }
       },
-      "block_order": [
-        "collection_item_jMNafN",
-        "collection_item_QcTMcE"
-      ],
+      "block_order": ["collection_item_jMNafN", "collection_item_QcTMcE"],
       "disabled": true,
       "settings": {
         "design_heading": "12",
@@ -480,7 +444,7 @@
             "b_link": "",
             "open_link": "_self",
             "content_align": "center",
-            "date": "2023/12/26",
+            "date": "2023\/12\/26",
             "cdt_des": "1",
             "countdown_pos": "2",
             "cdt_size": "small",
@@ -531,7 +495,7 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "20px",
             "padding_inner_mb": "10px,20px,10px,20px",
-            "bg_image": "shopify://shop_images/dsc_2472_black.jpg",
+            "bg_image": "shopify:\/\/shop_images\/dsc_2472_black.jpg",
             "bg_cl": "#d2a2a2"
           }
         },
@@ -539,7 +503,7 @@
           "type": "custom_text",
           "disabled": true,
           "settings": {
-            "text": "Jen do vyprodání zásob: 2+1 pár zdarma",
+            "text": "While stocks last: 2+1 pair free",
             "remove_br_tag": false,
             "tag": "h3",
             "fontf": "inherit",
@@ -562,7 +526,7 @@
           "type": "custom_text",
           "disabled": true,
           "settings": {
-            "text": "Vyberte si troje Ahinsa shoes a nejlevnější máte zdarma. Stačí v košíku vložit kód RADOST.",
+            "text": "Add three pairs of Ahinsa shoes and the cheapest is free. Just enter the code RADOST in the cart.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -612,9 +576,7 @@
         "filter_id": {
           "type": "filter",
           "disabled": true,
-          "settings": {
-            "style_filters": "sidebar"
-          }
+          "settings": { "style_filters": "sidebar" }
         },
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
           "type": "layout",
@@ -631,9 +593,7 @@
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
-      "custom_css": [
-        ".t4s-product-sizes {color: black;}"
-      ],
+      "custom_css": [".t4s-product-sizes {  color: black;  }"],
       "settings": {
         "show_desc": false,
         "position_desc": "1",
@@ -688,7 +648,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Výchozí text pro kolekce</p>",
+            "text": "<p>Default collection text<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -704,9 +664,7 @@
           }
         }
       },
-      "block_order": [
-        "bl_text_Cn4y4q"
-      ],
+      "block_order": ["bl_text_Cn4y4q"],
       "disabled": true,
       "settings": {
         "section_key": "",
@@ -739,7 +697,7 @@
       "type": "navigation-list",
       "settings": {
         "enable_border": false,
-        "header": "V nabídce máme také",
+        "header": "You might also like",
         "col_nav": "3",
         "padding_inner": "1px,30px,10px,30px",
         "padding_inner_mb": "10px,30px,10px,30px",
@@ -760,33 +718,23 @@
       "blocks": {
         "article_gFCrfE": {
           "type": "article",
-          "settings": {
-            "article": "news/letni-vyprodej-2024"
-          }
+          "settings": { "article": "news\/letni-vyprodej-2024" }
         },
         "article_tbkcGL": {
           "type": "article",
-          "settings": {
-            "article": "news/rozhovor-jak-spravne-sedet"
-          }
+          "settings": { "article": "news\/rozhovor-jak-spravne-sedet" }
         },
         "article_CfqVP4": {
           "type": "article",
-          "settings": {
-            "article": "news/jak-vazat-tkanicky"
-          }
+          "settings": { "article": "news\/jak-vazat-tkanicky" }
         }
       },
-      "block_order": [
-        "article_gFCrfE",
-        "article_tbkcGL",
-        "article_CfqVP4"
-      ],
+      "block_order": ["article_gFCrfE", "article_tbkcGL", "article_CfqVP4"],
       "disabled": true,
       "settings": {
         "design_heading": "9",
         "heading_align": "t4s-text-center",
-        "top_heading": "Magazín o zdravé chůzi",
+        "top_heading": "Magazine on healthy walking",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -848,7 +796,7 @@
       "settings": {
         "design_heading": "9",
         "heading_align": "t4s-text-center",
-        "top_heading": "Magazín o zdravé chůzi",
+        "top_heading": "Magazine on healthy walking",
         "bt_lb": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",

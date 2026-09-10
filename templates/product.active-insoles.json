@@ -35,7 +35,7 @@
           }
         },
         "judge_me_reviews_preview_badge_gmc93H": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {}
         },
@@ -51,7 +51,7 @@
           }
         },
         "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4": {
-          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
           "settings": {
             "fallbackToBlockPosition": false,
             "waitForElementSelector": "",
@@ -100,50 +100,50 @@
         "text_w_icon_DiPBgn": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Free shipping within the Czech Republic to <strong>Zásilkovna</strong>.</p>",
+            "text": "<p>Free shipping within the Czech Republic to <strong>Zásilkovna<\/strong>.<\/p>",
             "m_bot": 10
           }
         },
         "text_w_icon_XrVMdF": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Free</strong> size exchange.</p>",
+            "text": "<p><strong>Free<\/strong> size exchange.<\/p>",
             "m_bot": 10
           }
         },
         "text_w_icon_xF33Pm": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Designed <strong>by physiotherapists</strong>.</p>",
+            "text": "<p>Designed <strong>by physiotherapists<\/strong>.<\/p>",
             "m_bot": 10
           }
         },
         "text_w_icon_KtJaD8": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>100% vegan.</p>",
+            "text": "<p>100% vegan.<\/p>",
             "m_bot": 10
           }
         },
         "text_w_icon_GitFde": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Ethically</strong> made in the Czech Republic and Croatia.</p>",
+            "text": "<p><strong>Ethically<\/strong> made in the Czech Republic and Croatia.<\/p>",
             "m_bot": 10
           }
         }
@@ -213,9 +213,9 @@
         "fw_price_pr": 400,
         "price_color": "#923a3a",
         "price_sale_color": "#afafaf",
-        "logo": "shopify://shop_images/Twisto-logo.png",
+        "logo": "shopify:\/\/shop_images\/Twisto-logo.png",
         "popup_header": "Good shoes have to fit.",
-        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.</h2><p>Defer payment by up to <strong>30 days</strong>. Or split it into thirds.</p><h3>How it works?</h3><ol><li>Pick your pair of Ahinsa shoes.</li><li>Choose card payment in the cart.</li><li>Click <strong>Deferred payment</strong> or <strong>Pay in thirds</strong>.</li><li>Try the shoes on at home.</li></ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.</strong></p><p>Don't fit? <a href=\"https://ahinsashoes.cz/pages/refund-portal\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days</a> — we'll exchange the size at our cost.</p>",
+        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.<\/h2><p>Defer payment by up to <strong>30 days<\/strong>. Or split it into thirds.<\/p><h3>How it works?<\/h3><ol><li>Pick your pair of Ahinsa shoes.<\/li><li>Choose card payment in the cart.<\/li><li>Click <strong>Deferred payment<\/strong> or <strong>Pay in thirds<\/strong>.<\/li><li>Try the shoes on at home.<\/li><\/ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.<\/strong><\/p><p>Don't fit? <a href=\"https:\/\/ahinsashoes.cz\/pages\/refund-portal\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days<\/a> — we'll exchange the size at our cost.<\/p>",
         "popup_button": "Got it, thanks!",
         "enable_code_discount": true,
         "code_discount": "JARNIPOHODLI",
@@ -297,17 +297,11 @@
       "blocks": {
         "link_bWGtDd": {
           "type": "link",
-          "settings": {
-            "tab_title": "Description",
-            "hook": "popis"
-          }
+          "settings": { "tab_title": "Description", "hook": "popis" }
         },
         "link_t7BFNM": {
           "type": "link",
-          "settings": {
-            "tab_title": "FAQ",
-            "hook": "aktivni-stelky"
-          }
+          "settings": { "tab_title": "FAQ", "hook": "aktivni-stelky" }
         },
         "link_GTGza9": {
           "type": "link",
@@ -351,9 +345,9 @@
     "custom_liquid_8CpkHf": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "001 - A/B product description",
+      "name": "001 - A\/B product description",
       "settings": {
-        "custom_liquid": "{% if product.metafields.global.description_intro.value != blank %}\n    {%- assign pr_des = product.metafields.global.description_intro.value -%}\n  {% else %}\n    {%- assign pr_des = product.description -%}\n  {% endif %}\n\n<div class='ab-product-desciption'>\n    {{pr_des}}\n</div>\n\n<style>\n.ab-product-desciption {\n    display: none;\n}\n@media (max-width: 767px) {\n.ab-product-desciption {\n    display: block;\n    text-align: left;\n    padding: 16px 0;\n    }\n}\n</style>",
+        "custom_liquid": "{% if product.metafields.global.description_intro.value != blank %}\n    {%- assign pr_des = product.metafields.global.description_intro.value -%}\n  {% else %}\n    {%- assign pr_des = product.description -%}\n  {% endif %}\n\n<div class='ab-product-desciption'>\n    {{pr_des}}\n<\/div>\n\n<style>\n.ab-product-desciption {\n    display: none;\n}\n@media (max-width: 767px) {\n.ab-product-desciption {\n    display: block;\n    text-align: left;\n    padding: 16px 0;\n    }\n}\n<\/style>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f1f1f1",
         "cl_bg_gradient": "",
@@ -376,7 +370,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
+            "image_icon": "shopify:\/\/shop_images\/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -393,7 +387,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify://shop_images/2.png",
+            "image_icon": "shopify:\/\/shop_images\/2.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -410,7 +404,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify://shop_images/Sport.png",
+            "image_icon": "shopify:\/\/shop_images\/Sport.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -427,7 +421,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify://shop_images/ico-barefoot.png",
+            "image_icon": "shopify:\/\/shop_images\/ico-barefoot.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -506,7 +500,7 @@
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
-        "custom_liquid": "<div id=\"popis\" style=\"scroll-margin-top: 100px;\"></div>",
+        "custom_liquid": "<div id=\"popis\" style=\"scroll-margin-top: 100px;\"><\/div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -524,7 +518,7 @@
         "bl_image_eHDK7i": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/DSC02662.jpg",
+            "image1": "shopify:\/\/shop_images\/DSC02662.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -559,7 +553,7 @@
             "txt_align": "start",
             "sub_heading": "Wake up your feet",
             "heading": "Active insoles",
-            "text": "<p>Our feet send a lot of information to the brain — they constantly sense contact with the ground and help the body respond to support, balance, and movement.</p><ul><li>Gently stimulate receptors on the sole</li><li>Support active engagement of the foot</li><li>Allow better awareness when walking, standing, and sitting</li><li>Without hard correction or passive fixing</li></ul>",
+            "text": "<p>Our feet send a lot of information to the brain — they constantly sense contact with the ground and help the body respond to support, balance, and movement.<\/p><ul><li>Gently stimulate receptors on the sole<\/li><li>Support active engagement of the foot<\/li><li>Allow better awareness when walking, standing, and sitting<\/li><li>Without hard correction or passive fixing<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -615,7 +609,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "Who are active insoles for?",
-            "text": "<p>Whether you’re on your feet all day, or you simply want to give your feet something extra, active insoles help you feel every step a little better.</p><ul><li>You’re interested in healthy walking and natural movement</li><li>You want to sense your feet more clearly</li><li>You spend a lot of time walking or standing</li><li>You wear barefoot or anatomical shoes</li></ul>",
+            "text": "<p>Whether you’re on your feet all day, or you simply want to give your feet something extra, active insoles help you feel every step a little better.<\/p><ul><li>You’re interested in healthy walking and natural movement<\/li><li>You want to sense your feet more clearly<\/li><li>You spend a lot of time walking or standing<\/li><li>You wear barefoot or anatomical shoes<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -633,7 +627,7 @@
         "bl_image_gMY3G6": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/as_06_202620260629_3260_47ef55f1-92c5-4a8d-8e3a-b5a63b1375ff.jpg",
+            "image1": "shopify:\/\/shop_images\/as_06_202620260629_3260_47ef55f1-92c5-4a8d-8e3a-b5a63b1375ff.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -694,7 +688,7 @@
         "bl_image_ppQdWQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/DSC02688.jpg",
+            "image1": "shopify:\/\/shop_images\/DSC02688.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -729,7 +723,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "How to use active insoles?",
-            "text": "<p>Give your feet time to get used to the new feeling. With a gradual start, you’ll enjoy using active insoles fully.</p><ul><li>Start slowly — try a short walk first</li><li>Gradually extend wearing time based on how you feel</li><li>If it feels comfortable, you can use them every day</li><li>If needed, trim the insoles to the shape of your shoes</li></ul><p>The insoles are designed to be worn on a bare foot. You can easily adjust the intensity with a sock — a thin sock softens it slightly, a thicker sock softens it more.</p>",
+            "text": "<p>Give your feet time to get used to the new feeling. With a gradual start, you’ll enjoy using active insoles fully.<\/p><ul><li>Start slowly — try a short walk first<\/li><li>Gradually extend wearing time based on how you feel<\/li><li>If it feels comfortable, you can use them every day<\/li><li>If needed, trim the insoles to the shape of your shoes<\/li><\/ul><p>The insoles are designed to be worn on a bare foot. You can easily adjust the intensity with a sock — a thin sock softens it slightly, a thicker sock softens it more.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -777,7 +771,7 @@
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
-        "custom_liquid": "<div id=\"aktivni-stelky\" style=\"scroll-margin-top: 100px;\"></div>",
+        "custom_liquid": "<div id=\"aktivni-stelky\" style=\"scroll-margin-top: 100px;\"><\/div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -797,7 +791,7 @@
           "settings": {
             "icon": "none",
             "title": "Can I wear the insoles with socks?",
-            "content": "<p>The insoles are primarily designed to be worn on a bare foot. <strong>You can easily adjust the intensity with a sock </strong>— a thin sock softens the stimulation slightly, a thicker sock softens it more.</p><p>The sensation should be clear, but pleasant. Not painful.</p>"
+            "content": "<p>The insoles are primarily designed to be worn on a bare foot. <strong>You can easily adjust the intensity with a sock <\/strong>— a thin sock softens the stimulation slightly, a thicker sock softens it more.<\/p><p>The sensation should be clear, but pleasant. Not painful.<\/p>"
           }
         },
         "accor_item_pNtHeV": {
@@ -805,7 +799,7 @@
           "settings": {
             "icon": "none",
             "title": "Who should not use active insoles? When to be careful?",
-            "content": "<p>In most cases you can use active insoles without worry. If you have health issues, <strong>we recommend talking to a physiotherapist or doctor before using them</strong>. Especially if:</p><ul><li>you have significant or long-term foot pain</li><li>you’re recovering from an injury or surgery</li><li>you have neurological issues or loss of feeling in the feet</li><li>other more serious health conditions</li></ul>"
+            "content": "<p>In most cases you can use active insoles without worry. If you have health issues, <strong>we recommend talking to a physiotherapist or doctor before using them<\/strong>. Especially if:<\/p><ul><li>you have significant or long-term foot pain<\/li><li>you’re recovering from an injury or surgery<\/li><li>you have neurological issues or loss of feeling in the feet<\/li><li>other more serious health conditions<\/li><\/ul>"
           }
         },
         "accor_item_4FWKn3": {
@@ -813,7 +807,7 @@
           "settings": {
             "icon": "none",
             "title": "Are active insoles a medical device?",
-            "content": "<p>No. Active insoles are not a medical device and are not a substitute for professional diagnosis, physiotherapy, or medical care. They are designed to support awareness of the feet and more active engagement when walking and standing.</p><p><strong>Before use, we recommend consulting a doctor or physiotherapist especially if you have:</strong></p><ul><li>diabetes, especially reduced feeling in the feet or neuropathy,</li><li>sensory disorders,</li><li>open wounds, sores, or skin problems,</li><li>an acute injury or pain,</li><li>significant neurological issues,</li><li>serious balance or coordination disorders,</li><li>uncertainty about whether the insoles are right for you.</li></ul><p>If you feel pain, worsening symptoms, or an unpleasant reaction, stop using them and talk to a specialist.</p>"
+            "content": "<p>No. Active insoles are not a medical device and are not a substitute for professional diagnosis, physiotherapy, or medical care. They are designed to support awareness of the feet and more active engagement when walking and standing.<\/p><p><strong>Before use, we recommend consulting a doctor or physiotherapist especially if you have:<\/strong><\/p><ul><li>diabetes, especially reduced feeling in the feet or neuropathy,<\/li><li>sensory disorders,<\/li><li>open wounds, sores, or skin problems,<\/li><li>an acute injury or pain,<\/li><li>significant neurological issues,<\/li><li>serious balance or coordination disorders,<\/li><li>uncertainty about whether the insoles are right for you.<\/li><\/ul><p>If you feel pain, worsening symptoms, or an unpleasant reaction, stop using them and talk to a specialist.<\/p>"
           }
         },
         "accor_item_UWBXGQ": {
@@ -821,7 +815,7 @@
           "settings": {
             "icon": "none",
             "title": "Which shoes are active insoles suitable for?",
-            "content": "<p>They work best in barefoot and anatomically shaped shoes, where the feet have enough space for natural movement. You can also use them in ordinary shoes, as long as they are not too narrow or tight.</p>"
+            "content": "<p>They work best in barefoot and anatomically shaped shoes, where the feet have enough space for natural movement. You can also use them in ordinary shoes, as long as they are not too narrow or tight.<\/p>"
           }
         },
         "accor_item_ACkHqK": {
@@ -829,7 +823,7 @@
           "settings": {
             "icon": "none",
             "title": "Can I trim the insoles to the shape of my shoe?",
-            "content": "<p>Yes. You can easily adjust the insoles to the shape of your shoes. We recommend trimming them gradually, a little at a time. After trimming they can no longer be returned as unused goods, but the warranty still applies.</p>"
+            "content": "<p>Yes. You can easily adjust the insoles to the shape of your shoes. We recommend trimming them gradually, a little at a time. After trimming they can no longer be returned as unused goods, but the warranty still applies.<\/p>"
           }
         },
         "accor_item_REYhiD": {
@@ -837,7 +831,7 @@
           "settings": {
             "icon": "none",
             "title": "When will I notice the first difference?",
-            "content": "<p>Everyone is a little different. Some people notice a change the first time they put them on; for others it takes a while for the feet to get used to the new stimulus. That’s why we recommend starting slowly and gradually extending wearing time.</p>"
+            "content": "<p>Everyone is a little different. Some people notice a change the first time they put them on; for others it takes a while for the feet to get used to the new stimulus. That’s why we recommend starting slowly and gradually extending wearing time.<\/p>"
           }
         },
         "accor_item_ewTAwy": {
@@ -845,7 +839,7 @@
           "settings": {
             "icon": "none",
             "title": "Pomohou mi od bolesti nohou, kolen nebo zad?",
-            "content": "<p>We unfortunately can’t promise that. But the feet affect movement of the whole body, so better engagement can contribute to more comfortable movement. If you have pain or other health issues, we recommend talking to a physiotherapist or doctor.</p>"
+            "content": "<p>We unfortunately can’t promise that. But the feet affect movement of the whole body, so better engagement can contribute to more comfortable movement. If you have pain or other health issues, we recommend talking to a physiotherapist or doctor.<\/p>"
           }
         },
         "accor_item_DUwxtx": {
@@ -853,7 +847,7 @@
           "settings": {
             "icon": "none",
             "title": "Can children use active insoles?",
-            "content": "<p>Active insoles are currently designed for adults in sizes 37–46. We are not preparing a kids’ version at this time.</p>"
+            "content": "<p>Active insoles are currently designed for adults in sizes 37–46. We are not preparing a kids’ version at this time.<\/p>"
           }
         },
         "accor_item_WKKT47": {
@@ -861,7 +855,7 @@
           "settings": {
             "icon": "none",
             "title": "How should I care for shoe insoles?",
-            "content": "<p>Air them out regularly and wipe with a damp cloth as needed. We don’t recommend machine washing or drying them on a direct heat source.</p>"
+            "content": "<p>Air them out regularly and wipe with a damp cloth as needed. We don’t recommend machine washing or drying them on a direct heat source.<\/p>"
           }
         },
         "accor_item_8x8X6F": {
@@ -869,7 +863,7 @@
           "settings": {
             "icon": "none",
             "title": "What about returns and warranty claims?",
-            "content": "<p>Active insoles are covered by the standard statutory warranty. Unused and undamaged insoles can be returned within 14 days. Note: if you trim them or otherwise modify them, they can no longer be returned as unused goods.</p>"
+            "content": "<p>Active insoles are covered by the standard statutory warranty. Unused and undamaged insoles can be returned within 14 days. Note: if you trim them or otherwise modify them, they can no longer be returned as unused goods.<\/p>"
           }
         },
         "accor_item_eejHJ7": {
@@ -877,7 +871,7 @@
           "settings": {
             "icon": "none",
             "title": "Can I use acupressure shoe insoles for exercise and running?",
-            "content": "<p>Yes. You can use active insoles for strength training, running, and other movement. Gentle stimulation of the feet helps you better sense support and engage the whole body during exercise. When running, it can support a more active push-off and better ground feel. We recommend starting gradually and giving the feet time to adapt.</p>"
+            "content": "<p>Yes. You can use active insoles for strength training, running, and other movement. Gentle stimulation of the feet helps you better sense support and engage the whole body during exercise. When running, it can support a more active push-off and better ground feel. We recommend starting gradually and giving the feet time to adapt.<\/p>"
           }
         },
         "accor_item_ceYh8H": {
@@ -885,7 +879,7 @@
           "settings": {
             "icon": "none",
             "title": "Looking for a custom solution and made-to-measure insoles?",
-            "content": "<p><strong>Every foot is unique</strong>. We designed active insoles to be as universal as possible. Still, they may not fit everyone perfectly. Some people may feel the stimulation more intensely, others more gently. For some, the arch support may be ideal; others will need a tailored solution.</p><p>If you want insoles adapted exactly to your feet, we also offer<a href=\"http://www.lukasklimpera.cz/\" target=\"_blank\" title=\"http://www.lukasklimpera.cz/\"> a custom solution in cooperation with a physiotherapist</a>.</p>"
+            "content": "<p><strong>Every foot is unique<\/strong>. We designed active insoles to be as universal as possible. Still, they may not fit everyone perfectly. Some people may feel the stimulation more intensely, others more gently. For some, the arch support may be ideal; others will need a tailored solution.<\/p><p>If you want insoles adapted exactly to your feet, we also offer<a href=\"http:\/\/www.lukasklimpera.cz\/\" target=\"_blank\" title=\"http:\/\/www.lukasklimpera.cz\/\"> a custom solution in cooperation with a physiotherapist<\/a>.<\/p>"
           }
         }
       },
@@ -958,7 +952,7 @@
           "type": "bl_image",
           "disabled": true,
           "settings": {
-            "image1": "shopify://shop_images/Ahinsazima_web_9KC8234.jpg",
+            "image1": "shopify:\/\/shop_images\/Ahinsazima_web_9KC8234.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -994,7 +988,7 @@
             "txt_align": "start",
             "sub_heading": "Dry feet, all day",
             "heading": "UltraDry lining",
-            "text": "<ul><li><strong>Wicks away sweat.</strong> Absorbs up to 8 times its weight.</li><li><strong>Breathes.</strong> Brings fresh air to your feet.</li><li><strong>Kinder to nature.</strong> 60% corn.</li></ul>",
+            "text": "<ul><li><strong>Wicks away sweat.<\/strong> Absorbs up to 8 times its weight.<\/li><li><strong>Breathes.<\/strong> Brings fresh air to your feet.<\/li><li><strong>Kinder to nature.<\/strong> 60% corn.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1046,7 +1040,7 @@
           "type": "bl_image",
           "disabled": true,
           "settings": {
-            "image1": "shopify://shop_images/DSC_0003.jpg",
+            "image1": "shopify:\/\/shop_images\/DSC_0003.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1082,7 +1076,7 @@
             "txt_align": "start",
             "sub_heading": "One wipe with a cloth, that’s it",
             "heading": "Easy care",
-            "text": "<p>No creams. No waterproofing. No brushing.</p><p>Every now and then <strong>wipe with a damp cloth</strong>. And they’re as good as new.</p>",
+            "text": "<p>No creams. No waterproofing. No brushing.<\/p><p>Every now and then <strong>wipe with a damp cloth<\/strong>. And they’re as good as new.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1141,7 +1135,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Awareness is the key.</p><p>The body changes best when it starts to better sense what it is doing. Active insoles give the feet clearer stimuli, so they can pass more information to the body and engage more naturally in movement.</p><p><br/>physiotherapist</p><p><strong>Clara Lewitová</strong></p>",
+            "text": "<p>Awareness is the key.<\/p><p>The body changes best when it starts to better sense what it is doing. Active insoles give the feet clearer stimuli, so they can pass more information to the body and engage more naturally in movement.<\/p><p><br\/>physiotherapist<\/p><p><strong>Clara Lewitová<\/strong><\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1159,7 +1153,7 @@
         "bl_image_E8LaHR": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/AUM06224_Edit.jpg",
+            "image1": "shopify:\/\/shop_images\/AUM06224_Edit.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1221,7 +1215,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.</p><p><br/>physiotherapist and founder of Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p><p></p><p></p>",
+        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.<\/p><p><br\/>physiotherapist and founder of Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p><p><\/p><p><\/p>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f1f1f1",
         "cl_bg_gradient": "",
@@ -1246,7 +1240,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify://shop_images/d5ee1c32445719fc1c2741bf56a5fe46.png",
+        "image": "shopify:\/\/shop_images\/d5ee1c32445719fc1c2741bf56a5fe46.png",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -1300,7 +1294,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "As healthy as walking barefoot",
-            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.</p>",
+            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.<\/p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -1324,13 +1318,13 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Do something for your health, today.</p>",
+            "text": "<p>Do something for your health, today.<\/p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
             "use_shadow": false,
             "button_label": "",
-            "button_link": "https://ahinsashoes.cz/pages/nas-pribeh",
+            "button_link": "https:\/\/ahinsashoes.cz\/pages\/nas-pribeh",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",
@@ -1436,7 +1430,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
             "max_width": 1200,
@@ -1455,9 +1449,9 @@
         "quote_dDR7mf": {
           "type": "quote",
           "settings": {
-            "image_avata": "shopify://shop_images/ludmila-ditetova2.jpg",
+            "image_avata": "shopify:\/\/shop_images\/ludmila-ditetova2.jpg",
             "heading": "",
-            "content": "<p>Ahinsa shoes allow the foot natural movement because they provide plenty of space for the toes. The thin and flexible outsole lets the foot perceive the ground. We must mention the ethical and ecological production in the Czech Republic. An ideal choice for anyone who wants more from their shoes and wants to enjoy a real walk.<br/></p>",
+            "content": "<p>Ahinsa shoes allow the foot natural movement because they provide plenty of space for the toes. The thin and flexible outsole lets the foot perceive the ground. We must mention the ethical and ecological production in the Czech Republic. An ideal choice for anyone who wants more from their shoes and wants to enjoy a real walk.<br\/><\/p>",
             "title": "Mgr. Ludmila Dítětová",
             "pos": "physiotherapist",
             "rating": 5
@@ -1466,9 +1460,9 @@
         "quote_QQex6D": {
           "type": "quote",
           "settings": {
-            "image_avata": "shopify://shop_images/hana-borecka.jpg",
+            "image_avata": "shopify:\/\/shop_images\/hana-borecka.jpg",
             "heading": "",
-            "content": "<p>Ahinsa shoes are beautiful, original Czech barefoot shoes, with careful craftsmanship and high-quality materials — natural or recycled. They provide generous space in the front of the foot, which is necessary for correct toe posture and influences the posture of the whole body.<br/></p>",
+            "content": "<p>Ahinsa shoes are beautiful, original Czech barefoot shoes, with careful craftsmanship and high-quality materials — natural or recycled. They provide generous space in the front of the foot, which is necessary for correct toe posture and influences the posture of the whole body.<br\/><\/p>",
             "title": "MUDr. Hana Bořecká",
             "pos": "doctor",
             "rating": 5
@@ -1529,7 +1523,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "custom_css": [".t4s-product-sizes {color: black;}"],
+      "custom_css": [".t4s-product-sizes { color: black; }"],
       "settings": {
         "show": true,
         "design_heading": "1",

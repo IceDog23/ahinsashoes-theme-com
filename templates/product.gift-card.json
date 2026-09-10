@@ -52,9 +52,7 @@
         },
         "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4": {
           "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": {
-            "product": "{{product}}"
-          }
+          "settings": { "product": "{ { product } }" }
         },
         "form": {
           "type": "form",
@@ -331,18 +329,12 @@
         "link_t7BFNM": {
           "type": "link",
           "disabled": true,
-          "settings": {
-            "tab_title": "Parameters",
-            "hook": ""
-          }
+          "settings": { "tab_title": "Parameters", "hook": "" }
         },
         "link_GTGza9": {
           "type": "link",
           "disabled": true,
-          "settings": {
-            "tab_title": "Reviews",
-            "hook": ""
-          }
+          "settings": { "tab_title": "Reviews", "hook": "" }
         },
         "link_arTmBH": {
           "type": "link",
@@ -1117,7 +1109,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "As healthy as walking barefoot",
-            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.</p>",
+            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.<\/p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -1141,13 +1133,13 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Do something for your health, today.</p>",
+            "text": "<p>Do something for your health, today.<\/p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
             "use_shadow": false,
             "button_label": "",
-            "button_link": "https://ahinsashoes.cz/pages/nas-pribeh",
+            "button_link": "https:\/\/ahinsashoes.cz\/pages\/nas-pribeh",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",
@@ -1464,7 +1456,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "custom_css": [".t4s-product-sizes {color: black;}"],
+      "custom_css": [".t4s-product-sizes { color: black; }"],
       "settings": {
         "show": true,
         "design_heading": "1",

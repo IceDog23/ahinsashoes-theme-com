@@ -1,1 +1,872 @@
-{"sections":{"top":{"type":"top-collections","blocks":{"69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67":{"type":"cat","settings":{"collection":"default-3","icon":""}},"863873b6-012e-4a34-90e3-eead750fa3ce":{"type":"cat","settings":{"collection":"bag","icon":""}},"fc07bff9-6d08-423c-8802-9a03c34f3a31":{"type":"cat","settings":{"collection":"decor","icon":""}},"a286cc0b-0c90-4b1a-862c-a1136f283aac":{"type":"cat","settings":{"collection":"default-2","icon":""}},"23c84729-8fcb-488c-9541-00e283af6afe":{"type":"cat","settings":{"collection":"dress","icon":""}},"5f1d751a-fdac-43d4-ad9d-55da0c297244":{"type":"cat","settings":{"collection":"hats","icon":""}},"0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01":{"type":"cat","settings":{"collection":"frontpage","icon":""}},"70189b51-5562-4924-b642-a1deba7741ee":{"type":"cat","settings":{"collection":"sale","icon":""}},"560f5822-3eeb-4070-a2cd-b5738881a4c1":{"type":"cat","settings":{"collection":"shoes","icon":""}},"be9b8b8f-6cac-47ab-b809-a2fe640a75a7":{"type":"cat","settings":{"collection":"women","icon":""}}},"block_order":["69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67","863873b6-012e-4a34-90e3-eead750fa3ce","fc07bff9-6d08-423c-8802-9a03c34f3a31","a286cc0b-0c90-4b1a-862c-a1136f283aac","23c84729-8fcb-488c-9541-00e283af6afe","5f1d751a-fdac-43d4-ad9d-55da0c297244","0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01","70189b51-5562-4924-b642-a1deba7741ee","560f5822-3eeb-4070-a2cd-b5738881a4c1","be9b8b8f-6cac-47ab-b809-a2fe640a75a7"],"disabled":true,"settings":{"show_top_collections":false,"source":"1","menu":"main-menu","sort_collections":"alphabetical_reversed","box_border":"top","content_align":"center","hidden_mobile":false,"space_item":30,"fontf":"inherit","text_cl":"#222222","text_cl_hover":"#56cfe1","text_fs":14,"text_lh":45,"text_fw":400,"text_ls":0,"font_italic":false,"nav_btn":true,"layout":"t4s-container-fluid","cl_bg":"","cl_bg_gradient":"","mg":"","pd":"","mg_tb":"","pd_tb":"","mg_mb":"","pd_mb":""}},"heading_template":{"type":"heading-template","blocks":{"3_qwAU3V":{"type":"3","settings":{"breadcrumb_color":"#f2f2f2","brc_mgb":30}},"a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9":{"type":"1","settings":{"heading":"Page Heading","fontf":"1","text_cl":"#ffffff","text_fs":48,"text_lh":0,"text_fw":600,"text_ls":0,"font_italic":false,"font_uppercase":false,"text_shadow":false,"text_mgb":20,"hidden_mobile":false,"text_fs_mb":20,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":20}},"e9f249a0-0a0f-4baf-9664-73babbd7bbe7":{"type":"4","settings":{"design_des":"show_all","length":60,"view_more":true,"viewm_txt":"View more","fontf":"2","text_cl":"#ffffff","text_fs":16,"text_lh":24,"text_fw":400,"text_ls":0,"font_italic":false,"font_uppercase":false,"text_shadow":false,"text_mgb":20,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10}}},"block_order":["3_qwAU3V","a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9","e9f249a0-0a0f-4baf-9664-73babbd7bbe7"],"settings":{"heading_fullwidth":false,"image":"shopify:\/\/shop_images\/DSC0228.jpg","use_specify_image":false,"parallax":true,"color":"#000000","overlay":60,"padding":100,"paddingmb":50,"mg_b":50,"mg_bmb":20,"content_align":"t4s-text-start","bg_pos":"left center","bg_repeat":"inherit","bg_size":"cover","use_cus_css":false,"code_cus_css":""}},"custom_section_MJKKWJ":{"type":"custom-section","blocks":{"bl_col_zzyBFw":{"type":"bl_col","settings":{"col_dk":"12","col_tb":"12","col_mb":"12","align_vertical":false,"content_align":"center","content_align_tablet":"center","content_align_mobile":"center","padding_inner":"30px,,30px","padding_inner_tb":"20px","padding_inner_mb":"10px,20px,10px,20px","bg_image":"shopify:\/\/shop_images\/yuva_black6.png","bg_cl":"#d2a2a2"}},"custom_text_t7BcDF":{"type":"custom_text","settings":{"text":"Ulovte jarní stylovky o 20 % levněji – kód JAROVPOHODLI","remove_br_tag":false,"tag":"h3","fontf":"inherit","text_cl":"#ffffff","text_fs":27,"text_lh":0,"text_fw":700,"text_ls":0,"font_italic":false,"text_shadow":false,"text_mgb":5,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":0,"text_ls_mb":0,"text_mgb_mobile":10}},"custom_text_zrQFhK":{"type":"custom_text","settings":{"text":"Vyberte si z naší <a href=\"https:\/\/ahinsashoes.cz\/collections\/novinky-panske\" target=\"_blank\"><b><u>nové kolekce<\/u><\/b><\/a> plné lehkosti, v posledním kroku objednávky vložte kód a sleva 20 % se vám automaticky odečte.","remove_br_tag":false,"tag":"p","fontf":"inherit","text_cl":"#ffffff","text_fs":16,"text_lh":24,"text_fw":400,"text_ls":0,"font_italic":false,"text_shadow":false,"text_mgb":0,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":24,"text_ls_mb":0,"text_mgb_mobile":10}},"bl_col_Kwqwin":{"type":"bl_col","disabled":true,"settings":{"col_dk":"6","col_tb":"6","col_mb":"12","align_vertical":false,"content_align":"center","content_align_tablet":"center","content_align_mobile":"center","padding_inner":"30px,,30px","padding_inner_tb":"","padding_inner_mb":"","bg_cl":"#d2a2a2"}},"newsletter_Hppa3X":{"type":"newsletter","disabled":true,"settings":{"form_width":0,"form_width_mb":0,"newl_des":"1","news_align":"center","newl_size":"small","btn_icon":false,"input_cl":"#878787","border_cl":"#000000","btn_cl":"#ffffff","btn_bg_cl":"#222222","btn_hover_cl":"#ffffff","btn_hover_bg_cl":"#56cfe1","hidden_mobile":false,"mgb":15,"mgb_mb":10}}},"block_order":["bl_col_zzyBFw","custom_text_t7BcDF","custom_text_zrQFhK","bl_col_Kwqwin","newsletter_Hppa3X"],"disabled":true,"settings":{"space_h_item":"30","space_v_item":"30","space_h_item_mb":"30","space_v_item_mb":"30","layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":",,20px,","pd_tb":"","mg_mb":",,20px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"collections_list_d3AxXz":{"type":"collections-list","blocks":{"collection_item_jMNafN":{"type":"collection_item","settings":{"collection":"panove","icon":"las la-gem","collection_title":"Collection","collection_text":"<p>Collection description<\/p>","collection_link":"","promotion_id":"","promotion_name":"","creative_name":"","location_id":"","type":""}},"collection_item_QcTMcE":{"type":"collection_item","settings":{"collection":"damske-barefoot","icon":"las la-gem","collection_title":"Collection","collection_text":"<p>Collection description<\/p>","collection_link":"","promotion_id":"","promotion_name":"","creative_name":"","location_id":"","type":""}}},"block_order":["collection_item_jMNafN","collection_item_QcTMcE"],"disabled":true,"settings":{"design_heading":"12","heading_align":"t4s-text-center","top_heading":"Collections list","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"head_btn_label":"View All","head_btn_url":"","head_btn_icon":false,"head_btn_style":"default","head_btn_size":"medium","head_btn_cl":"dark","head_btn_effect":"default","head_btn_hidden_mb":false,"collection_des":"3","title_cl":"#ffffff","title_cl_hover":"#222222","subtitle_cl":"#878787","count_cl":"#222222","border_cl":"#e5e5e5","collection_subtitle":"Products","open_link":"_self","source":"image","space_bottom":20,"space_bottom_tb":20,"space_bottom_mb":10,"border":false,"item_pd":0,"item_rd":0,"img_effect":"none","b_effect":"none","image_ratio":"ratio1_1","image_size":"cover","image_position":"8","layout_des":"1","col_dk":"4","col_tb":"2","col_mb":"2","space_h_item":"30","space_v_item":"30","space_h_item_mb":"10","space_v_item_mb":"10","loop":true,"au_time":0,"au_hover":true,"nav_btn":false,"btn_pos":"default","btn_vi":"hover","btn_owl":"default","btn_shape":"none","btn_cl":"dark","btn_size":"small","btn_hidden_mobile":false,"nav_dot":false,"dot_owl":"default","dots_cl":"dark","dots_round":true,"dots_space":10,"dots_hidden_mobile":false,"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"sidebar":{"type":"sidebar-collection","blocks":{"c7bdf308-8019-4991-b58c-6d3e205a52eb":{"type":"category","disabled":true,"settings":{"heading":"Product Categories","cat_source":"1","cat_link_list":"","count":true}},"9d37e80a-1eda-4a65-bb08-199e6a933a16":{"type":"collection","disabled":true,"settings":{"heading":"Sale Products","collection":"frontpage","limit_pr":3,"image_ratio":"t4s_ratioadapt","image_size":"t4s_cover","image_position":"t4s_position_8"}},"c090f36e-d6ef-4a2a-ab04-cc78211dadb7":{"type":"image","disabled":true,"settings":{"heading":"","img_effect":"zoom","b_link":"","open_link":"_self","content_align":"center","date":"2023\/12\/26","cdt_des":"1","countdown_pos":"2","cdt_size":"small","box_bdr":0,"bd_width":0,"space_item":10,"number_cl":"#ffffff","text_cl":"#222222","border_cl":"#000000","bg_cl":"#000000"}},"221aa22f-5c6c-40c9-9403-6d3cd2c23e93":{"type":"filter","settings":{}}},"block_order":["c7bdf308-8019-4991-b58c-6d3e205a52eb","9d37e80a-1eda-4a65-bb08-199e6a933a16","c090f36e-d6ef-4a2a-ab04-cc78211dadb7","221aa22f-5c6c-40c9-9403-6d3cd2c23e93"],"settings":{"enable_drawer":false,"space":50,"size":"medium","br_style":"none","brcolor":"#222222","sidebar_bdr":0,"sidebar_pd":15}},"custom_section_8nTBPt":{"type":"custom-section","blocks":{"bl_col_4dQEHV":{"type":"bl_col","disabled":true,"settings":{"col_dk":"12","col_tb":"12","col_mb":"12","align_vertical":false,"content_align":"center","content_align_tablet":"center","content_align_mobile":"center","padding_inner":"30px,,30px","padding_inner_tb":"20px","padding_inner_mb":"10px,20px,10px,20px","bg_image":"shopify:\/\/shop_images\/dsc_2472_black.jpg","bg_cl":"#d2a2a2"}},"custom_text_wfMMJw":{"type":"custom_text","disabled":true,"settings":{"text":"Jen do vyprodání zásob: 2+1 pár zdarma","remove_br_tag":false,"tag":"h3","fontf":"inherit","text_cl":"#ffffff","text_fs":24,"text_lh":0,"text_fw":700,"text_ls":0,"font_italic":false,"text_shadow":false,"text_mgb":5,"hidden_mobile":false,"text_fs_mb":24,"text_lh_mb":32,"text_ls_mb":0,"text_mgb_mobile":10}},"custom_text_Yb8eYf":{"type":"custom_text","disabled":true,"settings":{"text":"Vyberte si troje Ahinsa shoes a nejlevnější máte zdarma. Stačí v košíku vložit kód RADOST.","remove_br_tag":false,"tag":"p","fontf":"inherit","text_cl":"#ffffff","text_fs":16,"text_lh":24,"text_fw":400,"text_ls":0,"font_italic":false,"text_shadow":false,"text_mgb":0,"hidden_mobile":false,"text_fs_mb":16,"text_lh_mb":24,"text_ls_mb":0,"text_mgb_mobile":10}}},"block_order":["bl_col_4dQEHV","custom_text_wfMMJw","custom_text_Yb8eYf"],"disabled":true,"settings":{"space_h_item":"30","space_v_item":"30","space_h_item_mb":"30","space_v_item_mb":"30","layout":"t4s-container-fluid","cl_bg":"","cl_bg_gradient":"","mg":",,20px,","pd":"","mg_tb":",,20px,","pd_tb":"","mg_mb":",,20px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"main":{"type":"main-collection","blocks":{"filter_id":{"type":"filter","disabled":true,"settings":{"style_filters":"sidebar"}},"740319a4-8e19-4c70-b8a9-ada7cf235cbc":{"type":"layout","disabled":true,"settings":{}},"30594d23-d644-4653-9545-9ff769d2e6ab":{"type":"sortby","settings":{}}},"block_order":["filter_id","740319a4-8e19-4c70-b8a9-ada7cf235cbc","30594d23-d644-4653-9545-9ff769d2e6ab"],"custom_css":[".t4s-product-sizes {color: black;}"],"settings":{"show_desc":false,"position_desc":"1","product_des":"1","show_vendor":false,"use_cdt":false,"image_ratio":"ratio1_1","image_size":"contain","image_position":"8","content_align":"center","limit":48,"enable_listing":true,"enable_listing_default":false,"col_dk":"4","col_tb":"2","col_mb":"2","space_h_item":"30","space_v_item":"30","space_h_item_mb":"10","space_v_item_mb":"10","layout_des":"1","use_pagination":"default","enable_bar_lm":true,"btn_icon":false,"button_style":"outline","btns_size":"large","btns_cl":"primary","button_effect":"sweep-to-right","btn_pos":"t4s-text-center","type_filters":"facets","layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","event_type":"view_item_list"}},"image_text_metafields_yXMW7q":{"type":"image_text_metafields","blocks":{"bl_text_Cn4y4q":{"type":"bl_text","settings":{"col_dk":"12","col_tb":"12","text_size":"40,15","txt_align":"center","sub_heading":"","heading":"","text":"<p>Výchozí text pro kolekce<\/p>","subhd_color":"#222222","hd_color":"#222222","des_color":"#878787","use_shadow":false,"button_label":"Button label","button_link":"","open_link":"_blank","btn_icon":false,"button_style":"default","btn_size":"large","btn_cl":"dark","button_effect":"default"}}},"block_order":["bl_text_Cn4y4q"],"disabled":true,"settings":{"section_key":"","design_heading":"1","heading_align":"t4s-text-center","top_heading":"","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"space_h_item":"20","space_v_item":"10","space_h_item_mb":"20","space_v_item_mb":"10","layout":"t4s-container-wrap","b_radius_container":12,"cl_bg":"","cl_bg_container":"#ffffff","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"navigation_list_ikc8cB":{"type":"navigation-list","settings":{"enable_border":false,"header":"V nabídce máme také","col_nav":"3","padding_inner":"1px,30px,10px,30px","padding_inner_mb":"10px,30px,10px,30px","menu":"nase-boty-footer","layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":""}},"blog_post_manual_fCNAmn":{"type":"blog-post-manual","blocks":{"article_gFCrfE":{"type":"article","settings":{"article":"news\/letni-vyprodej-2024"}},"article_tbkcGL":{"type":"article","settings":{"article":"news\/rozhovor-jak-spravne-sedet"}},"article_CfqVP4":{"type":"article","settings":{"article":"news\/jak-vazat-tkanicky"}}},"block_order":["article_gFCrfE","article_tbkcGL","article_CfqVP4"],"disabled":true,"settings":{"design_heading":"9","heading_align":"t4s-text-center","top_heading":"Magazín o zdravé chůzi","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"post_des":"1","show_cate":false,"show_tags":false,"show_cnt":false,"show_au":false,"show_dt":true,"show_cm":false,"show_rm":false,"date":"abbreviated_date","content_align":"t4s-text-center","limit":3,"img_effect":"none","b_effect":"none","image_ratio":"ratio3_2","image_size":"cover","image_position":"8","col_dk":"3","col_tb":"3","col_mb":"1","space_h_item":"30","space_v_item":"30","space_h_item_mb":"10","space_v_item_mb":"10","layout_des":"1","loop":true,"au_time":0,"au_hover":true,"nav_btn":false,"btn_vi":"hover","btn_owl":"default","btn_shape":"none","btn_cl":"dark","btn_size":"small","btn_hidden_mobile":true,"nav_dot":false,"dot_owl":"default","dots_cl":"dark","dots_round":true,"dots_space":10,"dots_hidden_mobile":false,"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}},"blog_post_e7gt6y":{"type":"blog-post","settings":{"design_heading":"9","heading_align":"t4s-text-center","top_heading":"Magazín o zdravé chůzi","bt_lb":"","icon_heading":"las la-gem","top_subheading":"","tophead_mb":30,"blog":"news","post_des":"1","show_cate":false,"show_tags":false,"show_cnt":true,"show_au":true,"show_dt":false,"show_cm":false,"show_rm":false,"show_irm":false,"date":"abbreviated_date","content_align":"t4s-text-start","limit":8,"img_effect":"none","b_effect":"none","image_ratio":"ratio3_2","image_size":"cover","image_position":"8","col_dk":"3","col_tb":"2","col_mb":"1","space_h_item":"30","space_v_item":"30","space_h_item_mb":"10","space_v_item_mb":"10","layout_des":"2","loop":true,"au_time":0,"au_hover":true,"nav_btn":false,"btn_vi":"hover","btn_owl":"default","btn_shape":"none","btn_cl":"dark","btn_size":"small","btn_hidden_mobile":true,"nav_dot":false,"dot_owl":"default","dots_cl":"dark","dots_round":true,"dots_space":10,"dots_hidden_mobile":false,"use_pagination":"none","enable_bar_lm":true,"btn_icon":false,"button_style":"default","btns_size":"large","btns_cl":"dark","button_effect":"default","btn_pos":"t4s-text-center","layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":",,50px,","pd":"","mg_tb":"","pd_tb":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":""}}},"order":["top","heading_template","custom_section_MJKKWJ","collections_list_d3AxXz","sidebar","custom_section_8nTBPt","main","image_text_metafields_yXMW7q","navigation_list_ikc8cB","blog_post_manual_fCNAmn","blog_post_e7gt6y"]}
+{
+  "sections": {
+    "top": {
+      "type": "top-collections",
+      "blocks": {
+        "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
+          "type": "cat",
+          "settings": { "collection": "default-3", "icon": "" }
+        },
+        "863873b6-012e-4a34-90e3-eead750fa3ce": {
+          "type": "cat",
+          "settings": { "collection": "bag", "icon": "" }
+        },
+        "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
+          "type": "cat",
+          "settings": { "collection": "decor", "icon": "" }
+        },
+        "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
+          "type": "cat",
+          "settings": { "collection": "default-2", "icon": "" }
+        },
+        "23c84729-8fcb-488c-9541-00e283af6afe": {
+          "type": "cat",
+          "settings": { "collection": "dress", "icon": "" }
+        },
+        "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
+          "type": "cat",
+          "settings": { "collection": "hats", "icon": "" }
+        },
+        "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
+          "type": "cat",
+          "settings": { "collection": "frontpage", "icon": "" }
+        },
+        "70189b51-5562-4924-b642-a1deba7741ee": {
+          "type": "cat",
+          "settings": { "collection": "sale", "icon": "" }
+        },
+        "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
+          "type": "cat",
+          "settings": { "collection": "shoes", "icon": "" }
+        },
+        "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
+          "type": "cat",
+          "settings": { "collection": "women", "icon": "" }
+        }
+      },
+      "block_order": [
+        "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67",
+        "863873b6-012e-4a34-90e3-eead750fa3ce",
+        "fc07bff9-6d08-423c-8802-9a03c34f3a31",
+        "a286cc0b-0c90-4b1a-862c-a1136f283aac",
+        "23c84729-8fcb-488c-9541-00e283af6afe",
+        "5f1d751a-fdac-43d4-ad9d-55da0c297244",
+        "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01",
+        "70189b51-5562-4924-b642-a1deba7741ee",
+        "560f5822-3eeb-4070-a2cd-b5738881a4c1",
+        "be9b8b8f-6cac-47ab-b809-a2fe640a75a7"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_top_collections": false,
+        "source": "1",
+        "menu": "main-menu",
+        "sort_collections": "alphabetical_reversed",
+        "box_border": "top",
+        "content_align": "center",
+        "hidden_mobile": false,
+        "space_item": 30,
+        "fontf": "inherit",
+        "text_cl": "#222222",
+        "text_cl_hover": "#56cfe1",
+        "text_fs": 14,
+        "text_lh": 45,
+        "text_fw": 400,
+        "text_ls": 0,
+        "font_italic": false,
+        "nav_btn": true,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "heading_template": {
+      "type": "heading-template",
+      "blocks": {
+        "3_qwAU3V": {
+          "type": "3",
+          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 30 }
+        },
+        "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
+          "type": "1",
+          "settings": {
+            "heading": "Page Heading",
+            "fontf": "1",
+            "text_cl": "#ffffff",
+            "text_fs": 48,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 20
+          }
+        },
+        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7": {
+          "type": "4",
+          "settings": {
+            "design_des": "show_all",
+            "length": 60,
+            "view_more": true,
+            "viewm_txt": "View more",
+            "fontf": "2",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "3_qwAU3V",
+        "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9",
+        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7"
+      ],
+      "settings": {
+        "heading_fullwidth": false,
+        "image": "shopify:\/\/shop_images\/DSC0228.jpg",
+        "use_specify_image": false,
+        "parallax": true,
+        "color": "#000000",
+        "overlay": 60,
+        "padding": 100,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 20,
+        "content_align": "t4s-text-start",
+        "bg_pos": "left center",
+        "bg_repeat": "inherit",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "custom_section_MJKKWJ": {
+      "type": "custom-section",
+      "blocks": {
+        "bl_col_zzyBFw": {
+          "type": "bl_col",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px",
+            "padding_inner_tb": "20px",
+            "padding_inner_mb": "10px,20px,10px,20px",
+            "bg_image": "shopify:\/\/shop_images\/yuva_black6.png",
+            "bg_cl": "#d2a2a2"
+          }
+        },
+        "custom_text_t7BcDF": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Grab spring styles 20% cheaper – code JAROVPOHODLI",
+            "remove_br_tag": false,
+            "tag": "h3",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 27,
+            "text_lh": 0,
+            "text_fw": 700,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "custom_text_zrQFhK": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Choose from our <a href=\"https:\/\/ahinsashoes.cz\/collections\/novinky-panske\" target=\"_blank\"><b><u>new collection<\/u><\/b><\/a> full of lightness, enter the code at the last checkout step, and 20% off is deducted automatically.",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 24,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "bl_col_Kwqwin": {
+          "type": "bl_col",
+          "disabled": true,
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px",
+            "padding_inner_tb": "",
+            "padding_inner_mb": "",
+            "bg_cl": "#d2a2a2"
+          }
+        },
+        "newsletter_Hppa3X": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "form_width": 0,
+            "form_width_mb": 0,
+            "newl_des": "1",
+            "news_align": "center",
+            "newl_size": "small",
+            "btn_icon": false,
+            "input_cl": "#878787",
+            "border_cl": "#000000",
+            "btn_cl": "#ffffff",
+            "btn_bg_cl": "#222222",
+            "btn_hover_cl": "#ffffff",
+            "btn_hover_bg_cl": "#56cfe1",
+            "hidden_mobile": false,
+            "mgb": 15,
+            "mgb_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "bl_col_zzyBFw",
+        "custom_text_t7BcDF",
+        "custom_text_zrQFhK",
+        "bl_col_Kwqwin",
+        "newsletter_Hppa3X"
+      ],
+      "disabled": true,
+      "settings": {
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "30",
+        "space_v_item_mb": "30",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,20px,",
+        "pd_tb": "",
+        "mg_mb": ",,20px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "collections_list_d3AxXz": {
+      "type": "collections-list",
+      "blocks": {
+        "collection_item_jMNafN": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "panove",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_text": "<p>Collection description<\/p>",
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
+          }
+        },
+        "collection_item_QcTMcE": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "damske-barefoot",
+            "icon": "las la-gem",
+            "collection_title": "Collection",
+            "collection_text": "<p>Collection description<\/p>",
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
+          }
+        }
+      },
+      "block_order": ["collection_item_jMNafN", "collection_item_QcTMcE"],
+      "disabled": true,
+      "settings": {
+        "design_heading": "12",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Collections list",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "head_btn_label": "View All",
+        "head_btn_url": "",
+        "head_btn_icon": false,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
+        "collection_des": "3",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "Products",
+        "open_link": "_self",
+        "source": "image",
+        "space_bottom": 20,
+        "space_bottom_tb": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_pd": 0,
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "layout_des": "1",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "sidebar": {
+      "type": "sidebar-collection",
+      "blocks": {
+        "c7bdf308-8019-4991-b58c-6d3e205a52eb": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "heading": "Product Categories",
+            "cat_source": "1",
+            "cat_link_list": "",
+            "count": true
+          }
+        },
+        "9d37e80a-1eda-4a65-bb08-199e6a933a16": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "heading": "Sale Products",
+            "collection": "frontpage",
+            "limit_pr": 3,
+            "image_ratio": "t4s_ratioadapt",
+            "image_size": "t4s_cover",
+            "image_position": "t4s_position_8"
+          }
+        },
+        "c090f36e-d6ef-4a2a-ab04-cc78211dadb7": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "img_effect": "zoom",
+            "b_link": "",
+            "open_link": "_self",
+            "content_align": "center",
+            "date": "2023\/12\/26",
+            "cdt_des": "1",
+            "countdown_pos": "2",
+            "cdt_size": "small",
+            "box_bdr": 0,
+            "bd_width": 0,
+            "space_item": 10,
+            "number_cl": "#ffffff",
+            "text_cl": "#222222",
+            "border_cl": "#000000",
+            "bg_cl": "#000000"
+          }
+        },
+        "221aa22f-5c6c-40c9-9403-6d3cd2c23e93": {
+          "type": "filter",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "c7bdf308-8019-4991-b58c-6d3e205a52eb",
+        "9d37e80a-1eda-4a65-bb08-199e6a933a16",
+        "c090f36e-d6ef-4a2a-ab04-cc78211dadb7",
+        "221aa22f-5c6c-40c9-9403-6d3cd2c23e93"
+      ],
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 0,
+        "sidebar_pd": 15
+      }
+    },
+    "custom_section_8nTBPt": {
+      "type": "custom-section",
+      "blocks": {
+        "bl_col_4dQEHV": {
+          "type": "bl_col",
+          "disabled": true,
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "col_mb": "12",
+            "align_vertical": false,
+            "content_align": "center",
+            "content_align_tablet": "center",
+            "content_align_mobile": "center",
+            "padding_inner": "30px,,30px",
+            "padding_inner_tb": "20px",
+            "padding_inner_mb": "10px,20px,10px,20px",
+            "bg_image": "shopify:\/\/shop_images\/dsc_2472_black.jpg",
+            "bg_cl": "#d2a2a2"
+          }
+        },
+        "custom_text_wfMMJw": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "text": "While stocks last: 2+1 pair free",
+            "remove_br_tag": false,
+            "tag": "h3",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 24,
+            "text_lh": 0,
+            "text_fw": 700,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 24,
+            "text_lh_mb": 32,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "custom_text_Yb8eYf": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "text": "Add three pairs of Ahinsa shoes and the cheapest is free. Just enter the code RADOST in the cart.",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 24,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "bl_col_4dQEHV",
+        "custom_text_wfMMJw",
+        "custom_text_Yb8eYf"
+      ],
+      "disabled": true,
+      "settings": {
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "30",
+        "space_v_item_mb": "30",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": ",,20px,",
+        "pd_tb": "",
+        "mg_mb": ",,20px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "filter_id": {
+          "type": "filter",
+          "disabled": true,
+          "settings": { "style_filters": "sidebar" }
+        },
+        "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
+          "type": "layout",
+          "disabled": true,
+          "settings": {}
+        },
+        "30594d23-d644-4653-9545-9ff769d2e6ab": {
+          "type": "sortby",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "filter_id",
+        "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
+        "30594d23-d644-4653-9545-9ff769d2e6ab"
+      ],
+      "custom_css": [".t4s-product-sizes {  color: black;  }"],
+      "settings": {
+        "show_desc": false,
+        "position_desc": "1",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "ratio1_1",
+        "image_size": "contain",
+        "image_position": "8",
+        "content_align": "center",
+        "limit": 48,
+        "enable_listing": true,
+        "enable_listing_default": false,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "1",
+        "use_pagination": "default",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "outline",
+        "btns_size": "large",
+        "btns_cl": "primary",
+        "button_effect": "sweep-to-right",
+        "btn_pos": "t4s-text-center",
+        "type_filters": "facets",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "event_type": "view_item_list"
+      }
+    },
+    "image_text_metafields_yXMW7q": {
+      "type": "image_text_metafields",
+      "blocks": {
+        "bl_text_Cn4y4q": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p>Default collection text<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": ["bl_text_Cn4y4q"],
+      "disabled": true,
+      "settings": {
+        "section_key": "",
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "b_radius_container": 12,
+        "cl_bg": "",
+        "cl_bg_container": "#ffffff",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "navigation_list_ikc8cB": {
+      "type": "navigation-list",
+      "settings": {
+        "enable_border": false,
+        "header": "You might also like",
+        "col_nav": "3",
+        "padding_inner": "1px,30px,10px,30px",
+        "padding_inner_mb": "10px,30px,10px,30px",
+        "menu": "nase-boty-footer",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "blog_post_manual_fCNAmn": {
+      "type": "blog-post-manual",
+      "blocks": {
+        "article_gFCrfE": {
+          "type": "article",
+          "settings": { "article": "news\/letni-vyprodej-2024" }
+        },
+        "article_tbkcGL": {
+          "type": "article",
+          "settings": { "article": "news\/rozhovor-jak-spravne-sedet" }
+        },
+        "article_CfqVP4": {
+          "type": "article",
+          "settings": { "article": "news\/jak-vazat-tkanicky" }
+        }
+      },
+      "block_order": ["article_gFCrfE", "article_tbkcGL", "article_CfqVP4"],
+      "disabled": true,
+      "settings": {
+        "design_heading": "9",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Magazine on healthy walking",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "post_des": "1",
+        "show_cate": false,
+        "show_tags": false,
+        "show_cnt": false,
+        "show_au": false,
+        "show_dt": true,
+        "show_cm": false,
+        "show_rm": false,
+        "date": "abbreviated_date",
+        "content_align": "t4s-text-center",
+        "limit": 3,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio3_2",
+        "image_size": "cover",
+        "image_position": "8",
+        "col_dk": "3",
+        "col_tb": "3",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "blog_post_e7gt6y": {
+      "type": "blog-post",
+      "settings": {
+        "design_heading": "9",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Magazine on healthy walking",
+        "bt_lb": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "blog": "news",
+        "post_des": "1",
+        "show_cate": false,
+        "show_tags": false,
+        "show_cnt": true,
+        "show_au": true,
+        "show_dt": false,
+        "show_cm": false,
+        "show_rm": false,
+        "show_irm": false,
+        "date": "abbreviated_date",
+        "content_align": "t4s-text-start",
+        "limit": 8,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio3_2",
+        "image_size": "cover",
+        "image_position": "8",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "use_pagination": "none",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "default",
+        "btns_size": "large",
+        "btns_cl": "dark",
+        "button_effect": "default",
+        "btn_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "top",
+    "heading_template",
+    "custom_section_MJKKWJ",
+    "collections_list_d3AxXz",
+    "sidebar",
+    "custom_section_8nTBPt",
+    "main",
+    "image_text_metafields_yXMW7q",
+    "navigation_list_ikc8cB",
+    "blog_post_manual_fCNAmn",
+    "blog_post_e7gt6y"
+  ]
+}

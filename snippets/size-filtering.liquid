@@ -19,7 +19,7 @@
         assign filter_url_48=base_url | append: "/collections/vsechny-produkty?filter.v.option.velikost=48"
     %}
     <div class="size-filtering-container">
-        <p>Najděte si svoji velikost:</p>
+        <p>{{ 'collections.general.find_your_size' | t }}</p>
         <div class="size-filtering">
             <a href="{{ filter_url_34 }}">34</a>
             <a href="{{ filter_url_35 }}">35</a>
@@ -40,7 +40,7 @@
     </div>
 {% else %}
     <div class="size-filtering-container">
-        <p>Najděte si svoji velikost:</p>
+        <p>{{ 'collections.general.find_your_size' | t }}</p>
         <div class="size-filtering">
             <div data-size="34">34</div>
             <div data-size="35">35</div>

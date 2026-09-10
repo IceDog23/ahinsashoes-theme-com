@@ -67,7 +67,13 @@
       "title": "Sidebar",
       "language": "Select your language",
       "currency": "Select your currency"
-    }
+    },
+    "seo_title_collection_experts": " from EXPERTS - free exchange",
+    "seo_title_collection_exchange": " - free exchange",
+    "seo_title_collection_sale": " [discount up to ",
+    "seo_title_product_sale": " [SALE]",
+    "seo_title_product_exchange": " - free exchange",
+    "seo_title_blog": "Walk in healthy shoes blog"
   },
   "socials": {
     "share_fb": "Share on Facebook",
@@ -183,7 +189,8 @@
       "no_matches": "No products were found matching your selection.",
       "sort_by_label": "Sort by:",
       "sort_button": "Sort",
-      "filter_button": "Filter"
+      "filter_button": "Filter",
+      "find_your_size": "Find your size:"
     },
     "sort": {
       "best_selling": "Best selling",

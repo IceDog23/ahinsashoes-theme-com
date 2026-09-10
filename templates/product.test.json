@@ -42,9 +42,7 @@
         },
         "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4": {
           "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": {
-            "product": "{{product}}"
-          }
+          "settings": { "product": "{ { product } }" }
         },
         "form": {
           "type": "form",
@@ -137,9 +135,7 @@
         },
         "complimentary_products_YDdEaf": {
           "type": "complimentary_products",
-          "settings": {
-            "text": "Pairs well with"
-          }
+          "settings": { "text": "Pairs well with" }
         }
       },
       "block_order": [
@@ -288,24 +284,15 @@
       "blocks": {
         "link_bWGtDd": {
           "type": "link",
-          "settings": {
-            "tab_title": "Description",
-            "hook": "Description"
-          }
+          "settings": { "tab_title": "Description", "hook": "Description" }
         },
         "link_t7BFNM": {
           "type": "link",
-          "settings": {
-            "tab_title": "Parameters",
-            "hook": "Parameters"
-          }
+          "settings": { "tab_title": "Parameters", "hook": "Parameters" }
         },
         "link_GTGza9": {
           "type": "link",
-          "settings": {
-            "tab_title": "Reviews",
-            "hook": "Reviews"
-          }
+          "settings": { "tab_title": "Reviews", "hook": "Reviews" }
         },
         "link_arTmBH": {
           "type": "link",

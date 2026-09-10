@@ -67,7 +67,13 @@
       "title": "Postranní panel",
       "language": "Vyberte jazyk",
       "currency": "Vyberte měnu"
-    }
+    },
+    "seo_title_collection_experts": " od EXPERTŮ - výměna zdarma",
+    "seo_title_collection_exchange": " - výměna zdarma",
+    "seo_title_collection_sale": " [sleva až ",
+    "seo_title_product_sale": " [SLEVA]",
+    "seo_title_product_exchange": " - výměna zdarma",
+    "seo_title_blog": "Blog o chůzi ve zdravých botách"
   },
   "socials": {
     "share_fb": "Sdílet na Facebooku",
@@ -183,7 +189,8 @@
       "no_matches": "Nebyly nalezeny žádné produkty odpovídající vašemu výběru.",
       "sort_by_label": "Seřadit podle:",
       "sort_button": "Třídit",
-      "filter_button": "Filtr"
+      "filter_button": "Filtr",
+      "find_your_size": "Najděte si svoji velikost:"
     },
     "sort": {
       "best_selling": "Nejprodávanější",
