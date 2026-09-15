@@ -6148,6 +6148,40 @@
             "type": "image",
             "settings": {
               "top_subheading": "",
+              "title": "<p style=\"color: white;\"><b>Vida sneakers</b> \n– now from 99 €\n</p>",
+              "title_size": 80,
+              "subheading": "",
+              "text_color": "#ffffff",
+              "link": "https://ahinsashoes.com/collections/all/vida?sort_by=created-descending",
+              "link_text": "👟 Pick Yours",
+              "icon_h_1": 40,
+              "arrow_1": true,
+              "promotion_click_id_1": "promotion_click_006",
+              "promotion_click_name_1": "Hero promotion vida sneakers – 26",
+              "link_2": "",
+              "link_text_2": "",
+              "icon_h_2": 40,
+              "arrow_2": true,
+              "promotion_click_id_2": "promotion_click_002",
+              "promotion_click_name_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify://shop_images/hero_banner_vida_old_web.jpg",
+              "image_mobile": "shopify://shop_images/DSC03165.jpg",
+              "overlay_opacity": 0,
+              "focal_point": "80% 100%",
+              "promotion_id": "promotion_002",
+              "promotion_name": "Hero promotion Vida sneakers",
+              "creative_name": "Hero banner",
+              "location_id": "homepage",
+              "type": "select_promotion"
+            }
+          },
+          "image_zpHrj8": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "top_subheading": "",
               "title": "<p style=\"color: white;\"><b>Comfortable sneakers</b> \n– now 20% OFF\n</p>",
               "title_size": 80,
               "subheading": "",
@@ -6282,6 +6316,7 @@
         },
         "block_order": [
           "image_CFnqQx",
+          "image_zpHrj8",
           "image_6F8mB9",
           "image_geXtjg",
           "image_w7BCHU"
