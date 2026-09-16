@@ -152,11 +152,10 @@
           },
           "cae1281a-8737-47b9-96f0-e29e176b747b": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Winter sale continues ❄️",
-              "link_text": "Get the last pairs in stock with up to 50% discount.",
-              "link": "shopify://collections/sale"
+              "text": "New autumn arrivals are here! 🍁",
+              "link_text": "Step into the new season in lightweight comfort with Ahinsa shoes designed by physiotherapists. 👣",
+              "link": "shopify://collections/news"
             }
           }
         },
