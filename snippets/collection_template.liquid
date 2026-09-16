@@ -47,7 +47,7 @@
             >
           {%- else -%}
             {%- assign txt = html[4] | append: 'x' | append: html[5] -%}
-            {%- render 'svg_holder', txt: txt, fs: "40px" | placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' -%}
+            {%- render 'svg_holder', txt: txt, fs: "40px", placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' -%}
           {%- endif -%}
         </div>
         <div
@@ -72,7 +72,7 @@
             >
           {%- else -%}
             {%- assign txt = html[4] | append: 'x' | append: html[5] -%}
-            {%- render 'svg_holder', txt: txt, fs: "40px" | placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' -%}
+            {%- render 'svg_holder', txt: txt, fs: "40px", placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' -%}
           {%- endif -%}
         </div>
       </a>
@@ -96,3 +96,20 @@
   </div>
 </div>
 {{ html[10] }}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{%- render ''svg_holder'', txt: txt, fs: "40px" | placeholder_svg_tag: ''t4s-placeholder-svg
+    t4s-obj-eff'' -%}'
+  to: '{%- render ''svg_holder'', txt: txt, fs: "40px", placeholder_svg_tag: ''t4s-placeholder-svg
+    t4s-obj-eff'' -%}'
+  position: 2631..2736
+- from: '{%- render ''svg_holder'', txt: txt, fs: "40px" | placeholder_svg_tag: ''t4s-placeholder-svg
+    t4s-obj-eff'' -%}'
+  to: '{%- render ''svg_holder'', txt: txt, fs: "40px", placeholder_svg_tag: ''t4s-placeholder-svg
+    t4s-obj-eff'' -%}'
+  position: 4072..4177
+{% endcomment %}

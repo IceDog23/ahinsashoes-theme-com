@@ -60,8 +60,8 @@ or
     {%- assign currentDays = 'days' | append:language -%}
     {%- assign currentMonths = 'months' | append:language -%}
   
-    {%- assign currentDaysArray = [currentDays] -%}
-    {%- assign currentMonthsArray = [currentMonths] -%}
+    {%- assign currentDaysArray = self[currentDays] -%}
+    {%- assign currentMonthsArray = self[currentMonths] -%}
   
     {%- assign shortSlice = 3 -%}
     
@@ -78,4 +78,16 @@ or
   
     {{- dateString -}}
   
-  {%- endfor -%}
+  {%- endfor -%}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- assign currentDaysArray = [currentDays] -%}"
+  to: "{%- assign currentDaysArray = self[currentDays] -%}"
+  position: 2808..2859
+- from: "{%- assign currentMonthsArray = [currentMonths] -%}"
+  to: "{%- assign currentMonthsArray = self[currentMonths] -%}"
+  position: 2864..2919
+{%- endcomment -%}
