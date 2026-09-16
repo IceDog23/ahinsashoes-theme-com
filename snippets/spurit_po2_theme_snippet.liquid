@@ -44,7 +44,7 @@
     {% elsif pageType == 'search' %}
         {% render 'spurit_po2_products_list_snippet', products: search.results %}
     {% elsif pageType == 'collection' %}
-        {% paginate collection.products %}
+        {% paginate collection.products by nil %}
             {% for product in collection.products %}
                 {% render 'spurit_po2_product_details_snippet', product: product %}
             {% endfor %}
@@ -87,3 +87,13 @@ body:not(.spo-loaded) [name="goto_amazon_payments"] {opacity: 1; pointer-events:
 </script>
 
     <script src="https://amaicdn.com/preorder2/common.js"></script>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% paginate collection.products %}"
+  to: "{% paginate collection.products by nil %}"
+  position: 1532..1573
+{% endcomment %}
