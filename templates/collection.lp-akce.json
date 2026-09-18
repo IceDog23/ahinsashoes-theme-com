@@ -27,7 +27,6 @@
       "blocks": {
         "ai_gen_block_5072638_NNeG67": {
           "type": "ai_gen_block_5072638",
-          "disabled": true,
           "settings": {
             "desktop_width_percent": 100,
             "min_height": 600,
@@ -39,10 +38,10 @@
             "badge_text_color": "#ffffff",
             "badge_font_size": 16,
             "badge_border_radius": 20,
-            "heading": "Ahinsa Days – EXTENDED!",
+            "heading": "Autumn Ahinsa Days",
             "heading_size": 48,
             "heading_color": "#2c2c2c",
-            "subheading": "Shoes designed by physiotherapists, now <b>up to 40% off</b>. Choose from Barefoot and Comfort styles for every occasion. Only while stock lasts!",
+            "subheading": "Shoes designed by physiotherapists, now <b>up to 35% off</b>. Choose from Barefoot and Comfort styles for every occasion. <b>Only while stock lasts!</b>",
             "subheading_size": 20,
             "text_color": "#6b6b6b",
             "image": "shopify://shop_images/DSC8973.jpg",
@@ -75,9 +74,9 @@
             "features_bg_color": "#ffffff",
             "features_border_color": "#e8e3db",
             "feature_1_text": "Designed by Physiotherapists",
-            "feature_2_text": "Quick and Easy Size Exchange",
+            "feature_2_text": "Quick Delivery",
             "feature_3_text": "100% Vegan Materials",
-            "feature_4_text": "Fast Delivery",
+            "feature_4_text": "Worldwide Shipping",
             "feature_icon_size": 24,
             "feature_icon_color": "#d4a574",
             "feature_text_size": 15,
@@ -87,6 +86,7 @@
         },
         "ai_gen_block_5072638_PHFhVz": {
           "type": "ai_gen_block_5072638",
+          "disabled": true,
           "settings": {
             "desktop_width_percent": 100,
             "min_height": 700,
