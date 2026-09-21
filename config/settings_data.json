@@ -3625,6 +3625,13 @@
               "text": "<p>I have just received a pair of Hava 2 sandals and a pair of Sweatpants. I am very happy with both the style and quality of both. They fit well thanks to your size guides!</p>",
               "customer": "Jacqueline Middleton"
             }
+          },
+          "block_bL9bia": {
+            "type": "block",
+            "settings": {
+              "text": "<p>Your shoes really last. I tell everyone who is willing to listen how good wide toebox shoes are. I have used barefoot shoes now for almost 10 years and literally am unable to wear a normal  pair of shoes. They are all so heavy and unwieldy.  <br/><br/>Vienna airport in 2024 just freshly arrived from Australia; I am going up one of the many escalators and there in front of me is a lady wearing your lovely shoes as well. I recognised the little footprint on the sole 🤣.<br/>A lovely conversation about barefoot shoes ensued. Go Ahinsa!!!</p>",
+              "customer": "Margareta Toohey"
+            }
           }
         },
         "block_order": [
@@ -3690,7 +3697,8 @@
           "block_UYBzRM",
           "block_VxWjNW",
           "block_TEhQYP",
-          "block_eqrbWj"
+          "block_eqrbWj",
+          "block_bL9bia"
         ],
         "settings": {
           "heading": "Over 20,000 pairs of Ahinsa shoes are now trotting the globe. What do their owners have to say about them?",
