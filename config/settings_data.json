@@ -6153,6 +6153,7 @@
         "blocks": {
           "image_CFnqQx": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "<p style=\"color: white;\"><b>Ahinsa Days are here</b> \n– up to <b>35 % OFF</b>\n</p>",
@@ -6186,7 +6187,6 @@
           },
           "image_YUwYXp": {
             "type": "image",
-            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "<p style=\"color: white;\"><b>Vida sneakers</b> \n– now from 99 €\n</p>",
