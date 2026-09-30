@@ -6379,12 +6379,6 @@
           "hide_message": true,
           "cart_message": "<p><em>Do you have multiple items in your order, including pre-order shoes? We usually wait until all products are in stock and ship them together in one package. </em><em><strong>If you prefer to receive them separately, please place a separate order for the pre-order shoes.</strong></em></p>"
         }
-      },
-      "trusted_shop_widget_7Cq9Ue": {
-        "type": "trusted-shop-widget",
-        "custom_css": [],
-        "name": "Trusted shop widget",
-        "settings": {}
       }
     },
     "content_for_index": [
@@ -6400,7 +6394,6 @@
       "1525295772132",
       "16254695500633acb9",
       "text_and_image_U8c3cr",
-      "trusted_shop_widget_7Cq9Ue",
       "1625469886c08f070e",
       "1625469845aed436c7",
       "1499790633921",

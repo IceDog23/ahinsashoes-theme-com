@@ -194,6 +194,58 @@
         "divider": false
       }
     },
+    "lp_text_and_image_gallery_4QD9Qa": {
+      "type": "lp_text_and_image_gallery",
+      "blocks": {
+        "html_cQEcBF": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_112.jpg"
+          }
+        },
+        "html_GMgnaK": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_119.jpg"
+          }
+        },
+        "html_EKT78K": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC0878.jpg"
+          }
+        },
+        "html_A7PxEb": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Ahinsa_123.jpg"
+          }
+        },
+        "html_6eiMgC": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/DSC1106.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "html_cQEcBF",
+        "html_GMgnaK",
+        "html_EKT78K",
+        "html_A7PxEb",
+        "html_6eiMgC"
+      ],
+      "settings": {
+        "image_width": 500,
+        "title": "Hava Sparkle Barefoot Sandals",
+        "subtitle": "A touch of starlight",
+        "text": "<p>You’ve grown to love the Hava sandals – so we added a subtle sparkle. Who says you can’t <strong>feel like a star</strong> on an ordinary day?</p>",
+        "button_label": "Get Them First",
+        "button_link": "https://ahinsashoes.com/collections/news/sparkle",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "lp_text_and_image_gallery_J4gFYa": {
       "type": "lp_text_and_image_gallery",
       "blocks": {
@@ -216,64 +268,6 @@
         "button_label": "Get Them First",
         "button_link": "https://ahinsashoes.com/collections/news/preciosa",
         "layout": "right",
-        "divider": false
-      }
-    },
-    "trusted_shop_widget_3CjFKt": {
-      "type": "trusted-shop-widget",
-      "custom_css": [],
-      "name": "Trusted shop widget",
-      "settings": {}
-    },
-    "25133cf6-5f4c-475f-97a0-62278cf1d0aa": {
-      "type": "lp_text_and_image_gallery",
-      "blocks": {
-        "html_93zeBN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC9707.jpg"
-          }
-        },
-        "html_4Abtch": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC9213.jpg"
-          }
-        },
-        "html_tiTGqN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/DSC9304.jpg"
-          }
-        },
-        "html_7dwhJj": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_031.jpg"
-          }
-        },
-        "html_3YNcdW": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Ahinsa_017.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "html_93zeBN",
-        "html_4Abtch",
-        "html_tiTGqN",
-        "html_7dwhJj",
-        "html_3YNcdW"
-      ],
-      "settings": {
-        "image_width": 500,
-        "title": "Yuva Barefoot Sneakers",
-        "subtitle": "So soft, you forget to take them off",
-        "text": "<p>Honest craftsmanship under your feet. <strong>Comfort designed by physiotherapists</strong>, precision from skilled shoemakers – and a timeless style that’s easy to wear.</p>",
-        "button_label": "Get Them First",
-        "button_link": "https://ahinsashoes.com/collections/news/yuva",
-        "layout": "left",
         "divider": false
       }
     },
@@ -343,54 +337,54 @@
         "divider": false
       }
     },
-    "lp_text_and_image_gallery_4QD9Qa": {
+    "25133cf6-5f4c-475f-97a0-62278cf1d0aa": {
       "type": "lp_text_and_image_gallery",
       "blocks": {
-        "html_cQEcBF": {
+        "html_93zeBN": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/Ahinsa_112.jpg"
+            "image": "shopify://shop_images/DSC9707.jpg"
           }
         },
-        "html_GMgnaK": {
+        "html_4Abtch": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/Ahinsa_119.jpg"
+            "image": "shopify://shop_images/DSC9213.jpg"
           }
         },
-        "html_EKT78K": {
+        "html_tiTGqN": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC0878.jpg"
+            "image": "shopify://shop_images/DSC9304.jpg"
           }
         },
-        "html_A7PxEb": {
+        "html_7dwhJj": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/Ahinsa_123.jpg"
+            "image": "shopify://shop_images/Ahinsa_031.jpg"
           }
         },
-        "html_6eiMgC": {
+        "html_3YNcdW": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/DSC1106.jpg"
+            "image": "shopify://shop_images/Ahinsa_017.jpg"
           }
         }
       },
       "block_order": [
-        "html_cQEcBF",
-        "html_GMgnaK",
-        "html_EKT78K",
-        "html_A7PxEb",
-        "html_6eiMgC"
+        "html_93zeBN",
+        "html_4Abtch",
+        "html_tiTGqN",
+        "html_7dwhJj",
+        "html_3YNcdW"
       ],
       "settings": {
         "image_width": 500,
-        "title": "Hava Sparkle Barefoot Sandals",
-        "subtitle": "A touch of starlight",
-        "text": "<p>You’ve grown to love the Hava sandals – so we added a subtle sparkle. Who says you can’t <strong>feel like a star</strong> on an ordinary day?</p>",
+        "title": "Yuva Barefoot Sneakers",
+        "subtitle": "So soft, you forget to take them off",
+        "text": "<p>Honest craftsmanship under your feet. <strong>Comfort designed by physiotherapists</strong>, precision from skilled shoemakers – and a timeless style that’s easy to wear.</p>",
         "button_label": "Get Them First",
-        "button_link": "https://ahinsashoes.com/collections/news/sparkle",
+        "button_link": "https://ahinsashoes.com/collections/news/yuva",
         "layout": "left",
         "divider": false
       }
@@ -431,7 +425,6 @@
     "product_story_sections_gXBitH",
     "629e967d-2ba6-445e-ac1d-37425cf62106",
     "afadba8b-f130-41fc-8a37-2cc6ce89906e",
-    "trusted_shop_widget_3CjFKt",
     "lp_text_and_image_gallery_4QD9Qa",
     "lp_text_and_image_gallery_J4gFYa",
     "78f72821-6c02-4943-8234-82d8128e2acd",
