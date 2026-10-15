@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "blocks_c9g9rh": {
@@ -10,7 +19,7 @@
             "announcement_text": "Summer sale — up to 30% off. The sale ends in:",
             "countdown_end_date": "2026-06-31",
             "countdown_end_time": "23:59",
-            "countdown_timezone": "Europe\/Prague",
+            "countdown_timezone": "Europe/Prague",
             "label_days": "Days",
             "label_hours": "Hodin",
             "label_minutes": "Minut",
@@ -47,7 +56,9 @@
           "blocks": {}
         }
       },
-      "block_order": ["ai_gen_block_021e354_qbWtCK"],
+      "block_order": [
+        "ai_gen_block_021e354_qbWtCK"
+      ],
       "disabled": true,
       "name": "Countdown bar",
       "settings": {}
@@ -59,10 +70,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/hero_banner_letni_boty.jpg",
-            "image_mob": "shopify:\/\/shop_images\/hero_banner_letni_boty_mobil.jpg",
             "collection_title": "Summer sale 2 – 2026",
-            "collection_link": "shopify:\/\/collections\/vyprodej",
+            "collection_link": "shopify://collections/vyprodej",
             "promotion_id": "promo_008",
             "promotion_name": "letni-vyprodej-2-2026",
             "creative_name": "Hero Banner",
@@ -74,8 +83,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "novinky",
-            "image": "shopify:\/\/shop_images\/novinky_hero_banner.jpg",
-            "image_mob": "shopify:\/\/shop_images\/novinky_hero_banner.jpg",
+            "image": "shopify://shop_images/novinky_hero_banner.jpg",
+            "image_mob": "shopify://shop_images/novinky_hero_banner.jpg",
             "collection_title": "New arrivals",
             "collection_link": "",
             "promotion_id": "promo_002",
@@ -89,10 +98,10 @@
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/aktivni_stelky_hero_banner.jpg",
-            "image_mob": "shopify:\/\/shop_images\/aktivni_stelky_hero_banner.jpg",
+            "image": "shopify://shop_images/aktivni_stelky_hero_banner.jpg",
+            "image_mob": "shopify://shop_images/aktivni_stelky_hero_banner.jpg",
             "collection_title": "Active insoles",
-            "collection_link": "shopify:\/\/pages\/aktivni-stelky",
+            "collection_link": "shopify://pages/aktivni-stelky",
             "promotion_id": "promo_003",
             "promotion_name": "Active insoles",
             "creative_name": "Hero Banner",
@@ -151,10 +160,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "diamond",
-            "image_icon": "shopify:\/\/shop_images\/ico-barefoot.png",
+            "image_icon": "shopify://shop_images/ico-barefoot.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -162,10 +171,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "shield2",
-            "image_icon": "shopify:\/\/shop_images\/ico-eco.png",
+            "image_icon": "shopify://shop_images/ico-eco.png",
             "icon": "las la-life-ring",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -173,10 +182,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "refesh",
-            "image_icon": "shopify:\/\/shop_images\/ico-replace.png",
+            "image_icon": "shopify://shop_images/ico-replace.png",
             "icon": "las la-undo-alt",
             "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "text": "<p>We cover postage.</p>",
             "html": ""
           }
         },
@@ -184,10 +193,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "like",
-            "image_icon": "shopify:\/\/shop_images\/ico-best.png",
+            "image_icon": "shopify://shop_images/ico-best.png",
             "icon": "",
             "title": "THE COMFORT LINE",
-            "text": "<p>Triple cushioning with the benefits of barefoot shoes.<\/p>",
+            "text": "<p>Triple cushioning with the benefits of barefoot shoes.</p>",
             "html": ""
           }
         }
@@ -251,30 +260,30 @@
           "settings": {
             "main_heading": "Barefoot shoes or Comfort?",
             "subheading": "Choose shoes according to how you want to walk.",
-            "supporting_text": "<p>Both lines share what matters most: a wide anatomical toe box, zero drop, and a design by physiotherapists. The main difference is how much you want to feel the ground beneath you.<\/p>",
+            "supporting_text": "<p>Both lines share what matters most: a wide anatomical toe box, zero drop, and a design by physiotherapists. The main difference is how much you want to feel the ground beneath you.</p>",
             "barefoot_badge_text": "BAREFOOT",
             "barefoot_headline": "Natural walking, as if barefoot",
-            "barefoot_text": "<p>A thin, flexible outsole lets you feel the terrain and actively engage your foot. <br\/>➡️ For anyone who wants the closest feeling to walking barefoot.<\/p>",
-            "barefoot_image": "shopify:\/\/shop_images\/img_8172_62c2b241-dfdb-491e-a81b-605daca6ecb3.jpg",
-            "barefoot_image_link": "https:\/\/ahinsashoes.cz\/collections\/all\/barefoot",
+            "barefoot_text": "<p>A thin, flexible outsole lets you feel the terrain and actively engage your foot. <br/>➡️ For anyone who wants the closest feeling to walking barefoot.</p>",
+            "barefoot_image": "shopify://shop_images/img_8172_62c2b241-dfdb-491e-a81b-605daca6ecb3.jpg",
+            "barefoot_image_link": "https://ahinsashoes.cz/collections/all/barefoot",
             "barefoot_benefit_1": "thin outsole: 2–5 mm",
             "barefoot_benefit_2": "maximum flexibility in every direction",
             "barefoot_benefit_3": "a clear sense of contact with the ground",
-            "barefoot_helper_text": "<strong>Best for<\/strong>: lovers of natural movement and more experienced barefoot walkers.",
+            "barefoot_helper_text": "<strong>Best for</strong>: lovers of natural movement and more experienced barefoot walkers.",
             "barefoot_button_text": "Barefoot shoes →",
-            "barefoot_button_link": "https:\/\/ahinsashoes.cz\/collections\/all\/barefoot",
+            "barefoot_button_link": "https://ahinsashoes.cz/collections/all/barefoot",
             "comfort_badge_text": "COMFORT",
             "comfort_headline": "Soft landing, barefoot principles",
-            "comfort_text": "<p>An Ahinsa specialty: the benefits of barefoot with a cushioned landing.<br\/>➡️ Simply for anyone who wants comfort with every step, even in the city.<\/p>",
-            "comfort_image": "shopify:\/\/shop_images\/ahinsa_098_35b4e80e-8b6f-4304-984d-20451107bf20.jpg",
-            "comfort_image_link": "https:\/\/ahinsashoes.cz\/collections\/all\/comfort",
+            "comfort_text": "<p>An Ahinsa specialty: the benefits of barefoot with a cushioned landing.<br/>➡️ Simply for anyone who wants comfort with every step, even in the city.</p>",
+            "comfort_image": "shopify://shop_images/ahinsa_098_35b4e80e-8b6f-4304-984d-20451107bf20.jpg",
+            "comfort_image_link": "https://ahinsashoes.cz/collections/all/comfort",
             "comfort_benefit_1": "wide toe box and zero drop",
             "comfort_benefit_2": "soft landings as you walk",
             "comfort_benefit_3": "comfort even on hard surfaces",
-            "comfort_helper_text": "<strong>Best for<\/strong>: city walking, all-day wear, and barefoot beginners.",
+            "comfort_helper_text": "<strong>Best for</strong>: city walking, all-day wear, and barefoot beginners.",
             "comfort_button_text": "Comfort shoes →",
-            "comfort_button_link": "https:\/\/ahinsashoes.cz\/collections\/all\/comfort",
-            "bottom_note": "<p>Not sure? <strong>Start with the Comfort line<\/strong>. If you want the closest feeling to walking barefoot, <strong>choose Barefoot<\/strong>.<\/p>",
+            "comfort_button_link": "https://ahinsashoes.cz/collections/all/comfort",
+            "bottom_note": "<p>Not sure? <strong>Start with the Comfort line</strong>. If you want the closest feeling to walking barefoot, <strong>choose Barefoot</strong>.</p>",
             "container_max_width": 1400,
             "section_padding_top": 30,
             "section_padding_bottom": 45,
@@ -355,13 +364,17 @@
           "blocks": {}
         }
       },
-      "block_order": ["ai_gen_block_db84391_AYJTkY"],
+      "block_order": [
+        "ai_gen_block_db84391_AYJTkY"
+      ],
       "name": "Barefoot vs. Comfort HP",
       "settings": {}
     },
     "featured_collection_FiYCLf": {
       "type": "featured-collection",
-      "custom_css": [".t4s-product-sizes {   color: black;   }"],
+      "custom_css": [
+        ".t4s-product-sizes {color: black;}"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -377,7 +390,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "nejcasteji-obouvate",
+        "collection": "customer-favorites",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
@@ -441,7 +454,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "do-mesta",
-            "image": "shopify:\/\/shop_images\/DSC9372.jpg",
+            "image": "shopify://shop_images/DSC9372.jpg",
             "icon": "las la-gem",
             "collection_title": "In the city",
             "collection_text": "",
@@ -457,7 +470,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "do-prirody",
-            "image": "shopify:\/\/shop_images\/Ahinsa_104.jpg",
+            "image": "shopify://shop_images/Ahinsa_104.jpg",
             "icon": "las la-gem",
             "collection_title": "Outdoors",
             "collection_text": "",
@@ -473,7 +486,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "spolecenske-boty",
-            "image": "shopify:\/\/shop_images\/Ahinsa_082.jpg",
+            "image": "shopify://shop_images/Ahinsa_082.jpg",
             "icon": "las la-gem",
             "collection_title": "Formal",
             "collection_text": "",
@@ -489,7 +502,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "zdrave-boty-na-behani-a-sport",
-            "image": "shopify:\/\/shop_images\/Ahinsa_web_9KC7731.jpg",
+            "image": "shopify://shop_images/Ahinsa_web_9KC7731.jpg",
             "icon": "las la-gem",
             "collection_title": "For sport",
             "collection_text": "",
@@ -587,7 +600,7 @@
         "bl_image_hB9BMQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/lukas-hp-new.png",
+            "image1": "shopify://shop_images/lukas-hp-new.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -624,13 +637,13 @@
             "txt_align": "start",
             "sub_heading": "Lukáš Klimpera",
             "heading": "“Don’t make compromises when it comes to health and comfort”",
-            "text": "<p>Shoes shouldn’t be healthy or stylish. You can have both. <\/p><p>Our barefoot and Comfort shoes are designed around the <strong>natural shape of the foot<\/strong>. They’re also based on research and <strong>my practice as a physiotherapist<\/strong>. That’s why I know you’ll feel good in them the first time you put them on.<\/p>",
+            "text": "<p>Shoes shouldn’t be healthy or stylish. You can have both. </p><p>Our barefoot and Comfort shoes are designed around the <strong>natural shape of the foot</strong>. They’re also based on research and <strong>my practice as a physiotherapist</strong>. That’s why I know you’ll feel good in them the first time you put them on.</p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "More about Ahinsa",
-            "button_link": "shopify:\/\/pages\/nas-pribeh",
+            "button_link": "shopify://pages/nas-pribeh",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "default",
@@ -640,7 +653,10 @@
           }
         }
       },
-      "block_order": ["bl_image_hB9BMQ", "bl_text_93ANHd"],
+      "block_order": [
+        "bl_image_hB9BMQ",
+        "bl_text_93ANHd"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -670,7 +686,9 @@
       "blocks": {
         "bl_heading_QHihj8": {
           "type": "bl_heading",
-          "settings": { "top_heading": "Recenze" }
+          "settings": {
+            "top_heading": "Recenze"
+          }
         },
         "bl_subheading_jCGEz4": {
           "type": "bl_subheading",
@@ -679,7 +697,10 @@
           }
         }
       },
-      "block_order": ["bl_heading_QHihj8", "bl_subheading_jCGEz4"],
+      "block_order": [
+        "bl_heading_QHihj8",
+        "bl_subheading_jCGEz4"
+      ],
       "name": "Top heading",
       "settings": {
         "design_heading": "9",
@@ -699,40 +720,13 @@
     },
     "1773331596ad9bd294": {
       "type": "apps",
-      "blocks": {
-        "heureka_reviews_heureka_review_WxHhap": {
-          "type": "shopify:\/\/apps\/heureka-reviews\/blocks\/heureka_review\/6b1d450a-0cbe-475a-b2f9-0bd342111b5d",
-          "settings": {
-            "title": "",
-            "heading_size": "h2",
-            "description": "",
-            "description_style": "body",
-            "reviews_to_show": 10,
-            "columns_desktop": 3,
-            "full_width": false,
-            "show_view_all": false,
-            "view_all_link": "https:\/\/obchody.heureka.cz\/ahinsashoes-cz\/recenze\/",
-            "view_all_style": "link",
-            "view_all_target": "_blank",
-            "enable_desktop_slider": true,
-            "review_record_preset": "0",
-            "show_percentage": false,
-            "show_stars": true,
-            "number_of_review_rows": 4,
-            "show_initials_name": "name",
-            "columns_mobile": "1",
-            "swipe_on_mobile": true
-          }
-        }
-      },
-      "block_order": ["heureka_reviews_heureka_review_WxHhap"],
       "settings": {}
     },
     "custom_liquid_8dHYje": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
-        "custom_liquid": "<div style=\"text-align:center\">\n  <a href=\"https:\/\/obchody.heureka.cz\/ahinsashoes-cz\/recenze\/\" target=\"_blank\" rel=\"noopener\">\n    See all reviews\n  <\/a>\n<\/div>\n<div style=\"margin-bottom: 20px;\">\n<\/div>",
+        "custom_liquid": "<div style=\"text-align:center\">\n  <a href=\"https://obchody.heureka.cz/ahinsashoes-cz/recenze/\" target=\"_blank\" rel=\"noopener\">\n    See all reviews\n  </a>\n</div>\n<div style=\"margin-bottom: 20px;\">\n</div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -750,36 +744,42 @@
         "logo_item_cV4Vfc": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/forbes_063611d7-29ee-48c4-91da-df18f29f2fc8.png",
+            "image": "shopify://shop_images/forbes_063611d7-29ee-48c4-91da-df18f29f2fc8.png",
             "url": ""
           }
         },
         "logo_item_Cy8mz3": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/czechcrunch_52403237-b571-4134-a444-184a164d6895.png",
+            "image": "shopify://shop_images/czechcrunch_52403237-b571-4134-a444-184a164d6895.png",
             "url": ""
           }
         },
         "logo_item_wpMfyi": {
           "type": "logo_item",
-          "settings": { "image": "shopify:\/\/shop_images\/bazaar.png", "url": "" }
+          "settings": {
+            "image": "shopify://shop_images/bazaar.png",
+            "url": ""
+          }
         },
         "logo_item_XciefR": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/seznamzpravy.png",
+            "image": "shopify://shop_images/seznamzpravy.png",
             "url": ""
           }
         },
         "logo_item_8Rdnm9": {
           "type": "logo_item",
-          "settings": { "image": "shopify:\/\/shop_images\/vogue.png", "url": "" }
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "url": ""
+          }
         },
         "logo_item_nYwgxR": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/marianne.png",
+            "image": "shopify://shop_images/marianne.png",
             "url": ""
           }
         }
@@ -845,19 +845,27 @@
         "article_zw3pMK": {
           "type": "article",
           "disabled": true,
-          "settings": { "article": "news\/ahinsa-marianne-podzim-2025" }
+          "settings": {
+            "article": "news/ahinsa-marianne-podzim-2025"
+          }
         },
         "article_g9JBmq": {
           "type": "article",
-          "settings": { "article": "news\/pohodlne-boty" }
+          "settings": {
+            "article": "news/pohodlne-boty"
+          }
         },
         "article_drM83U": {
           "type": "article",
-          "settings": { "article": "news\/myty-o-barefoot-obuvi" }
+          "settings": {
+            "article": "news/myty-o-barefoot-obuvi"
+          }
         },
         "article_hmQ8ft": {
           "type": "article",
-          "settings": { "article": "news\/jak-poznat-prodysnost" }
+          "settings": {
+            "article": "news/jak-poznat-prodysnost"
+          }
         }
       },
       "block_order": [
@@ -976,7 +984,7 @@
         "html_pQBcVy": {
           "type": "html",
           "settings": {
-            "html_content": "<script>\n        (function (w,d,s,o,f,js,fjs) {\n            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };\n            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];\n            js.id = '20-85f7dba955e715936a175d446bc6f115'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n        }(window, document, 'script', 'ecmwidget', 'https:\/\/d70shl7vidtft.cloudfront.net\/widget.js'));\n    <\/script>\n            <div id=\"f-20-85f7dba955e715936a175d446bc6f115\"><\/div>",
+            "html_content": "<script>\n        (function (w,d,s,o,f,js,fjs) {\n            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };\n            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];\n            js.id = '20-85f7dba955e715936a175d446bc6f115'; js.dataset.a = 'ahinsashoes'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n        }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));\n    </script>\n            <div id=\"f-20-85f7dba955e715936a175d446bc6f115\"></div>",
             "hidden_mobile": false
           }
         }
@@ -999,7 +1007,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "#c2b288",
         "cl_bg_gradient": "",
-        "image_bg": "shopify:\/\/shop_images\/DSC01909_1_3d948a01-ec80-4cd3-8640-3e077de51469.jpg",
+        "image_bg": "shopify://shop_images/DSC01909_1_3d948a01-ec80-4cd3-8640-3e077de51469.jpg",
         "parallax": false,
         "mg": ",,50px,",
         "pd": "100px,,100px,",
@@ -1017,7 +1025,7 @@
         "1646209857c01ad255-5": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AhinsaStudio_26_of_26.jpg",
+            "image": "shopify://shop_images/AhinsaStudio_26_of_26.jpg",
             "url": "",
             "product_1": "damske-svetle-hneda-spolecenska-barefoot-ananda",
             "pos_t_1": 55,
@@ -1039,7 +1047,7 @@
         "1646209857c01ad255-0": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_fc5afb24-2d56-47d1-9db2-2405bd498778.png",
+            "image": "shopify://shop_images/3_fc5afb24-2d56-47d1-9db2-2405bd498778.png",
             "url": "",
             "product_1": "damske-barefoot-tenisky-vida-bile",
             "pos_t_1": 65,
@@ -1061,8 +1069,8 @@
         "0051dfa6-432d-4e58-b343-7e0752f68b80": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ahinsa_web_9KC8811_404b4be1-7ad9-445e-aff0-4f9026f69feb.jpg",
-            "url": "shopify:\/\/collections\/all",
+            "image": "shopify://shop_images/Ahinsa_web_9KC8811_404b4be1-7ad9-445e-aff0-4f9026f69feb.jpg",
+            "url": "shopify://collections/all",
             "product_1": "damske-barefoot-sandaly-cerne",
             "pos_t_1": 39,
             "pos_l_1": 20,
@@ -1083,7 +1091,7 @@
         "ae083dc7-4338-494b-8f4b-e764a38d2a97": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_3222.jpg",
+            "image": "shopify://shop_images/DSC_3222.jpg",
             "url": "",
             "product_1": "damske-hneda-spolecenska-barefoot-ananda",
             "pos_t_1": 45,
@@ -1105,7 +1113,7 @@
         "1646209857c01ad255-4": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_3179.jpg",
+            "image": "shopify://shop_images/DSC_3179.jpg",
             "url": "",
             "product_1": "wide-fit-dusty",
             "pos_t_1": 74,
@@ -1127,7 +1135,7 @@
         "1646209857c01ad255-1": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC02036-2-Enhanced-NR_7f38b5a1-73c8-4450-92ae-fd13197ef780.jpg",
+            "image": "shopify://shop_images/DSC02036-2-Enhanced-NR_7f38b5a1-73c8-4450-92ae-fd13197ef780.jpg",
             "url": "",
             "product_1": "ribbed-stripe-top",
             "pos_t_1": 39,
@@ -1149,7 +1157,7 @@
         "1646209857c01ad255-2": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_2375_b3f51504-526d-4c94-bac2-23e4d7223d6d.jpg",
+            "image": "shopify://shop_images/DSC_2375_b3f51504-526d-4c94-bac2-23e4d7223d6d.jpg",
             "url": "",
             "product_1": "short-sleeved-hoodie",
             "pos_t_1": 30,
@@ -1171,7 +1179,7 @@
         "1646209857c01ad255-3": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AhinsaBotanickaGram_26_of_41_1_f172835b-5607-425e-bd63-39cf66ddf6e3.jpg",
+            "image": "shopify://shop_images/AhinsaBotanickaGram_26_of_41_1_f172835b-5607-425e-bd63-39cf66ddf6e3.jpg",
             "url": "",
             "product_1": "striped-long-sleeve-top",
             "pos_t_1": 50,
@@ -1276,7 +1284,9 @@
           }
         }
       },
-      "block_order": ["bl_text_TkmME7"],
+      "block_order": [
+        "bl_text_TkmME7"
+      ],
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -1310,36 +1320,34 @@
         "img_EAqUJr": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_From_2026-08-04_17-39-23.png",
-            "url": "https:\/\/www.instagram.com\/ahinsashoes.cz\/p\/Dbkf6T7jFso\/"
+            "image": "shopify://shop_images/Screenshot_From_2026-08-04_17-39-23.png",
+            "url": "https://www.instagram.com/ahinsashoes.cz/p/Dbkf6T7jFso/"
           }
         },
         "img_dDdYfN": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_From_2026-08-04_17-44-47.png",
-            "url": "https:\/\/www.instagram.com\/ahinsashoes.cz\/p\/DbJMrtljCPl\/"
+            "url": "https://www.instagram.com/ahinsashoes.cz/p/DbJMrtljCPl/"
           }
         },
         "img_ewGXLC": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_From_2026-08-04_17-40-38.png",
-            "url": "https:\/\/www.instagram.com\/ahinsashoes.cz\/p\/DazxeNLsHTs\/"
+            "url": "https://www.instagram.com/ahinsashoes.cz/p/DazxeNLsHTs/"
           }
         },
         "img_PNrLzJ": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_From_2026-08-15_00-10-07.png",
-            "url": "https:\/\/www.instagram.com\/ahinsashoes.cz\/reel\/Db-KgfGMTsw\/"
+            "image": "shopify://shop_images/Screenshot_From_2026-08-15_00-10-07.png",
+            "url": "https://www.instagram.com/ahinsashoes.cz/reel/Db-KgfGMTsw/"
           }
         },
         "img_D9Vwtt": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_From_2026-08-04_17-49-00.png",
-            "url": "https:\/\/www.instagram.com\/ahinsashoes.cz\/p\/Dah1kS_sRb6\/"
+            "image": "shopify://shop_images/Screenshot_From_2026-08-04_17-49-00.png",
+            "url": "https://www.instagram.com/ahinsashoes.cz/p/Dah1kS_sRb6/"
           }
         }
       },
