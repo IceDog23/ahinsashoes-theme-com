@@ -6153,6 +6153,7 @@
         "blocks": {
           "image_CFnqQx": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "top_subheading": "",
               "title": "<p style=\"color: white;\"><b>Ahinsa Light </b> collection\n– from <b>€89</b>\n</p>",
@@ -6288,10 +6289,9 @@
           },
           "image_geXtjg": {
             "type": "image",
-            "disabled": true,
             "settings": {
               "top_subheading": "",
-              "title": "<p style=\"color: white;\">Seasonal discounts up to 40 % </p>",
+              "title": "<p style=\"color: white;\">Seasonal sale <br>– everything <b>33 % OFF</b></p>",
               "title_size": 75,
               "subheading": "",
               "text_color": "#ffffff",
@@ -6299,8 +6299,8 @@
               "link_text": "Choose yours",
               "icon_h_1": 40,
               "arrow_1": true,
-              "promotion_click_id_1": "promotion_click_001",
-              "promotion_click_name_1": "Hero promotion jarni - Damy",
+              "promotion_click_id_1": "promotion_click_009",
+              "promotion_click_name_1": "Hero promotion seasonal sale – 10/26",
               "link_2": "",
               "link_text_2": "",
               "icon_h_2": 40,
@@ -6313,8 +6313,8 @@
               "image_mobile": "shopify://shop_images/hero_banner_spring_mobil_1.jpg",
               "overlay_opacity": 12,
               "focal_point": "center center",
-              "promotion_id": "promotion_001",
-              "promotion_name": "Hero promotion jarni",
+              "promotion_id": "promotion_009",
+              "promotion_name": "Hero promotion seasonal sale 10/26",
               "creative_name": "Hero banner",
               "location_id": "homepage",
               "type": "select_promotion"
