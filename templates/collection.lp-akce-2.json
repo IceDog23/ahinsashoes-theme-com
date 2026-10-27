@@ -60,7 +60,7 @@
       "settings": {
         "show_top_collections": false,
         "source": "1",
-        "menu": "main-menu",
+        "menu": "main-menu-new",
         "sort_collections": "alphabetical_reversed",
         "box_border": "top",
         "content_align": "center",
