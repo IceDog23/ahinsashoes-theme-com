@@ -1229,7 +1229,7 @@
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "3"
+              "col": "6"
             }
           },
           "cat_PJFNHG": {
@@ -1257,63 +1257,7 @@
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "3"
-            }
-          },
-          "cat_xgTKXD": {
-            "type": "cat",
-            "disabled": true,
-            "settings": {
-              "collection": "sale",
-              "collection_title": "Sale",
-              "collection_subtitle": "Products",
-              "collection_des": "14",
-              "title_cl": "#222222",
-              "title_cl_hover": "#222222",
-              "subtitle_cl": "#878787",
-              "count_cl": "#222222",
-              "border_cl": "#e5e5e5",
-              "open_link": "_self",
-              "space_bottom": 20,
-              "space_bottom_mb": 10,
-              "border": false,
-              "item_pd": 0,
-              "item_rd": 0,
-              "img_effect": "none",
-              "b_effect": "none",
-              "image_ratio": "ratio1_1",
-              "image_size": "cover",
-              "image_position": "8",
-              "collection_link": "",
-              "col": "3"
-            }
-          },
-          "cat_Qghwk6": {
-            "type": "cat",
-            "disabled": true,
-            "settings": {
-              "collection": "",
-              "collection_title": "Ahinsa + Preciosa",
-              "collection_subtitle": "",
-              "collection_des": "14",
-              "title_cl": "#202020",
-              "title_cl_hover": "#222222",
-              "subtitle_cl": "#878787",
-              "count_cl": "#222222",
-              "border_cl": "#e5e5e5",
-              "open_link": "_self",
-              "space_bottom": 20,
-              "space_bottom_mb": 10,
-              "border": false,
-              "item_pd": 0,
-              "item_rd": 0,
-              "img_effect": "none",
-              "b_effect": "none",
-              "image_ratio": "ratio1_1",
-              "image_size": "cover",
-              "image_position": "8",
-              "collection_link": "/blogs/news/ahinsa-preciosa",
-              "col": "3"
+              "col": "6"
             }
           },
           "45fa281e-2be5-4727-bd01-942824713769": {
@@ -1865,8 +1809,6 @@
           "583a30c7-369d-4a64-a51d-ca53c1685206",
           "cat_NnRnUp",
           "cat_PJFNHG",
-          "cat_xgTKXD",
-          "cat_Qghwk6",
           "45fa281e-2be5-4727-bd01-942824713769",
           "link3_TLR949",
           "link3_UTKRAh",
