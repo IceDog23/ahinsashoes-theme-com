@@ -599,7 +599,7 @@
           "menu_4GUrwE": {
             "type": "menu",
             "settings": {
-              "menu": "",
+              "menu": "top-bar-menu-new",
               "hide": false,
               "text_align": "end",
               "col": "6"
