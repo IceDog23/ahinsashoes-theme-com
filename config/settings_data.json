@@ -135,9 +135,9 @@
     "share_tumblr": false,
     "share_telegram": false,
     "share_whatsapp": false,
-    "social_facebook_link": "https://www.facebook.com/ahinsashoescz/",
+    "social_facebook_link": "https://www.facebook.com/ahinsashoescom",
     "social_twitter_link": "",
-    "social_instagram_link": "https://www.instagram.com/ahinsashoes.cz/",
+    "social_instagram_link": "https://www.instagram.com/ahinsashoes",
     "social_dribbble_link": "",
     "social_linkedin_link": "",
     "social_pinterest_link": "https://www.pinterest.com/ahinsashoes/",
@@ -1965,6 +1965,7 @@
               "lb": "",
               "lb_cl": "",
               "icons_op": "1",
+              "image": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
               "icon": ""
             }
           },
