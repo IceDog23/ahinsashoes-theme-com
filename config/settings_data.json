@@ -1856,7 +1856,7 @@
             "type": "catpr",
             "settings": {
               "title": "New arrivals/Sale",
-              "url": "",
+              "url": "shopify://collections/news",
               "lb": "",
               "lb_cl": "",
               "icons_op": "1",
