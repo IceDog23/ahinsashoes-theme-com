@@ -1742,7 +1742,7 @@
               "tt_icon_width": 30,
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "o-ahinse-new",
               "col": "3"
             }
           },
@@ -1756,7 +1756,7 @@
               "tt_icon_width": 30,
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "o-prodejne-new",
               "col": "3"
             }
           },
@@ -1770,7 +1770,7 @@
               "tt_icon_width": 30,
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "o-nakupu-new",
               "col": "3"
             }
           },
