@@ -188,7 +188,7 @@
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08": {
             "type": "copyR",
             "settings": {
-              "text": "Copyright © [year] <span class=\"t4s-cp\">Ahinsashoes.cz</span>",
+              "text": "Copyright © [year] <span class=\"t4s-cp\">Ahinsashoes.com</span>",
               "mgb": 0,
               "mgb_mb": 0
             }
@@ -196,7 +196,7 @@
           "html_RmUjjy": {
             "type": "html",
             "settings": {
-              "html_content": "<a href=\"https://ahinsashoes.cz/pages/cookies\">Cookies</a>",
+              "html_content": "<a href=\"https://ahinsashoes.com/pages/cookies\">Cookies</a>",
               "hidden_mobile": false
             }
           }
