@@ -301,7 +301,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Our shoes",
-              "menu": "",
+              "menu": "nase-boty-footer",
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "2",
@@ -339,7 +339,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "Useful links",
-              "menu": "",
+              "menu": "footer-menu-01",
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "2",
