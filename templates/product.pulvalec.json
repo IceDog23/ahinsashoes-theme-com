@@ -674,7 +674,7 @@
         "bl_image_gMY3G6"
       ],
       "settings": {
-        "section_key": "product_material",
+        "section_key": "",
         "design_heading": "1",
         "heading_align": "t4s-text-start",
         "top_heading": "",
@@ -1378,7 +1378,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
