@@ -3051,11 +3051,6 @@
         "disabled": false,
         "settings": {}
       },
-      "7008068068935494874": {
-        "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/trstd-login/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
-        "disabled": false,
-        "settings": {}
-      },
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
@@ -3079,6 +3074,11 @@
       "3869056181290550230": {
         "type": "shopify://apps/ecomail-marketing-platform/blocks/ecomail_tracking_code/019c2225-ad11-72d8-9b28-9e428aaf99e9",
         "disabled": false,
+        "settings": {}
+      },
+      "7008068068935494874": {
+        "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/trstd-login/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+        "disabled": true,
         "settings": {}
       }
     }
