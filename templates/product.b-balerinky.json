@@ -89,26 +89,6 @@
             "advance_pr_list": "{{ product.metafields.variants.product_variants.value }}"
           }
         },
-        "text_w_icon_XrVMdF": {
-          "type": "text_w_icon",
-          "settings": {
-            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
-            "width": 20,
-            "height": 20,
-            "text": "<p><strong>Free</strong> size exchange (we cover postage).</p>",
-            "m_bot": 10
-          }
-        },
-        "text_w_icon_DiPBgn": {
-          "type": "text_w_icon",
-          "settings": {
-            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
-            "width": 20,
-            "height": 20,
-            "text": "<p>Free shipping within the Czech Republic to <strong>Zásilkovna</strong>.</p>",
-            "m_bot": 10
-          }
-        },
         "text_w_icon_xF33Pm": {
           "type": "text_w_icon",
           "settings": {
@@ -155,8 +135,6 @@
         "judge_me_reviews_preview_badge_gmc93H",
         "description_R9cKb3",
         "form",
-        "text_w_icon_XrVMdF",
-        "text_w_icon_DiPBgn",
         "text_w_icon_xF33Pm",
         "text_w_icon_KtJaD8",
         "text_w_icon_GitFde",
@@ -1366,7 +1344,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
