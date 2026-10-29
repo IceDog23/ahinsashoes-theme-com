@@ -14,7 +14,10 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -40,7 +43,7 @@
         "2_QpeXnY": {
           "type": "2",
           "settings": {
-            "content": "<p>Sub title page content<\/p>",
+            "content": "<p>Sub title page content</p>",
             "fontf": "2",
             "text_cl": "#ffffff",
             "text_fs": 16,
@@ -59,7 +62,11 @@
           }
         }
       },
-      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
       "disabled": true,
       "settings": {
         "heading_fullwidth": true,
@@ -230,7 +237,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 500,
-        "image": "shopify:\/\/shop_images\/DSC02667.jpg",
+        "image": "shopify://shop_images/DSC02667.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -299,7 +306,9 @@
           }
         }
       },
-      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -326,13 +335,13 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "Every step begins in the foot",
-            "text": "<h4>– It’s the first place we touch the ground with every step. <\/h4><p><\/p><p>The feet constantly gather information about the surface and help the body <strong>adapt<\/strong> <strong>movement<\/strong>, <strong>balance<\/strong> and <strong>stability<\/strong>.<\/p><p>When the foot senses the ground well, it can work better with the toes, the arch and <strong>the rest of the body<\/strong>.<\/p>",
+            "text": "<h4>– It’s the first place we touch the ground with every step. </h4><p></p><p>The feet constantly gather information about the surface and help the body <strong>adapt</strong> <strong>movement</strong>, <strong>balance</strong> and <strong>stability</strong>.</p><p>When the foot senses the ground well, it can work better with the toes, the arch and <strong>the rest of the body</strong>.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/aktivni-stelky",
+            "button_link": "shopify://collections/aktivni-stelky",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -342,7 +351,9 @@
           }
         }
       },
-      "block_order": ["bl_text_8zWYYR"],
+      "block_order": [
+        "bl_text_8zWYYR"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "1",
@@ -382,13 +393,13 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "– Wake up your feet with every step –",
-            "text": "<p>You can<strong> easily fit Active Insoles into an ordinary day<\/strong> and give your feet <strong>gentle care.  <br\/><\/strong>On the way to work, waiting for the tram, on an evening walk or while exercising — every step is a chance to sense your feet a little better.<\/p><p>Active Insoles get along best with <strong>barefoot<\/strong> and <strong>anatomically shaped shoes<\/strong>, but you can also wear them in ordinary shoes with enough room.<\/p>",
+            "text": "<p>You can<strong> easily fit Active Insoles into an ordinary day</strong> and give your feet <strong>gentle care.  <br/></strong>On the way to work, waiting for the tram, on an evening walk or while exercising — every step is a chance to sense your feet a little better.</p><p>Active Insoles get along best with <strong>barefoot</strong> and <strong>anatomically shaped shoes</strong>, but you can also wear them in ordinary shoes with enough room.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/aktivni-stelky",
+            "button_link": "shopify://collections/aktivni-stelky",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -398,7 +409,9 @@
           }
         }
       },
-      "block_order": ["bl_text_97gCRp"],
+      "block_order": [
+        "bl_text_97gCRp"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -430,7 +443,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "Healthy shoes by physiotherapists",
             "text": "",
@@ -441,7 +454,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/Sport.png",
+            "image_icon": "shopify://shop_images/Sport.png",
             "icon": "las la-shipping-fast",
             "title": "They last for millions of steps",
             "text": "",
@@ -452,7 +465,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "They adapt to your feet — not the other way around",
             "text": "",
@@ -463,7 +476,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
             "title": "Free returns and exchanges",
             "text": "",
@@ -526,7 +539,7 @@
     "custom_liquid_fn3H6W": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"insoles\"><\/div>",
+        "custom_liquid": "<div id=\"insoles\"></div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -544,7 +557,7 @@
         "bl_image_UttTeT": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC02688.jpg",
+            "image1": "shopify://shop_images/DSC02688.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -579,7 +592,7 @@
             "txt_align": "start",
             "sub_heading": "They contain gentle stimulating elements that act on selected parts of the foot.",
             "heading": "How do Active insoles work?",
-            "text": "<p>These activation points:<\/p><ul><li><strong>improve the perception of contact between the foot<\/strong> and the ground<\/li><li>support <strong>more active engagement <\/strong>of the whole body<\/li><li>enable a <strong>sensitive<\/strong> <strong>step<\/strong> and an <strong>active<\/strong> <strong>push-off<\/strong> when walking<\/li><li><strong>support<\/strong> overall <strong>stability<\/strong> and support when standing<\/li><\/ul><p>This is not a passive correction, but an active stimulus that <strong>draws attention to how the foot actually works<\/strong>. Better perception gives the body an opportunity to engage more actively and learn a more natural movement.<\/p>",
+            "text": "<p>These activation points:</p><ul><li><strong>improve the perception of contact between the foot</strong> and the ground</li><li>support <strong>more active engagement </strong>of the whole body</li><li>enable a <strong>sensitive</strong> <strong>step</strong> and an <strong>active</strong> <strong>push-off</strong> when walking</li><li><strong>support</strong> overall <strong>stability</strong> and support when standing</li></ul><p>This is not a passive correction, but an active stimulus that <strong>draws attention to how the foot actually works</strong>. Better perception gives the body an opportunity to engage more actively and learn a more natural movement.</p>",
             "subhd_color": "#000000",
             "hd_color": "#000000",
             "des_color": "#000000",
@@ -595,7 +608,10 @@
           }
         }
       },
-      "block_order": ["bl_image_UttTeT", "bl_text_XXKmmE"],
+      "block_order": [
+        "bl_image_UttTeT",
+        "bl_text_XXKmmE"
+      ],
       "name": "Image with text 1",
       "settings": {
         "section_key": "",
@@ -627,7 +643,7 @@
     "custom_liquid_BBRMqU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"products\"><\/div>",
+        "custom_liquid": "<div id=\"products\"></div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -645,50 +661,50 @@
         "product_dyHpxE": {
           "type": "product",
           "settings": {
-            "link_product": "shopify:\/\/products\/active-insole-5",
+            "link_product": "shopify://products/active-insole-5",
             "title": "",
             "desc": "➡️ Suitable for those who want more comfort, a softer landing, or who wear a more ordinary type of cushioned footwear.",
-            "btn_txt": "Nakoupit",
+            "btn_txt": "View",
             "btn_url": ""
           }
         },
         "product_GDUL9c": {
           "type": "product",
           "settings": {
-            "link_product": "shopify:\/\/products\/active-insoles-3",
+            "link_product": "shopify://products/active-insoles-3",
             "title": "",
             "desc": "➡️ Suitable for more intense stimulation of the feet and more targeted support in movement therapy.",
-            "btn_txt": "Nakoupit",
+            "btn_txt": "View",
             "btn_url": ""
           }
         },
         "product_4wUDBE": {
           "type": "product",
           "settings": {
-            "link_product": "shopify:\/\/products\/active-insoles-4",
+            "link_product": "shopify://products/active-insoles-4",
             "title": "",
             "desc": "➡️ Suitable for barefoot shoes, or for anyone who wants gentle stimulation without unnecessary cushioning.",
-            "btn_txt": "Nakoupit",
+            "btn_txt": "View",
             "btn_url": ""
           }
         },
         "product_TRRBAA": {
           "type": "product",
           "settings": {
-            "link_product": "shopify:\/\/products\/active-insoles-2",
+            "link_product": "shopify://products/active-insoles-2",
             "title": "",
             "desc": "➡️ Suitable e.g. for a fallen arch, a pronated ankle, or loading the inner edge of the foot.",
-            "btn_txt": "Nakoupit",
+            "btn_txt": "View",
             "btn_url": ""
           }
         },
         "product_ydLyke": {
           "type": "product",
           "settings": {
-            "link_product": "shopify:\/\/products\/active-insoles-1",
+            "link_product": "shopify://products/active-insoles-1",
             "title": "",
             "desc": "➡️ Suitable for supporting a more active stride and stability, better awareness of the toes, and a more conscious push-off from the toes.",
-            "btn_txt": "Nakoupit",
+            "btn_txt": "View",
             "btn_url": ""
           }
         }
@@ -771,7 +787,7 @@
             "txt_align": "start",
             "sub_heading": "Clara Lewitová – physiotherapist",
             "heading": "\"The key is awareness.\"",
-            "text": "<p>The body changes best when it itself begins to perceive more clearly what it is doing.<\/p><p>How we <strong>stand<\/strong>, <strong>sit<\/strong>, <strong>walk<\/strong> or <strong>move<\/strong> is not just a matter of muscles. A large role is played by <strong>movement programs in our brain<\/strong> – learned ways of holding the body, of support and of movement.<\/p><p>But if we don't perceive the feet, the brain receives little information from them. And the body then often looks for stability elsewhere: in tension, overload, unnecessary compensation, or a passive “hanging” into the joints.<\/p><p><strong>Active insoles help the foot<\/strong> <strong>send clearer information again<\/strong>. They don't correct the body for you. They offer it a stimulus thanks to which it can <strong>engage more actively<\/strong> on its own.<\/p>",
+            "text": "<p>The body changes best when it itself begins to perceive more clearly what it is doing.</p><p>How we <strong>stand</strong>, <strong>sit</strong>, <strong>walk</strong> or <strong>move</strong> is not just a matter of muscles. A large role is played by <strong>movement programs in our brain</strong> – learned ways of holding the body, of support and of movement.</p><p>But if we don't perceive the feet, the brain receives little information from them. And the body then often looks for stability elsewhere: in tension, overload, unnecessary compensation, or a passive “hanging” into the joints.</p><p><strong>Active insoles help the foot</strong> <strong>send clearer information again</strong>. They don't correct the body for you. They offer it a stimulus thanks to which it can <strong>engage more actively</strong> on its own.</p>",
             "subhd_color": "#000000",
             "hd_color": "#000000",
             "des_color": "#000000",
@@ -789,7 +805,7 @@
         "bl_image_UALyG9": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Kopie_souboru_IMG_8786.jpg",
+            "image1": "shopify://shop_images/Kopie_souboru_IMG_8786.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -816,7 +832,10 @@
           }
         }
       },
-      "block_order": ["bl_text_BhUEMJ", "bl_image_UALyG9"],
+      "block_order": [
+        "bl_text_BhUEMJ",
+        "bl_image_UALyG9"
+      ],
       "name": "Image with text",
       "settings": {
         "design_heading": "1",
@@ -904,7 +923,7 @@
           "settings": {
             "enable_image": false,
             "title": "",
-            "text": "<p><em>I can finally feel my toes on the ground and press them into the insoles as I walk. They “make” me walk more slowly and become more aware of how I straighten my body.<\/em><\/p><h4><strong>Karolina<\/strong><\/h4>",
+            "text": "<p><em>I can finally feel my toes on the ground and press them into the insoles as I walk. They “make” me walk more slowly and become more aware of how I straighten my body.</em></p><h4><strong>Caroline</strong></h4>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -920,7 +939,7 @@
           "settings": {
             "enable_image": false,
             "title": "",
-            "text": "<p><em>After a few days of wearing the insoles I’m enjoying a pleasant release in my feet. It surprised me how you start paying attention and feel the foot engaging more.<\/em><\/p><h4><strong>Vendula<\/strong><\/h4>",
+            "text": "<p><em>After a few days of wearing the insoles I’m enjoying a pleasant release in my feet. It surprised me how you start paying attention and feel the foot engaging more.</em></p><h4><strong>Wendy</strong></h4>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -936,7 +955,7 @@
           "settings": {
             "enable_image": false,
             "title": "",
-            "text": "<p><em>Active insoles are like a daily foot massage. When I wear them I feel the contact between my feet and the ground much more.<\/em><\/p><h4><strong>Kristýna<\/strong><br\/><\/h4>",
+            "text": "<p><em>Active insoles are like a daily foot massage. When I wear them I feel the contact between my feet and the ground much more.</em></p><h4><strong>Chris</strong><br/></h4>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -1015,7 +1034,7 @@
         "bl_image_3dLT3y": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/IMG_8935_561c1024-bf8e-4765-960e-c8c970877fd1.jpg",
+            "image1": "shopify://shop_images/IMG_8935_561c1024-bf8e-4765-960e-c8c970877fd1.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1052,13 +1071,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "Want custom shoe insoles?",
-            "text": "<p>Our Active insoles are a great starting point for anyone who wants to <strong>give their feet gentle stimulation<\/strong> and <strong>support their natural work<\/strong>. If you’re looking for a solution tailored precisely to your needs, we also offer <strong>custom active insoles<\/strong> <strong>made in collaboration with a physiotherapist<\/strong>.<\/p><p>First comes a professional examination and a <strong>gait analysis<\/strong> using the <strong>Footscan<\/strong> tool. Based on the results, an insole is made by <strong>3D printing<\/strong> that takes into account the way your feet actually work when you walk. Following the physiotherapist’s recommendation, it can be complemented with individually placed stimulation elements.<\/p><p>A great advantage of the individual examination is that it doesn’t focus on the feet alone. The physiotherapist <strong>assesses your whole posture<\/strong>, the way you move, and how the individual parts of the musculoskeletal system relate to one another. <strong>That’s how a solution is created that takes into account not only your feet, but the functioning of your whole body<\/strong>.<\/p>",
+            "text": "<p>Our Active insoles are a great starting point for anyone who wants to <strong>give their feet gentle stimulation</strong> and <strong>support their natural work</strong>. If you’re looking for a solution tailored precisely to your needs, we also offer <strong>custom active insoles</strong> <strong>made in collaboration with a physiotherapist</strong>.</p><p>First comes a professional examination and a <strong>gait analysis</strong> using the <strong>Footscan</strong> tool. Based on the results, an insole is made by <strong>3D printing</strong> that takes into account the way your feet actually work when you walk. Following the physiotherapist’s recommendation, it can be complemented with individually placed stimulation elements.</p><p>A great advantage of the individual examination is that it doesn’t focus on the feet alone. The physiotherapist <strong>assesses your whole posture</strong>, the way you move, and how the individual parts of the musculoskeletal system relate to one another. <strong>That’s how a solution is created that takes into account not only your feet, but the functioning of your whole body</strong>.</p>",
             "subhd_color": "#000000",
             "hd_color": "#000000",
             "des_color": "#000000",
             "use_shadow": false,
             "button_label": "I want custom insoles",
-            "button_link": "http:\/\/www.lukasklimpera.cz\/",
+            "button_link": "http://www.lukasklimpera.cz/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "outline",
@@ -1068,7 +1087,11 @@
           }
         }
       },
-      "block_order": ["bl_image_3dLT3y", "bl_text_k7XziE"],
+      "block_order": [
+        "bl_image_3dLT3y",
+        "bl_text_k7XziE"
+      ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "design_heading": "1",
@@ -1102,7 +1125,7 @@
           "settings": {
             "icon": "none",
             "title": "Who are active insoles not for? When to be careful?",
-            "content": "<p>In most cases you can enjoy Active Insoles without worry. If you’re dealing with health issues, however, <strong>we recommend consulting a physiotherapist or a doctor before using them<\/strong>. Especially in these cases:<\/p><ul><li>you have significant or long-term foot pain<\/li><li>you’re freshly recovering from an injury or surgery<\/li><li>you experience neurological difficulties or loss of sensation in the feet<\/li><li>other more serious health issues<\/li><\/ul>"
+            "content": "<p>In most cases you can enjoy Active Insoles without worry. If you’re dealing with health issues, however, <strong>we recommend consulting a physiotherapist or a doctor before using them</strong>. Especially in these cases:</p><ul><li>you have significant or long-term foot pain</li><li>you’re freshly recovering from an injury or surgery</li><li>you experience neurological difficulties or loss of sensation in the feet</li><li>other more serious health issues</li></ul>"
           }
         },
         "accor_item_PVK77E": {
@@ -1110,7 +1133,7 @@
           "settings": {
             "icon": "none",
             "title": "Can I use acupressure shoe insoles for exercise and running too?",
-            "content": "<p>Yes. You can use Active Insoles for strength training, running and other movement. Gentle stimulation of the feet helps you better sense support and how the whole body is involved when you exercise. When running, they can support a more active push-off and a better sense of contact with the ground. We do recommend starting slowly, though, and giving your feet time to adjust.<\/p>"
+            "content": "<p>Yes. You can use Active Insoles for strength training, running and other movement. Gentle stimulation of the feet helps you better sense support and how the whole body is involved when you exercise. When running, they can support a more active push-off and a better sense of contact with the ground. We do recommend starting slowly, though, and giving your feet time to adjust.</p>"
           }
         },
         "accor_item_Q6mnqX": {
@@ -1118,7 +1141,7 @@
           "settings": {
             "icon": "none",
             "title": "Which footwear are active insoles suitable for?",
-            "content": "<p>They work best in barefoot and anatomically shaped footwear, where the feet have enough room for natural movement. But you can also use them in ordinary shoes, as long as they aren’t too narrow or tight.<\/p>"
+            "content": "<p>They work best in barefoot and anatomically shaped footwear, where the feet have enough room for natural movement. But you can also use them in ordinary shoes, as long as they aren’t too narrow or tight.</p>"
           }
         },
         "accor_item_bnxjgW": {
@@ -1126,15 +1149,15 @@
           "settings": {
             "icon": "none",
             "title": "Are active insoles a medical device?",
-            "content": "<p>No. Active insoles are not a medical device and are not a substitute for professional diagnosis, physiotherapy or medical care. They are designed to support the perception of the feet and their more active engagement when walking and standing.<\/p><p><strong>Before use we recommend consulting a doctor or physiotherapist especially in the case of:<\/strong><\/p><ul><li>diabetes, especially with reduced sensitivity of the feet or neuropathy,<\/li><li>sensory disorders,<\/li><li>open wounds, pressure sores or skin problems,<\/li><li>an acute injury or pain,<\/li><li>significant neurological difficulties,<\/li><li>serious balance or coordination disorders,<\/li><li>uncertainty as to whether the insoles are suitable for you.<\/li><\/ul><p>If you experience pain, a worsening of difficulties or an unpleasant reaction, stop using them and consult a specialist.<\/p>"
+            "content": "<p>No. Active insoles are not a medical device and are not a substitute for professional diagnosis, physiotherapy or medical care. They are designed to support the perception of the feet and their more active engagement when walking and standing.</p><p><strong>Before use we recommend consulting a doctor or physiotherapist especially in the case of:</strong></p><ul><li>diabetes, especially with reduced sensitivity of the feet or neuropathy,</li><li>sensory disorders,</li><li>open wounds, pressure sores or skin problems,</li><li>an acute injury or pain,</li><li>significant neurological difficulties,</li><li>serious balance or coordination disorders,</li><li>uncertainty as to whether the insoles are suitable for you.</li></ul><p>If you experience pain, a worsening of difficulties or an unpleasant reaction, stop using them and consult a specialist.</p>"
           }
         },
         "accor_item_8TwcCn": {
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Pomohou mi od bolesti nohou, kolen nebo zad?",
-            "content": "<p>Unfortunately, we can’t promise that. The feet do affect how the whole body moves, so getting them more involved can contribute to more comfortable movement. If you’re dealing with pain or other health issues, we recommend consulting a physiotherapist or a doctor.<\/p>"
+            "title": "Will Active insoles help me with foot, knee or back pain?",
+            "content": "<p>Unfortunately, we can’t promise that. The feet do affect how the whole body moves, so getting them more involved can contribute to more comfortable movement. If you’re dealing with pain or other health issues, we recommend consulting a physiotherapist or a doctor.</p>"
           }
         },
         "accor_item_Akt7Rx": {
@@ -1142,7 +1165,7 @@
           "settings": {
             "icon": "none",
             "title": "When will I notice the first difference?",
-            "content": "<p>Everyone is a little different. Some people feel a change the first time they put them on; for others it takes a while for the feet to get used to the new stimulus. That’s why we recommend starting gradually and slowly increasing the wear time.<\/p>"
+            "content": "<p>Everyone is a little different. Some people feel a change the first time they put them on; for others it takes a while for the feet to get used to the new stimulus. That’s why we recommend starting gradually and slowly increasing the wear time.</p>"
           }
         },
         "accor_item_DPwrqE": {
@@ -1150,7 +1173,7 @@
           "settings": {
             "icon": "none",
             "title": "Can I trim the insoles to the shape of the shoe?",
-            "content": "<p>Yes. You can easily trim the insoles to the shape of your shoes. We recommend trimming them gradually, a little at a time. After trimming, they can no longer be returned as unused goods, but the warranty of course still applies.<\/p>"
+            "content": "<p>Yes. You can easily trim the insoles to the shape of your shoes. We recommend trimming them gradually, a little at a time. After trimming, they can no longer be returned as unused goods, but the warranty of course still applies.</p>"
           }
         },
         "accor_item_Hw3UhE": {
@@ -1158,7 +1181,7 @@
           "settings": {
             "icon": "none",
             "title": "Can the insoles be worn with socks?",
-            "content": "<p>The insoles are designed primarily to be worn barefoot. <strong>You can easily adjust the intensity with a sock <\/strong>– a thin sock softens the stimulation slightly, a thicker sock reduces it further.<\/p><p>The sensation should be clear, but pleasant. Not painful.<\/p>"
+            "content": "<p>The insoles are designed primarily to be worn barefoot. <strong>You can easily adjust the intensity with a sock </strong>– a thin sock softens the stimulation slightly, a thicker sock reduces it further.</p><p>The sensation should be clear, but pleasant. Not painful.</p>"
           }
         },
         "accor_item_6bgRQT": {
@@ -1166,7 +1189,7 @@
           "settings": {
             "icon": "none",
             "title": "How to properly care for shoe insoles?",
-            "content": "<p>Just air them out regularly and wipe them with a damp cloth as needed. We don’t recommend washing them in the machine or drying them on a direct heat source.<\/p>"
+            "content": "<p>Just air them out regularly and wipe them with a damp cloth as needed. We don’t recommend washing them in the machine or drying them on a direct heat source.</p>"
           }
         },
         "accor_item_GMUnwy": {
@@ -1174,7 +1197,7 @@
           "settings": {
             "icon": "none",
             "title": "Can children use active insoles too?",
-            "content": "<p>At the moment, the Active insoles are designed for adults in sizes 37–46. We are not preparing a children’s version yet.<\/p>"
+            "content": "<p>At the moment, the Active insoles are designed for adults in sizes 37–46. We are not preparing a children’s version yet.</p>"
           }
         },
         "accor_item_T6jprW": {
@@ -1182,7 +1205,7 @@
           "settings": {
             "icon": "none",
             "title": "How do returns and claims work?",
-            "content": "<p>Active insoles come with the standard statutory warranty. Unused and undamaged insoles can be returned within 14 days. Please note: if you trim them or otherwise modify them, they can no longer be returned as unused goods.<\/p>"
+            "content": "<p>Active insoles come with the standard statutory warranty. Unused and undamaged insoles can be returned within 14 days. Please note: if you trim them or otherwise modify them, they can no longer be returned as unused goods.</p>"
           }
         }
       },
@@ -1242,7 +1265,7 @@
             "height_tb": 400,
             "custom_mb": true,
             "height_mb": 300,
-            "image": "shopify:\/\/shop_images\/infografika_active_insoles.png",
+            "image": "shopify://shop_images/infografika_active_insoles.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -1278,7 +1301,10 @@
           }
         }
       },
-      "block_order": ["b_item_6LgnLz"],
+      "block_order": [
+        "b_item_6LgnLz"
+      ],
+      "disabled": true,
       "name": "Banner custom",
       "settings": {
         "image_ratio": "ratioadapt",
@@ -1306,7 +1332,7 @@
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
-        "custom_liquid": "<div class=\"active-insoles-warning\">\n  <span class=\"active-insoles-warning__icon\" aria-hidden=\"true\">ℹ️<\/span>\n  <p class=\"active-insoles-warning__text\">\n    Before using active insoles, we recommend consulting a doctor or physiotherapist.\n  <\/p>\n<\/div>\n\n<style>\n  .active-insoles-warning {\n    display: flex;\n    align-items: flex-start;\n    gap: 10px;\n    max-width: 900px;\n    margin: 20px auto;\n    padding: 14px 18px;\n    background: #f7f4ee;\n    border-radius: 10px;\n    color: #2f2f2f;\n  }\n\n  .active-insoles-warning__icon {\n    flex-shrink: 0;\n    font-size: 16px;\n    line-height: 1.5;\n  }\n\n  .active-insoles-warning__text {\n    margin: 0;\n    font-size: 14px;\n    line-height: 1.5;\n  }\n\n  @media screen and (max-width: 749px) {\n    .active-insoles-warning {\n      margin: 16px 12px;\n      padding: 12px 14px;\n    }\n\n    .active-insoles-warning__text {\n      font-size: 13px;\n    }\n  }\n<\/style>",
+        "custom_liquid": "<div class=\"active-insoles-warning\">\n  <span class=\"active-insoles-warning__icon\" aria-hidden=\"true\">ℹ️</span>\n  <p class=\"active-insoles-warning__text\">\n    Before using active insoles, we recommend consulting a doctor or physiotherapist.\n  </p>\n</div>\n\n<style>\n  .active-insoles-warning {\n    display: flex;\n    align-items: flex-start;\n    gap: 10px;\n    max-width: 900px;\n    margin: 20px auto;\n    padding: 14px 18px;\n    background: #f7f4ee;\n    border-radius: 10px;\n    color: #2f2f2f;\n  }\n\n  .active-insoles-warning__icon {\n    flex-shrink: 0;\n    font-size: 16px;\n    line-height: 1.5;\n  }\n\n  .active-insoles-warning__text {\n    margin: 0;\n    font-size: 14px;\n    line-height: 1.5;\n  }\n\n  @media screen and (max-width: 749px) {\n    .active-insoles-warning {\n      margin: 16px 12px;\n      padding: 12px 14px;\n    }\n\n    .active-insoles-warning__text {\n      font-size: 13px;\n    }\n  }\n</style>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -1332,13 +1358,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "How does it work?",
-            "text": "<p>It’s simple: Add three pairs of Ahinsa shoes to your cart and <strong>enter the code RADOST.<\/strong><\/p><p>We’ll <strong>automatically deduct<\/strong> the price of the least expensive pair.<\/p><p>A few more things you should know:<\/p><ul><li>The offer applies to <strong>all Ahinsa shoes<\/strong>. Even sale pairs.<\/li><li>We’ll gladly <strong>exchange the shoes free of charge<\/strong>. <\/li><li><strong>Returning one of the pairs?<\/strong> Unfortunately the free pair no longer applies.<\/li><\/ul>",
+            "text": "<p>It’s simple: Add three pairs of Ahinsa shoes to your cart and <strong>enter the code RADOST.</strong></p><p>We’ll <strong>automatically deduct</strong> the price of the least expensive pair.</p><p>A few more things you should know:</p><ul><li>The offer applies to <strong>all Ahinsa shoes</strong>. Even sale pairs.</li><li>We’ll gladly <strong>exchange the shoes free of charge</strong>. </li><li><strong>Returning one of the pairs?</strong> Unfortunately the free pair no longer applies.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "Jdu si vybrat",
-            "button_link": "\/collections\/all",
+            "button_link": "/collections/all",
             "open_link": "_blank",
             "btn_icon": true,
             "button_style": "outline",
@@ -1350,7 +1376,7 @@
         "bl_image_xiTHBH": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/dsc_9983_20240508_1c244717-5e05-4b2d-a32b-60beca4c08ac.jpg",
+            "image1": "shopify://shop_images/dsc_9983_20240508_1c244717-5e05-4b2d-a32b-60beca4c08ac.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1377,7 +1403,10 @@
           }
         }
       },
-      "block_order": ["bl_text_pbiyyh", "bl_image_xiTHBH"],
+      "block_order": [
+        "bl_text_pbiyyh",
+        "bl_image_xiTHBH"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "1",
@@ -1409,7 +1438,7 @@
         "bl_image_AfxDDc": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_3250-HDR.jpg",
+            "image1": "shopify://shop_images/DSC_3250-HDR.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1446,13 +1475,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "Share the joy at the store, too",
-            "text": "<p>The 2 + 1 pair free offer <strong>is also running at our Prague store<\/strong>. Stop by and experience the joy of Ahinsa shoes on your own feet.<\/p>",
+            "text": "<p>The 2 + 1 pair free offer <strong>is also running at our Prague store</strong>. Stop by and experience the joy of Ahinsa shoes on your own feet.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "Where is the store?",
-            "button_link": "shopify:\/\/pages\/prodejna",
+            "button_link": "shopify://pages/prodejna",
             "open_link": "_blank",
             "btn_icon": true,
             "button_style": "outline",
@@ -1462,7 +1491,10 @@
           }
         }
       },
-      "block_order": ["bl_image_AfxDDc", "bl_text_QM7mQC"],
+      "block_order": [
+        "bl_image_AfxDDc",
+        "bl_text_QM7mQC"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "1",
@@ -1495,10 +1527,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -1506,10 +1538,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -1517,10 +1549,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
             "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "text": "<p>We cover postage.</p>",
             "html": ""
           }
         },
@@ -1528,10 +1560,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
