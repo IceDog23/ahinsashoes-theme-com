@@ -35,10 +35,16 @@
         },
         "3_qzLjgt": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 5 }
+          "settings": {
+            "breadcrumb_color": "#202020",
+            "brc_mgb": 5
+          }
         }
       },
-      "block_order": ["1_yA8EAh", "3_qzLjgt"],
+      "block_order": [
+        "1_yA8EAh",
+        "3_qzLjgt"
+      ],
       "custom_css": [],
       "settings": {
         "heading_fullwidth": false,
@@ -92,7 +98,7 @@
           "type": "customer_service",
           "settings": {
             "title": "Customer service",
-            "rich_text": "<p>How can we help?<\/p>\n<div class=\"ml-1\">\n   •  Questions about an order<br>\n   •  <a href=\"\/pages\/how-to-choose-your-size\">Help with selecting a product<\/a><br>\n   •  <a href=\"\/policies\/refund-policy\">Exchanges or returns<\/a><br>\n   •  …and anything else concerning your purchase\n<\/div>",
+            "rich_text": "<p>How can we help?</p>\n<div class=\"ml-1\">\n   •  Questions about an order<br>\n   •  <a href=\"/pages/how-to-choose-your-size\">Help with selecting a product</a><br>\n   •  <a href=\"/policies/refund-policy\">Exchanges or returns</a><br>\n   •  …and anything else concerning your purchase\n</div>",
             "phone": "",
             "phone_url": "",
             "operation_time": "",
@@ -108,17 +114,20 @@
         "store_prague_7NH3PW": {
           "type": "store_prague",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_3243-HDR.jpg",
+            "image": "shopify://shop_images/DSC_3243-HDR.jpg",
             "title": "Prague store",
-            "rich_text": "Come try Ahinsa shoes on your own feet. We’ll help you choose the right model and size. <br>\n<br>\n📍 Londýnská 309\/81, Prague 2 - Vinohrady",
-            "btn_text": "Store details",
-            "btn_url": "shopify:\/\/pages\/prodejna",
+            "rich_text": "Come try Ahinsa shoes on your own feet. We’ll help you choose the right model and size. <br>\n<br>\n📍 Londýnská 309/81, Prague 2 - Vinohrady",
+            "btn_text": "",
+            "btn_url": "shopify://pages/prodejna",
             "url_text": "",
-            "url": "\/"
+            "url": "/"
           }
         }
       },
-      "block_order": ["customer_service_RCVKgV", "store_prague_7NH3PW"],
+      "block_order": [
+        "customer_service_RCVKgV",
+        "store_prague_7NH3PW"
+      ],
       "settings": {}
     },
     "page_contact_row_2_KYeiwJ": {
@@ -137,7 +146,7 @@
           "settings": {
             "title": "Address for correspondence",
             "subtitle": "Send everything else here.",
-            "address": "Ahinsa shoes<br>\nLondýnská 309\/81<br>\n120 00 Praha 2 - Vinohrady<br>\nCzech Republic"
+            "address": "Ahinsa shoes<br>\nLondýnská 309/81<br>\n120 00 Praha 2 - Vinohrady<br>\nCzech Republic"
           }
         },
         "custom_content_FPCx9j": {
@@ -145,7 +154,7 @@
           "settings": {
             "title": "Invoicing details",
             "subtitle": "",
-            "address": "Walk free, s. r. o.<br>IČO (ID number): 04724470<br>DIČ (tax ID number): CZ04724470<br><br><b>Company headquarters:<\/b><br>Vnější 17, Prague 4, 141 00<br>Czech Republic"
+            "address": "Walk free, s. r. o.<br>IČO (ID number): 04724470<br>DIČ (tax ID number): CZ04724470<br><br><b>Company headquarters:</b><br>Vnější 17, Prague 4, 141 00<br>Czech Republic"
           }
         }
       },
@@ -160,10 +169,10 @@
         "rich_text": "Get in touch with the founder of Ahinsa shoes, Lukáš Klimpera.",
         "mail": "info@ahinsashoes.com",
         "mail_url": " info@ahinsashoes.com",
-        "image": "shopify:\/\/shop_images\/lukas_2c802e49-44d2-408d-a575-84482141153e.jpg",
+        "image": "shopify://shop_images/lukas_2c802e49-44d2-408d-a575-84482141153e.jpg",
         "rich_text2": "What you can send to Lukáš:<br>\n<br>\n   •  Feedback<br>\n   •  Ideas for improving Ahinsa shoes",
         "title2": "Feel like working with us?",
-        "rich_text3": "Want to sell Ahinsa shoes or have another idea for cooperation? Let’s talk about it.<br>\n<br>\nWrite to us at <a href=\"mailto:%20info@ahinsashoes.com\"> info@ahinsashoes.com<\/a><a>.<\/a>\n<br>\n<br>\n<br>\n<h4> Are you interested in wholesale or B2B cooperation?<\/h4>\n<br>\nWrite to us at <a href=\"mailto:wholesale@ahinsashoes.com\"> wholesale@ahinsashoes.com<\/a><a>.<\/a>"
+        "rich_text3": "Want to sell Ahinsa shoes or have another idea for cooperation? Let’s talk about it.<br>\n<br>\nWrite to us at <a href=\"mailto:%20info@ahinsashoes.com\"> info@ahinsashoes.com</a><a>.</a>\n<br>\n<br>\n<br>\n<h4> Are you interested in wholesale or B2B cooperation?</h4>\n<br>\nWrite to us at <a href=\"mailto:wholesale@ahinsashoes.com\"> wholesale@ahinsashoes.com</a><a>.</a>"
       }
     },
     "shipping_Y9Dfeb": {
@@ -173,10 +182,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -184,10 +193,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "help",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-life-ring",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -195,10 +204,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "refesh",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-undo-alt",
             "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "text": "<p>We cover postage.</p>",
             "html": ""
           }
         },
@@ -206,10 +215,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "door-lock",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-lock",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
