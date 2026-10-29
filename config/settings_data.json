@@ -1948,7 +1948,7 @@
             "type": "menu",
             "settings": {
               "title": "Accessories",
-              "url": "",
+              "url": "shopify://collections/accessories",
               "open_link": "_self",
               "menu": "dopl-ky-mob-new",
               "lb": "",
