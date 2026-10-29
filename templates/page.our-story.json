@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -5,7 +14,10 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -50,7 +62,11 @@
           }
         }
       },
-      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
       "disabled": true,
       "settings": {
         "heading_fullwidth": true,
@@ -157,7 +173,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 400,
-        "image": "shopify:\/\/shop_images\/kopie-souboru-img_8470-1.jpg",
+        "image": "shopify://shop_images/kopie-souboru-img_8470-1.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -213,7 +229,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>Without these people, Ahinsa shoes would have never existed<\/h2><p><strong>Vishwaguru Paramhans Svámí Mahéšvaránanda<\/strong><\/p><p>A master of yoga. His teachings on love and non-violence are based on traditional Eastern wisdom, but adapted to today’s way of life. He is the founder of the Yoga in Daily Life system, which links Eastern tradition with the knowledge of Western physicians and physiotherapists.<\/p><p><strong>Physiotherapist Clara Lewitová<\/strong><\/p><p>A recognized expert who is debunking many of the dogmatic practices of rehabilitation. She teaches a new approach that observes the patient without using constrictive traditional methods. She is the daughter of Prof. MUDr. Karel Lewit, one of the founders of the Prague School of Rehabilitation.<\/p><p><strong>Nina and Tomáš Klimpera<\/strong><\/p><p>Lukáš’s parents, who have always said: “Fortune favors the brave.” That’s why our founder wasn’t afraid to take matters into his own hands. Their lifelong diligence and hard-working nature are still an inspiration to him today.<\/p><p><strong>Lukáš Klimpera’s patients<\/strong><\/p><p>It was their needs that led Lukáš on his search for a healthy stride.<\/p>",
+            "text": "<h2>Without these people, Ahinsa shoes would have never existed</h2><p><strong>Vishwaguru Paramhans Svámí Mahéšvaránanda</strong></p><p>A master of yoga. His teachings on love and non-violence are based on traditional Eastern wisdom, but adapted to today’s way of life. He is the founder of the Yoga in Daily Life system, which links Eastern tradition with the knowledge of Western physicians and physiotherapists.</p><p><strong>Physiotherapist Clara Lewitová</strong></p><p>A recognized expert who is debunking many of the dogmatic practices of rehabilitation. She teaches a new approach that observes the patient without using constrictive traditional methods. She is the daughter of Prof. MUDr. Karel Lewit, one of the founders of the Prague School of Rehabilitation.</p><p><strong>Nina and Tomáš Klimpera</strong></p><p>Lukáš’s parents, who have always said: “Fortune favors the brave.” That’s why our founder wasn’t afraid to take matters into his own hands. Their lifelong diligence and hard-working nature are still an inspiration to him today.</p><p><strong>Lukáš Klimpera’s patients</strong></p><p>It was their needs that led Lukáš on his search for a healthy stride.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -229,7 +245,9 @@
           }
         }
       },
-      "block_order": ["bl_text_eQKCzJ"],
+      "block_order": [
+        "bl_text_eQKCzJ"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -281,7 +299,9 @@
           }
         }
       },
-      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -307,7 +327,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>The first pair was made for his son<\/h3><p>As a physiotherapist, Lukáš used to teach people how to walk healthily. But what was the use? After therapy they slipped back into shoes that constricted them and hindered their natural movement.<\/p><p>That's why <strong>he set out to find better footwear<\/strong> – for them, for himself and for his family. But he couldn't find <strong>shoes that were all of these at once<\/strong>:<\/p><p>• healthy<br\/>• high-quality<br\/>• cruelty-free to people and animals<\/p><p>But he didn't give up. He discovered <strong>high-quality European materials<\/strong>, tested them and researched them. This is how the <strong>first pair of Ahinsa shoes was made<\/strong>. Healthy sandals for Lukáš's then 3-year-old son.<\/p>",
+            "text": "<h3>The first pair was made for his son</h3><p>As a physiotherapist, Lukáš used to teach people how to walk healthily. But what was the use? After therapy they slipped back into shoes that constricted them and hindered their natural movement.</p><p>That's why <strong>he set out to find better footwear</strong> – for them, for himself and for his family. But he couldn't find <strong>shoes that were all of these at once</strong>:</p><p>• healthy<br/>• high-quality<br/>• cruelty-free to people and animals</p><p>But he didn't give up. He discovered <strong>high-quality European materials</strong>, tested them and researched them. This is how the <strong>first pair of Ahinsa shoes was made</strong>. Healthy sandals for Lukáš's then 3-year-old son.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -325,7 +345,7 @@
         "bl_image_maapLQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/kopie-souboru-img_8749-1.jpg",
+            "image1": "shopify://shop_images/kopie-souboru-img_8749-1.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -352,7 +372,10 @@
           }
         }
       },
-      "block_order": ["bl_text_QFR6Gw", "bl_image_maapLQ"],
+      "block_order": [
+        "bl_text_QFR6Gw",
+        "bl_image_maapLQ"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -383,7 +406,7 @@
         "bl_image_AfxDDc": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/AUM_4173.jpg",
+            "image1": "shopify://shop_images/AUM_4173.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -420,7 +443,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>The beginning was rough<\/h3><p><strong>Our first shoe-making machines were old enough to remember Baťa<\/strong>, and a friend of ours even welded one together by hand for us. Negotiating with suppliers was also tough.<\/p><p>“Of course we'll deliver our material to you,” they said to Lukáš as a newcomer, “you'll just have to buy a kilometer of it.” And so a kilometer of excellent material made its way to our tiny workshop in Moravia, where we slowly began to cut from it to make our first shoes.<\/p><p>And it was worth it. Today we <strong>make shoes for the whole world<\/strong> and thanks to us, thousands of people are walking healthily.<\/p>",
+            "text": "<h3>The beginning was rough</h3><p><strong>Our first shoe-making machines were old enough to remember Baťa</strong>, and a friend of ours even welded one together by hand for us. Negotiating with suppliers was also tough.</p><p>“Of course we'll deliver our material to you,” they said to Lukáš as a newcomer, “you'll just have to buy a kilometer of it.” And so a kilometer of excellent material made its way to our tiny workshop in Moravia, where we slowly began to cut from it to make our first shoes.</p><p>And it was worth it. Today we <strong>make shoes for the whole world</strong> and thanks to us, thousands of people are walking healthily.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -436,7 +459,10 @@
           }
         }
       },
-      "block_order": ["bl_image_AfxDDc", "bl_text_QM7mQC"],
+      "block_order": [
+        "bl_image_AfxDDc",
+        "bl_text_QM7mQC"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -468,7 +494,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/ico-best_9d16f080-afa7-4cb9-9df0-ee73a9b8c1ea.png",
+            "image_icon": "shopify://shop_images/ico-best_9d16f080-afa7-4cb9-9df0-ee73a9b8c1ea.png",
             "icon": "las la-shipping-fast",
             "title": "SHOES DESIGNED BY PHYSIOTHERAPISTS",
             "text": "",
@@ -479,7 +505,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "WE SEW EVERY PAIR BY HAND",
             "text": "",
@@ -490,7 +516,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/Podzim_7253870e-8a8d-49a4-9503-52422186ca75.png",
+            "image_icon": "shopify://shop_images/Podzim_7253870e-8a8d-49a4-9503-52422186ca75.png",
             "icon": "las la-shipping-fast",
             "title": "WE CHOOSE QUALITY VEGAN MATERIALS",
             "text": "",
@@ -501,7 +527,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/ico-eco.png",
+            "image_icon": "shopify://shop_images/ico-eco.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE IN SLOVAKIA AND CROATIA",
             "text": "",
@@ -567,10 +593,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -578,10 +604,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -589,10 +615,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
             "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "text": "<p>We cover postage.</p>",
             "html": ""
           }
         },
@@ -600,10 +626,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
@@ -674,13 +700,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Why barefoot?<\/h3><h4>Because it's the most natural way to walk<\/h4><p>Nature has made our feet pliant and strong – all we have to do is rebound. That's why we make shoes that respect nature's work. <strong>Light, flexible barefoot shoes<\/strong> with enough space for a natural rebound.<\/p><p>• They stimulate brain centers.<br\/>• They activate long muscle chains that pass through the whole body.<br\/>• They strengthen the deep stabilization system.<\/p><p>Free your feet. Put on a pair of Ahinsa barefoot shoes.<\/p>",
+            "text": "<h3>Why barefoot?</h3><h4>Because it's the most natural way to walk</h4><p>Nature has made our feet pliant and strong – all we have to do is rebound. That's why we make shoes that respect nature's work. <strong>Light, flexible barefoot shoes</strong> with enough space for a natural rebound.</p><p>• They stimulate brain centers.<br/>• They activate long muscle chains that pass through the whole body.<br/>• They strengthen the deep stabilization system.</p><p>Free your feet. Put on a pair of Ahinsa barefoot shoes.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "Find your own",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify://collections",
             "open_link": "_self",
             "btn_icon": true,
             "button_style": "link",
@@ -692,7 +718,7 @@
         "bl_image_xiTHBH": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_9748.jpg",
+            "image1": "shopify://shop_images/DSC_9748.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -719,7 +745,10 @@
           }
         }
       },
-      "block_order": ["bl_text_pbiyyh", "bl_image_xiTHBH"],
+      "block_order": [
+        "bl_text_pbiyyh",
+        "bl_image_xiTHBH"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -750,7 +779,7 @@
         "bl_image_aVwdcL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_3209.jpg",
+            "image1": "shopify://shop_images/DSC_3209.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -787,13 +816,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>The Comfort line – for those who want to walk with ease<\/h3><p>You might be looking for <strong>healthy and comfortable shoes<\/strong>, but don't want to get used to barefoot walking. That's why we've created the Comfort line just for you.<\/p><p>The Comfort line provides your feet with enough space for natural movement, while double cushioning <strong>softens your every step<\/strong>.<\/p><p>• The shoes will fit you the first time you try them on – no “breaking in”.<br\/>• You'll forget that blisters and callouses even exist.<br\/>• You'll learn to have a healthy and natural step.<\/p>",
+            "text": "<h3>The Comfort line – for those who want to walk with ease</h3><p>You might be looking for&nbsp;<strong>healthy and comfortable shoes</strong>, but don't want to get used to barefoot walking. That's why we've created the Comfort line just for you.</p><p>The Comfort line provides your feet with enough space for natural movement, while double cushioning&nbsp;<strong>softens your every step</strong>.</p><p>• The shoes will fit you the first time you try them on – no “breaking in”.<br/>• You'll forget that blisters and callouses even exist.<br/>• You'll learn to have a healthy and natural step.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "Discover yours",
-            "button_link": "shopify:\/\/collections\/damske-comfort-zone",
+            "button_link": "shopify://collections/womens-comfort-shoes",
             "open_link": "_blank",
             "btn_icon": true,
             "button_style": "link",
@@ -803,7 +832,10 @@
           }
         }
       },
-      "block_order": ["bl_image_aVwdcL", "bl_text_MJaMPU"],
+      "block_order": [
+        "bl_image_aVwdcL",
+        "bl_text_MJaMPU"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -842,13 +874,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Ahinsa shoes are made with love in Europe<\/h3><p>Our Croatian colleagues make each pair <strong>by hand and with love<\/strong>. <strong>Their family has worked in the shoemaking craft for decades<\/strong>, and that’s why we’re grateful they took on Ahinsa shoes. At the beginning of 2025, they were joined by skilled shoemakers from Slovakia.<\/p><p>Thanks to them, you know your shoes were created ethically in Europe and will accompany you throughout the world.<\/p>",
+            "text": "<h3>Ahinsa shoes are made with love in Europe</h3><p>Our Croatian colleagues make each pair <strong>by hand and with love</strong>. <strong>Their family has worked in the shoemaking craft for decades</strong>, and that’s why we’re grateful they took on Ahinsa shoes. At the beginning of 2025, they were joined by skilled shoemakers from Slovakia.</p><p>Thanks to them, you know your shoes were created ethically in Europe and will accompany you throughout the world.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "💡 How are Ahinsa shoes sewn?",
-            "button_link": "shopify:\/\/blogs\/news\/jak-se-sijou-boty-okenko-do-sevcovske-dilny",
+            "button_link": "shopify://blogs/news/jak-se-sijou-boty-okenko-do-sevcovske-dilny",
             "open_link": "_self",
             "btn_icon": true,
             "button_style": "link",
@@ -860,7 +892,7 @@
         "bl_image_bMtfiU": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_5383.jpg",
+            "image1": "shopify://shop_images/DSC_5383.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -887,7 +919,10 @@
           }
         }
       },
-      "block_order": ["bl_text_9fQTEA", "bl_image_bMtfiU"],
+      "block_order": [
+        "bl_text_9fQTEA",
+        "bl_image_bMtfiU"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -918,7 +953,7 @@
         "bl_image_AGkpHY": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/AUM_4176_1.jpg",
+            "image1": "shopify://shop_images/AUM_4176_1.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -955,13 +990,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>We use ethical materials that can handle millions of steps<\/h3><p>Ahinsa shoes are products that you won't want to part with. And you won't have to either! We select quality materials that last for years.<\/p><p>We have strict criteria:<\/p><p>• <strong>High durability<\/strong>: our shoes can withstand millions of steps<br\/>• <strong>Comfort<\/strong>: we seek out breathable and soft materials that keep the feet dry<br\/>• <strong>Ethical production<\/strong>: all materials are vegan<\/p>",
+            "text": "<h3>We use ethical materials that can handle millions of steps</h3><p>Ahinsa shoes are products that you won't want to part with. And you won't have to either! We select quality materials that last for years.</p><p>We have strict criteria:</p><p>• <strong>High durability</strong>: our shoes can withstand millions of steps<br/>• <strong>Comfort</strong>: we seek out breathable and soft materials that keep the feet dry<br/>• <strong>Ethical production</strong>: all materials are vegan</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "Discover them for yourself",
-            "button_link": "shopify:\/\/pages\/nase-materialy",
+            "button_link": "shopify://pages/nase-materialy",
             "open_link": "_self",
             "btn_icon": true,
             "button_style": "link",
@@ -971,7 +1006,10 @@
           }
         }
       },
-      "block_order": ["bl_image_AGkpHY", "bl_text_9LnYjX"],
+      "block_order": [
+        "bl_image_AGkpHY",
+        "bl_text_9LnYjX"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
