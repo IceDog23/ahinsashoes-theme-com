@@ -423,7 +423,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Hand-sewn"
+            "des": "Hand-made"
           }
         },
         "item_HM6yhm": {
@@ -440,7 +440,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Mimic your movement"
+            "des": "Copies your movement"
           }
         }
       },
@@ -607,7 +607,7 @@
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
-            "sub_heading": "Nohy v suchu a teple",
+            "sub_heading": "For dry and warm feet",
             "heading": "Vegan leather and 100% waterproof fabric",
             "text": "<ul><li><strong>Waterproof.</strong> Go ahead and jump into a snowdrift.</li><li><strong>Wicks moisture.</strong> Keeps feet dry and comfortable.</li><li><strong>Extremely durable.</strong> You won’t scuff or scratch these snow boots.</li></ul>",
             "subhd_color": "#222222",
@@ -1263,7 +1263,6 @@
     },
     "17190050663df79af6": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -1279,6 +1278,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_KJH6KD"
       ],
+      "disabled": true,
       "settings": {}
     },
     "testimonials_CKzWwm": {
@@ -1365,7 +1365,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
