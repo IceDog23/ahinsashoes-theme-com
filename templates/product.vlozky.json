@@ -565,7 +565,7 @@
             "txt_align": "start",
             "sub_heading": "For comfortable feet",
             "heading": "Barefoot insoles",
-            "text": "<ul><li>They protect you, yet you feel as if you were walking barefoot.</li><li>They stay in place. They softly stroke the sole. And they <strong>last</strong>.</li><li>When they get dirty, <strong>pop them in the washing machine</strong> in a laundry bag.</li><li>Insert shoe insoles with the smooth side up</li><li>Thin — only 1 mm</li><li><a href=\"https://ahinsashoes.cz/pages/analyza-chuze-od-fyzioterapeuta\">From worn insoles we can tell what your feet are missing</a></li></ul>",
+            "text": "<ul><li>They protect you, yet you feel as if you were walking barefoot.</li><li>They stay in place. They softly stroke the sole. And they <strong>last</strong>.</li><li>When they get dirty, <strong>pop them in the washing machine</strong> in a laundry bag.</li><li>Insert shoe insoles with the smooth side up</li><li>Thin — only 1 mm</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1506,7 +1506,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
