@@ -1,18 +1,20 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-404",
       "disabled": true,
-      "settings": { "link": "" }
+      "settings": {
+        "link": ""
+      }
     },
     "hero_image_HtRBYM": {
       "type": "hero_image",
@@ -132,7 +134,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify:\/\/shop_images\/vinove_balerinky_1.jpg",
+        "image": "shopify://shop_images/vinove_balerinky_1.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -177,7 +179,7 @@
     "custom_html_kHURap": {
       "type": "custom-html",
       "settings": {
-        "code": "<div class=\"t4s-text-center\">Take a step in the right direction. Head to the <a href=\"\/\">homepage<\/a> or slip straight into comfort designed by physiotherapists.\n<\/div>",
+        "code": "<div class=\"t4s-text-center\">Take a step in the right direction. Head to the <a href=\"/\">homepage</a> or slip straight into comfort designed by physiotherapists.\n</div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -197,41 +199,61 @@
         "collection_item_kGnH87": {
           "type": "collection_item",
           "settings": {
-            "collection": "damske-barefoot",
+            "collection": "womens-barefoot-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
-            "collection_link": ""
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
           }
         },
         "collection_item_Bgr9xX": {
           "type": "collection_item",
           "settings": {
-            "collection": "damske-komfortni-boty",
+            "collection": "womens-comfort-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
-            "collection_link": ""
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
           }
         },
         "collection_item_EGyeCX": {
           "type": "collection_item",
           "settings": {
-            "collection": "panske-barefoot",
+            "collection": "mens-barefoot-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
-            "collection_link": ""
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
           }
         },
         "collection_item_akix7h": {
           "type": "collection_item",
           "settings": {
-            "collection": "panska-komfortni-obuv",
+            "collection": "mens-comfort-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
-            "collection_link": ""
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
           }
         }
       },
