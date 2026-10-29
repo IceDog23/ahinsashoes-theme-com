@@ -408,7 +408,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Hand-sewn"
+            "des": "Hand-made"
           }
         },
         "item_HM6yhm": {
@@ -425,7 +425,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Mimic your movement"
+            "des": "Copies your movement"
           }
         }
       },
@@ -438,7 +438,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Ankle-height barefoot shoes",
+        "top_heading": "Ankle barefoot boots",
         "icon_heading": "",
         "top_subheading": "by physiotherapists",
         "tophead_mb": 30,
@@ -1333,7 +1333,6 @@
     },
     "17190050663df79af6": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -1349,6 +1348,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_KJH6KD"
       ],
+      "disabled": true,
       "settings": {}
     },
     "testimonials_t6hkzk": {
@@ -1435,7 +1435,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
