@@ -407,7 +407,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Hand-sewn"
+            "des": "Hand-made"
           }
         },
         "item_HM6yhm": {
@@ -424,7 +424,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Mimic your movement"
+            "des": "Copies your movement"
           }
         }
       },
@@ -1347,7 +1347,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
