@@ -1635,6 +1635,7 @@
           },
           "banner_mxrh7b": {
             "type": "banner",
+            "disabled": true,
             "settings": {
               "image_ratio": "ratio_cuspx",
               "image_size": "cover",
