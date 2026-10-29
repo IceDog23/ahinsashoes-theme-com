@@ -1376,14 +1376,14 @@
         "img_dDdYfN": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_From_2026-09-05_15-26-45.png",
-            "url": "https://www.instagram.com/ahinsashoes.cz/p/DbJMrtljCPl/"
+            "image": "shopify://shop_images/587704120_18413017090136678_2562096940782203054_n.jpg",
+            "url": "https://www.instagram.com/p/DRjk_kWjAFh/"
           }
         },
         "img_ewGXLC": {
           "type": "img",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_From_2026-09-05_15-25-49.png",
+            "image": "shopify://shop_images/829332135_18465783385136678_6576903976686647873_n.jpg",
             "url": "https://www.instagram.com/ahinsashoes.cz/p/DazxeNLsHTs/"
           }
         },
@@ -1411,7 +1411,7 @@
       ],
       "settings": {
         "layout_des": "2",
-        "image_ratio": "ratio1_1",
+        "image_ratio": "ratio2_3",
         "image_position": "8",
         "image_size": "cover",
         "img_effect": "zoom",
