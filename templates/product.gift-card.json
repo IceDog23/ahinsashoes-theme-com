@@ -226,7 +226,11 @@
         "logo": "shopify://shop_images/Twisto-logo.png",
         "popup_header": "Good shoes have to fit.",
         "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.</h2><p>Defer payment by up to <strong>30 days</strong>. Or split it into thirds.</p><h3>How it works?</h3><ol><li>Pick your pair of Ahinsa shoes.</li><li>Choose card payment in the cart.</li><li>Click <strong>Deferred payment</strong> or <strong>Pay in thirds</strong>.</li><li>Try the shoes on at home.</li></ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.</strong></p><p>Don't fit? <a href=\"/policies/refund-policy\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days</a> — we'll exchange the size at our cost.</p>",
-        "popup_button": "Got it, thanks!"
+        "popup_button": "Got it, thanks!",
+        "enable_code_discount": true,
+        "code_discount": "JARNIPOHODLI",
+        "discount_percent": 20,
+        "ab_test": false
       }
     },
     "sidebar": {
@@ -500,7 +504,7 @@
         "bl_image_TwqCWf": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/retizky.jpg",
+            "image1": "shopify://shop_images/Giftvoucher_Ahinsa_44d9edde-5752-4ed1-9374-2bdb48c9db9f.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1251,17 +1255,22 @@
     },
     "17190050663df79af6": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
         }
       },
       "block_order": [
         "judge_me_reviews_review_widget_KJH6KD"
       ],
+      "disabled": true,
       "settings": {}
     },
     "testimonials_RcfzUR": {
@@ -1472,7 +1481,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
