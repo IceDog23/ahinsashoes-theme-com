@@ -123,7 +123,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify:\/\/shop_images\/img_8984_d2ea187e-b945-487f-bbac-f7a219e3cf69.jpg",
+        "image": "shopify://shop_images/img_8984_d2ea187e-b945-487f-bbac-f7a219e3cf69.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -192,7 +192,9 @@
           }
         }
       },
-      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -208,7 +210,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<!-- START KiwiSizing code !-->\n  <div id=\"KiwiSizingChart\" \n    data-sizing-id=\"42770957\"\n    data-display-mode=\"1\"\n    data-recommender-display-mode=\"0\"\n    data-layout-type=\"0\">\n  <\/div>\n<!-- END KiwiSizing code !-->",
+        "custom_liquid": "<!-- START KiwiSizing code !-->\n  <div id=\"KiwiSizingChart\" \n    data-sizing-id=\"42770957\"\n    data-display-mode=\"1\"\n    data-recommender-display-mode=\"0\"\n    data-layout-type=\"0\">\n  </div>\n<!-- END KiwiSizing code !-->",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -224,7 +226,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<!-- START KiwiSizing code !-->\n  <div id=\"KiwiSizingChart\" \n    data-sizing-id=\"42771014\"\n    data-display-mode=\"1\"\n    data-recommender-display-mode=\"0\"\n    data-layout-type=\"0\">\n  <\/div>\n<!-- END KiwiSizing code !-->",
+        "custom_liquid": "<!-- START KiwiSizing code !-->\n  <div id=\"KiwiSizingChart\" \n    data-sizing-id=\"42771014\"\n    data-display-mode=\"1\"\n    data-recommender-display-mode=\"0\"\n    data-layout-type=\"0\">\n  </div>\n<!-- END KiwiSizing code !-->",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -242,7 +244,7 @@
         "bl_liquid_XCUaDm": {
           "type": "bl_liquid",
           "settings": {
-            "custom_liquid": "<iframe width=\"300\" height=\"533\" src=\"https:\/\/www.youtube.com\/embed\/9wGBmeWwgmI\" title=\"[GUIDE] How to measure your foot correctly | Ahinsa shoes\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+            "custom_liquid": "<iframe width=\"300\" height=\"533\" src=\"https://www.youtube.com/embed/9wGBmeWwgmI\" title=\"[GUIDE] How to measure your foot correctly | Ahinsa shoes\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
             "col_dk": "6",
             "col_tb": "6"
           }
@@ -258,7 +260,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "How to measure your feet",
-            "text": "<p>It's simple. All you need is a box or another object with a straight edge. Take off your sock before measuring.<br\/><br\/>If the measurement doesn't go well, don't worry. We'll <a href=\"\/policies\/refund-policy\" title=\"Exchange, returns and claims\">exchange<\/a> your Ahinsa shoes for free, in a flash.<\/p><ol><li>Stand with your <strong>heel completely against the wall<\/strong>. Put your weight on the foot.<br\/><\/li><\/ol><p>2. Place the box in front of your toes <strong>parallel to the wall<\/strong>.<\/p><p>3. Measure the distance perpendicularly <strong>from the wall to the box<\/strong>.<\/p><p>In a healthy shoe, you need a little extra free space so the foot can work naturally. So don't be alarmed if the shoes feel “bigger”.<\/p>",
+            "text": "<p>It's simple. All you need is a box or another object with a straight edge. Take off your sock before measuring.<br/><br/>If the measurement doesn't go well, don't worry. We'll <a href=\"/policies/refund-policy\" title=\"Exchange, returns and claims\">exchange</a> your Ahinsa shoes for free, in a flash.</p><ol><li>Stand with your <strong>heel completely against the wall</strong>. Put your weight on the foot.<br/></li></ol><p>2. Place the box in front of your toes <strong>parallel to the wall</strong>.</p><p>3. Measure the distance perpendicularly <strong>from the wall to the box</strong>.</p><p>In a healthy shoe, you need a little extra free space so the foot can work naturally. So don't be alarmed if the shoes feel “bigger”.</p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -274,7 +276,10 @@
           }
         }
       },
-      "block_order": ["bl_liquid_XCUaDm", "bl_text_3rJGYh"],
+      "block_order": [
+        "bl_liquid_XCUaDm",
+        "bl_text_3rJGYh"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -313,7 +318,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "Not sure? We’ll help",
-            "text": "<p>We know Ahinsa shoes... well, as our own shoes. We'll pick the right size for you in no time.<\/p><p><\/p><p>All you need to do is <strong>trace an outline of your foot on paper<\/strong> and write to us. How?<\/p><p><\/p><ol><li>Take off your sock, stand on the paper and put your weight on the foot.<br\/><br\/><\/li><li>Take a pencil and trace around the foot. <strong>Keep the pencil upright,<\/strong> don't draw under the foot.<br\/><br\/><\/li><li>Then <strong>scan<\/strong> the paper and send it to<strong> <\/strong><a href=\"mailto:mailtoinfo@ahinsashoes.com\" title=\"mailto:mailtoinfo@ahinsashoes.com\"><strong>info@ahinsashoes.com<\/strong><\/a>.<br\/><br\/><\/li><li>Add a <strong>scale:<\/strong> For example, write that it's A4 paper, or photograph a ruler with it.<br\/><br\/><\/li><li>Attach a <strong>photo of your feet<\/strong>.<\/li><\/ol><p><\/p><p>Within 2 days, we'll write to you which model and size are ideal for you.<\/p>",
+            "text": "<p>We know Ahinsa shoes... well, as our own shoes. We'll pick the right size for you in no time.</p><p></p><p>All you need to do is <strong>trace an outline of your foot on paper</strong> and write to us. How?</p><p></p><ol><li>Take off your sock, stand on the paper and put your weight on the foot.<br/><br/></li><li>Take a pencil and trace around the foot. <strong>Keep the pencil upright,</strong> don't draw under the foot.<br/><br/></li><li>Then <strong>scan</strong> the paper and send it to<strong> </strong><a href=\"mailto:mailtoinfo@ahinsashoes.com\" title=\"mailto:mailtoinfo@ahinsashoes.com\"><strong>info@ahinsashoes.com</strong></a>.<br/><br/></li><li>Add a <strong>scale:</strong> For example, write that it's A4 paper, or photograph a ruler with it.<br/><br/></li><li>Attach a <strong>photo of your feet</strong>.</li></ol><p></p><p>Within 2 days, we'll write to you which model and size are ideal for you.</p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -331,7 +336,7 @@
         "bl_image_MV9TW6": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/pravitko.png",
+            "image1": "shopify://shop_images/pravitko.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -358,7 +363,10 @@
           }
         }
       },
-      "block_order": ["bl_text_BweCUB", "bl_image_MV9TW6"],
+      "block_order": [
+        "bl_text_BweCUB",
+        "bl_image_MV9TW6"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -389,7 +397,7 @@
         "bl_liquid_V87iXp": {
           "type": "bl_liquid",
           "settings": {
-            "custom_liquid": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/pIFCk6baKd0?si=vDLxWF1cr4FL9h1S\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+            "custom_liquid": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pIFCk6baKd0?si=vDLxWF1cr4FL9h1S\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
             "col_dk": "6",
             "col_tb": "6"
           }
@@ -405,7 +413,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "How to try on shoes so they really fit?",
-            "text": "<ol><li>Try them at home first. If the shoes don’t fit, you can <a href=\"\/policies\/refund-policy\" title=\"\/policies\/refund-policy\">exchange<\/a> them unworn.<br\/><br\/><\/li><li>Put on socks before you try them on.<br\/><br\/><\/li><li>Tie the laces.<br\/><br\/><\/li><li>Walk around in the new shoes, stand on tiptoe, have a little jump.<\/li><\/ol>",
+            "text": "<ol><li>Try them at home first. If the shoes don’t fit, you can <a href=\"/policies/refund-policy\" title=\"/policies/refund-policy\">exchange</a> them unworn.<br/><br/></li><li>Put on socks before you try them on.<br/><br/></li><li>Tie the laces.<br/><br/></li><li>Walk around in the new shoes, stand on tiptoe, have a little jump.</li></ol>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -421,7 +429,10 @@
           }
         }
       },
-      "block_order": ["bl_liquid_V87iXp", "bl_text_jwGehB"],
+      "block_order": [
+        "bl_liquid_V87iXp",
+        "bl_text_jwGehB"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -453,7 +464,7 @@
           "type": "om_item",
           "settings": {
             "heading": "Toe allowance",
-            "content": "There must always be free space in front of the toes so the foot can move naturally. So don’t be alarmed if the shoes feel “bigger”.<br>\n<b>When you stand on tiptoe, there should be about a finger’s width of free space in front of your toes.<\/b>",
+            "content": "There must always be free space in front of the toes so the foot can move naturally. So don’t be alarmed if the shoes feel “bigger”.<br>\n<b>When you stand on tiptoe, there should be about a finger’s width of free space in front of your toes.</b>",
             "text_align": "start",
             "col_tb": "6",
             "col_mb": "6"
@@ -463,14 +474,17 @@
           "type": "om_item",
           "settings": {
             "heading": "Foot width and instep height",
-            "content": "For every Ahinsa shoes model you’ll also find the width at the widest point and the instep circumference.<br>\n<b>If you know that shoes often feel tight, pay attention to these measurements.<\/b>",
+            "content": "For every Ahinsa shoes model you’ll also find the width at the widest point and the instep circumference.<br>\n<b>If you know that shoes often feel tight, pay attention to these measurements.</b>",
             "text_align": "start",
             "col_tb": "6",
             "col_mb": "6"
           }
         }
       },
-      "block_order": ["om_item_AT8rXH", "om_item_GanpAi"],
+      "block_order": [
+        "om_item_AT8rXH",
+        "om_item_GanpAi"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -509,13 +523,13 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "3D foot measurement",
-            "text": "<p>We’ve equipped Lukáš Klimpera’s physiotherapy practice with a <strong>Footscan<\/strong> device, which makes it easy for the physiotherapist to analyse your gait.<\/p><p><\/p><p>Thanks to Footscan, among other things, we’ll answer important questions:<\/p><ul><li>Do I walk healthily?<\/li><li>What shoes should I wear?<\/li><li>Why do my feet or back hurt after a walk?<\/li><\/ul>",
+            "text": "<p>We’ve equipped Lukáš Klimpera’s physiotherapy practice with a <strong>Footscan</strong> device, which makes it easy for the physiotherapist to analyse your gait.</p><p></p><p>Thanks to Footscan, among other things, we’ll answer important questions:</p><ul><li>Do I walk healthily?</li><li>What shoes should I wear?</li><li>Why do my feet or back hurt after a walk?</li></ul>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "Reserve your appointment in time",
-            "button_link": "shopify:\/\/pages\/footscan",
+            "button_link": "shopify://pages/footscan",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "default",
@@ -527,7 +541,7 @@
         "bl_image_GUTMpi": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Kopie_souboru_IMG_8669.jpg",
+            "image1": "shopify://shop_images/Kopie_souboru_IMG_8669.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -554,7 +568,11 @@
           }
         }
       },
-      "block_order": ["bl_text_JEAGRz", "bl_image_GUTMpi"],
+      "block_order": [
+        "bl_text_JEAGRz",
+        "bl_image_GUTMpi"
+      ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -587,7 +605,7 @@
           "settings": {
             "icon": "none",
             "title": "I have a wide foot. Which Ahinsa shoes will fit me?",
-            "content": "<p>Especially for wide feet, we've designed the <a href=\"\/search?type=product%2Carticle&q=xwide\">xWide line<\/a>. All shoes with this label are <strong>wide enough<\/strong> for your feet to function naturally in them. You'll find extra-wide sandals, <a href=\"\/search?type=product%2Carticle&q=xwide+casual\">casual shoes<\/a>, <a href=\"\/search?type=product%2Carticle&q=xwide+sneakers\">sneakers<\/a> and <a href=\"\/search?type=product%2Carticle&q=xwide+ankle\">ankle boots<\/a>. <\/p>"
+            "content": "<p>Especially for wide feet, we've designed the <a href=\"/search?type=product%2Carticle&q=xwide\">xWide line</a>. All shoes with this label are <strong>wide enough</strong> for your feet to function naturally in them. You'll find extra-wide sandals, <a href=\"/search?type=product%2Carticle&q=xwide+casual\">casual shoes</a>, <a href=\"/search?type=product%2Carticle&q=xwide+sneakers\">sneakers</a> and <a href=\"/search?type=product%2Carticle&q=xwide+ankle\">ankle boots</a>.&nbsp;</p>"
           }
         },
         "accor_item_jkrU7J": {
@@ -595,7 +613,7 @@
           "settings": {
             "icon": "none",
             "title": "I have a narrow foot. Which Ahinsa shoes will fit me?",
-            "content": "<p>If you’re looking for ballet flats for a narrow foot, we have great news for you: we’ve designed and made ballet flats for you in an extra-narrow version. You’ll find a variant <a href=\"\/products\/ananda-barefoot-dress-shoes-for-narrow-feet\">with an instep strap<\/a> or <a href=\"\/products\/ananda-extra-narrow-barefoot-dress-shoes-black\">without a strap<\/a>.<\/p><p>Besides ballet flats, <strong>all our shoes with laces or an adjustable strap<\/strong> will fit you.<\/p><ul><li><strong>For summer <\/strong>we recommend wrap sandals with a scarf, <a href=\"\/search?type=product%2Carticle&q=ballerina*\">Ballerina pumps<\/a> or <a href=\"\/search?type=product%2Carticle&q=suna*\">Suna<\/a> sandals with an elastic.<\/li><li><strong>For autumn and winter <\/strong><a href=\"\/search?type=product%2Carticle&q=tara+winter\">Tara Winter<\/a> sneakers, <a href=\"\/search?type=product%2Carticle&q=chelsea*\">Chelsea boots<\/a>, lace-up <a href=\"\/search?type=product%2Carticle&q=jaya*\">Jaya<\/a> boots and <a href=\"\/search?type=product%2Carticle&q=sundara+winter\">Sundara Winter<\/a> ankle boots.<\/li><li><strong>For year-round wear<\/strong>, <a href=\"\/search?type=product%2Carticle&q=vida\">Vida<\/a> sneakers.<\/li><\/ul>"
+            "content": "<p>If you’re looking for ballet flats for a narrow foot, we have great news for you: we’ve designed and made ballet flats for you in an extra-narrow version. You’ll find a variant <a href=\"/products/ananda-barefoot-dress-shoes-for-narrow-feet\">with an instep strap</a> or <a href=\"/products/ananda-extra-narrow-barefoot-dress-shoes-black\">without a strap</a>.</p><p>Besides ballet flats, <strong>all our shoes with laces or an adjustable strap</strong> will fit you.</p><ul><li><strong>For summer </strong>we recommend wrap sandals with a scarf, <a href=\"/search?type=product%2Carticle&q=ballerina*\">Ballerina pumps</a> or <a href=\"/search?type=product%2Carticle&q=suna*\">Suna</a> sandals with an elastic.</li><li><strong>For autumn and winter </strong><a href=\"/search?type=product%2Carticle&q=tara+winter\">Tara Winter</a> sneakers, <a href=\"/search?type=product%2Carticle&q=chelsea*\">Chelsea boots</a>, lace-up <a href=\"/search?type=product%2Carticle&q=jaya*\">Jaya</a> boots and <a href=\"/search?type=product%2Carticle&q=sundara+winter\">Sundara Winter</a> ankle boots.</li><li><strong>For year-round wear</strong>, <a href=\"/search?type=product%2Carticle&q=vida\">Vida</a> sneakers.</li></ul>"
           }
         },
         "accor_item_UdexmU": {
@@ -603,7 +621,7 @@
           "settings": {
             "icon": "none",
             "title": "I have a high instep. Which Ahinsa shoes will fit me?",
-            "content": "<p>Ahinsa shoes are very roomy. But <strong>lace-up models<\/strong> fit you best. Customers with a high instep praise our <a href=\"\/search?type=product%2Carticle&q=chitra*\">Chitra sneakers<\/a> most, because they’re lace-up and, what’s more, made from very pliable mesh.<\/p><p>We also recommend:<\/p><ul><li><strong>For year-round wear<\/strong><a href=\"\/search?type=product%2Carticle&q=flow*\"> Flow sneakers<\/a> made from mesh and classic <a href=\"\/search?type=product%2Carticle&q=pura*\">Pura sneakers<\/a> made from vegan leather. If you like Velcro, then also <a href=\"\/search?type=product%2Carticle&q=quick\">Quick ankle sneakers<\/a>.<\/li><li><strong>For summer <\/strong>we recommend wrap sandals with a scarf, elegant adjustable <a href=\"\/search?type=product%2Carticle&q=hava\">Hava sandals<\/a> and hiking <a href=\"https:\/\/ahinsashoes.cz\/search?type=product%2Carticle&q=adventure\">Adventure<\/a> or Verso.<\/li><li><strong>For autumn and winter<\/strong> lace-up <a href=\"\/search?type=product%2Carticle&q=jaya*\">Jaya<\/a> boots and <a href=\"\/search?type=product%2Carticle&q=sundara+winter\">Sundara Winter<\/a> ankle boots will fit you<\/li><\/ul>"
+            "content": "<p>Ahinsa shoes are very roomy. But <strong>lace-up models</strong> fit you best. Customers with a high instep praise our <a href=\"/search?type=product%2Carticle&q=chitra*\">Chitra sneakers</a> most, because they’re lace-up and, what’s more, made from very pliable mesh.</p><p>We also recommend:</p><ul><li><strong>For year-round wear</strong><a href=\"/search?type=product%2Carticle&q=flow*\"> Flow sneakers</a> made from mesh and classic <a href=\"/search?type=product%2Carticle&q=pura*\">Pura sneakers</a> made from vegan leather. If you like Velcro, then also <a href=\"/search?type=product%2Carticle&q=quick\">Quick ankle sneakers</a>.</li><li><strong>For summer </strong>we recommend wrap sandals with a scarf, elegant adjustable <a href=\"/search?type=product%2Carticle&q=hava\">Hava sandals</a> and hiking <a href=\"https://ahinsashoes.cz/search?type=product%2Carticle&q=adventure\">Adventure</a> or Verso.</li><li><strong>For autumn and winter</strong> lace-up <a href=\"/search?type=product%2Carticle&q=jaya*\">Jaya</a> boots and <a href=\"/search?type=product%2Carticle&q=sundara+winter\">Sundara Winter</a> ankle boots will fit you</li></ul>"
           }
         },
         "accor_item_c6ADLP": {
@@ -611,7 +629,7 @@
           "settings": {
             "icon": "none",
             "title": "I have a wide calf. Which Ahinsa shoes will fit me?",
-            "content": "<p>If you’re looking for <strong>boots<\/strong>, we recommend the<strong> lace-up Jaya<\/strong>. We have them in a <a href=\"\/search?type=product%2Carticle&q=jaya\">mid-calf<\/a> version and a below-the-knee version. And if you feel the cold easily, choose the variant <strong>with fur lining<\/strong> <a href=\"\/search?type=product%2Carticle&q=jaya+winter\">Jaya Winter<\/a>.<\/p>"
+            "content": "<p>If you’re looking for <strong>boots</strong>, we recommend the<strong> lace-up Jaya</strong>. We have them in a <a href=\"/search?type=product%2Carticle&q=jaya\">mid-calf</a> version and a below-the-knee version. And if you feel the cold easily, choose the variant <strong>with fur lining</strong> <a href=\"/search?type=product%2Carticle&q=jaya+winter\">Jaya Winter</a>.</p>"
           }
         },
         "accor_item_aCan6z": {
@@ -619,7 +637,7 @@
           "settings": {
             "icon": "none",
             "title": "I have a narrow calf. Which Ahinsa shoes will fit me?",
-            "content": "<p><strong>All Ahinsa shoes<\/strong> fit a narrow calf. You can tighten our <a href=\"\/search?type=product%2Carticle&q=jaya\">Jaya<\/a> boots to suit you thanks to the lacing. And <a href=\"\/search?type=product%2Carticle&q=boots+neoprene\">these classic boots<\/a> hug a narrow calf too, thanks to neoprene at the back.<\/p>"
+            "content": "<p><strong>All Ahinsa shoes</strong> fit a narrow calf. You can tighten our <a href=\"/search?type=product%2Carticle&q=jaya\">Jaya</a> boots to suit you thanks to the lacing. And <a href=\"/search?type=product%2Carticle&q=boots+neoprene\">these classic boots</a> hug a narrow calf too, thanks to neoprene at the back.</p>"
           }
         },
         "accor_item_3iiaLG": {
@@ -627,7 +645,7 @@
           "settings": {
             "icon": "none",
             "title": "The shoes don’t fit. What should I do?",
-            "content": "<p><strong>Get in touch with us<\/strong>, we'll exchange the shoes in a flash and cover the postage. You'll find the detailed process on <a href=\"\/policies\/refund-policy?_gl=1*q5hzo*_up*MQ..*_ga*ODY5NjYxMzEwLjE3MTYzODI5NDE.*_ga_CC68BHMH51*MTcyMTY1Njg3MS4xNDYuMC4xNzIxNjU2ODcxLjYwLjAuMA..&retino-portal-7d17-url=\/cs\/portal\/iframe\/c78ca2b1-952a-4538-9924-ce85e3b0fa12\/\">this page<\/a>. Just a heads-up: we can only exchange shoes that you <strong>haven't worn outdoors <\/strong>and that show no signs of wear. <\/p>"
+            "content": "<p><strong>Get in touch with us</strong>, we'll exchange the shoes in a flash and cover the postage. You'll find the detailed process on <a href=\"/policies/refund-policy?_gl=1*q5hzo*_up*MQ..*_ga*ODY5NjYxMzEwLjE3MTYzODI5NDE.*_ga_CC68BHMH51*MTcyMTY1Njg3MS4xNDYuMC4xNzIxNjU2ODcxLjYwLjAuMA..&retino-portal-7d17-url=/cs/portal/iframe/c78ca2b1-952a-4538-9924-ce85e3b0fa12/\">this page</a>. Just a heads-up: we can only exchange shoes that you <strong>haven't worn outdoors </strong>and that show no signs of wear.&nbsp;</p>"
           }
         },
         "accor_item_GdzPF6": {
@@ -635,7 +653,7 @@
           "settings": {
             "icon": "none",
             "title": "Can I try Ahinsa shoes on somewhere?",
-            "content": "<p>You can – we'd be delighted. <strong>In Prague<\/strong>, you'll find us right <a href=\"https:\/\/ahinsashoes.cz\/pages\/prodejna\">in the city center at Londýnská 309\/81<\/a>. If that's too far, visit one of our <a href=\"\/pages\/partner-stores\">partner stores<\/a> <strong>across the Czech Republic<\/strong>.<\/p><p>And for those of you who don't have a partner store nearby either, we have a third option. Order Ahinsa shoes to your home, try them on, and if they don't fit, <strong>send them back to us<\/strong>. We'll cover the postage and <a href=\"\/policies\/refund-policy\">immediately send you the right size or model<\/a>.<\/p>"
+            "content": "<p>You can – we'd be delighted. <strong>In Prague</strong>, you'll find us right <a href=\"https://ahinsashoes.cz/pages/prodejna\">in the city center at Londýnská 309/81</a>. If that's too far, visit one of our <a href=\"/pages/partner-stores\">partner stores</a> <strong>across the Czech Republic</strong>.</p><p>And for those of you who don't have a partner store nearby either, we have a third option. Order Ahinsa shoes to your home, try them on, and if they don't fit, <strong>send them back to us</strong>. We'll cover the postage and <a href=\"/policies/refund-policy\">immediately send you the right size or model</a>.</p>"
           }
         }
       },
