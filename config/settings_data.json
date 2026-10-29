@@ -457,18 +457,18 @@
         "blocks": {
           "announcement_ahRQGm": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "link": "shopify://collections/vyprodej",
-              "content": "<p>The summer sale is here! Get <strong>up to 30% off </strong>and walk through summer in comfort. <strong>☀️</strong></p>",
+              "link": "shopify://collections/sale",
+              "content": "<p><strong>33 % OFF all shoes on sale</strong> – enjoy your autumn in Comfort and style. 🍁</p>",
               "adding_border": false,
-              "countdown": "2026/06/31 23:59:59",
+              "countdown": "",
               "txt_day": "",
               "dayx": 0
             }
           },
           "announcement_PJhXgE": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "link": "shopify://pages/jaro-2026",
               "content": "<p><span style=\"text-decoration:underline\">Summer styles from physiotherapists are here! 🌼 Treat yourself to lightness and comfort in new Ahinsa shoes 👣</span></p>",
