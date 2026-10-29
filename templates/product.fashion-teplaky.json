@@ -381,7 +381,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "100% bio bavlna"
+            "des": "100% organic cotton"
           }
         },
         "item_jEK87X": {
@@ -398,7 +398,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Eko certifikace"
+            "des": "Eco-certification"
           }
         },
         "item_XBBYxH": {
@@ -524,7 +524,7 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "Do yoga, a cartwheel, or head outside. The loose cut lets you do whatever you like.",
-            "heading": "Poznejte svobodu pohybu",
+            "heading": "Discover the freedom of movement",
             "text": "<ul><li><strong>A loose cut </strong>for free movement in the hips.</li><li>Allows <strong>natural blood circulation</strong>.</li><li><strong>Air flows</strong> between the fabric and the skin.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
@@ -1147,7 +1147,6 @@
     },
     "17190050663df79af6": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -1163,6 +1162,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_KJH6KD"
       ],
+      "disabled": true,
       "settings": {}
     },
     "testimonials_xPm3Pn": {
