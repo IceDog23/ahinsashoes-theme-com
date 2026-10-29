@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_image_T8mc3z": {
@@ -94,7 +103,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 400,
-        "image": "shopify:\/\/shop_images\/Ahinsa_046.jpg",
+        "image": "shopify://shop_images/Ahinsa_046.jpg",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -141,7 +150,10 @@
       "blocks": {
         "3_m8HHpz": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
         },
         "1_yMrJc7": {
           "type": "1",
@@ -167,7 +179,7 @@
         "2_rAikNb": {
           "type": "2",
           "settings": {
-            "content": "<p>You don’t have to take our word for it. Our customers speak for us<\/p>",
+            "content": "<p>You don’t have to take our word for it. Our customers speak for us</p>",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 16,
@@ -186,7 +198,11 @@
           }
         }
       },
-      "block_order": ["3_m8HHpz", "1_yMrJc7", "2_rAikNb"],
+      "block_order": [
+        "3_m8HHpz",
+        "1_yMrJc7",
+        "2_rAikNb"
+      ],
       "disabled": true,
       "settings": {
         "heading_fullwidth": false,
@@ -233,7 +249,9 @@
           }
         }
       },
-      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -251,7 +269,7 @@
         "bl_liquid_aj6HAQ": {
           "type": "bl_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"intro-review-wrapper review-container\">\n  <div>\n    <div class=\"img-wrapper\">\n      <img src=\"\/\/ahinsashoes.cz\/cdn\/shop\/files\/reviews-page-heureka_200x.png?v=1656402927\" alt=\"\">\n    <\/div>\n    <div class=\"heureka-conent\">\n      <h2>4,9<\/h2>\n      <p>\n        <strong> overall store satisfaction <\/strong>\n      <\/p>\n\n      <p><\/p>\n      <p><strong>99%<\/strong> of customers recommend the store<\/p>\n      <p><strong>2.2<\/strong> average delivery time in days<\/p>\n      <p><strong>100%<\/strong> of customers received their goods within 6 days<\/p>\n      <p><\/p>\n\n      <a href=\"https:\/\/obchody.heureka.cz\/ahinsashoes-cz\/recenze\/\" target=\"blank\" class=\"link link_underline\">\n        Read reviews\n      <\/a>\n    <\/div>\n  <\/div>\n<\/div>",
+            "custom_liquid": "<div class=\"intro-review-wrapper review-container\">\n  <div>\n    <div class=\"img-wrapper\">\n      <img src=\"//ahinsashoes.cz/cdn/shop/files/reviews-page-heureka_200x.png?v=1656402927\" alt=\"\">\n    </div>\n    <div class=\"heureka-conent\">\n      <h2>4,9</h2>\n      <p>\n        <strong> overall store satisfaction </strong>\n      </p>\n\n      <p></p>\n      <p><strong>99%</strong> of customers recommend the store</p>\n      <p><strong>2.2</strong> average delivery time in days</p>\n      <p><strong>100%</strong> of customers received their goods within 6 days</p>\n      <p></p>\n\n      <a href=\"https://obchody.heureka.cz/ahinsashoes-cz/recenze/\" target=\"blank\" class=\"link link_underline\">\n        Read reviews\n      </a>\n    </div>\n  </div>\n</div>",
             "col_dk": "6",
             "col_tb": "6"
           }
@@ -259,13 +277,16 @@
         "bl_liquid_4tV8zP": {
           "type": "bl_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"review-container\">\n  <div class=\"intro-review-wrapper\">\n    <div>\n      <div class=\"img-wrapper\">\n        <img src=\"\/\/ahinsashoes.cz\/cdn\/shop\/files\/reviews-page-zbozi_200x.png?v=1656402927\" alt=\"\">\n      <\/div>\n      <div class=\"review-wrapper-ml\">\n        <h2>95 %<\/h2>\n        <p>\n          <strong> satisfied customers <\/strong>\n        <\/p>\n        <p><\/p>\n        <a href=\"https:\/\/www.zbozi.cz\/znacka\/ahinsa-shoes\/\" target=\"blank\" class=\"link link_underline\"\n          >Read reviews<\/a\n        >\n      <\/div>\n    <\/div>\n  <\/div>\n\n  <div class=\"intro-review-wrapper\">\n    <div>\n      <div class=\"img-wrapper\">\n        <img src=\"\/\/ahinsashoes.cz\/cdn\/shop\/files\/reviews-page-google_200x.png?v=1656402927\" alt=\"\">\n      <\/div>\n      <div class=\"review-wrapper-ml\">\n        <h2>4,9 ⋆⋆⋆⋆⋆<\/h2>\n        <p><\/p>\n        <p><strong>1,200+ reviews<\/strong><\/p>\n        <p><\/p>\n        <a\n          href=\"https:\/\/customerreviews.google.com\/v\/merchant?q=ahinsashoes.cz&c=CZ&v=19\"\n          target=\"blank\"\n          class=\"link link_underline\"\n          >Read reviews<\/a\n        >\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>",
+            "custom_liquid": "<div class=\"review-container\">\n  <div class=\"intro-review-wrapper\">\n    <div>\n      <div class=\"img-wrapper\">\n        <img src=\"//ahinsashoes.cz/cdn/shop/files/reviews-page-zbozi_200x.png?v=1656402927\" alt=\"\">\n      </div>\n      <div class=\"review-wrapper-ml\">\n        <h2>95 %</h2>\n        <p>\n          <strong> satisfied customers </strong>\n        </p>\n        <p></p>\n        <a href=\"https://www.zbozi.cz/znacka/ahinsa-shoes/\" target=\"blank\" class=\"link link_underline\"\n          >Read reviews</a\n        >\n      </div>\n    </div>\n  </div>\n\n  <div class=\"intro-review-wrapper\">\n    <div>\n      <div class=\"img-wrapper\">\n        <img src=\"//ahinsashoes.cz/cdn/shop/files/reviews-page-google_200x.png?v=1656402927\" alt=\"\">\n      </div>\n      <div class=\"review-wrapper-ml\">\n        <h2>4,9 ⋆⋆⋆⋆⋆</h2>\n        <p></p>\n        <p><strong>1,200+ reviews</strong></p>\n        <p></p>\n        <a\n          href=\"https://customerreviews.google.com/v/merchant?q=ahinsashoes.cz&c=CZ&v=19\"\n          target=\"blank\"\n          class=\"link link_underline\"\n          >Read reviews</a\n        >\n      </div>\n    </div>\n  </div>\n</div>",
             "col_dk": "6",
             "col_tb": "6"
           }
         }
       },
-      "block_order": ["bl_liquid_aj6HAQ", "bl_liquid_4tV8zP"],
+      "block_order": [
+        "bl_liquid_aj6HAQ",
+        "bl_liquid_4tV8zP"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -287,7 +308,7 @@
         "mg_mb": ",,10px,",
         "pd_mb": ",,30px,",
         "use_cus_css": true,
-        "code_cus_css": "<style>\n  h2 {\n    margin-bottom: 5px;\n  }\n\n  p {\n    margin-bottom: 20px;\n  }\n\n  .intro-review-wrapper {\n    border: 1px solid black;\n    display: flex;\n    align-items: center;\n    height: 100%;\n  }\n  .review-container {\n    min-height: 400px;\n    display: flex;\n    justify-content: center;\n    gap: 20px;\n    flex-direction: column;\n  }\n  .intro-review-wrapper > div {\n    display: flex;\n    align-items: start;\n    gap: 20px;\n  }\n\n  .review-wrapper-ml,\n  .heureka-conent {\n    text-align: left;\n    padding-left: 54px;\n  }\n\n  .intro-review-wrapper .img-wrapper {\n    margin-left: 50px;\n  }\n  .review-container > div {\n    padding: 31.5px 0;\n  }\n\n  @media (max-width: 767px) {\n    .review-container > div {\n      padding: unset;\n    }\n    .intro-review-wrapper {\n      padding: 20px!important;\n    }\n    .intro-review-wrapper > div {\n      flex-direction: column;\n      text-align: left;\n      width: 100%;\n    }\n\n    .review-container {\n      gap: 10px;\n    }\n\n    .review-wrapper-ml,\n    .heureka-conent {\n      text-align: left;\n      padding: 20px;\n    }\n\n    .intro-review-wrapper .img-wrapper {\n      margin-left: unset;\n      align-self: center;\n    }\n  }\n<\/style>"
+        "code_cus_css": "<style>\n  h2 {\n    margin-bottom: 5px;\n  }\n\n  p {\n    margin-bottom: 20px;\n  }\n\n  .intro-review-wrapper {\n    border: 1px solid black;\n    display: flex;\n    align-items: center;\n    height: 100%;\n  }\n  .review-container {\n    min-height: 400px;\n    display: flex;\n    justify-content: center;\n    gap: 20px;\n    flex-direction: column;\n  }\n  .intro-review-wrapper > div {\n    display: flex;\n    align-items: start;\n    gap: 20px;\n  }\n\n  .review-wrapper-ml,\n  .heureka-conent {\n    text-align: left;\n    padding-left: 54px;\n  }\n\n  .intro-review-wrapper .img-wrapper {\n    margin-left: 50px;\n  }\n  .review-container > div {\n    padding: 31.5px 0;\n  }\n\n  @media (max-width: 767px) {\n    .review-container > div {\n      padding: unset;\n    }\n    .intro-review-wrapper {\n      padding: 20px!important;\n    }\n    .intro-review-wrapper > div {\n      flex-direction: column;\n      text-align: left;\n      width: 100%;\n    }\n\n    .review-container {\n      gap: 10px;\n    }\n\n    .review-wrapper-ml,\n    .heureka-conent {\n      text-align: left;\n      padding: 20px;\n    }\n\n    .intro-review-wrapper .img-wrapper {\n      margin-left: unset;\n      align-self: center;\n    }\n  }\n</style>"
       }
     },
     "testimonials_rHgXXG": {
@@ -297,7 +318,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Here's my 14-day experience with the Ananda shoes from you: I walk in them almost every day, I track the km, because I'm interested in how long those thin soles will last. In 2 weeks I walked 42 km in them, mostly on paving, less on dirt and grass. I wear them into nature too, they take a beating maybe more than they should, but they're holding up well; after cleaning they're like new. I even walked in the rain on purpose, and through puddles, but they didn't soak through. At first I was afraid whether I'd get used to them, I'm 63 years old, but it looks like it's going to be good. Every day I look forward to heading out in them again. I'm glad that not only my toes, but also my heels have enough space in the shoes. And they're really nice, a friend has already admired them too. And they smell lovely.<\/p>",
+            "content": "<p>Here's my 14-day experience with the Ananda shoes from you: I walk in them almost every day, I track the km, because I'm interested in how long those thin soles will last. In 2 weeks I walked 42 km in them, mostly on paving, less on dirt and grass. I wear them into nature too, they take a beating maybe more than they should, but they're holding up well; after cleaning they're like new. I even walked in the rain on purpose, and through puddles, but they didn't soak through. At first I was afraid whether I'd get used to them, I'm 63 years old, but it looks like it's going to be good. Every day I look forward to heading out in them again. I'm glad that not only my toes, but also my heels have enough space in the shoes. And they're really nice, a friend has already admired them too. And they smell lovely.</p>",
             "title": "Dana Žáková",
             "pos": "",
             "rating": 5
@@ -307,7 +328,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I really want to thank you for the shoes that fit me absolutely perfectly. Ever since I’ve had them, I don’t wear anything else — it’s like a second skin with a little pad underneath, but that’s mine too :-)! Thank you so much that thanks to you I can be healthy, content, and interesting too. I recommend you to my friends and to “barefooters” who haven’t tried your products yet.<br\/><\/p>",
+            "content": "<p>I really want to thank you for the shoes that fit me absolutely perfectly. Ever since I’ve had them, I don’t wear anything else — it’s like a second skin with a little pad underneath, but that’s mine too :-)! Thank you so much that thanks to you I can be healthy, content, and interesting too. I recommend you to my friends and to “barefooters” who haven’t tried your products yet.<br/></p>",
             "title": "Jana Kovačičová",
             "pos": "",
             "rating": 5
@@ -317,7 +338,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I have to thank you for the Hava Comfort sandals. I’m delighted with them — I’ve worn them all summer. They’re elegant, so they go with a dress, but I also hiked around a lake in Austria in them. Incredibly comfortable, and you can tighten them exactly to the foot, so even I with a low instep don’t swim in them. They’re the best sandals I’ve ever had.<\/p>",
+            "content": "<p>I have to thank you for the Hava Comfort sandals. I’m delighted with them — I’ve worn them all summer. They’re elegant, so they go with a dress, but I also hiked around a lake in Austria in them. Incredibly comfortable, and you can tighten them exactly to the foot, so even I with a low instep don’t swim in them. They’re the best sandals I’ve ever had.</p>",
             "title": "Jana Paříková",
             "pos": "",
             "rating": 5
@@ -327,7 +348,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I’ve been walking in your shoes for almost a year and I’m thrilled. My back doesn’t hurt as much as before, and I don’t get cramps in my calves. Most of the year I’m a city walker, but we were recently on forest terrain and I walked well. I love how the foot feels “what it’s stepping on”. Thank you for your work and for these super shoes.<\/p>",
+            "content": "<p>I’ve been walking in your shoes for almost a year and I’m thrilled. My back doesn’t hurt as much as before, and I don’t get cramps in my calves. Most of the year I’m a city walker, but we were recently on forest terrain and I walked well. I love how the foot feels “what it’s stepping on”. Thank you for your work and for these super shoes.</p>",
             "title": "Jana Blažková",
             "pos": "",
             "rating": 5
@@ -337,7 +358,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Every year we go to a ball, we dance, and when I get out of the car towards morning, I have the feeling I won't make those last 20 meters, my feet – actually my soles – are so wrecked. Even though I chose the best ball shoes every year, by morning my feet felt like they were in a vise and the last steps could only be taken with great self-denial, or without shoes... this year I told myself I'd wear your white sandals with Preciosa crystals and I don't care at all what shoes I was supposed to have. A wonderful decision, I felt great, comfortable, I danced the evening away and nothing – no pain, no straining, I didn't have to endure anything and I felt good. So thank you. The sandals with crystals were a fantastic idea :-)<\/p>",
+            "content": "<p>Every year we go to a ball, we dance, and when I get out of the car towards morning, I have the feeling I won't make those last 20 meters, my feet – actually my soles – are so wrecked. Even though I chose the best ball shoes every year, by morning my feet felt like they were in a vise and the last steps could only be taken with great self-denial, or without shoes... this year I told myself I'd wear your white sandals with Preciosa crystals and I don't care at all what shoes I was supposed to have. A wonderful decision, I felt great, comfortable, I danced the evening away and nothing – no pain, no straining, I didn't have to endure anything and I felt good. So thank you. The sandals with crystals were a fantastic idea :-)</p>",
             "title": "Štěpánka Svobodová",
             "pos": "",
             "rating": 5
@@ -347,7 +368,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I have to say I bought the shoes on a doctor’s recommendation. I didn’t really believe it, but now I’m genuinely thrilled. Walking brings natural blood flow to the feet, so my fear of the cold completely disappeared. The alignment and overall strengthening of the arch is noticeable too. <\/p><p>Thank you so much, and I’ll definitely get your shoes for spring and summer as well. <\/p>",
+            "content": "<p>I have to say I bought the shoes on a doctor’s recommendation. I didn’t really believe it, but now I’m genuinely thrilled. Walking brings natural blood flow to the feet, so my fear of the cold completely disappeared. The alignment and overall strengthening of the arch is noticeable too. </p><p>Thank you so much, and I’ll definitely get your shoes for spring and summer as well. </p>",
             "title": "Markéta Šimíčková",
             "pos": "",
             "rating": 5
@@ -358,7 +379,7 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "content": "<p>Yesterday I received shoes from you — women’s autumn Comfort Chelsea boots — and I want to tell you I’ve never had better shoes on my feet, they’re super! I have bunions — hallux valgus — and a collapsed transverse and longitudinal arch, and no shoes fitted me; they all pinched. These shoes are truly comfortable. I feel wrapped in cotton wool, as if I were walking barefoot. <\/p>",
+            "content": "<p>Yesterday I received shoes from you — women’s autumn Comfort Chelsea boots — and I want to tell you I’ve never had better shoes on my feet, they’re super! I have bunions — hallux valgus — and a collapsed transverse and longitudinal arch, and no shoes fitted me; they all pinched. These shoes are truly comfortable. I feel wrapped in cotton wool, as if I were walking barefoot. </p>",
             "title": "R. Lohwasserová",
             "pos": "",
             "rating": 5
@@ -369,7 +390,7 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "content": "<p>Last year I bought brown autumn\/winter boots from you, and even after a year of wearing them from autumn to spring you can’t tell. I’m your walking\/running advertisement and I recommend them wherever I can.<\/p>",
+            "content": "<p>Last year I bought brown autumn/winter boots from you, and even after a year of wearing them from autumn to spring you can’t tell. I’m your walking/running advertisement and I recommend them wherever I can.</p>",
             "title": "Dana Truchlyová",
             "pos": "",
             "rating": 5
@@ -380,7 +401,7 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "content": "<p>I can’t help it — I have to send you feedback on your shoes, which are absolutely amazing! I’ve now ordered a second pair — first the trekking ones, now these winter ones, and I’ve never had better footwear in my life. I feel like I’m in slippers.<\/p>",
+            "content": "<p>I can’t help it — I have to send you feedback on your shoes, which are absolutely amazing! I’ve now ordered a second pair — first the trekking ones, now these winter ones, and I’ve never had better footwear in my life. I feel like I’m in slippers.</p>",
             "title": "Marie Kessnerová",
             "pos": "",
             "rating": 5
@@ -390,7 +411,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>My brown Barefoot Ananda shoes are in their fourth season with me and they look like new. I’m a gardener — I wear them in the field, in the city, in the forest, I don’t spare them at all, and they haven’t got a single unglued spot, crack or scuff. The insoles have packed down to the shape of my foot, but they don’t break down or wear through — I only change the laces. That’s pretty unbelievable these days. I praise you everywhere.<\/p>",
+            "content": "<p>My brown Barefoot Ananda shoes are in their fourth season with me and they look like new. I’m a gardener — I wear them in the field, in the city, in the forest, I don’t spare them at all, and they haven’t got a single unglued spot, crack or scuff. The insoles have packed down to the shape of my foot, but they don’t break down or wear through — I only change the laces. That’s pretty unbelievable these days. I praise you everywhere.</p>",
             "title": "Kateřina Zvelebilová",
             "pos": "",
             "rating": 5
@@ -401,7 +422,7 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "content": "<p>The shoes are absolutely perfect — the craftsmanship, the materials and the look, not to mention how perfectly they fit. Until now I’d only worn barefoot shoes in summer, and I have to say this winter version is truly flawless.  These days I’m literally savouring being outdoors<\/p>",
+            "content": "<p>The shoes are absolutely perfect — the craftsmanship, the materials and the look, not to mention how perfectly they fit. Until now I’d only worn barefoot shoes in summer, and I have to say this winter version is truly flawless.  These days I’m literally savouring being outdoors</p>",
             "title": "Pavlína Melikyan",
             "pos": "",
             "rating": 5
@@ -411,7 +432,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I've got my first winter in Sundara Winter behind me. They're perfect, honestly made shoes. I really appreciate how low-maintenance they are, which is truly just as you promise on the website - just wipe them with a cloth and that's it. The option to swap the fur insole for a regular one is a great feature and the shoe is thus versatile depending on the weather.<br\/><br\/>I also treated myself to brown slip-on sandals for Christmas. They're beautifully made. What I like about your shoes in general is that honest work shows in them. Now spring is coming, so I got the Chitra Track&Trail blue-black ones. God, those are beautiful shoes! And so comfortable. <br\/><br\/>I like that with the shoes you keep the anatomical widening on the big-toe side as well, so the foot has room to spread. And I almost forgot. Your shoes DON'T SLIP on wet surfaces! These are the first shoes in my life where I'm not afraid I'll fall.<\/p>",
+            "content": "<p>I've got my first winter in Sundara Winter behind me. They're perfect, honestly made shoes. I really appreciate how low-maintenance they are, which is truly just as you promise on the website - just wipe them with a cloth and that's it. The option to swap the fur insole for a regular one is a great feature and the shoe is thus versatile depending on the weather.<br/><br/>I also treated myself to brown slip-on sandals for Christmas. They're beautifully made. What I like about your shoes in general is that honest work shows in them. Now spring is coming, so I got the Chitra Track&Trail blue-black ones. God, those are beautiful shoes! And so comfortable. <br/><br/>I like that with the shoes you keep the anatomical widening on the big-toe side as well, so the foot has room to spread. And I almost forgot. Your shoes DON'T SLIP on wet surfaces! These are the first shoes in my life where I'm not afraid I'll fall.</p>",
             "title": "Jiří František Barták",
             "pos": "",
             "rating": 5
@@ -422,7 +443,7 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "content": "<p>Walking in the winter boots is wonderful. I’ve worn barefoot shoes exclusively for 3 years now, and since then my bunions, which formed over the previous 35 years, no longer hurt... The winter boots are true slippers.<\/p>",
+            "content": "<p>Walking in the winter boots is wonderful. I’ve worn barefoot shoes exclusively for 3 years now, and since then my bunions, which formed over the previous 35 years, no longer hurt... The winter boots are true slippers.</p>",
             "title": "Lenka Vlková",
             "pos": "",
             "rating": 5
@@ -432,7 +453,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>It's already been three months since I got the Chitra Trek&Trail barefoot hiking boots. I love perfection, functionality and practicality. I didn't believe anything could be better than a stiff mountain boot. I was wrong. I barely take the shoes off even at home. They're amazing 👍👍👍<br\/>It's a shame I didn't discover them sooner. My next project is coming up in August – a crossing of the High Tatras. Many thanks, you're doing great work. I'll certainly be promoting and recommending your product.<\/p>",
+            "content": "<p>It's already been three months since I got the Chitra Trek&Trail barefoot hiking boots. I love perfection, functionality and practicality. I didn't believe anything could be better than a stiff mountain boot. I was wrong. I barely take the shoes off even at home. They're amazing 👍👍👍<br/>It's a shame I didn't discover them sooner. My next project is coming up in August – a crossing of the High Tatras. Many thanks, you're doing great work. I'll certainly be promoting and recommending your product.</p>",
             "title": "Karel Ševčík",
             "pos": "",
             "rating": 5
@@ -442,7 +463,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I’m delighted with your shoes. Walking in them is wonderful, and I’ve finally found shoes that don’t make my feet hurt after a longer walk. I’ll definitely buy another pair.<\/p>",
+            "content": "<p>I’m delighted with your shoes. Walking in them is wonderful, and I’ve finally found shoes that don’t make my feet hurt after a longer walk. I’ll definitely buy another pair.</p>",
             "title": "Lenka Kalinová",
             "pos": "",
             "rating": 5
@@ -452,7 +473,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Ahinsa shoes are amazing — incredibly light and comfortable. Ever since I learned to walk in barefoot shoes, ordinary shoes feel like they’re squeezing my feet. These definitely won’t be my last pair from you.<\/p>",
+            "content": "<p>Ahinsa shoes are amazing — incredibly light and comfortable. Ever since I learned to walk in barefoot shoes, ordinary shoes feel like they’re squeezing my feet. These definitely won’t be my last pair from you.</p>",
             "title": "Lenka",
             "pos": "",
             "rating": 5
@@ -462,7 +483,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>These are my first barefoot shoes and I’m absolutely thrilled. They’re exactly what I imagined. They definitely won’t be the last, and I can only recommend them to everyone.<\/p>",
+            "content": "<p>These are my first barefoot shoes and I’m absolutely thrilled. They’re exactly what I imagined. They definitely won’t be the last, and I can only recommend them to everyone.</p>",
             "title": "Miroslav Svoboda",
             "pos": "",
             "rating": 5
@@ -472,7 +493,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Your shoes are simply amazing!!! That comfort... a balm for the feet. I have Sundara Ankle barefoot boots and I’ve worn them all winter with a merino insole — complete satisfaction! I used a discount and bought Ananda barefoot ballet flats and they’re great too. I can’t wait to wear them and show them off! Truly great work, super quality, the leather is soft and supple and they fit beautifully. <br\/>Thank you and I look forward to more great pieces! <\/p>",
+            "content": "<p>Your shoes are simply amazing!!! That comfort... a balm for the feet. I have Sundara Ankle barefoot boots and I’ve worn them all winter with a merino insole — complete satisfaction! I used a discount and bought Ananda barefoot ballet flats and they’re great too. I can’t wait to wear them and show them off! Truly great work, super quality, the leather is soft and supple and they fit beautifully. <br/>Thank you and I look forward to more great pieces! </p>",
             "title": "Veronika Brenkusová",
             "pos": "",
             "rating": 5
@@ -482,7 +503,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Of the “barefoot shoes” available on our market, I walk best in Ahinsa shoes so far. I started wearing barefoot about 5 years ago on a physiotherapist’s recommendation and I’ve tried various makers. With your products I like the material, the look, the delivery speed — simply the overall quality of the products and the quality of your service. I have spring, summer and winter shoes from you and, as I mentioned, for me they’re the best :)<\/p>",
+            "content": "<p>Of the “barefoot shoes” available on our market, I walk best in Ahinsa shoes so far. I started wearing barefoot about 5 years ago on a physiotherapist’s recommendation and I’ve tried various makers. With your products I like the material, the look, the delivery speed — simply the overall quality of the products and the quality of your service. I have spring, summer and winter shoes from you and, as I mentioned, for me they’re the best :)</p>",
             "title": "Iva Fröhlichová",
             "pos": "",
             "rating": 5
@@ -492,7 +513,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Your shoes are wonderful — they fit beautifully and walking in them is incredibly pleasant. They’re my first shoes of this kind. Until now I wore ordinary shoes with a narrow toe, but after arch pain and, on longer walks, hip pain too, I decided that rather than orthotic insoles and the like, I’d rather try these shoes. After the first outing with the stroller I couldn’t believe it — I barely feel I have shoes on, walking is wonderful.<\/p>",
+            "content": "<p>Your shoes are wonderful — they fit beautifully and walking in them is incredibly pleasant. They’re my first shoes of this kind. Until now I wore ordinary shoes with a narrow toe, but after arch pain and, on longer walks, hip pain too, I decided that rather than orthotic insoles and the like, I’d rather try these shoes. After the first outing with the stroller I couldn’t believe it — I barely feel I have shoes on, walking is wonderful.</p>",
             "title": "Šárka Koutská",
             "pos": "",
             "rating": 5
@@ -502,7 +523,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I had major problems with heel spurs and plantar fasciitis. Since I’ve been wearing your shoes, the issues have eased, and the other day I danced the evening away in them at a concert, with no problems and no pain at all. Thank you.<\/p>",
+            "content": "<p>I had major problems with heel spurs and plantar fasciitis. Since I’ve been wearing your shoes, the issues have eased, and the other day I danced the evening away in them at a concert, with no problems and no pain at all. Thank you.</p>",
             "title": "Marcela Šlapalová",
             "pos": "",
             "rating": 5
@@ -512,7 +533,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I can say I’ve never had better shoes on my feet. I can walk in them at work every day without pain and without any problems. On the contrary, I feel a noticeably stronger lower body overall. I already have three pairs at home and I can’t praise them enough — I wear them all year round.<\/p>",
+            "content": "<p>I can say I’ve never had better shoes on my feet. I can walk in them at work every day without pain and without any problems. On the contrary, I feel a noticeably stronger lower body overall. I already have three pairs at home and I can’t praise them enough — I wear them all year round.</p>",
             "title": "Ondřej Malík",
             "pos": "",
             "rating": 5
@@ -522,7 +543,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I ordered the black Chic Comfort ballet flats and I’m delighted. I want to thank you for your work. I can’t wait to head out in them. I wish you lots of great ideas.<\/p>",
+            "content": "<p>I ordered the black Chic Comfort ballet flats and I’m delighted. I want to thank you for your work. I can’t wait to head out in them. I wish you lots of great ideas.</p>",
             "title": "Pavla Urbanová",
             "pos": "",
             "rating": 5
@@ -532,7 +553,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I have three different pairs of barefoot shoes in total (from various brands). I have to write honestly, though, that yours are the best. They’re well made, the outsole doesn’t wear down, and they’re a pleasure to walk in. So I gradually bought casual shoes, ballet flats, and now ankle boots too. I’ve “fallen in love” with your shoes and I hardly walk in anything else anymore.<\/p>",
+            "content": "<p>I have three different pairs of barefoot shoes in total (from various brands). I have to write honestly, though, that yours are the best. They’re well made, the outsole doesn’t wear down, and they’re a pleasure to walk in. So I gradually bought casual shoes, ballet flats, and now ankle boots too. I’ve “fallen in love” with your shoes and I hardly walk in anything else anymore.</p>",
             "title": "Petra Potměšilová",
             "pos": "",
             "rating": 5
@@ -542,7 +563,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>After a lifetime of aching feet thanks to the unkind way I treated them, I finally found shoes in which my feet feel wrapped in a duvet and don’t want any others. I warmly recommend following the physiotherapist’s advice — I’ve tested it myself and I can say it works 100% for me.<br\/><\/p>",
+            "content": "<p>After a lifetime of aching feet thanks to the unkind way I treated them, I finally found shoes in which my feet feel wrapped in a duvet and don’t want any others. I warmly recommend following the physiotherapist’s advice — I’ve tested it myself and I can say it works 100% for me.<br/></p>",
             "title": "Veronika Vlčková",
             "pos": "",
             "rating": 5
@@ -552,7 +573,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I've been walking in your shoes for almost a year and I'm really delighted. My back doesn't hurt as much as it used to, and I don't get cramps in my calves. Not long ago I had to put on ordinary shoes and I suffered, my squeezed toes hurt so much. I'm a city walker most of the year, but we were recently in forest terrain and walking felt good; I had sneakers on, but for proper mountains I'll get your hiking boots next year, whose sole I think will be excellent. I like how the foot feels “what it's stepping on”. As for the summer sandals, they're good to walk in, the sole is pleasantly soft. Thank you for your work and the super shoes.<\/p>",
+            "content": "<p>I've been walking in your shoes for almost a year and I'm really delighted. My back doesn't hurt as much as it used to, and I don't get cramps in my calves. Not long ago I had to put on ordinary shoes and I suffered, my squeezed toes hurt so much. I'm a city walker most of the year, but we were recently in forest terrain and walking felt good; I had sneakers on, but for proper mountains I'll get your hiking boots next year, whose sole I think will be excellent. I like how the foot feels “what it's stepping on”. As for the summer sandals, they're good to walk in, the sole is pleasantly soft. Thank you for your work and the super shoes.</p>",
             "title": "Jana Blažková",
             "pos": "",
             "rating": 5
@@ -562,7 +583,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>You offer truly the best barefoot shoes — they’re beautiful too, and I just switch from one model to another, but I wear Ahinsa Shoes all year round ❤️ Thank you so much again!<\/p>",
+            "content": "<p>You offer truly the best barefoot shoes — they’re beautiful too, and I just switch from one model to another, but I wear Ahinsa Shoes all year round ❤️ Thank you so much again!</p>",
             "title": "Terezie Pechová",
             "pos": "",
             "rating": 5
@@ -572,7 +593,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Ever since I first ordered from you, I don’t wear any other shoes. It was love at first sight! I love that you care about both customer comfort and health, and about our planet.<\/p>",
+            "content": "<p>Ever since I first ordered from you, I don’t wear any other shoes. It was love at first sight! I love that you care about both customer comfort and health, and about our planet.</p>",
             "title": "Tereza Konířová",
             "pos": "",
             "rating": 5
@@ -582,7 +603,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I've bought almost everything you make in the Comfort line (because I'm just starting out with Barefoot shoes and I already don't want to give them up – and I don't even dare buy from other manufacturers, because nobody else has a Comfort line – thoughtful cushioning so that walking around the city isn't a problem). And so I already have your recycled sneakers for warm weather too 👍. Otherwise I adore your vegan leather – I don't think any shoes have ever been this wonderful to clean, like these vegan ones 👌. And on top of that, the incredible thing about the shoes for me is that they don't scuff – perfect 👏👏👏. I praise and recommend your company everywhere.<\/p>",
+            "content": "<p>I've bought almost everything you make in the Comfort line (because I'm just starting out with Barefoot shoes and I already don't want to give them up – and I don't even dare buy from other manufacturers, because nobody else has a Comfort line – thoughtful cushioning so that walking around the city isn't a problem). And so I already have your recycled sneakers for warm weather too 👍. Otherwise I adore your vegan leather – I don't think any shoes have ever been this wonderful to clean, like these vegan ones 👌. And on top of that, the incredible thing about the shoes for me is that they don't scuff – perfect 👏👏👏. I praise and recommend your company everywhere.</p>",
             "title": "Olga Sidimáková",
             "pos": "",
             "rating": 5
@@ -592,7 +613,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>As feedback I'll add that I've fallen in love with your shoes, and I went into them as a complete novice, with no expectations, and they surpassed everything! They're so easy to care for, the freedom for the feet is genius, I spend the whole day in them at work, with a dress, with jeans, on a hike in nature, they can simply be used for every occasion... they also really caught people's attention around me, and I'll be going into my third winter in them and they still don't have a single scratch, which I don't even understand, given my zero care and the wear I put them through with no thought for how they'll end up.<br\/>They're truly all-weather shoes and they've definitely won me over and adapted to my needs. Keep it up, all the best, thank you 👏<\/p>",
+            "content": "<p>As feedback I'll add that I've fallen in love with your shoes, and I went into them as a complete novice, with no expectations, and they surpassed everything! They're so easy to care for, the freedom for the feet is genius, I spend the whole day in them at work, with a dress, with jeans, on a hike in nature, they can simply be used for every occasion... they also really caught people's attention around me, and I'll be going into my third winter in them and they still don't have a single scratch, which I don't even understand, given my zero care and the wear I put them through with no thought for how they'll end up.<br/>They're truly all-weather shoes and they've definitely won me over and adapted to my needs. Keep it up, all the best, thank you 👏</p>",
             "title": "Šárka Pokorná",
             "pos": "",
             "rating": 5
@@ -602,7 +623,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I am very happy with the hiking shoes I bought from you a month ago. I am 72 years old and have a lot of pain in my feet: bunions, a collapsed arch and hammer toes. I tried your shoes on a 3-day hike in the Beskids; every day we walked at least 15 km and on the second day we even managed 1,000 m of elevation on rocky terrain. With every step I was glad what a good decision it had been to buy new shoes after 14 years of suffering in hard, inflexible ones, especially given my age. Your shoes are lovely and soft, they don’t pinch anywhere, and yet the sole is firm enough and at the same time springy enough that you don’t feel every single stone on the path. They’re light, which I also really appreciate, because my previous hiking shoes were heavy and after a longer trek I was just dragging my feet. You have succeeded in making wonderful footwear, perhaps everyday footwear for me in the future, because in these shoes I will still be able to walk when it will no longer be possible in any other. Thank you so much, and with every step in your shoes I think of you with gratitude. <\/p>",
+            "content": "<p>I am very happy with the hiking shoes I bought from you a month ago. I am 72 years old and have a lot of pain in my feet: bunions, a collapsed arch and hammer toes. I tried your shoes on a 3-day hike in the Beskids; every day we walked at least 15 km and on the second day we even managed 1,000 m of elevation on rocky terrain. With every step I was glad what a good decision it had been to buy new shoes after 14 years of suffering in hard, inflexible ones, especially given my age. Your shoes are lovely and soft, they don’t pinch anywhere, and yet the sole is firm enough and at the same time springy enough that you don’t feel every single stone on the path. They’re light, which I also really appreciate, because my previous hiking shoes were heavy and after a longer trek I was just dragging my feet. You have succeeded in making wonderful footwear, perhaps everyday footwear for me in the future, because in these shoes I will still be able to walk when it will no longer be possible in any other. Thank you so much, and with every step in your shoes I think of you with gratitude. </p>",
             "title": "Danuše Geryková",
             "pos": "",
             "rating": 5
@@ -612,7 +633,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I wear your dress shoes, and after a year of daily wear (insoles only in real winter) they show no signs of scuffing or any other trouble.<br\/>When I was looking for sneakers – and that word is very important – I knew you’d be among the favorites. But I was looking for something else, something simple and at the same time something that can’t be put into words, and as soon as I saw YUVA – the shoes enchanted me.<br\/><br\/>They arrived yesterday, actually unexpectedly. Beautiful packaging; I’d forgotten what it’s like to feel joy from unboxing shoes, and yesterday reminded me of it again. I quite literally slipped into them, and it was my wife who pointed out that I was walking around the apartment in shoes 😀.<br\/><br\/>On my foot, these shoes fit in an unprecedented way, and I’m seriously thinking about ordering another pair. What I have to praise most: the weight – it’s completely ridiculous. But the very best thing is the tongue. There’s something so pleasant about how you tighten the shoe and that wide, plump tongue wraps around your whole instep. That’s what makes the shoe what it is, and I have to take my imaginary hat off.<br\/><br\/>And why I’m actually proud. I love quality and I love premium quality, and what’s more I walked around town in them yesterday and I’m sure that for a long time I’ll be the first person in company on whom people can see this creation.<\/p>",
+            "content": "<p>I wear your dress shoes, and after a year of daily wear (insoles only in real winter) they show no signs of scuffing or any other trouble.<br/>When I was looking for sneakers – and that word is very important – I knew you’d be among the favorites. But I was looking for something else, something simple and at the same time something that can’t be put into words, and as soon as I saw YUVA – the shoes enchanted me.<br/><br/>They arrived yesterday, actually unexpectedly. Beautiful packaging; I’d forgotten what it’s like to feel joy from unboxing shoes, and yesterday reminded me of it again. I quite literally slipped into them, and it was my wife who pointed out that I was walking around the apartment in shoes 😀.<br/><br/>On my foot, these shoes fit in an unprecedented way, and I’m seriously thinking about ordering another pair. What I have to praise most: the weight – it’s completely ridiculous. But the very best thing is the tongue. There’s something so pleasant about how you tighten the shoe and that wide, plump tongue wraps around your whole instep. That’s what makes the shoe what it is, and I have to take my imaginary hat off.<br/><br/>And why I’m actually proud. I love quality and I love premium quality, and what’s more I walked around town in them yesterday and I’m sure that for a long time I’ll be the first person in company on whom people can see this creation.</p>",
             "title": "Jakub Bolek",
             "pos": "",
             "rating": 5
@@ -622,7 +643,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>After a few months of almost everyday wear I can finally write an honest review. I'd call it Love at second sight :) The sole caught my attention immediately - I have the Comfort line, I didn't want purely barefoot (specifically I have the Shuma Nature model). And that bliss with every step!<br\/><br\/>I'm a mum of an almost two-year-old fidget, so the shoes run with us every day around the city, on the playground or through the forest. And I'm simply DELIGHTED! Nothing pinches, the shoe is lovely and soft, I walk through every puddle with dry feet, they're pleasantly warm, and most of all - at home I wipe them with a damp cloth and they look like new again.<br\/><br\/>I ask myself only one question, why didn't I buy them sooner?? I sing the shoes' praises wherever I go and I've already successfully inspired more people to buy. I thank Ahinsa for showing me that the perfect shoe exists. <\/p>",
+            "content": "<p>After a few months of almost everyday wear I can finally write an honest review. I'd call it Love at second sight :) The sole caught my attention immediately - I have the Comfort line, I didn't want purely barefoot (specifically I have the Shuma Nature model). And that bliss with every step!<br/><br/>I'm a mum of an almost two-year-old fidget, so the shoes run with us every day around the city, on the playground or through the forest. And I'm simply DELIGHTED! Nothing pinches, the shoe is lovely and soft, I walk through every puddle with dry feet, they're pleasantly warm, and most of all - at home I wipe them with a damp cloth and they look like new again.<br/><br/>I ask myself only one question, why didn't I buy them sooner?? I sing the shoes' praises wherever I go and I've already successfully inspired more people to buy. I thank Ahinsa for showing me that the perfect shoe exists. </p>",
             "title": "Kateřina Skoková",
             "pos": "",
             "rating": 5
@@ -632,7 +653,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Your Chitra Trek&Trail shoes are perfect — the Barefoot line doesn’t work for me, but your Comfort line is luxurious. I also love that you have a Vibram outsole; this is exactly what I was looking for… barefoot shoes with a thicker sole plus Vibram. Thank you so much.<\/p>",
+            "content": "<p>Your Chitra Trek&Trail shoes are perfect — the Barefoot line doesn’t work for me, but your Comfort line is luxurious. I also love that you have a Vibram outsole; this is exactly what I was looking for… barefoot shoes with a thicker sole plus Vibram. Thank you so much.</p>",
             "title": "Zuzana Kovaříková",
             "pos": "",
             "rating": 5
@@ -642,7 +663,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Tomorrow I’m heading to a classical concert in a fantastic pair of Ananda casual shoes from Ahinsa 👍😊 I simply can’t walk in other shoes anymore. Ever since I switched to barefoot shoes, my back has stopped hurting and I can jump in puddles again 😊 <\/p>",
+            "content": "<p>Tomorrow I’m heading to a classical concert in a fantastic pair of Ananda casual shoes from Ahinsa 👍😊 I simply can’t walk in other shoes anymore. Ever since I switched to barefoot shoes, my back has stopped hurting and I can jump in puddles again 😊 </p>",
             "title": "Květa Štefániková",
             "pos": "",
             "rating": 5
@@ -743,7 +764,7 @@
         "collection_item_ETwFeW": {
           "type": "collection_item",
           "settings": {
-            "collection": "damske-barefoot",
+            "collection": "womens-barefoot-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
@@ -758,7 +779,7 @@
         "collection_item_eRHHfD": {
           "type": "collection_item",
           "settings": {
-            "collection": "damske-komfortni-boty",
+            "collection": "womens-comfort-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
@@ -773,7 +794,7 @@
         "collection_item_RyGhcG": {
           "type": "collection_item",
           "settings": {
-            "collection": "panske-barefoot",
+            "collection": "mens-barefoot-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
@@ -788,7 +809,7 @@
         "collection_item_qWRwin": {
           "type": "collection_item",
           "settings": {
-            "collection": "panska-komfortni-obuv",
+            "collection": "mens-comfort-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
@@ -894,7 +915,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "Independent reviews of Ahinsa shoes",
-            "text": "<p>Experts and barefoot enthusiasts on our shoes. Read their honest feedback<\/p>",
+            "text": "<p>Experts and barefoot enthusiasts on our shoes. Read their honest feedback</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -910,7 +931,9 @@
           }
         }
       },
-      "block_order": ["bl_text_8WRFtf"],
+      "block_order": [
+        "bl_text_8WRFtf"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -947,8 +970,8 @@
             "height_tb": 400,
             "custom_mb": true,
             "height_mb": 300,
-            "image": "shopify:\/\/shop_images\/AUM05125.jpg",
-            "b_link": "https:\/\/www.youtube.com\/watch?v=5CK5-UkmaJI&ab_channel=%C5%A0%C5%A5astn%C3%A9N%C3%B4%C5%BEky",
+            "image": "shopify://shop_images/AUM05125.jpg",
+            "b_link": "https://www.youtube.com/watch?v=5CK5-UkmaJI&ab_channel=%C5%A0%C5%A5astn%C3%A9N%C3%B4%C5%BEky",
             "open_link": "_blank",
             "img_effect": "none",
             "b_effect": "none",
@@ -1037,8 +1060,8 @@
             "height_tb": 400,
             "custom_mb": true,
             "height_mb": 300,
-            "image": "shopify:\/\/shop_images\/DSC_6592.jpg",
-            "b_link": "https:\/\/www.modio.cz\/i\/udrzitelne-tenisky-v-praxi-slip-on-od-ahinsa-vas-dostanou",
+            "image": "shopify://shop_images/DSC_6592.jpg",
+            "b_link": "https://www.modio.cz/i/udrzitelne-tenisky-v-praxi-slip-on-od-ahinsa-vas-dostanou",
             "open_link": "_blank",
             "img_effect": "none",
             "b_effect": "none",
@@ -1127,8 +1150,8 @@
             "height_tb": 400,
             "custom_mb": true,
             "height_mb": 300,
-            "image": "shopify:\/\/shop_images\/DSC02009-min_087b3df7-dab6-404f-ad3f-b8418d74f048.jpg",
-            "b_link": "https:\/\/www.svetoutdooru.cz\/vybaveni\/ahinsa-shoes-hiker-comfort-poctive-barefoot-pohorky\/",
+            "image": "shopify://shop_images/DSC02009-min_087b3df7-dab6-404f-ad3f-b8418d74f048.jpg",
+            "b_link": "https://www.svetoutdooru.cz/vybaveni/ahinsa-shoes-hiker-comfort-poctive-barefoot-pohorky/",
             "open_link": "_blank",
             "img_effect": "none",
             "b_effect": "none",
