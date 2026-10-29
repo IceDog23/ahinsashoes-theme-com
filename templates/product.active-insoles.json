@@ -860,6 +860,7 @@
         },
         "accor_item_ceYh8H": {
           "type": "accor_item",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "title": "Looking for a custom solution and made-to-measure insoles?",
