@@ -317,6 +317,7 @@
         },
         "link_GTGza9": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "tab_title": "Reviews",
             "hook": "shopify-section-template--23026132287819__17190050663df79af6"
@@ -1066,9 +1067,11 @@
     },
     "17190050663df79af6": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
             "review_data": "sample_data",
             "max_width": 1200
