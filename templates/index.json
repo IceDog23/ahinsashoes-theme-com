@@ -165,7 +165,7 @@
             "image_icon": "shopify://shop_images/ico-barefoot.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
+            "text": "<p>They respect your feet – that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -186,8 +186,8 @@
             "icon_themes": "refesh",
             "image_icon": "shopify://shop_images/ico-replace.png",
             "icon": "las la-undo-alt",
-            "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.</p>",
+            "title": "WORLDWIDE SHIPPING",
+            "text": "<p>Fast delivery.<br/>Quick & easy exchanges.</p>",
             "html": ""
           }
         },
