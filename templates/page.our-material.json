@@ -14,7 +14,10 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 5 }
+          "settings": {
+            "breadcrumb_color": "#202020",
+            "brc_mgb": 5
+          }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -40,7 +43,7 @@
         "2_QpeXnY": {
           "type": "2",
           "settings": {
-            "content": "<p>In a world full of disposables, we <strong>make shoes that last for years<\/strong>.<br\/><br\/>Ethical. Eco-friendly. Comfortable.<\/p>",
+            "content": "<p>In a world full of disposables, we <strong>make shoes that last for years</strong>.<br/><br/>Ethical. Eco-friendly. Comfortable.</p>",
             "fontf": "2",
             "text_cl": "#202020",
             "text_fs": 16,
@@ -59,10 +62,14 @@
           }
         }
       },
-      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
       "settings": {
         "heading_fullwidth": true,
-        "image": "shopify:\/\/shop_images\/DSC_5264.jpg",
+        "image": "shopify://shop_images/DSC_5264.jpg",
         "use_specify_image": true,
         "parallax": false,
         "color": "#ffffff",
@@ -131,7 +138,7 @@
         "custom_text_QAgVJ3": {
           "type": "custom_text",
           "settings": {
-            "text": "<b>Ethics and a love of nature<\/b> have been at the heart of everything we do from the start. But why not take <br>one more step?<br><br>\nMeet the <b>recycled materials<\/b> that are a joy to walk in.<br>\nDiscover the Ahinsa In Love with Life collection.",
+            "text": "<b>Ethics and a love of nature</b> have been at the heart of everything we do from the start. But why not take <br>one more step?<br><br>\nMeet the <b>recycled materials</b> that are a joy to walk in.<br>\nDiscover the Ahinsa In Love with Life collection.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -166,7 +173,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify:\/\/shop_images\/titulka.png",
+        "image": "shopify://shop_images/titulka.png",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -215,7 +222,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "WE CARE FOR THE PLANET",
             "text": "",
@@ -226,7 +233,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
             "text": "",
@@ -237,7 +244,7 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE IN THE CZECH REPUBLIC AND CROATIA",
             "text": "",
@@ -245,7 +252,11 @@
           }
         }
       },
-      "block_order": ["shipping_HDMKMa", "shipping_KfzhP7", "shipping_mmNH6x"],
+      "block_order": [
+        "shipping_HDMKMa",
+        "shipping_KfzhP7",
+        "shipping_mmNH6x"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "2",
@@ -319,7 +330,9 @@
           }
         }
       },
-      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -334,7 +347,7 @@
     "custom_liquid_cTJBKg": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.video-container {\n    max-width: 800px; \/* Maximum width on desktop *\/\n    width: 100%; \/* Adapts to screen width *\/\n    display: block;\n    margin: 0 auto;\n}\n\n.video-container iframe {\n    width: 100%; \/* Adapts the video width to the container *\/\n    height: auto; \/* Automatic height *\/\n    aspect-ratio: 16\/9; \/* Maintains aspect ratio *\/\n}\n<\/style>\n\n<div class=\"video-container\">\n    <iframe \n        src=\"https:\/\/www.youtube.com\/embed\/i64RVnX1uZ8\" \n        frameborder=\"0\" \n        allowfullscreen>\n    <\/iframe>\n<\/div>",
+        "custom_liquid": "<style>\n.video-container {\n    max-width: 800px; /* Maximum width on desktop */\n    width: 100%; /* Adapts to screen width */\n    display: block;\n    margin: 0 auto;\n}\n\n.video-container iframe {\n    width: 100%; /* Adapts the video width to the container */\n    height: auto; /* Automatic height */\n    aspect-ratio: 16/9; /* Maintains aspect ratio */\n}\n</style>\n\n<div class=\"video-container\">\n    <iframe \n        src=\"https://www.youtube.com/embed/i64RVnX1uZ8\" \n        frameborder=\"0\" \n        allowfullscreen>\n    </iframe>\n</div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -360,7 +373,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>CF+: Better than leather<\/h3><p><\/p><p>At first glance you <strong>won’t tell this cruelty-free material apart from leather<\/strong>. At second glance you will: it lasts far longer and adapts to you the first time you put it on.<\/p><p>In shoes made from CF+ (90% polyamide and 10% polyurethane) your foot <strong>breathes freely<\/strong> and stays dry.<\/p><ul><li>Won’t let water in<\/li><li>Resists scratches and scuffs<\/li><li>100% vegan<\/li><\/ul>",
+            "text": "<h3>CF+: Better than leather</h3><p></p><p>At first glance you <strong>won’t tell this cruelty-free material apart from leather</strong>. At second glance you will: it lasts far longer and adapts to you the first time you put it on.</p><p>In shoes made from CF+ (90% polyamide and 10% polyurethane) your foot <strong>breathes freely</strong> and stays dry.</p><ul><li>Won’t let water in</li><li>Resists scratches and scuffs</li><li>100% vegan</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -378,7 +391,7 @@
         "bl_image_maapLQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_8668_4d4fb110-984a-43b6-89a8-b89250e7c3e2.jpg",
+            "image1": "shopify://shop_images/DSC_8668_4d4fb110-984a-43b6-89a8-b89250e7c3e2.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -405,7 +418,10 @@
           }
         }
       },
-      "block_order": ["bl_text_QFR6Gw", "bl_image_maapLQ"],
+      "block_order": [
+        "bl_text_QFR6Gw",
+        "bl_image_maapLQ"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -436,7 +452,7 @@
         "bl_image_aVwdcL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_7419_25653ac1-6ab0-48ec-bf49-39832b2979f7.jpg",
+            "image1": "shopify://shop_images/DSC_7419_25653ac1-6ab0-48ec-bf49-39832b2979f7.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -473,7 +489,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>CF+ nubuck: Style with a clear conscience<\/h3><p><\/p><p>We love soft nubuck. But ordinary nubuck is made from animal leather and it’s fussy to look after. So we looked for our own version — and we found it. <strong>It breathes, it lasts, and it’s made ethically.<\/strong><\/p><ul><li>Soft to the touch<\/li><li>100% vegan<\/li><li>Extra breathable<\/li><\/ul>",
+            "text": "<h3>CF+ nubuck: Style with a clear conscience</h3><p></p><p>We love soft nubuck. But ordinary nubuck is made from animal leather and it’s fussy to look after. So we looked for our own version — and we found it. <strong>It breathes, it lasts, and it’s made ethically.</strong></p><ul><li>Soft to the touch</li><li>100% vegan</li><li>Extra breathable</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -489,7 +505,10 @@
           }
         }
       },
-      "block_order": ["bl_image_aVwdcL", "bl_text_MJaMPU"],
+      "block_order": [
+        "bl_image_aVwdcL",
+        "bl_text_MJaMPU"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -528,7 +547,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Hemp: Nature's tough guys<\/h3><p><\/p><p>You'll fall in love with hemp shoes, especially in summer. They protect your feet from the sun, <strong>keep them cool, and let them breathe<\/strong>. Even better, they last – these are the <strong>world's toughest natural fibers<\/strong>. There have even been discoveries of natural <a href=\"https:\/\/lustilek.cz\/tkanina\/\">fabrics<\/a> that date back thousands of years.{NBSP}<\/p><p>Our shoes might not last thousands of years. But <strong>they will take millions of steps with you<\/strong>. We've tested them ourselves.<\/p><ul><li>A green source: minimal water needed for production<\/li><li>Your feet can breathe in them<\/li><li>Extremely durable fibers<\/li><\/ul>",
+            "text": "<h3>Hemp: Nature's tough guys</h3><p></p><p>You'll fall in love with hemp shoes, especially in summer. They protect your feet from the sun, <strong>keep them cool, and let them breathe</strong>. Even better, they last – these are the <strong>world's toughest natural fibers</strong>. There have even been discoveries of natural <a href=\"https://lustilek.cz/tkanina/\">fabrics</a> that date back thousands of years.{NBSP}</p><p>Our shoes might not last thousands of years. But <strong>they will take millions of steps with you</strong>. We've tested them ourselves.</p><ul><li>A green source: minimal water needed for production</li><li>Your feet can breathe in them</li><li>Extremely durable fibers</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -546,7 +565,7 @@
         "bl_image_xiTHBH": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_9770_bad1efef-17b5-4511-b104-1a68323842f3.jpg",
+            "image1": "shopify://shop_images/DSC_9770_bad1efef-17b5-4511-b104-1a68323842f3.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -573,7 +592,10 @@
           }
         }
       },
-      "block_order": ["bl_text_pbiyyh", "bl_image_xiTHBH"],
+      "block_order": [
+        "bl_text_pbiyyh",
+        "bl_image_xiTHBH"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -604,7 +626,7 @@
         "bl_image_fckD4B": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_4734.jpg",
+            "image1": "shopify://shop_images/DSC_4734.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -641,7 +663,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Ethical fur: Warmth without cruelty<\/h3><p><\/p><p>Ahinsa shoes walk on Finnish snow too. It’s from Finland that we know our vegan fur will <strong>keep you warm even in the harshest frost<\/strong>. <\/p><p>Thanks to a special membrane it <strong>wicks sweat away from the feet<\/strong>. Put on shoes with this fur and you’ll finally spend winter in warmth.<\/p><ul><li>100% vegan<\/li><li>Wicks sweat away from the feet<\/li><li>Keeps you warm even in Finnish frosts (tested)<\/li><\/ul>",
+            "text": "<h3>Ethical fur: Warmth without cruelty</h3><p></p><p>Ahinsa shoes walk on Finnish snow too. It’s from Finland that we know our vegan fur will <strong>keep you warm even in the harshest frost</strong>. </p><p>Thanks to a special membrane it <strong>wicks sweat away from the feet</strong>. Put on shoes with this fur and you’ll finally spend winter in warmth.</p><ul><li>100% vegan</li><li>Wicks sweat away from the feet</li><li>Keeps you warm even in Finnish frosts (tested)</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -657,7 +679,10 @@
           }
         }
       },
-      "block_order": ["bl_image_fckD4B", "bl_text_fQC96W"],
+      "block_order": [
+        "bl_image_fckD4B",
+        "bl_text_fQC96W"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -696,7 +721,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>AirNet®: A fresh breeze for your feet<\/h3><p><\/p><p>Inhale. Exhale. Such a basic thing — and your feet need it too. That’s why we chose <strong>extra-breathable AirNet mesh<\/strong>. Feet can breathe in it, and you feel more comfortable than ever before.<\/p><ul><li>Adapts to your feet<\/li><li>Lets air through to your feet<\/li><li>Extra durable<\/li><\/ul>",
+            "text": "<h3>AirNet®: A fresh breeze for your feet</h3><p></p><p>Inhale. Exhale. Such a basic thing — and your feet need it too. That’s why we chose <strong>extra-breathable AirNet mesh</strong>. Feet can breathe in it, and you feel more comfortable than ever before.</p><ul><li>Adapts to your feet</li><li>Lets air through to your feet</li><li>Extra durable</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -714,7 +739,7 @@
         "bl_image_36f978": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_9758.jpg",
+            "image1": "shopify://shop_images/DSC_9758.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -741,7 +766,10 @@
           }
         }
       },
-      "block_order": ["bl_text_BPByJe", "bl_image_36f978"],
+      "block_order": [
+        "bl_text_BPByJe",
+        "bl_image_36f978"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -772,7 +800,7 @@
         "bl_image_A4HpcB": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Comfort_produkt_3.0.png",
+            "image1": "shopify://shop_images/Comfort_produkt_3.0.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -809,7 +837,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Triple cushioning: Through the city as if on a cloud<\/h3><p><\/p><p>With our special insole, you’ll enjoy walking through the city <strong>as if you were walking on moss<\/strong>.<\/p><p>The first layer <strong>wicks moisture<\/strong>.<\/p><p>The second <strong>cushions impacts<\/strong>.<\/p><p>The third and fourth layers <strong>spring even the finest shocks<\/strong>.<\/p>",
+            "text": "<h3>Triple cushioning: Through the city as if on a cloud</h3><p></p><p>With our special insole, you’ll enjoy walking through the city <strong>as if you were walking on moss</strong>.</p><p>The first layer <strong>wicks moisture</strong>.</p><p>The second <strong>cushions impacts</strong>.</p><p>The third and fourth layers <strong>spring even the finest shocks</strong>.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -825,7 +853,10 @@
           }
         }
       },
-      "block_order": ["bl_image_A4HpcB", "bl_text_rdRPDW"],
+      "block_order": [
+        "bl_image_A4HpcB",
+        "bl_text_rdRPDW"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -864,7 +895,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Softy knit: Slip into softness<\/h3><p><br\/>A durable, springy knit from a soft polyester fibre.<br\/><\/p><ul><li><strong>Breathable.<\/strong> Feet can breathe in the knitted fabric.<\/li><li><strong>Soft. <\/strong>They wrap the foot with a springy hug.<\/li><li><strong>Durable.<\/strong> The toe is knitted more densely, the heel is reinforced.<\/li><\/ul>",
+            "text": "<h3>Softy knit: Slip into softness</h3><p><br/>A durable, springy knit from a soft polyester fibre.<br/></p><ul><li><strong>Breathable.</strong> Feet can breathe in the knitted fabric.</li><li><strong>Soft. </strong>They wrap the foot with a springy hug.</li><li><strong>Durable.</strong> The toe is knitted more densely, the heel is reinforced.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -882,7 +913,7 @@
         "bl_image_XzzPE9": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_3463_as_11102025.jpg",
+            "image1": "shopify://shop_images/DSC_3463_as_11102025.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -909,7 +940,10 @@
           }
         }
       },
-      "block_order": ["bl_text_4CXaLz", "bl_image_XzzPE9"],
+      "block_order": [
+        "bl_text_4CXaLz",
+        "bl_image_XzzPE9"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -940,7 +974,7 @@
         "bl_image_KGYwiz": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/mabel.jpg",
+            "image1": "shopify://shop_images/mabel.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -977,7 +1011,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Mabel: Leather made from apples helps the planet<\/h3><p><\/p><p>There are a lot of ways to make things easier for the planet. One of them smells like apple pie.<\/p><p>Mabel is a material that <strong>is made of 25% apple waste<\/strong>. It looks like leather, it lasts for years, and it helps create more sustainable Ahinsa shoes. <\/p><p>It's nothing new. Mabel material has been produced <strong>in Tuscany since 2010<\/strong> and has proven to be useful to shoemakers and furniture manufacturers.<\/p><ul><li>Sustainable material<\/li><li>24% made from apple waste<\/li><li>Firm and durable<\/li><\/ul>",
+            "text": "<h3>Mabel: Leather made from apples helps the planet</h3><p></p><p>There are a lot of ways to make things easier for the planet. One of them smells like apple pie.</p><p>Mabel is a material that <strong>is made of 25% apple waste</strong>. It looks like leather, it lasts for years, and it helps create more sustainable Ahinsa shoes. </p><p>It's nothing new. Mabel material has been produced <strong>in Tuscany since 2010</strong> and has proven to be useful to shoemakers and furniture manufacturers.</p><ul><li>Sustainable material</li><li>24% made from apple waste</li><li>Firm and durable</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -993,7 +1027,10 @@
           }
         }
       },
-      "block_order": ["bl_image_KGYwiz", "bl_text_XmWTDm"],
+      "block_order": [
+        "bl_image_KGYwiz",
+        "bl_text_XmWTDm"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1032,7 +1069,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Coolmax lining: Dry and comfortable all year round<\/h3><p><\/p><p>All of our linings wick away sweat from the feet. But, for our athletic shoes, we needed something more heavy-duty.<\/p><p>The Coolmax lining has proven to work wonders. <strong>It's breathable, durable<\/strong> and unbeatable in the summer.<\/p><p><strong>It absorbs moisture<\/strong> from the feet and wicks it away. At the same time, it lets in <strong>fresh air<\/strong>. <\/p><p>Go for a run! Coolmax will keep you dry and comfortable.<\/p><ul><li>Light and breathable lining<\/li><li>Absorbent, wicks away moisture<\/li><li>Brings in fresh air<\/li><\/ul>",
+            "text": "<h3>Coolmax lining: Dry and comfortable all year round</h3><p></p><p>All of our linings wick away sweat from the feet. But, for our athletic shoes, we needed something more heavy-duty.</p><p>The Coolmax lining has proven to work wonders. <strong>It's breathable, durable</strong> and unbeatable in the summer.</p><p><strong>It absorbs moisture</strong> from the feet and wicks it away. At the same time, it lets in <strong>fresh air</strong>. </p><p>Go for a run! Coolmax will keep you dry and comfortable.</p><ul><li>Light and breathable lining</li><li>Absorbent, wicks away moisture</li><li>Brings in fresh air</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -1050,7 +1087,7 @@
         "bl_image_pphhQz": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_9743_b28fa729-ef21-493a-832d-3b6edcec9cc6.jpg",
+            "image1": "shopify://shop_images/DSC_9743_b28fa729-ef21-493a-832d-3b6edcec9cc6.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1077,7 +1114,10 @@
           }
         }
       },
-      "block_order": ["bl_text_dEieTY", "bl_image_pphhQz"],
+      "block_order": [
+        "bl_text_dEieTY",
+        "bl_image_pphhQz"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1108,7 +1148,7 @@
         "bl_image_WrCDWE": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/ultradry.jpg",
+            "image1": "shopify://shop_images/ultradry.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1145,7 +1185,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>CF Ultra Dry lining: Dry feet even in the hot summer<\/h3><p><\/p><p>It's normal for human feet to sweat. But yours will stay dry all day. That's taken care of by the <strong>CF Ultra Dry lining<\/strong>, which, thanks to a special membrane, <strong>soaks up moisture like a sponge<\/strong>. It absorbs up to 8 times its own weight! <\/p><p>60% of it is made from corn – that is, corn polymer, a non-GMO <strong>durable fabric from nature<\/strong>. That's why it's friendlier to the planet than synthetic materials.<\/p><ul><li>Wicks away moisture from the foot<\/li><li>Antibacterial<\/li><li>Very soft and pleasant to the touch<\/li><li>Ecological and easily recyclable material<\/li><\/ul>",
+            "text": "<h3>CF Ultra Dry lining: Dry feet even in the hot summer</h3><p></p><p>It's normal for human feet to sweat. But yours will stay dry all day. That's taken care of by the <strong>CF Ultra Dry lining</strong>, which, thanks to a special membrane, <strong>soaks up moisture like a sponge</strong>. It absorbs up to 8 times its own weight! </p><p>60% of it is made from corn – that is, corn polymer, a non-GMO <strong>durable fabric from nature</strong>. That's why it's friendlier to the planet than synthetic materials.</p><ul><li>Wicks away moisture from the foot</li><li>Antibacterial</li><li>Very soft and pleasant to the touch</li><li>Ecological and easily recyclable material</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -1161,7 +1201,10 @@
           }
         }
       },
-      "block_order": ["bl_image_WrCDWE", "bl_text_4h7Etx"],
+      "block_order": [
+        "bl_image_WrCDWE",
+        "bl_text_4h7Etx"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1200,7 +1243,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Waterproof membrane: Lets water out, not in<\/h3><p><\/p><p>Dry feet? That’s the goal. <strong>Waterproof material<\/strong> alone isn’t enough. You need something that wicks sweat away from your feet.<\/p><p>We’ve found the solution. <strong>A membrane with micropores.<\/strong><\/p><p>These are <strong>12,000 times smaller than a water droplet<\/strong>, so water can’t seep in. And at the same time 400 times larger than vapor molecules, so moisture from your feet can escape freely.<\/p><p>Put our <a href=\"\/collections\/all\/hiker\" target=\"_blank\" title=\"Hiking footwear\">hiking boots<\/a> to the test. A <strong>waterproof membrane<\/strong> is also found in the <a href=\"\/search?q=shuma+nature\" target=\"_blank\" title=\"Shuma Nature ankle boots\">Shuma Nature ankle boots<\/a>, <a href=\"\/search?q=shuma+winter\" target=\"_blank\" title=\"Shuma Winter boots\">Shuma Winter boots<\/a> and <a href=\"\/search?type=product%2Carticle&q=irbis*\" target=\"_blank\" title=\"Irbis Snow snow boots\">Irbis Snow snow boots<\/a>. They’ll keep your feet dry.<\/p><ul><li>Flexible and durable membrane<\/li><li>Wicks sweat away from the feet<\/li><li>Won’t let a single drop of water in<\/li><li>Lab-tested<\/li><\/ul>",
+            "text": "<h3>Waterproof membrane: Lets water out, not in</h3><p></p><p>Dry feet? That’s the goal. <strong>Waterproof material</strong> alone isn’t enough. You need something that wicks sweat away from your feet.</p><p>We’ve found the solution. <strong>A membrane with micropores.</strong></p><p>These are <strong>12,000 times smaller than a water droplet</strong>, so water can’t seep in. And at the same time 400 times larger than vapor molecules, so moisture from your feet can escape freely.</p><p>Put our <a href=\"/collections/all/hiker\" target=\"_blank\" title=\"Hiking footwear\">hiking boots</a> to the test. A <strong>waterproof membrane</strong> is also found in the <a href=\"/search?q=shuma+nature\" target=\"_blank\" title=\"Shuma Nature ankle boots\">Shuma Nature ankle boots</a>, <a href=\"/search?q=shuma+winter\" target=\"_blank\" title=\"Shuma Winter boots\">Shuma Winter boots</a> and <a href=\"/search?type=product%2Carticle&q=irbis*\" target=\"_blank\" title=\"Irbis Snow snow boots\">Irbis Snow snow boots</a>. They’ll keep your feet dry.</p><ul><li>Flexible and durable membrane</li><li>Wicks sweat away from the feet</li><li>Won’t let a single drop of water in</li><li>Lab-tested</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -1218,7 +1261,7 @@
         "bl_image_UMP7HW": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_9490_d120b947-6268-4422-b657-b3663ef94e26.jpg",
+            "image1": "shopify://shop_images/DSC_9490_d120b947-6268-4422-b657-b3663ef94e26.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1245,7 +1288,10 @@
           }
         }
       },
-      "block_order": ["bl_text_4xGLHJ", "bl_image_UMP7HW"],
+      "block_order": [
+        "bl_text_4xGLHJ",
+        "bl_image_UMP7HW"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1276,7 +1322,7 @@
         "bl_image_zNHk9r": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_9936.jpg",
+            "image1": "shopify://shop_images/DSC_9936.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1313,7 +1359,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>TechnoFoam: Around the city like walking on a cloud<\/h3><p><\/p><p>You might not want to feel every stone under your feet. And that's ok. <\/p><p>We've been looking for a way to <strong>cushion your steps<\/strong> and bring you joy as you walk. And so we found TechnoFoam. <strong>A special flexible layer<\/strong> that will make your stride comfortable, even in the midst of the city.<\/p><p>You <strong>won't have to watch every step<\/strong>. Enjoy walking, wherever you are.<\/p><ul><li>Special flexible layer<\/li><li>Cushions and softens your step<\/li><\/ul>",
+            "text": "<h3>TechnoFoam: Around the city like walking on a cloud</h3><p></p><p>You might not want to feel every stone under your feet. And that's ok. </p><p>We've been looking for a way to <strong>cushion your steps</strong> and bring you joy as you walk. And so we found TechnoFoam. <strong>A special flexible layer</strong> that will make your stride comfortable, even in the midst of the city.</p><p>You <strong>won't have to watch every step</strong>. Enjoy walking, wherever you are.</p><ul><li>Special flexible layer</li><li>Cushions and softens your step</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -1329,7 +1375,10 @@
           }
         }
       },
-      "block_order": ["bl_image_zNHk9r", "bl_text_fhT6PX"],
+      "block_order": [
+        "bl_image_zNHk9r",
+        "bl_text_fhT6PX"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1368,7 +1417,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Vibram soles: The NASA of shoe soles<\/h3><p><\/p><p>We were looking for a durable sole that would <strong>grip on rocks and muddy trails<\/strong>. We found them from the real professionals. <\/p><p>Vibram is the NASA of the shoe sole world. It copies the movement of your foot, it's <strong>ultra-light<\/strong> and will withstand (almost) anything. <\/p><p>Head outdoors and put these boots with Vibram soles to the test. They can handle it.<\/p><ul><li><strong>Non-slip.<\/strong> Tested even on wet surfaces.<\/li><li><strong>They'll last. <\/strong>You won't wear these soles out easily.<\/li><li><strong>Flexible. <\/strong>Copies the movement of your foot.<\/li><li><strong>Tight hold on the trail.<\/strong> Reliable on rock and muddy paths.<\/li><\/ul>",
+            "text": "<h3>Vibram soles: The NASA of shoe soles</h3><p></p><p>We were looking for a durable sole that would <strong>grip on rocks and muddy trails</strong>. We found them from the real professionals. </p><p>Vibram is the NASA of the shoe sole world. It copies the movement of your foot, it's <strong>ultra-light</strong> and will withstand (almost) anything. </p><p>Head outdoors and put these boots with Vibram soles to the test. They can handle it.</p><ul><li><strong>Non-slip.</strong> Tested even on wet surfaces.</li><li><strong>They'll last. </strong>You won't wear these soles out easily.</li><li><strong>Flexible. </strong>Copies the movement of your foot.</li><li><strong>Tight hold on the trail.</strong> Reliable on rock and muddy paths.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -1386,7 +1435,7 @@
         "bl_image_K7V3ze": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/vibram_2.png",
+            "image1": "shopify://shop_images/vibram_2.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1413,7 +1462,10 @@
           }
         }
       },
-      "block_order": ["bl_text_yqfycp", "bl_image_K7V3ze"],
+      "block_order": [
+        "bl_text_yqfycp",
+        "bl_image_K7V3ze"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1444,7 +1496,7 @@
         "bl_image_EBrWVe": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/lifo_podrazka.png",
+            "image1": "shopify://shop_images/lifo_podrazka.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1481,7 +1533,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Lifo+ sole: A sure German bet<\/h3><p><\/p><p>Your feet have the amazing ability to take on any terrain. Let them do it with the Lifo+ sole. It’s <strong>as lightweight and flexible<\/strong> as your own feet. <\/p><p>The Lifo+ sole also <strong>grips even on wet surfaces<\/strong>. Really, we’ve tested it.<\/p><ul><li><strong>They’ll last for years.<\/strong> They’ll handle millions of steps -  we’ve tested it on our own feet and <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0522\/3428\/9312\/files\/oteruvzornost.pdf?v=1740043131\" target=\"_blank\" title=\"Certificate from the Institute for Testing and Certification\">in the lab<\/a>.<\/li><li><strong>Thin – only 4 mm. <\/strong>Feel the world beneath you.<\/li><li><strong>Non-slip.<\/strong> <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0522\/3428\/9312\/files\/ITC-podrazka-lifo-proti-uklouznuti.pdf?v=1740043131\" target=\"_blank\" title=\"Certificate from the Institute for Testing and Certification\">Tested<\/a> even on wet surfaces.<\/li><\/ul>",
+            "text": "<h3>Lifo+ sole: A sure German bet</h3><p></p><p>Your feet have the amazing ability to take on any terrain. Let them do it with the Lifo+ sole. It’s <strong>as lightweight and flexible</strong> as your own feet. </p><p>The Lifo+ sole also <strong>grips even on wet surfaces</strong>. Really, we’ve tested it.</p><ul><li><strong>They’ll last for years.</strong> They’ll handle millions of steps -  we’ve tested it on our own feet and <a href=\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/oteruvzornost.pdf?v=1740043131\" target=\"_blank\" title=\"Certificate from the Institute for Testing and Certification\">in the lab</a>.</li><li><strong>Thin – only 4 mm. </strong>Feel the world beneath you.</li><li><strong>Non-slip.</strong> <a href=\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/ITC-podrazka-lifo-proti-uklouznuti.pdf?v=1740043131\" target=\"_blank\" title=\"Certificate from the Institute for Testing and Certification\">Tested</a> even on wet surfaces.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -1497,7 +1549,10 @@
           }
         }
       },
-      "block_order": ["bl_image_EBrWVe", "bl_text_LEnhbX"],
+      "block_order": [
+        "bl_image_EBrWVe",
+        "bl_text_LEnhbX"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1536,7 +1591,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Pura Winter German soles: They won't let you down<\/h3><p><\/p><ul><li><strong>They grip and won't slip.<\/strong> <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0522\/3428\/9312\/files\/ITC-podrazka-puraw-uklouznuti.pdf?v=1740043131\" target=\"_blank\" title=\"Certificate from the Institute for Testing and Certification\">Tested<\/a> even on wet surfaces.<\/li><li><strong>They'll last for years.<\/strong> They'll handle millions of steps.<\/li><li><strong>Flexible and bendable. <\/strong>They perfectly copy your movements.<\/li><\/ul>",
+            "text": "<h3>Pura Winter German soles: They won't let you down</h3><p></p><ul><li><strong>They grip and won't slip.</strong> <a href=\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/ITC-podrazka-puraw-uklouznuti.pdf?v=1740043131\" target=\"_blank\" title=\"Certificate from the Institute for Testing and Certification\">Tested</a> even on wet surfaces.</li><li><strong>They'll last for years.</strong> They'll handle millions of steps.</li><li><strong>Flexible and bendable. </strong>They perfectly copy your movements.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -1554,7 +1609,7 @@
         "bl_image_LJcmkY": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/podrazka_pura_winter.jpg",
+            "image1": "shopify://shop_images/podrazka_pura_winter.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1581,7 +1636,10 @@
           }
         }
       },
-      "block_order": ["bl_text_79jA9z", "bl_image_LJcmkY"],
+      "block_order": [
+        "bl_text_79jA9z",
+        "bl_image_LJcmkY"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1612,7 +1670,7 @@
         "bl_image_9hgdg8": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/podrazka_pura2.png",
+            "image1": "shopify://shop_images/podrazka_pura2.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1649,7 +1707,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Lifo+ Pura sole: A sure German bet<\/h3><p><\/p><ul><li><strong>They'll last for years.<\/strong> They'll handle millions of steps.<\/li><li><strong>Thin – only 5 mm. <\/strong>Feel the world beneath you.<\/li><li><strong>Non-slip.<\/strong> <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0522\/3428\/9312\/files\/ITC-podrazka-pura-uklouznuti.pdf?v=1740043131\" target=\"_blank\" title=\"Certificate from the Institute for Testing and Certification\">Tested<\/a> even on wet surfaces.<\/li><\/ul>",
+            "text": "<h3>Lifo+ Pura sole: A sure German bet</h3><p></p><ul><li><strong>They'll last for years.</strong> They'll handle millions of steps.</li><li><strong>Thin – only 5 mm. </strong>Feel the world beneath you.</li><li><strong>Non-slip.</strong> <a href=\"https://cdn.shopify.com/s/files/1/0522/3428/9312/files/ITC-podrazka-pura-uklouznuti.pdf?v=1740043131\" target=\"_blank\" title=\"Certificate from the Institute for Testing and Certification\">Tested</a> even on wet surfaces.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -1665,7 +1723,10 @@
           }
         }
       },
-      "block_order": ["bl_image_9hgdg8", "bl_text_A7gfpc"],
+      "block_order": [
+        "bl_image_9hgdg8",
+        "bl_text_A7gfpc"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1696,7 +1757,7 @@
         "collection_item_RptrGw": {
           "type": "collection_item",
           "settings": {
-            "collection": "damske-barefoot",
+            "collection": "womens-barefoot-shoes",
             "icon": "las la-gem",
             "collection_title": "Women’s barefoot shoes",
             "collection_text": "",
@@ -1711,7 +1772,7 @@
         "collection_item_JUH6UT": {
           "type": "collection_item",
           "settings": {
-            "collection": "panske-barefoot",
+            "collection": "mens-barefoot-shoes",
             "icon": "las la-gem",
             "collection_title": "Men’s barefoot shoes",
             "collection_text": "",
@@ -1724,7 +1785,10 @@
           }
         }
       },
-      "block_order": ["collection_item_RptrGw", "collection_item_JUH6UT"],
+      "block_order": [
+        "collection_item_RptrGw",
+        "collection_item_JUH6UT"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1801,7 +1865,7 @@
     "custom_html_ykXQhc": {
       "type": "custom-html",
       "settings": {
-        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #e6e5de;color: #000;\">*Our materials can be recycled at designated textile collection points, but they are not compostable. Simply drop them into the nearest textile container.\n<\/div>",
+        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #e6e5de;color: #000;\">*Our materials can be recycled at designated textile collection points, but they are not compostable. Simply drop them into the nearest textile container.\n</div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -1822,10 +1886,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -1833,10 +1897,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -1844,10 +1908,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
             "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "text": "<p>We cover postage.</p>",
             "html": ""
           }
         },
@@ -1855,10 +1919,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
