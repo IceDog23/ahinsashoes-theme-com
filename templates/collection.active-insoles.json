@@ -14,43 +14,73 @@
       "blocks": {
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
-          "settings": { "collection": "default-3", "icon": "" }
+          "settings": {
+            "collection": "default-3",
+            "icon": ""
+          }
         },
         "863873b6-012e-4a34-90e3-eead750fa3ce": {
           "type": "cat",
-          "settings": { "collection": "bag", "icon": "" }
+          "settings": {
+            "collection": "bag",
+            "icon": ""
+          }
         },
         "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
           "type": "cat",
-          "settings": { "collection": "decor", "icon": "" }
+          "settings": {
+            "collection": "decor",
+            "icon": ""
+          }
         },
         "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
           "type": "cat",
-          "settings": { "collection": "default-2", "icon": "" }
+          "settings": {
+            "collection": "default-2",
+            "icon": ""
+          }
         },
         "23c84729-8fcb-488c-9541-00e283af6afe": {
           "type": "cat",
-          "settings": { "collection": "dress", "icon": "" }
+          "settings": {
+            "collection": "dress",
+            "icon": ""
+          }
         },
         "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
           "type": "cat",
-          "settings": { "collection": "hats", "icon": "" }
+          "settings": {
+            "collection": "hats",
+            "icon": ""
+          }
         },
         "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
           "type": "cat",
-          "settings": { "collection": "frontpage", "icon": "" }
+          "settings": {
+            "collection": "frontpage",
+            "icon": ""
+          }
         },
         "70189b51-5562-4924-b642-a1deba7741ee": {
           "type": "cat",
-          "settings": { "collection": "sale", "icon": "" }
+          "settings": {
+            "collection": "sale",
+            "icon": ""
+          }
         },
         "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
           "type": "cat",
-          "settings": { "collection": "shoes", "icon": "" }
+          "settings": {
+            "collection": "shoes",
+            "icon": ""
+          }
         },
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
           "type": "cat",
-          "settings": { "collection": "women", "icon": "" }
+          "settings": {
+            "collection": "women",
+            "icon": ""
+          }
         }
       },
       "block_order": [
@@ -101,7 +131,10 @@
         "3_qwAU3V": {
           "type": "3",
           "disabled": true,
-          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 30 }
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 30
+          }
         },
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
           "type": "1",
@@ -157,7 +190,7 @@
       "custom_css": [],
       "settings": {
         "heading_fullwidth": false,
-        "image": "shopify:\/\/shop_images\/DSC02667.jpg",
+        "image": "shopify://shop_images/DSC02667.jpg",
         "use_specify_image": false,
         "parallax": false,
         "color": "#000000",
@@ -171,7 +204,7 @@
         "bg_repeat": "inherit",
         "bg_size": "cover",
         "use_cus_css": false,
-        "code_cus_css": "<style>\n  h3 {\n    color: white;\n  }\n<\/style>\n\n<h3><\/h3>"
+        "code_cus_css": "<style>\n  h3 {\n    color: white;\n  }\n</style>\n\n<h3></h3>"
       }
     },
     "custom_section_BeJzmN": {
@@ -190,7 +223,7 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "20px",
             "padding_inner_mb": "10px,20px,10px,20px",
-            "bg_image": "shopify:\/\/shop_images\/collection_black_podzim.jpg",
+            "bg_image": "shopify://shop_images/collection_black_podzim.jpg",
             "bg_cl": "#d2a2a2"
           }
         },
@@ -219,7 +252,7 @@
         "custom_text_tGqTTm": {
           "type": "custom_text",
           "settings": {
-            "text": "Choose from our socks, enter the code at the last checkout step, and the sock price is deducted automatically. The offer applies when you buy shoes tagged: <a href=\"https:\/\/ahinsashoes.cz\/collections\/akce-ponozky-zdarma\">FREE SOCKS<\/a>.",
+            "text": "Choose from our socks, enter the code at the last checkout step, and the sock price is deducted automatically. The offer applies when you buy shoes tagged: <a href=\"https://ahinsashoes.cz/collections/akce-ponozky-zdarma\">FREE SOCKS</a>.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -279,7 +312,7 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "20px",
             "padding_inner_mb": "10px,20px,10px,20px",
-            "bg_image": "shopify:\/\/shop_images\/yuva_black6.png",
+            "bg_image": "shopify://shop_images/yuva_black6.png",
             "bg_cl": "#d2a2a2"
           }
         },
@@ -308,7 +341,7 @@
         "custom_text_8W7BCV": {
           "type": "custom_text",
           "settings": {
-            "text": "Choose from our <a href=\"https:\/\/ahinsashoes.cz\/collections\/novinky-damske\" target=\"_blank\"><b><u>new collection<\/u><\/b><\/a> full of lightness, enter the code at the last checkout step, and 20% off is deducted automatically.",
+            "text": "Choose from our <a href=\"https://ahinsashoes.cz/collections/novinky-damske\" target=\"_blank\"><b><u>new collection</u></b></a> full of lightness, enter the code at the last checkout step, and 20% off is deducted automatically.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -387,7 +420,7 @@
             "b_link": "",
             "open_link": "_self",
             "content_align": "center",
-            "date": "2023\/12\/26",
+            "date": "2023/12/26",
             "cdt_des": "1",
             "countdown_pos": "2",
             "cdt_size": "small",
@@ -432,7 +465,7 @@
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/Uzke_nohy.png",
+            "image_icon": "shopify://shop_images/Uzke_nohy.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -449,7 +482,7 @@
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/2_5f8579d2-d766-466d-996c-6496b18b43ff.png",
+            "image_icon": "shopify://shop_images/2_5f8579d2-d766-466d-996c-6496b18b43ff.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -466,7 +499,7 @@
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 500,
-            "image_icon": "shopify:\/\/shop_images\/Sport.png",
+            "image_icon": "shopify://shop_images/Sport.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -483,7 +516,7 @@
             "icon_pos": "start",
             "icon": "las la-gem",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/ico-barefoot.png",
+            "image_icon": "shopify://shop_images/ico-barefoot.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -542,9 +575,9 @@
         "cl_icon": "#222",
         "cl_des": "#000000",
         "cl_box": "#fff",
-        "cl_box_hover": "#C2B277",
+        "cl_box_hover": "#c2b277",
         "cl_content_hover": "#fff",
-        "i_box_backgound": "#F1F1F1",
+        "i_box_backgound": "#f1f1f1",
         "i_container_backgound": "#f6f6f6",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -566,11 +599,11 @@
           "type": "collection_item",
           "settings": {
             "collection": "damske-barefoot",
-            "image": "shopify:\/\/shop_images\/Ahinsa_097-dark.png",
+            "image": "shopify://shop_images/Ahinsa_097-dark.png",
             "icon": "las la-gem",
             "collection_title": "Barefoot",
-            "collection_text": "<p>A flexible outsole and zero drop connect you with the ground. You walk as naturally as nature intended.<\/p>",
-            "collection_link": "shopify:\/\/collections\/damske-barefoot",
+            "collection_text": "<p>A flexible outsole and zero drop connect you with the ground. You walk as naturally as nature intended.</p>",
+            "collection_link": "shopify://collections/damske-barefoot",
             "promotion_id": "",
             "promotion_name": "",
             "creative_name": "",
@@ -582,11 +615,11 @@
           "type": "collection_item",
           "settings": {
             "collection": "damske-komfortni-boty",
-            "image": "shopify:\/\/shop_images\/DSC7723-dark.png",
+            "image": "shopify://shop_images/DSC7723-dark.png",
             "icon": "las la-gem",
             "collection_title": "Comfort",
-            "collection_text": "<p>Comfort without compromise. They free your feet and soften your steps. Ideal if you don’t want to feel every pebble on the path.<\/p>",
-            "collection_link": "shopify:\/\/collections\/damske-komfortni-boty",
+            "collection_text": "<p>Comfort without compromise. They free your feet and soften your steps. Ideal if you don’t want to feel every pebble on the path.</p>",
+            "collection_link": "shopify://collections/damske-komfortni-boty",
             "promotion_id": "",
             "promotion_name": "",
             "creative_name": "",
@@ -595,7 +628,10 @@
           }
         }
       },
-      "block_order": ["collection_item_9WrnKy", "collection_item_8YyptN"],
+      "block_order": [
+        "collection_item_9WrnKy",
+        "collection_item_8YyptN"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "1",
@@ -676,7 +712,9 @@
         "filter_id": {
           "type": "filter",
           "disabled": true,
-          "settings": { "style_filters": "sidebar" }
+          "settings": {
+            "style_filters": "sidebar"
+          }
         },
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
           "type": "layout",
@@ -693,7 +731,9 @@
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
-      "custom_css": [".t4s-product-sizes {   color: black;   }"],
+      "custom_css": [
+        ".t4s-product-sizes {color: black;}"
+      ],
       "settings": {
         "show_desc": false,
         "position_desc": "1",
@@ -748,7 +788,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>What’s the difference between women’s Barefoot and Comfort shoes?<\/h2><p>Great question. We’ll help you choose the right ones. <\/p><p><strong>Do you love feeling the ground beneath you<\/strong> and have you fallen for barefoot walking? <a href=\"https:\/\/ahinsashoes.cz\/collections\/damske-barefoot\">Women’s Ahinsa barefoot shoes<\/a> are for you. In them you walk as naturally as you do barefoot.<\/p><p><strong>Need comfortable shoes<\/strong> but barefoot isn’t for you? Put on <a href=\"https:\/\/ahinsashoes.cz\/collections\/damske-komfortni-boty\">women’s Comfort shoes<\/a>. We added a special flexible layer that cushions heel impact so you land as softly as on moss.<\/p><p><strong>Want to walk barefoot<\/strong> but don’t know how to start? Begin with <a href=\"https:\/\/ahinsashoes.cz\/collections\/damske-komfortni-boty\">women’s Comfort shoes<\/a>. They’re roomy and flexible like barefoot shoes, but they protect you from impact.<\/p>",
+            "text": "<h2>What’s the difference between women’s Barefoot and Comfort shoes?</h2><p>Great question. We’ll help you choose the right ones.&nbsp;</p><p><strong>Do you love feeling the ground beneath you</strong> and have you fallen for barefoot walking? <a href=\"/collections/womens-barefoot-shoes\" title=\"Women's Barefoot Shoes\">Women’s Ahinsa barefoot shoes</a> are for you. In them you walk as naturally as you do barefoot.</p><p><strong>Need comfortable shoes</strong> but barefoot isn’t for you? Put on <a href=\"/collections/womens-comfort-shoes\" title=\"Women's Comfort Shoes\">women’s Comfort shoes</a>. We added a special flexible layer that cushions heel impact so you land as softly as on moss.</p><p><strong>Want to walk barefoot</strong> but don’t know how to start? Begin with <a href=\"/collections/womens-comfort-shoes\" title=\"Women's Comfort Shoes\">women’s Comfort shoes</a>. They’re roomy and flexible like barefoot shoes, but they protect you from impact.</p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -764,7 +804,9 @@
           }
         }
       },
-      "block_order": ["bl_text_q6LaDh"],
+      "block_order": [
+        "bl_text_q6LaDh"
+      ],
       "settings": {
         "section_key": "",
         "design_heading": "1",
