@@ -14,43 +14,73 @@
       "blocks": {
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
-          "settings": { "collection": "default-3", "icon": "" }
+          "settings": {
+            "collection": "default-3",
+            "icon": ""
+          }
         },
         "863873b6-012e-4a34-90e3-eead750fa3ce": {
           "type": "cat",
-          "settings": { "collection": "bag", "icon": "" }
+          "settings": {
+            "collection": "bag",
+            "icon": ""
+          }
         },
         "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
           "type": "cat",
-          "settings": { "collection": "decor", "icon": "" }
+          "settings": {
+            "collection": "decor",
+            "icon": ""
+          }
         },
         "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
           "type": "cat",
-          "settings": { "collection": "default-2", "icon": "" }
+          "settings": {
+            "collection": "default-2",
+            "icon": ""
+          }
         },
         "23c84729-8fcb-488c-9541-00e283af6afe": {
           "type": "cat",
-          "settings": { "collection": "dress", "icon": "" }
+          "settings": {
+            "collection": "dress",
+            "icon": ""
+          }
         },
         "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
           "type": "cat",
-          "settings": { "collection": "hats", "icon": "" }
+          "settings": {
+            "collection": "hats",
+            "icon": ""
+          }
         },
         "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
           "type": "cat",
-          "settings": { "collection": "frontpage", "icon": "" }
+          "settings": {
+            "collection": "frontpage",
+            "icon": ""
+          }
         },
         "70189b51-5562-4924-b642-a1deba7741ee": {
           "type": "cat",
-          "settings": { "collection": "sale", "icon": "" }
+          "settings": {
+            "collection": "sale",
+            "icon": ""
+          }
         },
         "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
           "type": "cat",
-          "settings": { "collection": "shoes", "icon": "" }
+          "settings": {
+            "collection": "shoes",
+            "icon": ""
+          }
         },
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
           "type": "cat",
-          "settings": { "collection": "women", "icon": "" }
+          "settings": {
+            "collection": "women",
+            "icon": ""
+          }
         }
       },
       "block_order": [
@@ -100,7 +130,10 @@
       "blocks": {
         "3_qwAU3V": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 30 }
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 30
+          }
         },
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
           "type": "1",
@@ -155,9 +188,9 @@
       ],
       "settings": {
         "heading_fullwidth": false,
-        "image": "shopify:\/\/shop_images\/DSC_3163.jpg",
+        "image": "shopify://shop_images/DSC_3163.jpg",
         "use_specify_image": false,
-        "parallax": true,
+        "parallax": false,
         "color": "#000000",
         "overlay": 54,
         "padding": 100,
@@ -181,7 +214,7 @@
             "collection": "panove",
             "icon": "las la-gem",
             "collection_title": "Collection",
-            "collection_text": "<p>Collection description<\/p>",
+            "collection_text": "<p>Collection description</p>",
             "collection_link": "",
             "promotion_id": "",
             "promotion_name": "",
@@ -196,7 +229,7 @@
             "collection": "damske-barefoot",
             "icon": "las la-gem",
             "collection_title": "Collection",
-            "collection_text": "<p>Collection description<\/p>",
+            "collection_text": "<p>Collection description</p>",
             "collection_link": "",
             "promotion_id": "",
             "promotion_name": "",
@@ -206,7 +239,10 @@
           }
         }
       },
-      "block_order": ["collection_item_jMNafN", "collection_item_QcTMcE"],
+      "block_order": [
+        "collection_item_jMNafN",
+        "collection_item_QcTMcE"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "12",
@@ -315,7 +351,7 @@
             "b_link": "",
             "open_link": "_self",
             "content_align": "center",
-            "date": "2023\/12\/26",
+            "date": "2023/12/26",
             "cdt_des": "1",
             "countdown_pos": "2",
             "cdt_size": "small",
@@ -365,7 +401,7 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "20px",
             "padding_inner_mb": "10px,20px,10px,20px",
-            "bg_image": "shopify:\/\/shop_images\/collection_black_podzim.jpg",
+            "bg_image": "shopify://shop_images/collection_black_podzim.jpg",
             "bg_cl": "#d2a2a2"
           }
         },
@@ -394,7 +430,7 @@
         "custom_text_Yb8eYf": {
           "type": "custom_text",
           "settings": {
-            "text": "Choose from our socks, enter the code at the last checkout step, and the sock price is deducted automatically. The offer applies when you buy shoes tagged: <a href=\"https:\/\/ahinsashoes.cz\/collections\/akce-ponozky-zdarma\">FREE SOCKS<\/a>.",
+            "text": "Choose from our socks, enter the code at the last checkout step, and the sock price is deducted automatically. The offer applies when you buy shoes tagged: <a href=\"https://ahinsashoes.cz/collections/akce-ponozky-zdarma\">FREE SOCKS</a>.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -444,7 +480,9 @@
         "filter_id": {
           "type": "filter",
           "disabled": true,
-          "settings": { "style_filters": "sidebar" }
+          "settings": {
+            "style_filters": "sidebar"
+          }
         },
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
           "type": "layout",
@@ -461,7 +499,9 @@
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
-      "custom_css": [".t4s-product-sizes {  color: black;  }"],
+      "custom_css": [
+        ".t4s-product-sizes {color: black;}"
+      ],
       "settings": {
         "show_desc": false,
         "position_desc": "1",
@@ -516,7 +556,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Default collection text<\/p>",
+            "text": "<p>Default collection text</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -532,7 +572,9 @@
           }
         }
       },
-      "block_order": ["bl_text_Cn4y4q"],
+      "block_order": [
+        "bl_text_Cn4y4q"
+      ],
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -585,18 +627,28 @@
       "blocks": {
         "article_gFCrfE": {
           "type": "article",
-          "settings": { "article": "news\/letni-vyprodej-2024" }
+          "settings": {
+            "article": "news/letni-vyprodej-2024"
+          }
         },
         "article_tbkcGL": {
           "type": "article",
-          "settings": { "article": "news\/rozhovor-jak-spravne-sedet" }
+          "settings": {
+            "article": "news/rozhovor-jak-spravne-sedet"
+          }
         },
         "article_CfqVP4": {
           "type": "article",
-          "settings": { "article": "news\/jak-vazat-tkanicky" }
+          "settings": {
+            "article": "news/jak-vazat-tkanicky"
+          }
         }
       },
-      "block_order": ["article_gFCrfE", "article_tbkcGL", "article_CfqVP4"],
+      "block_order": [
+        "article_gFCrfE",
+        "article_tbkcGL",
+        "article_CfqVP4"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "9",

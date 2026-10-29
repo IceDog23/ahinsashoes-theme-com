@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -14,7 +14,10 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 30 }
+          "settings": {
+            "breadcrumb_color": "#202020",
+            "brc_mgb": 30
+          }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -40,7 +43,7 @@
         "2_CDYPxA": {
           "type": "2",
           "settings": {
-            "content": "<h3>Done — the e-book is on its way!<\/h3><p>Thank you for signing up, that’s all from us. We’re <strong>sending the e-book <\/strong>to your email and we wish you joy in every little step.<\/p>",
+            "content": "<h3>Done — the e-book is on its way!</h3><p>Thank you for signing up, that’s all from us. We’re <strong>sending the e-book </strong>to your email and we wish you joy in every little step.</p>",
             "fontf": "inherit",
             "text_cl": "#202020",
             "text_fs": 16,
@@ -59,7 +62,11 @@
           }
         }
       },
-      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_CDYPxA"],
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_CDYPxA"
+      ],
       "settings": {
         "heading_fullwidth": true,
         "image": "{{ page.metafields.social_sharing.image.value }}",
@@ -85,41 +92,61 @@
         "collection_item_yWqDnJ": {
           "type": "collection_item",
           "settings": {
-            "collection": "damske-barefoot",
+            "collection": "womens-barefoot-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
-            "collection_link": ""
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
           }
         },
         "collection_item_LNFmrf": {
           "type": "collection_item",
           "settings": {
-            "collection": "damske-komfortni-boty",
+            "collection": "womens-comfort-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
-            "collection_link": ""
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
           }
         },
         "collection_item_nh6pEg": {
           "type": "collection_item",
           "settings": {
-            "collection": "panske-barefoot",
+            "collection": "mens-barefoot-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
-            "collection_link": ""
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
           }
         },
         "collection_item_nAVEd8": {
           "type": "collection_item",
           "settings": {
-            "collection": "panska-komfortni-obuv",
+            "collection": "mens-comfort-shoes",
             "icon": "las la-gem",
             "collection_title": "",
             "collection_text": "",
-            "collection_link": ""
+            "collection_link": "",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
           }
         }
       },
@@ -229,7 +256,9 @@
           }
         }
       },
-      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -248,10 +277,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -259,10 +288,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -270,10 +299,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
             "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "text": "<p>We cover postage.</p>",
             "html": ""
           }
         },
@@ -281,10 +310,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
