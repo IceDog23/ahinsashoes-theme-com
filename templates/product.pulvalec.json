@@ -564,7 +564,7 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Nastartujte nohy",
+            "heading": "Kick start your feet",
             "text": "<p>From a beautiful piece of wood we carved a balance half-roller <strong>for everyday exercise</strong>. It will lift your mood — and natural wood feels pleasant to the touch.</p><p>Will it be in the way at home? No — lean it in a corner after exercise. But between us: once you try it, <strong>you won’t want to put it away</strong>.</p><ul><li>You’ll train the deep stabilization system.</li><li>You practice balance and coordination.</li><li>You stretch and strengthen muscles from the feet through the core to the back.</li><li>The exercise is fun and a great helper against stress.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
@@ -673,6 +673,7 @@
         "bl_text_x98jEc",
         "bl_image_gMY3G6"
       ],
+      "disabled": true,
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -703,35 +704,6 @@
     "image_text_metafields_JMikbT": {
       "type": "image_text_metafields",
       "blocks": {
-        "bl_image_ppQdWQ": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Kopie_souboru_IMG_8796.jpg",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
         "bl_text_GhjXQh": {
           "type": "bl_text",
           "settings": {
@@ -755,11 +727,40 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
+        },
+        "bl_image_ppQdWQ": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Kopie_souboru_IMG_8796.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "reverse",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
         }
       },
       "block_order": [
-        "bl_image_ppQdWQ",
-        "bl_text_GhjXQh"
+        "bl_text_GhjXQh",
+        "bl_image_ppQdWQ"
       ],
       "settings": {
         "section_key": "product_lining",
@@ -791,6 +792,35 @@
     "image_text_metafields_Q7QawP": {
       "type": "image_text_metafields",
       "blocks": {
+        "bl_image_NAjYQJ": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/pulvalec.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
         "bl_text_PzHhaJ": {
           "type": "bl_text",
           "settings": {
@@ -814,40 +844,11 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_NAjYQJ": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/pulvalec.jpg",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "reverse",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "bl_text_PzHhaJ",
-        "bl_image_NAjYQJ"
+        "bl_image_NAjYQJ",
+        "bl_text_PzHhaJ"
       ],
       "settings": {
         "section_key": "product_sole",
@@ -1277,7 +1278,6 @@
     },
     "17190050663df79af6": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -1293,6 +1293,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_KJH6KD"
       ],
+      "disabled": true,
       "settings": {}
     },
     "testimonials_DdpmX3": {

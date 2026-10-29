@@ -408,7 +408,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Hand-sewn"
+            "des": "Hand-made"
           }
         },
         "item_HM6yhm": {
@@ -425,7 +425,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Mimic your movement"
+            "des": "Copies your movement"
           }
         }
       },
@@ -534,7 +534,7 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "For Chic ballet flats",
-            "heading": "Decorative strap",
+            "heading": "Decorative ankle strap",
             "text": "<p>Fasten the strap to fit you — it works on any ankle.<br/><br/>If needed, you can shorten it with scissors. Caution — measure twice, cut once. Shorten the strap gradually, piece by piece, always above a stitch, and try it on as you go — not only sitting and standing, but especially when walking.</p><ul><li>Adjustable length — fasten the strap with Velcro, trim the extra</li><li>Full strap length: 33 cm</li><li>Strap width: 2 cm</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
@@ -593,7 +593,7 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "Sparkle!",
-            "heading": "Preciosa stones",
+            "heading": "Preciosa crystals",
             "text": "<p><em>“The crystal decoration repeats the clean lines and visually follows the materials used. We chose stones that recall ash leaves.”</em></p><p><strong>Designer MgA. Kateřina Teperová, Preciosa</strong></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
@@ -1424,7 +1424,6 @@
     },
     "17190050663df79af6": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -1440,6 +1439,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_KJH6KD"
       ],
+      "disabled": true,
       "settings": {}
     },
     "testimonials_hdfnUW": {
@@ -1526,7 +1526,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,

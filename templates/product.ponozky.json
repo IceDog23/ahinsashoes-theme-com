@@ -443,7 +443,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Enjoy freedom fully.",
+        "top_heading": "Enjoy your freedom – fully.",
         "icon_heading": "",
         "top_subheading": "Change your socks and things start happening.",
         "tophead_mb": 30,
@@ -1336,7 +1336,6 @@
     },
     "17190050663df79af6": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -1352,6 +1351,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_KJH6KD"
       ],
+      "disabled": true,
       "settings": {}
     },
     "testimonials_DdpmX3": {
@@ -1438,7 +1438,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
