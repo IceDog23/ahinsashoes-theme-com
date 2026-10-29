@@ -22,7 +22,7 @@
         "custom_text_RbUDzU": {
           "type": "custom_text",
           "settings": {
-            "text": "404 chyba",
+            "text": "404 error",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -45,7 +45,7 @@
         "custom_text_qJqYAk": {
           "type": "custom_text",
           "settings": {
-            "text": "Ani stopa!",
+            "text": "No clue!",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
