@@ -89,6 +89,16 @@
             "advance_pr_list": "{{ product.metafields.variants.product_variants.value }}"
           }
         },
+        "text_w_icon_FGAFCe": {
+          "type": "text_w_icon",
+          "settings": {
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "width": 24,
+            "height": 24,
+            "text": "<p>Shipping <strong>Worldwide</strong></p>",
+            "m_bot": 10
+          }
+        },
         "text_w_icon_xF33Pm": {
           "type": "text_w_icon",
           "settings": {
@@ -135,6 +145,7 @@
         "judge_me_reviews_preview_badge_gmc93H",
         "description_R9cKb3",
         "form",
+        "text_w_icon_FGAFCe",
         "text_w_icon_xF33Pm",
         "text_w_icon_KtJaD8",
         "text_w_icon_GitFde",
@@ -404,7 +415,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Hand-sewn"
+            "des": "Hand-made"
           }
         },
         "item_HM6yhm": {
@@ -421,7 +432,7 @@
             "w_image_svg": 40,
             "w_image_svg_mb": 30,
             "heading": "",
-            "des": "Mimic your movement"
+            "des": "Copies your movement"
           }
         }
       },
