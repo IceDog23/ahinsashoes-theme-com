@@ -467,7 +467,7 @@
         "collection_item_pHAX89": {
           "type": "collection_item",
           "settings": {
-            "collection": "damske-komfortni-boty",
+            "collection": "womens-comfort-shoes",
             "image": "shopify://shop_images/Ahinsa_070.jpg",
             "icon": "las la-gem",
             "collection_title": "COMFORT FOR WOMEN",
@@ -483,7 +483,7 @@
         "collection_item_7tnaNU": {
           "type": "collection_item",
           "settings": {
-            "collection": "panska-komfortni-obuv",
+            "collection": "mens-comfort-shoes",
             "image": "shopify://shop_images/DSC9733.jpg",
             "icon": "las la-gem",
             "collection_title": "COMFORT FOR MEN",
