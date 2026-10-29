@@ -688,12 +688,14 @@
       "blocks": {
         "bl_heading_QHihj8": {
           "type": "bl_heading",
+          "disabled": true,
           "settings": {
             "top_heading": "Recenze"
           }
         },
         "bl_subheading_jCGEz4": {
           "type": "bl_subheading",
+          "disabled": true,
           "settings": {
             "top_subheading": "20,000+ pairs of Ahinsa shoes walk the world. What do more than 1,600 verified happy customers say about them?"
           }
@@ -703,6 +705,7 @@
         "bl_heading_QHihj8",
         "bl_subheading_jCGEz4"
       ],
+      "disabled": true,
       "name": "Top heading",
       "settings": {
         "design_heading": "9",
@@ -726,6 +729,7 @@
     },
     "custom_liquid_8dHYje": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "custom_liquid": "<div style=\"text-align:center\">\n  <a href=\"https://obchody.heureka.cz/ahinsashoes-cz/recenze/\" target=\"_blank\" rel=\"noopener\">\n    See all reviews\n  </a>\n</div>\n<div style=\"margin-bottom: 20px;\">\n</div>",
@@ -750,13 +754,6 @@
             "url": ""
           }
         },
-        "logo_item_Cy8mz3": {
-          "type": "logo_item",
-          "settings": {
-            "image": "shopify://shop_images/czechcrunch_52403237-b571-4134-a444-184a164d6895.png",
-            "url": ""
-          }
-        },
         "logo_item_wpMfyi": {
           "type": "logo_item",
           "settings": {
@@ -766,6 +763,7 @@
         },
         "logo_item_XciefR": {
           "type": "logo_item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/seznamzpravy.png",
             "url": ""
@@ -778,8 +776,16 @@
             "url": ""
           }
         },
+        "logo_item_Cy8mz3": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/cosmopolitan.png",
+            "url": ""
+          }
+        },
         "logo_item_nYwgxR": {
           "type": "logo_item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/marianne.png",
             "url": ""
@@ -788,10 +794,10 @@
       },
       "block_order": [
         "logo_item_cV4Vfc",
-        "logo_item_Cy8mz3",
         "logo_item_wpMfyi",
         "logo_item_XciefR",
         "logo_item_8Rdnm9",
+        "logo_item_Cy8mz3",
         "logo_item_nYwgxR"
       ],
       "settings": {
@@ -807,7 +813,7 @@
         "layout_des": "1",
         "click_image": "data-goto",
         "nav_thumbs": true,
-        "col_dk": "6",
+        "col_dk": "4",
         "col_tb": "3",
         "col_mb": "2",
         "space_item": "30",
@@ -1289,6 +1295,7 @@
       "block_order": [
         "bl_text_TkmME7"
       ],
+      "disabled": true,
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -1323,7 +1330,7 @@
           "type": "img",
           "settings": {
             "image": "shopify://shop_images/Screenshot_From_2026-08-04_17-39-23.png",
-            "url": "https://www.instagram.com/ahinsashoes.cz/p/Dbkf6T7jFso/"
+            "url": "https://www.instagram.com/p/DbkhL_1ghG7/?utm_source=ig_web_copy_link&dlrf=MWQ1ZGUxMzBkMA==&srtk=MWQ1ZGUxMzBkMA=="
           }
         },
         "img_dDdYfN": {
@@ -1362,6 +1369,7 @@
         "img_PNrLzJ",
         "img_D9Vwtt"
       ],
+      "disabled": true,
       "settings": {
         "layout_des": "2",
         "image_ratio": "ratio1_1",
