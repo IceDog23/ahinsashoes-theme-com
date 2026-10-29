@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumb": {
@@ -26,7 +35,7 @@
           }
         },
         "judge_me_reviews_preview_badge_gmc93H": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {}
         },
@@ -39,14 +48,6 @@
             "length": 18,
             "readm": false,
             "readm_txt": "Read more"
-          }
-        },
-        "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4": {
-          "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": {
-            "fallbackToBlockPosition": false,
-            "waitForElementSelector": "",
-            "waitForElementDelay": 5
           }
         },
         "form": {
@@ -89,7 +90,7 @@
           }
         },
         "back_in_stock_customer_alerts_app_block_ycP8iz": {
-          "type": "shopify:\/\/apps\/amp-back-in-stock\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "type": "shopify://apps/amp-back-in-stock/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "disabled": true,
           "settings": {
             "caption": "Notify me",
@@ -105,30 +106,30 @@
         "text_w_icon_XrVMdF": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Swedish technology, made in Germany.<\/p>",
+            "text": "<p>Swedish technology, made in Germany.</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_xF33Pm": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Ecological formula.<\/p>",
+            "text": "<p>Ecological formula.</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_DiPBgn": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Biodegradable.<\/p>",
+            "text": "<p>Biodegradable.</p>",
             "m_bot": 10
           }
         },
@@ -136,10 +137,10 @@
           "type": "text_w_icon",
           "disabled": true,
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Ideal for <strong>healthy, barefoot walking<\/strong>.<\/p>",
+            "text": "<p>Ideal for <strong>healthy, barefoot walking</strong>.</p>",
             "m_bot": 10
           }
         },
@@ -147,10 +148,10 @@
           "type": "text_w_icon",
           "disabled": true,
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Thin and flexible.<\/strong><\/p>",
+            "text": "<p><strong>Thin and flexible.</strong></p>",
             "m_bot": 10
           }
         },
@@ -158,10 +159,10 @@
           "type": "text_w_icon",
           "disabled": true,
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Wicks moisture away from your feet.<\/p>",
+            "text": "<p>Wicks moisture away from your feet.</p>",
             "m_bot": 10
           }
         }
@@ -170,7 +171,6 @@
         "title",
         "judge_me_reviews_preview_badge_gmc93H",
         "description_R9cKb3",
-        "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4",
         "form",
         "back_in_stock_customer_alerts_app_block_ycP8iz",
         "text_w_icon_XrVMdF",
@@ -233,9 +233,9 @@
         "fw_price_pr": 600,
         "price_color": "#923a3a",
         "price_sale_color": "#afafaf",
-        "logo": "shopify:\/\/shop_images\/Twisto-logo.png",
+        "logo": "shopify://shop_images/Twisto-logo.png",
         "popup_header": "Good shoes have to fit.",
-        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.<\/h2><p>Defer payment by up to <strong>30 days<\/strong>. Or split it into thirds.<\/p><h3>How it works?<\/h3><ol><li>Pick your pair of Ahinsa shoes.<\/li><li>Choose card payment in the cart.<\/li><li>Click <strong>Deferred payment<\/strong> or <strong>Pay in thirds<\/strong>.<\/li><li>Try the shoes on at home.<\/li><\/ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.<\/strong><\/p><p>Don't fit? <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days<\/a> — we'll exchange the size at our cost.<\/p>",
+        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.</h2><p>Defer payment by up to <strong>30 days</strong>. Or split it into thirds.</p><h3>How it works?</h3><ol><li>Pick your pair of Ahinsa shoes.</li><li>Choose card payment in the cart.</li><li>Click <strong>Deferred payment</strong> or <strong>Pay in thirds</strong>.</li><li>Try the shoes on at home.</li></ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.</strong></p><p>Don't fit? <a href=\"/policies/refund-policy\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days</a> — we'll exchange the size at our cost.</p>",
         "popup_button": "Got it, thanks!",
         "enable_code_discount": true,
         "code_discount": "JARNIPOHODLI",
@@ -325,12 +325,18 @@
         "link_t7BFNM": {
           "type": "link",
           "disabled": true,
-          "settings": { "tab_title": "Parameters", "hook": "" }
+          "settings": {
+            "tab_title": "Parameters",
+            "hook": ""
+          }
         },
         "link_GTGza9": {
           "type": "link",
           "disabled": true,
-          "settings": { "tab_title": "Reviews", "hook": "" }
+          "settings": {
+            "tab_title": "Reviews",
+            "hook": ""
+          }
         },
         "link_arTmBH": {
           "type": "link",
@@ -367,9 +373,9 @@
     "custom_liquid_jpqKCq": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "001 - A\/B product description",
+      "name": "001 - A/B product description",
       "settings": {
-        "custom_liquid": "{% if product.metafields.global.description_intro.value != blank %}\n    {%- assign pr_des = product.metafields.global.description_intro.value -%}\n  {% else %}\n    {%- assign pr_des = product.description -%}\n  {% endif %}\n\n<div class='ab-product-desciption'>\n    {{pr_des}}\n<\/div>\n\n<style>\n.ab-product-desciption {\n    display: none;\n}\n@media (max-width: 767px) {\n.ab-product-desciption {\n    display: block;\n    text-align: left;\n    padding: 16px 0;\n    }\n}\n<\/style>",
+        "custom_liquid": "{% if product.metafields.global.description_intro.value != blank %}\n    {%- assign pr_des = product.metafields.global.description_intro.value -%}\n  {% else %}\n    {%- assign pr_des = product.description -%}\n  {% endif %}\n\n<div class='ab-product-desciption'>\n    {{pr_des}}\n</div>\n\n<style>\n.ab-product-desciption {\n    display: none;\n}\n@media (max-width: 767px) {\n.ab-product-desciption {\n    display: block;\n    text-align: left;\n    padding: 16px 0;\n    }\n}\n</style>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f1f1f1",
         "cl_bg_gradient": "",
@@ -392,7 +398,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -409,7 +415,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
+            "image_icon": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -426,7 +432,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/2.png",
+            "image_icon": "shopify://shop_images/2.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -443,7 +449,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/Sport_6bb44acf-bc3e-46d0-b28f-a4ce3a4688d0.png",
+            "image_icon": "shopify://shop_images/Sport_6bb44acf-bc3e-46d0-b28f-a4ce3a4688d0.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -525,7 +531,7 @@
         "bl_image_TwqCWf": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/impregnace.jpg",
+            "image1": "shopify://shop_images/impregnace.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -560,7 +566,7 @@
             "txt_align": "start",
             "sub_heading": "Ecological shoe care",
             "heading": "Impregnace 2GO",
-            "text": "<p>The best part? It’s 100% vegan and <strong>biodegradable<\/strong>, yet just as effective as chemical waterproofing.<\/p><p>Don’t breathe chemicals. Waterproof naturally.<\/p><ul><li>Repels moisture and dirt<\/li><li>Suitable for <strong>all materials<\/strong><\/li><li>Packaging from recycled material<\/li><li>250 ml<\/li><\/ul><p>You can use the waterproofing on all kinds of materials: smooth vegan leather, synthetics, nubuck, and textile.<\/p><h3><strong>How to use the waterproofing<\/strong><\/h3><p>Spray it evenly <strong>on dry, clean shoes<\/strong>. Spread with a cloth, let it dry — and you’re ready to go.<\/p><p>Water-based formula. 100% PFC-free.<br\/>Active ingredients: Modified polysiloxanes<br\/>The product is water-based, so it contains no organic solvents, which is better for the environment. The active ingredients are modified polysiloxanes, which means the formula contains no PFAS (perfluoroalkyl and polyfluoroalkyl substances) and is biodegradable.<\/p>",
+            "text": "<p>The best part? It’s 100% vegan and <strong>biodegradable</strong>, yet just as effective as chemical waterproofing.</p><p>Don’t breathe chemicals. Waterproof naturally.</p><ul><li>Repels moisture and dirt</li><li>Suitable for <strong>all materials</strong></li><li>Packaging from recycled material</li><li>250 ml</li></ul><p>You can use the waterproofing on all kinds of materials: smooth vegan leather, synthetics, nubuck, and textile.</p><h3><strong>How to use the waterproofing</strong></h3><p>Spray it evenly <strong>on dry, clean shoes</strong>. Spread with a cloth, let it dry — and you’re ready to go.</p><p>Water-based formula. 100% PFC-free.<br/>Active ingredients: Modified polysiloxanes<br/>The product is water-based, so it contains no organic solvents, which is better for the environment. The active ingredients are modified polysiloxanes, which means the formula contains no PFAS (perfluoroalkyl and polyfluoroalkyl substances) and is biodegradable.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -576,7 +582,10 @@
           }
         }
       },
-      "block_order": ["bl_image_TwqCWf", "bl_text_bVjcP6"],
+      "block_order": [
+        "bl_image_TwqCWf",
+        "bl_text_bVjcP6"
+      ],
       "settings": {
         "section_key": "product_special",
         "design_heading": "1",
@@ -616,7 +625,7 @@
             "txt_align": "start",
             "sub_heading": "Like leather… only much better",
             "heading": "Vegan leather",
-            "text": "<ul><li><strong>Ethical.<\/strong> No animals or people suffer in production.<\/li><li><strong>Indestructible.<\/strong> You couldn’t scuff it even if you tried.<\/li><li><strong>Rain-resistant.<\/strong> Keeps your feet dry.<\/li><li><strong>Breathable.<\/strong> Lets your feet breathe.<\/li><\/ul>",
+            "text": "<ul><li><strong>Ethical.</strong> No animals or people suffer in production.</li><li><strong>Indestructible.</strong> You couldn’t scuff it even if you tried.</li><li><strong>Rain-resistant.</strong> Keeps your feet dry.</li><li><strong>Breathable.</strong> Lets your feet breathe.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -634,7 +643,7 @@
         "bl_image_gMY3G6": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/vidabezove.jpg",
+            "image1": "shopify://shop_images/vidabezove.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -661,7 +670,10 @@
           }
         }
       },
-      "block_order": ["bl_text_x98jEc", "bl_image_gMY3G6"],
+      "block_order": [
+        "bl_text_x98jEc",
+        "bl_image_gMY3G6"
+      ],
       "disabled": true,
       "settings": {
         "section_key": "product_material",
@@ -696,7 +708,7 @@
         "bl_image_ppQdWQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/podsivka.png",
+            "image1": "shopify://shop_images/podsivka.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -731,7 +743,7 @@
             "txt_align": "start",
             "sub_heading": "Dry feet, all day",
             "heading": "UltraDry lining",
-            "text": "<ul><li><strong>Wicks away sweat.<\/strong> Absorbs up to 8 times its weight.<\/li><li><strong>Breathes.<\/strong> Brings fresh air to your feet.<\/li><li><strong>Kinder to nature.<\/strong> 60% corn.<\/li><\/ul>",
+            "text": "<ul><li><strong>Wicks away sweat.</strong> Absorbs up to 8 times its weight.</li><li><strong>Breathes.</strong> Brings fresh air to your feet.</li><li><strong>Kinder to nature.</strong> 60% corn.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -747,7 +759,10 @@
           }
         }
       },
-      "block_order": ["bl_image_ppQdWQ", "bl_text_GhjXQh"],
+      "block_order": [
+        "bl_image_ppQdWQ",
+        "bl_text_GhjXQh"
+      ],
       "disabled": true,
       "settings": {
         "section_key": "product_lining",
@@ -788,7 +803,7 @@
             "txt_align": "start",
             "sub_heading": "A sure German bet",
             "heading": "Lifo+ outsole",
-            "text": "<ul><li><strong>They'll last for years.<\/strong> And they’ll handle millions of steps.<\/li><li><strong>Thin – only 4 mm.<\/strong> Feel the world beneath you.<\/li><li><strong>Non-slip.<\/strong> Tested even on wet surfaces.<\/li><\/ul>",
+            "text": "<ul><li><strong>They'll last for years.</strong> And they’ll handle millions of steps.</li><li><strong>Thin – only 4 mm.</strong> Feel the world beneath you.</li><li><strong>Non-slip.</strong> Tested even on wet surfaces.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -806,7 +821,7 @@
         "bl_image_NAjYQJ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/lifo_podrazka.png",
+            "image1": "shopify://shop_images/lifo_podrazka.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -833,7 +848,10 @@
           }
         }
       },
-      "block_order": ["bl_text_PzHhaJ", "bl_image_NAjYQJ"],
+      "block_order": [
+        "bl_text_PzHhaJ",
+        "bl_image_NAjYQJ"
+      ],
       "disabled": true,
       "settings": {
         "section_key": "product_sole",
@@ -868,7 +886,7 @@
         "bl_image_NpCEU6": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_0003.jpg",
+            "image1": "shopify://shop_images/DSC_0003.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -903,7 +921,7 @@
             "txt_align": "start",
             "sub_heading": "One wipe with a cloth, that’s it",
             "heading": "Easy care",
-            "text": "<p>No creams. No waterproofing. No brushing.<\/p><p>Every now and then <strong>wipe with a damp cloth<\/strong>. And they’re as good as new.<\/p>",
+            "text": "<p>No creams. No waterproofing. No brushing.</p><p>Every now and then <strong>wipe with a damp cloth</strong>. And they’re as good as new.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -919,7 +937,10 @@
           }
         }
       },
-      "block_order": ["bl_image_NpCEU6", "bl_text_DF3h7R"],
+      "block_order": [
+        "bl_image_NpCEU6",
+        "bl_text_DF3h7R"
+      ],
       "disabled": true,
       "settings": {
         "section_key": "product_maintenance",
@@ -962,7 +983,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.<\/p><p><br\/>physiotherapist and founder of Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p>",
+            "text": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.</p><p><br/>physiotherapist and founder of Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -980,7 +1001,7 @@
         "bl_image_E8LaHR": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/d5ee1c32445719fc1c2741bf56a5fe46.png",
+            "image1": "shopify://shop_images/d5ee1c32445719fc1c2741bf56a5fe46.png",
             "col_dk": "4",
             "col_tb": "4",
             "layout_des": "carousel",
@@ -1007,7 +1028,10 @@
           }
         }
       },
-      "block_order": ["bl_text_mgLMcz", "bl_image_E8LaHR"],
+      "block_order": [
+        "bl_text_mgLMcz",
+        "bl_image_E8LaHR"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "1",
@@ -1043,7 +1067,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.<\/p><p><br\/>physiotherapist and founder of Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p><p><\/p><p><\/p>",
+        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.</p><p><br/>physiotherapist and founder of Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p><p></p><p></p>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f1f1f1",
         "cl_bg_gradient": "",
@@ -1068,7 +1092,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify:\/\/shop_images\/d5ee1c32445719fc1c2741bf56a5fe46.png",
+        "image": "shopify://shop_images/d5ee1c32445719fc1c2741bf56a5fe46.png",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -1122,7 +1146,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "As healthy as walking barefoot",
-            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.<\/p>",
+            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.</p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -1146,13 +1170,13 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Do something for your health, today.<\/p>",
+            "text": "<p>Do something for your health, today.</p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
             "use_shadow": false,
             "button_label": "",
-            "button_link": "\/pages\/our-story",
+            "button_link": "/pages/our-story",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",
@@ -1162,7 +1186,10 @@
           }
         }
       },
-      "block_order": ["bl_text_TDpq6K", "bl_text_TT8LGq"],
+      "block_order": [
+        "bl_text_TDpq6K",
+        "bl_text_TT8LGq"
+      ],
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -1257,7 +1284,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {
             "review_data": "sample_data",
@@ -1267,7 +1294,9 @@
           }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_KJH6KD"],
+      "block_order": [
+        "judge_me_reviews_review_widget_KJH6KD"
+      ],
       "settings": {}
     },
     "testimonials_RcfzUR": {
@@ -1277,7 +1306,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>You offer truly the best barefoot shoes — they’re beautiful too, and I just switch from one model to another, but I wear Ahinsa Shoes all year round ❤️ Thank you so much again!<\/p>",
+            "content": "<p>You offer truly the best barefoot shoes — they’re beautiful too, and I just switch from one model to another, but I wear Ahinsa Shoes all year round ❤️ Thank you so much again!</p>",
             "title": "Terezie Pechová",
             "pos": "",
             "rating": 5
@@ -1287,7 +1316,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Ever since I first ordered from you, I don’t wear any other shoes. It was love at first sight! I love that you care about both customer comfort and health, and about our planet.<\/p>",
+            "content": "<p>Ever since I first ordered from you, I don’t wear any other shoes. It was love at first sight! I love that you care about both customer comfort and health, and about our planet.</p>",
             "title": "Tereza Konířová",
             "pos": "",
             "rating": 5
@@ -1297,7 +1326,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>These are my first barefoot shoes and I’m absolutely thrilled. They’re exactly what I imagined. They definitely won’t be the last, and I can only recommend them to everyone.<\/p>",
+            "content": "<p>These are my first barefoot shoes and I’m absolutely thrilled. They’re exactly what I imagined. They definitely won’t be the last, and I can only recommend them to everyone.</p>",
             "title": "Miroslav Svoboda",
             "pos": "",
             "rating": 5
@@ -1307,7 +1336,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>Ahinsa shoes are amazing — incredibly light and comfortable. Ever since I learned to walk in barefoot shoes, ordinary shoes feel like they’re squeezing my feet. These definitely won’t be my last pair from you.<\/p>",
+            "content": "<p>Ahinsa shoes are amazing — incredibly light and comfortable. Ever since I learned to walk in barefoot shoes, ordinary shoes feel like they’re squeezing my feet. These definitely won’t be my last pair from you.</p>",
             "title": "Lenka",
             "pos": "",
             "rating": 5
@@ -1317,7 +1346,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>I’m delighted with your shoes. Walking in them is wonderful, and I’ve finally found shoes that don’t make my feet hurt after a longer walk. I’ll definitely buy another pair.<\/p>",
+            "content": "<p>I’m delighted with your shoes. Walking in them is wonderful, and I’ve finally found shoes that don’t make my feet hurt after a longer walk. I’ll definitely buy another pair.</p>",
             "title": "Lenka Kalinová",
             "pos": "",
             "rating": 5
@@ -1327,7 +1356,7 @@
           "type": "quote",
           "settings": {
             "heading": "",
-            "content": "<p>After a lifetime of sore feet from treating them carelessly, I’ve finally found shoes where my feet feel like they’re wrapped in a duvet — they don’t want any other shoes. I warmly recommend following the physiotherapist’s advice; I’ve tried it myself and it works 100% for me.<\/p>",
+            "content": "<p>After a lifetime of sore feet from treating them carelessly, I’ve finally found shoes where my feet feel like they’re wrapped in a duvet — they don’t want any other shoes. I warmly recommend following the physiotherapist’s advice; I’ve tried it myself and it works 100% for me.</p>",
             "title": "Veronika Vlčková",
             "pos": "",
             "rating": 5
@@ -1400,9 +1429,9 @@
         "quote_gPWkUg": {
           "type": "quote",
           "settings": {
-            "image_avata": "shopify:\/\/shop_images\/ludmila-ditetova2.jpg",
+            "image_avata": "shopify://shop_images/ludmila-ditetova2.jpg",
             "heading": "",
-            "content": "<p>Ahinsa shoes allow the foot natural movement because they provide plenty of space for the toes. The thin and flexible outsole lets the foot perceive the ground. We must mention the ethical and ecological production in the Czech Republic. An ideal choice for anyone who wants more from their shoes and wants to enjoy a real walk.<\/p>",
+            "content": "<p>Ahinsa shoes allow the foot natural movement because they provide plenty of space for the toes. The thin and flexible outsole lets the foot perceive the ground. We must mention the ethical and ecological production in the Czech Republic. An ideal choice for anyone who wants more from their shoes and wants to enjoy a real walk.</p>",
             "title": "Mgr. Ludmila Dítětová",
             "pos": "physiotherapist",
             "rating": 5
@@ -1411,16 +1440,19 @@
         "quote_qHUxHE": {
           "type": "quote",
           "settings": {
-            "image_avata": "shopify:\/\/shop_images\/hana-borecka.jpg",
+            "image_avata": "shopify://shop_images/hana-borecka.jpg",
             "heading": "",
-            "content": "<p>Ahinsa shoes are beautiful, original Czech barefoot shoes, with careful craftsmanship and high-quality materials — natural or recycled. They provide generous space in the front of the foot, which is necessary for correct toe posture and influences the posture of the whole body.<\/p>",
+            "content": "<p>Ahinsa shoes are beautiful, original Czech barefoot shoes, with careful craftsmanship and high-quality materials — natural or recycled. They provide generous space in the front of the foot, which is necessary for correct toe posture and influences the posture of the whole body.</p>",
             "title": "MUDr. Hana Bořecká",
             "pos": "doctor",
             "rating": 5
           }
         }
       },
-      "block_order": ["quote_gPWkUg", "quote_qHUxHE"],
+      "block_order": [
+        "quote_gPWkUg",
+        "quote_qHUxHE"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1474,7 +1506,9 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "custom_css": [".t4s-product-sizes { color: black; }"],
+      "custom_css": [
+        ".t4s-product-sizes { color: black; }"
+      ],
       "settings": {
         "show": true,
         "design_heading": "1",

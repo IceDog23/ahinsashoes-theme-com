@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumb": {
@@ -26,7 +35,7 @@
           }
         },
         "judge_me_reviews_preview_badge_gmc93H": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
         "description_R9cKb3": {
@@ -39,10 +48,6 @@
             "readm": false,
             "readm_txt": "Read more"
           }
-        },
-        "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4": {
-          "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": { "product": "{ { product } }" }
         },
         "form": {
           "type": "form",
@@ -86,63 +91,64 @@
         "text_w_icon_DiPBgn": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Free shipping to the Czech Republic and Slovakia.<\/p>",
+            "text": "<p>Free shipping to the Czech Republic and Slovakia.</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_XrVMdF": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Free<\/strong> size exchange.<\/p>",
+            "text": "<p><strong>Free</strong> size exchange.</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_xF33Pm": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Designed <strong>by physiotherapists<\/strong>.<\/p>",
+            "text": "<p>Designed <strong>by physiotherapists</strong>.</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_KtJaD8": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>100% vegan.<\/p>",
+            "text": "<p>100% vegan.</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_GitFde": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Ethically<\/strong> made in the Czech Republic and Croatia.<\/p>",
+            "text": "<p><strong>Ethically</strong> made in the Czech Republic and Croatia.</p>",
             "m_bot": 10
           }
         },
         "complimentary_products_YDdEaf": {
           "type": "complimentary_products",
-          "settings": { "text": "Pairs well with" }
+          "settings": {
+            "text": "Pairs well with"
+          }
         }
       },
       "block_order": [
         "title",
         "judge_me_reviews_preview_badge_gmc93H",
         "description_R9cKb3",
-        "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4",
         "form",
         "text_w_icon_DiPBgn",
         "text_w_icon_XrVMdF",
@@ -190,7 +196,9 @@
         "tabs_layout_fix": "full",
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
-        "product_list": ["bezove-barefoot-ponozky"],
+        "product_list": [
+          "bezove-barefoot-ponozky"
+        ],
         "sticky_mode": "2",
         "sticky_show": "2",
         "sticky_layout_mb": "minimal",
@@ -204,9 +212,9 @@
         "fw_price_pr": 400,
         "price_color": "#923a3a",
         "price_sale_color": "#afafaf",
-        "logo": "shopify:\/\/shop_images\/Twisto-logo.png",
+        "logo": "shopify://shop_images/Twisto-logo.png",
         "popup_header": "Good shoes have to fit.",
-        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.<\/h2><p>Defer payment by up to <strong>30 days<\/strong>. Or split it into thirds.<\/p><h3>How it works?<\/h3><ol><li>Pick your pair of Ahinsa shoes.<\/li><li>Choose card payment in the cart.<\/li><li>Click <strong>Deferred payment<\/strong> or <strong>Pay in thirds<\/strong>.<\/li><li>Try the shoes on at home.<\/li><\/ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.<\/strong><\/p><p>Don't fit? <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days<\/a> — we'll exchange the size at our cost.<\/p>",
+        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.</h2><p>Defer payment by up to <strong>30 days</strong>. Or split it into thirds.</p><h3>How it works?</h3><ol><li>Pick your pair of Ahinsa shoes.</li><li>Choose card payment in the cart.</li><li>Click <strong>Deferred payment</strong> or <strong>Pay in thirds</strong>.</li><li>Try the shoes on at home.</li></ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.</strong></p><p>Don't fit? <a href=\"/policies/refund-policy\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days</a> — we'll exchange the size at our cost.</p>",
         "popup_button": "Got it, thanks!"
       }
     },
@@ -284,15 +292,24 @@
       "blocks": {
         "link_bWGtDd": {
           "type": "link",
-          "settings": { "tab_title": "Description", "hook": "Description" }
+          "settings": {
+            "tab_title": "Description",
+            "hook": "Description"
+          }
         },
         "link_t7BFNM": {
           "type": "link",
-          "settings": { "tab_title": "Parameters", "hook": "Parameters" }
+          "settings": {
+            "tab_title": "Parameters",
+            "hook": "Parameters"
+          }
         },
         "link_GTGza9": {
           "type": "link",
-          "settings": { "tab_title": "Reviews", "hook": "Reviews" }
+          "settings": {
+            "tab_title": "Reviews",
+            "hook": "Reviews"
+          }
         },
         "link_arTmBH": {
           "type": "link",
@@ -337,7 +354,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/Normalni_nart.png",
+            "image_icon": "shopify://shop_images/Normalni_nart.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -354,7 +371,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
+            "image_icon": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -371,7 +388,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/Podzim_7253870e-8a8d-49a4-9503-52422186ca75.png",
+            "image_icon": "shopify://shop_images/Podzim_7253870e-8a8d-49a4-9503-52422186ca75.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -388,7 +405,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/Sport_6bb44acf-bc3e-46d0-b28f-a4ce3a4688d0.png",
+            "image_icon": "shopify://shop_images/Sport_6bb44acf-bc3e-46d0-b28f-a4ce3a4688d0.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -469,7 +486,7 @@
         "bl_image_eHDK7i": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Kopie_souboru_IMG_8769.jpg",
+            "image1": "shopify://shop_images/Kopie_souboru_IMG_8769.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -504,7 +521,7 @@
             "txt_align": "start",
             "sub_heading": "Comfort that looks good on you, designed by physiotherapists",
             "heading": "COMFORT LINE",
-            "text": "<ul><li>Plenty of room for the toes<\/li><li>Ultra-light, springy, flexible shoe<\/li><li>Softens heel impact<\/li><li>Cushions your step<\/li><\/ul>",
+            "text": "<ul><li>Plenty of room for the toes</li><li>Ultra-light, springy, flexible shoe</li><li>Softens heel impact</li><li>Cushions your step</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -520,7 +537,10 @@
           }
         }
       },
-      "block_order": ["bl_image_eHDK7i", "bl_text_D4tFXF"],
+      "block_order": [
+        "bl_image_eHDK7i",
+        "bl_text_D4tFXF"
+      ],
       "settings": {
         "section_key": "product_material",
         "design_heading": "1",
@@ -560,7 +580,7 @@
             "txt_align": "start",
             "sub_heading": "Strong, tough, and ecological",
             "heading": "HEMP",
-            "text": "<ul><li>Sturdy and durable<\/li><li>Grown and processed in the EU<\/li><li>Ecological<\/li><li>Heavy fabric weight 800 g\/m2<\/li><\/ul>",
+            "text": "<ul><li>Sturdy and durable</li><li>Grown and processed in the EU</li><li>Ecological</li><li>Heavy fabric weight 800 g/m2</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -578,7 +598,7 @@
         "bl_image_gMY3G6": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Kopie_souboru_IMG_8769.jpg",
+            "image1": "shopify://shop_images/Kopie_souboru_IMG_8769.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -605,7 +625,10 @@
           }
         }
       },
-      "block_order": ["bl_text_x98jEc", "bl_image_gMY3G6"],
+      "block_order": [
+        "bl_text_x98jEc",
+        "bl_image_gMY3G6"
+      ],
       "settings": {
         "section_key": "product_material",
         "design_heading": "1",
@@ -639,7 +662,7 @@
         "bl_image_ppQdWQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Kopie_souboru_IMG_8769.jpg",
+            "image1": "shopify://shop_images/Kopie_souboru_IMG_8769.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -674,7 +697,7 @@
             "txt_align": "start",
             "sub_heading": "Extra flexible sole that lasts for years",
             "heading": "LIFO+ OUTSOLE",
-            "text": "<ul><li>Thin and lightweight sole<\/li><li>Reliable even on wet surfaces<\/li><li>Maximum flexibility<\/li><li>Durable sole that won’t wear through easily<\/li><\/ul>",
+            "text": "<ul><li>Thin and lightweight sole</li><li>Reliable even on wet surfaces</li><li>Maximum flexibility</li><li>Durable sole that won’t wear through easily</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -690,7 +713,10 @@
           }
         }
       },
-      "block_order": ["bl_image_ppQdWQ", "bl_text_GhjXQh"],
+      "block_order": [
+        "bl_image_ppQdWQ",
+        "bl_text_GhjXQh"
+      ],
       "settings": {
         "section_key": "product_material",
         "design_heading": "1",
@@ -732,7 +758,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.<\/p><p><br\/>physiotherapist and founder of Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p>",
+            "text": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.</p><p><br/>physiotherapist and founder of Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -750,7 +776,7 @@
         "bl_image_E8LaHR": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/d5ee1c32445719fc1c2741bf56a5fe46.png",
+            "image1": "shopify://shop_images/d5ee1c32445719fc1c2741bf56a5fe46.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -777,7 +803,10 @@
           }
         }
       },
-      "block_order": ["bl_text_mgLMcz", "bl_image_E8LaHR"],
+      "block_order": [
+        "bl_text_mgLMcz",
+        "bl_image_E8LaHR"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -812,7 +841,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.<\/p><p><br\/>physiotherapist and founder of Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p><p><\/p><p><\/p>",
+        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.</p><p><br/>physiotherapist and founder of Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p><p></p><p></p>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f1f1f1",
         "cl_bg_gradient": "",
@@ -837,7 +866,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify:\/\/shop_images\/d5ee1c32445719fc1c2741bf56a5fe46.png",
+        "image": "shopify://shop_images/d5ee1c32445719fc1c2741bf56a5fe46.png",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -891,7 +920,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "As healthy as walking barefoot",
-            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.<\/p>",
+            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.</p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -915,13 +944,13 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Do something for your health, today.<\/p>",
+            "text": "<p>Do something for your health, today.</p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
             "use_shadow": false,
             "button_label": "",
-            "button_link": "\/pages\/our-story",
+            "button_link": "/pages/our-story",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",
@@ -931,7 +960,10 @@
           }
         }
       },
-      "block_order": ["bl_text_TDpq6K", "bl_text_TT8LGq"],
+      "block_order": [
+        "bl_text_TDpq6K",
+        "bl_text_TT8LGq"
+      ],
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -1025,11 +1057,13 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_KJH6KD"],
+      "block_order": [
+        "judge_me_reviews_review_widget_KJH6KD"
+      ],
       "settings": {}
     },
     "product-recommendations": {

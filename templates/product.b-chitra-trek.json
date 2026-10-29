@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumb": {
@@ -26,7 +35,7 @@
           }
         },
         "judge_me_reviews_preview_badge_gmc93H": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {}
         },
@@ -39,14 +48,6 @@
             "length": 18,
             "readm": false,
             "readm_txt": "Read more"
-          }
-        },
-        "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4": {
-          "type": "shopify:\/\/apps\/kiwi-size-chart-recommender\/blocks\/kiwiSizing\/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": {
-            "fallbackToBlockPosition": false,
-            "waitForElementSelector": "",
-            "waitForElementDelay": 5
           }
         },
         "form": {
@@ -91,60 +92,60 @@
         "text_w_icon_XrVMdF": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Free<\/strong> size exchange (we cover postage).<\/p>",
+            "text": "<p><strong>Free</strong> size exchange (we cover postage).</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_DiPBgn": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Free shipping within the Czech Republic to <strong>Zásilkovna<\/strong>.<\/p>",
+            "text": "<p>Free shipping within the Czech Republic to <strong>Zásilkovna</strong>.</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_xF33Pm": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Designed <strong>by physiotherapists<\/strong>.<\/p>",
+            "text": "<p>Designed <strong>by physiotherapists</strong>.</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_KtJaD8": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>100% vegan.<\/p>",
+            "text": "<p>100% vegan.</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_GitFde": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Handmade<\/strong> in the Czech Republic and Croatia.<\/p>",
+            "text": "<p><strong>Handmade</strong> in the Czech Republic and Croatia.</p>",
             "m_bot": 10
           }
         },
         "text_w_icon_gjJYcM": {
           "type": "text_w_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
+            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p>Anatomical shape and zero drop.<\/p>",
+            "text": "<p>Anatomical shape and zero drop.</p>",
             "m_bot": 10
           }
         }
@@ -153,7 +154,6 @@
         "title",
         "judge_me_reviews_preview_badge_gmc93H",
         "description_R9cKb3",
-        "kiwi_size_chart_recommender_kiwi_sizing_Yyfqx4",
         "form",
         "text_w_icon_XrVMdF",
         "text_w_icon_DiPBgn",
@@ -215,9 +215,9 @@
         "fw_price_pr": 600,
         "price_color": "#923a3a",
         "price_sale_color": "#afafaf",
-        "logo": "shopify:\/\/shop_images\/Twisto-logo.png",
+        "logo": "shopify://shop_images/Twisto-logo.png",
         "popup_header": "Good shoes have to fit.",
-        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.<\/h2><p>Defer payment by up to <strong>30 days<\/strong>. Or split it into thirds.<\/p><h3>How it works?<\/h3><ol><li>Pick your pair of Ahinsa shoes.<\/li><li>Choose card payment in the cart.<\/li><li>Click <strong>Deferred payment<\/strong> or <strong>Pay in thirds<\/strong>.<\/li><li>Try the shoes on at home.<\/li><\/ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.<\/strong><\/p><p>Don't fit? <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days<\/a> — we'll exchange the size at our cost.<\/p>",
+        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.</h2><p>Defer payment by up to <strong>30 days</strong>. Or split it into thirds.</p><h3>How it works?</h3><ol><li>Pick your pair of Ahinsa shoes.</li><li>Choose card payment in the cart.</li><li>Click <strong>Deferred payment</strong> or <strong>Pay in thirds</strong>.</li><li>Try the shoes on at home.</li></ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.</strong></p><p>Don't fit? <a href=\"/policies/refund-policy\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days</a> — we'll exchange the size at our cost.</p>",
         "popup_button": "Got it, thanks!",
         "enable_code_discount": true,
         "code_discount": "JARNIPOHODLI",
@@ -353,9 +353,9 @@
     "custom_liquid_NPzKiG": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "001 - A\/B product description",
+      "name": "001 - A/B product description",
       "settings": {
-        "custom_liquid": "{% if product.metafields.global.description_intro.value != blank %}\n    {%- assign pr_des = product.metafields.global.description_intro.value -%}\n  {% else %}\n    {%- assign pr_des = product.description -%}\n  {% endif %}\n\n<div class='ab-product-desciption'>\n    {{pr_des}}\n<\/div>\n\n<style>\n.ab-product-desciption {\n    display: none;\n}\n@media (max-width: 767px) {\n.ab-product-desciption {\n    display: block;\n    text-align: left;\n    padding: 16px 0;\n    }\n}\n<\/style>",
+        "custom_liquid": "{% if product.metafields.global.description_intro.value != blank %}\n    {%- assign pr_des = product.metafields.global.description_intro.value -%}\n  {% else %}\n    {%- assign pr_des = product.description -%}\n  {% endif %}\n\n<div class='ab-product-desciption'>\n    {{pr_des}}\n</div>\n\n<style>\n.ab-product-desciption {\n    display: none;\n}\n@media (max-width: 767px) {\n.ab-product-desciption {\n    display: block;\n    text-align: left;\n    padding: 16px 0;\n    }\n}\n</style>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f1f1f1",
         "cl_bg_gradient": "",
@@ -378,7 +378,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -395,7 +395,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
+            "image_icon": "shopify://shop_images/Uzke_nohy_icon_31aea89a-5d06-4c4f-953f-b01dd145aaaa.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -412,7 +412,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/2.png",
+            "image_icon": "shopify://shop_images/2.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -429,7 +429,7 @@
             "icon_pos": "right",
             "icon": "",
             "icon_awesome_fs": 0,
-            "image_icon": "shopify:\/\/shop_images\/Sport_6bb44acf-bc3e-46d0-b28f-a4ce3a4688d0.png",
+            "image_icon": "shopify://shop_images/Sport_6bb44acf-bc3e-46d0-b28f-a4ce3a4688d0.png",
             "icon_image_width": 0,
             "img_svg": "",
             "w_image_svg": 40,
@@ -510,7 +510,7 @@
         "bl_image_TwqCWf": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/zero_drop_2.png",
+            "image1": "shopify://shop_images/zero_drop_2.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -545,7 +545,7 @@
             "txt_align": "start",
             "sub_heading": "Free your feet",
             "heading": "Barefoot line",
-            "text": "<p>Have you ever noticed how your <strong>shoes have a completely different shape than your feet<\/strong>? Ordinary shoes restrict and cramp your feet, so you can’t wait to take them off at the end of the day.<\/p><p>Try wearing barefoot shoes, which give your toes the <strong>natural space and flexibility they need<\/strong>. In Ahinsa shoes, every step you take becomes a gentle massage for your feet — and your brain. Did you know that walking in barefoot shoes <strong>stimulates brain centers<\/strong>?<\/p>",
+            "text": "<p>Have you ever noticed how your <strong>shoes have a completely different shape than your feet</strong>? Ordinary shoes restrict and cramp your feet, so you can’t wait to take them off at the end of the day.</p><p>Try wearing barefoot shoes, which give your toes the <strong>natural space and flexibility they need</strong>. In Ahinsa shoes, every step you take becomes a gentle massage for your feet — and your brain. Did you know that walking in barefoot shoes <strong>stimulates brain centers</strong>?</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -561,7 +561,10 @@
           }
         }
       },
-      "block_order": ["bl_image_TwqCWf", "bl_text_bVjcP6"],
+      "block_order": [
+        "bl_image_TwqCWf",
+        "bl_text_bVjcP6"
+      ],
       "settings": {
         "section_key": "product_series",
         "design_heading": "1",
@@ -601,7 +604,7 @@
             "txt_align": "start",
             "sub_heading": "Let the foot breathe!",
             "heading": "Quality, durable materials",
-            "text": "<ul><li><strong>Ethical.<\/strong> No animals or people suffer in production.<\/li><li>Durable Tebox mesh <strong>brings air to the foot<\/strong> and cools it.<\/li><li>CF+ vegan leather <strong>naturally reinforces the shoe<\/strong>.<\/li><\/ul>",
+            "text": "<ul><li><strong>Ethical.</strong> No animals or people suffer in production.</li><li>Durable Tebox mesh <strong>brings air to the foot</strong> and cools it.</li><li>CF+ vegan leather <strong>naturally reinforces the shoe</strong>.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -619,7 +622,7 @@
         "bl_image_gMY3G6": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/vidabezove.jpg",
+            "image1": "shopify://shop_images/vidabezove.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -646,7 +649,10 @@
           }
         }
       },
-      "block_order": ["bl_text_x98jEc", "bl_image_gMY3G6"],
+      "block_order": [
+        "bl_text_x98jEc",
+        "bl_image_gMY3G6"
+      ],
       "settings": {
         "section_key": "product_material",
         "design_heading": "1",
@@ -680,7 +686,7 @@
         "bl_image_ppQdWQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Ahinsa_web_9KC7266_a64ff83c-3efc-4f9f-93c7-d0093b9c4307.jpg",
+            "image1": "shopify://shop_images/Ahinsa_web_9KC7266_a64ff83c-3efc-4f9f-93c7-d0093b9c4307.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -715,7 +721,7 @@
             "txt_align": "start",
             "sub_heading": "Dry and comfortable all year",
             "heading": "Coolmax lining",
-            "text": "<ul><li><strong>Wicks moisture.<\/strong> Effectively moves sweat out even during sport.<\/li><li><strong>Light and breathable.<\/strong> Supports your performance.<\/li><li><strong>Breathes.<\/strong> Brings fresh air to your feet.<\/li><\/ul>",
+            "text": "<ul><li><strong>Wicks moisture.</strong> Effectively moves sweat out even during sport.</li><li><strong>Light and breathable.</strong> Supports your performance.</li><li><strong>Breathes.</strong> Brings fresh air to your feet.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -731,7 +737,10 @@
           }
         }
       },
-      "block_order": ["bl_image_ppQdWQ", "bl_text_GhjXQh"],
+      "block_order": [
+        "bl_image_ppQdWQ",
+        "bl_text_GhjXQh"
+      ],
       "settings": {
         "section_key": "product_lining",
         "design_heading": "1",
@@ -771,7 +780,7 @@
             "txt_align": "start",
             "sub_heading": "you have space.",
             "heading": "Push off further,",
-            "text": "<p>Engage your foot when running the way nature intended. In Chitra sport shoes you’ll <strong>finally use the power<\/strong> hidden in your toes.<\/p><p><strong>Your toes get space<\/strong> for natural movement. Every push-off will count, and you’ll run lighter and faster than ever before.<\/p><ul><li>Generous space for the toes<\/li><li>Freedom for natural movement<\/li><li>Finally use the power of your toes<\/li><\/ul>",
+            "text": "<p>Engage your foot when running the way nature intended. In Chitra sport shoes you’ll <strong>finally use the power</strong> hidden in your toes.</p><p><strong>Your toes get space</strong> for natural movement. Every push-off will count, and you’ll run lighter and faster than ever before.</p><ul><li>Generous space for the toes</li><li>Freedom for natural movement</li><li>Finally use the power of your toes</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -789,7 +798,7 @@
         "bl_image_t8Uzr4": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/nohy_na_kameni.png",
+            "image1": "shopify://shop_images/nohy_na_kameni.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -816,7 +825,10 @@
           }
         }
       },
-      "block_order": ["bl_text_rLwDBJ", "bl_image_t8Uzr4"],
+      "block_order": [
+        "bl_text_rLwDBJ",
+        "bl_image_t8Uzr4"
+      ],
       "settings": {
         "section_key": "product_special",
         "design_heading": "1",
@@ -850,7 +862,7 @@
         "bl_image_NAjYQJ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/vibram.jpg",
+            "image1": "shopify://shop_images/vibram.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -885,7 +897,7 @@
             "txt_align": "start",
             "sub_heading": "The NASA of shoe soles",
             "heading": "Vibram trail outsole",
-            "text": "<ul><li><strong>Holds on terrain.<\/strong> Reliable on rock and muddy trails.<\/li><li><strong>They last.<\/strong> You won’t wear this outsole out easily.<\/li><li><strong>Flexible.<\/strong> Follows the movement of the foot.<\/li><li><strong>Thin – only 2 mm + 4 mm tread.<\/strong> Feel the world beneath you.<\/li><li><strong>Non-slip.<\/strong> Tested even on wet surfaces.<\/li><\/ul>",
+            "text": "<ul><li><strong>Holds on terrain.</strong> Reliable on rock and muddy trails.</li><li><strong>They last.</strong> You won’t wear this outsole out easily.</li><li><strong>Flexible.</strong> Follows the movement of the foot.</li><li><strong>Thin – only 2 mm + 4 mm tread.</strong> Feel the world beneath you.</li><li><strong>Non-slip.</strong> Tested even on wet surfaces.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -901,7 +913,10 @@
           }
         }
       },
-      "block_order": ["bl_image_NAjYQJ", "bl_text_PzHhaJ"],
+      "block_order": [
+        "bl_image_NAjYQJ",
+        "bl_text_PzHhaJ"
+      ],
       "settings": {
         "section_key": "product_sole",
         "design_heading": "1",
@@ -936,7 +951,7 @@
           "type": "bl_image",
           "disabled": true,
           "settings": {
-            "image1": "shopify:\/\/shop_images\/DSC_0003.jpg",
+            "image1": "shopify://shop_images/DSC_0003.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -972,7 +987,7 @@
             "txt_align": "start",
             "sub_heading": "One wipe with a cloth, that’s it",
             "heading": "Easy care",
-            "text": "<p>No creams. No waterproofing. No brushing.<\/p><p>Every now and then <strong>wipe with a damp cloth<\/strong>. And they’re as good as new.<\/p>",
+            "text": "<p>No creams. No waterproofing. No brushing.</p><p>Every now and then <strong>wipe with a damp cloth</strong>. And they’re as good as new.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -988,7 +1003,10 @@
           }
         }
       },
-      "block_order": ["bl_image_NpCEU6", "bl_text_DF3h7R"],
+      "block_order": [
+        "bl_image_NpCEU6",
+        "bl_text_DF3h7R"
+      ],
       "disabled": true,
       "settings": {
         "section_key": "product_maintenance",
@@ -1031,7 +1049,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.<\/p><p><br\/>physiotherapist and founder of Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p>",
+            "text": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.</p><p><br/>physiotherapist and founder of Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1049,7 +1067,7 @@
         "bl_image_E8LaHR": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/d5ee1c32445719fc1c2741bf56a5fe46.png",
+            "image1": "shopify://shop_images/d5ee1c32445719fc1c2741bf56a5fe46.png",
             "col_dk": "4",
             "col_tb": "4",
             "layout_des": "carousel",
@@ -1076,7 +1094,10 @@
           }
         }
       },
-      "block_order": ["bl_text_mgLMcz", "bl_image_E8LaHR"],
+      "block_order": [
+        "bl_text_mgLMcz",
+        "bl_image_E8LaHR"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1111,7 +1132,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.<\/p><p><br\/>physiotherapist and founder of Ahinsa shoes<\/p><p><strong>Lukáš Klimpera<\/strong><\/p><p><\/p><p><\/p>",
+        "content_quote": "<p>The human foot needs space to function healthily. That’s what we keep in mind when designing Ahinsa shoes.</p><p><br/>physiotherapist and founder of Ahinsa shoes</p><p><strong>Lukáš Klimpera</strong></p><p></p><p></p>",
         "layout": "t4s-container-wrap",
         "cl_bg": "#f1f1f1",
         "cl_bg_gradient": "",
@@ -1136,7 +1157,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 250,
-        "image": "shopify:\/\/shop_images\/d5ee1c32445719fc1c2741bf56a5fe46.png",
+        "image": "shopify://shop_images/d5ee1c32445719fc1c2741bf56a5fe46.png",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -1190,7 +1211,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "As healthy as walking barefoot",
-            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.<\/p>",
+            "text": "<p>Your stride is healthy and natural in Ahinsa shoes.</p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
@@ -1214,13 +1235,13 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Do something for your health, today.<\/p>",
+            "text": "<p>Do something for your health, today.</p>",
             "subhd_color": "#ffffff",
             "hd_color": "#ffffff",
             "des_color": "#ffffff",
             "use_shadow": false,
             "button_label": "",
-            "button_link": "\/pages\/our-story",
+            "button_link": "/pages/our-story",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",
@@ -1230,7 +1251,10 @@
           }
         }
       },
-      "block_order": ["bl_text_TDpq6K", "bl_text_TT8LGq"],
+      "block_order": [
+        "bl_text_TDpq6K",
+        "bl_text_TT8LGq"
+      ],
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -1324,7 +1348,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
             "max_width": 1200,
@@ -1333,7 +1357,9 @@
           }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_KJH6KD"],
+      "block_order": [
+        "judge_me_reviews_review_widget_KJH6KD"
+      ],
       "settings": {}
     },
     "testimonials_7g94XF": {
@@ -1342,9 +1368,9 @@
         "quote_pJ3UdY": {
           "type": "quote",
           "settings": {
-            "image_avata": "shopify:\/\/shop_images\/ludmila-ditetova2.jpg",
+            "image_avata": "shopify://shop_images/ludmila-ditetova2.jpg",
             "heading": "",
-            "content": "<p>Ahinsa shoes allow the foot natural movement because they provide plenty of space for the toes. The thin and flexible outsole lets the foot perceive the ground. We must mention the ethical and ecological production in the Czech Republic. An ideal choice for anyone who wants more from their shoes and wants to enjoy a real walk.<br\/><\/p>",
+            "content": "<p>Ahinsa shoes allow the foot natural movement because they provide plenty of space for the toes. The thin and flexible outsole lets the foot perceive the ground. We must mention the ethical and ecological production in the Czech Republic. An ideal choice for anyone who wants more from their shoes and wants to enjoy a real walk.<br/></p>",
             "title": "Mgr. Ludmila Dítětová",
             "pos": "physiotherapist",
             "rating": 5
@@ -1353,16 +1379,19 @@
         "quote_DwgiG7": {
           "type": "quote",
           "settings": {
-            "image_avata": "shopify:\/\/shop_images\/hana-borecka.jpg",
+            "image_avata": "shopify://shop_images/hana-borecka.jpg",
             "heading": "",
-            "content": "<p>Ahinsa shoes are beautiful, original Czech barefoot shoes, with careful craftsmanship and high-quality materials — natural or recycled. They provide generous space in the front of the foot, which is necessary for correct toe posture and influences the posture of the whole body.<br\/><\/p>",
+            "content": "<p>Ahinsa shoes are beautiful, original Czech barefoot shoes, with careful craftsmanship and high-quality materials — natural or recycled. They provide generous space in the front of the foot, which is necessary for correct toe posture and influences the posture of the whole body.<br/></p>",
             "title": "MUDr. Hana Bořecká",
             "pos": "doctor",
             "rating": 5
           }
         }
       },
-      "block_order": ["quote_pJ3UdY", "quote_DwgiG7"],
+      "block_order": [
+        "quote_pJ3UdY",
+        "quote_DwgiG7"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -1416,7 +1445,9 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "custom_css": [".t4s-product-sizes { color: black; }"],
+      "custom_css": [
+        ".t4s-product-sizes { color: black; }"
+      ],
       "settings": {
         "show": true,
         "design_heading": "1",
