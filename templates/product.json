@@ -146,6 +146,14 @@
             "waitForElementSelector": "",
             "waitForElementDelay": 5
           }
+        },
+        "kiwi_size_chart_kiwi_sizing_xH8jJk": {
+          "type": "shopify://apps/kiwi-size-chart/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "fallbackToBlockPosition": false,
+            "waitForElementSelector": "",
+            "waitForElementDelay": 5
+          }
         }
       },
       "block_order": [
@@ -158,7 +166,8 @@
         "text_w_icon_KtJaD8",
         "text_w_icon_GitFde",
         "text_w_icon_gjJYcM",
-        "kiwi_size_chart_kiwi_sizing_bDYRmC"
+        "kiwi_size_chart_kiwi_sizing_bDYRmC",
+        "kiwi_size_chart_kiwi_sizing_xH8jJk"
       ],
       "settings": {
         "pr_layout": "wide",
