@@ -1506,7 +1506,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
