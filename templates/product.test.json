@@ -206,7 +206,7 @@
         "price_sale_color": "#afafaf",
         "logo": "shopify:\/\/shop_images\/Twisto-logo.png",
         "popup_header": "Good shoes have to fit.",
-        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.<\/h2><p>Defer payment by up to <strong>30 days<\/strong>. Or split it into thirds.<\/p><h3>How it works?<\/h3><ol><li>Pick your pair of Ahinsa shoes.<\/li><li>Choose card payment in the cart.<\/li><li>Click <strong>Deferred payment<\/strong> or <strong>Pay in thirds<\/strong>.<\/li><li>Try the shoes on at home.<\/li><\/ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.<\/strong><\/p><p>Don't fit? <a href=\"https:\/\/ahinsashoes.cz\/pages\/refund-portal\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days<\/a> — we'll exchange the size at our cost.<\/p>",
+        "popup_content": "<h2>You can pay for Ahinsa shoes after trying them on.<\/h2><p>Defer payment by up to <strong>30 days<\/strong>. Or split it into thirds.<\/p><h3>How it works?<\/h3><ol><li>Pick your pair of Ahinsa shoes.<\/li><li>Choose card payment in the cart.<\/li><li>Click <strong>Deferred payment<\/strong> or <strong>Pay in thirds<\/strong>.<\/li><li>Try the shoes on at home.<\/li><\/ol><p>Payment details arrive by email. <strong>You have up to 30 days to pay.<\/strong><\/p><p>Don't fit? <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Portal\">Send them back within 14 days<\/a> — we'll exchange the size at our cost.<\/p>",
         "popup_button": "Got it, thanks!"
       }
     },
@@ -921,7 +921,7 @@
             "des_color": "#ffffff",
             "use_shadow": false,
             "button_label": "",
-            "button_link": "https:\/\/ahinsashoes.cz\/pages\/nas-pribeh",
+            "button_link": "\/pages\/our-story",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "outline",

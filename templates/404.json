@@ -177,7 +177,7 @@
     "custom_html_kHURap": {
       "type": "custom-html",
       "settings": {
-        "code": "<div class=\"t4s-text-center\">Take a step in the right direction. Head to the <a href=\"https:\/\/ahinsashoes.cz\/\">homepage<\/a> or slip straight into comfort designed by physiotherapists.\n<\/div>",
+        "code": "<div class=\"t4s-text-center\">Take a step in the right direction. Head to the <a href=\"\/\">homepage<\/a> or slip straight into comfort designed by physiotherapists.\n<\/div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",

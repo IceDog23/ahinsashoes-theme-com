@@ -252,7 +252,7 @@
       "in_stock_status": "In Stock",
       "pre_oder_status": "Pre order",
       "sold_out_status": "Out of stock",
-      "in_store_html": "available in <a href=%r@\\\"https://ahinsashoes.cz/pages/prodejna%r@\\\">store.</a>",
+      "in_store_html": "available in store.",
       "last_items_status": "Only few in stock",
       "product_category": "Categories:",
       "product_tag": "Tags:",

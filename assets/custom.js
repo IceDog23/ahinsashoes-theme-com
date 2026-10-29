@@ -419,7 +419,7 @@ jQuery_T4NT(document).ready(function ($) {
 			e.preventDefault()
 			// add new search params to the URL
 
-			pendingUrl.searchParams.append('filter.v.option.velikost', a.dataset.size)
+			pendingUrl.searchParams.append('filter.v.option.size', a.dataset.size)
 			const fetchUrl = new URL (pendingUrl)
 			fetchUrl.searchParams.append('sections', sectionId)
 

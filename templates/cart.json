@@ -47,17 +47,6 @@
     "shipping_6FrjP3": {
       "type": "shipping",
       "blocks": {
-        "shipping_NNc8Gn": {
-          "type": "shipping",
-          "settings": {
-            "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/ico-eco.png",
-            "icon": "las la-shipping-fast",
-            "title": "FREE SHIPPING TO THE CZECH REPUBLIC AND SLOVAKIA",
-            "text": "<p>We ship all orders over 1500 Kč free.<\/p>",
-            "html": ""
-          }
-        },
         "shipping_dtxQ3L": {
           "type": "shipping",
           "settings": {
@@ -93,7 +82,6 @@
         }
       },
       "block_order": [
-        "shipping_NNc8Gn",
         "shipping_dtxQ3L",
         "shipping_ngRqbn",
         "shipping_BpiKjy"
@@ -111,8 +99,8 @@
         "source": "get_image",
         "icon_des": "default",
         "icon_size": "small",
-        "col_dk": "4",
-        "col_tb": "4",
+        "col_dk": "3",
+        "col_tb": "3",
         "col_mb": "1",
         "border": false,
         "cl_bd": "#dddddd",

@@ -152,7 +152,7 @@
 
 {% for filter in collection.filters %}
   {% for acitve in filter.active_values %}
-    {% if acitve.param_name == 'filter.v.option.velikost' %}
+    {% if acitve.param_name == 'filter.v.option.size' or acitve.param_name == 'filter.v.option.velikost' %}
       {% assign filter_size = true %}
     {% endif %}
   {% endfor %}

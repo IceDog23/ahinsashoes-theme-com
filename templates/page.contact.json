@@ -83,7 +83,7 @@
           "type": "customer_service",
           "settings": {
             "title": "Customer service",
-            "rich_text": "<p>How can we help?<\/p>\n<div class=\"ml-1\">\n   •  Questions about an order<br>\n   •  <a href=\"\/pages\/jak-spravne-vybrat-velikost%20\">Help with selecting a product<\/a><br>\n   •  <a href=\"\/pages\/refund-portal\">Exchanges or returns<\/a><br>\n   •  …and anything else concerning your purchase\n<\/div>",
+            "rich_text": "<p>How can we help?<\/p>\n<div class=\"ml-1\">\n   •  Questions about an order<br>\n   •  <a href=\"\/pages\/how-to-choose-your-size\">Help with selecting a product<\/a><br>\n   •  <a href=\"\/policies\/refund-policy\">Exchanges or returns<\/a><br>\n   •  …and anything else concerning your purchase\n<\/div>",
             "phone": "",
             "phone_url": "",
             "operation_time": "",

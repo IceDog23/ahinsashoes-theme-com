@@ -636,7 +636,7 @@
         "product_dyHpxE": {
           "type": "product",
           "settings": {
-            "link_product": "shopify:\/\/products\/aktivni-stelka-comfort",
+            "link_product": "shopify:\/\/products\/active-insole-5",
             "title": "",
             "desc": "➡️ Suitable for those who want more comfort, a softer landing, or who wear a more ordinary type of cushioned footwear.",
             "btn_txt": "Nakoupit",
@@ -646,7 +646,7 @@
         "product_GDUL9c": {
           "type": "product",
           "settings": {
-            "link_product": "shopify:\/\/products\/aktivni-stelka-3",
+            "link_product": "shopify:\/\/products\/active-insoles-3",
             "title": "",
             "desc": "➡️ Suitable for more intense stimulation of the feet and more targeted support in movement therapy.",
             "btn_txt": "Nakoupit",
@@ -656,7 +656,7 @@
         "product_4wUDBE": {
           "type": "product",
           "settings": {
-            "link_product": "shopify:\/\/products\/aktivni-stelka-barefoot",
+            "link_product": "shopify:\/\/products\/active-insoles-4",
             "title": "",
             "desc": "➡️ Suitable for barefoot shoes, or for anyone who wants gentle stimulation without unnecessary cushioning.",
             "btn_txt": "Nakoupit",
@@ -666,7 +666,7 @@
         "product_TRRBAA": {
           "type": "product",
           "settings": {
-            "link_product": "shopify:\/\/products\/aktivni-stelka-2",
+            "link_product": "shopify:\/\/products\/active-insoles-2",
             "title": "",
             "desc": "➡️ Suitable e.g. for a fallen arch, a pronated ankle, or loading the inner edge of the foot.",
             "btn_txt": "Nakoupit",
@@ -676,7 +676,7 @@
         "product_ydLyke": {
           "type": "product",
           "settings": {
-            "link_product": "shopify:\/\/products\/aktivni-stelky",
+            "link_product": "shopify:\/\/products\/active-insoles-1",
             "title": "",
             "desc": "➡️ Suitable for supporting a more active stride and stability, better awareness of the toes, and a more conscious push-off from the toes.",
             "btn_txt": "Nakoupit",
@@ -1329,7 +1329,7 @@
             "des_color": "#202020",
             "use_shadow": false,
             "button_label": "Jdu si vybrat",
-            "button_link": "https:\/\/ahinsashoes.cz\/collections\/all",
+            "button_link": "\/collections\/all",
             "open_link": "_blank",
             "btn_icon": true,
             "button_style": "outline",
