@@ -14,43 +14,73 @@
       "blocks": {
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
-          "settings": { "collection": "default-3", "icon": "" }
+          "settings": {
+            "collection": "default-3",
+            "icon": ""
+          }
         },
         "863873b6-012e-4a34-90e3-eead750fa3ce": {
           "type": "cat",
-          "settings": { "collection": "bag", "icon": "" }
+          "settings": {
+            "collection": "bag",
+            "icon": ""
+          }
         },
         "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
           "type": "cat",
-          "settings": { "collection": "decor", "icon": "" }
+          "settings": {
+            "collection": "decor",
+            "icon": ""
+          }
         },
         "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
           "type": "cat",
-          "settings": { "collection": "default-2", "icon": "" }
+          "settings": {
+            "collection": "default-2",
+            "icon": ""
+          }
         },
         "23c84729-8fcb-488c-9541-00e283af6afe": {
           "type": "cat",
-          "settings": { "collection": "dress", "icon": "" }
+          "settings": {
+            "collection": "dress",
+            "icon": ""
+          }
         },
         "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
           "type": "cat",
-          "settings": { "collection": "hats", "icon": "" }
+          "settings": {
+            "collection": "hats",
+            "icon": ""
+          }
         },
         "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
           "type": "cat",
-          "settings": { "collection": "frontpage", "icon": "" }
+          "settings": {
+            "collection": "frontpage",
+            "icon": ""
+          }
         },
         "70189b51-5562-4924-b642-a1deba7741ee": {
           "type": "cat",
-          "settings": { "collection": "sale", "icon": "" }
+          "settings": {
+            "collection": "sale",
+            "icon": ""
+          }
         },
         "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
           "type": "cat",
-          "settings": { "collection": "shoes", "icon": "" }
+          "settings": {
+            "collection": "shoes",
+            "icon": ""
+          }
         },
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
           "type": "cat",
-          "settings": { "collection": "women", "icon": "" }
+          "settings": {
+            "collection": "women",
+            "icon": ""
+          }
         }
       },
       "block_order": [
@@ -100,7 +130,10 @@
       "blocks": {
         "3_qwAU3V": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 30 }
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 30
+          }
         },
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
           "type": "1",
@@ -156,7 +189,7 @@
       "disabled": true,
       "settings": {
         "heading_fullwidth": false,
-        "image": "shopify:\/\/shop_images\/DSC_9983_20240508_f5a40fe5-2ff2-49c8-97ac-291dd2264695.jpg",
+        "image": "shopify://shop_images/DSC_9983_20240508_f5a40fe5-2ff2-49c8-97ac-291dd2264695.jpg",
         "use_specify_image": false,
         "parallax": false,
         "color": "#000000",
@@ -189,7 +222,7 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "20px",
             "padding_inner_mb": "10px,20px,10px,20px",
-            "bg_image": "shopify:\/\/shop_images\/collection_black_podzim.jpg",
+            "bg_image": "shopify://shop_images/collection_black_podzim.jpg",
             "bg_cl": "#d2a2a2"
           }
         },
@@ -311,7 +344,7 @@
             "collection": "panove",
             "icon": "las la-gem",
             "collection_title": "Collection",
-            "collection_text": "<p>Collection description<\/p>",
+            "collection_text": "<p>Collection description</p>",
             "collection_link": "",
             "promotion_id": "",
             "promotion_name": "",
@@ -326,7 +359,7 @@
             "collection": "damske-barefoot",
             "icon": "las la-gem",
             "collection_title": "Collection",
-            "collection_text": "<p>Collection description<\/p>",
+            "collection_text": "<p>Collection description</p>",
             "collection_link": "",
             "promotion_id": "",
             "promotion_name": "",
@@ -336,7 +369,10 @@
           }
         }
       },
-      "block_order": ["collection_item_jMNafN", "collection_item_QcTMcE"],
+      "block_order": [
+        "collection_item_jMNafN",
+        "collection_item_QcTMcE"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "12",
@@ -445,7 +481,7 @@
             "b_link": "",
             "open_link": "_self",
             "content_align": "center",
-            "date": "2023\/12\/26",
+            "date": "2023/12/26",
             "cdt_des": "1",
             "countdown_pos": "2",
             "cdt_size": "small",
@@ -496,7 +532,7 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "20px",
             "padding_inner_mb": "10px,20px,10px,20px",
-            "bg_image": "shopify:\/\/shop_images\/dsc_2472_black.jpg",
+            "bg_image": "shopify://shop_images/dsc_2472_black.jpg",
             "bg_cl": "#d2a2a2"
           }
         },
@@ -580,7 +616,7 @@
             "announcement_text": "Summer sale — up to 30% off. The sale ends in:",
             "countdown_end_date": "2026-06-30",
             "countdown_end_time": "23:59",
-            "countdown_timezone": "Europe\/Prague",
+            "countdown_timezone": "Europe/Prague",
             "label_days": "Days",
             "label_hours": "Hodin",
             "label_minutes": "Minut",
@@ -617,7 +653,9 @@
           "blocks": {}
         }
       },
-      "block_order": ["ai_gen_block_021e354_wdngFC"],
+      "block_order": [
+        "ai_gen_block_021e354_wdngFC"
+      ],
       "disabled": true,
       "name": "Countdown – sale LP",
       "settings": {}
@@ -644,11 +682,11 @@
             "badge_text_color": "#3f3519",
             "badge_font_size": 20,
             "badge_border_radius": 30,
-            "heading": "<h1>Ahinsa Days <\/h1><h1>– EXTENDED!<\/h1>",
+            "heading": "<h1>Ahinsa Days </h1><h1>– EXTENDED!</h1>",
             "heading_size": 60,
-            "subheading": "<p>Shoes designed by physiotherapists are now yours <strong>with up to 40% off<\/strong>. Barefoot and Comfort models at a better price.<\/p>",
+            "subheading": "<p>Shoes designed by physiotherapists are now yours <strong>with up to 40% off</strong>. Barefoot and Comfort models at a better price.</p>",
             "text_size": 24,
-            "image": "shopify:\/\/shop_images\/ahinsa_days_LP_banner.jpg",
+            "image": "shopify://shop_images/ahinsa_days_LP_banner.jpg",
             "show_countdown": false,
             "countdown_end_date": "2026-04-20 23:59",
             "countdown_bg_color": "#ffffff",
@@ -662,12 +700,12 @@
             "minutes_label": "minut",
             "seconds_label": "sekund",
             "primary_button_label": "Shop women’s",
-            "primary_button_link": "shopify:\/\/collections\/damy",
+            "primary_button_link": "shopify://collections/damy",
             "primary_button_bg": "#c2b288",
             "primary_button_color": "#202020",
             "primary_button_hover_bg": "#857a59",
             "secondary_button_label": "Shop men’s",
-            "secondary_button_link": "shopify:\/\/collections\/panove",
+            "secondary_button_link": "shopify://collections/panove",
             "secondary_button_color": "#202020",
             "secondary_button_border": "#857a59",
             "secondary_button_hover_bg": "#857a59",
@@ -713,11 +751,11 @@
             "badge_text_color": "#ffffff",
             "badge_font_size": 20,
             "badge_border_radius": 30,
-            "heading": "<h1>Summer sale<\/h1>",
+            "heading": "<h1>Summer sale</h1>",
             "heading_size": 58,
-            "subheading": "<p>In summer, feet <strong>swell and sweat <\/strong>and ordinary shoes often start to pinch.<\/p><p>Ahinsa summer shoes are sewn from <strong>breathable materials<\/strong> that wick moisture away. Thanks to a wide anatomical shape they adapt to your foot even with slight swelling – <strong>no pinching, no blisters<\/strong>.<\/p><p>Sneakers, sandals, ballet flats and many more models – now with <strong>up to 30% off<\/strong>.<\/p><p>ℹ️<em> <\/em><a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/comfort-boty\" target=\"_blank\" title=\"https:\/\/ahinsashoes.cz\/blogs\/news\/comfort-boty\"><em>Barefoot vs. Comfort? Choose what’s right for you.<\/em><\/a><\/p>",
+            "subheading": "<p>In summer, feet <strong>swell and sweat </strong>and ordinary shoes often start to pinch.</p><p>Ahinsa summer shoes are sewn from <strong>breathable materials</strong> that wick moisture away. Thanks to a wide anatomical shape they adapt to your foot even with slight swelling – <strong>no pinching, no blisters</strong>.</p><p>Sneakers, sandals, ballet flats and many more models – now with <strong>up to 30% off</strong>.</p><p>ℹ️<em> </em><a href=\"/pages/ahinsa-comfort\" target=\"_blank\" title=\"Ahinsa Comfort: Comfort that looks great on you\"><em>Barefoot vs. Comfort? Choose what’s right for you.</em></a></p>",
             "text_size": 20,
-            "image": "shopify:\/\/shop_images\/letni_vyprodej_gif_CZ.gif",
+            "image": "shopify://shop_images/letni_vyprodej_gif_CZ.gif",
             "show_countdown": false,
             "countdown_end_date": "2026-04-20 23:59",
             "countdown_bg_color": "#ffffff",
@@ -731,12 +769,12 @@
             "minutes_label": "minut",
             "seconds_label": "sekund",
             "primary_button_label": "Shop women’s",
-            "primary_button_link": "\/collections\/sale-women#full-offer",
+            "primary_button_link": "/collections/sale-women#full-offer",
             "primary_button_bg": "#923a3a",
             "primary_button_color": "#fff",
             "primary_button_hover_bg": "#c2b288",
             "secondary_button_label": "Shop men’s",
-            "secondary_button_link": "\/collections\/sale-men#full-offer",
+            "secondary_button_link": "/collections/sale-men#full-offer",
             "secondary_button_color": "#000000",
             "secondary_button_border": "#000000",
             "secondary_button_hover_bg": "#c2b288",
@@ -884,7 +922,9 @@
           "blocks": {}
         }
       },
-      "block_order": ["ai_gen_block_9efe4ec_hGj7Je"],
+      "block_order": [
+        "ai_gen_block_9efe4ec_hGj7Je"
+      ],
       "disabled": true,
       "name": "TOP picks section",
       "settings": {}
@@ -893,7 +933,7 @@
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
-        "custom_liquid": "<div id=\"full-offer\"><\/div>",
+        "custom_liquid": "<div id=\"full-offer\"></div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -911,7 +951,9 @@
         "filter_id": {
           "type": "filter",
           "disabled": true,
-          "settings": { "style_filters": "sidebar" }
+          "settings": {
+            "style_filters": "sidebar"
+          }
         },
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
           "type": "layout",
@@ -928,7 +970,9 @@
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
-      "custom_css": [".t4s-product-sizes {  color: black;  }"],
+      "custom_css": [
+        ".t4s-product-sizes {color: black;}"
+      ],
       "settings": {
         "show_desc": false,
         "position_desc": "1",
@@ -975,7 +1019,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_cards_carousel_wAUAYn": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/cards_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "show_sample_reviews": true,
             "reviews_selection": "custom_products",
@@ -988,6 +1032,9 @@
               "damske-barefoot-sandaly-hava-2-preciosa-bile",
               "panske-barefoot-tenisky-yuva-cernobile"
             ],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
             "star_rating": "5_star",
             "show_review_media": true,
             "display_order": "most_recent",
@@ -1015,7 +1062,9 @@
           }
         }
       },
-      "block_order": ["judge_me_reviews_cards_carousel_wAUAYn"],
+      "block_order": [
+        "judge_me_reviews_cards_carousel_wAUAYn"
+      ],
       "settings": {}
     },
     "178093478362b63098": {
@@ -1088,7 +1137,9 @@
           "blocks": {}
         }
       },
-      "block_order": ["ai_gen_block_888879f_LhCGDd"],
+      "block_order": [
+        "ai_gen_block_888879f_LhCGDd"
+      ],
       "disabled": true,
       "name": "Last chance – promo LP",
       "settings": {}
@@ -1105,7 +1156,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Default collection text<\/p>",
+            "text": "<p>Default collection text</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -1121,7 +1172,9 @@
           }
         }
       },
-      "block_order": ["bl_text_Cn4y4q"],
+      "block_order": [
+        "bl_text_Cn4y4q"
+      ],
       "disabled": true,
       "settings": {
         "section_key": "",
@@ -1175,18 +1228,28 @@
       "blocks": {
         "article_gFCrfE": {
           "type": "article",
-          "settings": { "article": "news\/letni-vyprodej-2024" }
+          "settings": {
+            "article": "news/letni-vyprodej-2024"
+          }
         },
         "article_tbkcGL": {
           "type": "article",
-          "settings": { "article": "news\/rozhovor-jak-spravne-sedet" }
+          "settings": {
+            "article": "news/rozhovor-jak-spravne-sedet"
+          }
         },
         "article_CfqVP4": {
           "type": "article",
-          "settings": { "article": "news\/jak-vazat-tkanicky" }
+          "settings": {
+            "article": "news/jak-vazat-tkanicky"
+          }
         }
       },
-      "block_order": ["article_gFCrfE", "article_tbkcGL", "article_CfqVP4"],
+      "block_order": [
+        "article_gFCrfE",
+        "article_tbkcGL",
+        "article_CfqVP4"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "9",
