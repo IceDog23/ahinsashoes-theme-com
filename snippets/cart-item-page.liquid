@@ -79,7 +79,7 @@
             {% if item_var.inventory_quantity <= 0 and item_var.inventory_policy == 'continue' and next_available_date %}
               <span>
                 {{- 'products.product.available_date' | t -}}
-                {% render 'date-translate', dateString: next_available_date, language: 'Czech' %}
+                {% render 'date-translate', dateString: next_available_date, language: 'English' %}
               </span>
             {% endif %}
           {% endif %}

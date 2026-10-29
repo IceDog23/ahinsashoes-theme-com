@@ -508,7 +508,7 @@
                 style="{% if isPreorder %}display:inline{% else %}display:none{% endif %}"
               >
                 {{- 'products.product.available_date' | t -}}
-                {% render 'date-translate', dateString: next_available_date, language: 'Czech' %}
+                {% render 'date-translate', dateString: next_available_date, language: 'English' %}
               </span>
               <span
                 data-stock="outOfStock"
@@ -516,7 +516,7 @@
                 style="{% if current_variant_available == false or isProductAvailable == false or preorder_limit == current_variant.inventory_quantity %}display:inline{% else %}display:none{% endif %}"
               >
                 {{- 'products.product.available_date' | t -}}
-                {% render 'date-translate', dateString: next_available_date, language: 'Czech' %}
+                {% render 'date-translate', dateString: next_available_date, language: 'English' %}
               </span>
             {% endif %}
           </div>
