@@ -294,11 +294,7 @@
                           data-value="{{ value | escape }}"
                           data-preorderLimit="{{ product.variants[forloop.index0].metafields.preorder.limit }}"
                         >
-                          {% if template.suffix == 'gift-card' %}
-                            {{ value }} Kč
-                          {% else %}
-                            {{ value }}
-                          {% endif %}
+                          {{ value }}
                         </div>
                       {%- endfor -%}
 
@@ -658,18 +654,20 @@
                   </svg>
                 </span>
               </button>
-              {% comment %} Delay payment pop up {% endcomment %}
-              {% unless template.suffix == 'gift-card' %}
-                {% comment %} A/B TESTING 001, delay payment pop up {% endcomment %}
-                {% unless ab_test %}
-                <span
-                  class="twisto-popup-open"
-                >
-                  <a href="#" onclick="openpopup()">{{ 'products.product.pay_after_trying' | t }}</a>
-                </span>
+              {% comment %}
+                {% # Delay payment pop up %}
+                {% unless template.suffix == 'gift-card' %}
+                  {% # A/B TESTING 001, delay payment pop up %}
+                  {% unless ab_test %}
+                  <span
+                    class="twisto-popup-open"
+                  >
+                    <a href="#" onclick="openpopup()">{{ 'products.product.pay_after_trying' | t }}</a>
+                  </span>
+                  {% endunless %}
                 {% endunless %}
-              {% endunless %}
-              {% comment %} DEJVEDITS END {% endcomment %}
+                {% # DEJVEDITS END %}
+              {% endcomment %}
             {%- endif -%}
           </div>
 

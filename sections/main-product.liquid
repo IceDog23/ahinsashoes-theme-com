@@ -298,13 +298,15 @@
 <div class="t4s-container t4s-main-product__content is--layout_{{ se_stts.pr_layout }} t4s-product-media__{{ media_layout }} t4s-product-thumb-size__{{ se_stts.thumb_lr_size }} t4s-product-background">
   <div class="t4s-row">
     <div class="t4s-col-item t4s-col-12 t4s-main-area">
-      {% comment %} RENDER POP UP {% endcomment %}
-      {% render 'popup_custom',
-        popup_header: se_stts.popup_header,
-        popup_content: se_stts.popup_content,
-        popup_button: se_stts.popup_button,
-        logo: se_stts.logo
-      %}
+      {% comment %}
+        RENDER POP UP
+        {% render 'popup_custom',
+          popup_header: se_stts.popup_header,
+          popup_content: se_stts.popup_content,
+          popup_button: se_stts.popup_button,
+          logo: se_stts.logo
+        %}
+      {% endcomment %}
 
       <div
         data-product-featured='{"id":"{{ product.id }}","isMainProduct":true, "sectionId":"{{ se_id }}", "disableSwatch":{{ isProductDefault }}, "media": {% if media_size > 1 %}true{% else %}false{% endif %},"enableHistoryState": {{ enableHistoryState }}, "formID": "#product-form-{{ pr_se_id }}", "removeSoldout":{{ remove_soldout }}, "changeVariantByImg":{{ settings.use_change_variant_by_img }}, "isNoPick":{{ PR_no_pick }},"hasSoldoutUnavailable":{{ ck_so_un }},"enable_zoom_click_mb":{{ se_stts.enable_zoom_click_mb }},"main_click":"{{ main_click }}","canMediaGroup":{{ canMedia_group }},"isGrouped":{{ isGrouped }},"hasIsotope":{{ hasIsotope }},"available":{{ product.available }}, "customBadge":{{ arr_badge | json }}, "customBadgeHandle":{{ arr_badge_handle | json }},"dateStart":{{ product.created_at | date: "%s" }}, "compare_at_price":{{ current_variant.compare_at_price | json }},"price":{{ current_variant.price | json }}, "isPreorder":{{ isPreorder }}, "showFirstMedia":{{ settings.show_first_media }}, "isSticky":{{ isSticky }}, "isStickyMB":{{ isStickyMB }}, "stickyShow":"{{ se_stts.sticky_show }}", "useStickySelect": {{ se_stts.enable_select }} }'
