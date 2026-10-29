@@ -982,6 +982,93 @@
         "code_cus_css": ""
       }
     },
+    "instagram_feed_rec94R": {
+      "type": "instagram_feed",
+      "blocks": {
+        "img_EAqUJr": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/762868861_18454469323136678_8165247966698315918_n.jpg",
+            "url": "https://www.instagram.com/p/DbkhL_1ghG7/?img_index=1"
+          }
+        },
+        "img_dDdYfN": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/587704120_18413017090136678_2562096940782203054_n.jpg",
+            "url": "https://www.instagram.com/p/DRjk_kWjAFh/"
+          }
+        },
+        "img_ewGXLC": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/829332135_18465783385136678_6576903976686647873_n.jpg",
+            "url": "https://www.instagram.com/ahinsashoes.cz/p/DazxeNLsHTs/"
+          }
+        },
+        "img_PNrLzJ": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/570073865_18408032764136678_2256016553144844672_n.jpg",
+            "url": "https://www.instagram.com/p/DQJL6OHjKsM/?img_index=1"
+          }
+        },
+        "img_D9Vwtt": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/575686022_18132284695470670_5250001918572691868_n.jpg",
+            "url": "https://www.instagram.com/p/DQ36RPSCDbH/?img_index=9"
+          }
+        }
+      },
+      "block_order": [
+        "img_EAqUJr",
+        "img_dDdYfN",
+        "img_ewGXLC",
+        "img_PNrLzJ",
+        "img_D9Vwtt"
+      ],
+      "settings": {
+        "layout_des": "2",
+        "image_ratio": "rationt",
+        "image_position": "8",
+        "image_size": "cover",
+        "img_effect": "zoom",
+        "b_effect": "dark-overlay",
+        "col_dk": "5",
+        "col_tb": "3",
+        "col_mb": "2",
+        "space_item": "0",
+        "space_item_mb": "0",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "newsletter_nyN4Kj": {
       "type": "newsletter",
       "blocks": {
@@ -1362,93 +1449,6 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
-    },
-    "instagram_feed_rec94R": {
-      "type": "instagram_feed",
-      "blocks": {
-        "img_EAqUJr": {
-          "type": "img",
-          "settings": {
-            "image": "shopify://shop_images/762868861_18454469323136678_8165247966698315918_n.jpg",
-            "url": "https://www.instagram.com/p/DbkhL_1ghG7/?img_index=1"
-          }
-        },
-        "img_dDdYfN": {
-          "type": "img",
-          "settings": {
-            "image": "shopify://shop_images/587704120_18413017090136678_2562096940782203054_n.jpg",
-            "url": "https://www.instagram.com/p/DRjk_kWjAFh/"
-          }
-        },
-        "img_ewGXLC": {
-          "type": "img",
-          "settings": {
-            "image": "shopify://shop_images/829332135_18465783385136678_6576903976686647873_n.jpg",
-            "url": "https://www.instagram.com/ahinsashoes.cz/p/DazxeNLsHTs/"
-          }
-        },
-        "img_PNrLzJ": {
-          "type": "img",
-          "settings": {
-            "image": "shopify://shop_images/570073865_18408032764136678_2256016553144844672_n.jpg",
-            "url": "https://www.instagram.com/p/DQJL6OHjKsM/?img_index=1"
-          }
-        },
-        "img_D9Vwtt": {
-          "type": "img",
-          "settings": {
-            "image": "shopify://shop_images/575686022_18132284695470670_5250001918572691868_n.jpg",
-            "url": "https://www.instagram.com/p/DQ36RPSCDbH/?img_index=9"
-          }
-        }
-      },
-      "block_order": [
-        "img_EAqUJr",
-        "img_dDdYfN",
-        "img_ewGXLC",
-        "img_PNrLzJ",
-        "img_D9Vwtt"
-      ],
-      "settings": {
-        "layout_des": "2",
-        "image_ratio": "ratio2_3",
-        "image_position": "8",
-        "image_size": "cover",
-        "img_effect": "zoom",
-        "b_effect": "dark-overlay",
-        "col_dk": "5",
-        "col_tb": "3",
-        "col_mb": "2",
-        "space_item": "0",
-        "space_item_mb": "0",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": true,
-        "btn_vi": "hover",
-        "btn_owl": "default",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": true,
-        "nav_dot": true,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "layout": "t4s-se-container",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": "",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
     }
   },
   "order": [
@@ -1464,9 +1464,9 @@
     "custom_liquid_8dHYje",
     "logo_list_4Lhk4T",
     "blog_post_manual_yz83TX",
+    "instagram_feed_rec94R",
     "newsletter_nyN4Kj",
     "1646209857bf69e76a",
-    "image_text_1_hdDe9P",
-    "instagram_feed_rec94R"
+    "image_text_1_hdDe9P"
   ]
 }
