@@ -3036,11 +3036,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
-      },
       "7990132695519299173": {
         "type": "shopify://apps/simple-affiliate/blocks/sa-tracker/da6b7ee2-2e27-43e4-9184-0df8dc5be07a",
         "disabled": false,
@@ -3053,6 +3048,36 @@
       },
       "12526071353035850722": {
         "type": "shopify://apps/amp-back-in-stock/blocks/app-embed/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+        "disabled": false,
+        "settings": {}
+      },
+      "7008068068935494874": {
+        "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/trstd-login/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+        "disabled": false,
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
+        "settings": {}
+      },
+      "2056574853957859853": {
+        "type": "shopify://apps/tanganica/blocks/tracking/01a186f5-dde2-7f5b-b535-228044be3799",
+        "disabled": false,
+        "settings": {}
+      },
+      "2200952712151285029": {
+        "type": "shopify://apps/microsoft-clarity/blocks/brandAgents_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": true,
+        "settings": {}
+      },
+      "2567389343055140935": {
+        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": false,
+        "settings": {}
+      },
+      "3869056181290550230": {
+        "type": "shopify://apps/ecomail-marketing-platform/blocks/ecomail_tracking_code/019c2225-ad11-72d8-9b28-9e428aaf99e9",
         "disabled": false,
         "settings": {}
       }
