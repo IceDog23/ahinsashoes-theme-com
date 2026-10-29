@@ -14,43 +14,73 @@
       "blocks": {
         "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
           "type": "cat",
-          "settings": { "collection": "default-3", "icon": "" }
+          "settings": {
+            "collection": "default-3",
+            "icon": ""
+          }
         },
         "863873b6-012e-4a34-90e3-eead750fa3ce": {
           "type": "cat",
-          "settings": { "collection": "bag", "icon": "" }
+          "settings": {
+            "collection": "bag",
+            "icon": ""
+          }
         },
         "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
           "type": "cat",
-          "settings": { "collection": "decor", "icon": "" }
+          "settings": {
+            "collection": "decor",
+            "icon": ""
+          }
         },
         "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
           "type": "cat",
-          "settings": { "collection": "default-2", "icon": "" }
+          "settings": {
+            "collection": "default-2",
+            "icon": ""
+          }
         },
         "23c84729-8fcb-488c-9541-00e283af6afe": {
           "type": "cat",
-          "settings": { "collection": "dress", "icon": "" }
+          "settings": {
+            "collection": "dress",
+            "icon": ""
+          }
         },
         "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
           "type": "cat",
-          "settings": { "collection": "hats", "icon": "" }
+          "settings": {
+            "collection": "hats",
+            "icon": ""
+          }
         },
         "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
           "type": "cat",
-          "settings": { "collection": "frontpage", "icon": "" }
+          "settings": {
+            "collection": "frontpage",
+            "icon": ""
+          }
         },
         "70189b51-5562-4924-b642-a1deba7741ee": {
           "type": "cat",
-          "settings": { "collection": "sale", "icon": "" }
+          "settings": {
+            "collection": "sale",
+            "icon": ""
+          }
         },
         "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
           "type": "cat",
-          "settings": { "collection": "shoes", "icon": "" }
+          "settings": {
+            "collection": "shoes",
+            "icon": ""
+          }
         },
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
           "type": "cat",
-          "settings": { "collection": "women", "icon": "" }
+          "settings": {
+            "collection": "women",
+            "icon": ""
+          }
         }
       },
       "block_order": [
@@ -100,7 +130,10 @@
       "blocks": {
         "3_qwAU3V": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 30 }
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 30
+          }
         },
         "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
           "type": "1",
@@ -155,7 +188,7 @@
       ],
       "settings": {
         "heading_fullwidth": false,
-        "image": "shopify:\/\/shop_images\/Ahinsa_006.jpg",
+        "image": "shopify://shop_images/Ahinsa_006.jpg",
         "use_specify_image": false,
         "parallax": false,
         "color": "#000000",
@@ -188,7 +221,7 @@
             "padding_inner": "30px,,30px",
             "padding_inner_tb": "20px",
             "padding_inner_mb": "10px,20px,10px,20px",
-            "bg_image": "shopify:\/\/shop_images\/yuva_black6.png",
+            "bg_image": "shopify://shop_images/yuva_black6.png",
             "bg_cl": "#d2a2a2"
           }
         },
@@ -217,7 +250,7 @@
         "custom_text_Jb94ai": {
           "type": "custom_text",
           "settings": {
-            "text": "Choose from our <a href=\"https:\/\/ahinsashoes.cz\/collections\/novinky-panske\" target=\"_blank\"><b><u>new collection<\/u><\/b><\/a> full of lightness, enter the code at the last checkout step, and 20% off is deducted automatically.",
+            "text": "Choose from our <a href=\"https://ahinsashoes.cz/collections/novinky-panske\" target=\"_blank\"><b><u>new collection</u></b></a> full of lightness, enter the code at the last checkout step, and 20% off is deducted automatically.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -295,7 +328,7 @@
             "b_link": "",
             "open_link": "_self",
             "content_align": "center",
-            "date": "2023\/12\/26",
+            "date": "2023/12/26",
             "cdt_des": "1",
             "countdown_pos": "2",
             "cdt_size": "small",
@@ -336,11 +369,11 @@
           "type": "collection_item",
           "settings": {
             "collection": "panske-barefoot",
-            "image": "shopify:\/\/shop_images\/DSC0267-2-dark.png",
+            "image": "shopify://shop_images/DSC0267-2-dark.png",
             "icon": "las la-gem",
             "collection_title": "Barefoot",
-            "collection_text": "<p>A flexible outsole and zero drop connect you with the ground. You walk as naturally as nature intended.<\/p>",
-            "collection_link": "https:\/\/ahinsashoes.cz\/collections\/panske-barefoot",
+            "collection_text": "<p>A flexible outsole and zero drop connect you with the ground. You walk as naturally as nature intended.</p>",
+            "collection_link": "https://ahinsashoes.cz/collections/panske-barefoot",
             "promotion_id": "",
             "promotion_name": "",
             "creative_name": "",
@@ -352,11 +385,11 @@
           "type": "collection_item",
           "settings": {
             "collection": "panska-komfortni-obuv",
-            "image": "shopify:\/\/shop_images\/DSC9661-2-dark.png",
+            "image": "shopify://shop_images/DSC9661-2-dark.png",
             "icon": "las la-gem",
             "collection_title": "Comfort",
-            "collection_text": "<p>Comfort without compromise. They free your feet and soften your steps. Ideal if you don’t want to feel every pebble on the path.<\/p>",
-            "collection_link": "https:\/\/ahinsashoes.cz\/collections\/panska-komfortni-obuv",
+            "collection_text": "<p>Comfort without compromise. They free your feet and soften your steps. Ideal if you don’t want to feel every pebble on the path.</p>",
+            "collection_link": "https://ahinsashoes.cz/collections/panska-komfortni-obuv",
             "promotion_id": "",
             "promotion_name": "",
             "creative_name": "",
@@ -365,7 +398,10 @@
           }
         }
       },
-      "block_order": ["collection_item_9WrnKy", "collection_item_8YyptN"],
+      "block_order": [
+        "collection_item_9WrnKy",
+        "collection_item_8YyptN"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -445,7 +481,9 @@
         "filter_id": {
           "type": "filter",
           "disabled": true,
-          "settings": { "style_filters": "sidebar" }
+          "settings": {
+            "style_filters": "sidebar"
+          }
         },
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
           "type": "layout",
@@ -462,7 +500,9 @@
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
-      "custom_css": [".t4s-product-sizes {  color: black;  }"],
+      "custom_css": [
+        ".t4s-product-sizes {color: black;}"
+      ],
       "settings": {
         "show_desc": false,
         "position_desc": "1",
@@ -517,7 +557,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "Men’s shoes for the woods and the theatre",
-            "text": "<p>At Ahinsa shoes we sew from materials that <strong>can handle anything<\/strong> and that feel great on you. Our favorite <a href=\"https:\/\/ahinsashoes.cz\/pages\/nase-materialy\">vegan leather<\/a> keeps water out and at the same time <strong>wicks moisture away from your feet<\/strong>. A flexible outsole copies your stride and doesn’t slip. <\/p><p>Why spend hours in shops? Choose men’s Ahinsa shoes and you’re <strong>set for several seasons<\/strong>. Our shoes will walk millions of steps with you.<\/p><h2>Barefoot shoes, or the cushioned Comfort line?<\/h2><p><a href=\"https:\/\/ahinsashoes.cz\/blogs\/news\/barefoot-a-imunita-zujete-se-pro-zdravi\">Healthy walking is endlessly pleasant and good for you<\/a>. The problem is that ordinary narrow shoes untaught us how. <strong>So how do you switch to barefoot shoes safely?<\/strong> Don’t worry — we’ll help. And we also think of those of you who don’t feel ready for barefoot walking.<\/p><p>Our <a href=\"https:\/\/ahinsashoes.cz\/collections\/panske-barefoot\">men’s barefoot shoes<\/a> are for those of you who <strong>already walk barefoot<\/strong>. They free your toes and a thin flexible outsole connects you with the ground.<\/p><p>The <a href=\"https:\/\/ahinsashoes.cz\/collections\/panska-komfortni-obuv\">Comfort line<\/a> was created for anyone who doesn’t want to feel every pebble on the path. Inside the shoe is a special flexible layer that cushions your steps so you land as if on moss. <\/p>",
+            "text": "<p>At Ahinsa shoes we sew from materials that&nbsp;<strong>can handle anything</strong>&nbsp;and that feel great on you. Our favorite&nbsp;<a href=\"https://ahinsashoes.cz/pages/nase-materialy\" title=\"Our materials\">vegan leather</a>&nbsp;keeps water out and at the same time&nbsp;<strong>wicks moisture away from your feet</strong>. A flexible outsole copies your stride and doesn’t slip.&nbsp;</p><p>Why spend hours in shops? Choose men’s Ahinsa shoes and you’re&nbsp;<strong>set for several seasons</strong>. Our shoes will walk millions of steps with you.</p><h2>Barefoot shoes, or the cushioned Comfort line?</h2><p><a href=\"https://ahinsashoes.com/blogs/news/barefoot-shoes-and-immunity\" title=\"Barefoot health benefits\">Healthy walking is endlessly pleasant and good for you</a>. The problem is that ordinary narrow shoes untaught us how.&nbsp;<strong>So how do you switch to barefoot shoes safely?</strong>&nbsp;Don’t worry — we’ll help. And we also think of those of you who don’t feel ready for barefoot walking.</p><p>Our&nbsp;<a href=\"/collections/mens-barefoot-shoes\" title=\"Men's Barefoot Shoes\">men’s barefoot shoes</a>&nbsp;are for those of you who&nbsp;<strong>already walk barefoot</strong>. They free your toes and a thin flexible outsole connects you with the ground.</p><p>The&nbsp;<a href=\"/collections/mens-comfort-shoes\" title=\"Men's Comfort Shoes\">Comfort line</a>&nbsp;was created for anyone who doesn’t want to feel every pebble on the path.&nbsp;Inside the shoe is a special flexible layer that cushions your steps so you land as if on moss.&nbsp;</p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -533,7 +573,9 @@
           }
         }
       },
-      "block_order": ["bl_text_LeNMyW"],
+      "block_order": [
+        "bl_text_LeNMyW"
+      ],
       "settings": {
         "section_key": "",
         "design_heading": "1",
@@ -586,18 +628,28 @@
       "blocks": {
         "article_YwbakQ": {
           "type": "article",
-          "settings": { "article": "news\/boty-na-dovolenou" }
+          "settings": {
+            "article": "news/boty-na-dovolenou"
+          }
         },
         "article_MrFVba": {
           "type": "article",
-          "settings": { "article": "news\/barefoot-a-mesto" }
+          "settings": {
+            "article": "news/barefoot-a-mesto"
+          }
         },
         "article_8eYyQf": {
           "type": "article",
-          "settings": { "article": "news\/vysoky-nart" }
+          "settings": {
+            "article": "news/vysoky-nart"
+          }
         }
       },
-      "block_order": ["article_YwbakQ", "article_MrFVba", "article_8eYyQf"],
+      "block_order": [
+        "article_YwbakQ",
+        "article_MrFVba",
+        "article_8eYyQf"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "1",
