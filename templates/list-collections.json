@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -34,7 +34,9 @@
           }
         }
       },
-      "block_order": ["8a07976b-2d4e-4066-ad3b-2d7a9e79fae0"],
+      "block_order": [
+        "8a07976b-2d4e-4066-ad3b-2d7a9e79fae0"
+      ],
       "settings": {
         "heading_fullwidth": false,
         "use_specify_image": true,
@@ -59,28 +61,28 @@
         "8b8e32c0-23d6-4b50-9356-1f707380d72f": {
           "type": "collection",
           "settings": {
-            "collection": "damske-barefoot",
+            "collection": "womens-barefoot-shoes",
             "collection_title": "Women’s barefoot shoes"
           }
         },
         "2363b965-b170-4eef-beda-9fcbd426bb8a": {
           "type": "collection",
           "settings": {
-            "collection": "damske-komfortni-boty",
+            "collection": "womens-comfort-shoes",
             "collection_title": "Women’s Comfort shoes"
           }
         },
         "3cf3b5de-76cf-4462-96cd-12be5d86bd88": {
           "type": "collection",
           "settings": {
-            "collection": "panske-barefoot",
+            "collection": "mens-barefoot-shoes",
             "collection_title": "Men’s barefoot shoes"
           }
         },
         "23753dbb-bdea-49f5-9599-1356f824405e": {
           "type": "collection",
           "settings": {
-            "collection": "panska-komfortni-obuv",
+            "collection": "mens-comfort-shoes",
             "collection_title": "Men’s Comfort shoes"
           }
         }
@@ -145,10 +147,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/ico-barefoot.png",
+            "image_icon": "shopify://shop_images/ico-barefoot.png",
             "icon": "",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -156,10 +158,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "help",
-            "image_icon": "shopify:\/\/shop_images\/ico-best_9d16f080-afa7-4cb9-9df0-ee73a9b8c1ea.png",
+            "image_icon": "shopify://shop_images/ico-best_9d16f080-afa7-4cb9-9df0-ee73a9b8c1ea.png",
             "icon": "las la-life-ring",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -167,10 +169,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/ico-replace.png",
+            "image_icon": "shopify://shop_images/ico-replace.png",
             "icon": "las la-shipping-fast",
             "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "text": "<p>We cover postage.</p>",
             "html": ""
           }
         },
@@ -178,10 +180,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "door-lock",
-            "image_icon": "shopify:\/\/shop_images\/ico-eco.png",
+            "image_icon": "shopify://shop_images/ico-eco.png",
             "icon": "las la-lock",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
@@ -238,5 +240,9 @@
       }
     }
   },
-  "order": ["heading", "main", "shipping_rxByEm"]
+  "order": [
+    "heading",
+    "main",
+    "shipping_rxByEm"
+  ]
 }
