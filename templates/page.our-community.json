@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -14,7 +14,10 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 5 }
+          "settings": {
+            "breadcrumb_color": "#202020",
+            "brc_mgb": 5
+          }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -40,6 +43,7 @@
         "2_QpeXnY": {
           "type": "2",
           "settings": {
+            "content": "<p>Sub title page content</p>",
             "fontf": "2",
             "text_cl": "#202020",
             "text_fs": 16,
@@ -58,10 +62,13 @@
           }
         }
       },
-      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
       "settings": {
         "heading_fullwidth": false,
-        "image": "shopify:\/\/shop_images\/DSC_2488_9494e4d9-0fca-4e02-97fc-4e3769018d31.jpg",
         "use_specify_image": true,
         "parallax": false,
         "color": "#ffffff",
@@ -107,7 +114,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "And for that, you deserve a reward!",
-            "text": "<h2><\/h2><p>Thanks to you, we know that sewing healthy, ethical shoes makes sense. That’s why we came up with<strong> a way to thank you for it<\/strong>.<\/p><h2><\/h2>",
+            "text": "<h2></h2><p>Thanks to you, we know that sewing healthy, ethical shoes makes sense. That’s why we came up with<strong> a way to thank you for it</strong>.</p><h2></h2>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -123,7 +130,9 @@
           }
         }
       },
-      "block_order": ["bl_text_LLfcz8"],
+      "block_order": [
+        "bl_text_LLfcz8"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -162,7 +171,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Show off your new Ahinsa shoes on <a href=\"https:\/\/www.instagram.com\/ahinsashoes\">Instagram<\/a>. Every month we pick one photo, and you get <strong>500 Kč towards new shoes<\/strong>.<\/p><p>We’ll only ask you for one thing: that we can keep using your beautiful photo.<\/p><p><strong>Don’t forget to tag us.<\/strong> Thank you! :)<\/p><p>@ahinsashoes<\/p><p>#loveahinsa #ahinsashoes<\/p>",
+            "text": "<p>Show off your new Ahinsa shoes on&nbsp;<a href=\"https://www.instagram.com/ahinsashoes\">Instagram</a>. Every month we pick one photo, and you get&nbsp;<strong>20 € towards new shoes</strong>.</p><p>We’ll only ask you for one thing: that we can keep using your beautiful photo.</p><p><strong>Don’t forget to tag us.</strong>&nbsp;Thank you!&nbsp;:)</p><p>@ahinsashoes</p><p>#loveahinsa #ahinsashoes</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -180,7 +189,6 @@
         "bl_image_wrQVkr": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/gift-voucher.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -207,11 +215,14 @@
           }
         }
       },
-      "block_order": ["bl_text_wLtKyx", "bl_image_wrQVkr"],
+      "block_order": [
+        "bl_text_wLtKyx",
+        "bl_image_wrQVkr"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Show the world you wear ethical shoes and get 500 Kč off Ahinsa shoes",
+        "top_heading": "Show the world you wear ethical shoes and get 20 € off Ahinsa shoes",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -242,7 +253,12 @@
             "icon": "las la-gem",
             "collection_title": "Women’s shoes",
             "collection_text": "",
-            "collection_link": "shopify:\/\/collections\/damy"
+            "collection_link": "shopify://collections/damy",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
           }
         },
         "collection_item_zRxeUw": {
@@ -252,11 +268,19 @@
             "icon": "las la-gem",
             "collection_title": "Men’s shoes",
             "collection_text": "",
-            "collection_link": "shopify:\/\/collections\/panove"
+            "collection_link": "shopify://collections/panove",
+            "promotion_id": "",
+            "promotion_name": "",
+            "creative_name": "",
+            "location_id": "",
+            "type": ""
           }
         }
       },
-      "block_order": ["collection_item_mN9MbM", "collection_item_zRxeUw"],
+      "block_order": [
+        "collection_item_mN9MbM",
+        "collection_item_zRxeUw"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -344,7 +368,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>You can find the detailed contest rules and terms <a href=\"\/pages\/competition-rules\" target=\"_blank\">here<\/a>.<\/p><h2><\/h2>",
+            "text": "<p>You can find the detailed contest rules and terms <a href=\"/pages/competition-rules\" target=\"_blank\">here</a>.</p><h2></h2>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -360,7 +384,9 @@
           }
         }
       },
-      "block_order": ["bl_text_F7qfWK"],
+      "block_order": [
+        "bl_text_F7qfWK"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -397,7 +423,9 @@
           }
         }
       },
-      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -416,10 +444,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -427,10 +455,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -438,10 +466,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
             "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "text": "<p>We cover postage.</p>",
             "html": ""
           }
         },
@@ -449,10 +477,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
