@@ -613,7 +613,7 @@
         "bl_image_gMY3G6": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/DSC_3710_2.jpg",
+            "image1": "shopify://shop_images/DSC_4197.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -645,7 +645,7 @@
         "bl_image_gMY3G6"
       ],
       "settings": {
-        "section_key": "product_material",
+        "section_key": "",
         "design_heading": "1",
         "heading_align": "t4s-text-start",
         "top_heading": "",
@@ -1259,7 +1259,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
