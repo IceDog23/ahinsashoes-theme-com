@@ -103,25 +103,13 @@
             "style": "text-decoration:none"
           }
         },
-        "text_w_icon_XrVMdF": {
+        "text_w_icon_shipWW": {
           "type": "text_w_icon",
-          "disabled": true,
           "settings": {
             "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
             "width": 20,
             "height": 20,
-            "text": "<p><strong>Free</strong> size exchange (we cover postage).</p>",
-            "m_bot": 10
-          }
-        },
-        "text_w_icon_DiPBgn": {
-          "type": "text_w_icon",
-          "disabled": true,
-          "settings": {
-            "icon": "shopify://shop_images/tick_fb56db7e-e506-4e16-889b-2c8c23289157.png",
-            "width": 20,
-            "height": 20,
-            "text": "<p>Free shipping within the Czech Republic and Slovakia.</p>",
+            "text": "<p>Shipping Worldwide</p>",
             "m_bot": 10
           }
         },
@@ -172,8 +160,7 @@
         "description_R9cKb3",
         "form",
         "back_in_stock_customer_alerts_app_block_ycP8iz",
-        "text_w_icon_XrVMdF",
-        "text_w_icon_DiPBgn",
+        "text_w_icon_shipWW",
         "text_w_icon_xF33Pm",
         "text_w_icon_KtJaD8",
         "text_w_icon_GitFde",
