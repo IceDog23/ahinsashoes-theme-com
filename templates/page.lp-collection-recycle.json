@@ -14,7 +14,10 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#f2f2f2", "brc_mgb": 5 }
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -59,7 +62,11 @@
           }
         }
       },
-      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
       "disabled": true,
       "settings": {
         "heading_fullwidth": true,
@@ -132,7 +139,7 @@
         "custom_text_QAgVJ3": {
           "type": "custom_text",
           "settings": {
-            "text": "<b>Ethics and a love of nature<\/b> have been at the heart of everything we do from the start. But why not take <br>one more step?<br><br>\nMeet the <b>recycled materials<\/b> that are a joy to walk in.<br>\nDiscover the Ahinsa In Love with Life collection.",
+            "text": "<b>Ethics and a love of nature</b> have been at the heart of everything we do from the start. But why not take <br>one more step?<br><br>\nMeet the <b>recycled materials</b> that are a joy to walk in.<br>\nDiscover the Ahinsa In Love with Life collection.",
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
@@ -166,7 +173,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 400,
-        "image": "shopify:\/\/shop_images\/titulka.png",
+        "image": "shopify://shop_images/titulka.png",
         "parallax": false,
         "image_position": "0",
         "link_img1": "",
@@ -215,10 +222,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "",
-            "text": "<p>We care for the planet<\/p>",
+            "text": "<p>We care for the planet</p>",
             "html": ""
           }
         },
@@ -226,10 +233,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/2_5f8579d2-d766-466d-996c-6496b18b43ff.png",
+            "image_icon": "shopify://shop_images/2_5f8579d2-d766-466d-996c-6496b18b43ff.png",
             "icon": "las la-shipping-fast",
             "title": "",
-            "text": "<p>Handmade in the Czech Republic and Croatia<\/p>",
+            "text": "<p>Handmade in the Czech Republic and Croatia</p>",
             "html": ""
           }
         },
@@ -237,15 +244,19 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "",
-            "text": "<p>Designed by physiotherapists<\/p>",
+            "text": "<p>Designed by physiotherapists</p>",
             "html": ""
           }
         }
       },
-      "block_order": ["shipping_HDMKMa", "shipping_mmNH6x", "shipping_KfzhP7"],
+      "block_order": [
+        "shipping_HDMKMa",
+        "shipping_mmNH6x",
+        "shipping_KfzhP7"
+      ],
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
@@ -318,7 +329,9 @@
           }
         }
       },
-      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -344,7 +357,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Ahinsa Jeans<\/h3><h4>Give your beloved jeans a new soul<\/h4><p><\/p><p>Jeans are a personal matter. They've been with you on your first date and on your most beautiful trips. Give that back to them! <strong>Send us your favorite jeans and we'll sew you a perfectly comfortable pair of shoes.<br\/><\/strong><\/p><p>• We'll turn old jeans into new shoes.<\/p><p>• We'll give your jeans a new life.<\/p><p>• We sew according to proven Ahinsa shoes models.<\/p><p><a href=\"\/pages\/ahinsa-jeans\" title=\"Ahinsa Jeans\"><strong>How it works<\/strong><\/a><\/p>",
+            "text": "<h3>Ahinsa Jeans</h3><h4>Give your beloved jeans a new soul</h4><p></p><p>Jeans are a personal matter. They've been with you on your first date and on your most beautiful trips. Give that back to them! <strong>Send us your favorite jeans and we'll sew you a perfectly comfortable pair of shoes.<br/></strong></p><p>• We'll turn old jeans into new shoes.</p><p>• We'll give your jeans a new life.</p><p>• We sew according to proven Ahinsa shoes models.</p><p><a href=\"/pages/ahinsa-jeans\" title=\"Ahinsa Jeans\"><strong>How it works</strong></a></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -362,9 +375,9 @@
         "bl_image_maapLQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Untitled_500_x_560_px_af053834-1ffc-4b0f-9e1a-f8cd827fd2f4.png",
-            "image2": "shopify:\/\/shop_images\/hp-test.png",
-            "image3": "shopify:\/\/shop_images\/a-kolekce-desktop_a0ad6955-0438-4c40-923f-48bd964c4eb3.png",
+            "image1": "shopify://shop_images/Untitled_500_x_560_px_af053834-1ffc-4b0f-9e1a-f8cd827fd2f4.png",
+            "image2": "shopify://shop_images/hp-test.png",
+            "image3": "shopify://shop_images/a-kolekce-desktop_a0ad6955-0438-4c40-923f-48bd964c4eb3.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -391,7 +404,10 @@
           }
         }
       },
-      "block_order": ["bl_text_QFR6Gw", "bl_image_maapLQ"],
+      "block_order": [
+        "bl_text_QFR6Gw",
+        "bl_image_maapLQ"
+      ],
       "disabled": true,
       "settings": {
         "design_heading": "1",
@@ -423,10 +439,10 @@
         "bl_image_AfxDDc": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/malai.png",
-            "image2": "shopify:\/\/shop_images\/7_e402186a-8f67-4a12-8d9b-c39ff9989cb2.png",
-            "image3": "shopify:\/\/shop_images\/6_61bbc0c6-19b3-4c42-9c13-f791743914ae.png",
-            "image4": "shopify:\/\/shop_images\/5_cb2ec4f9-721e-437f-8586-5d109a705ccf.png",
+            "image1": "shopify://shop_images/ahinsa_malai.jpg",
+            "image2": "shopify://shop_images/7_e402186a-8f67-4a12-8d9b-c39ff9989cb2.png",
+            "image3": "shopify://shop_images/DSC_4289_28ceaca8-3125-4b14-b82f-3bdd0e414b6f.jpg",
+            "image4": "shopify://shop_images/5_cb2ec4f9-721e-437f-8586-5d109a705ccf.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -463,7 +479,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Ahinsa Malai<\/h3><h4>Beauty from coconut waste<\/h4><p><\/p><p><strong>Farmers in India<\/strong> produce mountains of coconut waste every day. A Slovak designer has found the perfect use for it: She feeds it to the bacteria that produce cellulose. From that, she then makes a <strong>gorgeous and durable material<\/strong>.<\/p><p>It's so incredible that we decided to make an exception.<br\/><\/p><p>• Degradable fabric from waste from Indian farmers.<\/p><p>• A sole made from a recycled tire.<\/p><p>• It will attract looks and compliments. :)<\/p><p><a href=\"\/products\/womens-comfort-sandals-malai-brown\" title=\"Women's Malai coconut sandals\"><strong>Ahinsa Malai models<\/strong><\/a><\/p>",
+            "text": "<h3>Ahinsa Malai</h3><h4>Beauty from coconut waste</h4><p></p><p><strong>Farmers in India</strong> produce mountains of coconut waste every day. A Slovak designer has found the perfect use for it: She feeds it to the bacteria that produce cellulose. From that, she then makes a <strong>gorgeous and durable material</strong>.</p><p>It's so incredible that we decided to make an exception.<br/></p><p>• Degradable fabric from waste from Indian farmers.</p><p>• A sole made from a recycled tire.</p><p>• It will attract looks and compliments. :)</p><p><a href=\"/products/womens-comfort-sandals-malai-brown\" title=\"Women's Malai coconut sandals\"><strong>Ahinsa Malai models</strong></a></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -479,7 +495,10 @@
           }
         }
       },
-      "block_order": ["bl_image_AfxDDc", "bl_text_QM7mQC"],
+      "block_order": [
+        "bl_image_AfxDDc",
+        "bl_text_QM7mQC"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -518,7 +537,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Ahinsa Mabel<\/h3><h4>Leather made from apples helps the planet<\/h4><p><\/p><p>There are a lot of ways to make things easier for the planet. One of them smells like apple pie.<br\/><br\/>Mabel is a material that <strong>is made of 25% apple waste<\/strong>. It looks like leather, it lasts for years, and it helps create more sustainable Ahinsa shoes.<br\/><br\/>It's nothing new. Mabel material has been produced <strong>in Tuscany since 2010<\/strong> and has proven to be useful to shoemakers and furniture manufacturers.<br\/><\/p><p>• Sustainable material<\/p><p>• 24% made from apple waste<\/p><p>• Firm and durable<\/p><p><a href=\"\/pages\/ahinsa-jeans\" title=\"Ahinsa Jeans\"><strong>How it works<\/strong><\/a><\/p>",
+            "text": "<h3>Ahinsa Mabel</h3><h4>Leather made from apples helps the planet</h4><p></p><p>There are a lot of ways to make things easier for the planet. One of them smells like apple pie.<br/><br/>Mabel is a material that <strong>is made of 25% apple waste</strong>. It looks like leather, it lasts for years, and it helps create more sustainable Ahinsa shoes.<br/><br/>It's nothing new. Mabel material has been produced <strong>in Tuscany since 2010</strong> and has proven to be useful to shoemakers and furniture manufacturers.<br/></p><p>• Sustainable material</p><p>• 24% made from apple waste</p><p>• Firm and durable</p><p><a href=\"/pages/ahinsa-jeans\" title=\"Ahinsa Jeans\"><strong>How it works</strong></a></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -536,11 +555,11 @@
         "bl_image_xiTHBH": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/2_139543c6-760c-47b3-b6ea-51269e91bd5a.png",
-            "image2": "shopify:\/\/shop_images\/4_9ec5d047-0196-48d6-9e46-6bac6cd24fab.png",
-            "image3": "shopify:\/\/shop_images\/1_77f51673-369a-4fb2-abf8-921870e2fdbf.png",
-            "image4": "shopify:\/\/shop_images\/5_c08479de-f333-44d4-bd67-53ed60a8d491.png",
-            "image5": "shopify:\/\/shop_images\/3_fc5afb24-2d56-47d1-9db2-2405bd498778.png",
+            "image1": "shopify://shop_images/2_139543c6-760c-47b3-b6ea-51269e91bd5a.png",
+            "image2": "shopify://shop_images/4_9ec5d047-0196-48d6-9e46-6bac6cd24fab.png",
+            "image3": "shopify://shop_images/1_77f51673-369a-4fb2-abf8-921870e2fdbf.png",
+            "image4": "shopify://shop_images/5_c08479de-f333-44d4-bd67-53ed60a8d491.png",
+            "image5": "shopify://shop_images/3_fc5afb24-2d56-47d1-9db2-2405bd498778.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -567,7 +586,10 @@
           }
         }
       },
-      "block_order": ["bl_text_pbiyyh", "bl_image_xiTHBH"],
+      "block_order": [
+        "bl_text_pbiyyh",
+        "bl_image_xiTHBH"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -598,10 +620,10 @@
         "bl_image_aVwdcL": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/ahinsa_phira.jpg",
-            "image2": "shopify:\/\/shop_images\/13_f63b2b01-978e-4d1e-b4a2-19fa420df260.png",
-            "image3": "shopify:\/\/shop_images\/15_87ad4333-bdd8-4379-b652-f5163a08ec79.png",
-            "image4": "shopify:\/\/shop_images\/14_7fec8b53-4794-4fa5-8631-58aa677aca8f.png",
+            "image1": "shopify://shop_images/ahinsa_phira.jpg",
+            "image2": "shopify://shop_images/13_f63b2b01-978e-4d1e-b4a2-19fa420df260.png",
+            "image3": "shopify://shop_images/15_87ad4333-bdd8-4379-b652-f5163a08ec79.png",
+            "image4": "shopify://shop_images/14_7fec8b53-4794-4fa5-8631-58aa677aca8f.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -638,7 +660,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Ahinsa Phira<\/h3><h4>A second chance for textiles<\/h4><p><\/p><p>What happens to clothes nobody wears anymore? We use it to make stylish shoes! Our Ahinsa Phira shoes are made from<strong> recycled-textile fabric<\/strong>, so it's eco-friendly down to the very last thread. <\/p><p>Let's help the planet together!<\/p><p>• Fabric from recycled textiles.<\/p><p>• Cut according to designs by physiotherapists.<\/p><p><a href=\"\/products\/womens-recycled-barefoot-slip-on-sneakers\" title=\"Women's recycled barefoot slip-on sneakers\"><strong>Ahinsa Phira models<\/strong><\/a><\/p>",
+            "text": "<h3>Ahinsa Phira</h3><h4>A second chance for textiles</h4><p></p><p>What happens to clothes nobody wears anymore? We use it to make stylish shoes! Our Ahinsa Phira shoes are made from<strong> recycled-textile fabric</strong>, so it's eco-friendly down to the very last thread. </p><p>Let's help the planet together!</p><p>• Fabric from recycled textiles.</p><p>• Cut according to designs by physiotherapists.</p><p><a href=\"/products/womens-recycled-barefoot-slip-on-sneakers\" title=\"Women's recycled barefoot slip-on sneakers\"><strong>Ahinsa Phira models</strong></a></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#202020",
@@ -654,7 +676,10 @@
           }
         }
       },
-      "block_order": ["bl_image_aVwdcL", "bl_text_MJaMPU"],
+      "block_order": [
+        "bl_image_aVwdcL",
+        "bl_text_MJaMPU"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -686,10 +711,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -697,10 +722,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -708,10 +733,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
             "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "text": "<p>We cover postage.</p>",
             "html": ""
           }
         },
@@ -719,10 +744,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
