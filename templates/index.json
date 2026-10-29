@@ -1144,7 +1144,7 @@
         "cl_bg_gradient": "",
         "image_bg": "shopify://shop_images/DSC01909_1_3d948a01-ec80-4cd3-8640-3e077de51469.jpg",
         "parallax": false,
-        "mg": "",
+        "mg": "50px",
         "pd": "100px,,100px,",
         "mg_tb": "",
         "pd_tb": "",
