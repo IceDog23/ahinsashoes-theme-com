@@ -152,6 +152,14 @@
             "text": "<p>Wicks moisture away from your feet.</p>",
             "m_bot": 10
           }
+        },
+        "kiwi_size_chart_kiwi_sizing_AtcYyf": {
+          "type": "shopify://apps/kiwi-size-chart/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "fallbackToBlockPosition": false,
+            "waitForElementSelector": "",
+            "waitForElementDelay": 5
+          }
         }
       },
       "block_order": [
@@ -164,7 +172,8 @@
         "text_w_icon_xF33Pm",
         "text_w_icon_KtJaD8",
         "text_w_icon_GitFde",
-        "text_w_icon_gjJYcM"
+        "text_w_icon_gjJYcM",
+        "kiwi_size_chart_kiwi_sizing_AtcYyf"
       ],
       "settings": {
         "pr_layout": "wide",
@@ -1268,7 +1277,6 @@
     },
     "17190050663df79af6": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -1284,6 +1292,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_KJH6KD"
       ],
+      "disabled": true,
       "settings": {}
     },
     "testimonials_RcfzUR": {

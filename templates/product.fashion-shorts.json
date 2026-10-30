@@ -128,6 +128,14 @@
             "text": "<p>A material with strict <strong>eco certification.</strong></p>",
             "m_bot": 10
           }
+        },
+        "kiwi_size_chart_kiwi_sizing_GMrgWB": {
+          "type": "shopify://apps/kiwi-size-chart/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "fallbackToBlockPosition": false,
+            "waitForElementSelector": "",
+            "waitForElementDelay": 5
+          }
         }
       },
       "block_order": [
@@ -138,7 +146,8 @@
         "text_w_icon_shipWW",
         "text_w_icon_xF33Pm",
         "text_w_icon_KtJaD8",
-        "text_w_icon_GitFde"
+        "text_w_icon_GitFde",
+        "kiwi_size_chart_kiwi_sizing_GMrgWB"
       ],
       "settings": {
         "pr_layout": "wide",
@@ -1150,7 +1159,6 @@
     },
     "17190050663df79af6": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "judge_me_reviews_review_widget_KJH6KD": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -1166,6 +1174,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_KJH6KD"
       ],
+      "disabled": true,
       "settings": {}
     },
     "testimonials_RgkFR6": {
@@ -1252,7 +1261,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        ".t4s-product-sizes { color: black; }"
+        ".t4s-product-sizes {color: black;}"
       ],
       "settings": {
         "show": true,
