@@ -118,6 +118,14 @@
             "text": "<p><strong>Ethically</strong> made in the Czech Republic and Croatia.</p>",
             "m_bot": 10
           }
+        },
+        "kiwi_size_chart_kiwi_sizing_WfppCb": {
+          "type": "shopify://apps/kiwi-size-chart/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "fallbackToBlockPosition": false,
+            "waitForElementSelector": "",
+            "waitForElementDelay": 2
+          }
         }
       },
       "block_order": [
@@ -127,7 +135,8 @@
         "form",
         "text_w_icon_xF33Pm",
         "text_w_icon_KtJaD8",
-        "text_w_icon_GitFde"
+        "text_w_icon_GitFde",
+        "kiwi_size_chart_kiwi_sizing_WfppCb"
       ],
       "settings": {
         "pr_layout": "wide",
