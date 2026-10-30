@@ -326,7 +326,7 @@
         "bl_image_maapLQ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/CZ_verze_Comfort_3.0-2.png",
+            "image1": "shopify://shop_images/rozobrana_topanka_en.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -1257,7 +1257,7 @@
             "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
+            "text": "<p>They respect your feet – that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -1278,8 +1278,8 @@
             "icon_themes": "car",
             "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.</p>",
+            "title": "WORLDWIDE SHIPPING",
+            "text": "<p>Fast delivery.<br/>Quick & easy exchanges.</p>",
             "html": ""
           }
         },
