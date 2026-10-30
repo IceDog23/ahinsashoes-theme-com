@@ -43,7 +43,7 @@
         "2_CDYPxA": {
           "type": "2",
           "settings": {
-            "content": "<h3>Done — the e-book is on its way!</h3><p>Thank you for signing up, that’s all from us. We’re <strong>sending the e-book </strong>to your email and we wish you joy in every little step.</p>",
+            "content": "<h3>Done – the e-book is on its way!</h3><p>Thank you for signing up, that’s all from us. We’re <strong>sending the e-book </strong>to your email and we wish you joy in every little step.</p>",
             "fontf": "inherit",
             "text_cl": "#202020",
             "text_fs": 16,
@@ -280,7 +280,7 @@
             "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
+            "text": "<p>They respect your feet – that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -301,8 +301,8 @@
             "icon_themes": "car",
             "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.</p>",
+            "title": "WORLDWIDE SHIPPING",
+            "text": "<p>Fast delivery.<br/>Quick & easy exchanges.</p>",
             "html": ""
           }
         },
