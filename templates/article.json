@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -34,7 +34,10 @@
         },
         "75a761bc-a254-452a-a9c3-944465384562": {
           "type": "2",
-          "settings": { "fontf": "3", "font_italic": false }
+          "settings": {
+            "fontf": "3",
+            "font_italic": false
+          }
         }
       },
       "block_order": [
@@ -72,7 +75,10 @@
         },
         "33e93b80-0f24-44e5-adfa-9e2b066b1473": {
           "type": "tags",
-          "settings": { "title": "Blog tags", "count": true }
+          "settings": {
+            "title": "Blog tags",
+            "count": true
+          }
         },
         "37d3ea69-b6a8-4406-8abd-ae719de8696b": {
           "type": "collection",
@@ -212,7 +218,7 @@
         "html_GPJWFp": {
           "type": "html",
           "settings": {
-            "html_content": "<script>\n        (function (w,d,s,o,f,js,fjs) {\n            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };\n            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];\n            js.id = '20-85f7dba955e715936a175d446bc6f115'; js.dataset.a = 'ahinsashoescom'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n        }(window, document, 'script', 'ecmwidget', 'https:\/\/d70shl7vidtft.cloudfront.net\/widget.js'));\n    <\/script>\n            <div id=\"f-20-85f7dba955e715936a175d446bc6f115\"><\/div>",
+            "html_content": "<script>\n        (function (w,d,s,o,f,js,fjs) {\n            w['ecm-widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };\n            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];\n            js.id = '20-85f7dba955e715936a175d446bc6f115'; js.dataset.a = 'ahinsashoescom'; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);\n        }(window, document, 'script', 'ecmwidget', 'https://d70shl7vidtft.cloudfront.net/widget.js'));\n    </script>\n            <div id=\"f-20-85f7dba955e715936a175d446bc6f115\"></div>",
             "hidden_mobile": false
           }
         }
@@ -326,10 +332,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "none",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet – that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -337,10 +343,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "none",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -348,10 +354,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "none",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "title": "WORLDWIDE SHIPPING",
+            "text": "<p>Fast delivery.<br/>Quick & easy exchanges.</p>",
             "html": ""
           }
         },
@@ -359,10 +365,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "none",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
