@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -5,7 +14,10 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 5 }
+          "settings": {
+            "breadcrumb_color": "#202020",
+            "brc_mgb": 5
+          }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -50,7 +62,11 @@
           }
         }
       },
-      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
       "settings": {
         "heading_fullwidth": false,
         "image": "{{ page.metafields.social_sharing.image.value }}",
@@ -88,9 +104,9 @@
       "type": "apps",
       "blocks": {
         "forms_inline_x9CWUF": {
-          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "form_id": "1037684",
+            "form_id": "1039765",
             "text_color": "#202020",
             "button_background_color": "#202020",
             "button_label_color": "#ffffff",
@@ -105,7 +121,9 @@
           }
         }
       },
-      "block_order": ["forms_inline_x9CWUF"],
+      "block_order": [
+        "forms_inline_x9CWUF"
+      ],
       "settings": {}
     },
     "sidebar-page": {
@@ -120,7 +138,9 @@
           }
         }
       },
-      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -139,10 +159,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet — that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -150,10 +170,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -161,10 +181,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "title": "WORLDWIDE SHIPPING",
+            "text": "<p>Fast delivery.<br/>Quick & easy exchanges.</p>",
             "html": ""
           }
         },
@@ -172,10 +192,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
