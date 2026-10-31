@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -5,7 +14,10 @@
       "blocks": {
         "3_KyNY6F": {
           "type": "3",
-          "settings": { "breadcrumb_color": "#202020", "brc_mgb": 5 }
+          "settings": {
+            "breadcrumb_color": "#202020",
+            "brc_mgb": 5
+          }
         },
         "1_kiPXGQ": {
           "type": "1",
@@ -50,11 +62,15 @@
           }
         }
       },
-      "block_order": ["3_KyNY6F", "1_kiPXGQ", "2_QpeXnY"],
+      "block_order": [
+        "3_KyNY6F",
+        "1_kiPXGQ",
+        "2_QpeXnY"
+      ],
       "disabled": true,
       "settings": {
         "heading_fullwidth": true,
-        "image": "shopify:\/\/shop_images\/lukas-klimpera-2024-1.jpg",
+        "image": "shopify://shop_images/lukas-klimpera-2024-1.jpg",
         "use_specify_image": true,
         "parallax": false,
         "color": "#ffffff",
@@ -121,7 +137,10 @@
           }
         }
       },
-      "block_order": ["custom_text_NgarRD", "custom_text_NtKRVM"],
+      "block_order": [
+        "custom_text_NgarRD",
+        "custom_text_NtKRVM"
+      ],
       "settings": {
         "se_height": "t4s_ratio_cuspx",
         "custom_dk": true,
@@ -130,7 +149,7 @@
         "height_tb": 400,
         "custom_mb": true,
         "height_mb": 400,
-        "image": "shopify:\/\/shop_images\/lukas-klimpera-prodejna.png",
+        "image": "shopify://shop_images/lukas-klimpera-prodejna.png",
         "parallax": false,
         "image_position": "9",
         "link_img1": "",
@@ -174,9 +193,10 @@
     },
     "custom_liquid_KrN8nx": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
-        "custom_liquid": "<div id='BlackBox' class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte\" style=\"text-align: left\">\n    <div style=\"background-color: none; text-align: center; width: 100%; color: black; padding: 10px 10px; margin-top: 20px;\">\n      <h3 style=\"margin-bottom: 15px; color: black\">Lukáš Klimpera’s new physiotherapy clinic in Prague and Brno \n<\/h3>\n    <a href=\"https:\/\/lukasklimpera.cz\/\" target=\"_blank\"><h3 style='color: green; text-decoration: underline;'>Book an appointment &gt;&gt;<\/h3><\/a>\n\n<p>\nAt the clinic, you can look forward to classic physiotherapy as well as a comprehensive footscan examination and 3D printing of individual activation insoles.\n<\/p>\n  \n            <div id=\"f-23-b8218829472e44c561b6577632796e64\"><\/div>\n\n    <\/div>\n  <\/div>",
+        "custom_liquid": "<div id='BlackBox' class=\"t4s-image-text-des t4-fs-md-15 t4s-fs-15 t4s-rte\" style=\"text-align: left\">\n    <div style=\"background-color: none; text-align: center; width: 100%; color: black; padding: 10px 10px; margin-top: 20px;\">\n      <h3 style=\"margin-bottom: 15px; color: black\">Lukáš Klimpera’s new physiotherapy clinic in Prague and Brno \n</h3>\n    <a href=\"https://lukasklimpera.cz/\" target=\"_blank\"><h3 style='color: green; text-decoration: underline;'>Book an appointment &gt;&gt;</h3></a>\n\n<p>\nAt the clinic, you can look forward to classic physiotherapy as well as a comprehensive footscan examination and 3D printing of individual activation insoles.\n</p>\n  \n            <div id=\"f-23-b8218829472e44c561b6577632796e64\"></div>\n\n    </div>\n  </div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -194,7 +214,7 @@
         "bl_image_3qLiKw": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/lukas-klimpera-2024-2.jpg",
+            "image1": "shopify://shop_images/lukas-klimpera-2024-2.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -231,7 +251,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Lukáš Klimpera has come a long way on his journey towards a healthy stride. He started his career as a programmer, but after years of intense work he burned out. That’s why he decided to devote himself to a field that has always enticed him.<\/p><p>Lukáš’s greatest inspiration was the teaching of his yoga Master, <a href=\"https:\/\/www.vishwaguruji.org\/\" target=\"_blank\">Vishwaguru Paramhans Svámí Mahéšvaránanda<\/a>, at whose prompting he studied <strong>physiotherapy at Charles University<\/strong>, where he met <a href=\"https:\/\/fyzioterapie.utvs.cvut.cz\/document\/show\/id\/249\/\" target=\"_blank\">Clara Lewitová<\/a>. This prominent Czech physiotherapist inspired Lukáš with her vision of <strong>healthy and natural shoes<\/strong>.<\/p><p>After graduation, Lukáš worked at the LOGO clinic in Brno under the supervision of <strong>head physician Kateřina Moráňová<\/strong>. And it was here that he verified Clara Lewitová’s ideas in practice. His clients didn’t just need to exercise. After exercise they needed to put on <strong>shoes that don’t constrict them<\/strong>. And because there was still no brand of healthy and ethical shoes on the Czech market, he decided to create his own. <\/p><p>That’s how Ahinsa shoes were created. Handmade vegan shoes that <strong>respect the shape of your foot<\/strong>. During the first years they gained customers in the Czech Republic and abroad; today people throughout the world are wearing them. Ahinsa shoes are and will remain <strong>comfortable and ethical shoes<\/strong> that will walk millions of steps with you.<\/p><p>For more behind-the-scenes, you can follow Lukáš on his <a href=\"https:\/\/www.instagram.com\/lukasklimpera\/\" target=\"_blank\" title=\"Lukáš Klimpera’s Instagram profile\">Instagram<\/a>.<\/p>",
+            "text": "<p>Lukáš Klimpera has come a long way on his journey towards a healthy stride. He started his career as a programmer, but after years of intense work he burned out. That’s why he decided to devote himself to a field that has always enticed him.</p><p>Lukáš’s greatest inspiration was the teaching of his yoga Master, <a href=\"https://www.vishwaguruji.org/\" target=\"_blank\">Vishwaguru Paramhans Svámí Mahéšvaránanda</a>, at whose prompting he studied <strong>physiotherapy at Charles University</strong>, where he met <a href=\"https://fyzioterapie.utvs.cvut.cz/document/show/id/249/\" target=\"_blank\">Clara Lewitová</a>. This prominent Czech physiotherapist inspired Lukáš with her vision of <strong>healthy and natural shoes</strong>.</p><p>After graduation, Lukáš worked at the LOGO clinic in Brno under the supervision of <strong>head physician Kateřina Moráňová</strong>. And it was here that he verified Clara Lewitová’s ideas in practice. His clients didn’t just need to exercise. After exercise they needed to put on <strong>shoes that don’t constrict them</strong>. And because there was still no brand of healthy and ethical shoes on the Czech market, he decided to create his own. </p><p>That’s how Ahinsa shoes were created. Handmade vegan shoes that <strong>respect the shape of your foot</strong>. During the first years they gained customers in the Czech Republic and abroad; today people throughout the world are wearing them. Ahinsa shoes are and will remain <strong>comfortable and ethical shoes</strong> that will walk millions of steps with you.</p><p>For more behind-the-scenes, you can follow Lukáš on his <a href=\"https://www.instagram.com/lukasklimpera/\" target=\"_blank\" title=\"Lukáš Klimpera’s Instagram profile\">Instagram</a>.</p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -247,7 +267,10 @@
           }
         }
       },
-      "block_order": ["bl_image_3qLiKw", "bl_text_8fHPNm"],
+      "block_order": [
+        "bl_image_3qLiKw",
+        "bl_text_8fHPNm"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -280,7 +303,7 @@
           "settings": {
             "enable_image": false,
             "title": "",
-            "text": "<p>A painful bunion and a fruitless visit to another physiotherapist brought me to Lukáš Klimpera’s practice. The advice Lukáš gave me brought almost immediate relief and showed me the way to solve the problem. It isn’t easy, but it is possible, and every day it’s a little better.<\/p><h5><em>Jana<\/em><\/h5>",
+            "text": "<p>A painful bunion and a fruitless visit to another physiotherapist brought me to Lukáš Klimpera’s practice. The advice Lukáš gave me brought almost immediate relief and showed me the way to solve the problem. It isn’t easy, but it is possible, and every day it’s a little better.</p><h5><em>Jana</em></h5>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -296,7 +319,7 @@
           "settings": {
             "enable_image": false,
             "title": "",
-            "text": "<p>I saw Mr Klimpera with my long-standing foot problems. Unlike other podiatrists, he uses a modern device for measuring the feet — not only while standing, but also while walking. He looked at my problem differently from the others and made a real effort to get rid of my difficulties. Now I exercise at home and I’m looking forward to the next visit.<\/p><h5><em>Karolína<\/em><\/h5>",
+            "text": "<p>I saw Mr Klimpera with my long-standing foot problems. Unlike other podiatrists, he uses a modern device for measuring the feet — not only while standing, but also while walking. He looked at my problem differently from the others and made a real effort to get rid of my difficulties. Now I exercise at home and I’m looking forward to the next visit.</p><h5><em>Karolína</em></h5>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -312,7 +335,7 @@
           "settings": {
             "enable_image": false,
             "title": "",
-            "text": "<p>A visit to Lukáš’s practice was, for me, above all an education about my body, about finding the cause of my physical suffering, about allowing the body to develop its current movement possibilities so that it gradually reaches optimal function and, with that, a fluent return to health. All this with the empathetic approach of a physiotherapist who rejoices with you in every improvement and keeps creatively inventing new possibilities. Thank you so much!<\/p><h5><em>Radana<\/em><\/h5>",
+            "text": "<p>A visit to Lukáš’s practice was, for me, above all an education about my body, about finding the cause of my physical suffering, about allowing the body to develop its current movement possibilities so that it gradually reaches optimal function and, with that, a fluent return to health. All this with the empathetic approach of a physiotherapist who rejoices with you in every improvement and keeps creatively inventing new possibilities. Thank you so much!</p><h5><em>Radana</em></h5>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -328,7 +351,7 @@
           "settings": {
             "enable_image": false,
             "title": "",
-            "text": "<p>My son (11) and I went to physiotherapy with Mr Klimpera because of flat feet and we were very happy. He examined my son thoroughly, explained everything beautifully, showed us and advised what needed to change and how to exercise at home. We’re trying to exercise diligently and in a few weeks we’re going for a check-up to see if we’re doing it right. I can warmly recommend Lukáš Klimpera.<\/p><h5><em>Kateřina<\/em><\/h5>",
+            "text": "<p>My son (11) and I went to physiotherapy with Mr Klimpera because of flat feet and we were very happy. He examined my son thoroughly, explained everything beautifully, showed us and advised what needed to change and how to exercise at home. We’re trying to exercise diligently and in a few weeks we’re going for a check-up to see if we’re doing it right. I can warmly recommend Lukáš Klimpera.</p><h5><em>Kateřina</em></h5>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -344,7 +367,7 @@
           "settings": {
             "enable_image": false,
             "title": "",
-            "text": "<p>I greatly appreciate the professional yet individual approach. Communication was smooth and clear the whole time. I see a real added value in the effort to take a truly comprehensive view of the problem and the sincere aim to solve it and help in the long term, not just to ease it for a moment. I’m happy to recommend him.<\/p><h5><em>Pavel<\/em><\/h5>",
+            "text": "<p>I greatly appreciate the professional yet individual approach. Communication was smooth and clear the whole time. I see a real added value in the effort to take a truly comprehensive view of the problem and the sincere aim to solve it and help in the long term, not just to ease it for a moment. I’m happy to recommend him.</p><h5><em>Pavel</em></h5>",
             "button_label": "",
             "button_link": "",
             "open_link": "_blank",
@@ -424,16 +447,21 @@
       "blocks": {
         "article_rD9kTU": {
           "type": "article",
-          "settings": { "article": "news\/rozhovor-o-barefoot-lukas-klimpera" }
+          "settings": {
+            "article": "news/rozhovor-o-barefoot-lukas-klimpera"
+          }
         },
         "article_T4TjPT": {
           "type": "article",
           "settings": {
-            "article": "news\/rozhovor-zacatky-vyroby-barefoot-lukas-klimpera"
+            "article": "news/rozhovor-zacatky-vyroby-barefoot-lukas-klimpera"
           }
         }
       },
-      "block_order": ["article_rD9kTU", "article_T4TjPT"],
+      "block_order": [
+        "article_rD9kTU",
+        "article_T4TjPT"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -501,11 +529,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/forbes_063611d7-29ee-48c4-91da-df18f29f2fc8.png",
+            "image": "shopify://shop_images/forbes_063611d7-29ee-48c4-91da-df18f29f2fc8.png",
             "title": "From the keyboard to vegan shoes. Lukáš Klimpera’s barefoot journey",
             "text": "",
             "button_label": "Read",
-            "button_link": "https:\/\/forbes.cz\/od-klavesnice-k-veganskym-botam-barefoot-cesta-lukase-klimpery\/",
+            "button_link": "https://forbes.cz/od-klavesnice-k-veganskym-botam-barefoot-cesta-lukase-klimpery/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -518,11 +546,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/czechcrunch_52403237-b571-4134-a444-184a164d6895.png",
+            "image": "shopify://shop_images/czechcrunch_52403237-b571-4134-a444-184a164d6895.png",
             "title": "The Czech brand of barefoot shoes Ahinsa is growing. It’s opening a brick-and-mortar store and plans to 3D-print footwear",
             "text": "",
             "button_label": "Read",
-            "button_link": "https:\/\/cc.cz\/ceska-znacka-bosych-bot-ahinsa-roste-otevira-kamenny-obchod-a-planuje-tisknout-obuv-na-3d-tiskarne\/",
+            "button_link": "https://cc.cz/ceska-znacka-bosych-bot-ahinsa-roste-otevira-kamenny-obchod-a-planuje-tisknout-obuv-na-3d-tiskarne/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -535,11 +563,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/czechcrunch_52403237-b571-4134-a444-184a164d6895.png",
+            "image": "shopify://shop_images/czechcrunch_52403237-b571-4134-a444-184a164d6895.png",
             "title": "From IT specialist to physiotherapist and finally shoemaker. Most people walk incorrectly, says Ahinsa shoes founder Lukáš Klimpera",
             "text": "",
             "button_label": "Read",
-            "button_link": "https:\/\/cc.cz\/z-ajtaka-fyzioterapeutem-a-nakonec-obuvnikem-vetsina-lidi-chodi-spatne-rika-zakladatel-bot-ahinsa-lukas-klimpera\/",
+            "button_link": "https://cc.cz/z-ajtaka-fyzioterapeutem-a-nakonec-obuvnikem-vetsina-lidi-chodi-spatne-rika-zakladatel-bot-ahinsa-lukas-klimpera/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -552,11 +580,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/seznamzpravy.png",
+            "image": "shopify://shop_images/seznamzpravy.png",
             "title": "It sounds crazy, but I look forward to a crisis. It has always moved us forward, says the shoe manufacturer",
             "text": "",
             "button_label": "Read",
-            "button_link": "https:\/\/www.seznamzpravy.cz\/clanek\/ekonomika-byznys-rozhovory-zni-to-silene-ale-na-krizi-se-tesim-vzdy-nas-posunula-rika-vyrobce-bot-213567",
+            "button_link": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-rozhovory-zni-to-silene-ale-na-krizi-se-tesim-vzdy-nas-posunula-rika-vyrobce-bot-213567",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -569,11 +597,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/euro.png",
+            "image": "shopify://shop_images/euro.png",
             "title": "\"I glued the first pair together on my knees.\" A Moravian company founded by a Prague physiotherapist is putting American women in barefoot shoes",
             "text": "",
             "button_label": "Read",
-            "button_link": "https:\/\/www.euro.cz\/clanky\/prvni-boty-jsem-slepil-na-kolene-fyzioterapeut-z-moravy-obouva-americanky-do-barefoot-bot\/",
+            "button_link": "https://www.euro.cz/clanky/prvni-boty-jsem-slepil-na-kolene-fyzioterapeut-z-moravy-obouva-americanky-do-barefoot-bot/",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -586,11 +614,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/CRo-Dvojka-H-BLACK.png",
+            "image": "shopify://shop_images/CRo-Dvojka-H-BLACK.png",
             "title": "Healthy habits for long sitting or standing",
             "text": "",
             "button_label": "Poslechnout",
-            "button_link": "https:\/\/www.youtube.com\/watch?v=GRb033XkM6Y",
+            "button_link": "https://www.youtube.com/watch?v=GRb033XkM6Y",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
@@ -603,7 +631,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/playboy_logo.png",
+            "image": "shopify://shop_images/playboy_logo.png",
             "title": "[PROFILE] Lukáš Klimpera, Ahinsa shoes",
             "text": "",
             "button_label": "",
@@ -620,7 +648,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/images.png",
+            "image": "shopify://shop_images/images.png",
             "title": "[INTERVIEW] How do foot defects ruin not only knees and hips?",
             "text": "",
             "button_label": "",
@@ -720,17 +748,20 @@
         "article_emkM3H": {
           "type": "article",
           "settings": {
-            "article": "news\/barefoot-a-vykon-vydejte-ze-sebe-maximum"
+            "article": "news/barefoot-a-vykon-vydejte-ze-sebe-maximum"
           }
         },
         "article_7nBc6P": {
           "type": "article",
           "settings": {
-            "article": "news\/barefoot-a-imunita-zujete-se-pro-zdravi"
+            "article": "news/barefoot-a-imunita-zujete-se-pro-zdravi"
           }
         }
       },
-      "block_order": ["article_emkM3H", "article_7nBc6P"],
+      "block_order": [
+        "article_emkM3H",
+        "article_7nBc6P"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -805,7 +836,7 @@
             "txt_align": "center",
             "sub_heading": "",
             "heading": "",
-            "text": "<p><a href=\"http:\/\/www.digitalniknihovna.cz\/mzk\/uuid\/uuid:1daa3270-12ea-11e7-8bbb-005056827e52\" target=\"_blank\">On ergonomics in an academic setting<\/a><\/p><p>Ergonomic wall cards<\/p><p>Ergonomic pocket cards<\/p><p><a href=\"https:\/\/www.umeni-fyzioterapie.cz\/konference-umeni-fyzioterapie\/\" target=\"_blank\">The Art of Physiotherapy conference<\/a><\/p><p>InTeg Brno conference: Foot this way, foot that way – the biomechanical and dynamic circumstances of walking<\/p>",
+            "text": "<p><a href=\"http://www.digitalniknihovna.cz/mzk/uuid/uuid:1daa3270-12ea-11e7-8bbb-005056827e52\" target=\"_blank\">On ergonomics in an academic setting</a></p><p>Ergonomic wall cards</p><p>Ergonomic pocket cards</p><p><a href=\"https://www.umeni-fyzioterapie.cz/konference-umeni-fyzioterapie/\" target=\"_blank\">The Art of Physiotherapy conference</a></p><p>InTeg Brno conference: Foot this way, foot that way – the biomechanical and dynamic circumstances of walking</p>",
             "subhd_color": "#202020",
             "hd_color": "#202020",
             "des_color": "#202020",
@@ -821,7 +852,9 @@
           }
         }
       },
-      "block_order": ["bl_text_N4HCML"],
+      "block_order": [
+        "bl_text_N4HCML"
+      ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -858,7 +891,9 @@
           }
         }
       },
-      "block_order": ["f69681ed-b75e-42de-be58-fdf73b3b7e08"],
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
       "disabled": true,
       "settings": {
         "enable_drawer": false,
@@ -877,10 +912,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-shipping-fast",
             "title": "DESIGNED BY PHYSIOTHERAPISTS",
-            "text": "<p>They respect your feet — that’s why they’re so comfortable.<\/p>",
+            "text": "<p>They respect your feet – that’s why they’re so comfortable.</p>",
             "html": ""
           }
         },
@@ -888,10 +923,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
+            "image_icon": "shopify://shop_images/6_33d45f3d-57a6-4f66-a17c-8ab08c47ca27.png",
             "icon": "las la-shipping-fast",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -899,10 +934,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
+            "image_icon": "shopify://shop_images/1_7ad7fc97-debb-4316-ac44-5ab7431a633a.png",
             "icon": "las la-shipping-fast",
-            "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "title": "WORLDWIDE SHIPPING",
+            "text": "<p>Fast delivery.<br/>Quick & easy exchanges.</p>",
             "html": ""
           }
         },
@@ -910,10 +945,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "car",
-            "image_icon": "shopify:\/\/shop_images\/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
+            "image_icon": "shopify://shop_images/7_4b461bae-6aba-48d1-962a-a31e6543c526.png",
             "icon": "las la-shipping-fast",
             "title": "HANDMADE AND ETHICAL",
-            "text": "<p>Friendly to nature, animals, and people.<\/p>",
+            "text": "<p>Friendly to nature, animals, and people.</p>",
             "html": ""
           }
         }
