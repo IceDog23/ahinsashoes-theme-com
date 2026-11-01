@@ -509,7 +509,135 @@
       "compare": "Porównaj",
       "added_text_compare": "Porównaj produkty",
       "product_vendor": "Sprzedawca:",
-      "product_type": "Typ:"
+      "product_type": "Typ:",
+      "product_sku": "SKU:",
+      "product_barcode": "Kod kreskowy:",
+      "na": "nd.",
+      "available": "Dostępność:",
+      "in_stock_status": "Dostępny",
+      "pre_oder_status": "Przedsprzedaż",
+      "sold_out_status": "Brak w magazynie",
+      "in_store_html": "dostępny w sklepie.",
+      "last_items_status": "Tylko kilka sztuk w magazynie",
+      "product_category": "Kategorie:",
+      "product_tag": "Tagi:",
+      "product_size_guide": "Tabela rozmiarów",
+      "delivery_return": "Dostawa i zwroty",
+      "ask_question": "Zadaj pytanie",
+      "available_date": "Dostępne w",
+      "alt": "Zdjęcie produktu – butów barefoot marki Ahinsa",
+      "pre_order_alt": "Zapas produktu",
+      "delay_payment_alt": "Twisto",
+      "pay_after_trying": "Zapłać po przymierzeniu",
+      "notify_me": "Powiadom mnie"
+    },
+    "product_card": {
+      "read_more": "Czytaj więcej",
+      "view": "Zobacz produkty",
+      "quick_view": "Szybki podgląd",
+      "quick_shop": "Szybki Sklep",
+      "quick_shop_text": {
+        "replace_item_atc": "Wymień artykuł",
+        "replace_item_pre": "Wymień artykuł"
+      },
+      "select_option": "Wybierz opcje",
+      "swatch_limit": "Pokaż więcej kolorów",
+      "swatch_limit_less": "Pokaż mniej kolorów",
+      "offer_end_in": "Oferta kończy się za:",
+      "countdown_text": {
+        "day": "Dzień",
+        "day_plural": "Dni",
+        "hr": "godzina",
+        "hr_plural": "godziny",
+        "min": "min.",
+        "min_plural": "min.",
+        "sec": "sek",
+        "sec_plural": "sek."
+      },
+      "labels": {
+        "lbl_new": "Nowy",
+        "lbl_sell_out": "Wyprzedać",
+        "lbl_sale": "Wyprzedaż",
+        "lbl_preorder": "Przedsprzedaż",
+        "lbl_comming_soon": "Wkrótce",
+        "lbl_limited": "Edycja limitowana",
+        "lbl_custom_1": "Edytowalne 1",
+        "lbl_custom_2": "Edytowalne 2"
+      }
+    },
+    "product_single": {
+      "countdown_text": {
+        "day": "Dzień",
+        "day_plural": "Dni",
+        "hr": "godzina",
+        "hr_plural": "godziny",
+        "min": "min.",
+        "min_plural": "min.",
+        "sec": "sek",
+        "sec_plural": "sek."
+      },
+      "order_dayNames": "Niedziela,Poniedziałek,Wtorek,Środa,Czwartek,Piątek,Sobota",
+      "order_monthNames": "Styczeń,Luty,Marzec,Kwiecień,Maj,Czerwiec,Lipiec,Sierpień,Wrzesień,Październik,Listopad,Grudzień",
+      "view_in_space": "Wyświetl w swojej przestrzeni",
+      "view_in_space_label": "Zobacz w swojej przestrzeni, ładuje element w oknie rozszerzonej rzeczywistości",
+      "view_360": "Widok produktu 360°",
+      "click_zoom": "Kliknij, aby powiększyć",
+      "will_not_ship_until_html": "Nie zostanie wysłane przed <span data-incoming-date>{{ date }}</span>",
+      "will_be_in_stock_after_html": "Będzie w magazynie po <span data-incoming-date>{{ date }}</span>"
+    },
+    "fbt": {
+      "title": "Często kupowane razem",
+      "tt_price": "Cena całkowita:",
+      "add_tc": "Dodaj wybrane do koszyka",
+      "this_item": "Ten przedmiot:"
+    },
+    "grouped": {
+      "tt_price": "Suma częściowa:"
+    },
+    "notify_stock": {
+      "trigger": "Powiadom, gdy dostępne",
+      "title": "Zarejestruj się, aby otrzymać powiadomienie, gdy ten przedmiot ponownie będzie dostępny.",
+      "email": "Adres e-mail",
+      "please": "Proszę powiadomić mnie, gdy ten produkt będzie dostępny",
+      "success": "Dziękujemy! Powiadomimy Cię, gdy produkt będzie dostępny!",
+      "button": "Wyślij mi e-maila, gdy będzie to możliwe"
+    },
+    "facets": {
+      "apply": "Złóż aplikację",
+      "clear": "Wyczyść",
+      "clear_all": "Wyczyść wszystko",
+      "from": "Od",
+      "filter_and_sort": "Filtruj i sortuj",
+      "filter_title": "Filtruj",
+      "title_price": "Cena",
+      "button_price": "Filtruj",
+      "results_with_count_html": {
+        "zero": "<span class=\"cp\">0</span> produktów znaleziono",
+        "one": "<span class=\"cp\">1</span> Produkt Znaleziony",
+        "other": "<span class=\"cp\">{{ count }}</span> Znalezione produkty"
+      },
+      "clear_filter": "Wyczyść filtr"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "Przeszukaj naszą stronę",
+      "heading": {
+        "one": "Wynik wyszukiwania",
+        "other": "Wyniki wyszukiwania"
+      },
+      "results_others": "Wyniki z artykułu, strona",
+      "quick_search": "Szybkie wyszukiwanie:",
+      "suggestions": "Sugestie:",
+      "close_search": "Zamknij wyszukiwanie",
+      "suggest": "Potrzebujesz inspiracji?",
+      "placeholder": "Szukaj",
+      "placeholder_products": "Szukaj produktów",
+      "submit": "szukaj",
+      "all_categories": "Wszystkie kategorie",
+      "no_results": "Brak wyników",
+      "no_product_results": "Nie znaleziono produktów spełniających wybrane kryteria.",
+      "sort_by_label": "Sortuj według:"
     }
   }
 }
