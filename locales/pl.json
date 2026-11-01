@@ -179,7 +179,22 @@
   "customer": {
     "account": {
       "phone": "Telefon:",
-      "company": "Firma:"
+      "company": "Firma:",
+      "title": "MOJE KONTO",
+      "make_order": "Złóż swoje pierwsze zamówienie",
+      "none": "Nie złożyłeś jeszcze żadnych zamówień.",
+      "hello_html": "Witaj <strong>{{ name }}</strong> (nie <strong>{{ name }}</strong>? <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Wyloguj się</a>)",
+      "manage_subs": "Zarządzaj subskrypcjami",
+      "dashboard": "Panel nawigacyjny",
+      "wishlist": "Lista życzeń",
+      "details": "Dane konta:",
+      "log_out": "Wyloguj",
+      "name": "Imię:",
+      "email": "E-mail:",
+      "address": "Adres:",
+      "address_2": "Adres 2:",
+      "country": "Kraj:",
+      "zip": "Kod pocztowy:"
     },
     "menu": {
       "dashboard": "Panel nawigacyjny",
@@ -288,6 +303,9 @@
       "submit": "Zarejestruj się",
       "privacy_policy": "Twoje dane osobowe będą wykorzystywane do obsługi Twojej aktywności na tej stronie, zarządzania dostępem do Twojego konta oraz do innych celów opisanych w naszej polityce prywatności.",
       "privacy_policy_html": "Państwa dane osobowe będą wykorzystywane do obsługi Państwa konta na tej witrynie, zarządzania dostępem do niego oraz w innych celach opisanych w naszej <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">polityce prywatności</a>."
+    },
+    "form": {
+      "error_heading": "Proszę o wprowadzenie następujących zmian:"
     }
   },
   "password_page": {
@@ -637,7 +655,123 @@
       "all_categories": "Wszystkie kategorie",
       "no_results": "Brak wyników",
       "no_product_results": "Nie znaleziono produktów spełniających wybrane kryteria.",
-      "sort_by_label": "Sortuj według:"
+      "sort_by_label": "Sortuj według:",
+      "sort_button": "Sortuj",
+      "filter_button": "Filtruj"
+    },
+    "search_for": "Wyszukaj „{{ terms }}”",
+    "pagination": {
+      "view_all": "Wyświetl wszystko",
+      "load_more": "Załaduj więcej",
+      "load_prev": "Załaduj poprzednie",
+      "bar_with_count_html": "Wyświetlono <span data-current-bar>{{ current_count }}</span> z {{ total_count }} produktów"
+    },
+    "results_with_term": {
+      "zero": "Wyniki wyszukiwania dla: „{{ terms }}”",
+      "one": "Wyniki wyszukiwania dla: „{{ terms }}”",
+      "other": "Wyniki wyszukiwania dla: „{{ terms }}”"
+    },
+    "results_with_count_and_term": {
+      "zero": "Wyniki wyszukiwania dla: „{{ terms }}”",
+      "one": "{{ count }} Wynik wyszukiwania dla: „{{ terms }}”",
+      "other": "{{ count }} wyników wyszukiwania dla: „{{ terms }}”"
+    }
+  },
+  "cart": {
+    "general": {
+      "item_cart": {
+        "zero": "elementy",
+        "one": "element",
+        "other": "elementy"
+      },
+      "cookies_required": "Włącz obsługę plików cookie, aby korzystać z koszyka.",
+      "taxes_and_shipping_at_checkout": "Podatki i koszty dostawy zostaną obliczone przy składaniu zamówienia",
+      "taxes_and_shipping_policy_at_checkout_html": "Podatki i <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">wysyłka</a> naliczane przy kasie",
+      "taxes_included_but_shipping_at_checkout": "Podatki wliczone, a koszty wysyłki zostaną obliczone przy kasie",
+      "taxes_included_and_shipping_policy_html": "Podatek wliczony. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">Koszty wysyłki</a> obliczane są przy kasie.",
+      "taxes_discounts_and_shipping_at_checkout": "Podatki, koszty wysyłki i kody rabatowe naliczane przy kasie",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Podatki, <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">wysyłka</a> i kody rabatowe są naliczane przy kasie",
+      "taxes_included_discounts_but_shipping_at_checkout": "Podatek wliczony w cenę. Koszty wysyłki i kody rabatowe naliczane przy kasie",
+      "taxes_included_discounts_and_shipping_policy_html": "Podatek wliczony w cenę. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">Koszty wysyłki</a> i kody rabatowe naliczane przy kasie.",
+      "terms_and_conditions_html": "Zgadzam się z <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">regulaminem</a>.",
+      "terms_and_conditions": "Zgadzam się z warunkami.",
+      "edit_item": "Edytuj tę pozycję",
+      "remove_item": "Usuń tę pozycję",
+      "recurring_mess": "Cykliczna dostawa co {{ frequency }} {{ frequency_unit }}. Zmień lub anuluj w dowolnym momencie",
+      "agree_checkout": "Musisz zaakceptować warunki sprzedaży, aby przejść do kasy."
+    },
+    "tool": {
+      "save": "Zapisz",
+      "cancel": "Anuluj",
+      "note": "Dodaj uwagę do zamówienia",
+      "edit_note": "Edytuj notatkę do zamówienia",
+      "placeholder_note": "W czym możemy Państwu pomóc?",
+      "gift_wrap_html": "<span class=\"cd\">Czy chcesz opakowanie prezentowe?</span> Tylko {{ money }}",
+      "add_gift_wrap": "Dodaj pakowanie na prezent",
+      "coupon": "Kupon:",
+      "add_coupon": "Dodaj kupon",
+      "info_coupon": "Kod kuponu zadziała na stronie kasy",
+      "placeholder_coupon": "Kod rabatowy",
+      "split_order": "Podziel zamówienie na kilka dostaw",
+      "discount_code_label": "Dodaj kod rabatowy w następnym kroku"
+    },
+    "shipping_estimator": {
+      "title": "Oszacuj koszt wysyłki",
+      "country": "Kraj",
+      "province": "Prowincja",
+      "zip_code": "Kod pocztowy",
+      "estimate": "Szacunek",
+      "multiple_rates": "Znaleźliśmy [number_of_rates] opcji wysyłki dostępnych dla [address], zaczynając od [rate].",
+      "one_rate": "Znaleźliśmy jedną dostępną opcję wysyłki dla [address].",
+      "no_rates": "Przepraszamy, nie wysyłamy zamówień do tego miejsca docelowego.",
+      "errors": "Wystąpiły pewne błędy:"
+    },
+    "shipping_threshold": {
+      "text_1_html": "Darmowa dostawa dla wszystkich zamówień powyżej <span class=\"t4s-cr\">{{ money }}</span>",
+      "text_2_html": "Brakuje <span class=\"t4s-cr\">{{ money }}</span> do <span class=\"t4s-ch\">DARMOWEJ DOSTAWY!</span>",
+      "text_3": "[Gratulacje!] Masz darmową dostawę!"
+    },
+    "mini_cart": {
+      "title": "Koszyk",
+      "close_cart": "Zamknij koszyk",
+      "empty": "Twój koszyk jest pusty.",
+      "subtotal": "Suma częściowa:",
+      "checkout": "Sprawdź",
+      "view": "Zobacz koszyk",
+      "title_recommendations": "Może Ci się również spodobać"
+    },
+    "cart_page": {
+      "title": "Koszyk",
+      "label": {
+        "product": "Produkt",
+        "price": "Cena",
+        "quantity": "Ilość",
+        "total": "Suma"
+      },
+      "empty": "Twój koszyk jest pusty.",
+      "empty_html": "Zanim przejdziesz do kasy, musisz dodać produkty do koszyka.<br> Wiele interesujących produktów znajdziesz na naszej stronie „Sklep”.",
+      "subtotal": "Suma częściowa:",
+      "checkout": "Sprawdź",
+      "update": "Aktualizuj koszyk",
+      "split_order_label": "Podziel moje zamówienie na więcej niż jedną przesyłkę",
+      "split_order_text": "Niektóre z wybranych przez Ciebie butów są niedostępne. Zazwyczaj czekamy, aż otrzymamy wszystkie produkty z zamówienia, i wysyłamy je w jednej paczce. Jeśli nie możesz czekać, możemy podzielić przesyłkę."
+    }
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "name": "Twoje imię (wymagane)",
+        "email": "Twój adres e-mail (wymagane)",
+        "phone": "Twój numer telefonu",
+        "message": "Twoja wiadomość",
+        "submit": "Wyślij",
+        "post_success": "Dziękujemy za kontakt. Odpowiemy najszybciej jak to możliwe.",
+        "error_heading": "Proszę o wprowadzenie następujących zmian:"
+      }
+    },
+    "404": {
+      "subtext": "Przepraszamy! Szukana strona nie została znaleziona.",
+      "link_html": "Wróć do <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" rel=\"home\">strony głównej</a>"
     }
   }
 }
