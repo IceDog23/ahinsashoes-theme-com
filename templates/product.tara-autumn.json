@@ -351,18 +351,18 @@
     },
     "custom_liquid_eK4Cga": {
       "type": "custom-liquid",
-      "name": "001 - A/B product description",
+      "name": "Tara Autumn story",
       "settings": {
-        "custom_liquid": "<div id=\"ahinsa-product-description\" class=\"rte\" style=\"max-width:900px;margin:0 auto;scroll-margin-top:120px;\">{{ product.description }}</div>",
+        "custom_liquid": "{% assign tara_parts = product.description | split: '<h2>' %}\n<div id=\"ahinsa-product-description\" class=\"ahinsa-tara-story\">\n{% for part in tara_parts offset: 1 %}\n  {% assign tara_heading = part | split: '</h2>' | first %}\n  {% assign tara_text = part | split: '</h2>' | last %}\n  {% assign tara_photo = blank %}\n  {% case forloop.index %}\n    {% when 1 %}{% assign tara_photo = images['tara-autumn-black-dsc03240-recoloured.png'] %}\n    {% when 2 %}{% assign tara_photo = images['tara-autumn-black-dsc03269-recoloured.png'] %}\n    {% when 3 %}{% assign tara_photo = images['tara-autumn-black-lifestyle-woman-park-ai.png'] %}\n  {% endcase %}\n  <section class=\"ahinsa-tara-story__row{% if tara_photo == blank %} ahinsa-tara-story__row--text{% endif %}\">\n    {% if tara_photo != blank %}<div class=\"ahinsa-tara-story__media\">{{ tara_photo | image_url: width: 1200 | image_tag: loading: 'lazy', widths: '360,540,720,960,1200', sizes: '(min-width: 768px) 50vw, 100vw', alt: product.title }}</div>{% endif %}\n    <div class=\"ahinsa-tara-story__text\"><h2>{{ tara_heading }}</h2>{{ tara_text }}</div>\n  </section>\n{% endfor %}\n</div>\n<style>\n.ahinsa-tara-story{scroll-margin-top:120px}\n.ahinsa-tara-story__row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:clamp(24px,4vw,64px);padding:32px;margin:0 0 24px;border-radius:12px;background:#fff;overflow:hidden}\n.ahinsa-tara-story__row--text{grid-template-columns:minmax(0,1fr)}\n.ahinsa-tara-story__row:nth-child(even){background:#f1f1f1}\n.ahinsa-tara-story__row:nth-child(even) .ahinsa-tara-story__media{order:2}\n.ahinsa-tara-story__media img{display:block;width:100%;height:auto;border-radius:8px}\n.ahinsa-tara-story__text h2{font-size:clamp(24px,3vw,36px);line-height:1.2;margin:0 0 20px}\n.ahinsa-tara-story__text p{font-size:17px;line-height:1.65;margin:0 0 16px}\n.ahinsa-tara-story__text a{text-decoration:underline}\n@media(max-width:767px){.ahinsa-tara-story__row{grid-template-columns:minmax(0,1fr);padding:20px;gap:20px}.ahinsa-tara-story__row:nth-child(even) .ahinsa-tara-story__media{order:0}}\n</style>",
         "layout": "t4s-container-wrap",
-        "cl_bg": "#f1f1f1",
+        "cl_bg": "#ffffff",
         "cl_bg_gradient": "",
         "mg": "",
-        "pd": "30px,,30px,",
+        "pd": "30px,0,30px,0",
         "mg_tb": "",
         "pd_tb": "",
         "mg_mb": "",
-        "pd_mb": "20px,,20px,"
+        "pd_mb": "20px,0,20px,0"
       }
     },
     "quote_1_474eFG": {
