@@ -160,7 +160,21 @@
   "accessibility": {
     "skip_to_text": "Hoppa till innehåll",
     "skip_to_product_info": "Hoppa till produktinformation",
-    "close": "Stäng"
+    "close": "Stäng",
+    "unit_price_separator": "per",
+    "vendor": "Leverantör:",
+    "error": "Fel",
+    "refresh_page": "Att välja ett alternativ resulterar i att hela sidan uppdateras.",
+    "link_messages": {
+      "new_window": "Öppnas i ett nytt fönster.",
+      "external": "Öppnar extern webbplats."
+    },
+    "of": "av",
+    "next_slide": "Svep åt höger",
+    "previous_slide": "Svep åt vänster",
+    "loading": "Laddar...",
+    "total_reviews": "totalt antal recensioner",
+    "star_reviews_info": "{{ rating_value }} av {{ rating_max }} stjärnor"
   },
   "wishlist_page": {
     "meta": "Min önskelista",
@@ -546,7 +560,25 @@
       "pre_order_alt": "Produktsaldo",
       "delay_payment_alt": "Twisto",
       "pay_after_trying": "Betala efter att du har provat dem",
-      "notify_me": "Meddela mig"
+      "notify_me": "Meddela mig",
+      "include_taxes": "Inklusive skatt.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Frakt</a> beräknas i kassan.",
+      "from_price_html": "<span class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;\">Från</span> {{ price_min }}",
+      "Please_choose_pr_options": "Välj några produktalternativ innan du lägger till produkten i din varukorg.",
+      "choose_an_option": "Välj ett alternativ",
+      "add_to_cart": "Lägg i varukorg",
+      "pre_order": "Förhandsboka",
+      "unavailable": "Ej tillgänglig",
+      "sold_out": "Slut i lager",
+      "notice_only_stock": "Inte tillräckligt med artiklar tillgängliga. Endast {{ max }} kvar.",
+      "login_to_wishlist": "Logga in för att använda önskelistan",
+      "add_to_wishlist": "Lägg till i önskelistan",
+      "remove_wishlist": "Ta bort önskelista",
+      "browse_wishlist": "Bläddra i önskelista",
+      "compare": "Jämför",
+      "added_text_compare": "Jämför produkter",
+      "product_vendor": "Leverantör:",
+      "product_type": "Typ:"
     },
     "product_card": {
       "read_more": "Läs mer",
@@ -634,6 +666,112 @@
         "other": "<span class=\"cp\">{{ count }}</span> produkter hittades"
       },
       "clear_filter": "Rensa filter"
+    },
+    "aria_label": {
+      "select_option": "Välj alternativ för ”{{ product_title }}”",
+      "add_to_cart": "Lägg till ”{{ product_title }}” i din kundvagn",
+      "read_more": "Läs mer om “{{ product_title }}”"
+    },
+    "breadcrumb": {
+      "home": "Hem",
+      "back_to": "Tillbaka till {{ title }}"
+    },
+    "badge": {
+      "new": "Ny",
+      "sold_out": "Slutsåld",
+      "on_sale": "Rea",
+      "pre_order": "Förboka",
+      "save_amoun_html": "-{{ saved_amount }}%",
+      "save_amount_fixed_html": "-{{ saved_amount }}",
+      "save_amount_2_html": "SPARA {{ saved_amount }}%",
+      "save_amount_fixed_2_html": "SPARA {{ saved_amount }}"
+    }
+  },
+  "blogs": {
+    "filter_all": "Alla",
+    "pagination": {
+      "view_all": "Visa alla",
+      "load_more": "Ladda fler inlägg",
+      "load_prev": "Ladda föregående",
+      "bar_with_count_html": "Du har tittat på <span data-current-bar>{{ current_count }}</span> av {{ total_count }} inlägg"
+    },
+    "article": {
+      "by": "Av",
+      "on": "på",
+      "in": "I",
+      "read_more": "Fortsätt läsa",
+      "back_to": "Tillbaka till {{ title }}",
+      "view_all": "Visa mer",
+      "by_author": "Av {{ author }}"
+    },
+    "portfolio": {
+      "filter_all": "Alla",
+      "category": "Kategori:",
+      "author": "Författare:",
+      "tags": "Taggar:"
+    },
+    "comments": {
+      "title": "Lämna en kommentar",
+      "comments_note_html": "Din e-postadress kommer inte att publiceras. Obligatoriska fält är markerade <span class=\"required\">*</span>",
+      "name": "Namn",
+      "email": "E-post",
+      "message": "Kommentera",
+      "post": "Publicera kommentar",
+      "moderated": "Observera att kommentarer måste godkännas innan de publiceras",
+      "success_moderated": "Din kommentar har publicerats. Vi kommer att lägga upp den inom kort, då vår blogg är modererad.",
+      "success": "Din kommentar har publicerats! Tack!",
+      "unapproved": "Den angivna e-postadressen är inte godkänd för att publicera kommentarer.",
+      "error_heading": "Vänligen justera följande:",
+      "with_count": {
+        "zero": "0 kommentarer",
+        "one": "1 kommentar",
+        "other": "{{ count }} kommentarer"
+      },
+      "with_count_2": {
+        "zero": "Lämna en kommentar",
+        "one": "1 kommentar",
+        "other": "{{ count }} kommentarer"
+      },
+      "with_count_html": {
+        "zero": "0 <span>kommentar</span>",
+        "one": "1 <span>kommentar</span>",
+        "other": "{{ count }} <span>kommentarer</span>"
+      },
+      "comments_title_html": {
+        "zero": "0 thought on “<span>{{ title }}</span>”",
+        "one": "1 thought on “<span>{{ title }}</span>”",
+        "other": "{{ count }} tankar om ”<span>{{ title }}</span>”"
+      }
+    }
+  },
+  "list_collections": {
+    "meta_title": "Sida med samlingslista",
+    "meta_description": "Samlingslistans sida, som listar butikens alla samlingar.",
+    "pagination": {
+      "load_more": "Ladda fler",
+      "load_prev": "Ladda föregående",
+      "bar_with_count_html": "Du har visat <span data-current-bar>{{ current_count }}</span> av {{ total_count }} samlingar"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Inga produkter hittades som matchade ditt urval.",
+      "sort_by_label": "Sortera efter:",
+      "sort_button": "Sortera",
+      "filter_button": "Filtrera",
+      "find_your_size": "Hitta din storlek:"
+    },
+    "sort": {
+      "best_selling": "Bästsäljande",
+      "created_descending": "Senaste",
+      "price_ascending": "Billigast",
+      "manual": "Bäst"
+    },
+    "pagination": {
+      "view_all": "Visa alla",
+      "load_more": "Ladda fler",
+      "load_prev": "Ladda föregående",
+      "bar_with_count_html": "Du har visat <span data-current-bar>{{ current_count }}</span> av {{ total_count }} produkter"
     }
   }
 }
