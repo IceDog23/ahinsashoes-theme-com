@@ -70,45 +70,48 @@
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/ENG_desktop_hero_banner_sezonni_vyprodej.jpg",
-            "image_mob": "shopify://shop_images/ENG_HERO_BANNER_mobil_sezonni_vyprodej.jpg",
-            "collection_title": "Seasonal sale – 10/2026",
-            "collection_link": "shopify://collections/sale",
+            "image": "shopify://shop_images/ahinsa-sale-clean-20261101.png",
+            "image_mob": "shopify://shop_images/ahinsa-sale-clean-20261101.png",
+            "collection_title": "Seasonal sale",
+            "collection_link": "/collections/sale",
             "promotion_id": "promo_008",
             "promotion_name": "seasonal-sale-10/2026-COM",
             "creative_name": "Hero Banner",
             "location_id": "homepage",
-            "type": "select_promotion"
+            "type": "select_promotion",
+            "hero_button": "Shop the sale >"
           }
         },
         "1646035040fee424aa-1": {
           "type": "collection_item",
           "settings": {
-            "collection": "news",
-            "image": "shopify://shop_images/ENG_banner_vida_sneakers.jpg",
-            "image_mob": "shopify://shop_images/ENG_banner_vida_sneakers.jpg",
-            "collection_title": "",
-            "collection_link": "https://ahinsashoes.com/collections/all/vida",
-            "promotion_id": "promo_vida_snekers_COM_002",
-            "promotion_name": "VIDA sneakers COM",
+            "collection": "",
+            "image": "shopify://shop_images/ahinsa-tara-hero-autumn-20261101.png",
+            "image_mob": "shopify://shop_images/ahinsa-tara-hero-autumn-20261101.png",
+            "collection_title": "Tara",
+            "collection_link": "/collections/all/tara",
+            "promotion_id": "promo_tara_light_20261101",
+            "promotion_name": "Tara Light",
             "creative_name": "Hero Banner",
             "location_id": "homepage",
-            "type": "select_promotion"
+            "type": "select_promotion",
+            "hero_button": "From 135 EUR >"
           }
         },
         "1646035040fee424aa-2": {
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/ENG_aktivni_stelky_hero_banner.jpg",
-            "image_mob": "shopify://shop_images/ENG_aktivni_stelky_hero_banner.jpg",
+            "image": "shopify://shop_images/ahinsa-insoles-clean-20261101.png",
+            "image_mob": "shopify://shop_images/ahinsa-insoles-clean-20261101.png",
             "collection_title": "Active insoles",
-            "collection_link": "shopify://pages/active-insoles",
+            "collection_link": "/pages/active-insoles",
             "promotion_id": "promo_003",
             "promotion_name": "Active insoles",
             "creative_name": "Hero Banner",
             "location_id": "homepage",
-            "type": "select_promotion"
+            "type": "select_promotion",
+            "hero_button": "Discover more >"
           }
         }
       },
