@@ -160,7 +160,21 @@
   "accessibility": {
     "skip_to_text": "Przejdź do treści",
     "skip_to_product_info": "Przejdź do informacji o produkcie",
-    "close": "Zamknij"
+    "close": "Zamknij",
+    "unit_price_separator": "przez",
+    "vendor": "Sprzedawca:",
+    "error": "Błąd",
+    "refresh_page": "Wybór opcji powoduje odświeżenie całej strony.",
+    "link_messages": {
+      "new_window": "Otwiera się w nowym oknie.",
+      "external": "Otwiera zewnętrzną stronę internetową."
+    },
+    "of": "z",
+    "next_slide": "Przesuń w prawo",
+    "previous_slide": "Przesuń w lewo",
+    "loading": "Ładowanie...",
+    "total_reviews": "liczba opinii",
+    "star_reviews_info": "{{ rating_value }} z {{ rating_max }} gwiazdek"
   },
   "customer": {
     "account": {
@@ -369,5 +383,133 @@
   },
   "date_formats": {
     "month": "%B"
+  },
+  "blogs": {
+    "filter_all": "Wszystko",
+    "pagination": {
+      "view_all": "Wyświetl wszystko",
+      "load_more": "Wczytaj więcej postów",
+      "load_prev": "Załaduj poprzednie",
+      "bar_with_count_html": "Wyświetlono <span data-current-bar>{{ current_count }}</span> z {{ total_count }} postów"
+    },
+    "article": {
+      "by": "Przez",
+      "on": "włączony",
+      "in": "W",
+      "read_more": "Czytaj dalej",
+      "back_to": "Powrót do {{ title }}",
+      "view_all": "Zobacz więcej",
+      "by_author": "Autor: {{ author }}"
+    },
+    "portfolio": {
+      "filter_all": "Wszystko",
+      "category": "Kategoria:",
+      "author": "Autor:",
+      "tags": "Tagi:"
+    },
+    "comments": {
+      "title": "Dodaj komentarz",
+      "comments_note_html": "Twój adres e-mail nie zostanie opublikowany. Pola wymagane są oznaczone <span class=\"required\">*</span>",
+      "name": "Imię",
+      "email": "E-mail",
+      "message": "Komentarz",
+      "post": "Opublikuj komentarz",
+      "moderated": "Uwaga: komentarze muszą zostać zatwierdzone, zanim zostaną opublikowane.",
+      "success_moderated": "Twój komentarz został pomyślnie dodany. Opublikujemy go wkrótce, ponieważ nasz blog jest moderowany.",
+      "success": "Twój komentarz został pomyślnie opublikowany! Dziękujemy!",
+      "unapproved": "Podany adres e-mail nie jest zatwierdzony do publikowania komentarzy.",
+      "error_heading": "Proszę o wprowadzenie następujących zmian:",
+      "with_count": {
+        "zero": "0 komentarzy",
+        "one": "1 komentarz",
+        "other": "{{ count }} komentarzy"
+      },
+      "with_count_2": {
+        "zero": "Dodaj komentarz",
+        "one": "1 komentarz",
+        "other": "{{ count }} komentarzy"
+      },
+      "with_count_html": {
+        "zero": "0 <span>komentarzy</span>",
+        "one": "1 <span>komentarz</span>",
+        "other": "{{ count }} <span>komentarzy</span>"
+      },
+      "comments_title_html": {
+        "zero": "0 thought on “<span>{{ title }}</span>”",
+        "one": "1 thought on “<span>{{ title }}</span>”",
+        "other": "{{ count }} myśli na temat „<span>{{ title }}</span>”"
+      }
+    }
+  },
+  "list_collections": {
+    "meta_title": "Strona listy kolekcji",
+    "meta_description": "Strona z listą kolekcji, która przedstawia wszystkie kolekcje sklepu.",
+    "pagination": {
+      "load_more": "Załaduj więcej",
+      "load_prev": "Załaduj poprzednie",
+      "bar_with_count_html": "Wyświetlono <span data-current-bar>{{ current_count }}</span> z {{ total_count }} kolekcji"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Nie znaleziono produktów spełniających wybrane kryteria.",
+      "sort_by_label": "Sortuj według:",
+      "sort_button": "Sortuj",
+      "filter_button": "Filtruj",
+      "find_your_size": "Znajdź swój rozmiar:"
+    },
+    "sort": {
+      "best_selling": "Najlepiej sprzedający się",
+      "created_descending": "Najnowszy",
+      "price_ascending": "Najtańszy",
+      "manual": "Najlepszy"
+    },
+    "pagination": {
+      "view_all": "Wyświetl wszystko",
+      "load_more": "Załaduj więcej",
+      "load_prev": "Załaduj poprzednie",
+      "bar_with_count_html": "Wyświetlono <span data-current-bar>{{ current_count }}</span> z {{ total_count }} produktów"
+    }
+  },
+  "products": {
+    "aria_label": {
+      "select_option": "Wybierz opcje dla „{{ product_title }}”",
+      "add_to_cart": "Dodaj „{{ product_title }}” do koszyka",
+      "read_more": "Dowiedz się więcej o „{{ product_title }}”"
+    },
+    "breadcrumb": {
+      "home": "Strona główna",
+      "back_to": "Powrót do {{ title }}"
+    },
+    "badge": {
+      "new": "Nowy",
+      "sold_out": "Wyprzedane",
+      "on_sale": "Wyprzedaż",
+      "pre_order": "Przedsprzedaż",
+      "save_amoun_html": "-{{ saved_amount }}%",
+      "save_amount_fixed_html": "-{{ saved_amount }}",
+      "save_amount_2_html": "OSZCZĘDŹ {{ saved_amount }}%",
+      "save_amount_fixed_2_html": "OSZCZĘDZAJ {{ saved_amount }}"
+    },
+    "product": {
+      "include_taxes": "Podatek wliczony w cenę.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Wysyłka</a> kalkulowana przy kasie.",
+      "from_price_html": "<span class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;\">Od</span> {{ price_min }}",
+      "Please_choose_pr_options": "Proszę wybrać opcje produktu przed dodaniem go do koszyka.",
+      "choose_an_option": "Wybierz opcję",
+      "add_to_cart": "Dodaj do koszyka",
+      "pre_order": "Przedsprzedaż",
+      "unavailable": "Niedostępne",
+      "sold_out": "Brak w magazynie",
+      "notice_only_stock": "Nie ma wystarczającej liczby dostępnych pozycji. Pozostało tylko {{ max }}.",
+      "login_to_wishlist": "Zaloguj się, aby używać Listy życzeń",
+      "add_to_wishlist": "Dodaj do listy życzeń",
+      "remove_wishlist": "Usuń z listy życzeń",
+      "browse_wishlist": "Przeglądaj listę życzeń",
+      "compare": "Porównaj",
+      "added_text_compare": "Porównaj produkty",
+      "product_vendor": "Sprzedawca:",
+      "product_type": "Typ:"
+    }
   }
 }
