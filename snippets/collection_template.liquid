@@ -15,14 +15,26 @@
 >
   <div
     class="{% if bk_stts.hero_button != blank %}ahinsa-hero-card {% endif %}t4s-cat-content t4s-source-{{ source }} t4s-eff t4s-eff-{{ b_effect }} t4s-eff-img-{{ img_effect }} t4s-text-center t4s-pr t4s-oh"
-    timeline
-    hdt-reveal="slide-in"
+    {% unless se_stts.hero_pair %}timeline hdt-reveal="slide-in"{% endunless %}
   >
     <div class="t4s-coll-img t4s-pr" data-cacl-slide>
       {% if collection_des == '11' %}
         <span class="t4s-count">{{ collection.all_products_count | default: 0 }}</span>
       {% endif %}
       <a class="t4s_cat_item_link t4s-img-wrap t4s-d-block" href="{{ collection_link }}" target="{{ open_link }}">
+        {%- if se_stts.hero_pair and bk_stts.hero_button != blank -%}
+          <div class="ahinsa-pair-media">
+            {%- assign hero_priority = 'auto' -%}
+            {%- if index0 == 0 -%}{%- assign hero_priority = 'high' -%}{%- endif -%}
+            {%- capture hero_tracking -%}{"promotion_id":{{ bk_stts.promotion_id | json }},"promotion_name":{{ bk_stts.promotion_name | json }},"creative_name":{{ bk_stts.creative_name | json }},"location_id":{{ bk_stts.location_id | json }}}{%- endcapture -%}
+            <picture>
+              {%- if image_mob != blank -%}
+                <source media="(max-width: 767px)" srcset="{{ image_mob | image_url: width: 400 }} 400w, {{ image_mob | image_url: width: 800 }} 800w, {{ image_mob | image_url: width: 1200 }} 1200w" sizes="100vw">
+              {%- endif -%}
+              {{ image | image_url: width: 1600 | image_tag: widths: '400,600,800,1000,1200,1600', sizes: '(min-width: 768px) 50vw, 100vw', loading: 'eager', fetchpriority: hero_priority, class: 'ahinsa-pair-image', alt: title, type: bk_stts.type, value: hero_tracking }}
+            </picture>
+          </div>
+        {%- else -%}
         <div
           class="t4s_ratio t4s_ratio_hasmb t4s-bg-11 collection-list-image"
           style="max-height:{{ max_height }}px;{%- if image != blank -%} background: url({{ image | image_url: width: 1 }});{%- endif -%} --aspect-ratioapt: {{ html[4] }}/{{ html[5] }};--aspect-ratioapttb: {{ html[6] }}/{{ html[7] }};--aspect-ratioaptmb: {{ html[8] }}/{{ html[9] }};"
@@ -75,6 +87,10 @@
             {%- render 'svg_holder', txt: txt, fs: "40px", placeholder_svg_tag: 't4s-placeholder-svg t4s-obj-eff' -%}
           {%- endif -%}
         </div>
+        {%- endif -%}
+        {%- if bk_stts.hero_badge != blank -%}
+          <span class="ahinsa-hero-badge">{{ bk_stts.hero_badge | escape }}</span>
+        {%- endif -%}
         {%- if bk_stts.hero_button != blank -%}
           <div class="ahinsa-hero-copy">
             <h2>{{ title | escape }}</h2>
@@ -110,4 +126,11 @@
 .ahinsa-hero-card .t4s_cat_item_link:focus-visible{outline:3px solid #fff;outline-offset:-5px}
 .ahinsa-hero-card .t4s_cat_item_link:hover .ahinsa-hero-button{background:#333}
 @media(max-width:767px){.ahinsa-hero-copy{bottom:18px;left:8px;right:8px;gap:9px}.ahinsa-hero-copy h2{font-size:26px}.ahinsa-hero-button{font-size:12px;padding:10px 12px}}
+.ahinsa-hero-pair .ahinsa-hero-card{container-type:inline-size}
+.ahinsa-pair-media{position:relative;aspect-ratio:57/50;overflow:hidden}
+.ahinsa-pair-media picture{display:block;width:100%;height:100%}
+.ahinsa-pair-media .ahinsa-pair-image{display:block;width:100%;height:100%;object-fit:cover}
+.ahinsa-hero-pair .coll-item-1 .ahinsa-pair-image{object-position:50% 35%}
+.ahinsa-hero-badge{position:absolute;z-index:2;left:6%;top:31%;color:#fff;font-family:var(--font-family-1,inherit);font-size:clamp(42px,16cqi,116px);font-weight:400;line-height:1;letter-spacing:-.055em;white-space:nowrap;pointer-events:none;text-shadow:0 2px 12px rgba(0,0,0,.24)}
+@media(max-width:767px){.ahinsa-hero-pair{row-gap:12px}.ahinsa-hero-pair .ahinsa-hero-copy{bottom:24px}.ahinsa-hero-pair .ahinsa-hero-button{font-size:14px;padding:12px 18px}}
 {% endstylesheet %}
