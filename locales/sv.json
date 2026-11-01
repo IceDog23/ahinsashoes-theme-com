@@ -161,5 +161,89 @@
     "skip_to_text": "Hoppa till innehåll",
     "skip_to_product_info": "Hoppa till produktinformation",
     "close": "Stäng"
+  },
+  "wishlist_page": {
+    "meta": "Min önskelista",
+    "title": "Önskelista",
+    "empty": "Önskelistan är tom.",
+    "empty_html": "Du har inga produkter i önskelistan än.<br> Du hittar många intressanta produkter på vår sida \"Butik\"."
+  },
+  "compare_page": {
+    "meta": "Min jämförelsesida",
+    "title": "Jämför",
+    "empty": "Jämförelselistan är tom.",
+    "empty_html": "Inga produkter har lagts till i jämförelselistan. Du måste lägga till några produkter för att kunna jämföra dem.<br> Du hittar många intressanta produkter på vår \"Shop\"-sida.",
+    "remove": "Ta bort",
+    "in_stock": "I lager",
+    "outofstock": "Slut i lager"
+  },
+  "compare_popup": {
+    "title": "Jämför produkter",
+    "close": "Stäng",
+    "remove": "Ta bort det här objektet",
+    "clear": "Rensa alla",
+    "button": "Jämför",
+    "count": {
+      "zero": "produkter",
+      "one": "produkt",
+      "other": "produkter"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Visa butiksinformation",
+      "check_other_stores": "Kontrollera tillgänglighet i andra butiker",
+      "pick_up_available": "Upphämtning möjlig",
+      "pick_up_currently_unavailable": "Upphämtning ej tillgänglig för tillfället",
+      "pick_up_available_at_html": "Hämtning tillgänglig på <strong>{{ location_name }}</strong>",
+      "pick_up_unavailable_at_html": "Hämtning är för närvarande inte tillgänglig på <strong>{{ location_name }}</strong>",
+      "check_map": "Kolla det här på Google Maps"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "subtext": "Ditt presentkort",
+      "gift_card_code": "Presentkortskod",
+      "disabled": "Inaktiverad",
+      "expired": "Utgick den {{ expiry }}",
+      "active": "Går ut den {{ expiry }}",
+      "redeem_html": "Använd den här koden i kassan för att lösa in ditt {{ value }} presentkort",
+      "shop_link": "Börja handla",
+      "print": "Skriv ut detta presentkort",
+      "remaining_html": "{{ balance }} kvar",
+      "add_to_apple_wallet": "Lägg till i Apple Wallet",
+      "qr_image_alt": "QR-kod — skanna för att lösa in presentkort",
+      "copy_code": "Kopiera kod",
+      "copy_code_success": "Koden har kopierats"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Jag vill skicka detta som en present",
+      "expanded": "Formulär för presentkortsmottagare utökat",
+      "collapsed": "Formulär för presentkortsmottagare hopfällt",
+      "email_label": "Mottagarens e-postadress",
+      "email_label_optional_for_no_js_behavior": "Mottagarens e-postadress (valfritt)",
+      "email": "E-post",
+      "name_label": "Mottagarens namn (valfritt)",
+      "name": "Namn",
+      "message_label": "Meddelande (valfritt)",
+      "message": "Meddelande",
+      "max_characters": "{{ max_chars }} tecken max",
+      "send_on": "ÅÅÅÅ-MM-DD",
+      "send_on_label": "Vidarebefordra (valfritt)"
+    }
+  },
+  "onboarding": {
+    "product_title": "Din produkts namn",
+    "product_description": "Det här området används för att beskriva din produkts detaljer. Berätta för kunderna om produktens utseende, känsla och stil. Lägg till information om färg, material, storlek och var den är tillverkad.",
+    "collection_title": "Din kollektions namn",
+    "blog_title": "Inläggets titel",
+    "blog_excerpt": "Din butik har inte publicerat några blogginlägg ännu. En blogg kan användas för att skriva om nya produktlanseringar, tips eller andra nyheter som du vill dela med dina kunder. Du kan kolla in Shopifys e-handelsblogg för inspiration och råd till din egen butik och blogg.",
+    "blog_author": "Författarnamn",
+    "no_content": "Det här avsnittet innehåller för närvarande inget innehåll. Lägg till innehåll i det här avsnittet med hjälp av sidofältet."
+  },
+  "date_formats": {
+    "month": "%B"
   }
 }
