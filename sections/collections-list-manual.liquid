@@ -93,7 +93,10 @@ VALUE EXAMPLE:
         {%- case block_size -%}
           {%- assign html_layout = '__' | split: '__' -%}
           {%- when 1 -%},12,12,12,1170,400,1170,400,1170,400,
-          {%- when 2 -%},6,6,6,570,400,570,400,570,400,|,6,6,6,570,400,570,400,570,400,
+          {%- when 2 -%}
+            {%- if se_stts.hero_pair -%},6,6,12,570,500,570,500,570,500,|,6,6,12,570,500,570,500,570,500,
+            {%- else -%},6,6,6,570,400,570,400,570,400,|,6,6,6,570,400,570,400,570,400,
+            {%- endif -%}
           {%- when 3 -%}
             {%- if coll_layout == '1' -%},4,6,6,400,400,400,400,400,400,|,4,6,6,400,400,400,400,400,400,|,4,12,12,400,400,400,400,400,400,
              {%- elsif coll_layout == '2' -%},6,12,12,570,630,570,630,570,630,|<div class="t4s-col-item t4s-col-12 t4s-col-md-12 t4s-col-lg-6"><div class="t4s-row t4s-g-lg-30 t4s-g-md-10 t4s-g-10">,12,6,6,570,300,570,300,400,300,|,12,6,6,570,300,570,300,400,300,</div></div>
@@ -198,7 +201,7 @@ VALUE EXAMPLE:
   {%- assign arr_html = str_html | split: '|' -%}
 
   <div
-    class="t4s-collection-manual has-{{ block_size }}-item t4s-coll-layout-{{ coll_layout }} t4s-collection-border-{{ se_stts.border }} t4s-row t4s_ratioadapt t4s_position_{{ se_stts.image_position }} t4s_{{ image_ratio }} t4s-g-lg-30 t4s-g-md-10 t4s-g-10"
+    class="{% if se_stts.hero_pair %}ahinsa-hero-pair {% endif %}t4s-collection-manual has-{{ block_size }}-item t4s-coll-layout-{{ coll_layout }} t4s-collection-border-{{ se_stts.border }} t4s-row t4s_ratioadapt t4s_position_{{ se_stts.image_position }} t4s_{{ image_ratio }} t4s-g-lg-30 t4s-g-md-10 t4s-g-10"
     style="--title-cl-pri: {{ se_stts.title_cl }};--title-cl-pri-hover: {{ se_stts.title_cl_hover }};--title-cl-second: {{ title_cl_sec }};--title-cl-second-hover: {{ title_cl_hover_sec }};--subtitle-cl: {{ se_stts.subtitle_cl }};--subtitle-cl2: {{ subtitle_cl_sec }};--count-cl-pri: {{ se_stts.count_cl }};--count-cl-second: {{ count_cl_sec }};--border-cl: {{ se_stts.border_cl }};--item-rd: {{ se_stts.item_rd }}{{ se_stts.item_rd_unit }};--item-pd: {{ se_stts.item_pd }}px;--space-bottom: {{ se_stts.space_bottom }}px;--space-bottom-mb: {{ se_stts.space_bottom_mb }}px;"
   >
     {%- assign stt = 0 -%}
@@ -243,6 +246,12 @@ VALUE EXAMPLE:
   "class": "t4s-section t4s-section-all t4s_tp_cdt t4s-layout-default t4s-collections-list-manual",
   "max_blocks": 8,
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_pair",
+      "label": "Two homepage banners (stack on mobile)",
+      "default": false
+    },
     {
       "type": "header",
       "content": "1. Heading options"
@@ -714,9 +723,18 @@ VALUE EXAMPLE:
       "default": "t4s-container-wrap",
       "label": "Layout",
       "options": [
-        { "value": "t4s-se-container", "label": "Container" },
-        { "value": "t4s-container-wrap", "label": "Wrapped container" },
-        { "value": "t4s-container-fluid", "label": "Full width" }
+        {
+          "value": "t4s-se-container",
+          "label": "Container"
+        },
+        {
+          "value": "t4s-container-wrap",
+          "label": "Wrapped container"
+        },
+        {
+          "value": "t4s-container-fluid",
+          "label": "Full width"
+        }
       ]
     },
     {
@@ -838,25 +856,30 @@ VALUE EXAMPLE:
           "label": "Banner button text"
         },
         {
+          "type": "text",
+          "id": "hero_badge",
+          "label": "Banner discount text (optional)"
+        },
+        {
           "type": "url",
           "id": "collection_link",
           "label": "Link (optional)",
           "info": "Leave empty to use 'collection url'."
-        }, 
+        },
         {
-          "type":"header",
-          "content":"Analytics"
+          "type": "header",
+          "content": "Analytics"
         },
         {
           "type": "text",
           "id": "promotion_id",
           "label": "Promotion ID"
-        }, 
+        },
         {
           "type": "text",
           "id": "promotion_name",
           "label": "Promotion name"
-        }, 
+        },
         {
           "type": "text",
           "id": "creative_name",
@@ -866,7 +889,7 @@ VALUE EXAMPLE:
           "type": "text",
           "id": "location_id",
           "label": "Location ID"
-        }, 
+        },
         {
           "type": "text",
           "id": "type",
@@ -879,7 +902,17 @@ VALUE EXAMPLE:
     {
       "name": "Collections list manual",
       "category": "Homepage",
-      "blocks": [{ "type": "collection_item" }, { "type": "collection_item" }, { "type": "collection_item" }]
+      "blocks": [
+        {
+          "type": "collection_item"
+        },
+        {
+          "type": "collection_item"
+        },
+        {
+          "type": "collection_item"
+        }
+      ]
     }
   ]
 }
