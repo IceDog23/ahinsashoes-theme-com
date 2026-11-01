@@ -724,7 +724,8 @@
       "multiple_rates": "Znaleźliśmy [number_of_rates] opcji wysyłki dostępnych dla [address], zaczynając od [rate].",
       "one_rate": "Znaleźliśmy jedną dostępną opcję wysyłki dla [address].",
       "no_rates": "Przepraszamy, nie wysyłamy zamówień do tego miejsca docelowego.",
-      "errors": "Wystąpiły pewne błędy:"
+      "errors": "Wystąpiły pewne błędy:",
+      "rate_value": "[rate_title] za [rate]"
     },
     "shipping_threshold": {
       "text_1_html": "Darmowa dostawa dla wszystkich zamówień powyżej <span class=\"t4s-cr\">{{ money }}</span>",
@@ -736,7 +737,7 @@
       "close_cart": "Zamknij koszyk",
       "empty": "Twój koszyk jest pusty.",
       "subtotal": "Suma częściowa:",
-      "checkout": "Sprawdź",
+      "checkout": "Przejdź do kasy",
       "view": "Zobacz koszyk",
       "title_recommendations": "Może Ci się również spodobać"
     },
@@ -751,7 +752,7 @@
       "empty": "Twój koszyk jest pusty.",
       "empty_html": "Zanim przejdziesz do kasy, musisz dodać produkty do koszyka.<br> Wiele interesujących produktów znajdziesz na naszej stronie „Sklep”.",
       "subtotal": "Suma częściowa:",
-      "checkout": "Sprawdź",
+      "checkout": "Przejdź do kasy",
       "update": "Aktualizuj koszyk",
       "split_order_label": "Podziel moje zamówienie na więcej niż jedną przesyłkę",
       "split_order_text": "Niektóre z wybranych przez Ciebie butów są niedostępne. Zazwyczaj czekamy, aż otrzymamy wszystkie produkty z zamówienia, i wysyłamy je w jednej paczce. Jeśli nie możesz czekać, możemy podzielić przesyłkę."
