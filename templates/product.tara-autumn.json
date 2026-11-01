@@ -351,7 +351,6 @@
     },
     "custom_liquid_eK4Cga": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "001 - A/B product description",
       "settings": {
         "custom_liquid": "<div id=\"ahinsa-product-description\" class=\"rte\" style=\"max-width:900px;margin:0 auto;scroll-margin-top:120px;\">{{ product.description }}</div>",
