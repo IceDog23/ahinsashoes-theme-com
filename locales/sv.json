@@ -249,7 +249,24 @@
   "search": {
     "general": {
       "sort_button": "Sortera",
-      "filter_button": "Filtrera"
+      "filter_button": "Filtrera",
+      "title": "Sök på vår webbplats",
+      "heading": {
+        "one": "Sökresultat",
+        "other": "Sökresultat"
+      },
+      "results_others": "Resultat från artikel, sida",
+      "quick_search": "Snabbsökning:",
+      "suggestions": "Förslag:",
+      "close_search": "Stäng sökning",
+      "suggest": "Behöver du lite inspiration?",
+      "placeholder": "Sök",
+      "placeholder_products": "Sök efter produkter",
+      "submit": "sök",
+      "all_categories": "Alla kategorier",
+      "no_results": "Inga matchningar hittades",
+      "no_product_results": "Inga produkter matchade ditt urval.",
+      "sort_by_label": "Sortera efter:"
     },
     "search_for": "Sök efter ”{{ terms }}”",
     "pagination": {
@@ -507,5 +524,116 @@
     "signup_form_success": "Vi skickar ett mejl till dig precis innan vi öppnar!",
     "admin_link_html": "Är du butiksägaren? <a href=\"/admin\" class=\"text-link\">Logga in här</a>",
     "password_link": "Logga in med lösenord"
+  },
+  "products": {
+    "product": {
+      "product_sku": "Artikelnummer:",
+      "product_barcode": "Streckkod:",
+      "na": "Ej tillämpligt",
+      "available": "Tillgänglighet:",
+      "in_stock_status": "I lager",
+      "pre_oder_status": "Förboka",
+      "sold_out_status": "Slut i lager",
+      "in_store_html": "finns i butik.",
+      "last_items_status": "Endast några få i lager",
+      "product_category": "Kategorier:",
+      "product_tag": "Taggar:",
+      "product_size_guide": "Storleksguide",
+      "delivery_return": "Leverans & Retur",
+      "ask_question": "Ställ en fråga",
+      "available_date": "Tillgänglig i",
+      "alt": "Produktbild på barfotaskor från Ahinsa",
+      "pre_order_alt": "Produktsaldo",
+      "delay_payment_alt": "Twisto",
+      "pay_after_trying": "Betala efter att du har provat dem",
+      "notify_me": "Meddela mig"
+    },
+    "product_card": {
+      "read_more": "Läs mer",
+      "view": "Visa produkter",
+      "quick_view": "Snabbvy",
+      "quick_shop": "Snabbköp",
+      "quick_shop_text": {
+        "replace_item_atc": "Byt ut föremål",
+        "replace_item_pre": "Byt ut föremål"
+      },
+      "select_option": "Välj alternativ",
+      "swatch_limit": "Visa fler färger",
+      "swatch_limit_less": "Visa färre färger",
+      "offer_end_in": "Erbjudandet slutar om:",
+      "countdown_text": {
+        "day": "Dag",
+        "day_plural": "Dagar",
+        "hr": "timme",
+        "hr_plural": "timmar",
+        "min": "min",
+        "min_plural": "minuter",
+        "sec": "sek",
+        "sec_plural": "sekunder"
+      },
+      "labels": {
+        "lbl_new": "Ny",
+        "lbl_sell_out": "Sälja slut",
+        "lbl_sale": "Rea",
+        "lbl_preorder": "Förbeställ",
+        "lbl_comming_soon": "Kommer snart",
+        "lbl_limited": "Begränsad upplaga",
+        "lbl_custom_1": "Redigerbar 1",
+        "lbl_custom_2": "Redigerbar 2"
+      }
+    },
+    "product_single": {
+      "countdown_text": {
+        "day": "Dag",
+        "day_plural": "Dagar",
+        "hr": "timme",
+        "hr_plural": "timmar",
+        "min": "min",
+        "min_plural": "minuter",
+        "sec": "sek",
+        "sec_plural": "sekunder"
+      },
+      "order_dayNames": "Söndag,Måndag,Tisdag,Onsdag,Torsdag,Fredag,Lördag",
+      "order_monthNames": "Januari,Februari,Mars,April,Maj,Juni,Juli,Augusti,September,Oktober,November,December",
+      "view_in_space": "Visa i ditt utrymme",
+      "view_in_space_label": "Visa i ditt utrymme, laddar objektet  i ett fönster för förstärkt verklighet",
+      "view_360": "360-graders produktvy",
+      "click_zoom": "Klicka för att förstora",
+      "will_not_ship_until_html": "Skickas inte förrän <span data-incoming-date>{{ date }}</span>",
+      "will_be_in_stock_after_html": "Lagerförs efter <span data-incoming-date>{{ date }}</span>"
+    },
+    "fbt": {
+      "title": "Köps ofta tillsammans",
+      "tt_price": "Totalpris:",
+      "add_tc": "Lägg till valda i varukorgen",
+      "this_item": "Denna artikel:"
+    },
+    "grouped": {
+      "tt_price": "Delsumma:"
+    },
+    "notify_stock": {
+      "trigger": "Meddela mig när produkten finns tillgänglig",
+      "title": "Registrera dig för att få en avisering när den här varan åter finns i lager.",
+      "email": "E-postadress",
+      "please": "Meddela mig när produkten finns tillgänglig.",
+      "success": "Tack! Vi meddelar dig när den här produkten blir tillgänglig!",
+      "button": "Meddela mig via e-post när den är tillgänglig"
+    },
+    "facets": {
+      "apply": "Ansök",
+      "clear": "Tydlig",
+      "clear_all": "Rensa alla",
+      "from": "Från",
+      "filter_and_sort": "Filtrera och sortera",
+      "filter_title": "Filtrera",
+      "title_price": "Pris",
+      "button_price": "Filtrera",
+      "results_with_count_html": {
+        "zero": "<span class=\"cp\">0</span> produkter hittades",
+        "one": "<span class=\"cp\">1</span> Produkt hittades",
+        "other": "<span class=\"cp\">{{ count }}</span> produkter hittades"
+      },
+      "clear_filter": "Rensa filter"
+    }
   }
 }
