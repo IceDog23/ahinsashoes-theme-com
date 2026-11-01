@@ -1,0 +1,165 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "checkout": {
+      "local_pickup": {
+        "stock_details": {
+          "in_stock": "I lager"
+        }
+      },
+      "split_delivery": {
+        "delivery_updated_toast": {
+          "shipping_only": "Din leverans har uppdaterats. {{shipping}}",
+          "removal_only": "Din leverans har uppdaterats. {{removal}}",
+          "shipping_and_removal": "Din leverans har uppdaterats. {{shipping}} {{removal}}",
+          "shipping": {
+            "one": "{{count}} artikel har flyttats till frakt.",
+            "other": "{{count}} artiklar har flyttats till frakt."
+          },
+          "removal": {
+            "one": "{{count}} objekt har tagits bort.",
+            "other": "{{count}} objekt har tagits bort."
+          }
+        }
+      }
+    }
+  },
+  "sections": {
+    "announcement": {
+      "label": "Tillkännagivande",
+      "close": "stäng"
+    },
+    "lookbook": {
+      "title": {
+        "product": "Produkt",
+        "text": "Text"
+      }
+    },
+    "countdown_text": {
+      "day": "Dag",
+      "day_plural": "Dagar",
+      "hr": "timme",
+      "hr_plural": "timmar",
+      "min": "min",
+      "min_plural": "minuter",
+      "sec": "sek",
+      "sec_plural": "sekunder"
+    },
+    "newsletter_form": {
+      "email_placeholder": "Din e-postadress",
+      "submit": "Prenumerera",
+      "subscribing": "Prenumererar...",
+      "confirmation": "Tack för att du prenumererar",
+      "error_exist": "E-postadressen används redan för ett annat konto"
+    },
+    "agree_mail": {
+      "conditions": "Du måste godkänna villkoren för att kunna registrera dig.",
+      "link_conditions_html": "Jag godkänner <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"t4s-text__link\">villkoren</a>.",
+      "link_conditions_emty": "Jag godkänner villkoren."
+    }
+  },
+  "general": {
+    "meta": {
+      "tags": "Taggad \"{{ tags }}\"",
+      "page": "Sida {{ page }}"
+    },
+    "aria": {
+      "close": "Stäng",
+      "back_to_top": "Tillbaka till toppen"
+    },
+    "popup": {
+      "close": "Stäng",
+      "close_esc": "Stäng (Esc)",
+      "loading": "Laddar...",
+      "pswp_share": "Dela",
+      "pswp_fs": "Växla helskärm",
+      "pswp_zoom": "Zooma in/ut",
+      "pswp_facebook": "Dela på Facebook",
+      "pswp_twitter": "Tweet",
+      "pswp_pinterest": "Fäst den",
+      "pswp_prev": "Föregående (pil vänster)",
+      "pswp_next": "Nästa (pil höger)",
+      "copy_text": "Kopiera till urklipp",
+      "copied": "Kopierat"
+    },
+    "newsletter_popup": {
+      "email_placeholder": "Din e-postadress",
+      "submit": "Prenumerera",
+      "subscribing": "Prenumererar...",
+      "confirmation": "Tack för att du prenumererar"
+    },
+    "pagination": {
+      "label": "Sidnumrering",
+      "page": "Sida {{ number }}",
+      "next": "Nästa",
+      "previous": "Föreg"
+    },
+    "carousel": {
+      "next": "Nästa",
+      "previous": "Föreg"
+    },
+    "breadcrumb": {
+      "home": "Hem"
+    },
+    "mobile_menu": {
+      "menu": "Meny",
+      "close": "Stäng meny, kategorier",
+      "categories": "Kategorier",
+      "wishlist": "Önskelista",
+      "compare": "jämför",
+      "search": "Sök",
+      "login_register": "Logga in / Registrera dig",
+      "my_account": "Mitt konto"
+    },
+    "sidebar": {
+      "open": "Öppna sidopanelen",
+      "close": "Stäng sidopanelen",
+      "title": "Sidofält",
+      "language": "Välj ditt språk",
+      "currency": "Välj din valuta"
+    },
+    "seo_title_collection_experts": "från EXPERTER - gratis byte",
+    "seo_title_collection_exchange": "- gratis byte",
+    "seo_title_collection_sale": "[rabatt upp till",
+    "seo_title_product_sale": "[REA]",
+    "seo_title_product_exchange": "- gratis byte",
+    "seo_title_blog": "Blogg om att gå i hälsosamma skor"
+  },
+  "socials": {
+    "share_fb": "Dela på Facebook",
+    "share_tw": "Dela på Twitter",
+    "share_em": "Dela via e-post",
+    "share_pr": "Dela på Pinterest",
+    "share_tu": "Dela på Tumblr",
+    "share_tl": "Dela på Telegram",
+    "share_wa": "Dela på WhatsApp",
+    "follow_fb": "Följ på Facebook",
+    "follow_tw": "Följ på Twitter",
+    "follow_it": "Följ på Instagram",
+    "follow_dr": "Följ oss på Dribbble",
+    "follow_ld": "Följ på LinkedIn",
+    "follow_pr": "Följ på Pinterest",
+    "follow_tu": "Följ på Tumblr",
+    "follow_yt": "Följ oss på YouTube",
+    "follow_vm": "Följ på Vimeo",
+    "follow_bh": "Följ på Behance",
+    "follow_sc": "Följ oss på Soundcloud",
+    "follow_tt": "Följ på TikTok",
+    "follow_sp": "Följ på Snapchat",
+    "follow_sptify": "Följ på Spotify",
+    "follow_threads": "Följ oss på Threads"
+  },
+  "accessibility": {
+    "skip_to_text": "Hoppa till innehåll",
+    "skip_to_product_info": "Hoppa till produktinformation",
+    "close": "Stäng"
+  }
+}
