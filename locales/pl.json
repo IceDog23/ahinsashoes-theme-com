@@ -285,5 +285,89 @@
     "signup_form_success": "Wyślemy Ci e-mail tuż przed otwarciem!",
     "admin_link_html": "Czy jesteś właścicielem sklepu? <a href=\"/admin\" class=\"text-link\">Zaloguj się tutaj</a>",
     "password_link": "Wejdź używając hasła"
+  },
+  "wishlist_page": {
+    "meta": "Strona z listą życzeń",
+    "title": "Lista życzeń",
+    "empty": "Lista życzeń jest pusta.",
+    "empty_html": "Nie masz jeszcze żadnych produktów na liście życzeń.<br> Wiele interesujących produktów znajdziesz na stronie naszego „Sklepu”."
+  },
+  "compare_page": {
+    "meta": "Moja strona porównawcza",
+    "title": "Porównaj",
+    "empty": "LISTA DO PORÓWNANIA JEST PUSTA.",
+    "empty_html": "Brak produktów dodanych do listy porównawczej. Aby porównać produkty, musisz najpierw dodać je do listy.<br> Wiele interesujących produktów znajdziesz na naszej stronie „Sklep”.",
+    "remove": "Usuń",
+    "in_stock": "Dostępny",
+    "outofstock": "Brak w magazynie"
+  },
+  "compare_popup": {
+    "title": "Porównaj produkty",
+    "close": "Zamknij",
+    "remove": "Usuń tę pozycję",
+    "clear": "Wyczyść wszystko",
+    "button": "Porównaj",
+    "count": {
+      "zero": "produkty",
+      "one": "produkt",
+      "other": "produkty"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Zobacz informacje o sklepie",
+      "check_other_stores": "Sprawdź dostępność w innych sklepach",
+      "pick_up_available": "Możliwy odbiór osobisty",
+      "pick_up_currently_unavailable": "Odbiór osobisty jest obecnie niedostępny",
+      "pick_up_available_at_html": "Odbiór dostępny w <strong>{{ location_name }}</strong>",
+      "pick_up_unavailable_at_html": "Odbiór aktualnie niedostępny w <strong>{{ location_name }}</strong>",
+      "check_map": "Sprawdź to na Google Maps"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "subtext": "Twoja karta podarunkowa",
+      "gift_card_code": "Kod karty podarunkowej",
+      "disabled": "Wyłączony",
+      "expired": "Wygasło dnia {{ expiry }}",
+      "active": "Wygasa: {{ expiry }}",
+      "redeem_html": "Użyj tego kodu przy kasie, aby zrealizować swoją kartę podarunkową o wartości {{ value }}",
+      "shop_link": "Rozpocznij zakupy",
+      "print": "Wydrukuj tę kartę podarunkową",
+      "remaining_html": "{{ balance }} pozostało",
+      "add_to_apple_wallet": "Dodaj do Apple Wallet",
+      "qr_image_alt": "Kod QR — zeskanuj, aby zrealizować kartę podarunkową",
+      "copy_code": "Skopiuj kod",
+      "copy_code_success": "Kod został pomyślnie skopiowany"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Chciałbym wysłać to jako prezent",
+      "expanded": "Rozszerzony formularz odbiorcy karty podarunkowej",
+      "collapsed": "Formularz odbiorcy karty podarunkowej zwinięty",
+      "email_label": "Adres e-mail odbiorcy",
+      "email_label_optional_for_no_js_behavior": "Adres e-mail odbiorcy (opcjonalnie)",
+      "email": "E-mail",
+      "name_label": "Imię odbiorcy (opcjonalnie)",
+      "name": "Imię",
+      "message_label": "Wiadomość (opcjonalne)",
+      "message": "Wiadomość",
+      "max_characters": "{{ max_chars }} znaków maks.",
+      "send_on": "RRRR-MM-DD",
+      "send_on_label": "Prześlij dalej (opcjonalne)"
+    }
+  },
+  "onboarding": {
+    "product_title": "Nazwa Twojego produktu",
+    "product_description": "W tym miejscu możesz opisać szczegóły swojego produktu. Poinformuj klientów o wyglądzie, fakturze i stylu produktu. Dodaj informacje o kolorze, użytych materiałach, rozmiarze oraz miejscu produkcji.",
+    "collection_title": "Nazwa Twojej kolekcji",
+    "blog_title": "Tytuł Twojego posta",
+    "blog_excerpt": "Twój sklep nie opublikował jeszcze żadnych wpisów na blogu. Blog może służyć do informowania o premierach nowych produktów, udzielania porad lub udostępniania innych aktualności, którymi chcesz podzielić się z klientami. Możesz zajrzeć na blog e-commerce Shopify, aby znaleźć inspirację i porady dla własnego sklepu oraz bloga.",
+    "blog_author": "Imię i nazwisko autora",
+    "no_content": "Ta sekcja nie zawiera obecnie żadnej zawartości. Dodaj zawartość do tej sekcji, używając paska bocznego."
+  },
+  "date_formats": {
+    "month": "%B"
   }
 }
