@@ -245,5 +245,147 @@
   },
   "date_formats": {
     "month": "%B"
+  },
+  "search": {
+    "general": {
+      "sort_button": "Sortera",
+      "filter_button": "Filtrera"
+    },
+    "search_for": "Sök efter ”{{ terms }}”",
+    "pagination": {
+      "view_all": "Visa alla",
+      "load_more": "Ladda fler",
+      "load_prev": "Ladda föregående",
+      "bar_with_count_html": "Du har visat <span data-current-bar>{{ current_count }}</span> av {{ total_count }} produkter"
+    },
+    "results_with_term": {
+      "zero": "Sökresultat för: ”{{ terms }}”",
+      "one": "Sökresultat för: ”{{ terms }}”",
+      "other": "Sökresultat för: “{{ terms }}”"
+    },
+    "results_with_count_and_term": {
+      "zero": "Sökresultat för: ”{{ terms }}”",
+      "one": "{{ count }} sökresultat för: “{{ terms }}”",
+      "other": "{{ count }} sökresultat för: “{{ terms }}”"
+    }
+  },
+  "cart": {
+    "general": {
+      "item_cart": {
+        "zero": "artiklar",
+        "one": "artikel",
+        "other": "artiklar"
+      },
+      "cookies_required": "Aktivera cookies för att använda varukorgen",
+      "taxes_and_shipping_at_checkout": "Skatter och frakt beräknas i kassan",
+      "taxes_and_shipping_policy_at_checkout_html": "<p>Moms och <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">frakt</a> beräknas i kassan</p>",
+      "taxes_included_but_shipping_at_checkout": "Inklusive skatt och frakt beräknas i kassan",
+      "taxes_included_and_shipping_policy_html": "Moms ingår. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">Frakt</a> beräknas i kassan.",
+      "taxes_discounts_and_shipping_at_checkout": "Skatt, frakt och rabattkoder beräknas i kassan",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Skatter, <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">frakt</a> och rabattkoder beräknas i kassan",
+      "taxes_included_discounts_but_shipping_at_checkout": "Moms inkluderat. Frakt- och rabattkoder beräknas i kassan",
+      "taxes_included_discounts_and_shipping_policy_html": "Skatten inkluderad. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">Frakt</a> och rabattkoder beräknas i kassan.",
+      "terms_and_conditions_html": "Jag godkänner <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" target=\"_blank\">villkoren</a>.",
+      "terms_and_conditions": "Jag godkänner villkoren.",
+      "edit_item": "Redigera det här objektet",
+      "remove_item": "Ta bort det här objektet",
+      "recurring_mess": "Återkommande leverans varje {{ frequency }} {{ frequency_unit }}. Ändra eller avbryt när som helst",
+      "agree_checkout": "Du måste godkänna försäljningsvillkoren för att slutföra ditt köp."
+    },
+    "tool": {
+      "save": "Spara",
+      "cancel": "Avbryt",
+      "note": "Lägg till ordernotering",
+      "edit_note": "Redigera ordernotering",
+      "placeholder_note": "Hur kan vi hjälpa dig?",
+      "gift_wrap_html": "<span class=\"cd\">Vill du ha en presentinslagning?</span> Endast {{ money }}",
+      "add_gift_wrap": "Lägg till presentförpackning",
+      "coupon": "Kupong:",
+      "add_coupon": "Lägg till en kupong",
+      "info_coupon": "Rabattkoden fungerar på kassasidan",
+      "placeholder_coupon": "Rabattkod",
+      "split_order": "Dela upp beställningen i flera leveranser",
+      "discount_code_label": "Lägg till rabattkod i nästa steg"
+    },
+    "shipping_estimator": {
+      "title": "Beräkna frakt",
+      "country": "Land",
+      "province": "Provins",
+      "zip_code": "Postnummer",
+      "estimate": "Uppskatta",
+      "multiple_rates": "Vi hittade [number_of_rates] fraktpriser tillgängliga för [address], från och med [rate].",
+      "one_rate": "Vi hittade ett fraktpris tillgängligt för [address].",
+      "no_rates": "Tyvärr, vi levererar inte till denna destination.",
+      "errors": "Det finns några fel:"
+    },
+    "shipping_threshold": {
+      "text_1_html": "Fri frakt på alla beställningar över <span class=\"t4s-cr\">{{ money }}</span>",
+      "text_2_html": "Nästan där, lägg till <span class=\"t4s-cr\">{{ money }}</span> till för att få <span class=\"t4s-ch\">FRI FRAKT!</span>",
+      "text_3": "[Grattis!] Du får fri frakt!"
+    },
+    "mini_cart": {
+      "title": "Varukorg",
+      "close_cart": "Stäng varukorgen",
+      "empty": "Din varukorg är tom.",
+      "subtotal": "Delsumma:",
+      "checkout": "Gå till kassan",
+      "view": "Visa kundvagn",
+      "title_recommendations": "Du kanske också gillar"
+    },
+    "cart_page": {
+      "title": "Varukorg",
+      "label": {
+        "product": "Produkt",
+        "price": "Pris",
+        "quantity": "Antal",
+        "total": "Totalt"
+      },
+      "empty": "Din varukorg är tom.",
+      "empty_html": "Innan du fortsätter till kassan måste du lägga till produkter i din varukorg.<br> Du hittar många intressanta produkter på vår \"Shop\"-sida.",
+      "subtotal": "Delsumma:",
+      "checkout": "Gå till kassan",
+      "update": "Uppdatera varukorg",
+      "split_order_label": "Dela upp min beställning i mer än ett paket",
+      "split_order_text": "Vissa av skorna du valde är slut i lager. Vi väntar vanligtvis tills vi har alla varor i beställningen och skickar allt i 1 paket. Om du inte kan vänta delar vi upp leveransen åt dig."
+    }
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "name": "Ditt namn (obligatoriskt)",
+        "email": "Din e-post (obligatorisk)",
+        "phone": "Ditt telefonnummer",
+        "message": "Ditt meddelande",
+        "submit": "Skicka",
+        "post_success": "Tack för att du kontaktar oss. Vi återkommer till dig så snart som möjligt.",
+        "error_heading": "Vänligen justera följande:"
+      }
+    },
+    "404": {
+      "subtext": "Ledsen! Sidan du letar efter kan inte hittas.",
+      "link_html": "Gå tillbaka till <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" rel=\"home\">hemsidan</a>"
+    }
+  },
+  "customer": {
+    "form": {
+      "error_heading": "Vänligen justera följande:"
+    },
+    "account": {
+      "title": "MITT KONTO",
+      "make_order": "Gör din första beställning",
+      "none": "Du har inte lagt några beställningar än.",
+      "hello_html": "Hej <strong>{{ name }}</strong> (inte <strong>{{ name }}</strong>? <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Logga ut</a>)",
+      "manage_subs": "Hantera prenumerationer",
+      "dashboard": "Instrumentpanel",
+      "wishlist": "Önskelista",
+      "details": "Kontouppgifter:",
+      "log_out": "Logga ut",
+      "name": "Namn:",
+      "email": "E-post:",
+      "address": "Adress:",
+      "address_2": "Adress 2:",
+      "country": "Land:",
+      "zip": "Postnummer:"
+    }
   }
 }
