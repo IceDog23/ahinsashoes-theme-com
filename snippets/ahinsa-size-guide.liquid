@@ -1,0 +1,47 @@
+{% doc %}
+  Renders the existing localized size chart assigned by the product sizing tag.
+  @param {product} product - The product whose size chart is shown.
+{% enddoc %}
+{%- liquid
+  assign chart_handle = ''
+  assign chart_matches = 0
+  assign chart_handles = 'sizing-table-10-fashion,sizing-table-11-comfort-insoles,sizing-table-12,sizing-table-2-hava,sizing-table-3,sizing-table-3-bindu-2,sizing-table-3-slipon,sizing-table-4' | split: ','
+  for chart_tag in product.tags
+    assign candidate = chart_tag
+    if chart_tag == 'sizing-table-11-comfort-stelky'
+      assign candidate = 'sizing-table-11-comfort-insoles'
+    endif
+    if chart_handles contains candidate
+      assign chart_handle = candidate
+      assign chart_matches = chart_matches | plus: 1
+    endif
+  endfor
+  assign chart_page = pages[chart_handle]
+-%}
+{%- if chart_matches == 1 and chart_page.content != blank -%}
+  <details class="ahinsa-size-guide" data-ahinsa-size-chart="{{ chart_handle | escape }}">
+    <summary>{{ 'products.product.product_size_guide' | t }}</summary>
+    <div class="ahinsa-size-guide__content rte" tabindex="0" role="region" aria-label="{{ 'products.product.product_size_guide' | t | escape }}">
+      {{ chart_page.content | replace: 'https://ahinsashoes.com/', routes.root_url }}
+    </div>
+  </details>
+{%- endif -%}
+{% stylesheet %}
+  .ahinsa-size-guide { margin: 0 0 18px; border: 1px solid #d8d8d8; border-radius: 4px; background: #fff; color: #222; }
+  .ahinsa-size-guide > summary { cursor: pointer; padding: 14px 16px; font-weight: 600; line-height: 1.4; min-height: 48px; display: flex; justify-content: space-between; align-items: center; list-style: none; }
+  .ahinsa-size-guide > summary::-webkit-details-marker { display: none; }
+  .ahinsa-size-guide > summary::after { content: '+'; font-size: 22px; line-height: 1; }
+  .ahinsa-size-guide[open] > summary::after { content: '−'; }
+  .ahinsa-size-guide ~ .t4s-product-form__variants .ks-chart-container { display: none !important; }
+  .ahinsa-size-guide[data-ahinsa-size-chart="sizing-table-12"] .ahinsa-size-guide__content > h2:first-child { display: none; }
+  .ahinsa-size-guide > summary:focus-visible, .ahinsa-size-guide__content:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+  .ahinsa-size-guide[open] > summary { border-bottom: 1px solid #e5e5e5; }
+  .ahinsa-size-guide__content { padding: 16px; max-height: 65vh; overflow: auto; overscroll-behavior: contain; font-size: 14px; line-height: 1.6; }
+  .ahinsa-size-guide__content h2 { font-size: 18px; line-height: 1.35; margin: 0 0 12px; }
+  .ahinsa-size-guide__content .two_tables { display: block; width: 100%; }
+  .ahinsa-size-guide__content .inside_table { float: none; width: 100%; max-width: 100%; margin-bottom: 16px; }
+  .ahinsa-size-guide__content table { width: 100% !important; height: auto !important; min-width: 300px; border-collapse: collapse; }
+  .ahinsa-size-guide__content th, .ahinsa-size-guide__content td { padding: 8px 6px; border: 1px solid #dedede; height: auto !important; }
+  .ahinsa-size-guide__content .table-headings { background: #f4f4f2; }
+  .ahinsa-size-guide__content a { text-decoration: underline; }
+{% endstylesheet %}
