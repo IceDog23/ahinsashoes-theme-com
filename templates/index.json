@@ -79,7 +79,8 @@
             "creative_name": "Hero Banner",
             "location_id": "homepage",
             "type": "select_promotion",
-            "hero_button": "Shop the sale >"
+            "hero_button": "Shop the sale >",
+            "hero_badge": "−33%"
           }
         },
         "1646035040fee424aa-1": {
@@ -97,28 +98,11 @@
             "type": "select_promotion",
             "hero_button": "From 135 EUR >"
           }
-        },
-        "1646035040fee424aa-2": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/ahinsa-insoles-clean-20261101.png",
-            "image_mob": "shopify://shop_images/ahinsa-insoles-clean-20261101.png",
-            "collection_title": "Active insoles",
-            "collection_link": "/pages/active-insoles",
-            "promotion_id": "promo_003",
-            "promotion_name": "Active insoles",
-            "creative_name": "Hero Banner",
-            "location_id": "homepage",
-            "type": "select_promotion",
-            "hero_button": "Discover more >"
-          }
         }
       },
       "block_order": [
-        "1646035040fee424aa-0",
         "1646035040fee424aa-1",
-        "1646035040fee424aa-2"
+        "1646035040fee424aa-0"
       ],
       "settings": {
         "design_heading": "1",
@@ -155,7 +139,8 @@
         "mg_mb": ",,,,",
         "pd_mb": ",,,,",
         "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}",
+        "hero_pair": true
       }
     },
     "164620932069107a3a": {
