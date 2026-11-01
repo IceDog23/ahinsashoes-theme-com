@@ -1,0 +1,165 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "checkout": {
+      "local_pickup": {
+        "stock_details": {
+          "in_stock": "Dostępny"
+        }
+      },
+      "split_delivery": {
+        "delivery_updated_toast": {
+          "shipping_only": "Twoja dostawa została zaktualizowana. {{shipping}}",
+          "removal_only": "Twoja dostawa została zaktualizowana. {{removal}}",
+          "shipping_and_removal": "Twoja dostawa została zaktualizowana. {{shipping}} {{removal}}",
+          "shipping": {
+            "one": "{{count}} przedmiot został przekazany do wysyłki.",
+            "other": "{{count}} elementy zostały przeniesione do wysyłki."
+          },
+          "removal": {
+            "one": "{{count}} element został usunięty.",
+            "other": "{{count}} elementy zostały usunięte."
+          }
+        }
+      }
+    }
+  },
+  "sections": {
+    "announcement": {
+      "label": "Ogłoszenie",
+      "close": "zamknij"
+    },
+    "lookbook": {
+      "title": {
+        "product": "Produkt",
+        "text": "Tekst"
+      }
+    },
+    "countdown_text": {
+      "day": "Dzień",
+      "day_plural": "Dni",
+      "hr": "godzina",
+      "hr_plural": "godziny",
+      "min": "min.",
+      "min_plural": "min.",
+      "sec": "sek",
+      "sec_plural": "sek."
+    },
+    "newsletter_form": {
+      "email_placeholder": "Twój adres e-mail",
+      "submit": "Subskrybuj",
+      "subscribing": "Subskrybowanie...",
+      "confirmation": "Dziękujemy za subskrypcję",
+      "error_exist": "Adres e-mail jest już przypisany do innego konta"
+    },
+    "agree_mail": {
+      "conditions": "Musisz zaakceptować regulamin, aby się zarejestrować.",
+      "link_conditions_html": "Zgadzam się z <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"t4s-text__link\">regulaminem</a>.",
+      "link_conditions_emty": "Zgadzam się z warunkami."
+    }
+  },
+  "general": {
+    "meta": {
+      "tags": "Oznaczono jako \"{{ tags }}\"",
+      "page": "Strona {{ page }}"
+    },
+    "aria": {
+      "close": "Zamknij",
+      "back_to_top": "Powrót na górę"
+    },
+    "popup": {
+      "close": "Zamknij",
+      "close_esc": "Zamknij (Esc)",
+      "loading": "Ładowanie...",
+      "pswp_share": "Udostępnij",
+      "pswp_fs": "Przełącz tryb pełnoekranowy",
+      "pswp_zoom": "Powiększ/pomniejsz",
+      "pswp_facebook": "Udostępnij na Facebooku",
+      "pswp_twitter": "Tweet",
+      "pswp_pinterest": "Przypnij to",
+      "pswp_prev": "Poprzedni (strzałka w lewo)",
+      "pswp_next": "Dalej (strzałka w prawo)",
+      "copy_text": "Kopiuj do schowka",
+      "copied": "Skopiowano"
+    },
+    "newsletter_popup": {
+      "email_placeholder": "Twój adres e-mail",
+      "submit": "Subskrybuj",
+      "subscribing": "Subskrybowanie...",
+      "confirmation": "Dziękujemy za subskrypcję"
+    },
+    "pagination": {
+      "label": "Stronicowanie",
+      "page": "Strona {{ number }}",
+      "next": "Następny",
+      "previous": "Poprzedni"
+    },
+    "carousel": {
+      "next": "Następny",
+      "previous": "Poprzedni"
+    },
+    "breadcrumb": {
+      "home": "Strona główna"
+    },
+    "mobile_menu": {
+      "menu": "Menu",
+      "close": "Zamknij menu, kategorie",
+      "categories": "Kategorie",
+      "wishlist": "Lista życzeń",
+      "compare": "porównaj",
+      "search": "Szukaj",
+      "login_register": "Zaloguj / Zarejestruj",
+      "my_account": "Moje konto"
+    },
+    "sidebar": {
+      "open": "Otwórz panel boczny",
+      "close": "Zamknij pasek boczny",
+      "title": "Pasek boczny",
+      "language": "Wybierz język",
+      "currency": "Wybierz walutę"
+    },
+    "seo_title_collection_experts": "od EKSPERTÓW - bezpłatna wymiana",
+    "seo_title_collection_exchange": "- bezpłatna wymiana",
+    "seo_title_collection_sale": "[rabat do",
+    "seo_title_product_sale": "[WYPRZEDAŻ]",
+    "seo_title_product_exchange": "- bezpłatna wymiana",
+    "seo_title_blog": "Blog zdrowego chodzenia"
+  },
+  "socials": {
+    "share_fb": "Udostępnij na Facebooku",
+    "share_tw": "Udostępnij na Twitterze",
+    "share_em": "Udostępnij e-mailem",
+    "share_pr": "Udostępnij na Pinterest",
+    "share_tu": "Udostępnij na Tumblr",
+    "share_tl": "Udostępnij na Telegramie",
+    "share_wa": "Udostępnij na WhatsAppie",
+    "follow_fb": "Obserwuj na Facebooku",
+    "follow_tw": "Obserwuj na Twitterze",
+    "follow_it": "Obserwuj na Instagramie",
+    "follow_dr": "Obserwuj na Dribbble",
+    "follow_ld": "Obserwuj na LinkedIn",
+    "follow_pr": "Obserwuj na Pinterest",
+    "follow_tu": "Obserwuj na Tumblr",
+    "follow_yt": "Obserwuj na YouTube",
+    "follow_vm": "Obserwuj na Vimeo",
+    "follow_bh": "Obserwuj na Behance",
+    "follow_sc": "Obserwuj na SoundCloud",
+    "follow_tt": "Obserwuj na TikToku",
+    "follow_sp": "Obserwuj na Snapchacie",
+    "follow_sptify": "Obserwuj na Spotify",
+    "follow_threads": "Obserwuj na Threads"
+  },
+  "accessibility": {
+    "skip_to_text": "Przejdź do treści",
+    "skip_to_product_info": "Przejdź do informacji o produkcie",
+    "close": "Zamknij"
+  }
+}
