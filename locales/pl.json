@@ -161,5 +161,129 @@
     "skip_to_text": "Przejdź do treści",
     "skip_to_product_info": "Przejdź do informacji o produkcie",
     "close": "Zamknij"
+  },
+  "customer": {
+    "account": {
+      "phone": "Telefon:",
+      "company": "Firma:"
+    },
+    "menu": {
+      "dashboard": "Panel nawigacyjny",
+      "addresses": "Adresy",
+      "logout": "Wyloguj"
+    },
+    "activate_account": {
+      "title": "Aktywuj konto",
+      "subtext": "Utwórz hasło, aby aktywować swoje konto.",
+      "password": "Hasło",
+      "password_confirm": "Potwierdź hasło",
+      "submit": "Aktywuj konto",
+      "cancel": "Odrzuć zaproszenie"
+    },
+    "addresses": {
+      "title": "Adresy",
+      "default": "Domyślny",
+      "add_new": "Dodaj nowy adres",
+      "edit_address": "Edytuj adres",
+      "first_name": "Imię",
+      "last_name": "Nazwisko",
+      "company": "Firma",
+      "address1": "Adres",
+      "address2": "Apartament, apartament typu suite itp.",
+      "city": "Miasto",
+      "country": "Kraj/region",
+      "province": "Prowincja",
+      "zip": "Kod pocztowy",
+      "phone": "Telefon",
+      "set_default": "Ustaw jako adres domyślny",
+      "add": "Dodaj adres",
+      "update": "Zaktualizuj adres",
+      "cancel": "Anuluj",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "delete_confirm": "Czy na pewno chcesz usunąć ten adres?"
+    },
+    "login": {
+      "title": "ZALOGUJ SIĘ",
+      "create_account": "Nowy klient? Utwórz konto",
+      "email": "E-mail",
+      "password": "Hasło",
+      "forgot_password": "Nie pamiętasz hasła?",
+      "submit": "Zaloguj się",
+      "sign_in": "Zaloguj się",
+      "guest_title": "Kontynuuj jako gość",
+      "guest_continue": "Kontynuuj"
+    },
+    "orders": {
+      "title": "Historia zamówień:",
+      "order_number": "Zamówienie",
+      "order_number_link": "Numer zamówienia {{ number }}",
+      "date": "Data",
+      "payment_status": "Status płatności",
+      "fulfillment_status": "Status realizacji",
+      "total": "Suma",
+      "none": "Nie złożyłeś jeszcze żadnych zamówień."
+    },
+    "order": {
+      "title": "Zamów {{ name }}",
+      "date_html": "Umieszczono dnia {{ date }}",
+      "cancelled_html": "Zamówienie anulowane dnia {{ date }}",
+      "cancelled_reason": "Przyczyna: {{ reason }}",
+      "billing_address": "Adres do faktury",
+      "payment_status": "Status płatności",
+      "shipping_address": "Adres dostawy",
+      "fulfillment_status": "Status realizacji",
+      "discount": "Rabat",
+      "shipping": "Wysyłka",
+      "tax": "Podatek",
+      "product": "Produkt",
+      "sku": "SKU",
+      "price": "Cena",
+      "quantity": "Ilość",
+      "total": "Suma",
+      "fulfilled_at_html": "Zrealizowano {{ date }}",
+      "subtotal": "Suma częściowa",
+      "track_shipment": "Śledź przesyłkę",
+      "gift_note": "Wiadomość do prezentu",
+      "note": "Specjalne instrukcje dla sprzedawcy"
+    },
+    "recover_password": {
+      "title": "Zresetuj swoje hasło",
+      "email": "Adres e-mail",
+      "submit": "Zresetuj hasło",
+      "save": "Zapisz",
+      "cancel": "Anuluj",
+      "subtext": "Nie pamiętasz hasła? Wpisz swój adres e-mail. Otrzymasz wiadomość z linkiem do utworzenia nowego hasła.",
+      "success": "Wysłaliśmy Ci wiadomość e-mail z linkiem do aktualizacji hasła.",
+      "content_success": "Wiadomość z linkiem do resetowania hasła została wysłana na adres e-mail przypisany do Twojego konta, jednak jej dostarczenie do skrzynki odbiorczej może potrwać kilka minut. Odczekaj co najmniej 10 minut, zanim spróbujesz ponownie zresetować hasło."
+    },
+    "reset_password": {
+      "title": "Zresetuj hasło do konta",
+      "subtext": "Wprowadź nowe hasło dla {{ email }}",
+      "password": "Hasło",
+      "password_confirm": "Potwierdź hasło",
+      "submit": "Zresetuj hasło"
+    },
+    "register": {
+      "login_here": "Masz już konto? Zaloguj się tutaj",
+      "title": "Zarejestruj się",
+      "first_name": "Imię",
+      "last_name": "Nazwisko",
+      "email": "E-mail",
+      "password": "Hasło",
+      "submit": "Zarejestruj się",
+      "privacy_policy": "Twoje dane osobowe będą wykorzystywane do obsługi Twojej aktywności na tej stronie, zarządzania dostępem do Twojego konta oraz do innych celów opisanych w naszej polityce prywatności.",
+      "privacy_policy_html": "Państwa dane osobowe będą wykorzystywane do obsługi Państwa konta na tej witrynie, zarządzania dostępem do niego oraz w innych celach opisanych w naszej <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">polityce prywatności</a>."
+    }
+  },
+  "password_page": {
+    "opening_soon": "Otwarcie wkrótce",
+    "drawer_heading": "Wpisz hasło",
+    "login_form_password_label": "Hasło",
+    "login_form_password_placeholder": "Twoje hasło",
+    "login_form_submit": "Wejdź",
+    "signup_form_success": "Wyślemy Ci e-mail tuż przed otwarciem!",
+    "admin_link_html": "Czy jesteś właścicielem sklepu? <a href=\"/admin\" class=\"text-link\">Zaloguj się tutaj</a>",
+    "password_link": "Wejdź używając hasła"
   }
 }
