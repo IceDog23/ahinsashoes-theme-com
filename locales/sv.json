@@ -385,7 +385,127 @@
       "address": "Adress:",
       "address_2": "Adress 2:",
       "country": "Land:",
-      "zip": "Postnummer:"
+      "zip": "Postnummer:",
+      "phone": "Telefon:",
+      "company": "Företag:"
+    },
+    "menu": {
+      "dashboard": "Instrumentpanel",
+      "addresses": "Adresser",
+      "logout": "Logga ut"
+    },
+    "activate_account": {
+      "title": "Aktivera konto",
+      "subtext": "Skapa ditt lösenord för att aktivera ditt konto.",
+      "password": "Lösenord",
+      "password_confirm": "Bekräfta lösenord",
+      "submit": "Aktivera konto",
+      "cancel": "Tacka nej till inbjudan"
+    },
+    "addresses": {
+      "title": "Adresser",
+      "default": "Standard",
+      "add_new": "Lägg till en ny adress",
+      "edit_address": "Redigera adress",
+      "first_name": "Förnamn",
+      "last_name": "Efternamn",
+      "company": "Företag",
+      "address1": "Adress",
+      "address2": "Lägenhet, svit, etc.",
+      "city": "Stad",
+      "country": "Land/region",
+      "province": "Provins",
+      "zip": "Postnummer",
+      "phone": "Telefon",
+      "set_default": "Ange som standardadress",
+      "add": "Lägg till adress",
+      "update": "Uppdatera adress",
+      "cancel": "Avbryt",
+      "edit": "Redigera",
+      "delete": "Radera",
+      "delete_confirm": "Är du säker på att du vill ta bort den här adressen?"
+    },
+    "login": {
+      "title": "LOGGA IN",
+      "create_account": "Ny kund? Skapa ditt konto",
+      "email": "E-post",
+      "password": "Lösenord",
+      "forgot_password": "Glömt ditt lösenord?",
+      "submit": "Logga in",
+      "sign_in": "Logga in",
+      "guest_title": "Fortsätt som gäst",
+      "guest_continue": "Fortsätt"
+    },
+    "orders": {
+      "title": "Orderhistorik:",
+      "order_number": "Beställning",
+      "order_number_link": "Ordernummer {{ number }}",
+      "date": "Datum",
+      "payment_status": "Betalningsstatus",
+      "fulfillment_status": "Leveransstatus",
+      "total": "Totalt",
+      "none": "Du har inte lagt några beställningar än."
+    },
+    "order": {
+      "title": "Beställ {{ name }}",
+      "date_html": "Placerad den {{ date }}",
+      "cancelled_html": "Order annullerad den {{ date }}",
+      "cancelled_reason": "Anledning: {{ reason }}",
+      "billing_address": "Fakturaadress",
+      "payment_status": "Betalningsstatus",
+      "shipping_address": "Leveransadress",
+      "fulfillment_status": "Leveransstatus",
+      "discount": "Rabatt",
+      "shipping": "Frakt",
+      "tax": "Skatt",
+      "product": "Produkt",
+      "sku": "Artikelnummer",
+      "price": "Pris",
+      "quantity": "Antal",
+      "total": "Totalt",
+      "fulfilled_at_html": "Utförd {{ date }}",
+      "subtotal": "Delsumma",
+      "track_shipment": "Spåra försändelse",
+      "gift_note": "Presentmeddelande",
+      "note": "Särskilda instruktioner till säljaren"
+    },
+    "recover_password": {
+      "title": "Återställ ditt lösenord",
+      "email": "E-postadress",
+      "submit": "Återställ lösenord",
+      "save": "Spara",
+      "cancel": "Avbryt",
+      "subtext": "Glömt ditt lösenord? Ange din e-postadress. Du kommer att få en länk via e-post för att skapa ett nytt lösenord.",
+      "success": "Vi har skickat ett e-postmeddelande till dig med en länk för att uppdatera ditt lösenord.",
+      "content_success": "Ett mejl för återställning av lösenord har skickats till den e-postadress som finns registrerad för ditt konto, men det kan ta några minuter innan det dyker upp i din inkorg. Vänta minst 10 minuter innan du försöker återställa det igen."
+    },
+    "reset_password": {
+      "title": "Återställ lösenord för konto",
+      "subtext": "Ange ett nytt lösenord för {{ email }}",
+      "password": "Lösenord",
+      "password_confirm": "Bekräfta lösenord",
+      "submit": "Återställ lösenord"
+    },
+    "register": {
+      "login_here": "Har du redan ett konto? Logga in här",
+      "title": "Registrera",
+      "first_name": "Förnamn",
+      "last_name": "Efternamn",
+      "email": "E-post",
+      "password": "Lösenord",
+      "submit": "Registrera",
+      "privacy_policy": "Dina personuppgifter kommer att användas för att förbättra din upplevelse på webbplatsen, hantera din kontoinloggning samt för andra ändamål som beskrivs i vår integritetspolicy.",
+      "privacy_policy_html": "Dina personuppgifter kommer att användas för att förbättra din upplevelse på webbplatsen, hantera din kontoinloggning och för andra ändamål som beskrivs i vår <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"privacy-policy-link fwm\" target=\"_blank\">integritetspolicy</a>."
     }
+  },
+  "password_page": {
+    "opening_soon": "Öppnar snart",
+    "drawer_heading": "Ange lösenord",
+    "login_form_password_label": "Lösenord",
+    "login_form_password_placeholder": "Ditt lösenord",
+    "login_form_submit": "Ange",
+    "signup_form_success": "Vi skickar ett mejl till dig precis innan vi öppnar!",
+    "admin_link_html": "Är du butiksägaren? <a href=\"/admin\" class=\"text-link\">Logga in här</a>",
+    "password_link": "Logga in med lösenord"
   }
 }
