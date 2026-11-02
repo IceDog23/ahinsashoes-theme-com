@@ -1346,7 +1346,9 @@
                   </div>
 
                 {%- when '@app' -%}
-                  {%- render block -%}
+                  {%- unless block.id contains 'kiwi_size_chart' -%}
+                    {%- render block -%}
+                  {%- endunless -%}
                 {%- when 'complimentary_products' -%}
                   {%- if product.metafields['shopify--discovery--product_recommendation'].complementary_products.value
                       == blank
