@@ -17,12 +17,14 @@
     endif
   endfor
   assign chart_page = pages[chart_handle]
+  assign local_root = routes.root_url | append: '/' | replace: '//', '/'
+  assign localized_pages_prefix = 'href="' | append: local_root | append: 'pages/'
 -%}
 {%- if chart_matches == 1 and chart_page.content != blank -%}
   <details class="ahinsa-size-guide" data-ahinsa-size-chart="{{ chart_handle | escape }}">
     <summary>{{ 'products.product.product_size_guide' | t }}</summary>
     <div class="ahinsa-size-guide__content rte" tabindex="0" role="region" aria-label="{{ 'products.product.product_size_guide' | t | escape }}">
-      {{ chart_page.content | replace: 'https://ahinsashoes.com/', routes.root_url }}
+      {{ chart_page.content | replace: 'https://ahinsashoes.com/', '/' | replace: 'href="/pages/', localized_pages_prefix }}
     </div>
   </details>
 {%- endif -%}
