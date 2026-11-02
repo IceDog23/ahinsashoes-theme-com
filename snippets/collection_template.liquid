@@ -5,6 +5,15 @@
   assign image_mob = bk_stts.image_mob
   assign title = bk_stts.collection_title | default: collection.title
   assign collection_link = bk_stts.collection_link | default: collection.url
+  assign local_root = routes.root_url | append: '/' | replace: '//', '/'
+  assign link_path = collection_link | remove_first: 'https://ahinsashoes.com'
+  assign route_parts = link_path | split: '/'
+  assign internal_routes = 'collections,pages,products,blogs,policies' | split: ','
+  assign first_character = link_path | slice: 0
+  if first_character == '/' and internal_routes contains route_parts[1]
+    assign relative_path = link_path | remove_first: '/'
+    assign collection_link = local_root | append: relative_path
+  endif
   assign html = cur_html | split: ','
 -%}
 
