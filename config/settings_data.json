@@ -2082,7 +2082,7 @@
           "style": "1",
           "pos": "2",
           "enable_pr": true,
-          "enable_calc_ship": true,
+          "enable_calc_ship": false,
           "enable_note": false,
           "enable_rates": false,
           "enable_discount": false,
