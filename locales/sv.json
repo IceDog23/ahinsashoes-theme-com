@@ -347,7 +347,8 @@
       "multiple_rates": "Vi hittade [number_of_rates] fraktpriser tillgängliga för [address], från och med [rate].",
       "one_rate": "Vi hittade ett fraktpris tillgängligt för [address].",
       "no_rates": "Tyvärr, vi levererar inte till denna destination.",
-      "errors": "Det finns några fel:"
+      "errors": "Det finns några fel:",
+      "rate_value": "[rate_title] för [rate]"
     },
     "shipping_threshold": {
       "text_1_html": "Fri frakt på alla beställningar över <span class=\"t4s-cr\">{{ money }}</span>",
