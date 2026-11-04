@@ -34,7 +34,9 @@
           }
         }
       },
-      "block_order": ["61658221-289a-451c-832e-472e370318ff"],
+      "block_order": [
+        "61658221-289a-451c-832e-472e370318ff"
+      ],
       "settings": {
         "heading_fullwidth": false,
         "use_specify_image": true,
@@ -60,10 +62,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "help",
-            "image_icon": "shopify:\/\/shop_images\/ico-replace.png",
+            "image_icon": "shopify://shop_images/ico-replace.png",
             "icon": "las la-life-ring",
             "title": "LIGHTNING-FAST FREE EXCHANGE",
-            "text": "<p>We cover postage.<\/p>",
+            "text": "<p>We cover postage.</p>",
             "html": ""
           }
         },
@@ -71,10 +73,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "refesh",
-            "image_icon": "shopify:\/\/shop_images\/ico-best.png",
+            "image_icon": "shopify://shop_images/ico-best.png",
             "icon": "las la-undo-alt",
             "title": "LAST FOR MILLIONS OF STEPS",
-            "text": "<p>Because we sew them by hand from durable materials.<\/p>",
+            "text": "<p>Because we sew them by hand from durable materials.</p>",
             "html": ""
           }
         },
@@ -82,10 +84,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "door-lock",
-            "image_icon": "shopify:\/\/shop_images\/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
+            "image_icon": "shopify://shop_images/4_7a9f28c6-9943-44cb-b191-786df49e52a4.png",
             "icon": "las la-lock",
             "title": "PAY AFTER TRYING THEM ON",
-            "text": "<p>Defer payment by up to 30 days. Or split it into thirds. <\/p>",
+            "text": "<p>Defer payment by up to 30 days. Or split it into thirds. </p>",
             "html": ""
           }
         }
@@ -142,6 +144,7 @@
     },
     "cart_shipping_bar_WtaNX7": {
       "type": "cart_shipping-bar",
+      "disabled": true,
       "settings": {
         "layout": "t4s-container-wrap",
         "mg": ",,50px,",
@@ -162,7 +165,7 @@
           "type": "btn",
           "settings": {
             "title": "Back to the store",
-            "url": "\/",
+            "url": "/",
             "btn_icon": false,
             "button_style": "default",
             "btn_cl": "primary",
@@ -209,8 +212,8 @@
       ],
       "settings": {
         "enable_message": false,
-        "message": "<p><em>Does your order include several items, including pre-order shoes? We usually wait until everything is in stock and ship it in one parcel. <\/em><em><strong>If you want them sent in stages, please place a separate order for the pre-order shoes.<\/strong><\/em><\/p>",
-        "enable_calc_ship": true,
+        "message": "<p><em>Does your order include several items, including pre-order shoes? We usually wait until everything is in stock and ship it in one parcel. </em><em><strong>If you want them sent in stages, please place a separate order for the pre-order shoes.</strong></em></p>",
+        "enable_calc_ship": false,
         "enable_note": false,
         "enable_rates": false,
         "enable_discount": true,
