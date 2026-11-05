@@ -10,7 +10,17 @@
 {
   "collections": {
     "general": {
-      "find_your_size": "Trouvez votre pointure :"
+      "find_your_size": "Trouvez votre pointure :",
+      "no_matches": "Aucun produit ne correspond à votre sélection.",
+      "sort_by_label": "Trier par :",
+      "sort_button": "Trier",
+      "filter_button": "Filtrer"
+    },
+    "sort": {
+      "best_selling": "Meilleures ventes",
+      "created_descending": "Nouveautés",
+      "price_ascending": "Les moins chers",
+      "manual": "Les meilleurs"
     }
   },
   "general": {
@@ -41,7 +51,10 @@
     },
     "seo_title_collection_experts": " par des EXPERTS - échange gratuit",
     "seo_title_collection_exchange": " - échange gratuit",
-    "seo_title_collection_sale": " [réduction jusqu’à "
+    "seo_title_collection_sale": " [réduction jusqu’à ",
+    "breadcrumb": {
+      "home": "Accueil"
+    }
   },
   "products": {
     "badge": {
@@ -80,6 +93,9 @@
     },
     "facets": {
       "title_price": "Prix"
+    },
+    "breadcrumb": {
+      "home": "Accueil"
     }
   },
   "cart": {
@@ -138,5 +154,10 @@
   "accessibility": {
     "next_slide": "Faire glisser vers la droite",
     "previous_slide": "Faire glisser vers la gauche"
+  },
+  "blogs": {
+    "article": {
+      "by_author": "Par {{ author }}"
+    }
   }
 }

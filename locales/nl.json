@@ -10,7 +10,17 @@
 {
   "collections": {
     "general": {
-      "find_your_size": "Vind je maat:"
+      "find_your_size": "Vind je maat:",
+      "no_matches": "Er zijn geen producten gevonden die aan je selectie voldoen.",
+      "sort_by_label": "Sorteren op:",
+      "sort_button": "Sorteren",
+      "filter_button": "Filteren"
+    },
+    "sort": {
+      "best_selling": "Best verkocht",
+      "created_descending": "Nieuwste",
+      "price_ascending": "Goedkoopste",
+      "manual": "De beste"
     }
   },
   "general": {
@@ -41,7 +51,10 @@
     },
     "seo_title_collection_experts": " van EXPERTS - gratis omruilen",
     "seo_title_collection_exchange": " - gratis omruilen",
-    "seo_title_collection_sale": " [korting tot "
+    "seo_title_collection_sale": " [korting tot ",
+    "breadcrumb": {
+      "home": "Home"
+    }
   },
   "products": {
     "badge": {
@@ -80,6 +93,9 @@
     },
     "facets": {
       "title_price": "Prijs"
+    },
+    "breadcrumb": {
+      "home": "Home"
     }
   },
   "cart": {
@@ -138,5 +154,10 @@
   "accessibility": {
     "next_slide": "Naar rechts schuiven",
     "previous_slide": "Naar links schuiven"
+  },
+  "blogs": {
+    "article": {
+      "by_author": "Door {{ author }}"
+    }
   }
 }
