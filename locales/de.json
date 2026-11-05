@@ -12,5 +12,107 @@
     "general": {
       "find_your_size": "Finde deine Größe:"
     }
+  },
+  "general": {
+    "pagination": {
+      "label": "Seitennavigation",
+      "page": "Seite {{ number }}",
+      "next": "Weiter",
+      "previous": "Zurück"
+    },
+    "carousel": {
+      "next": "Weiter",
+      "previous": "Zurück"
+    }
+  },
+  "products": {
+    "badge": {
+      "pre_order": "Vorbestellung"
+    },
+    "product": {
+      "include_taxes": "Inklusive Steuern.",
+      "Please_choose_pr_options": "Bitte wähle die Produktoptionen aus, bevor du dieses Produkt in den Warenkorb legst.",
+      "choose_an_option": "Wähle eine Option",
+      "add_to_cart": "In den Warenkorb",
+      "pre_order": "Vorbestellen",
+      "unavailable": "Nicht verfügbar",
+      "sold_out": "Ausverkauft",
+      "notice_only_stock": "Nicht genügend Artikel verfügbar. Nur noch {{ max }} übrig.",
+      "available": "Verfügbarkeit:",
+      "in_stock_status": "Auf Lager",
+      "pre_oder_status": "Vorbestellung",
+      "sold_out_status": "Ausverkauft",
+      "in_store_html": "im Geschäft verfügbar.",
+      "last_items_status": "Nur noch wenige auf Lager",
+      "product_size_guide": "Größentabelle",
+      "delivery_return": "Versand & Rückgabe",
+      "ask_question": "Eine Frage stellen",
+      "alt": "Produktfotografie von Ahinsa-Barfußschuhen",
+      "pre_order_alt": "Lagerbestand",
+      "pay_after_trying": "Erst anprobieren, dann bezahlen",
+      "notify_me": "Benachrichtige mich"
+    },
+    "product_single": {
+      "click_zoom": "Zum Vergrößern klicken"
+    },
+    "grouped": {
+      "tt_price": "Zwischensumme:"
+    },
+    "facets": {
+      "title_price": "Preis"
+    }
+  },
+  "cart": {
+    "general": {
+      "item_cart": {
+        "zero": "Artikel",
+        "one": "Artikel",
+        "other": "Artikel"
+      },
+      "cookies_required": "Aktiviere Cookies, um den Warenkorb zu nutzen",
+      "taxes_and_shipping_at_checkout": "Steuern und Versand werden an der Kasse berechnet",
+      "taxes_included_but_shipping_at_checkout": "Steuern inklusive, Versand wird an der Kasse berechnet",
+      "taxes_discounts_and_shipping_at_checkout": "Steuern, Versand und Rabattcodes werden an der Kasse berechnet",
+      "taxes_included_discounts_but_shipping_at_checkout": "Steuern inklusive. Versand und Rabattcodes werden an der Kasse berechnet",
+      "edit_item": "Diesen Artikel bearbeiten",
+      "remove_item": "Diesen Artikel entfernen"
+    },
+    "tool": {
+      "save": "Speichern",
+      "cancel": "Abbrechen",
+      "note": "Bestellhinweis hinzufügen",
+      "edit_note": "Bestellhinweis bearbeiten",
+      "placeholder_note": "Wie können wir dir helfen?",
+      "coupon": "Gutschein:",
+      "add_coupon": "Gutschein hinzufügen",
+      "info_coupon": "Der Gutscheincode wird an der Kasse angewendet",
+      "placeholder_coupon": "Gutscheincode",
+      "split_order": "Bestellung auf mehrere Lieferungen aufteilen",
+      "discount_code_label": "Rabattcode im nächsten Schritt hinzufügen"
+    },
+    "mini_cart": {
+      "title": "Warenkorb",
+      "close_cart": "Warenkorb schließen",
+      "empty": "Dein Warenkorb ist leer.",
+      "subtotal": "Zwischensumme:",
+      "checkout": "Zur Kasse",
+      "view": "Warenkorb ansehen",
+      "title_recommendations": "Das könnte dir auch gefallen"
+    },
+    "cart_page": {
+      "title": "Warenkorb",
+      "label": {
+        "product": "Produkt",
+        "price": "Preis",
+        "quantity": "Menge",
+        "total": "Gesamt"
+      },
+      "empty": "Dein Warenkorb ist leer.",
+      "subtotal": "Zwischensumme:",
+      "checkout": "Zur Kasse",
+      "update": "Warenkorb aktualisieren",
+      "split_order_label": "Meine Bestellung auf mehrere Pakete aufteilen",
+      "split_order_text": "Einige der ausgewählten Schuhe sind nicht auf Lager. Normalerweise warten wir, bis alle Artikel der Bestellung verfügbar sind, und versenden nur 1 Paket. Wenn du nicht warten kannst, teilen wir die Lieferung für dich auf."
+    }
   }
 }

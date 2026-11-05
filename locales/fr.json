@@ -12,5 +12,107 @@
     "general": {
       "find_your_size": "Trouvez votre pointure :"
     }
+  },
+  "general": {
+    "pagination": {
+      "label": "Pagination",
+      "page": "Page {{ number }}",
+      "next": "Suivant",
+      "previous": "Précédent"
+    },
+    "carousel": {
+      "next": "Suivant",
+      "previous": "Précédent"
+    }
+  },
+  "products": {
+    "badge": {
+      "pre_order": "Précommande"
+    },
+    "product": {
+      "include_taxes": "Taxes incluses.",
+      "Please_choose_pr_options": "Veuillez sélectionner les options du produit avant de l’ajouter à votre panier.",
+      "choose_an_option": "Choisissez une option",
+      "add_to_cart": "Ajouter au panier",
+      "pre_order": "Précommander",
+      "unavailable": "Indisponible",
+      "sold_out": "Rupture de stock",
+      "notice_only_stock": "Quantité disponible insuffisante. Il n’en reste que {{ max }}.",
+      "available": "Disponibilité :",
+      "in_stock_status": "En stock",
+      "pre_oder_status": "Précommande",
+      "sold_out_status": "Rupture de stock",
+      "in_store_html": "disponible en magasin.",
+      "last_items_status": "Plus que quelques articles en stock",
+      "product_size_guide": "Guide des tailles",
+      "delivery_return": "Livraison et retours",
+      "ask_question": "Poser une question",
+      "alt": "Photo du produit : chaussures barefoot Ahinsa",
+      "pre_order_alt": "Stock du produit",
+      "pay_after_trying": "Payez après les avoir essayées",
+      "notify_me": "Me prévenir"
+    },
+    "product_single": {
+      "click_zoom": "Cliquer pour agrandir"
+    },
+    "grouped": {
+      "tt_price": "Sous-total :"
+    },
+    "facets": {
+      "title_price": "Prix"
+    }
+  },
+  "cart": {
+    "general": {
+      "item_cart": {
+        "zero": "articles",
+        "one": "article",
+        "other": "articles"
+      },
+      "cookies_required": "Activez les cookies pour utiliser le panier",
+      "taxes_and_shipping_at_checkout": "Taxes et frais de livraison calculés lors du paiement",
+      "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais de livraison calculés lors du paiement",
+      "taxes_discounts_and_shipping_at_checkout": "Taxes, frais de livraison et codes de réduction calculés lors du paiement",
+      "taxes_included_discounts_but_shipping_at_checkout": "Taxes incluses. Frais de livraison et codes de réduction calculés lors du paiement",
+      "edit_item": "Modifier cet article",
+      "remove_item": "Supprimer cet article"
+    },
+    "tool": {
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "note": "Ajouter une note à la commande",
+      "edit_note": "Modifier la note de commande",
+      "placeholder_note": "Comment pouvons-nous vous aider ?",
+      "coupon": "Code promo :",
+      "add_coupon": "Ajouter un code promo",
+      "info_coupon": "Le code promo sera appliqué lors du paiement",
+      "placeholder_coupon": "Code promo",
+      "split_order": "Diviser la commande en plusieurs livraisons",
+      "discount_code_label": "Ajoutez le code de réduction à l’étape suivante"
+    },
+    "mini_cart": {
+      "title": "Panier",
+      "close_cart": "Fermer le panier",
+      "empty": "Votre panier est vide.",
+      "subtotal": "Sous-total :",
+      "checkout": "Passer à la caisse",
+      "view": "Voir le panier",
+      "title_recommendations": "Vous aimerez aussi"
+    },
+    "cart_page": {
+      "title": "Panier",
+      "label": {
+        "product": "Produit",
+        "price": "Prix",
+        "quantity": "Quantité",
+        "total": "Total"
+      },
+      "empty": "Votre panier est vide.",
+      "subtotal": "Sous-total :",
+      "checkout": "Passer à la caisse",
+      "update": "Mettre à jour le panier",
+      "split_order_label": "Diviser ma commande en plusieurs colis",
+      "split_order_text": "Certaines chaussures que vous avez choisies sont en rupture de stock. Nous attendons habituellement de disposer de tous les articles de la commande pour n’envoyer qu’1 colis. Si vous ne pouvez pas attendre, nous diviserons l’envoi pour vous."
+    }
   }
 }

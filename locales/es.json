@@ -12,5 +12,107 @@
     "general": {
       "find_your_size": "Encuentra tu talla:"
     }
+  },
+  "general": {
+    "pagination": {
+      "label": "Paginación",
+      "page": "Página {{ number }}",
+      "next": "Siguiente",
+      "previous": "Anterior"
+    },
+    "carousel": {
+      "next": "Siguiente",
+      "previous": "Anterior"
+    }
+  },
+  "products": {
+    "badge": {
+      "pre_order": "Reserva"
+    },
+    "product": {
+      "include_taxes": "Impuestos incluidos.",
+      "Please_choose_pr_options": "Selecciona las opciones del producto antes de añadirlo al carrito.",
+      "choose_an_option": "Elige una opción",
+      "add_to_cart": "Añadir al carrito",
+      "pre_order": "Reservar",
+      "unavailable": "No disponible",
+      "sold_out": "Agotado",
+      "notice_only_stock": "No hay suficientes unidades disponibles. Solo quedan {{ max }}.",
+      "available": "Disponibilidad:",
+      "in_stock_status": "En stock",
+      "pre_oder_status": "Reserva",
+      "sold_out_status": "Agotado",
+      "in_store_html": "disponible en tienda.",
+      "last_items_status": "Quedan pocas unidades",
+      "product_size_guide": "Guía de tallas",
+      "delivery_return": "Envíos y devoluciones",
+      "ask_question": "Haz una pregunta",
+      "alt": "Foto del producto: zapatos barefoot de Ahinsa",
+      "pre_order_alt": "Existencias del producto",
+      "pay_after_trying": "Paga después de probártelos",
+      "notify_me": "Avisarme"
+    },
+    "product_single": {
+      "click_zoom": "Haz clic para ampliar"
+    },
+    "grouped": {
+      "tt_price": "Subtotal:"
+    },
+    "facets": {
+      "title_price": "Precio"
+    }
+  },
+  "cart": {
+    "general": {
+      "item_cart": {
+        "zero": "artículos",
+        "one": "artículo",
+        "other": "artículos"
+      },
+      "cookies_required": "Activa las cookies para usar el carrito",
+      "taxes_and_shipping_at_checkout": "Impuestos y envío calculados al finalizar la compra",
+      "taxes_included_but_shipping_at_checkout": "Impuestos incluidos y gastos de envío calculados al finalizar la compra",
+      "taxes_discounts_and_shipping_at_checkout": "Impuestos, envío y códigos de descuento calculados al finalizar la compra",
+      "taxes_included_discounts_but_shipping_at_checkout": "Impuestos incluidos. Envío y códigos de descuento calculados al finalizar la compra",
+      "edit_item": "Editar este artículo",
+      "remove_item": "Eliminar este artículo"
+    },
+    "tool": {
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "note": "Añadir una nota al pedido",
+      "edit_note": "Editar la nota del pedido",
+      "placeholder_note": "¿Cómo podemos ayudarte?",
+      "coupon": "Cupón:",
+      "add_coupon": "Añadir un cupón",
+      "info_coupon": "El código de cupón se aplicará al finalizar la compra",
+      "placeholder_coupon": "Código de cupón",
+      "split_order": "Dividir el pedido en varias entregas",
+      "discount_code_label": "Añade el código de descuento en el siguiente paso"
+    },
+    "mini_cart": {
+      "title": "Carrito",
+      "close_cart": "Cerrar carrito",
+      "empty": "Tu carrito está vacío.",
+      "subtotal": "Subtotal:",
+      "checkout": "Finalizar compra",
+      "view": "Ver carrito",
+      "title_recommendations": "También te puede gustar"
+    },
+    "cart_page": {
+      "title": "Carrito",
+      "label": {
+        "product": "Producto",
+        "price": "Precio",
+        "quantity": "Cantidad",
+        "total": "Total"
+      },
+      "empty": "Tu carrito está vacío.",
+      "subtotal": "Subtotal:",
+      "checkout": "Finalizar compra",
+      "update": "Actualizar carrito",
+      "split_order_label": "Dividir mi pedido en varios paquetes",
+      "split_order_text": "Algunos de los zapatos que has elegido están agotados. Normalmente esperamos hasta tener todos los artículos del pedido y enviamos solo 1 paquete. Si no puedes esperar, dividiremos el envío para ti."
+    }
   }
 }

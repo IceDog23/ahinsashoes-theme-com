@@ -12,5 +12,107 @@
     "general": {
       "find_your_size": "Vind je maat:"
     }
+  },
+  "general": {
+    "pagination": {
+      "label": "Paginering",
+      "page": "Pagina {{ number }}",
+      "next": "Volgende",
+      "previous": "Vorige"
+    },
+    "carousel": {
+      "next": "Volgende",
+      "previous": "Vorige"
+    }
+  },
+  "products": {
+    "badge": {
+      "pre_order": "Voorbestelling"
+    },
+    "product": {
+      "include_taxes": "Inclusief belasting.",
+      "Please_choose_pr_options": "Selecteer de productopties voordat je dit product aan je winkelwagen toevoegt.",
+      "choose_an_option": "Kies een optie",
+      "add_to_cart": "In winkelwagen",
+      "pre_order": "Voorbestellen",
+      "unavailable": "Niet beschikbaar",
+      "sold_out": "Uitverkocht",
+      "notice_only_stock": "Niet genoeg artikelen beschikbaar. Nog maar {{ max }} over.",
+      "available": "Beschikbaarheid:",
+      "in_stock_status": "Op voorraad",
+      "pre_oder_status": "Voorbestelling",
+      "sold_out_status": "Uitverkocht",
+      "in_store_html": "beschikbaar in de winkel.",
+      "last_items_status": "Nog maar enkele op voorraad",
+      "product_size_guide": "Maattabel",
+      "delivery_return": "Bezorging en retour",
+      "ask_question": "Stel een vraag",
+      "alt": "Productfoto van barefoot schoenen van Ahinsa",
+      "pre_order_alt": "Productvoorraad",
+      "pay_after_trying": "Betaal nadat je ze hebt gepast",
+      "notify_me": "Laat het me weten"
+    },
+    "product_single": {
+      "click_zoom": "Klik om te vergroten"
+    },
+    "grouped": {
+      "tt_price": "Subtotaal:"
+    },
+    "facets": {
+      "title_price": "Prijs"
+    }
+  },
+  "cart": {
+    "general": {
+      "item_cart": {
+        "zero": "artikelen",
+        "one": "artikel",
+        "other": "artikelen"
+      },
+      "cookies_required": "Schakel cookies in om de winkelwagen te gebruiken",
+      "taxes_and_shipping_at_checkout": "Belastingen en verzendkosten worden berekend bij het afrekenen",
+      "taxes_included_but_shipping_at_checkout": "Inclusief belasting; verzendkosten worden berekend bij het afrekenen",
+      "taxes_discounts_and_shipping_at_checkout": "Belastingen, verzendkosten en kortingscodes worden berekend bij het afrekenen",
+      "taxes_included_discounts_but_shipping_at_checkout": "Inclusief belasting. Verzendkosten en kortingscodes worden berekend bij het afrekenen",
+      "edit_item": "Dit artikel bewerken",
+      "remove_item": "Dit artikel verwijderen"
+    },
+    "tool": {
+      "save": "Opslaan",
+      "cancel": "Annuleren",
+      "note": "Bestelnotitie toevoegen",
+      "edit_note": "Bestelnotitie bewerken",
+      "placeholder_note": "Hoe kunnen we je helpen?",
+      "coupon": "Kortingscode:",
+      "add_coupon": "Kortingscode toevoegen",
+      "info_coupon": "De kortingscode wordt toegepast bij het afrekenen",
+      "placeholder_coupon": "Kortingscode",
+      "split_order": "Bestelling over meerdere leveringen verdelen",
+      "discount_code_label": "Voeg de kortingscode toe in de volgende stap"
+    },
+    "mini_cart": {
+      "title": "Winkelwagen",
+      "close_cart": "Winkelwagen sluiten",
+      "empty": "Je winkelwagen is leeg.",
+      "subtotal": "Subtotaal:",
+      "checkout": "Afrekenen",
+      "view": "Winkelwagen bekijken",
+      "title_recommendations": "Dit vind je misschien ook leuk"
+    },
+    "cart_page": {
+      "title": "Winkelwagen",
+      "label": {
+        "product": "Product",
+        "price": "Prijs",
+        "quantity": "Aantal",
+        "total": "Totaal"
+      },
+      "empty": "Je winkelwagen is leeg.",
+      "subtotal": "Subtotaal:",
+      "checkout": "Afrekenen",
+      "update": "Winkelwagen bijwerken",
+      "split_order_label": "Mijn bestelling over meerdere pakketten verdelen",
+      "split_order_text": "Sommige schoenen die je hebt gekozen zijn niet op voorraad. We wachten gewoonlijk totdat alle artikelen van de bestelling beschikbaar zijn en versturen slechts 1 pakket. Als je niet kunt wachten, splitsen we de zending voor je."
+    }
   }
 }
