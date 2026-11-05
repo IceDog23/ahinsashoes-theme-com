@@ -157,7 +157,8 @@
   },
   "blogs": {
     "article": {
-      "by_author": "Por {{ author }}"
+      "by_author": "Por {{ author }}",
+      "by": "Por"
     }
   }
 }
