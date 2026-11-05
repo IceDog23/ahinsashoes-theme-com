@@ -21,6 +21,12 @@
       "created_descending": "Más recientes",
       "price_ascending": "Más baratos",
       "manual": "Los mejores"
+    },
+    "pagination": {
+      "view_all": "Ver todo",
+      "load_more": "Cargar más",
+      "load_prev": "Cargar anteriores",
+      "bar_with_count_html": "Has visto <span data-current-bar>{{ current_count }}</span> de {{ total_count }} productos"
     }
   },
   "general": {
@@ -92,7 +98,20 @@
       "tt_price": "Subtotal:"
     },
     "facets": {
-      "title_price": "Precio"
+      "title_price": "Precio",
+      "apply": "Aplicar",
+      "clear": "Borrar",
+      "clear_all": "Borrar todo",
+      "from": "Desde",
+      "filter_and_sort": "Filtrar y ordenar",
+      "filter_title": "Filtros",
+      "button_price": "Filtrar",
+      "results_with_count_html": {
+        "zero": "<span class=\"cp\">0</span> productos encontrados",
+        "one": "<span class=\"cp\">1</span> producto encontrado",
+        "other": "<span class=\"cp\">{{ count }}</span> productos encontrados"
+      },
+      "clear_filter": "Borrar filtro"
     },
     "breadcrumb": {
       "home": "Inicio"

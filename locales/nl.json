@@ -21,6 +21,12 @@
       "created_descending": "Nieuwste",
       "price_ascending": "Goedkoopste",
       "manual": "De beste"
+    },
+    "pagination": {
+      "view_all": "Alles bekijken",
+      "load_more": "Meer laden",
+      "load_prev": "Vorige laden",
+      "bar_with_count_html": "Je hebt <span data-current-bar>{{ current_count }}</span> van {{ total_count }} producten bekeken"
     }
   },
   "general": {
@@ -92,7 +98,20 @@
       "tt_price": "Subtotaal:"
     },
     "facets": {
-      "title_price": "Prijs"
+      "title_price": "Prijs",
+      "apply": "Toepassen",
+      "clear": "Wissen",
+      "clear_all": "Alles wissen",
+      "from": "Vanaf",
+      "filter_and_sort": "Filteren en sorteren",
+      "filter_title": "Filters",
+      "button_price": "Filteren",
+      "results_with_count_html": {
+        "zero": "<span class=\"cp\">0</span> producten gevonden",
+        "one": "<span class=\"cp\">1</span> product gevonden",
+        "other": "<span class=\"cp\">{{ count }}</span> producten gevonden"
+      },
+      "clear_filter": "Filter wissen"
     },
     "breadcrumb": {
       "home": "Home"
