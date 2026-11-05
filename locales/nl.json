@@ -23,11 +23,17 @@
     "carousel": {
       "next": "Volgende",
       "previous": "Vorige"
+    },
+    "popup": {
+      "pswp_prev": "Vorige (pijl naar links)",
+      "pswp_next": "Volgende (pijl naar rechts)"
     }
   },
   "products": {
     "badge": {
-      "pre_order": "Voorbestelling"
+      "pre_order": "Voorbestelling",
+      "save_amount_2_html": "BESPAAR {{ saved_amount }}%",
+      "save_amount_fixed_2_html": "BESPAAR {{ saved_amount }}"
     },
     "product": {
       "include_taxes": "Inclusief belasting.",
@@ -114,5 +120,9 @@
       "split_order_label": "Mijn bestelling over meerdere pakketten verdelen",
       "split_order_text": "Sommige schoenen die je hebt gekozen zijn niet op voorraad. We wachten gewoonlijk totdat alle artikelen van de bestelling beschikbaar zijn en versturen slechts 1 pakket. Als je niet kunt wachten, splitsen we de zending voor je."
     }
+  },
+  "accessibility": {
+    "next_slide": "Naar rechts schuiven",
+    "previous_slide": "Naar links schuiven"
   }
 }

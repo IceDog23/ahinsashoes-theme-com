@@ -23,11 +23,17 @@
     "carousel": {
       "next": "Weiter",
       "previous": "Zurück"
+    },
+    "popup": {
+      "pswp_prev": "Zurück (Pfeil nach links)",
+      "pswp_next": "Weiter (Pfeil nach rechts)"
     }
   },
   "products": {
     "badge": {
-      "pre_order": "Vorbestellung"
+      "pre_order": "Vorbestellung",
+      "save_amount_2_html": "SPARE {{ saved_amount }}%",
+      "save_amount_fixed_2_html": "SPARE {{ saved_amount }}"
     },
     "product": {
       "include_taxes": "Inklusive Steuern.",
@@ -114,5 +120,9 @@
       "split_order_label": "Meine Bestellung auf mehrere Pakete aufteilen",
       "split_order_text": "Einige der ausgewählten Schuhe sind nicht auf Lager. Normalerweise warten wir, bis alle Artikel der Bestellung verfügbar sind, und versenden nur 1 Paket. Wenn du nicht warten kannst, teilen wir die Lieferung für dich auf."
     }
+  },
+  "accessibility": {
+    "next_slide": "Nach rechts schieben",
+    "previous_slide": "Nach links schieben"
   }
 }

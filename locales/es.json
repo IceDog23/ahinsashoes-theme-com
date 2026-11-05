@@ -23,11 +23,17 @@
     "carousel": {
       "next": "Siguiente",
       "previous": "Anterior"
+    },
+    "popup": {
+      "pswp_prev": "Anterior (flecha izquierda)",
+      "pswp_next": "Siguiente (flecha derecha)"
     }
   },
   "products": {
     "badge": {
-      "pre_order": "Reserva"
+      "pre_order": "Reserva",
+      "save_amount_2_html": "AHORRA {{ saved_amount }}%",
+      "save_amount_fixed_2_html": "AHORRA {{ saved_amount }}"
     },
     "product": {
       "include_taxes": "Impuestos incluidos.",
@@ -114,5 +120,9 @@
       "split_order_label": "Dividir mi pedido en varios paquetes",
       "split_order_text": "Algunos de los zapatos que has elegido están agotados. Normalmente esperamos hasta tener todos los artículos del pedido y enviamos solo 1 paquete. Si no puedes esperar, dividiremos el envío para ti."
     }
+  },
+  "accessibility": {
+    "next_slide": "Deslizar hacia la derecha",
+    "previous_slide": "Deslizar hacia la izquierda"
   }
 }

@@ -23,11 +23,17 @@
     "carousel": {
       "next": "Suivant",
       "previous": "Précédent"
+    },
+    "popup": {
+      "pswp_prev": "Précédent (flèche gauche)",
+      "pswp_next": "Suivant (flèche droite)"
     }
   },
   "products": {
     "badge": {
-      "pre_order": "Précommande"
+      "pre_order": "Précommande",
+      "save_amount_2_html": "ÉCONOMISEZ {{ saved_amount }}%",
+      "save_amount_fixed_2_html": "ÉCONOMISEZ {{ saved_amount }}"
     },
     "product": {
       "include_taxes": "Taxes incluses.",
@@ -114,5 +120,9 @@
       "split_order_label": "Diviser ma commande en plusieurs colis",
       "split_order_text": "Certaines chaussures que vous avez choisies sont en rupture de stock. Nous attendons habituellement de disposer de tous les articles de la commande pour n’envoyer qu’1 colis. Si vous ne pouvez pas attendre, nous diviserons l’envoi pour vous."
     }
+  },
+  "accessibility": {
+    "next_slide": "Faire glisser vers la droite",
+    "previous_slide": "Faire glisser vers la gauche"
   }
 }
