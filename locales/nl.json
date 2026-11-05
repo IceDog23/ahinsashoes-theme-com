@@ -157,7 +157,8 @@
   },
   "blogs": {
     "article": {
-      "by_author": "Door {{ author }}"
+      "by_author": "Door {{ author }}",
+      "by": "Door"
     }
   }
 }

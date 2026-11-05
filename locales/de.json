@@ -157,7 +157,8 @@
   },
   "blogs": {
     "article": {
-      "by_author": "Von {{ author }}"
+      "by_author": "Von {{ author }}",
+      "by": "Von"
     }
   }
 }

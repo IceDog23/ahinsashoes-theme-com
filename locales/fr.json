@@ -157,7 +157,8 @@
   },
   "blogs": {
     "article": {
-      "by_author": "Par {{ author }}"
+      "by_author": "Par {{ author }}",
+      "by": "Par"
     }
   }
 }
