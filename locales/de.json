@@ -26,7 +26,18 @@
     },
     "popup": {
       "pswp_prev": "Zurück (Pfeil nach links)",
-      "pswp_next": "Weiter (Pfeil nach rechts)"
+      "pswp_next": "Weiter (Pfeil nach rechts)",
+      "close": "Schließen",
+      "close_esc": "Schließen (Esc)",
+      "loading": "Wird geladen...",
+      "pswp_share": "Teilen",
+      "pswp_fs": "Vollbild umschalten",
+      "pswp_zoom": "Vergrößern/verkleinern",
+      "pswp_facebook": "Auf Facebook teilen",
+      "pswp_twitter": "Tweeten",
+      "pswp_pinterest": "Pinnen",
+      "copy_text": "In die Zwischenablage kopieren",
+      "copied": "Kopiert"
     }
   },
   "products": {

@@ -26,7 +26,18 @@
     },
     "popup": {
       "pswp_prev": "Vorige (pijl naar links)",
-      "pswp_next": "Volgende (pijl naar rechts)"
+      "pswp_next": "Volgende (pijl naar rechts)",
+      "close": "Sluiten",
+      "close_esc": "Sluiten (Esc)",
+      "loading": "Laden...",
+      "pswp_share": "Delen",
+      "pswp_fs": "Volledig scherm in-/uitschakelen",
+      "pswp_zoom": "In-/uitzoomen",
+      "pswp_facebook": "Delen op Facebook",
+      "pswp_twitter": "Tweeten",
+      "pswp_pinterest": "Pinnen",
+      "copy_text": "Naar klembord kopiëren",
+      "copied": "Gekopieerd"
     }
   },
   "products": {

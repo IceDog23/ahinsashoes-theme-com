@@ -26,7 +26,18 @@
     },
     "popup": {
       "pswp_prev": "Précédent (flèche gauche)",
-      "pswp_next": "Suivant (flèche droite)"
+      "pswp_next": "Suivant (flèche droite)",
+      "close": "Fermer",
+      "close_esc": "Fermer (Esc)",
+      "loading": "Chargement...",
+      "pswp_share": "Partager",
+      "pswp_fs": "Activer/désactiver le plein écran",
+      "pswp_zoom": "Zoom avant/arrière",
+      "pswp_facebook": "Partager sur Facebook",
+      "pswp_twitter": "Tweeter",
+      "pswp_pinterest": "Épingler",
+      "copy_text": "Copier dans le presse-papiers",
+      "copied": "Copié"
     }
   },
   "products": {
