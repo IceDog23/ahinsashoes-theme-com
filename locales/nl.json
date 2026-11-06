@@ -60,6 +60,15 @@
     "seo_title_collection_sale": " [korting tot ",
     "breadcrumb": {
       "home": "Home"
+    },
+    "aria": {
+      "close": "Sluiten"
+    },
+    "mobile_menu": {
+      "close": "Menu en categorieën sluiten"
+    },
+    "sidebar": {
+      "close": "Zijbalk sluiten"
     }
   },
   "products": {
@@ -172,12 +181,31 @@
   },
   "accessibility": {
     "next_slide": "Naar rechts schuiven",
-    "previous_slide": "Naar links schuiven"
+    "previous_slide": "Naar links schuiven",
+    "skip_to_text": "Naar de inhoud",
+    "skip_to_product_info": "Naar de productinformatie",
+    "close": "Sluiten"
   },
   "blogs": {
     "article": {
       "by_author": "Door {{ author }}",
       "by": "Door"
     }
+  },
+  "sections": {
+    "announcement": {
+      "close": "Sluiten"
+    }
+  },
+  "search": {
+    "general": {
+      "close_search": "Zoeken sluiten"
+    }
+  },
+  "socials": {
+    "follow_fb": "Volgen op Facebook",
+    "follow_it": "Volgen op Instagram",
+    "follow_pr": "Volgen op Pinterest",
+    "follow_yt": "Volgen op YouTube"
   }
 }

@@ -60,6 +60,15 @@
     "seo_title_collection_sale": " [descuento de hasta ",
     "breadcrumb": {
       "home": "Inicio"
+    },
+    "aria": {
+      "close": "Cerrar"
+    },
+    "mobile_menu": {
+      "close": "Cerrar menú y categorías"
+    },
+    "sidebar": {
+      "close": "Cerrar barra lateral"
     }
   },
   "products": {
@@ -172,12 +181,31 @@
   },
   "accessibility": {
     "next_slide": "Deslizar hacia la derecha",
-    "previous_slide": "Deslizar hacia la izquierda"
+    "previous_slide": "Deslizar hacia la izquierda",
+    "skip_to_text": "Ir al contenido",
+    "skip_to_product_info": "Ir a la información del producto",
+    "close": "Cerrar"
   },
   "blogs": {
     "article": {
       "by_author": "Por {{ author }}",
       "by": "Por"
     }
+  },
+  "sections": {
+    "announcement": {
+      "close": "Cerrar"
+    }
+  },
+  "search": {
+    "general": {
+      "close_search": "Cerrar búsqueda"
+    }
+  },
+  "socials": {
+    "follow_fb": "Seguir en Facebook",
+    "follow_it": "Seguir en Instagram",
+    "follow_pr": "Seguir en Pinterest",
+    "follow_yt": "Seguir en YouTube"
   }
 }
