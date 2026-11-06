@@ -443,11 +443,13 @@
       "address_2": "Complément d’adresse :",
       "country": "Pays :",
       "zip": "Code postal :",
-      "phone": "Téléphone :"
+      "phone": "Téléphone :",
+      "title": "MON COMPTE"
     },
     "activate_account": {
       "subtext": "Créez votre mot de passe pour activer votre compte.",
-      "password_confirm": "Confirmer le mot de passe"
+      "password_confirm": "Confirmer le mot de passe",
+      "title": "Activer le compte"
     },
     "addresses": {
       "title": "Adresses",
@@ -505,10 +507,16 @@
       "password": "Mot de passe",
       "submit": "Réinitialiser le mot de passe",
       "subtext": "Saisissez un nouveau mot de passe pour {{ email }}",
-      "password_confirm": "Confirmer le mot de passe"
+      "password_confirm": "Confirmer le mot de passe",
+      "title": "Réinitialiser le mot de passe du compte"
     },
     "form": {
       "error_heading": "Veuillez corriger les éléments suivants :"
+    },
+    "menu": {
+      "dashboard": "Tableau de bord",
+      "addresses": "Adresses",
+      "logout": "Se déconnecter"
     }
   },
   "gift_cards": {
@@ -542,5 +550,9 @@
       "expanded": "Formulaire du destinataire de la carte cadeau développé",
       "collapsed": "Formulaire du destinataire de la carte cadeau réduit"
     }
+  },
+  "list_collections": {
+    "meta_title": "Liste des collections",
+    "meta_description": "La page qui répertorie toutes les collections de la boutique."
   }
 }

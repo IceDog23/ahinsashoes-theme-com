@@ -443,11 +443,13 @@
       "address_2": "Dirección 2:",
       "country": "País:",
       "zip": "Código postal:",
-      "phone": "Teléfono:"
+      "phone": "Teléfono:",
+      "title": "MI CUENTA"
     },
     "activate_account": {
       "subtext": "Crea tu contraseña para activar tu cuenta.",
-      "password_confirm": "Confirmar contraseña"
+      "password_confirm": "Confirmar contraseña",
+      "title": "Activar cuenta"
     },
     "addresses": {
       "title": "Direcciones",
@@ -505,10 +507,16 @@
       "password": "Contraseña",
       "submit": "Restablecer contraseña",
       "subtext": "Introduce una nueva contraseña para {{ email }}",
-      "password_confirm": "Confirmar contraseña"
+      "password_confirm": "Confirmar contraseña",
+      "title": "Restablecer la contraseña de la cuenta"
     },
     "form": {
       "error_heading": "Corrige lo siguiente:"
+    },
+    "menu": {
+      "dashboard": "Panel de control",
+      "addresses": "Direcciones",
+      "logout": "Cerrar sesión"
     }
   },
   "gift_cards": {
@@ -542,5 +550,9 @@
       "expanded": "Formulario del destinatario de la tarjeta regalo expandido",
       "collapsed": "Formulario del destinatario de la tarjeta regalo contraído"
     }
+  },
+  "list_collections": {
+    "meta_title": "Lista de colecciones",
+    "meta_description": "La página que muestra todas las colecciones de la tienda."
   }
 }

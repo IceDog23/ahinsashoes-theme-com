@@ -443,11 +443,13 @@
       "address_2": "Adresregel 2:",
       "country": "Land:",
       "zip": "Postcode:",
-      "phone": "Telefoon:"
+      "phone": "Telefoon:",
+      "title": "MIJN ACCOUNT"
     },
     "activate_account": {
       "subtext": "Maak je wachtwoord aan om je account te activeren.",
-      "password_confirm": "Wachtwoord bevestigen"
+      "password_confirm": "Wachtwoord bevestigen",
+      "title": "Account activeren"
     },
     "addresses": {
       "title": "Adressen",
@@ -505,10 +507,16 @@
       "password": "Wachtwoord",
       "submit": "Wachtwoord opnieuw instellen",
       "subtext": "Voer een nieuw wachtwoord in voor {{ email }}",
-      "password_confirm": "Wachtwoord bevestigen"
+      "password_confirm": "Wachtwoord bevestigen",
+      "title": "Accountwachtwoord opnieuw instellen"
     },
     "form": {
       "error_heading": "Pas het volgende aan:"
+    },
+    "menu": {
+      "dashboard": "Overzicht",
+      "addresses": "Adressen",
+      "logout": "Uitloggen"
     }
   },
   "gift_cards": {
@@ -542,5 +550,9 @@
       "expanded": "Formulier voor de ontvanger van de cadeaubon uitgeklapt",
       "collapsed": "Formulier voor de ontvanger van de cadeaubon ingeklapt"
     }
+  },
+  "list_collections": {
+    "meta_title": "Collectieoverzicht",
+    "meta_description": "De overzichtspagina met alle collecties van de winkel."
   }
 }

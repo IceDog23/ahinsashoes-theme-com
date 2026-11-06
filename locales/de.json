@@ -443,11 +443,13 @@
       "address_2": "Adresszusatz:",
       "country": "Land:",
       "zip": "Postleitzahl:",
-      "phone": "Telefon:"
+      "phone": "Telefon:",
+      "title": "MEIN KONTO"
     },
     "activate_account": {
       "subtext": "Erstelle dein Passwort, um dein Konto zu aktivieren.",
-      "password_confirm": "Passwort bestätigen"
+      "password_confirm": "Passwort bestätigen",
+      "title": "Konto aktivieren"
     },
     "addresses": {
       "title": "Adressen",
@@ -505,10 +507,16 @@
       "password": "Passwort",
       "submit": "Passwort zurücksetzen",
       "subtext": "Geben Sie ein neues Passwort für {{ email }} ein",
-      "password_confirm": "Passwort bestätigen"
+      "password_confirm": "Passwort bestätigen",
+      "title": "Kontopasswort zurücksetzen"
     },
     "form": {
       "error_heading": "Bitte korrigieren Sie Folgendes:"
+    },
+    "menu": {
+      "dashboard": "Übersicht",
+      "addresses": "Adressen",
+      "logout": "Abmelden"
     }
   },
   "gift_cards": {
@@ -542,5 +550,9 @@
       "expanded": "Formular für den Geschenkkartenempfänger ausgeklappt",
       "collapsed": "Formular für den Geschenkkartenempfänger eingeklappt"
     }
+  },
+  "list_collections": {
+    "meta_title": "Kollektionsübersicht",
+    "meta_description": "Die Kollektionsübersicht mit allen Kollektionen des Shops."
   }
 }
