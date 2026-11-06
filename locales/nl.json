@@ -503,7 +503,12 @@
     },
     "reset_password": {
       "password": "Wachtwoord",
-      "submit": "Wachtwoord opnieuw instellen"
+      "submit": "Wachtwoord opnieuw instellen",
+      "subtext": "Voer een nieuw wachtwoord in voor {{ email }}",
+      "password_confirm": "Wachtwoord bevestigen"
+    },
+    "form": {
+      "error_heading": "Pas het volgende aan:"
     }
   },
   "gift_cards": {

@@ -503,7 +503,12 @@
     },
     "reset_password": {
       "password": "Passwort",
-      "submit": "Passwort zurücksetzen"
+      "submit": "Passwort zurücksetzen",
+      "subtext": "Geben Sie ein neues Passwort für {{ email }} ein",
+      "password_confirm": "Passwort bestätigen"
+    },
+    "form": {
+      "error_heading": "Bitte korrigieren Sie Folgendes:"
     }
   },
   "gift_cards": {
