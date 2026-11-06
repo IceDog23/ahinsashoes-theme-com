@@ -62,13 +62,25 @@
       "home": "Accueil"
     },
     "aria": {
-      "close": "Fermer"
+      "close": "Fermer",
+      "back_to_top": "Retour en haut"
     },
     "mobile_menu": {
-      "close": "Fermer le menu et les catégories"
+      "close": "Fermer le menu et les catégories",
+      "menu": "Menu",
+      "categories": "Catégories",
+      "wishlist": "Liste de souhaits",
+      "compare": "comparer",
+      "search": "Rechercher",
+      "login_register": "Connexion / Inscription",
+      "my_account": "Mon compte"
     },
     "sidebar": {
-      "close": "Fermer la barre latérale"
+      "close": "Fermer la barre latérale",
+      "open": "Ouvrir le panneau latéral",
+      "title": "Panneau latéral",
+      "language": "Choisissez votre langue",
+      "currency": "Choisissez votre devise"
     }
   },
   "products": {
@@ -123,7 +135,30 @@
       "clear_filter": "Effacer le filtre"
     },
     "breadcrumb": {
-      "home": "Accueil"
+      "home": "Accueil",
+      "back_to": "Retour à {{ title }}"
+    },
+    "aria_label": {
+      "select_option": "Choisir les options pour « {{ product_title }} »",
+      "add_to_cart": "Ajouter « {{ product_title }} » à votre panier",
+      "read_more": "En savoir plus sur « {{ product_title }} »"
+    },
+    "product_card": {
+      "read_more": "En savoir plus",
+      "view": "Voir les produits",
+      "quick_view": "Aperçu rapide",
+      "quick_shop": "Achat rapide",
+      "select_option": "Choisir les options",
+      "swatch_limit": "Afficher plus de couleurs",
+      "swatch_limit_less": "Afficher moins de couleurs",
+      "labels": {
+        "lbl_new": "Nouveau",
+        "lbl_sell_out": "Déstockage",
+        "lbl_sale": "Soldes",
+        "lbl_preorder": "Précommande",
+        "lbl_comming_soon": "Bientôt disponible",
+        "lbl_limited": "Édition limitée"
+      }
     }
   },
   "cart": {
@@ -184,7 +219,19 @@
     "previous_slide": "Faire glisser vers la gauche",
     "skip_to_text": "Aller au contenu",
     "skip_to_product_info": "Aller aux informations sur le produit",
-    "close": "Fermer"
+    "close": "Fermer",
+    "unit_price_separator": "par",
+    "vendor": "Vendeur :",
+    "error": "Erreur",
+    "refresh_page": "Toute sélection entraîne le rechargement complet de la page.",
+    "link_messages": {
+      "new_window": "S’ouvre dans une nouvelle fenêtre.",
+      "external": "Ouvre un site web externe."
+    },
+    "of": "sur",
+    "loading": "Chargement...",
+    "total_reviews": "avis au total",
+    "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles"
   },
   "blogs": {
     "article": {
@@ -194,12 +241,48 @@
   },
   "sections": {
     "announcement": {
-      "close": "Fermer"
+      "close": "Fermer",
+      "label": "Annonce"
     }
   },
   "search": {
     "general": {
-      "close_search": "Fermer la recherche"
+      "close_search": "Fermer la recherche",
+      "title": "Rechercher sur notre site",
+      "heading": {
+        "one": "Résultat de recherche",
+        "other": "Résultats de recherche"
+      },
+      "results_others": "Résultats dans les articles et les pages",
+      "quick_search": "Recherche rapide :",
+      "suggestions": "Suggestions :",
+      "suggest": "Besoin d’inspiration ?",
+      "placeholder": "Rechercher",
+      "placeholder_products": "Rechercher des produits",
+      "submit": "rechercher",
+      "all_categories": "Toutes les catégories",
+      "no_results": "Aucun résultat correspondant",
+      "no_product_results": "Aucun produit ne correspond à votre sélection.",
+      "sort_by_label": "Trier par :",
+      "sort_button": "Trier",
+      "filter_button": "Filtrer"
+    },
+    "search_for": "Rechercher « {{ terms }} »",
+    "pagination": {
+      "view_all": "Tout voir",
+      "load_more": "Charger plus",
+      "load_prev": "Charger les précédents",
+      "bar_with_count_html": "Vous avez consulté <span data-current-bar>{{ current_count }}</span> produits sur {{ total_count }}"
+    },
+    "results_with_term": {
+      "zero": "Résultat de recherche pour : « {{ terms }} »",
+      "one": "Résultat de recherche pour : « {{ terms }} »",
+      "other": "Résultats de recherche pour : « {{ terms }} »"
+    },
+    "results_with_count_and_term": {
+      "zero": "Résultat de recherche pour : « {{ terms }} »",
+      "one": "{{ count }} résultat de recherche pour : « {{ terms }} »",
+      "other": "{{ count }} résultats de recherche pour : « {{ terms }} »"
     }
   },
   "socials": {

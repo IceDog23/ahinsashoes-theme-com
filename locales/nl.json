@@ -62,13 +62,25 @@
       "home": "Home"
     },
     "aria": {
-      "close": "Sluiten"
+      "close": "Sluiten",
+      "back_to_top": "Terug naar boven"
     },
     "mobile_menu": {
-      "close": "Menu en categorieën sluiten"
+      "close": "Menu en categorieën sluiten",
+      "menu": "Menu",
+      "categories": "Categorieën",
+      "wishlist": "Verlanglijst",
+      "compare": "vergelijken",
+      "search": "Zoeken",
+      "login_register": "Inloggen / Registreren",
+      "my_account": "Mijn account"
     },
     "sidebar": {
-      "close": "Zijbalk sluiten"
+      "close": "Zijbalk sluiten",
+      "open": "Zijbalk openen",
+      "title": "Zijbalk",
+      "language": "Kies je taal",
+      "currency": "Kies je valuta"
     }
   },
   "products": {
@@ -123,7 +135,30 @@
       "clear_filter": "Filter wissen"
     },
     "breadcrumb": {
-      "home": "Home"
+      "home": "Home",
+      "back_to": "Terug naar {{ title }}"
+    },
+    "aria_label": {
+      "select_option": "Opties kiezen voor ‘{{ product_title }}’",
+      "add_to_cart": "‘{{ product_title }}’ aan je winkelwagen toevoegen",
+      "read_more": "Meer lezen over ‘{{ product_title }}’"
+    },
+    "product_card": {
+      "read_more": "Meer lezen",
+      "view": "Producten bekijken",
+      "quick_view": "Snel bekijken",
+      "quick_shop": "Snel winkelen",
+      "select_option": "Opties kiezen",
+      "swatch_limit": "Meer kleuren tonen",
+      "swatch_limit_less": "Minder kleuren tonen",
+      "labels": {
+        "lbl_new": "Nieuw",
+        "lbl_sell_out": "Uitverkoop",
+        "lbl_sale": "Sale",
+        "lbl_preorder": "Voorbestelling",
+        "lbl_comming_soon": "Binnenkort verkrijgbaar",
+        "lbl_limited": "Limited edition"
+      }
     }
   },
   "cart": {
@@ -184,7 +219,19 @@
     "previous_slide": "Naar links schuiven",
     "skip_to_text": "Naar de inhoud",
     "skip_to_product_info": "Naar de productinformatie",
-    "close": "Sluiten"
+    "close": "Sluiten",
+    "unit_price_separator": "per",
+    "vendor": "Verkoper:",
+    "error": "Fout",
+    "refresh_page": "Als je een keuze maakt, wordt de hele pagina opnieuw geladen.",
+    "link_messages": {
+      "new_window": "Opent in een nieuw venster.",
+      "external": "Opent een externe website."
+    },
+    "of": "van",
+    "loading": "Laden...",
+    "total_reviews": "beoordelingen in totaal",
+    "star_reviews_info": "{{ rating_value }} van {{ rating_max }} sterren"
   },
   "blogs": {
     "article": {
@@ -194,12 +241,48 @@
   },
   "sections": {
     "announcement": {
-      "close": "Sluiten"
+      "close": "Sluiten",
+      "label": "Aankondiging"
     }
   },
   "search": {
     "general": {
-      "close_search": "Zoeken sluiten"
+      "close_search": "Zoeken sluiten",
+      "title": "Doorzoek onze website",
+      "heading": {
+        "one": "Zoekresultaat",
+        "other": "Zoekresultaten"
+      },
+      "results_others": "Resultaten uit artikelen en pagina’s",
+      "quick_search": "Snel zoeken:",
+      "suggestions": "Suggesties:",
+      "suggest": "Inspiratie nodig?",
+      "placeholder": "Zoeken",
+      "placeholder_products": "Zoeken naar producten",
+      "submit": "zoeken",
+      "all_categories": "Alle categorieën",
+      "no_results": "Geen overeenkomende resultaten",
+      "no_product_results": "Er zijn geen producten gevonden die overeenkomen met je selectie.",
+      "sort_by_label": "Sorteren op:",
+      "sort_button": "Sorteren",
+      "filter_button": "Filteren"
+    },
+    "search_for": "Zoeken naar ‘{{ terms }}’",
+    "pagination": {
+      "view_all": "Alles bekijken",
+      "load_more": "Meer laden",
+      "load_prev": "Vorige laden",
+      "bar_with_count_html": "Je hebt <span data-current-bar>{{ current_count }}</span> van de {{ total_count }} producten bekeken"
+    },
+    "results_with_term": {
+      "zero": "Zoekresultaat voor: ‘{{ terms }}’",
+      "one": "Zoekresultaat voor: ‘{{ terms }}’",
+      "other": "Zoekresultaten voor: ‘{{ terms }}’"
+    },
+    "results_with_count_and_term": {
+      "zero": "Zoekresultaat voor: ‘{{ terms }}’",
+      "one": "{{ count }} zoekresultaat voor: ‘{{ terms }}’",
+      "other": "{{ count }} zoekresultaten voor: ‘{{ terms }}’"
     }
   },
   "socials": {
