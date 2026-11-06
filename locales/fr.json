@@ -521,5 +521,19 @@
       "copy_code": "Copier le code",
       "copy_code_success": "Code copié avec succès"
     }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Je souhaite envoyer ceci en cadeau",
+      "email_label": "E-mail du destinataire",
+      "email_label_optional_for_no_js_behavior": "E-mail du destinataire (facultatif)",
+      "email": "E-mail",
+      "name_label": "Nom du destinataire (facultatif)",
+      "name": "Nom",
+      "message_label": "Message (facultatif)",
+      "message": "Message",
+      "max_characters": "{{ max_chars }} caractères maximum",
+      "send_on_label": "Date d’envoi (facultatif)"
+    }
   }
 }
