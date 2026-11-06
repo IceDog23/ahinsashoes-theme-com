@@ -81,7 +81,14 @@
       "title": "Seitenleiste",
       "language": "Sprache auswählen",
       "currency": "Währung auswählen"
-    }
+    },
+    "meta": {
+      "tags": "Mit \"{{ tags }}\" getaggt",
+      "page": "Seite {{ page }}"
+    },
+    "seo_title_product_sale": " [SALE]",
+    "seo_title_product_exchange": " - kostenloser Umtausch",
+    "seo_title_blog": "Blog: In gesunden Schuhen gehen"
   },
   "products": {
     "badge": {
@@ -367,7 +374,10 @@
     "follow_fb": "Auf Facebook folgen",
     "follow_it": "Auf Instagram folgen",
     "follow_pr": "Auf Pinterest folgen",
-    "follow_yt": "Auf YouTube folgen"
+    "follow_yt": "Auf YouTube folgen",
+    "share_fb": "Auf Facebook teilen",
+    "share_em": "Per E-Mail teilen",
+    "share_pr": "Auf Pinterest teilen"
   },
   "templates": {
     "contact": {
@@ -487,7 +497,13 @@
       "price": "Preis",
       "quantity": "Menge",
       "total": "Gesamt",
-      "fulfilled_at_html": "Ausgeführt am {{ date }}"
+      "fulfilled_at_html": "Ausgeführt am {{ date }}",
+      "subtotal": "Zwischensumme",
+      "track_shipment": "Sendung verfolgen"
+    },
+    "reset_password": {
+      "password": "Passwort",
+      "submit": "Passwort zurücksetzen"
     }
   },
   "gift_cards": {

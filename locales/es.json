@@ -81,7 +81,14 @@
       "title": "Barra lateral",
       "language": "Selecciona tu idioma",
       "currency": "Selecciona tu moneda"
-    }
+    },
+    "meta": {
+      "tags": "Etiquetado con \"{{ tags }}\"",
+      "page": "Página {{ page }}"
+    },
+    "seo_title_product_sale": " [REBAJAS]",
+    "seo_title_product_exchange": " - cambio gratuito",
+    "seo_title_blog": "Blog sobre caminar con calzado saludable"
   },
   "products": {
     "badge": {
@@ -367,7 +374,10 @@
     "follow_fb": "Seguir en Facebook",
     "follow_it": "Seguir en Instagram",
     "follow_pr": "Seguir en Pinterest",
-    "follow_yt": "Seguir en YouTube"
+    "follow_yt": "Seguir en YouTube",
+    "share_fb": "Compartir en Facebook",
+    "share_em": "Compartir por correo electrónico",
+    "share_pr": "Compartir en Pinterest"
   },
   "templates": {
     "contact": {
@@ -487,7 +497,13 @@
       "price": "Precio",
       "quantity": "Cantidad",
       "total": "Total",
-      "fulfilled_at_html": "Preparado el {{ date }}"
+      "fulfilled_at_html": "Preparado el {{ date }}",
+      "subtotal": "Subtotal",
+      "track_shipment": "Seguir el envío"
+    },
+    "reset_password": {
+      "password": "Contraseña",
+      "submit": "Restablecer contraseña"
     }
   },
   "gift_cards": {

@@ -81,7 +81,14 @@
       "title": "Zijbalk",
       "language": "Kies je taal",
       "currency": "Kies je valuta"
-    }
+    },
+    "meta": {
+      "tags": "Getagd met \"{{ tags }}\"",
+      "page": "Pagina {{ page }}"
+    },
+    "seo_title_product_sale": " [UITVERKOOP]",
+    "seo_title_product_exchange": " - gratis omruilen",
+    "seo_title_blog": "Blog over lopen op gezonde schoenen"
   },
   "products": {
     "badge": {
@@ -367,7 +374,10 @@
     "follow_fb": "Volgen op Facebook",
     "follow_it": "Volgen op Instagram",
     "follow_pr": "Volgen op Pinterest",
-    "follow_yt": "Volgen op YouTube"
+    "follow_yt": "Volgen op YouTube",
+    "share_fb": "Delen op Facebook",
+    "share_em": "Delen via e-mail",
+    "share_pr": "Delen op Pinterest"
   },
   "templates": {
     "contact": {
@@ -487,7 +497,13 @@
       "price": "Prijs",
       "quantity": "Aantal",
       "total": "Totaal",
-      "fulfilled_at_html": "Verwerkt op {{ date }}"
+      "fulfilled_at_html": "Verwerkt op {{ date }}",
+      "subtotal": "Subtotaal",
+      "track_shipment": "Zending volgen"
+    },
+    "reset_password": {
+      "password": "Wachtwoord",
+      "submit": "Wachtwoord opnieuw instellen"
     }
   },
   "gift_cards": {

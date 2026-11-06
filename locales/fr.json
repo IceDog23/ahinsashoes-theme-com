@@ -81,7 +81,14 @@
       "title": "Panneau latéral",
       "language": "Choisissez votre langue",
       "currency": "Choisissez votre devise"
-    }
+    },
+    "meta": {
+      "tags": "Avec le tag « {{ tags }} »",
+      "page": "Page {{ page }}"
+    },
+    "seo_title_product_sale": " [PROMOTION]",
+    "seo_title_product_exchange": " - échange gratuit",
+    "seo_title_blog": "Le blog pour marcher avec des chaussures saines"
   },
   "products": {
     "badge": {
@@ -367,7 +374,10 @@
     "follow_fb": "Suivre sur Facebook",
     "follow_it": "Suivre sur Instagram",
     "follow_pr": "Suivre sur Pinterest",
-    "follow_yt": "Suivre sur YouTube"
+    "follow_yt": "Suivre sur YouTube",
+    "share_fb": "Partager sur Facebook",
+    "share_em": "Partager par e-mail",
+    "share_pr": "Partager sur Pinterest"
   },
   "templates": {
     "contact": {
@@ -487,7 +497,13 @@
       "price": "Prix",
       "quantity": "Quantité",
       "total": "Total",
-      "fulfilled_at_html": "Traitée le {{ date }}"
+      "fulfilled_at_html": "Traitée le {{ date }}",
+      "subtotal": "Sous-total",
+      "track_shipment": "Suivre l’expédition"
+    },
+    "reset_password": {
+      "password": "Mot de passe",
+      "submit": "Réinitialiser le mot de passe"
     }
   },
   "gift_cards": {
