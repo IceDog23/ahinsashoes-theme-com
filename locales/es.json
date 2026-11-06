@@ -174,7 +174,14 @@
       "taxes_discounts_and_shipping_at_checkout": "Impuestos, envío y códigos de descuento calculados al finalizar la compra",
       "taxes_included_discounts_but_shipping_at_checkout": "Impuestos incluidos. Envío y códigos de descuento calculados al finalizar la compra",
       "edit_item": "Editar este artículo",
-      "remove_item": "Eliminar este artículo"
+      "remove_item": "Eliminar este artículo",
+      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y los <a href=\"{{ link }}\" target=\"_blank\">gastos de envío</a> se calculan al finalizar la compra",
+      "taxes_included_and_shipping_policy_html": "Impuestos incluidos. Los <a href=\"{{ link }}\" target=\"_blank\">gastos de envío</a> se calculan al finalizar la compra.",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Los impuestos, los <a href=\"{{ link }}\" target=\"_blank\">gastos de envío</a> y los códigos de descuento se calculan al finalizar la compra",
+      "taxes_included_discounts_and_shipping_policy_html": "Impuestos incluidos. Los <a href=\"{{ link }}\" target=\"_blank\">gastos de envío</a> y los códigos de descuento se calculan al finalizar la compra.",
+      "terms_and_conditions_html": "Acepto los <a href=\"{{ link }}\" target=\"_blank\">términos y condiciones</a>.",
+      "terms_and_conditions": "Acepto los términos y condiciones.",
+      "agree_checkout": "Debes aceptar los términos y condiciones de venta para finalizar la compra."
     },
     "tool": {
       "save": "Guardar",
@@ -211,7 +218,25 @@
       "checkout": "Finalizar compra",
       "update": "Actualizar carrito",
       "split_order_label": "Dividir mi pedido en varios paquetes",
-      "split_order_text": "Algunos de los zapatos que has elegido están agotados. Normalmente esperamos hasta tener todos los artículos del pedido y enviamos solo 1 paquete. Si no puedes esperar, dividiremos el envío para ti."
+      "split_order_text": "Algunos de los zapatos que has elegido están agotados. Normalmente esperamos hasta tener todos los artículos del pedido y enviamos solo 1 paquete. Si no puedes esperar, dividiremos el envío para ti.",
+      "empty_html": "Antes de finalizar la compra, debes añadir productos a tu carrito.<br /> Encontrarás muchos productos interesantes en nuestra página «Tienda»."
+    },
+    "shipping_estimator": {
+      "title": "Estimar los gastos de envío",
+      "country": "País",
+      "province": "Provincia",
+      "zip_code": "Código postal",
+      "estimate": "Estimar",
+      "multiple_rates": "Hemos encontrado [number_of_rates] tarifas de envío disponibles para [address], a partir de [rate].",
+      "one_rate": "Hemos encontrado una tarifa de envío disponible para [address].",
+      "no_rates": "Lo sentimos, no realizamos envíos a este destino.",
+      "rate_value": "[rate_title] por [rate]",
+      "errors": "Se han producido algunos errores:"
+    },
+    "shipping_threshold": {
+      "text_1_html": "Envío gratis en todos los pedidos superiores a <span class=\"t4s-cr\">{{ money }}</span>",
+      "text_2_html": "¡Ya casi está! Añade <span class=\"t4s-cr\">{{ money }}</span> más para obtener <span class=\"t4s-ch\">ENVÍO GRATIS!</span>",
+      "text_3": "[¡Enhorabuena!] ¡Tienes envío gratis!"
     }
   },
   "accessibility": {
@@ -236,7 +261,19 @@
   "blogs": {
     "article": {
       "by_author": "Por {{ author }}",
-      "by": "Por"
+      "by": "Por",
+      "on": "el",
+      "in": "En",
+      "read_more": "Seguir leyendo",
+      "back_to": "Volver a {{ title }}",
+      "view_all": "Ver más"
+    },
+    "filter_all": "Todos",
+    "pagination": {
+      "view_all": "Ver todo",
+      "load_more": "Cargar más artículos",
+      "load_prev": "Cargar anteriores",
+      "bar_with_count_html": "Has visto <span data-current-bar>{{ current_count }}</span> de {{ total_count }} artículos"
     }
   },
   "sections": {
@@ -290,5 +327,56 @@
     "follow_it": "Seguir en Instagram",
     "follow_pr": "Seguir en Pinterest",
     "follow_yt": "Seguir en YouTube"
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "name": "Tu nombre (obligatorio)",
+        "email": "Tu correo electrónico (obligatorio)",
+        "phone": "Tu número de teléfono",
+        "message": "Tu mensaje",
+        "submit": "Enviar",
+        "post_success": "Gracias por contactar con nosotros. Te responderemos lo antes posible.",
+        "error_heading": "Corrige lo siguiente:"
+      }
+    },
+    "404": {
+      "subtext": "¡Lo sentimos! No se ha encontrado la página que buscas.",
+      "link_html": "Volver a la <a href=\"{{ link }}\" rel=\"home\">página de inicio</a>"
+    }
+  },
+  "customer": {
+    "login": {
+      "title": "INICIAR SESIÓN",
+      "create_account": "¿Eres nuevo? Crea tu cuenta",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "forgot_password": "¿Has olvidado tu contraseña?",
+      "submit": "Iniciar sesión",
+      "sign_in": "Iniciar sesión",
+      "guest_title": "Continuar como invitado",
+      "guest_continue": "Continuar"
+    },
+    "recover_password": {
+      "title": "Restablece tu contraseña",
+      "email": "Dirección de correo electrónico",
+      "submit": "Restablecer contraseña",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "subtext": "¿Has perdido tu contraseña? Introduce tu dirección de correo electrónico. Recibirás por correo un enlace para crear una nueva contraseña.",
+      "success": "Te hemos enviado un correo electrónico con un enlace para cambiar tu contraseña.",
+      "content_success": "Se ha enviado un correo para restablecer la contraseña a la dirección asociada a tu cuenta, pero puede tardar varios minutos en aparecer en tu bandeja de entrada. Espera al menos 10 minutos antes de volver a intentarlo."
+    },
+    "register": {
+      "login_here": "¿Ya tienes una cuenta? Inicia sesión aquí",
+      "title": "Registrarse",
+      "first_name": "Nombre",
+      "last_name": "Apellidos",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "submit": "Registrarse",
+      "privacy_policy": "Tus datos personales se utilizarán para facilitar tu experiencia en este sitio web, gestionar el acceso a tu cuenta y para otros fines descritos en nuestra política de privacidad.",
+      "privacy_policy_html": "Tus datos personales se utilizarán para facilitar tu experiencia en este sitio web, gestionar el acceso a tu cuenta y para otros fines descritos en nuestra <a href=\"{{ link }}\" class=\"privacy-policy-link fwm\" target=\"_blank\">política de privacidad</a>."
+    }
   }
 }
