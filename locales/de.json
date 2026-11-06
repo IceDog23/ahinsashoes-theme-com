@@ -294,6 +294,27 @@
       "load_more": "Weitere Beiträge laden",
       "load_prev": "Vorherige laden",
       "bar_with_count_html": "Du hast <span data-current-bar>{{ current_count }}</span> von {{ total_count }} Beiträgen angesehen"
+    },
+    "comments": {
+      "title": "Einen Kommentar hinterlassen",
+      "comments_note_html": "Deine E-Mail-Adresse wird nicht veröffentlicht. Pflichtfelder sind mit <span class=\"required\">*</span> gekennzeichnet",
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Kommentar",
+      "post": "Kommentar veröffentlichen",
+      "moderated": "Bitte beachte, dass Kommentare vor der Veröffentlichung genehmigt werden müssen",
+      "success_moderated": "Dein Kommentar wurde erfolgreich übermittelt. Da unser Blog moderiert wird, veröffentlichen wir ihn in Kürze.",
+      "success": "Dein Kommentar wurde erfolgreich veröffentlicht! Vielen Dank!",
+      "unapproved": "Die angegebene E-Mail-Adresse ist nicht zum Veröffentlichen von Kommentaren freigegeben.",
+      "error_heading": "Bitte korrigiere Folgendes:",
+      "with_count_2": {
+        "other": "{{ count }} Kommentare"
+      },
+      "comments_title_html": {
+        "zero": "0 Gedanken zu „<span>{{ title }}</span>“",
+        "one": "1 Gedanke zu „<span>{{ title }}</span>“",
+        "other": "{{ count }} Gedanken zu „<span>{{ title }}</span>“"
+      }
     }
   },
   "sections": {
@@ -397,6 +418,22 @@
       "submit": "Registrieren",
       "privacy_policy": "Deine personenbezogenen Daten werden verwendet, um deine Nutzung dieser Website zu unterstützen, den Zugang zu deinem Konto zu verwalten und für weitere in unserer Datenschutzerklärung beschriebene Zwecke.",
       "privacy_policy_html": "Deine personenbezogenen Daten werden verwendet, um deine Nutzung dieser Website zu unterstützen, den Zugang zu deinem Konto zu verwalten und für weitere in unserer <a href=\"{{ link }}\" class=\"privacy-policy-link fwm\" target=\"_blank\">Datenschutzerklärung</a> beschriebene Zwecke."
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "subtext": "Dein Geschenkgutschein",
+      "gift_card_code": "Gutscheincode",
+      "expired": "Abgelaufen am {{ expiry }}",
+      "active": "Gültig bis {{ expiry }}",
+      "redeem_html": "Verwende diesen Code an der Kasse, um deinen Geschenkgutschein im Wert von {{ value }} einzulösen",
+      "shop_link": "Jetzt einkaufen",
+      "print": "Diesen Geschenkgutschein drucken",
+      "remaining_html": "{{ balance }} verbleibend",
+      "add_to_apple_wallet": "Zu Apple Wallet hinzufügen",
+      "qr_image_alt": "QR-Code — zum Einlösen des Geschenkgutscheins scannen",
+      "copy_code": "Code kopieren",
+      "copy_code_success": "Code erfolgreich kopiert"
     }
   }
 }

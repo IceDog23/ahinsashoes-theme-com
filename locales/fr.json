@@ -294,6 +294,27 @@
       "load_more": "Charger plus d’articles",
       "load_prev": "Charger les précédents",
       "bar_with_count_html": "Vous avez consulté <span data-current-bar>{{ current_count }}</span> articles sur {{ total_count }}"
+    },
+    "comments": {
+      "title": "Laisser un commentaire",
+      "comments_note_html": "Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont marqués d’un <span class=\"required\">*</span>",
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Commentaire",
+      "post": "Publier le commentaire",
+      "moderated": "Veuillez noter que les commentaires doivent être approuvés avant leur publication",
+      "success_moderated": "Votre commentaire a bien été envoyé. Notre blog étant modéré, nous le publierons prochainement.",
+      "success": "Votre commentaire a été publié avec succès ! Merci !",
+      "unapproved": "L’adresse e-mail fournie n’est pas autorisée à publier des commentaires.",
+      "error_heading": "Veuillez corriger les éléments suivants :",
+      "with_count_2": {
+        "other": "{{ count }} commentaires"
+      },
+      "comments_title_html": {
+        "zero": "0 avis sur « <span>{{ title }}</span> »",
+        "one": "1 avis sur « <span>{{ title }}</span> »",
+        "other": "{{ count }} avis sur « <span>{{ title }}</span> »"
+      }
     }
   },
   "sections": {
@@ -397,6 +418,22 @@
       "submit": "S’inscrire",
       "privacy_policy": "Vos données personnelles seront utilisées pour vous accompagner lors de votre navigation sur ce site, gérer l’accès à votre compte et à d’autres fins décrites dans notre politique de confidentialité.",
       "privacy_policy_html": "Vos données personnelles seront utilisées pour vous accompagner lors de votre navigation sur ce site, gérer l’accès à votre compte et à d’autres fins décrites dans notre <a href=\"{{ link }}\" class=\"privacy-policy-link fwm\" target=\"_blank\">politique de confidentialité</a>."
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "subtext": "Votre carte cadeau",
+      "gift_card_code": "Code de la carte cadeau",
+      "expired": "Expirée le {{ expiry }}",
+      "active": "Expire le {{ expiry }}",
+      "redeem_html": "Utilisez ce code lors du paiement pour utiliser votre carte cadeau de {{ value }}",
+      "shop_link": "Commencer mes achats",
+      "print": "Imprimer cette carte cadeau",
+      "remaining_html": "{{ balance }} restants",
+      "add_to_apple_wallet": "Ajouter à Apple Wallet",
+      "qr_image_alt": "Code QR — scannez-le pour utiliser la carte cadeau",
+      "copy_code": "Copier le code",
+      "copy_code_success": "Code copié avec succès"
     }
   }
 }

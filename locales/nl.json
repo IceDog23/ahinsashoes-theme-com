@@ -294,6 +294,27 @@
       "load_more": "Meer berichten laden",
       "load_prev": "Vorige laden",
       "bar_with_count_html": "Je hebt <span data-current-bar>{{ current_count }}</span> van {{ total_count }} berichten bekeken"
+    },
+    "comments": {
+      "title": "Laat een reactie achter",
+      "comments_note_html": "Je e-mailadres wordt niet gepubliceerd. Verplichte velden zijn gemarkeerd met <span class=\"required\">*</span>",
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Reactie",
+      "post": "Reactie plaatsen",
+      "moderated": "Let op: reacties moeten worden goedgekeurd voordat ze worden gepubliceerd",
+      "success_moderated": "Je reactie is verzonden. Omdat onze blog wordt gemodereerd, publiceren we deze binnenkort.",
+      "success": "Je reactie is geplaatst! Bedankt!",
+      "unapproved": "Het opgegeven e-mailadres is niet goedgekeurd voor het plaatsen van reacties.",
+      "error_heading": "Pas het volgende aan:",
+      "with_count_2": {
+        "other": "{{ count }} reacties"
+      },
+      "comments_title_html": {
+        "zero": "0 reacties op ‘<span>{{ title }}</span>’",
+        "one": "1 reactie op ‘<span>{{ title }}</span>’",
+        "other": "{{ count }} reacties op ‘<span>{{ title }}</span>’"
+      }
     }
   },
   "sections": {
@@ -397,6 +418,22 @@
       "submit": "Registreren",
       "privacy_policy": "Je persoonsgegevens worden gebruikt om je ervaring op deze website te ondersteunen, de toegang tot je account te beheren en voor andere doeleinden die in ons privacybeleid worden beschreven.",
       "privacy_policy_html": "Je persoonsgegevens worden gebruikt om je ervaring op deze website te ondersteunen, de toegang tot je account te beheren en voor andere doeleinden die in ons <a href=\"{{ link }}\" class=\"privacy-policy-link fwm\" target=\"_blank\">privacybeleid</a> worden beschreven."
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "subtext": "Je cadeaubon",
+      "gift_card_code": "Cadeauboncode",
+      "expired": "Verlopen op {{ expiry }}",
+      "active": "Geldig tot {{ expiry }}",
+      "redeem_html": "Gebruik deze code bij het afrekenen om je cadeaubon van {{ value }} in te wisselen",
+      "shop_link": "Begin met winkelen",
+      "print": "Deze cadeaubon afdrukken",
+      "remaining_html": "{{ balance }} resterend",
+      "add_to_apple_wallet": "Toevoegen aan Apple Wallet",
+      "qr_image_alt": "QR-code — scan om de cadeaubon in te wisselen",
+      "copy_code": "Code kopiëren",
+      "copy_code_success": "Code gekopieerd"
     }
   }
 }
