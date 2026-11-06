@@ -110,10 +110,21 @@
       "alt": "Productfoto van barefoot schoenen van Ahinsa",
       "pre_order_alt": "Productvoorraad",
       "pay_after_trying": "Betaal nadat je ze hebt gepast",
-      "notify_me": "Laat het me weten"
+      "notify_me": "Laat het me weten",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten</a> worden berekend bij het afrekenen.",
+      "from_price_html": "<span class=\"{{ class }}\">Vanaf</span> {{ price_min }}",
+      "product_vendor": "Leverancier:",
+      "product_type": "Type:",
+      "product_barcode": "Barcode:",
+      "na": "Niet beschikbaar",
+      "product_category": "Categorieën:",
+      "product_tag": "Tags:",
+      "available_date": "Beschikbaar in "
     },
     "product_single": {
-      "click_zoom": "Klik om te vergroten"
+      "click_zoom": "Klik om te vergroten",
+      "will_not_ship_until_html": "Wordt niet verzonden vóór <span data-incoming-date>{{ date }}</span>",
+      "will_be_in_stock_after_html": "Op voorraad na <span data-incoming-date>{{ date }}</span>"
     },
     "grouped": {
       "tt_price": "Subtotaal:"
@@ -159,6 +170,15 @@
         "lbl_comming_soon": "Binnenkort verkrijgbaar",
         "lbl_limited": "Limited edition"
       }
+    },
+    "fbt": {
+      "title": "Vaak samen gekocht",
+      "tt_price": "Totaalprijs:",
+      "add_tc": "Geselecteerde artikelen in winkelwagen",
+      "this_item": "Dit artikel:"
+    },
+    "notify_stock": {
+      "trigger": "Laat het me weten zodra beschikbaar"
     }
   },
   "cart": {

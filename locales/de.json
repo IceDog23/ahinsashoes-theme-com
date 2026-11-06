@@ -110,10 +110,21 @@
       "alt": "Produktfotografie von Ahinsa-Barfußschuhen",
       "pre_order_alt": "Lagerbestand",
       "pay_after_trying": "Erst anprobieren, dann bezahlen",
-      "notify_me": "Benachrichtige mich"
+      "notify_me": "Benachrichtige mich",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Versandkosten</a> werden an der Kasse berechnet.",
+      "from_price_html": "<span class=\"{{ class }}\">Ab</span> {{ price_min }}",
+      "product_vendor": "Anbieter:",
+      "product_type": "Typ:",
+      "product_barcode": "Barcode:",
+      "na": "Nicht verfügbar",
+      "product_category": "Kategorien:",
+      "product_tag": "Tags:",
+      "available_date": "Verfügbar im "
     },
     "product_single": {
-      "click_zoom": "Zum Vergrößern klicken"
+      "click_zoom": "Zum Vergrößern klicken",
+      "will_not_ship_until_html": "Versand frühestens am <span data-incoming-date>{{ date }}</span>",
+      "will_be_in_stock_after_html": "Nach dem <span data-incoming-date>{{ date }}</span> auf Lager"
     },
     "grouped": {
       "tt_price": "Zwischensumme:"
@@ -159,6 +170,15 @@
         "lbl_comming_soon": "Demnächst erhältlich",
         "lbl_limited": "Limitierte Edition"
       }
+    },
+    "fbt": {
+      "title": "Häufig zusammen gekauft",
+      "tt_price": "Gesamtpreis:",
+      "add_tc": "Ausgewählte Artikel in den Warenkorb",
+      "this_item": "Dieser Artikel:"
+    },
+    "notify_stock": {
+      "trigger": "Benachrichtige mich, sobald verfügbar"
     }
   },
   "cart": {

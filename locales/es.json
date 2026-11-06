@@ -110,10 +110,21 @@
       "alt": "Foto del producto: zapatos barefoot de Ahinsa",
       "pre_order_alt": "Existencias del producto",
       "pay_after_trying": "Paga después de probártelos",
-      "notify_me": "Avisarme"
+      "notify_me": "Avisarme",
+      "shipping_policy_html": "Los <a href=\"{{ link }}\">gastos de envío</a> se calculan al finalizar la compra.",
+      "from_price_html": "<span class=\"{{ class }}\">Desde</span> {{ price_min }}",
+      "product_vendor": "Proveedor:",
+      "product_type": "Tipo:",
+      "product_barcode": "Código de barras:",
+      "na": "No disponible",
+      "product_category": "Categorías:",
+      "product_tag": "Etiquetas:",
+      "available_date": "Disponible en "
     },
     "product_single": {
-      "click_zoom": "Haz clic para ampliar"
+      "click_zoom": "Haz clic para ampliar",
+      "will_not_ship_until_html": "No se enviará antes del <span data-incoming-date>{{ date }}</span>",
+      "will_be_in_stock_after_html": "Disponible en stock después del <span data-incoming-date>{{ date }}</span>"
     },
     "grouped": {
       "tt_price": "Subtotal:"
@@ -159,6 +170,15 @@
         "lbl_comming_soon": "Próximamente",
         "lbl_limited": "Edición limitada"
       }
+    },
+    "fbt": {
+      "title": "Comprados juntos habitualmente",
+      "tt_price": "Precio total:",
+      "add_tc": "Añadir los seleccionados al carrito",
+      "this_item": "Este artículo:"
+    },
+    "notify_stock": {
+      "trigger": "Avísame cuando esté disponible"
     }
   },
   "cart": {
