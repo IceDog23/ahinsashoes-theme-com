@@ -174,7 +174,14 @@
       "taxes_discounts_and_shipping_at_checkout": "Steuern, Versand und Rabattcodes werden an der Kasse berechnet",
       "taxes_included_discounts_but_shipping_at_checkout": "Steuern inklusive. Versand und Rabattcodes werden an der Kasse berechnet",
       "edit_item": "Diesen Artikel bearbeiten",
-      "remove_item": "Diesen Artikel entfernen"
+      "remove_item": "Diesen Artikel entfernen",
+      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" target=\"_blank\">Versandkosten</a> werden an der Kasse berechnet",
+      "taxes_included_and_shipping_policy_html": "Inklusive Steuern. Die <a href=\"{{ link }}\" target=\"_blank\">Versandkosten</a> werden an der Kasse berechnet.",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Steuern, <a href=\"{{ link }}\" target=\"_blank\">Versandkosten</a> und Rabattcodes werden an der Kasse berechnet",
+      "taxes_included_discounts_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\" target=\"_blank\">Versandkosten</a> und Rabattcodes werden an der Kasse berechnet.",
+      "terms_and_conditions_html": "Ich stimme den <a href=\"{{ link }}\" target=\"_blank\">Allgemeinen Geschäftsbedingungen</a> zu.",
+      "terms_and_conditions": "Ich stimme den Allgemeinen Geschäftsbedingungen zu.",
+      "agree_checkout": "Du musst den Allgemeinen Geschäftsbedingungen zustimmen, um zur Kasse zu gehen."
     },
     "tool": {
       "save": "Speichern",
@@ -211,7 +218,25 @@
       "checkout": "Zur Kasse",
       "update": "Warenkorb aktualisieren",
       "split_order_label": "Meine Bestellung auf mehrere Pakete aufteilen",
-      "split_order_text": "Einige der ausgewählten Schuhe sind nicht auf Lager. Normalerweise warten wir, bis alle Artikel der Bestellung verfügbar sind, und versenden nur 1 Paket. Wenn du nicht warten kannst, teilen wir die Lieferung für dich auf."
+      "split_order_text": "Einige der ausgewählten Schuhe sind nicht auf Lager. Normalerweise warten wir, bis alle Artikel der Bestellung verfügbar sind, und versenden nur 1 Paket. Wenn du nicht warten kannst, teilen wir die Lieferung für dich auf.",
+      "empty_html": "Bevor du zur Kasse gehst, musst du Produkte in deinen Warenkorb legen.<br /> Auf unserer Seite „Shop“ findest du viele interessante Produkte."
+    },
+    "shipping_estimator": {
+      "title": "Versandkosten schätzen",
+      "country": "Land",
+      "province": "Provinz",
+      "zip_code": "Postleitzahl",
+      "estimate": "Schätzen",
+      "multiple_rates": "Wir haben [number_of_rates] verfügbare Versandtarife für [address] gefunden, ab [rate].",
+      "one_rate": "Wir haben einen verfügbaren Versandtarif für [address] gefunden.",
+      "no_rates": "Leider liefern wir nicht an diesen Ort.",
+      "rate_value": "[rate_title] für [rate]",
+      "errors": "Es sind Fehler aufgetreten:"
+    },
+    "shipping_threshold": {
+      "text_1_html": "Kostenloser Versand für alle Bestellungen über <span class=\"t4s-cr\">{{ money }}</span>",
+      "text_2_html": "Fast geschafft! Füge noch Artikel im Wert von <span class=\"t4s-cr\">{{ money }}</span> hinzu und erhalte <span class=\"t4s-ch\">KOSTENLOSEN VERSAND!</span>",
+      "text_3": "[Glückwunsch!] Du erhältst kostenlosen Versand!"
     }
   },
   "accessibility": {
@@ -236,7 +261,19 @@
   "blogs": {
     "article": {
       "by_author": "Von {{ author }}",
-      "by": "Von"
+      "by": "Von",
+      "on": "am",
+      "in": "In",
+      "read_more": "Weiterlesen",
+      "back_to": "Zurück zu {{ title }}",
+      "view_all": "Mehr anzeigen"
+    },
+    "filter_all": "Alle",
+    "pagination": {
+      "view_all": "Alle anzeigen",
+      "load_more": "Weitere Beiträge laden",
+      "load_prev": "Vorherige laden",
+      "bar_with_count_html": "Du hast <span data-current-bar>{{ current_count }}</span> von {{ total_count }} Beiträgen angesehen"
     }
   },
   "sections": {
@@ -290,5 +327,56 @@
     "follow_it": "Auf Instagram folgen",
     "follow_pr": "Auf Pinterest folgen",
     "follow_yt": "Auf YouTube folgen"
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "name": "Dein Name (erforderlich)",
+        "email": "Deine E-Mail-Adresse (erforderlich)",
+        "phone": "Deine Telefonnummer",
+        "message": "Deine Nachricht",
+        "submit": "Senden",
+        "post_success": "Danke für deine Nachricht. Wir melden uns so schnell wie möglich bei dir.",
+        "error_heading": "Bitte korrigiere Folgendes:"
+      }
+    },
+    "404": {
+      "subtext": "Leider konnte die gesuchte Seite nicht gefunden werden.",
+      "link_html": "Zurück zur <a href=\"{{ link }}\" rel=\"home\">Startseite</a>"
+    }
+  },
+  "customer": {
+    "login": {
+      "title": "ANMELDEN",
+      "create_account": "Neu hier? Erstelle dein Konto",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "forgot_password": "Passwort vergessen?",
+      "submit": "Anmelden",
+      "sign_in": "Anmelden",
+      "guest_title": "Als Gast fortfahren",
+      "guest_continue": "Weiter"
+    },
+    "recover_password": {
+      "title": "Setze dein Passwort zurück",
+      "email": "E-Mail-Adresse",
+      "submit": "Passwort zurücksetzen",
+      "save": "Speichern",
+      "cancel": "Abbrechen",
+      "subtext": "Passwort vergessen? Bitte gib deine E-Mail-Adresse ein. Du erhältst per E-Mail einen Link, um ein neues Passwort zu erstellen.",
+      "success": "Wir haben dir eine E-Mail mit einem Link zum Ändern deines Passworts gesendet.",
+      "content_success": "Eine E-Mail zum Zurücksetzen des Passworts wurde an die für dein Konto hinterlegte E-Mail-Adresse gesendet. Es kann einige Minuten dauern, bis sie in deinem Posteingang erscheint. Bitte warte mindestens 10 Minuten, bevor du erneut versuchst, das Passwort zurückzusetzen."
+    },
+    "register": {
+      "login_here": "Du hast bereits ein Konto? Melde dich hier an",
+      "title": "Registrieren",
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "submit": "Registrieren",
+      "privacy_policy": "Deine personenbezogenen Daten werden verwendet, um deine Nutzung dieser Website zu unterstützen, den Zugang zu deinem Konto zu verwalten und für weitere in unserer Datenschutzerklärung beschriebene Zwecke.",
+      "privacy_policy_html": "Deine personenbezogenen Daten werden verwendet, um deine Nutzung dieser Website zu unterstützen, den Zugang zu deinem Konto zu verwalten und für weitere in unserer <a href=\"{{ link }}\" class=\"privacy-policy-link fwm\" target=\"_blank\">Datenschutzerklärung</a> beschriebene Zwecke."
+    }
   }
 }

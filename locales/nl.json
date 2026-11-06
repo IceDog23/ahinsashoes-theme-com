@@ -174,7 +174,14 @@
       "taxes_discounts_and_shipping_at_checkout": "Belastingen, verzendkosten en kortingscodes worden berekend bij het afrekenen",
       "taxes_included_discounts_but_shipping_at_checkout": "Inclusief belasting. Verzendkosten en kortingscodes worden berekend bij het afrekenen",
       "edit_item": "Dit artikel bewerken",
-      "remove_item": "Dit artikel verwijderen"
+      "remove_item": "Dit artikel verwijderen",
+      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\" target=\"_blank\">verzendkosten</a> worden bij het afrekenen berekend",
+      "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\" target=\"_blank\">Verzendkosten</a> worden bij het afrekenen berekend.",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Belastingen, <a href=\"{{ link }}\" target=\"_blank\">verzendkosten</a> en kortingscodes worden bij het afrekenen berekend",
+      "taxes_included_discounts_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\" target=\"_blank\">Verzendkosten</a> en kortingscodes worden bij het afrekenen berekend.",
+      "terms_and_conditions_html": "Ik ga akkoord met de <a href=\"{{ link }}\" target=\"_blank\">algemene voorwaarden</a>.",
+      "terms_and_conditions": "Ik ga akkoord met de algemene voorwaarden.",
+      "agree_checkout": "Je moet akkoord gaan met de verkoopvoorwaarden om af te rekenen."
     },
     "tool": {
       "save": "Opslaan",
@@ -211,7 +218,25 @@
       "checkout": "Afrekenen",
       "update": "Winkelwagen bijwerken",
       "split_order_label": "Mijn bestelling over meerdere pakketten verdelen",
-      "split_order_text": "Sommige schoenen die je hebt gekozen zijn niet op voorraad. We wachten gewoonlijk totdat alle artikelen van de bestelling beschikbaar zijn en versturen slechts 1 pakket. Als je niet kunt wachten, splitsen we de zending voor je."
+      "split_order_text": "Sommige schoenen die je hebt gekozen zijn niet op voorraad. We wachten gewoonlijk totdat alle artikelen van de bestelling beschikbaar zijn en versturen slechts 1 pakket. Als je niet kunt wachten, splitsen we de zending voor je.",
+      "empty_html": "Voordat je kunt afrekenen, moet je producten aan je winkelwagen toevoegen.<br /> Op onze pagina ‘Winkel’ vind je veel interessante producten."
+    },
+    "shipping_estimator": {
+      "title": "Verzendkosten berekenen",
+      "country": "Land",
+      "province": "Provincie",
+      "zip_code": "Postcode",
+      "estimate": "Berekenen",
+      "multiple_rates": "We hebben [number_of_rates] beschikbare verzendtarieven voor [address] gevonden, vanaf [rate].",
+      "one_rate": "We hebben één beschikbaar verzendtarief voor [address] gevonden.",
+      "no_rates": "Sorry, we verzenden niet naar deze bestemming.",
+      "rate_value": "[rate_title] voor [rate]",
+      "errors": "Er zijn enkele fouten:"
+    },
+    "shipping_threshold": {
+      "text_1_html": "Gratis verzending voor alle bestellingen boven <span class=\"t4s-cr\">{{ money }}</span>",
+      "text_2_html": "Bijna zover! Voeg nog <span class=\"t4s-cr\">{{ money }}</span> toe voor <span class=\"t4s-ch\">GRATIS VERZENDING!</span>",
+      "text_3": "[Gefeliciteerd!] Je krijgt gratis verzending!"
     }
   },
   "accessibility": {
@@ -236,7 +261,19 @@
   "blogs": {
     "article": {
       "by_author": "Door {{ author }}",
-      "by": "Door"
+      "by": "Door",
+      "on": "op",
+      "in": "In",
+      "read_more": "Verder lezen",
+      "back_to": "Terug naar {{ title }}",
+      "view_all": "Meer bekijken"
+    },
+    "filter_all": "Alle",
+    "pagination": {
+      "view_all": "Alles bekijken",
+      "load_more": "Meer berichten laden",
+      "load_prev": "Vorige laden",
+      "bar_with_count_html": "Je hebt <span data-current-bar>{{ current_count }}</span> van {{ total_count }} berichten bekeken"
     }
   },
   "sections": {
@@ -290,5 +327,56 @@
     "follow_it": "Volgen op Instagram",
     "follow_pr": "Volgen op Pinterest",
     "follow_yt": "Volgen op YouTube"
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "name": "Je naam (verplicht)",
+        "email": "Je e-mailadres (verplicht)",
+        "phone": "Je telefoonnummer",
+        "message": "Je bericht",
+        "submit": "Versturen",
+        "post_success": "Bedankt voor je bericht. We nemen zo snel mogelijk contact met je op.",
+        "error_heading": "Pas het volgende aan:"
+      }
+    },
+    "404": {
+      "subtext": "Sorry! De pagina die je zoekt, is niet gevonden.",
+      "link_html": "Ga terug naar de <a href=\"{{ link }}\" rel=\"home\">homepage</a>"
+    }
+  },
+  "customer": {
+    "login": {
+      "title": "INLOGGEN",
+      "create_account": "Nieuwe klant? Maak je account aan",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "forgot_password": "Wachtwoord vergeten?",
+      "submit": "Inloggen",
+      "sign_in": "Inloggen",
+      "guest_title": "Doorgaan als gast",
+      "guest_continue": "Doorgaan"
+    },
+    "recover_password": {
+      "title": "Stel je wachtwoord opnieuw in",
+      "email": "E-mailadres",
+      "submit": "Wachtwoord opnieuw instellen",
+      "save": "Opslaan",
+      "cancel": "Annuleren",
+      "subtext": "Wachtwoord kwijt? Vul je e-mailadres in. Je ontvangt per e-mail een link om een nieuw wachtwoord aan te maken.",
+      "success": "We hebben je een e-mail gestuurd met een link om je wachtwoord te wijzigen.",
+      "content_success": "Er is een e-mail om je wachtwoord opnieuw in te stellen naar het e-mailadres van je account gestuurd. Het kan enkele minuten duren voordat deze in je inbox verschijnt. Wacht minstens 10 minuten voordat je het opnieuw probeert."
+    },
+    "register": {
+      "login_here": "Heb je al een account? Log hier in",
+      "title": "Registreren",
+      "first_name": "Voornaam",
+      "last_name": "Achternaam",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "submit": "Registreren",
+      "privacy_policy": "Je persoonsgegevens worden gebruikt om je ervaring op deze website te ondersteunen, de toegang tot je account te beheren en voor andere doeleinden die in ons privacybeleid worden beschreven.",
+      "privacy_policy_html": "Je persoonsgegevens worden gebruikt om je ervaring op deze website te ondersteunen, de toegang tot je account te beheren en voor andere doeleinden die in ons <a href=\"{{ link }}\" class=\"privacy-policy-link fwm\" target=\"_blank\">privacybeleid</a> worden beschreven."
+    }
   }
 }

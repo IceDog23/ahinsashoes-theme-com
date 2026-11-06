@@ -174,7 +174,14 @@
       "taxes_discounts_and_shipping_at_checkout": "Taxes, frais de livraison et codes de réduction calculés lors du paiement",
       "taxes_included_discounts_but_shipping_at_checkout": "Taxes incluses. Frais de livraison et codes de réduction calculés lors du paiement",
       "edit_item": "Modifier cet article",
-      "remove_item": "Supprimer cet article"
+      "remove_item": "Supprimer cet article",
+      "taxes_and_shipping_policy_at_checkout_html": "Les taxes et les <a href=\"{{ link }}\" target=\"_blank\">frais de livraison</a> sont calculés lors du paiement",
+      "taxes_included_and_shipping_policy_html": "Taxes comprises. Les <a href=\"{{ link }}\" target=\"_blank\">frais de livraison</a> sont calculés lors du paiement.",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Les taxes, les <a href=\"{{ link }}\" target=\"_blank\">frais de livraison</a> et les codes de réduction sont calculés lors du paiement",
+      "taxes_included_discounts_and_shipping_policy_html": "Taxes comprises. Les <a href=\"{{ link }}\" target=\"_blank\">frais de livraison</a> et les codes de réduction sont calculés lors du paiement.",
+      "terms_and_conditions_html": "J’accepte les <a href=\"{{ link }}\" target=\"_blank\">conditions générales de vente</a>.",
+      "terms_and_conditions": "J’accepte les conditions générales de vente.",
+      "agree_checkout": "Vous devez accepter les conditions générales de vente pour passer commande."
     },
     "tool": {
       "save": "Enregistrer",
@@ -211,7 +218,25 @@
       "checkout": "Passer à la caisse",
       "update": "Mettre à jour le panier",
       "split_order_label": "Diviser ma commande en plusieurs colis",
-      "split_order_text": "Certaines chaussures que vous avez choisies sont en rupture de stock. Nous attendons habituellement de disposer de tous les articles de la commande pour n’envoyer qu’1 colis. Si vous ne pouvez pas attendre, nous diviserons l’envoi pour vous."
+      "split_order_text": "Certaines chaussures que vous avez choisies sont en rupture de stock. Nous attendons habituellement de disposer de tous les articles de la commande pour n’envoyer qu’1 colis. Si vous ne pouvez pas attendre, nous diviserons l’envoi pour vous.",
+      "empty_html": "Avant de passer commande, vous devez ajouter des produits à votre panier.<br /> Vous trouverez de nombreux produits intéressants sur notre page « Boutique »."
+    },
+    "shipping_estimator": {
+      "title": "Estimer les frais de livraison",
+      "country": "Pays",
+      "province": "Province",
+      "zip_code": "Code postal",
+      "estimate": "Estimer",
+      "multiple_rates": "Nous avons trouvé [number_of_rates] tarifs de livraison disponibles pour [address], à partir de [rate].",
+      "one_rate": "Nous avons trouvé un tarif de livraison disponible pour [address].",
+      "no_rates": "Désolé, nous ne livrons pas à cette destination.",
+      "rate_value": "[rate_title] à [rate]",
+      "errors": "Des erreurs sont survenues :"
+    },
+    "shipping_threshold": {
+      "text_1_html": "Livraison gratuite pour toute commande de plus de <span class=\"t4s-cr\">{{ money }}</span>",
+      "text_2_html": "Vous y êtes presque ! Ajoutez encore <span class=\"t4s-cr\">{{ money }}</span> pour profiter de la <span class=\"t4s-ch\">LIVRAISON GRATUITE !</span>",
+      "text_3": "[Félicitations !] Vous bénéficiez de la livraison gratuite !"
     }
   },
   "accessibility": {
@@ -236,7 +261,19 @@
   "blogs": {
     "article": {
       "by_author": "Par {{ author }}",
-      "by": "Par"
+      "by": "Par",
+      "on": "le",
+      "in": "Dans",
+      "read_more": "Continuer la lecture",
+      "back_to": "Retour à {{ title }}",
+      "view_all": "Voir plus"
+    },
+    "filter_all": "Tous",
+    "pagination": {
+      "view_all": "Tout voir",
+      "load_more": "Charger plus d’articles",
+      "load_prev": "Charger les précédents",
+      "bar_with_count_html": "Vous avez consulté <span data-current-bar>{{ current_count }}</span> articles sur {{ total_count }}"
     }
   },
   "sections": {
@@ -290,5 +327,56 @@
     "follow_it": "Suivre sur Instagram",
     "follow_pr": "Suivre sur Pinterest",
     "follow_yt": "Suivre sur YouTube"
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "name": "Votre nom (obligatoire)",
+        "email": "Votre adresse e-mail (obligatoire)",
+        "phone": "Votre numéro de téléphone",
+        "message": "Votre message",
+        "submit": "Envoyer",
+        "post_success": "Merci de nous avoir contactés. Nous vous répondrons dès que possible.",
+        "error_heading": "Veuillez corriger les éléments suivants :"
+      }
+    },
+    "404": {
+      "subtext": "Désolé ! La page que vous recherchez est introuvable.",
+      "link_html": "Retour à la <a href=\"{{ link }}\" rel=\"home\">page d’accueil</a>"
+    }
+  },
+  "customer": {
+    "login": {
+      "title": "CONNEXION",
+      "create_account": "Nouveau client ? Créez votre compte",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "forgot_password": "Mot de passe oublié ?",
+      "submit": "Se connecter",
+      "sign_in": "Se connecter",
+      "guest_title": "Continuer en tant qu’invité",
+      "guest_continue": "Continuer"
+    },
+    "recover_password": {
+      "title": "Réinitialisez votre mot de passe",
+      "email": "Adresse e-mail",
+      "submit": "Réinitialiser le mot de passe",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "subtext": "Vous avez perdu votre mot de passe ? Saisissez votre adresse e-mail. Vous recevrez par e-mail un lien pour créer un nouveau mot de passe.",
+      "success": "Nous vous avons envoyé un e-mail contenant un lien pour modifier votre mot de passe.",
+      "content_success": "Un e-mail de réinitialisation du mot de passe a été envoyé à l’adresse associée à votre compte. Il peut toutefois mettre plusieurs minutes à apparaître dans votre boîte de réception. Veuillez patienter au moins 10 minutes avant de demander une nouvelle réinitialisation."
+    },
+    "register": {
+      "login_here": "Vous avez déjà un compte ? Connectez-vous ici",
+      "title": "S’inscrire",
+      "first_name": "Prénom",
+      "last_name": "Nom",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "submit": "S’inscrire",
+      "privacy_policy": "Vos données personnelles seront utilisées pour vous accompagner lors de votre navigation sur ce site, gérer l’accès à votre compte et à d’autres fins décrites dans notre politique de confidentialité.",
+      "privacy_policy_html": "Vos données personnelles seront utilisées pour vous accompagner lors de votre navigation sur ce site, gérer l’accès à votre compte et à d’autres fins décrites dans notre <a href=\"{{ link }}\" class=\"privacy-policy-link fwm\" target=\"_blank\">politique de confidentialité</a>."
+    }
   }
 }
