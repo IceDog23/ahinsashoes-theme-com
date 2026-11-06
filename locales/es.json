@@ -533,7 +533,9 @@
       "message_label": "Mensaje (opcional)",
       "message": "Mensaje",
       "max_characters": "Máximo {{ max_chars }} caracteres",
-      "send_on_label": "Enviar el (opcional)"
+      "send_on_label": "Enviar el (opcional)",
+      "expanded": "Formulario del destinatario de la tarjeta regalo expandido",
+      "collapsed": "Formulario del destinatario de la tarjeta regalo contraído"
     }
   }
 }

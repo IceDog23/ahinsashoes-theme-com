@@ -533,7 +533,9 @@
       "message_label": "Message (facultatif)",
       "message": "Message",
       "max_characters": "{{ max_chars }} caractères maximum",
-      "send_on_label": "Date d’envoi (facultatif)"
+      "send_on_label": "Date d’envoi (facultatif)",
+      "expanded": "Formulaire du destinataire de la carte cadeau développé",
+      "collapsed": "Formulaire du destinataire de la carte cadeau réduit"
     }
   }
 }

@@ -533,7 +533,9 @@
       "message_label": "Nachricht (optional)",
       "message": "Nachricht",
       "max_characters": "Maximal {{ max_chars }} Zeichen",
-      "send_on_label": "Senden am (optional)"
+      "send_on_label": "Senden am (optional)",
+      "expanded": "Formular für den Geschenkkartenempfänger ausgeklappt",
+      "collapsed": "Formular für den Geschenkkartenempfänger eingeklappt"
     }
   }
 }

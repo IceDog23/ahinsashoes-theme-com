@@ -533,7 +533,9 @@
       "message_label": "Bericht (optioneel)",
       "message": "Bericht",
       "max_characters": "Maximaal {{ max_chars }} tekens",
-      "send_on_label": "Verzenden op (optioneel)"
+      "send_on_label": "Verzenden op (optioneel)",
+      "expanded": "Formulier voor de ontvanger van de cadeaubon uitgeklapt",
+      "collapsed": "Formulier voor de ontvanger van de cadeaubon ingeklapt"
     }
   }
 }
