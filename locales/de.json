@@ -60,6 +60,15 @@
     "seo_title_collection_sale": " [Rabatt bis zu ",
     "breadcrumb": {
       "home": "Startseite"
+    },
+    "aria": {
+      "close": "Schließen"
+    },
+    "mobile_menu": {
+      "close": "Menü und Kategorien schließen"
+    },
+    "sidebar": {
+      "close": "Seitenleiste schließen"
     }
   },
   "products": {
@@ -172,12 +181,31 @@
   },
   "accessibility": {
     "next_slide": "Nach rechts schieben",
-    "previous_slide": "Nach links schieben"
+    "previous_slide": "Nach links schieben",
+    "skip_to_text": "Zum Inhalt springen",
+    "skip_to_product_info": "Zu den Produktinformationen springen",
+    "close": "Schließen"
   },
   "blogs": {
     "article": {
       "by_author": "Von {{ author }}",
       "by": "Von"
     }
+  },
+  "sections": {
+    "announcement": {
+      "close": "Schließen"
+    }
+  },
+  "search": {
+    "general": {
+      "close_search": "Suche schließen"
+    }
+  },
+  "socials": {
+    "follow_fb": "Auf Facebook folgen",
+    "follow_it": "Auf Instagram folgen",
+    "follow_pr": "Auf Pinterest folgen",
+    "follow_yt": "Auf YouTube folgen"
   }
 }
